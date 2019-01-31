@@ -1,0 +1,14 @@
+Package: nativesdk-libgdbm4
+Version: 1.11-r0
+Description: Key/value database library with extensible hashing
+ Key/value database library with extensible hashing.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: x86_64-nativesdk
+OE: nativesdk-gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-gdbm
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.11.tar.gz file://run-ptest file://ptest.patch

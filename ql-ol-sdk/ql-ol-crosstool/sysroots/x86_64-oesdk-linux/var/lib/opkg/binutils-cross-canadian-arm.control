@@ -1,0 +1,20 @@
+Package: binutils-cross-canadian-arm
+Version: 2.24-r0
+Description: GNU binary utilities (cross-canadian for arm target)
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3
+Architecture: x86_64-nativesdk
+OE: binutils-cross-canadian-arm
+Homepage: http://www.gnu.org/software/binutils/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-flex (>= 2.5.39), nativesdk-libc6 (>= 2.21)
+Provides: binutils-cross-canadian-arm-symlinks
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://libtool-2.4-update.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://binutils-armv5e.patch file://mips64-default-ld-emulation.patch file://binutils-xlp-support.patch file://fix-pr15815.patch file://fix-pr2404.patch file://fix-pr16476.patch file://fix-pr16428.patch file://replace_macros_with_static_inline.patch file://0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch file://binutils-uninitialised-warning.patch file://binutils_CVE-2014-8484.patch file://binutils_CVE-2014-8485.patch file://binutils_CVE-2014-8501.patch file://binutils_CVE-2014-8502_1.patch file://binutils_CVE-2014-8502.patch file://binutils_CVE-2014-8503.patch file://binutils_CVE-2014-8504.patch file://binutils_CVE-2014-8737.patch

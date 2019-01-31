@@ -1,0 +1,12 @@
+Package: nativesdk-makedevs
+Version: 1.0.1-r0
+Description: Tool for creating device nodes
+ Tool for creating device nodes.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: x86_64-nativesdk
+OE: nativesdk-makedevs
+Depends: nativesdk-libc6 (>= 2.21)
+Source: file://makedevs.c file://COPYING.patch

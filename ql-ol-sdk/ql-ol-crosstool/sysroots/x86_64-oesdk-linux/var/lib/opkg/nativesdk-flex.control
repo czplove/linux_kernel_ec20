@@ -1,0 +1,14 @@
+Package: nativesdk-flex
+Version: 2.5.39-r0
+Description: Flex (The Fast Lexical Analyzer)
+ Flex is a fast lexical analyser generator.  Flex is a tool for generating
+ programs that recognize lexical patterns in text.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: x86_64-nativesdk
+OE: nativesdk-flex
+Homepage: http://sourceforge.net/projects/flex/
+Depends: nativesdk-libc6 (>= 2.21), nativesdk-m4
+Source: http://downloads.sourceforge.net/flex/flex-2.5.39.tar.bz2 file://run-ptest file://do_not_create_pdf_doc.patch

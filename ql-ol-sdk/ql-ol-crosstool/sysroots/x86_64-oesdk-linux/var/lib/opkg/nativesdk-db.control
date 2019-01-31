@@ -1,0 +1,14 @@
+Package: nativesdk-db
+Version: 6.0.30-r0
+Description: Berkeley Database v6
+ Berkeley Database v6.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: AGPL-3.0
+Architecture: x86_64-nativesdk
+OE: nativesdk-db
+Homepage: http://www.oracle.com/technology/products/berkeley-db/db/index.html
+Depends: nativesdk-libc6 (>= 2.21)
+Conflicts: nativesdk-db3
+Source: http://download.oracle.com/berkeley-db/db-6.0.30.tar.gz file://arm-thumb-mutex_db5.patch;patchdir=.. file://fix-parallel-build.patch

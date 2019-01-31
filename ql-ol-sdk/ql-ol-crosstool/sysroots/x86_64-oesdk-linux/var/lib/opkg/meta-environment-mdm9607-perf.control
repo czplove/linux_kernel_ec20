@@ -1,0 +1,11 @@
+Package: meta-environment-mdm9607-perf
+Version: 1.0-r8
+Description: Package of environment files for SDK
+ Package of environment files for SDK.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: meta-environment-mdm9607-perf
+Source: None

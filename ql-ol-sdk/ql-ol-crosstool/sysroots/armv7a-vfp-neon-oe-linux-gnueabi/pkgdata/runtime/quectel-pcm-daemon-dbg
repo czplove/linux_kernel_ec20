@@ -1,0 +1,15 @@
+PN: quectel-pcm-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-pcm-daemon-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-pcm-daemon-dbg: quectel-pcm-daemon version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-pcm-daemon-dbg: glibc-dbg
+SECTION_quectel-pcm-daemon-dbg: devel
+PKG_quectel-pcm-daemon-dbg: quectel-pcm-daemon-dbg
+ALLOW_EMPTY_quectel-pcm-daemon-dbg: 1
+FILES_quectel-pcm-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-pcm-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-pcm-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-pcm-daemon/quectel-pcm-daemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/quectel_pcm_daemon": 16916}
+PKGSIZE_quectel-pcm-daemon-dbg: 16916

@@ -1,0 +1,19 @@
+Package: nativesdk-libossp-uuid16
+Version: 1.6.2-r2
+Description: Universally Unique Identifier (UUID) library
+ OSSP uuid is a ISO-C:1999 application programming interface (API) and
+ corresponding command line interface (CLI) for the generation of DCE 1.1,
+ ISO/IEC 11578:1996 and RFC 4122 compliant Universally Unique Identifier
+ (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node
+ based), version 3 (name based, MD5), version 4 (random number based) and
+ version 5 (name based, SHA-1).
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-ossp-uuid
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Depends: nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-ossp-uuid
+Source: http://gnome-build-stage-1.googlecode.com/files/uuid-1.6.2.tar.gz file://0001-Change-library-name.patch file://0002-uuid-preserve-m-option-status-in-v-option-handling.patch file://0003-Fix-whatis-entries.patch file://0004-fix-data-uuid-from-string.patch file://uuid-libtool.patch file://uuid-nostrip.patch file://install-pc.patch file://ldflags.patch

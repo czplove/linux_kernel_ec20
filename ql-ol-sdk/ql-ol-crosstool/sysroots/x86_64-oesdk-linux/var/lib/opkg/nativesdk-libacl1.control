@@ -1,0 +1,14 @@
+Package: nativesdk-libacl1
+Version: 2.2.52-r0
+Description: Utilities for managing POSIX Access Control Lists
+ Utilities for managing POSIX Access Control Lists.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+ & GPLv2+
+Architecture: x86_64-nativesdk
+OE: nativesdk-acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: nativesdk-libattr1 (>= 2.4.47), nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-libacl
+Source: http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz file://run-ptest file://acl-fix-the-order-of-expected-output-of-getfacl.patch file://relative-libdir.patch;striplevel=0 file://add-missing-configure.ac.patch

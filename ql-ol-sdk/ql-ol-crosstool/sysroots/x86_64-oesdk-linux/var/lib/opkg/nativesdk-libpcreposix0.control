@@ -1,0 +1,17 @@
+Package: nativesdk-libpcreposix0
+Version: 8.36-r0
+Description: Perl Compatible Regular Expressions - C wrapper functions based on the POSIX regex API
+ The PCRE library is a set of functions that implement regular expression
+ pattern matching using the same syntax and semantics as Perl 5. PCRE has
+ its own native API, as well as a set of wrapper functions that correspond
+ to the POSIX regular expression API.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: x86_64-nativesdk
+OE: nativesdk-libpcre
+Homepage: http://www.pcre.org
+Depends: nativesdk-libpcre1 (>= 8.36), nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-libpcreposix
+Source: http://downloads.sourceforge.net/project/pcre/pcre/8.36/pcre-8.36.tar.bz2 file://pcre-cross.patch file://fix-pcre-name-collision.patch file://run-ptest file://Makefile

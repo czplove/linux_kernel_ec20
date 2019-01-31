@@ -1,0 +1,13 @@
+Package: nativesdk-pseudo
+Version: 1.6.4-r0
+Description: Pseudo gives fake root capabilities to a normal user
+ Pseudo gives fake root capabilities to a normal user.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPL2.1
+Architecture: x86_64-nativesdk
+OE: nativesdk-pseudo
+Homepage: http://git.yoctoproject.org/cgit/cgit.cgi/pseudo
+Depends: nativesdk-libc6 (>= 2.21)
+Source: http://www.yoctoproject.org/downloads/pseudo/pseudo-1.6.4.tar.bz2 file://fallback-passwd file://fallback-group

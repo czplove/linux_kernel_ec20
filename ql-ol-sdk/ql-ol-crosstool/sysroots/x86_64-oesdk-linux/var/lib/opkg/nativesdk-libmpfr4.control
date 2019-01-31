@@ -1,0 +1,15 @@
+Package: nativesdk-libmpfr4
+Version: 3.1.2-r0
+Description: C library for multiple-precision floating-point computations with exact rounding
+ C library for multiple-precision floating-point computations with exact
+ rounding.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv3 & LGPLv3
+Architecture: x86_64-nativesdk
+OE: nativesdk-mpfr
+Homepage: http://www.mpfr.org/
+Depends: nativesdk-libc6 (>= 2.21), nativesdk-libgmp10 (>= 6.0.0)
+Provides: nativesdk-mpfr
+Source: http://www.mpfr.org/mpfr-3.1.2/mpfr-3.1.2.tar.xz file://long-long-thumb.patch

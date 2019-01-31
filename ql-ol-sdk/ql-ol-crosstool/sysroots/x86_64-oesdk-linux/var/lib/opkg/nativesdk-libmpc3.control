@@ -1,0 +1,16 @@
+Package: nativesdk-libmpc3
+Version: 1.0.2-r0
+Description: C library for complex number arithmetic with arbitrary precision and correct rounding
+ Mpc is a C library for the arithmetic of complex numbers with arbitrarily
+ high precision and correct rounding of the result. It is built upon and
+ follows the same principles as Mpfr
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv3
+Architecture: x86_64-nativesdk
+OE: nativesdk-libmpc
+Homepage: http://www.multiprecision.org/
+Depends: nativesdk-libmpfr4 (>= 3.1.2), nativesdk-libc6 (>= 2.21), nativesdk-libgmp10 (>= 6.0.0)
+Provides: nativesdk-libmpc
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz

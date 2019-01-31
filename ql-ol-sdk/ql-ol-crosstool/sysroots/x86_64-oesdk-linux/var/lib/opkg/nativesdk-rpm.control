@@ -1,0 +1,17 @@
+Package: nativesdk-rpm
+Version: 5.4.14-r0
+Description: The RPM package management system
+ The RPM Package Manager (RPM) is a powerful command line driven package
+ management system capable of installing, uninstalling, verifying,
+ querying, and updating software packages. Each software package consists
+ of an archive of files along with information about the package like its
+ version, a description, etc.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1
+Architecture: x86_64-nativesdk
+OE: nativesdk-rpm
+Homepage: http://rpm5.org/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-db (>= 6.0.30), nativesdk-libattr1 (>= 2.4.47), nativesdk-libbz2-0 (>= 1.0.6), nativesdk-libacl1 (>= 2.2.52), nativesdk-libossp-uuid16 (>= 1.6.2), nativesdk-libstdc++6 (>= 4.9.2), nativesdk-libcrypto1.0.0 (>= 1.0.1k), nativesdk-libbeecrypt7 (>= 4.2.1), nativesdk-libssp0 (>= 4.9.2), nativesdk-libelf1 (>= 0.161), nativesdk-libpcreposix0 (>= 8.36), nativesdk-libpcre1 (>= 8.36), nativesdk-libpopt0 (>= 1.16), nativesdk-file (>= 5.22), nativesdk-libc6 (>= 2.21), nativesdk-rpm-libs (>= 5.4.14), nativesdk-libssl1.0.0 (>= 1.0.1k)
+Source: http://www.rpm5.org/files/rpm/rpm-5.4/rpm-5.4.14-0.20131024.src.rpm;extract=rpm-5.4.14.tar.gz file://rpm-log-auto-rm.patch file://rpm-db-reduce.patch file://perfile_rpmdeps.sh file://rpm-autogen.patch file://rpm-libsql-fix.patch file://header-include-fix.patch file://rpm-platform.patch file://rpm-showrc.patch file://rpm-tools-mtree-LDFLAGS.patch file://rpm-fileclass.patch file://rpm-canonarch.patch file://rpm-no-loopmsg.patch file://rpm-scriptletexechelper.patch file://pythondeps.sh file://rpmdeps-oecore.patch file://rpm-resolvedep.patch file://rpm-no-perl-urpm.patch file://rpm-macros.patch file://rpm-lua.patch file://rpm-ossp-uuid.patch file://rpm-packageorigin.patch file://rpm-pkgconfigdeps.patch file://uclibc-support.patch file://rpmatch.patch file://fstack-protector-configure-check.patch file://dbconvert.patch file://rpm-uuid-include.patch file://makefile-am-exec-hook.patch file://rpm-db_buffer_small.patch file://rpm-py-init.patch file://python-rpm-rpmsense.patch file://rpm-reloc-macros.patch file://rpm-platform2.patch file://rpm-remove-sykcparse-decl.patch file://debugedit-segv.patch file://debugedit-valid-file-to-fix-segment-fault.patch file://rpm-platform-file-fix.patch file://rpm-lsb-compatibility.patch file://rpm-tag-generate-endian-conversion-fix.patch file://verify-fix-broken-logic-for-ghost-avoidance-Mark-Hat.patch file://rpm-hardlink-segfault-fix.patch file://rpm-payload-use-hashed-inode.patch file://rpm-fix-logio-cp.patch file://rpm-db5-or-db6.patch file://rpm-disable-Wno-override-init.patch file://rpmqv_cc_b_gone.patch file://rpm-realpath.patch file://0001-using-poptParseArgvString-to-parse-the-_gpg_check_pa.patch

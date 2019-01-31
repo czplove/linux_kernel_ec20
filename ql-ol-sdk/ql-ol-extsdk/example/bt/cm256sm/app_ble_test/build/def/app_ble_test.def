@@ -1,0 +1,47 @@
+# list of required include directories for the current application
+appincdir := $(appdir)/include \
+             $(appdir)/../app_common/include \
+	     $(GLOBALPATH)/../../include                   \
+	     $(SDKTARGETSYSROOT)/usr/include               \
+             $(SDKTARGETSYSROOT)/usr/include               \
+             $(SDKTARGETSYSROOT)/usr/include/data          \
+             $(SDKTARGETSYSROOT)/usr/include/dsutils       \
+             $(SDKTARGETSYSROOT)/usr/include/qmi           \
+             $(SDKTARGETSYSROOT)/usr/include/qmi-framework \
+
+
+# list of required source directories for the current application
+appsrcdir := $(appdir)/source \
+            $(appdir)/../app_common/source \
+
+# list of sources for the current application
+appsrcs := \
+    app_ble_test_main.c \
+    app_ble_test_server.c \
+    app_ble_test_client.c \
+    app_ble.c \
+    app_ble_client.c \
+    app_ble_server.c \
+    app_ble_client_xml.c \
+    app_ble_client_db.c \
+    app_disc.c \
+    app_utils.c \
+    app_dm.c \
+    app_mgt.c \
+    app_xml_param.c \
+    app_xml_utils.c \
+    app_services.c \
+    app_thread.c \
+    app_manager.c \
+    nanoxml.c \
+    ql_cm256sm_ble_server.c \
+    ql_cm256sm_ble_sleep.c
+
+
+# add the include and source directories to the whole project
+incdirs := $(incdirs) $(appincdir)
+srcdirs := $(srcdirs) $(appsrcdir)
+
+# add the list of sources to the current list
+appsources := $(appsources) $(appsrcs)
+

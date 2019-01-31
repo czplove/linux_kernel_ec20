@@ -1,0 +1,14 @@
+Package: nativesdk-libattr1
+Version: 2.4.47-r0
+Description: Utilities for manipulating filesystem extended attributes
+ Utilities for manipulating filesystem extended attributes.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: LGPLv2.1+ & GPLv2+
+Architecture: x86_64-nativesdk
+OE: nativesdk-attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-libattr
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch

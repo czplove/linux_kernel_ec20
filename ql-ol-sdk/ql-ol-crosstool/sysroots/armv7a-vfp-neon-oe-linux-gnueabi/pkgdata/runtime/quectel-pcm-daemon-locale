@@ -1,0 +1,13 @@
+PN: quectel-pcm-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: quectel-pcm-daemon version git-invalidgit-r1
+SECTION: base
+PKG_quectel-pcm-daemon-locale: quectel-pcm-daemon-locale
+FILES_quectel-pcm-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-pcm-daemon-locale: 0

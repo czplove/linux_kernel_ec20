@@ -1,0 +1,14 @@
+Package: nativesdk-libc6
+Version: 2.21-r0
+Description: GLIBC (GNU C Library)
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & LGPLv2.1
+Architecture: x86_64-nativesdk
+OE: nativesdk-glibc
+Homepage: http://www.gnu.org/software/libc/libc.html
+Provides: rtld(GNU_HASH), nativesdk-glibc, nativesdk-eglibc
+Source: git://sourceware.org/git/glibc.git;branch=release/2.21/master file://IO-acquire-lock-fix.patch file://mips-rld-map-check.patch file://etc/ld.so.conf file://generate-supported.mk file://glibc.fix_sqrt2.patch file://multilib_readlib.patch file://ppc-sqrt_finite.patch file://ppc_slow_ieee754_sqrt.patch file://add_resource_h_to_wait_h.patch file://0001-R_ARM_TLS_DTPOFF32.patch file://0001-eglibc-run-libm-err-tab.pl-with-specific-dirs-in-S.patch file://fix-tibetian-locales.patch file://ppce6500-32b_slow_ieee754_sqrt.patch file://grok_gold.patch file://fix_am_rootsbindir.patch file://0001-Add-unused-attribute.patch file://0001-When-disabling-SSE-also-make-sure-that-fpmath-is-not.patch file://timezone-re-written-tzselect-as-posix-sh.patch file://eglibc.patch file://option-groups.patch file://GLRO_dl_debug_mask.patch file://eglibc-header-bootstrap.patch file://eglibc-resolv-dynamic.patch file://eglibc-ppc8xx-cache-line-workaround.patch file://eglibc-sh4-fpscr_values.patch file://eglibc-use-option-groups.patch file://CVE-2015-7547.patch file://ld-search-order.patch file://relocatable_sdk.patch file://relocatable_sdk_fix_openpath.patch

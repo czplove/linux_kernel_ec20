@@ -1,0 +1,11 @@
+Package: nativesdk-postinst-intercept
+Version: 1.0-r0
+Description: Postinstall scriptlets
+ Postinstall scriptlets.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-postinst-intercept
+Source: None

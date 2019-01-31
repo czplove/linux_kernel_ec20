@@ -1,0 +1,12 @@
+Package: nativesdk-packagegroup-sdk-host
+Version: 1.0-r12
+Description: Host packages for the standalone SDK or external toolchain
+ Host packages for the standalone SDK or external toolchain.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-packagegroup-sdk-host
+Depends: nativesdk-autoconf, nativesdk-libtool, nativesdk-postinst-intercept, nativesdk-shadow, nativesdk-makedevs, nativesdk-automake, nativesdk-pkgconfig, nativesdk-unfs3, nativesdk-pseudo, nativesdk-opkg, nativesdk-smartpm
+Source: None

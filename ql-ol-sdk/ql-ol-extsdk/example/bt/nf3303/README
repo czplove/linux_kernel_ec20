@@ -1,0 +1,39 @@
+#--------------------------------------------------------------
+#               Quectel OpenLinux
+#--------------------------------------------------------------
+
+1. Please Through the adb or other ways to push below files to the correct directory.Here is an example
+    adb push ./lib/firmware/BCM4339_003.001.009.0119.0000.hcd /etc/bluetooth/
+    adb push ./lib/firmware/bluegate_hw.conf /etc/bluetooth/
+    adb push ./lib/firmware/bt_stack.conf /etc/bluetooth/
+    adb push ./lib/libbluegate.so /lib/
+NOTE:Please see the file "bluegate_hw.conf" to ensure that the configured serial port is consistent with the actual hardware and software
+
+2. Configure Hardware to Run BLE Demo
+   a)Turn on the power supply of BT module.Here is an example
+       echo 1 > /sys/kernel/debug/regulator/rome_vreg/enable
+   b)reset BT module by operate BT_EN Pin.Here is an example
+       echo 1019 > /sys/class/gpio/export
+       echo out > /sys/class/gpio/gpio1019/direction
+       echo 0 > /sys/class/gpio/gpio1019/value
+       sleep 3
+       echo 1 > /sys/class/gpio/gpio1019/value
+    c)Initialize BT_DEV_WAKE pins.This is more complicated. Please refer to the code.
+    d)Initialize BT_DEV_WAKE pins.This is more complicated. Please refer to the code.
+
+3. Compile code
+    cd ql-ol-sdk/
+    source ql-ol-crosstool/ql-ol-crosstool-env-init
+    cd ql-ol-extsdk/example/bt/nf3303/
+    make clean
+    make
+
+    You will see the final executable file named example_nf3303_ble_server
+
+4. Running Demo
+   adb push ../../example_nf3303_ble_server /usrdata/
+   ./example_nf3303_ble_server
+
+5. Turn on Phone Bluetooth. If it's an iphone, download an APP called LightBlue. If it's an android phone, please download an APP called BLE Deng.
+   Please refer to the APP for guidance scanning bluetooth module. You will see a BLE device named Quectel NF3303.
+

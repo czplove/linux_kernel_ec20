@@ -1,0 +1,12 @@
+Package: packagegroup-cross-canadian-mdm9607-perf
+Version: 1.0-r0
+Description: Host SDK package for cross canadian toolchain
+ Host SDK package for cross canadian toolchain.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: packagegroup-cross-canadian-mdm9607-perf
+Depends: gdb-cross-canadian-arm, meta-environment-mdm9607-perf, gcc-cross-canadian-arm, binutils-cross-canadian-arm
+Source: None

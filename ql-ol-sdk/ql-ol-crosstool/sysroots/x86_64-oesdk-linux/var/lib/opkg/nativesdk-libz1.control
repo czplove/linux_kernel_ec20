@@ -1,0 +1,15 @@
+Package: nativesdk-libz1
+Version: 1.2.8-r0
+Description: Zlib Compression Library
+ Zlib is a general-purpose, patent-free, lossless data compression library
+ which is used by many different programs.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: Zlib
+Architecture: x86_64-nativesdk
+OE: nativesdk-zlib
+Homepage: http://zlib.net/
+Depends: nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-zlib
+Source: http://www.zlib.net/zlib-1.2.8.tar.xz file://remove.ldconfig.call.patch file://Makefile-runtests.patch file://ldflags-tests.patch file://run-ptest

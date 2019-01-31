@@ -1,0 +1,12 @@
+Package: nativesdk-gnu-config
+Version: 20120814-r0
+Description: gnu-configize
+ Tool that installs the GNU config.guess / config.sub into a directory
+ tree
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: x86_64-nativesdk
+OE: nativesdk-gnu-config
+Source: http://downloads.yoctoproject.org/releases/gnu-config/gnu-config-20120814.tar.bz2 file://config-guess-uclibc.patch file://musl-support.patch file://gnu-configize.in

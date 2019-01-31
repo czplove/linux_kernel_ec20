@@ -1,0 +1,15 @@
+Package: nativesdk-automake
+Version: 1.15-r0
+Description: A GNU tool for automatically generating Makefiles
+ Automake is a tool for automatically generating `Makefile.in' files
+ compliant with the GNU Coding Standards. Automake requires the use of
+ Autoconf.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: x86_64-nativesdk
+OE: nativesdk-automake
+Homepage: http://www.gnu.org/software/automake/
+Depends: nativesdk-perl-module-vars, nativesdk-perl-module-threads, nativesdk-autoconf, nativesdk-perl-module-data-dumper, nativesdk-perl-module-thread-queue, nativesdk-perl-module-strict, nativesdk-perl-module-bytes, nativesdk-perl-module-text-parsewords, nativesdk-perl
+Source: ftp://ftp.gnu.org/gnu/automake/automake-1.15.tar.gz file://python-libdir.patch file://py-compile-compile-only-optimized-byte-code.patch file://buildtest.patch

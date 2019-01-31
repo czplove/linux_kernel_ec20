@@ -1,0 +1,16 @@
+PN: quectel-pcm-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-pcm-daemon-dev: Quectel Function Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-pcm-daemon-dev: quectel-pcm-daemon version git-invalidgit-r1 - Development files
+RDEPENDS_quectel-pcm-daemon-dev: quectel-pcm-daemon (= git-invalidgit-r1)
+RRECOMMENDS_quectel-pcm-daemon-dev: glibc-dev initscripts-dev
+SECTION_quectel-pcm-daemon-dev: devel
+PKG_quectel-pcm-daemon-dev: quectel-pcm-daemon-dev
+ALLOW_EMPTY_quectel-pcm-daemon-dev: 1
+FILES_quectel-pcm-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-pcm-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_quectel-pcm-daemon-dev: 0

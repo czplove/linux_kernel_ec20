@@ -1,0 +1,14 @@
+Package: nativesdk-libbeecrypt7
+Version: 4.2.1-r3
+Description: A general-purpose cryptography library
+ A general-purpose cryptography library.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & LGPLv2.1
+Architecture: x86_64-nativesdk
+OE: nativesdk-beecrypt
+Homepage: http://sourceforge.net/projects/beecrypt
+Depends: nativesdk-libstdc++6 (>= 4.9.2), nativesdk-libc6 (>= 2.21), nativesdk-libgcc1 (>= 4.9.2)
+Provides: nativesdk-beecrypt
+Source: http://downloads.sourceforge.net/beecrypt/beecrypt-4.2.1.tar.gz file://disable-icu-check.patch file://fix-security.patch file://fix-for-gcc-4.7.patch file://run-ptest file://beecrypt-enable-ptest-support.patch file://add-option-dev-dsp.patch

@@ -1,0 +1,23 @@
+PN: quectel-pcm-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: quectel-pcm-daemon version git-invalidgit-r1
+RDEPENDS_quectel-pcm-daemon: glibc (>= 2.21)
+RRECOMMENDS_quectel-pcm-daemon:  update-rc.d
+SECTION: base
+PKG_quectel-pcm-daemon: quectel-pcm-daemon
+FILES_quectel-pcm-daemon: /usr/bin/* /usr/sbin/* /usr/lib/quectel-pcm-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-pcm-daemon /usr/lib/quectel-pcm-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_quectel-pcm-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT aaa_quectel_pcm_daemon start 01 2 3 4 5 .\nfi\n
+pkg_postrm_quectel-pcm-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT aaa_quectel_pcm_daemon remove\nfi\n
+pkg_preinst_quectel-pcm-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/aaa_quectel_pcm_daemon" ]; then\n\t/etc/init.d/aaa_quectel_pcm_daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT aaa_quectel_pcm_daemon remove\nfi\n
+pkg_prerm_quectel-pcm-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/aaa_quectel_pcm_daemon stop\nfi\n
+FILERPROVIDESFLIST_quectel-pcm-daemon: /usr/bin/quectel@underscore@pcm@underscore@daemon
+FILES_INFO: {"/etc/init.d/aaa_quectel_pcm_daemon": 952, "/usr/bin/quectel_pcm_daemon": 9204}
+FILERPROVIDES_/usr/bin/quectel@underscore@pcm@underscore@daemon_quectel-pcm-daemon: elf(buildid) (= b90ec4238247fe95e950964facc0dcf69c714fd9)
+FILERDEPENDSFLIST_quectel-pcm-daemon: /usr/bin/quectel@underscore@pcm@underscore@daemon
+FILERDEPENDS_/usr/bin/quectel@underscore@pcm@underscore@daemon_quectel-pcm-daemon: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-pcm-daemon: 10156

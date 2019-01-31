@@ -1,0 +1,14 @@
+Package: nativesdk-libssl1.0.0
+Version: 1.0.1k-r0
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: openssl
+Architecture: x86_64-nativesdk
+OE: nativesdk-openssl
+Homepage: http://www.openssl.org/
+Depends: nativesdk-libc6 (>= 2.21), nativesdk-libcrypto1.0.0 (>= 1.0.1k)
+Provides: nativesdk-libssl
+Source: http://www.openssl.org/source/openssl-1.0.1k.tar.gz file://configure-targets.patch file://shared-libs.patch file://oe-ldflags.patch file://engines-install-in-libdir-ssl.patch file://openssl-fix-link.patch file://debian/version-script.patch file://debian/pic.patch file://debian/c_rehash-compat.patch file://debian/ca.patch file://debian/make-targets.patch file://debian/no-rpath.patch file://debian/man-dir.patch file://debian/man-section.patch file://debian/no-symbolic.patch file://debian/debian-targets.patch file://openssl_fix_for_x32.patch file://fix-cipher-des-ede3-cfb1.patch file://openssl-avoid-NULL-pointer-dereference-in-EVP_DigestInit_ex.patch file://openssl-avoid-NULL-pointer-dereference-in-dh_pub_encode.patch file://initial-aarch64-bits.patch file://find.pl file://openssl-fix-des.pod-error.patch file://Makefiles-ptest.patch file://ptest-deps.patch file://run-ptest

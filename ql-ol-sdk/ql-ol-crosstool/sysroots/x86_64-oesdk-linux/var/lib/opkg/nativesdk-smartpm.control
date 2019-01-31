@@ -1,0 +1,15 @@
+Package: nativesdk-smartpm
+Version: 1.4.1-r9
+Description: The Smart Package Manager
+ The Smart Package Manager project has the ambitious objective of creating
+ smart and portable algorithms for solving adequately the problem of
+ managing software upgrades and installation.
+Section: devel/python
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: x86_64-nativesdk
+OE: nativesdk-python-smartpm
+Homepage: http://labix.org/smart/
+Depends: nativesdk-python-smartpm
+Source: http://launchpad.net/smart/trunk/1.4.1/+download/smart-1.4.1.tar.bz2 file://smartpm-rpm5-nodig.patch file://smart-rpm-root.patch file://smart-recommends.patch file://smart-rpm-extra-macros.patch file://smart-dflags.patch file://smart-rpm-md-parse.patch file://smart-tmpdir.patch file://smart-metadata-match.patch file://smart-improve-error-reporting.patch file://smart-multilib-fixes.patch file://smart-yaml-error.patch file://smart-channelsdir.patch file://smart-conflict-provider.patch file://smart-flag-ignore-recommends.patch file://smart-flag-exclude-packages.patch file://smart-config-ignore-all-recommends.patch file://smart-attempt.patch file://smart-filename-NAME_MAX.patch file://smart-rpm4-fixes.patch file://smart-add-for-rpm-ignoresize-check.patch

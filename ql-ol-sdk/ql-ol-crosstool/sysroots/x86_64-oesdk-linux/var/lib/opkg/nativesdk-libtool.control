@@ -1,0 +1,14 @@
+Package: nativesdk-libtool
+Version: 2.4.6-r0
+Description: Generic library support script
+ This is GNU libtool, a generic library support script. Libtool hides the
+ complexity of generating special library types (such as shared libraries)
+ behind a consistent interface.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & LGPLv2.1
+Architecture: x86_64-nativesdk
+OE: nativesdk-libtool
+Homepage: http://www.gnu.org/software/libtool/libtool.html
+Source: ftp://ftp.gnu.org/gnu/libtool/libtool-2.4.6.tar.gz file://trailingslash.patch file://rename-with-sysroot.patch file://use-sysroot-in-libpath.patch file://fix-final-rpath.patch file://fix-rpath.patch file://norm-rpath.patch file://dont-depend-on-help2man.patch file://fix-resolve-lt-sysroot.patch file://nohardcodepaths.patch file://unwind-opt-parsing.patch file://prefix.patch file://fixinstall.patch

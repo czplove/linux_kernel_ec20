@@ -1,0 +1,14 @@
+Package: nativesdk-libsqlite3-0
+Version: 3:3.8.7.4-r0
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: PD
+Architecture: x86_64-nativesdk
+OE: nativesdk-sqlite3
+Homepage: http://www.sqlite.org
+Depends: nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-libsqlite3
+Source: http://www.sqlite.org/2014/sqlite-autoconf-3080704.tar.gz

@@ -1,0 +1,16 @@
+Package: nativesdk-libtinfo5
+Version: 5.9-r15.1
+Description: ncurses tinfo library
+ ncurses tinfo library
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: nativesdk-libc6 (>= 2.21)
+Suggests: nativesdk-ncurses-terminfo
+Recommends: nativesdk-ncurses-terminfo-base
+Provides: nativesdk-ncurses-libtinfo
+Source: ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz file://tic-hang.patch file://config.cache

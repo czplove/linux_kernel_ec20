@@ -1,0 +1,15 @@
+Package: nativesdk-libgmp10
+Version: 6.0.0-r0
+Description: GNU multiprecision arithmetic library
+ GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 | LGPLv3
+Architecture: x86_64-nativesdk
+OE: nativesdk-gmp
+Homepage: http://gmplib.org/
+Depends: nativesdk-libc6 (>= 2.21)
+Provides: nativesdk-gmp
+Source: https://gmplib.org/download/gmp/gmp-6.0.0a.tar.bz2 file://configure.patch file://amd64.patch file://use-includedir.patch file://append_user_provided_flags.patch file://gmp-6.0.0-ppc64.patch

@@ -1,0 +1,14 @@
+Package: nativesdk-file
+Version: 5.22-r0
+Description: File classification tool
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: BSD
+Architecture: x86_64-nativesdk
+OE: nativesdk-file
+Homepage: http://www.darwinsys.com/file/
+Depends: nativesdk-libz1 (>= 1.2.8), nativesdk-libc6 (>= 2.21)
+Source: ftp://ftp.astron.com/pub/file/file-5.22.tar.gz file://debian-742262.patch

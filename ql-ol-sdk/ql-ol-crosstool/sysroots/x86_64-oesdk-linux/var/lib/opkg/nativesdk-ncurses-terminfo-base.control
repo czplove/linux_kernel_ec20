@@ -1,0 +1,16 @@
+Package: nativesdk-ncurses-terminfo-base
+Version: 5.9-r15.1
+Description: The New Curses library
+ SVr4 and XSI-Curses compatible curses library and terminfo tools
+ including tic, infocmp, captoinfo. Supports color, multiple highlights,
+ forms-drawing characters, and automatic recognition of keypad and
+ function-key sequences. Extensions include resizable windows and mouse
+ support on both xterm and Linux console using the gpm library.
+Section: libs
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: MIT
+Architecture: x86_64-nativesdk
+OE: nativesdk-ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Source: ftp://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz file://tic-hang.patch file://config.cache

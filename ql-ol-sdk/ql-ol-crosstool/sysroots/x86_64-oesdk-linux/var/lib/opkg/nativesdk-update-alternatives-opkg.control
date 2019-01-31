@@ -1,0 +1,14 @@
+Package: nativesdk-update-alternatives-opkg
+Version: 0.1.8+git0+53274f0875-r0
+Description: Utility for managing the alternatives system
+ Additional utilities for the opkg package manager.
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2+
+Architecture: x86_64-nativesdk
+OE: nativesdk-opkg-utils
+Homepage: http://code.google.com/p/opkg/
+Provides: nativesdk-update-alternatives, nativesdk-update-alternatives-cworth
+Conflicts: nativesdk-update-alternatives-cworth
+Source: git://git.yoctoproject.org/opkg-utils

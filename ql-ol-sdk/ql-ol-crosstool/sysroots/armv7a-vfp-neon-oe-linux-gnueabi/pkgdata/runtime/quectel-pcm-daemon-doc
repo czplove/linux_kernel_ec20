@@ -1,0 +1,13 @@
+PN: quectel-pcm-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-pcm-daemon-doc: Quectel Function Daemon  This package contains documentation.
+SUMMARY_quectel-pcm-daemon-doc: quectel-pcm-daemon version git-invalidgit-r1 - Documentation files
+SECTION_quectel-pcm-daemon-doc: doc
+PKG_quectel-pcm-daemon-doc: quectel-pcm-daemon-doc
+FILES_quectel-pcm-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-pcm-daemon-doc: 0

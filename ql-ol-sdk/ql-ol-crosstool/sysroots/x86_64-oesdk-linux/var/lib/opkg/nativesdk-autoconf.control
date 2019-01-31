@@ -1,0 +1,17 @@
+Package: nativesdk-autoconf
+Version: 2.69-r11
+Description: A GNU tool that procude shell scripts to automatically configure software
+ Autoconf is an extensible package of M4 macros that produce shell scripts
+ to automatically configure software source code packages. Autoconf
+ creates a configuration script for a package from a template file that
+ lists the operating system features that the package can use, in the form
+ of M4 macro calls.
+Section: devel
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2 & GPLv3
+Architecture: x86_64-nativesdk
+OE: nativesdk-autoconf
+Homepage: http://www.gnu.org/software/autoconf/
+Depends: nativesdk-perl-module-file-copy, nativesdk-perl-module-file-basename, nativesdk-perl-module-file-path, nativesdk-perl, nativesdk-perl-module-file-compare, nativesdk-perl-module-getopt-long, nativesdk-perl-module-carp, nativesdk-perl-module-errno, nativesdk-perl-module-file-glob, nativesdk-perl-module-constant, nativesdk-perl-module-data-dumper, nativesdk-perl-module-io-file, nativesdk-perl-module-exporter, nativesdk-perl-module-file-stat, nativesdk-m4, nativesdk-perl-module-posix, nativesdk-gnu-config
+Source: ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz file://program_prefix.patch file://autoreconf-include.patch file://check-automake-cross-warning.patch file://autoreconf-exclude.patch file://autoreconf-gnuconfigize.patch file://config_site.patch file://remove-usr-local-lib-from-m4.patch file://preferbash.patch file://autotest-automake-result-format.patch
