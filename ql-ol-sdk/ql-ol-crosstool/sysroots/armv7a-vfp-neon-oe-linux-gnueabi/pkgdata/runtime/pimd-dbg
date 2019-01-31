@@ -11,5 +11,5 @@ SECTION_pimd-dbg: devel
 PKG_pimd-dbg: pimd-dbg
 ALLOW_EMPTY_pimd-dbg: 1
 FILES_pimd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pimd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pimd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pimd/pimd/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/pimd": 19575}
-PKGSIZE_pimd-dbg: 19575
+FILES_INFO: {"/usr/sbin/.debug/pimd": 19435}
+PKGSIZE_pimd-dbg: 19435

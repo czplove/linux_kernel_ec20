@@ -10,5 +10,5 @@ RRECOMMENDS_system-core-liblog-dbg: libgcc-dbg glibc-dbg libcrypto-dbg libstdc++
 SECTION: base
 PKG_system-core-liblog-dbg: system-core-liblog-dbg
 FILES_system-core-liblog-dbg: /usr/lib/.debug/liblog.* /usr/bin/.debug/logcat
-FILES_INFO: {"/usr/lib/.debug/liblog.so.0.0.0": 7115, "/usr/bin/.debug/logcat": 36301}
-PKGSIZE_system-core-liblog-dbg: 43416
+FILES_INFO: {"/usr/lib/.debug/liblog.so.0.0.0": 7115, "/usr/bin/.debug/logcat": 36638}
+PKGSIZE_system-core-liblog-dbg: 43753

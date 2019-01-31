@@ -14,7 +14,7 @@ PKG_wireless-tools: wireless-tools
 FILES_wireless-tools: /usr/bin /usr/sbin/iw* /sbin /bin /etc/network
 FILERPROVIDESFLIST_wireless-tools: /sbin/iwconfig
 FILES_INFO: {"/sbin/iwlist": 8, "/sbin/iwconfig": 66100, "/sbin/iwgetid": 8, "/sbin/iwpriv": 8, "/sbin/iwspy": 8}
-FILERPROVIDES_/sbin/iwconfig_wireless-tools: elf(buildid) (= fa98863239e42f3f3d7b464e9ee0d980a2a42a11)
+FILERPROVIDES_/sbin/iwconfig_wireless-tools: elf(buildid) (= 931ba057a39de8f224f3c2f0b4de36bef9dc8343)
 FILERDEPENDSFLIST_wireless-tools: /sbin/iwconfig
 FILERDEPENDS_/sbin/iwconfig_wireless-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_wireless-tools: 66132

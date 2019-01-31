@@ -4,8 +4,7 @@
 QL_SDK_PATH   ?= $(shell pwd)/../..
 
 QL_EXP_TARGETS = low_power_consume_app
-QL_EXP_TARGETS_V2 = low_power_consume_app_v2
-QL_EXP_LDLIBS  = -lql_sys_log
+QL_EXP_LDLIBS  =
 
 #--------------------------------------------------------
 # TOOLS BASIC CONFIG
@@ -46,23 +45,21 @@ USR_LIB=$(QL_SDK_PATH)/lib/libql_common_api.a -lql_qcmap_client
 # Source code files
 #---------------------
 LOCAL_SRC_FILES = low_power_consume_app.c
-LOCAL_SRC_FILES_V2 = low_power_consume_app_v2.c
 
-all: $(QL_EXP_TARGETS) $(QL_EXP_TARGETS_V2)
+
+
 
 $(QL_EXP_TARGETS): 
 #	$(CC) $(CPPFLAGS) $(CFLAGS) $(LOCAL_SRC_FILES)
 	$(COMPILE.c) $(CPPFLAGS) $(LDFLAGS) $(LOCAL_SRC_FILES)
-	$(LINK.o) $(QL_EXP_TARGETS).o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o $@
+	$(LINK.o) *.o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o $@
 
-$(QL_EXP_TARGETS_V2): 
-#	$(CC) $(CPPFLAGS) $(CFLAGS) $(LOCAL_SRC_FILES)
-	$(COMPILE.c) $(CPPFLAGS) $(LDFLAGS) $(LOCAL_SRC_FILES_V2)
-	$(LINK.o) $(QL_EXP_TARGETS_V2).o $(LDFLAGS) $(USR_LIB) $(STD_LIB) -o $@
 
+all: $(QL_EXP_TARGETS)
+.PHPNY: all
 
 clean:
-	rm -rf $(QL_EXP_TARGETS) $(QL_EXP_TARGETS_V2) *.o
+	rm -rf $(QL_EXP_TARGETS) *.o
 
 .PHONY:checkmake
 checkmake:  

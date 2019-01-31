@@ -6,14 +6,14 @@
 #	make-debug-archive --kernel [--force] [RELEASE]
 #
 # Valid options are those listed under 'Input selection options'
-# by running /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip --help.
+# by running /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip --help.
 #
 # The archive installed by --kernel be used automatically by -K.
 # An offline archive can be used via -e in any tool that accepts those options.
 #
 
-UNSTRIP=${UNSTRIP:-/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip}
-AR=${AR:-/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-ar}
+UNSTRIP=${UNSTRIP:-/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-unstrip}
+AR=${AR:-/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/bin/eu-ar}
 SUDO=${SUDO:-/usr/bin/sudo}
 
 LS=/bin/ls

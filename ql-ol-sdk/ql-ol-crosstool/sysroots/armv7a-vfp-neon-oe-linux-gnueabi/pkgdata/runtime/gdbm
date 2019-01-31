@@ -13,7 +13,7 @@ PKG_gdbm: libgdbm4
 FILES_gdbm: /usr/bin/* /usr/sbin/* /usr/lib/gdbm/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gdbm /usr/lib/gdbm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_gdbm: /usr/lib/libgdbm.so.4.0.0
 FILES_INFO: {"/usr/lib/libgdbm.so.4": 36996}
-FILERPROVIDES_/usr/lib/libgdbm.so.4.0.0_gdbm: elf(buildid) (= d9063e8a056d247b84bc387afe3e78c7eac2c29c) libgdbm.so.4
+FILERPROVIDES_/usr/lib/libgdbm.so.4.0.0_gdbm: elf(buildid) (= e7349281683b2cd2157aea58c29b62b748a2df1d) libgdbm.so.4
 FILERDEPENDSFLIST_gdbm: /usr/lib/libgdbm.so.4.0.0
 FILERDEPENDS_/usr/lib/libgdbm.so.4.0.0_gdbm: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_gdbm: 36996

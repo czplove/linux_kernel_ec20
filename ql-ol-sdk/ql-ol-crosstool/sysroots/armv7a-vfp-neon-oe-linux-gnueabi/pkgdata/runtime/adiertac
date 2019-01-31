@@ -13,7 +13,7 @@ PKG_adiertac: libadiertac1
 FILES_adiertac: /usr/bin/* /usr/sbin/* /usr/lib/adiertac/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/adiertac /usr/lib/adiertac/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_adiertac: /usr/lib/libadiertac.so.1.0.0
 FILES_INFO: {"/usr/lib/libadiertac.so.1": 18700}
-FILERPROVIDES_/usr/lib/libadiertac.so.1.0.0_adiertac: elf(buildid) (= 18a5e360fc5255166b35f4dd17404729c9ec8687) libadiertac.so.1
+FILERPROVIDES_/usr/lib/libadiertac.so.1.0.0_adiertac: elf(buildid) (= 5527c41b65a58a3b2f94611e3a509a2e879c96a1) libadiertac.so.1
 FILERDEPENDSFLIST_adiertac: /usr/lib/libadiertac.so.1.0.0
 FILERDEPENDS_/usr/lib/libadiertac.so.1.0.0_adiertac: libacdbmapper.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
 PKGSIZE_adiertac: 18700

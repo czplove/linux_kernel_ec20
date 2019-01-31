@@ -6,7 +6,7 @@ PKGR: r3
 LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_loc-hal-test-shim-dbg: GPS HAL API Test shim Library  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_loc-hal-test-shim-dbg: loc-hal-test-shim version git-invalidgit-r3 - Debugging files
-RRECOMMENDS_loc-hal-test-shim-dbg: lbs-core-dbg libstdc++-dbg izat-core-dbg dsutils-dbg xmllib-dbg qmi-dbg qmi-framework-dbg qmi-client-helper-dbg diag-dbg data-oss-dbg loc-stub-dbg system-core-liblog-dbg location-service-dbg loc-hal-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg configdb-dbg data-dbg time-genoff-dbg ql-syslog-dbg
+RRECOMMENDS_loc-hal-test-shim-dbg: lbs-core-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg location-service-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg loc-pla-dbg glib-2.0-dbg izat-core-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
 SECTION_loc-hal-test-shim-dbg: devel
 PKG_loc-hal-test-shim-dbg: loc-hal-test-shim-dbg
 ALLOW_EMPTY_loc-hal-test-shim-dbg: 1

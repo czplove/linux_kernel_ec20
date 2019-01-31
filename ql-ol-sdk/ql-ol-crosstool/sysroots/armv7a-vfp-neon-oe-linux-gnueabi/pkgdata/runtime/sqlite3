@@ -13,8 +13,8 @@ SECTION: libs
 PKG_sqlite3: sqlite3
 FILES_sqlite3: /usr/bin/*
 FILERPROVIDESFLIST_sqlite3: /usr/bin/sqlite3
-FILES_INFO: {"/usr/bin/sqlite3": 60140}
-FILERPROVIDES_/usr/bin/sqlite3_sqlite3: elf(buildid) (= 29c71dbda9c32865a24d82defbce96aeeb2a7148)
+FILES_INFO: {"/usr/bin/sqlite3": 60116}
+FILERPROVIDES_/usr/bin/sqlite3_sqlite3: elf(buildid) (= 2b5c54c37f8b545130d6500bf67523dcaeeb6465)
 FILERDEPENDSFLIST_sqlite3: /usr/bin/sqlite3
 FILERDEPENDS_/usr/bin/sqlite3_sqlite3: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libreadline.so.5 libsqlite3.so.0 rtld(GNU_HASH)
-PKGSIZE_sqlite3: 60140
+PKGSIZE_sqlite3: 60116

@@ -13,7 +13,7 @@ PKG_ncurses-libmenuw: libmenuw5
 FILES_ncurses-libmenuw: /usr/lib/libmenuw.so.5 /usr/lib/libmenuw.so.5.9
 FILERPROVIDESFLIST_ncurses-libmenuw: /usr/lib/libmenuw.so.5.9
 FILES_INFO: {"/usr/lib/libmenuw.so.5": 24356}
-FILERPROVIDES_/usr/lib/libmenuw.so.5.9_ncurses-libmenuw: elf(buildid) (= 87493ad35c82c22b98a97fbf547076fb6df5357e) libmenuw.so.5
+FILERPROVIDES_/usr/lib/libmenuw.so.5.9_ncurses-libmenuw: elf(buildid) (= 3b54b407489b6f390ca5d67d948fe1b2b535b030) libmenuw.so.5
 FILERDEPENDSFLIST_ncurses-libmenuw: /usr/lib/libmenuw.so.5.9
 FILERDEPENDS_/usr/lib/libmenuw.so.5.9_ncurses-libmenuw: libc.so.6 libc.so.6(GLIBC_2.4) libncursesw.so.5 libtinfo.so.5 rtld(GNU_HASH)
 PKGSIZE_ncurses-libmenuw: 24356

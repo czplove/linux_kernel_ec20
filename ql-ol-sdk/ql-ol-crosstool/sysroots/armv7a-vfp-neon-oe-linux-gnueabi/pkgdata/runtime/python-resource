@@ -12,7 +12,7 @@ PKG_python-resource: python-resource
 FILES_python-resource: /usr/lib/python2.7/lib-dynload/resource.so 
 FILERPROVIDESFLIST_python-resource: /usr/lib/python2.7/lib-dynload/resource.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/resource.so": 8720}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/resource.so_python-resource: elf(buildid) (= cace199ebf99a0eec22d6398c3507c3fb28fb80f) resource.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/resource.so_python-resource: elf(buildid) (= c869e1f724fcc0c41fac95335a1aba5a497d5a15) resource.so
 FILERDEPENDSFLIST_python-resource: /usr/lib/python2.7/lib-dynload/resource.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/resource.so_python-resource: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-resource: 8720

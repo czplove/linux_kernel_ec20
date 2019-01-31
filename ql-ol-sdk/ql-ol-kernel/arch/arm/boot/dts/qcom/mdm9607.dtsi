@@ -1827,7 +1827,7 @@
 		*/
 	};
 
-	//2017-10-10,add by gale, for quectel low consume, legacy
+	//2017-10-10,add by gale, for quectel low consume
 	quec,quectel-low-consume{
 		compatible = "quec,quectel-low-consume";
 
@@ -1840,12 +1840,6 @@
 		pinctrl-1 = <&sleep_ind_sleep>;
 		pinctrl-2 = <&wakeup_in_default>;	/* wakeup pin default state */
 		status = "disabled";			/* disable by default */
-	};
-
-	//2018-5-12,add by gale, for quectel low consume v2
-	quec,quectel-low-consume-v2{
-			compatible = "quec,quectel-low-consume-v2";
-			status = "ok";
 	};
 
 	//end jun.wu

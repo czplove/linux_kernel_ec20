@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-usertrack: lighttpd-module-usertrack
 FILES_lighttpd-module-usertrack: /usr/lib/mod_usertrack.so
 FILERPROVIDESFLIST_lighttpd-module-usertrack: /usr/lib/mod@underscore@usertrack.so
-FILES_INFO: {"/usr/lib/mod_usertrack.so": 7468}
-FILERPROVIDES_/usr/lib/mod@underscore@usertrack.so_lighttpd-module-usertrack: elf(buildid) (= 67c854a77acd41884c9f97ab263665309c9f173f) mod_usertrack.so
+FILES_INFO: {"/usr/lib/mod_usertrack.so": 7452}
+FILERPROVIDES_/usr/lib/mod@underscore@usertrack.so_lighttpd-module-usertrack: elf(buildid) (= 07ea354ac93ef41d366dddaf132c706d52cbed1a) mod_usertrack.so
 FILERDEPENDSFLIST_lighttpd-module-usertrack: /usr/lib/mod@underscore@usertrack.so
 FILERDEPENDS_/usr/lib/mod@underscore@usertrack.so_lighttpd-module-usertrack: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-usertrack: 7468
+PKGSIZE_lighttpd-module-usertrack: 7452

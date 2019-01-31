@@ -23,15 +23,15 @@ NOTE:Here we use ttyHS0. The serial device should match the actual hardware.
 4. Compile code
     cd ql-ol-sdk/
     source ql-ol-crosstool/ql-ol-crosstool-env-init
-    cd ql-ol-extsdk/example/bt/cm256sm/
+    cd ql-ol-extsdk/example/bt/cm256sm/app_ble_test/build
     make clean
     make
     cd arm
-    You will see the final executable file named bsa_client 
+    You will see the final executable file named app_ble_test
 
 5. Running Demo
-   adb push bsa_client /usrdata/
-   ./bsa_client
+   adb push ../../app_ble_test /usrdata/
+   ./app_ble_test
 
 6. Turn on Phone Bluetooth. If it's an iphone, download an APP called LightBlue. If it's an android phone, please download an APP called BLE Deng.
    Please refer to the APP for guidance scanning bluetooth module. You will see a BLE device named Quectel CM256SM.

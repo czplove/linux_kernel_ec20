@@ -9,5 +9,5 @@ SUMMARY: Miscellaneous files for the base system
 SECTION: base
 PKG_base-files: base-files
 FILES_base-files: /
-FILES_INFO: {"/etc/skel/.profile": 152, "/etc/host.conf": 26, "/etc/mtab": 12, "/etc/filesystems": 38, "/etc/fstab": 798, "/etc/profile": 934, "/etc/skel/.bashrc": 410, "/etc/issue": 24, "/etc/issue.net": 21, "/etc/default/usbd": 0, "/etc/hostname": 13, "/var/lock": 11, "/etc/shells": 42, "/etc/motd": 0, "/etc/nsswitch.conf": 465, "/etc/inputrc": 1633}
+FILES_INFO: {"/etc/skel/.profile": 152, "/etc/inputrc": 1633, "/etc/host.conf": 26, "/etc/mtab": 12, "/etc/filesystems": 38, "/etc/issue.net": 21, "/etc/profile": 934, "/etc/skel/.bashrc": 410, "/etc/issue": 24, "/etc/fstab": 798, "/etc/default/usbd": 0, "/etc/hostname": 13, "/var/lock": 11, "/etc/shells": 42, "/etc/nsswitch.conf": 465, "/etc/motd": 0}
 PKGSIZE_base-files: 4579

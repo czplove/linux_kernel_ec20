@@ -12,7 +12,7 @@ PKG_perl-module-perlio-mmap: perl-module-perlio-mmap
 FILES_perl-module-perlio-mmap: /usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so /usr/lib/perl/5.20.0/PerlIO/mmap.pm
 FILERPROVIDESFLIST_perl-module-perlio-mmap: /usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so
 FILES_INFO: {"/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so": 8768, "/usr/lib/perl/5.20.0/PerlIO/mmap.pm": 600}
-FILERPROVIDES_/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so_perl-module-perlio-mmap: elf(buildid) (= 9aa068ceeba3d7bba7d8e3d8ab2c4a84e90c5300) mmap.so
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so_perl-module-perlio-mmap: elf(buildid) (= f45f728e928be325f376c76825d2b950dc67f05e) mmap.so
 FILERDEPENDSFLIST_perl-module-perlio-mmap: /usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so_perl-module-perlio-mmap: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_perl-module-perlio-mmap: 9368

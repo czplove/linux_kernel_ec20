@@ -12,7 +12,7 @@ PKG_python-textutils: python-textutils
 FILES_python-textutils: /usr/lib/python2.7/lib-dynload/_csv.so /usr/lib/python2.7/csv.* /usr/lib/python2.7/optparse.* /usr/lib/python2.7/textwrap.* 
 FILERPROVIDESFLIST_python-textutils: /usr/lib/python2.7/lib-dynload/@underscore@csv.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/_csv.so": 25976, "/usr/lib/python2.7/optparse.py": 61205, "/usr/lib/python2.7/textwrap.pyc": 11871, "/usr/lib/python2.7/csv.py": 16708, "/usr/lib/python2.7/optparse.pyc": 53844, "/usr/lib/python2.7/textwrap.py": 17037, "/usr/lib/python2.7/csv.pyc": 13457}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@csv.so_python-textutils: _csv.so elf(buildid) (= 1b1b93667ff25cef9e55ff8127208650eadfc322)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@csv.so_python-textutils: _csv.so elf(buildid) (= caf5d4797aaa369f38679726c667363d636612ef)
 FILERDEPENDSFLIST_python-textutils: /usr/lib/python2.7/lib-dynload/@underscore@csv.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@csv.so_python-textutils: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-textutils: 200098

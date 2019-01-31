@@ -11,5 +11,5 @@ SECTION_powerapp-dbg: devel
 PKG_powerapp-dbg: powerapp-dbg
 ALLOW_EMPTY_powerapp-dbg: 1
 FILES_powerapp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/powerapp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/powerapp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/powerapp/powerapp/.debug /usr/src/debug
-FILES_INFO: {"/sbin/.debug/sys_reboot": 18889, "/sbin/.debug/sys_shutdown": 18889, "/sbin/.debug/powerapp": 18889}
-PKGSIZE_powerapp-dbg: 56667
+FILES_INFO: {"/sbin/.debug/sys_reboot": 18709, "/sbin/.debug/powerapp": 18709, "/sbin/.debug/sys_shutdown": 18709}
+PKGSIZE_powerapp-dbg: 56127

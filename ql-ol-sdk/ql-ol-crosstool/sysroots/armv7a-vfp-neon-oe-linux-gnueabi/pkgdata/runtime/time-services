@@ -17,7 +17,7 @@ pkg_preinst_time-services: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/time_servi
 pkg_prerm_time-services: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/time_serviced stop\nfi\n
 FILERPROVIDESFLIST_time-services: /usr/bin/time@underscore@daemon
 FILES_INFO: {"/usr/bin/time_daemon": 18804, "/etc/init.d/time_serviced": 991}
-FILERPROVIDES_/usr/bin/time@underscore@daemon_time-services: elf(buildid) (= e9d219d564c6197ad6a409af97e83d80c714e5cc)
+FILERPROVIDES_/usr/bin/time@underscore@daemon_time-services: elf(buildid) (= 47662414ff102ebae62d03d9fd32cad56e90ea4c)
 FILERDEPENDSFLIST_time-services: /usr/bin/time@underscore@daemon
 FILERDEPENDS_/usr/bin/time@underscore@daemon_time-services: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 rtld(GNU_HASH)
 PKGSIZE_time-services: 19795

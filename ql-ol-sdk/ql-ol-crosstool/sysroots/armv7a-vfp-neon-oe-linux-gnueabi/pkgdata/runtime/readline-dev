@@ -13,5 +13,5 @@ SECTION_readline-dev: devel
 PKG_readline-dev: libreadline-dev
 ALLOW_EMPTY_readline-dev: 1
 FILES_readline-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/readline/*.la /lib/*.la
-FILES_INFO: {"/usr/include/readline/history.h": 10207, "/usr/lib/libreadline.so": 18, "/usr/include/readline/rltypedefs.h": 2977, "/usr/include/readline/rlconf.h": 2305, "/usr/include/readline/chardefs.h": 4684, "/usr/include/readline/readline.h": 34515, "/usr/include/readline/tilde.h": 3167, "/usr/include/readline/keymaps.h": 3529, "/usr/lib/libhistory.so": 17, "/usr/include/readline/rlstdc.h": 1503}
+FILES_INFO: {"/usr/include/readline/tilde.h": 3167, "/usr/lib/libreadline.so": 18, "/usr/include/readline/rltypedefs.h": 2977, "/usr/include/readline/rlconf.h": 2305, "/usr/include/readline/chardefs.h": 4684, "/usr/lib/libhistory.so": 17, "/usr/include/readline/readline.h": 34515, "/usr/include/readline/history.h": 10207, "/usr/include/readline/keymaps.h": 3529, "/usr/include/readline/rlstdc.h": 1503}
 PKGSIZE_readline-dev: 62922

@@ -12,8 +12,8 @@ SECTION: base
 PKG_libkmod: libkmod2
 FILES_libkmod: /lib/libkmod*.so.* /usr/lib/libkmod*.so.*
 FILERPROVIDESFLIST_libkmod: /usr/lib/libkmod.so.2.2.9
-FILES_INFO: {"/usr/lib/libkmod.so.2": 60204}
-FILERPROVIDES_/usr/lib/libkmod.so.2.2.9_libkmod: elf(buildid) (= 80daf1a2843383583d63d99c1b579a00cb88b7fe) libkmod.so.2 libkmod.so.2(LIBKMOD_5) libkmod.so.2(LIBKMOD_6)
+FILES_INFO: {"/usr/lib/libkmod.so.2": 60136}
+FILERPROVIDES_/usr/lib/libkmod.so.2.2.9_libkmod: elf(buildid) (= b461715561bff9e1c13985aaa022995e0be35e3d) libkmod.so.2 libkmod.so.2(LIBKMOD_5) libkmod.so.2(LIBKMOD_6)
 FILERDEPENDSFLIST_libkmod: /usr/lib/libkmod.so.2.2.9
 FILERDEPENDS_/usr/lib/libkmod.so.2.2.9_libkmod: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
-PKGSIZE_libkmod: 60204
+PKGSIZE_libkmod: 60136

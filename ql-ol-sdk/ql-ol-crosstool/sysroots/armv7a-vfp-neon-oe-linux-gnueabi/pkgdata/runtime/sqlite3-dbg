@@ -13,5 +13,5 @@ SECTION_sqlite3-dbg: devel
 PKG_sqlite3-dbg: sqlite3-dbg
 ALLOW_EMPTY_sqlite3-dbg: 1
 FILES_sqlite3-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sqlite3/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sqlite3/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sqlite3/sqlite3/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/sqlite3": 17433, "/usr/lib/.debug/libsqlite3.so.0.8.6": 89599}
-PKGSIZE_sqlite3-dbg: 107032
+FILES_INFO: {"/usr/bin/.debug/sqlite3": 17161, "/usr/lib/.debug/libsqlite3.so.0.8.6": 89127}
+PKGSIZE_sqlite3-dbg: 106288

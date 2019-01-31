@@ -19,7 +19,6 @@ umount_partition()
 
 mount_partition()
 {
-	fsck.ext4 -a "/dev/${1}"
 	if [ ! -d /media/sdcard ]; then
           mkdir -p /media/sdcard
         fi

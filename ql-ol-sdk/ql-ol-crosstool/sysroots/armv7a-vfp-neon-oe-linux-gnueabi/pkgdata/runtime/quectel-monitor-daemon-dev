@@ -7,7 +7,7 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_quectel-monitor-daemon-dev: Quectel monitor daemon  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_quectel-monitor-daemon-dev: quectel-monitor-daemon version git-invalidgit-r1 - Development files
 RDEPENDS_quectel-monitor-daemon-dev: quectel-monitor-daemon (= git-invalidgit-r1)
-RRECOMMENDS_quectel-monitor-daemon-dev: ql-syslog-dev glibc-dev initscripts-dev
+RRECOMMENDS_quectel-monitor-daemon-dev: glibc-dev initscripts-dev
 SECTION_quectel-monitor-daemon-dev: devel
 PKG_quectel-monitor-daemon-dev: quectel-monitor-daemon-dev
 ALLOW_EMPTY_quectel-monitor-daemon-dev: 1

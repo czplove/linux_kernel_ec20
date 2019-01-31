@@ -11,5 +11,5 @@ SECTION_subsystem-ramdump-dbg: devel
 PKG_subsystem-ramdump-dbg: subsystem-ramdump-dbg
 ALLOW_EMPTY_subsystem-ramdump-dbg: 1
 FILES_subsystem-ramdump-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/subsystem-ramdump/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/subsystem-ramdump/.debug /usr/lib/matchbox-panel/.debug /usr/lib/subsystem-ramdump/subsystem-ramdump/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/subsystem_ramdump": 7195}
-PKGSIZE_subsystem-ramdump-dbg: 7195
+FILES_INFO: {"/usr/bin/.debug/subsystem_ramdump": 7159}
+PKGSIZE_subsystem-ramdump-dbg: 7159

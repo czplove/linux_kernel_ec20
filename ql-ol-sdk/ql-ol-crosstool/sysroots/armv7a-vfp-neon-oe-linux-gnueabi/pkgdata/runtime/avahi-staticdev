@@ -10,5 +10,5 @@ RDEPENDS_avahi-staticdev: avahi-dev (= 0.6.31-r12.0)
 SECTION_avahi-staticdev: devel
 PKG_avahi-staticdev: avahi-staticdev
 FILES_avahi-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/avahi/*.a
-FILES_INFO: {"/usr/lib/libavahi-common.a": 68166, "/usr/lib/libavahi-client.a": 90016, "/usr/lib/libavahi-glib.a": 11234, "/usr/lib/libavahi-core.a": 348938, "/usr/lib/libavahi-gobject.a": 64210}
-PKGSIZE_avahi-staticdev: 582564
+FILES_INFO: {"/usr/lib/libavahi-common.a": 67978, "/usr/lib/libavahi-client.a": 89880, "/usr/lib/libavahi-glib.a": 11214, "/usr/lib/libavahi-core.a": 347810, "/usr/lib/libavahi-gobject.a": 63970}
+PKGSIZE_avahi-staticdev: 580852

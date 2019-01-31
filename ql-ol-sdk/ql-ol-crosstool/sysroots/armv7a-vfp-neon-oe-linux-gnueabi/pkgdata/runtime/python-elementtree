@@ -12,7 +12,7 @@ PKG_python-elementtree: python-elementtree
 FILES_python-elementtree: /usr/lib/python2.7/lib-dynload/_elementtree.so 
 FILERPROVIDESFLIST_python-elementtree: /usr/lib/python2.7/lib-dynload/@underscore@elementtree.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/_elementtree.so": 44448}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@elementtree.so_python-elementtree: _elementtree.so elf(buildid) (= a175350e4787ab479c9c4302da9552c7da534070)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@elementtree.so_python-elementtree: _elementtree.so elf(buildid) (= 63a1a5d301a66e5f5681d0b9e3e7a430377f0cc8)
 FILERDEPENDSFLIST_python-elementtree: /usr/lib/python2.7/lib-dynload/@underscore@elementtree.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@elementtree.so_python-elementtree: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-elementtree: 44448

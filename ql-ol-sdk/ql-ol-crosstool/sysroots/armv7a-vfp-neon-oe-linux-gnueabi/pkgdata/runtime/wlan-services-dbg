@@ -11,5 +11,5 @@ SECTION_wlan-services-dbg: devel
 PKG_wlan-services-dbg: wlan-services-dbg
 ALLOW_EMPTY_wlan-services-dbg: 1
 FILES_wlan-services-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/wlan-services/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/wlan-services/.debug /usr/lib/matchbox-panel/.debug /usr/lib/wlan-services/wlan-services/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/wlan_services": 46819}
-PKGSIZE_wlan-services-dbg: 46819
+FILES_INFO: {"/usr/sbin/.debug/wlan_services": 46387}
+PKGSIZE_wlan-services-dbg: 46387

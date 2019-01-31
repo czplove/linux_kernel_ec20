@@ -4,7 +4,7 @@
 QL_SDK_PATH   ?= $(shell pwd)/../..
 
 QL_EXP_TARGETS = example_adc
-QL_EXP_LDLIBS  = -lql_sys_log
+QL_EXP_LDLIBS  =
 
 #--------------------------------------------------------
 # TOOLS BASIC CONFIG

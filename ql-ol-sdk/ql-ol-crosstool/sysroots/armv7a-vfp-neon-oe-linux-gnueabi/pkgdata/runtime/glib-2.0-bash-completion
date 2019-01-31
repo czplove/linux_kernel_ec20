@@ -12,5 +12,5 @@ RPROVIDES_glib-2.0-bash-completion:  glib-2.0-bash-completion
 SECTION: libs
 PKG_glib-2.0-bash-completion: libglib-2.0-bash-completion
 FILES_glib-2.0-bash-completion: /etc/bash_completion.d                                /usr/share/bash-completion
-FILES_INFO: {"/usr/share/bash-completion/completions/gresource": 1356, "/usr/share/bash-completion/completions/gdbus": 935, "/usr/share/bash-completion/completions/gapplication": 1389, "/usr/share/bash-completion/completions/gsettings": 2609}
+FILES_INFO: {"/usr/share/bash-completion/completions/gresource": 1356, "/usr/share/bash-completion/completions/gdbus": 935, "/usr/share/bash-completion/completions/gsettings": 2609, "/usr/share/bash-completion/completions/gapplication": 1389}
 PKGSIZE_glib-2.0-bash-completion: 6289

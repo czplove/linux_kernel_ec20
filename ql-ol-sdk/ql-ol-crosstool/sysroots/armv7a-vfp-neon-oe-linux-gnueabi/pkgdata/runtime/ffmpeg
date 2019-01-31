@@ -11,14 +11,14 @@ SECTION: base
 PKG_ffmpeg: ffmpeg
 FILES_ffmpeg: /usr/bin/* /usr/sbin/* /usr/lib/ffmpeg/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ffmpeg /usr/lib/ffmpeg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/lib*.so.* /lib/pkgconfig/*
 FILERPROVIDESFLIST_ffmpeg: /lib/libavformat.so.55.48.100 /usr/bin/ffprobe /lib/libavcodec.so.55.69.100 /lib/libavutil.so.52.92.100
-FILES_INFO: {"/lib/libavcodec.so.55": 1518256, "/lib/pkgconfig/libavcodec.pc": 285, "/lib/libavformat.so.55": 586720, "/lib/pkgconfig/libavutil.pc": 254, "/lib/libavutil.so.52": 170680, "/usr/bin/ffprobe": 86896, "/lib/pkgconfig/libavformat.pc": 323}
-FILERPROVIDES_/lib/libavformat.so.55.48.100_ffmpeg: elf(buildid) (= 9dcc47a049d037001c9a6692af877a935dbf6bb8) libavformat.so.55 libavformat.so.55(LIBAVFORMAT_55)
-FILERPROVIDES_/usr/bin/ffprobe_ffmpeg: elf(buildid) (= 4909db0401cb0f71985fd6902eae567deda1cb8f)
-FILERPROVIDES_/lib/libavcodec.so.55.69.100_ffmpeg: elf(buildid) (= a5d968fe88ff52bdc924d64310832e5b0ddae40d) libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55)
-FILERPROVIDES_/lib/libavutil.so.52.92.100_ffmpeg: elf(buildid) (= 421d3d83c26a0f78f38f7470ed75f900ce7b9f27) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52)
+FILES_INFO: {"/lib/libavcodec.so.55": 1518224, "/lib/pkgconfig/libavcodec.pc": 285, "/lib/libavformat.so.55": 586704, "/lib/pkgconfig/libavutil.pc": 254, "/lib/libavutil.so.52": 170664, "/usr/bin/ffprobe": 86896, "/lib/pkgconfig/libavformat.pc": 323}
+FILERPROVIDES_/lib/libavformat.so.55.48.100_ffmpeg: elf(buildid) (= 3c3b6bcc4b0a50672410ff5cd4f60141d574f010) libavformat.so.55 libavformat.so.55(LIBAVFORMAT_55)
+FILERPROVIDES_/usr/bin/ffprobe_ffmpeg: elf(buildid) (= e3c11ea166e14604535c4eb52f843f7d43b36b77)
+FILERPROVIDES_/lib/libavcodec.so.55.69.100_ffmpeg: elf(buildid) (= 8f5783b751721bc0f6a6d87acbb867b533b03bea) libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55)
+FILERPROVIDES_/lib/libavutil.so.52.92.100_ffmpeg: elf(buildid) (= acd1354f260fccd9c2fdd34db59af749912bc892) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52)
 FILERDEPENDSFLIST_ffmpeg: /lib/libavformat.so.55.48.100 /usr/bin/ffprobe /lib/libavcodec.so.55.69.100 /lib/libavutil.so.52.92.100
 FILERDEPENDS_/lib/libavformat.so.55.48.100_ffmpeg: libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/ffprobe_ffmpeg: libavcodec.so.55 libavcodec.so.55(LIBAVCODEC_55) libavformat.so.55 libavformat.so.55(LIBAVFORMAT_55) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/lib/libavcodec.so.55.69.100_ffmpeg: libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/lib/libavutil.so.52.92.100_ffmpeg: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_ffmpeg: 2363414
+PKGSIZE_ffmpeg: 2363350

@@ -12,9 +12,9 @@ PKG_attr: attr
 FILES_attr: /usr/bin/* /usr/sbin/* /usr/lib/attr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/attr /usr/lib/attr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_attr: /usr/bin/setfattr /usr/bin/attr /usr/bin/getfattr
 FILES_INFO: {"/usr/bin/setfattr": 11136, "/usr/bin/attr": 7224, "/usr/bin/getfattr": 13720}
-FILERPROVIDES_/usr/bin/setfattr_attr: elf(buildid) (= 025cff140eea08706bb905c2d400e4fbeef8ec00)
-FILERPROVIDES_/usr/bin/attr_attr: elf(buildid) (= 064ff30717dfd9a3300d682b4b49bf6039d6a0b2)
-FILERPROVIDES_/usr/bin/getfattr_attr: elf(buildid) (= d40501c5dc8f825c84630734dcbb29678bbd0600)
+FILERPROVIDES_/usr/bin/setfattr_attr: elf(buildid) (= 9af46d5568c3bff3a6a7270d45ef3819fe9ad182)
+FILERPROVIDES_/usr/bin/attr_attr: elf(buildid) (= 9bc54de750bcc8f6ebb9d78b024916e4026beb45)
+FILERPROVIDES_/usr/bin/getfattr_attr: elf(buildid) (= 8d221d1c070f2bd96660aaf657f77b66ef67b8cd)
 FILERDEPENDSFLIST_attr: /usr/bin/setfattr /usr/bin/attr /usr/bin/getfattr
 FILERDEPENDS_/usr/bin/setfattr_attr: libattr.so.1 libattr.so.1(ATTR_1.0) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/attr_attr: libattr.so.1 libattr.so.1(ATTR_1.0) libattr.so.1(ATTR_1.2) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

@@ -7,7 +7,7 @@ LICENSE: BSD
 DESCRIPTION_reboot-daemon-dev: Rebooter daemon  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_reboot-daemon-dev: reboot-daemon version 1.0-r4 - Development files
 RDEPENDS_reboot-daemon-dev: reboot-daemon (= 1.0-r4)
-RRECOMMENDS_reboot-daemon-dev: ql-syslog-dev glibc-dev
+RRECOMMENDS_reboot-daemon-dev: glibc-dev
 SECTION_reboot-daemon-dev: devel
 PKG_reboot-daemon-dev: reboot-daemon-dev
 ALLOW_EMPTY_reboot-daemon-dev: 1

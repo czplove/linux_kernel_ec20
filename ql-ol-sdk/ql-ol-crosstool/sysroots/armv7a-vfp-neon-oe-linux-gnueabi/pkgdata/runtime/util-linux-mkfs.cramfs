@@ -12,7 +12,7 @@ PKG_util-linux-mkfs.cramfs: util-linux-mkfs.cramfs
 FILES_util-linux-mkfs.cramfs: /usr/sbin/mkfs.cramfs
 FILERPROVIDESFLIST_util-linux-mkfs.cramfs: /usr/sbin/mkfs.cramfs
 FILES_INFO: {"/usr/sbin/mkfs.cramfs": 24168}
-FILERPROVIDES_/usr/sbin/mkfs.cramfs_util-linux-mkfs.cramfs: elf(buildid) (= 0b64f5fad57712677f485376d6d23860b1dced13)
+FILERPROVIDES_/usr/sbin/mkfs.cramfs_util-linux-mkfs.cramfs: elf(buildid) (= f9871c817664b475dcedb783a010b75f3c3b5e9e)
 FILERDEPENDSFLIST_util-linux-mkfs.cramfs: /usr/sbin/mkfs.cramfs
 FILERDEPENDS_/usr/sbin/mkfs.cramfs_util-linux-mkfs.cramfs: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
 PKGSIZE_util-linux-mkfs.cramfs: 24168

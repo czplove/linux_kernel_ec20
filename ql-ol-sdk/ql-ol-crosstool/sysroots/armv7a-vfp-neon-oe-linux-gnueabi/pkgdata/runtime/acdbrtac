@@ -13,7 +13,7 @@ PKG_acdbrtac: libacdbrtac1
 FILES_acdbrtac: /usr/bin/* /usr/sbin/* /usr/lib/acdbrtac/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/acdbrtac /usr/lib/acdbrtac/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_acdbrtac: /usr/lib/libacdbrtac.so.1.0.0
 FILES_INFO: {"/usr/lib/libacdbrtac.so.1": 14736}
-FILERPROVIDES_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: elf(buildid) (= 8311cd2d7f50e34b68bac33ac081ea7611a2c77e) libacdbrtac.so.1
+FILERPROVIDES_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: elf(buildid) (= 666c80ed61efc2b81109ad2eeb1be7d2c5cf2b86) libacdbrtac.so.1
 FILERDEPENDSFLIST_acdbrtac: /usr/lib/libacdbrtac.so.1.0.0
 FILERDEPENDS_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: libacdbmapper.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
 PKGSIZE_acdbrtac: 14736

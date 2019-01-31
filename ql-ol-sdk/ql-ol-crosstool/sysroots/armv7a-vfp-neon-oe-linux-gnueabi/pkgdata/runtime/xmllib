@@ -13,7 +13,7 @@ PKG_xmllib: libxml0
 FILES_xmllib: /usr/bin/* /usr/sbin/* /usr/lib/xmllib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/xmllib /usr/lib/xmllib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_xmllib: /usr/lib/libxml.so.0.0.0
 FILES_INFO: {"/usr/lib/libxml.so.0": 36264}
-FILERPROVIDES_/usr/lib/libxml.so.0.0.0_xmllib: elf(buildid) (= 59637f1006c660e20527e0ff309566a9b336b67e) libxml.so.0
+FILERPROVIDES_/usr/lib/libxml.so.0.0.0_xmllib: elf(buildid) (= abcbb045b75933f09d04804a31dcb39341c6c977) libxml.so.0
 FILERDEPENDSFLIST_xmllib: /usr/lib/libxml.so.0.0.0
 FILERDEPENDS_/usr/lib/libxml.so.0.0.0_xmllib: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libtime_genoff.so.1 rtld(GNU_HASH)
 PKGSIZE_xmllib: 36264

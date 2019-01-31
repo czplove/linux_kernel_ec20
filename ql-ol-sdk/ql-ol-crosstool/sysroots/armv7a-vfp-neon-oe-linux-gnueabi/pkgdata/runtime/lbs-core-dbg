@@ -7,7 +7,7 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_lbs-core-dbg: GPS LBS Core  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_lbs-core-dbg: lbs-core version git-r1 - Debugging files
 RPROVIDES_lbs-core-dbg:  lbs-core-dbg
-RRECOMMENDS_lbs-core-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg glib-2.0-dbg ql-syslog-dbg izat-core-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+RRECOMMENDS_lbs-core-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg glib-2.0-dbg izat-core-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
 SECTION_lbs-core-dbg: devel
 PKG_lbs-core-dbg: liblbs-core-dbg
 ALLOW_EMPTY_lbs-core-dbg: 1

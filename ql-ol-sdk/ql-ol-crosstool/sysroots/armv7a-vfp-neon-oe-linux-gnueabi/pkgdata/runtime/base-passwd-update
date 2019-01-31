@@ -12,8 +12,8 @@ PKG_base-passwd-update: base-passwd-update
 FILES_base-passwd-update: /usr/sbin/* /usr/share/base-passwd
 pkg_postinst_base-passwd-update: #!/bin/sh\nif [ -n "$D" ]; then\n\texit 0\nfi\n/usr/sbin/update-passwd\n
 FILERPROVIDESFLIST_base-passwd-update: /usr/sbin/update-passwd
-FILES_INFO: {"/usr/sbin/update-passwd": 17636, "/usr/share/base-passwd/group.master": 525, "/usr/share/base-passwd/passwd.master": 792}
-FILERPROVIDES_/usr/sbin/update-passwd_base-passwd-update: elf(buildid) (= 8e17a10c6b0e63282ac4e087bf137e9273e293da)
+FILES_INFO: {"/usr/sbin/update-passwd": 17612, "/usr/share/base-passwd/group.master": 525, "/usr/share/base-passwd/passwd.master": 792}
+FILERPROVIDES_/usr/sbin/update-passwd_base-passwd-update: elf(buildid) (= 2db71068a95ba4e65acc2c29d2f04506a14090fc)
 FILERDEPENDSFLIST_base-passwd-update: /usr/sbin/update-passwd
 FILERDEPENDS_/usr/sbin/update-passwd_base-passwd-update: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_base-passwd-update: 18953
+PKGSIZE_base-passwd-update: 18929

@@ -10,5 +10,5 @@ RDEPENDS_python-distutils-staticdev: python-distutils
 SECTION: devel/python
 PKG_python-distutils-staticdev: python-distutils-staticdev
 FILES_python-distutils-staticdev: /usr/lib/python2.7/config/lib*.a 
-FILES_INFO: {"/usr/lib/python2.7/config/libpython2.7.a": 2405140}
-PKGSIZE_python-distutils-staticdev: 2405140
+FILES_INFO: {"/usr/lib/python2.7/config/libpython2.7.a": 2403664}
+PKGSIZE_python-distutils-staticdev: 2403664

@@ -12,8 +12,8 @@ SECTION: devel/libs
 PKG_libnfnetlink: libnfnetlink0
 FILES_libnfnetlink: /usr/bin/* /usr/sbin/* /usr/lib/libnfnetlink/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libnfnetlink /usr/lib/libnfnetlink/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_libnfnetlink: /usr/lib/libnfnetlink.so.0.2.0
-FILES_INFO: {"/usr/lib/libnfnetlink.so.0": 21180}
-FILERPROVIDES_/usr/lib/libnfnetlink.so.0.2.0_libnfnetlink: elf(buildid) (= 48b80b95cafe94b34901d4955ca2929c0435f922) libnfnetlink.so.0
+FILES_INFO: {"/usr/lib/libnfnetlink.so.0": 21144}
+FILERPROVIDES_/usr/lib/libnfnetlink.so.0.2.0_libnfnetlink: elf(buildid) (= d7e08a645fae4c6e0fd0bc34e18b674293f32884) libnfnetlink.so.0
 FILERDEPENDSFLIST_libnfnetlink: /usr/lib/libnfnetlink.so.0.2.0
 FILERDEPENDS_/usr/lib/libnfnetlink.so.0.2.0_libnfnetlink: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libnfnetlink: 21180
+PKGSIZE_libnfnetlink: 21144

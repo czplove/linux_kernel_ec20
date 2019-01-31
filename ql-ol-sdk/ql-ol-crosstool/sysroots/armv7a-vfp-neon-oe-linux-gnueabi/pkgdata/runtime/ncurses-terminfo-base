@@ -9,5 +9,5 @@ SUMMARY: The New Curses library
 SECTION: libs
 PKG_ncurses-terminfo-base: ncurses-terminfo-base
 FILES_ncurses-terminfo-base:   /etc/terminfo 
-FILES_INFO: {"/etc/terminfo/x/xterm-color": 1551, "/etc/terminfo/a/ansi": 1481, "/etc/terminfo/d/dumb": 308, "/etc/terminfo/v/vt220": 1279, "/etc/terminfo/x/xterm-256color": 3308, "/etc/terminfo/v/vt200": 1279, "/etc/terminfo/v/vt100": 1194, "/etc/terminfo/v/vt102": 1188, "/etc/terminfo/x/xterm-xfree86": 2235, "/etc/terminfo/r/rxvt": 2278, "/etc/terminfo/s/screen": 1532, "/etc/terminfo/v/vt52": 470, "/etc/terminfo/l/linux": 1737, "/etc/terminfo/x/xterm": 11, "/etc/terminfo/s/sun": 997}
+FILES_INFO: {"/etc/terminfo/x/xterm-color": 1551, "/etc/terminfo/a/ansi": 1481, "/etc/terminfo/d/dumb": 308, "/etc/terminfo/v/vt220": 1279, "/etc/terminfo/x/xterm-256color": 3308, "/etc/terminfo/s/screen": 1532, "/etc/terminfo/v/vt100": 1194, "/etc/terminfo/v/vt102": 1188, "/etc/terminfo/x/xterm-xfree86": 2235, "/etc/terminfo/r/rxvt": 2278, "/etc/terminfo/v/vt200": 1279, "/etc/terminfo/v/vt52": 470, "/etc/terminfo/x/xterm": 11, "/etc/terminfo/s/sun": 997, "/etc/terminfo/l/linux": 1737}
 PKGSIZE_ncurses-terminfo-base: 20848

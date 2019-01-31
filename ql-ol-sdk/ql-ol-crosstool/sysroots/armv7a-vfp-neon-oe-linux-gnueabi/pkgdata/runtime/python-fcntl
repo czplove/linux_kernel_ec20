@@ -12,7 +12,7 @@ PKG_python-fcntl: python-fcntl
 FILES_python-fcntl: /usr/lib/python2.7/lib-dynload/fcntl.so 
 FILERPROVIDESFLIST_python-fcntl: /usr/lib/python2.7/lib-dynload/fcntl.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/fcntl.so": 17240}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/fcntl.so_python-fcntl: elf(buildid) (= a2d0f60e2f3a4eb6e39e7a696ce9eaab9c01c5a1) fcntl.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/fcntl.so_python-fcntl: elf(buildid) (= 8061ab6b3cf261de615918e052de182437e42718) fcntl.so
 FILERDEPENDSFLIST_python-fcntl: /usr/lib/python2.7/lib-dynload/fcntl.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/fcntl.so_python-fcntl: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-fcntl: 17240

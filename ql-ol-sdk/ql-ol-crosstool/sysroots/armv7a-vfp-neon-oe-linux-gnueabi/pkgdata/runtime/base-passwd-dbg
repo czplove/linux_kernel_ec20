@@ -11,5 +11,5 @@ SECTION_base-passwd-dbg: devel
 PKG_base-passwd-dbg: base-passwd-dbg
 ALLOW_EMPTY_base-passwd-dbg: 1
 FILES_base-passwd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/base-passwd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/base-passwd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/base-passwd/base-passwd/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/update-passwd": 7864}
-PKGSIZE_base-passwd-dbg: 7864
+FILES_INFO: {"/usr/sbin/.debug/update-passwd": 7828}
+PKGSIZE_base-passwd-dbg: 7828

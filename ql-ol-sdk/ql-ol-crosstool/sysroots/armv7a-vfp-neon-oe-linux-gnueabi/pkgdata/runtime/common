@@ -9,5 +9,5 @@ SUMMARY: common version git-r7
 SECTION: base
 PKG_common: common
 FILES_common: /usr/bin/* /usr/sbin/* /usr/lib/common/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/common /usr/lib/common/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/include
-FILES_INFO: {"/usr/include/qsocket.h": 19124, "/usr/include/qsocket_ipcr.h": 7164, "/usr/include/common_log.h": 818, "/usr/include/target.h": 4027, "/usr/include/customer.h": 503, "/usr/include/rex.h": 440, "/usr/include/msm_ipc.h": 1947, "/usr/include/stringl.h": 20, "/usr/include/armasm.h": 8388, "/usr/include/comdef.h": 37352}
+FILES_INFO: {"/usr/include/armasm.h": 8388, "/usr/include/target.h": 4027, "/usr/include/common_log.h": 818, "/usr/include/msm_ipc.h": 1947, "/usr/include/customer.h": 503, "/usr/include/qsocket.h": 19124, "/usr/include/rex.h": 440, "/usr/include/qsocket_ipcr.h": 7164, "/usr/include/stringl.h": 20, "/usr/include/comdef.h": 37352}
 PKGSIZE_common: 79783

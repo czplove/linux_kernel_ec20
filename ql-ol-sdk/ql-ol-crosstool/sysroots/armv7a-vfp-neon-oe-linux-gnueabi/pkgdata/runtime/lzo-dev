@@ -13,5 +13,5 @@ SECTION_lzo-dev: devel
 PKG_lzo-dev: liblzo2-dev
 ALLOW_EMPTY_lzo-dev: 1
 FILES_lzo-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lzo/*.la /lib/*.la
-FILES_INFO: {"/usr/include/lzo/lzoconf.h": 15994, "/usr/include/lzo/lzo1a.h": 2638, "/usr/include/lzo/lzo1z.h": 3771, "/usr/include/lzo/lzo2a.h": 2525, "/usr/include/lzo/lzo1y.h": 4641, "/usr/include/lzo/lzo1f.h": 3073, "/usr/include/lzo/lzoutil.h": 1823, "/usr/include/lzo/lzo1b.h": 5387, "/usr/lib/liblzo2.la": 910, "/usr/include/lzo/lzo1c.h": 5384, "/usr/include/lzo/lzodefs.h": 122223, "/usr/include/lzo/lzo_asm.h": 5566, "/usr/include/lzo/lzo1x.h": 5873, "/usr/include/lzo/lzo1.h": 2634, "/usr/lib/liblzo2.so": 16}
+FILES_INFO: {"/usr/include/lzo/lzoconf.h": 15994, "/usr/include/lzo/lzo1a.h": 2638, "/usr/include/lzo/lzo1z.h": 3771, "/usr/include/lzo/lzo2a.h": 2525, "/usr/include/lzo/lzo1f.h": 3073, "/usr/include/lzo/lzoutil.h": 1823, "/usr/include/lzo/lzo1b.h": 5387, "/usr/include/lzo/lzo_asm.h": 5566, "/usr/lib/liblzo2.so": 16, "/usr/include/lzo/lzo1c.h": 5384, "/usr/include/lzo/lzodefs.h": 122223, "/usr/lib/liblzo2.la": 910, "/usr/include/lzo/lzo1x.h": 5873, "/usr/include/lzo/lzo1y.h": 4641, "/usr/include/lzo/lzo1.h": 2634}
 PKGSIZE_lzo-dev: 182458

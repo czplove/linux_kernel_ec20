@@ -11,5 +11,5 @@ SECTION_data-oss-dbg: devel
 PKG_data-oss-dbg: data-oss-dbg
 ALLOW_EMPTY_data-oss-dbg: 1
 FILES_data-oss-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/data-oss/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/data-oss/.debug /usr/lib/matchbox-panel/.debug /usr/lib/data-oss/data-oss/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/rmnetcli": 6150, "/usr/lib/.debug/librmnetctl.so.0.0.0": 4835}
-PKGSIZE_data-oss-dbg: 10985
+FILES_INFO: {"/usr/bin/.debug/rmnetcli": 6114, "/usr/lib/.debug/librmnetctl.so.0.0.0": 4835}
+PKGSIZE_data-oss-dbg: 10949

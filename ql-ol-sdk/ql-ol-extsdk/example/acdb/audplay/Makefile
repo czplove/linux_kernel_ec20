@@ -4,7 +4,7 @@
 QL_SDK_PATH   ?= $(shell pwd)/../../..
 
 QL_EXP_TARGETS = example_audplay_gain
-QL_EXP_LDLIBS  = -lpthread -lql_lib_audio -llog
+QL_EXP_LDLIBS  = -lpthread
 
 #--------------------------------------------------------
 # TOOLS BASIC CONFIG

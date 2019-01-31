@@ -12,7 +12,7 @@ PKG_mbim: mbim
 FILES_mbim: /usr/bin/* /usr/sbin/* /usr/lib/mbim/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mbim /usr/lib/mbim/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_mbim: /usr/bin/mbimd
 FILES_INFO: {"/usr/bin/mbimd": 469816}
-FILERPROVIDES_/usr/bin/mbimd_mbim: elf(buildid) (= 4eaf46257218e2dc95bdb5e5e2a0bdc9597d40d2)
+FILERPROVIDES_/usr/bin/mbimd_mbim: elf(buildid) (= 1e063722fdfd6c30e23905786e61118152086be9)
 FILERDEPENDSFLIST_mbim: /usr/bin/mbimd
 FILERDEPENDS_/usr/bin/mbimd_mbim: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_encdec.so.1 librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_mbim: 469816

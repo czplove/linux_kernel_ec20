@@ -12,5 +12,5 @@ SECTION_dbus-glib-dbg: devel
 PKG_dbus-glib-dbg: libdbus-glib-1-dbg
 ALLOW_EMPTY_dbus-glib-dbg: 1
 FILES_dbus-glib-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dbus-glib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dbus-glib/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dbus-glib/dbus-glib/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/dbus-binding-tool": 24269, "/usr/lib/.debug/libdbus-glib-1.so.2.2.2": 41253, "/usr/lib/dbus-glib/.debug/dbus-bash-completion-helper": 11788}
-PKGSIZE_dbus-glib-dbg: 77310
+FILES_INFO: {"/usr/bin/.debug/dbus-binding-tool": 24233, "/usr/lib/.debug/libdbus-glib-1.so.2.2.2": 41253, "/usr/lib/dbus-glib/.debug/dbus-bash-completion-helper": 11752}
+PKGSIZE_dbus-glib-dbg: 77238

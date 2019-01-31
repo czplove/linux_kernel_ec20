@@ -11,5 +11,5 @@ SECTION_alsa-intf-dbg: devel
 PKG_alsa-intf-dbg: alsa-intf-dbg
 ALLOW_EMPTY_alsa-intf-dbg: 1
 FILES_alsa-intf-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/alsa-intf/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/alsa-intf/.debug /usr/lib/matchbox-panel/.debug /usr/lib/alsa-intf/alsa-intf/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/aplay": 34334, "/usr/bin/.debug/arec": 32001, "/usr/lib/.debug/libalsa_intf.so.1.0.0": 145689, "/usr/bin/.debug/alsaucm_test": 33800, "/usr/bin/.debug/amix": 12846}
-PKGSIZE_alsa-intf-dbg: 258670
+FILES_INFO: {"/usr/lib/.debug/libalsa_intf.so.1.0.0": 145117, "/usr/bin/.debug/arec": 31733, "/usr/bin/.debug/aplay": 34066, "/usr/bin/.debug/alsaucm_test": 33620, "/usr/bin/.debug/amix": 12702}
+PKGSIZE_alsa-intf-dbg: 257238

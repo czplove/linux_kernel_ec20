@@ -14,8 +14,8 @@ pkg_postinst_lrzsz: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/rz rz /u
 pkg_postrm_lrzsz: #!/bin/sh\n\tupdate-alternatives --remove  rz /usr/bin/lrz\n\tupdate-alternatives --remove  rx /usr/bin/lrz\n\tupdate-alternatives --remove  rb /usr/bin/lrz\n\tupdate-alternatives --remove  sz /usr/bin/lsz\n\tupdate-alternatives --remove  sx /usr/bin/lsz\n\tupdate-alternatives --remove  sb /usr/bin/lsz\n
 FILERPROVIDESFLIST_lrzsz: /usr/bin/lsz /usr/bin/lrz
 FILES_INFO: {"/usr/bin/lsz": 65396, "/usr/bin/lrz": 61284}
-FILERPROVIDES_/usr/bin/lsz_lrzsz: elf(buildid) (= f7c63b44cae7dde736222aadd5ad322fd3e20c22) /usr/bin/sz /usr/bin/sx /usr/bin/sb
-FILERPROVIDES_/usr/bin/lrz_lrzsz: elf(buildid) (= db88af9000f371cb0f2dec040606e3b7d2cca14e) /usr/bin/rz /usr/bin/rx /usr/bin/rb
+FILERPROVIDES_/usr/bin/lsz_lrzsz: elf(buildid) (= 5129af6c7f01864a8cb052d2ba38bd612fe0ae5a) /usr/bin/sz /usr/bin/sx /usr/bin/sb
+FILERPROVIDES_/usr/bin/lrz_lrzsz: elf(buildid) (= 7a6c73464ceddafd2dbfab67838c2c79a3a678db) /usr/bin/rz /usr/bin/rx /usr/bin/rb
 FILERDEPENDSFLIST_lrzsz: /usr/bin/lsz /usr/bin/lrz
 FILERDEPENDS_/usr/bin/lsz_lrzsz: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/lrz_lrzsz: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

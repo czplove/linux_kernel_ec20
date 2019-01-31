@@ -11,8 +11,8 @@ SECTION: libs/multimedia
 PKG_alsa-server: alsa-server
 FILES_alsa-server: /usr/bin/*
 FILERPROVIDESFLIST_alsa-server: /usr/bin/aserver
-FILES_INFO: {"/usr/bin/aserver": 21164}
-FILERPROVIDES_/usr/bin/aserver_alsa-server: elf(buildid) (= 12bc2d357de149e7d71079c741150f686fbb271b)
+FILES_INFO: {"/usr/bin/aserver": 21148}
+FILERPROVIDES_/usr/bin/aserver_alsa-server: elf(buildid) (= 5d72a0141cd0b0e6752366fb0fabdae1a0b7ce7b)
 FILERDEPENDSFLIST_alsa-server: /usr/bin/aserver
 FILERDEPENDS_/usr/bin/aserver_alsa-server: libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0rc8) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_alsa-server: 21164
+PKGSIZE_alsa-server: 21148

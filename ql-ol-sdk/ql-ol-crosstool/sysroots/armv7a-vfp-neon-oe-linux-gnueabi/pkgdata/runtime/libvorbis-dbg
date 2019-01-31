@@ -11,5 +11,5 @@ SECTION_libvorbis-dbg: devel
 PKG_libvorbis-dbg: libvorbis-dbg
 ALLOW_EMPTY_libvorbis-dbg: 1
 FILES_libvorbis-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libvorbis/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libvorbis/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libvorbis/libvorbis/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libvorbis.so.0.4.6": 17433, "/usr/lib/.debug/libvorbisenc.so.2.0.9": 101628, "/usr/lib/.debug/libvorbisfile.so.3.3.5": 14470}
-PKGSIZE_libvorbis-dbg: 133531
+FILES_INFO: {"/usr/lib/.debug/libvorbis.so.0.4.6": 17273, "/usr/lib/.debug/libvorbisenc.so.2.0.9": 101524, "/usr/lib/.debug/libvorbisfile.so.3.3.5": 14234}
+PKGSIZE_libvorbis-dbg: 133031

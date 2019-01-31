@@ -31,7 +31,7 @@ use strict;
 
 BEGIN
 {
-  @Automake::perl_libdirs = ('/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/automake-1.15')
+  @Automake::perl_libdirs = ('/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/automake-1.15')
     unless @Automake::perl_libdirs;
   unshift @INC, @Automake::perl_libdirs;
 

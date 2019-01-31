@@ -11,5 +11,5 @@ SECTION_pdc-daemon-dbg: devel
 PKG_pdc-daemon-dbg: pdc-daemon-dbg
 ALLOW_EMPTY_pdc-daemon-dbg: 1
 FILES_pdc-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pdc-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pdc-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pdc-daemon/pdc-daemon/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/pdc_daemon": 40754}
-PKGSIZE_pdc-daemon-dbg: 40754
+FILES_INFO: {"/usr/bin/.debug/pdc_daemon": 40574}
+PKGSIZE_pdc-daemon-dbg: 40574

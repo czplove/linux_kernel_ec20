@@ -1,8 +1,6 @@
 #! /bin/sh
-#  ---------------------------------------------------------------------------
-#  Copyright (c) 2015 Quectel Wireless Solutions Co., Ltd. All Rights Reserved.
-#  Quectel Wireless Solutions Proprietary and Confidential.
-#  ---------------------------------------------------------------------------
+#
+# Copyright (c) 2010-2017 @ Quectel Wireless Solutions Co., Ltd.  All Rights Reserved.
 #
 # quectel_manager_server   init.d script to start the Data Software's quectel_manager_server daemon
 

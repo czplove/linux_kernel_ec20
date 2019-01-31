@@ -1,5 +1,5 @@
 #! /bin/sh
-## DO NOT EDIT - This file generated from /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-libtool/2.4.6-r0/libtool-2.4.6/build-aux/ltmain.in
+## DO NOT EDIT - This file generated from /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-libtool/2.4.6-r0/libtool-2.4.6/build-aux/ltmain.in
 ##               by inline-source v2014-01-03.01
 
 # libtool (GNU libtool) 2.4.6

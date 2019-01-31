@@ -7,7 +7,7 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_loc-mcm-type-conv-dbg: MCM Location Type Conversion Library  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_loc-mcm-type-conv-dbg: loc-mcm-type-conv version git-invalidgit-r4 - Debugging files
 RPROVIDES_loc-mcm-type-conv-dbg:  loc-mcm-type-conv-dbg
-RRECOMMENDS_loc-mcm-type-conv-dbg: mcm-core-dbg dsutils-dbg glibc-dbg configdb-dbg libstdc++-dbg diag-dbg time-genoff-dbg ql-syslog-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
+RRECOMMENDS_loc-mcm-type-conv-dbg: mcm-core-dbg dsutils-dbg glibc-dbg configdb-dbg libstdc++-dbg diag-dbg time-genoff-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
 SECTION_loc-mcm-type-conv-dbg: devel
 PKG_loc-mcm-type-conv-dbg: libloc-mcm-type-conv-dbg
 ALLOW_EMPTY_loc-mcm-type-conv-dbg: 1

@@ -11,5 +11,5 @@ SECTION_ipth-dme-dbg: devel
 PKG_ipth-dme-dbg: ipth-dme-dbg
 ALLOW_EMPTY_ipth-dme-dbg: 1
 FILES_ipth-dme-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ipth-dme/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ipth-dme/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ipth-dme/ipth-dme/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/ipth_dme_a": 394488, "/usr/bin/.debug/ipth_dme_v": 1126761}
-PKGSIZE_ipth-dme-dbg: 1521249
+FILES_INFO: {"/usr/bin/.debug/ipth_dme_a": 392848, "/usr/bin/.debug/ipth_dme_v": 1124749}
+PKGSIZE_ipth-dme-dbg: 1517597

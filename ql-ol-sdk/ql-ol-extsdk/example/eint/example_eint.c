@@ -6,7 +6,7 @@ static Enum_PinName m_GpioPin = PINNAME_GPIO7; // OPEN EVB GPIO1_AG35
 
 static void eint_callback(Enum_PinName PinName, int level)
 {
-	printf("pin: %d level: %d\n", PinName, level);
+	QL_USER_LOG("pin: %d level: %d\n", PinName, level);
 }
 
 int main(int argc, char* argv[])

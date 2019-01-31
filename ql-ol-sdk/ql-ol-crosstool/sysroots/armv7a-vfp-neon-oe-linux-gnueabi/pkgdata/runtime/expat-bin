@@ -13,7 +13,7 @@ PKG_expat-bin: libexpat-bin
 FILES_expat-bin: /usr/bin/* /usr/sbin/*
 FILERPROVIDESFLIST_expat-bin: /usr/bin/xmlwf
 FILES_INFO: {"/usr/bin/xmlwf": 16284}
-FILERPROVIDES_/usr/bin/xmlwf_expat-bin: elf(buildid) (= 4f01fee4d3f486ce23c0005fe086235a01dbe2bd)
+FILERPROVIDES_/usr/bin/xmlwf_expat-bin: elf(buildid) (= 2d77212750abe9643fd1d87055b427ce213060dc)
 FILERDEPENDSFLIST_expat-bin: /usr/bin/xmlwf
 FILERDEPENDS_/usr/bin/xmlwf_expat-bin: libc.so.6 libc.so.6(GLIBC_2.4) libexpat.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) rtld(GNU_HASH)
 PKGSIZE_expat-bin: 16284

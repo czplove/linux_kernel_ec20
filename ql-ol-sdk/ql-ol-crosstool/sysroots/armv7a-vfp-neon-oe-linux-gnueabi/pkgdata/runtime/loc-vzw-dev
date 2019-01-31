@@ -8,10 +8,10 @@ DESCRIPTION_loc-vzw-dev: GPS Location vzw  This package contains symbolic links,
 SUMMARY_loc-vzw-dev: loc-vzw version git-invalidgit-r1 - Development files
 RDEPENDS_loc-vzw-dev: loc-vzw (= git-invalidgit-r1)
 RPROVIDES_loc-vzw-dev:  loc-vzw-dev
-RRECOMMENDS_loc-vzw-dev: configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-dev dsutils-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev system-core-liblog-dev time-genoff-dev qmi-dev ql-syslog-dev glib-2.0-dev system-core-libcutils-dev diag-dev qmi-framework-dev
+RRECOMMENDS_loc-vzw-dev: configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-dev dsutils-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev system-core-liblog-dev time-genoff-dev qmi-dev glib-2.0-dev system-core-libcutils-dev diag-dev qmi-framework-dev
 SECTION_loc-vzw-dev: devel
 PKG_loc-vzw-dev: libloc-ext-dev
 ALLOW_EMPTY_loc-vzw-dev: 1
 FILES_loc-vzw-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-vzw/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/pkgconfig/loc-vzw.pc": 224, "/usr/include/loc-vzw/vzwGpsLocationProvider/loc_ext/loc_vzw.h": 8021, "/usr/lib/libloc_ext.so": 19, "/usr/lib/libloc_ext.la": 2562}
-PKGSIZE_loc-vzw-dev: 10826
+FILES_INFO: {"/usr/lib/pkgconfig/loc-vzw.pc": 224, "/usr/include/loc-vzw/vzwGpsLocationProvider/loc_ext/loc_vzw.h": 8021, "/usr/lib/libloc_ext.so": 19, "/usr/lib/libloc_ext.la": 2508}
+PKGSIZE_loc-vzw-dev: 10772

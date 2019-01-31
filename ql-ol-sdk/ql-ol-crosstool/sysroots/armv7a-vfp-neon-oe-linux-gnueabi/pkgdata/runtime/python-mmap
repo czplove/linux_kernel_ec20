@@ -12,7 +12,7 @@ PKG_python-mmap: python-mmap
 FILES_python-mmap: /usr/lib/python2.7/lib-dynload/mmap.so 
 FILERPROVIDESFLIST_python-mmap: /usr/lib/python2.7/lib-dynload/mmap.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/mmap.so": 20128}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/mmap.so_python-mmap: elf(buildid) (= 262531c38f6630fb28e600054fa31125412c83e5) mmap.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/mmap.so_python-mmap: elf(buildid) (= 6968c18d8e0c92b4667057dd0d9b2db0af3e80c4) mmap.so
 FILERDEPENDSFLIST_python-mmap: /usr/lib/python2.7/lib-dynload/mmap.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/mmap.so_python-mmap: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-mmap: 20128

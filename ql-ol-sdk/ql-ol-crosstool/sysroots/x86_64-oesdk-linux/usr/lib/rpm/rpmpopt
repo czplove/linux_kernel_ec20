@@ -1,7 +1,7 @@
-#/*! \page config_rpmpopt Default configuration: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/rpmpopt-5.4.14
+#/*! \page config_rpmpopt Default configuration: /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/rpmpopt-5.4.14
 # \verbatim
 #
-# /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/rpmpopt.  Generated from rpmpopt.in by configure.
+# /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/rpmpopt.  Generated from rpmpopt.in by configure.
 # $Id: rpmpopt.in,v 2.92.2.4 2012/04/27 20:39:21 jbj Exp $
 #
 # This file *should not be modified*. Local customizations
@@ -225,83 +225,83 @@ rpm	alias --needswhat -q --qf '[%{needswhat}\n]' \
 #\n' \
 #	--POPTdesc=$"display binary debian/control file"
 
-rpm	alias --deb:Packages --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_Packages \
+rpm	alias --deb:Packages --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_Packages \
 	--POPTdesc=$"display Debian Packages file"
 
-rpm	alias --deb:Sources --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_Sources \
+rpm	alias --deb:Sources --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_Sources \
 	--POPTdesc=$"display Debian Sources file"
 
-rpm	alias --deb:control --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_control \
+rpm	alias --deb:control --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_control \
 	--POPTdesc=$"display binary debian/control file"
 
-rpm	alias --deb:preinst --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_preinst \
+rpm	alias --deb:preinst --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_preinst \
 	--POPTdesc=$"display debian/preinst script"
 
-rpm	alias --deb:postinst --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_postinst \
+rpm	alias --deb:postinst --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_postinst \
 	--POPTdesc=$"display debian/postinst script"
 
-rpm	alias --deb:prerm --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_prerm \
+rpm	alias --deb:prerm --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_prerm \
 	--POPTdesc=$"display debian/prerm script"
 
-rpm	alias --deb:postrm --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_postrm \
+rpm	alias --deb:postrm --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_postrm \
 	--POPTdesc=$"display debian/postrm script"
 
-rpm	alias --deb:md5sums --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_md5sums \
+rpm	alias --deb:md5sums --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/deb_md5sums \
 	--POPTdesc=$"display debian/md5sums manifest"
 
 #==============================================================================
-rpm	alias --yum:primary.xml --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_primary_xml \
+rpm	alias --yum:primary.xml --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_primary_xml \
 	--POPTdesc=$"display yum primary.xml markup"
 
-rpm	alias --yum:filelists.xml --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_filelists_xml \
+rpm	alias --yum:filelists.xml --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_filelists_xml \
 	--POPTdesc=$"display yum filelists.xml markup"
 
-rpm	alias --yum:other.xml --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_other_xml \
+rpm	alias --yum:other.xml --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_other_xml \
 	--POPTdesc=$"display yum other.xml markup"
 
 #==============================================================================
-rpm	alias --yum:primary.sqlite --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_primary_sqlite \
+rpm	alias --yum:primary.sqlite --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_primary_sqlite \
 	--POPTdesc=$"display yum primary.sqlite import"
 
-rpm	alias --yum:filelists.sqlite --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_filelists_sqlite \
+rpm	alias --yum:filelists.sqlite --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_filelists_sqlite \
 	--POPTdesc=$"display yum filelists.sqlite import"
 
-rpm	alias --yum:other.sqlite --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_other_sqlite \
+rpm	alias --yum:other.sqlite --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/yum_other_sqlite \
 	--POPTdesc=$"display yum other.sqlite import"
 
 #==============================================================================
-rpm	alias --wnh:primary.yaml --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_primary_yaml \
+rpm	alias --wnh:primary.yaml --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_primary_yaml \
 	--POPTdesc=$"display wnh primary.yaml markup"
 
-rpm	alias --wnh:filelists.yaml --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_filelists_yaml \
+rpm	alias --wnh:filelists.yaml --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_filelists_yaml \
 	--POPTdesc=$"display wnh filelists.yaml markup"
 
-rpm	alias --wnh:other.yaml --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_other_yaml \
+rpm	alias --wnh:other.yaml --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_other_yaml \
 	--POPTdesc=$"display wnh other.yaml markup"
 
 #==============================================================================
-rpm	alias --wnh:primary.mongo --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_primary_mongo \
+rpm	alias --wnh:primary.mongo --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_primary_mongo \
 	--POPTdesc=$"display wnh primary.mongo markup"
 
-rpm	alias --wnh:filelists.mongo --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_filelists_mongo \
+rpm	alias --wnh:filelists.mongo --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_filelists_mongo \
 	--POPTdesc=$"display wnh filelists.mongo markup"
 
-rpm	alias --wnh:other.mongo --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_other_mongo \
+rpm	alias --wnh:other.mongo --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wnh_other_mongo \
 	--POPTdesc=$"display wnh other.mongo markup"
 
 #==============================================================================
-rpm	alias --wdj:srpm --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wdj_srpm \
+rpm	alias --wdj:srpm --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wdj_srpm \
 	--POPTdesc=$"display wdj binary->source Cassandra markup"
-rpm	alias --wdj:srpm.mongo --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wdj_srpm_mongo \
+rpm	alias --wdj:srpm.mongo --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wdj_srpm_mongo \
 	--POPTdesc=$"display wdj binary->source Mongo markup"
-rpm	alias --wdj:l10n.sqlite --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wdj_l10n_sqlite \
+rpm	alias --wdj:l10n.sqlite --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/wdj_l10n_sqlite \
 	--POPTdesc=$"display wdj l10n.sqlite markup "
 
 #==============================================================================
-rpm	alias --nix:meta --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/nix_meta \
+rpm	alias --nix:meta --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/nix_meta \
 	--POPTdesc=$"display nix meta markup"
 
-rpm	alias --xiu:stdenv --qf /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/xiu_stdenv \
+rpm	alias --xiu:stdenv --qf /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/qf/xiu_stdenv \
 	--POPTdesc=$"display xiu stdenv markup"
 
 #==============================================================================

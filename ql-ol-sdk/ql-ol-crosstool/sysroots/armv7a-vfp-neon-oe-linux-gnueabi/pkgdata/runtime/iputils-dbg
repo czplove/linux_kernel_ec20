@@ -11,5 +11,5 @@ SECTION_iputils-dbg: devel
 PKG_iputils-dbg: iputils-dbg
 ALLOW_EMPTY_iputils-dbg: 1
 FILES_iputils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iputils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iputils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iputils/iputils/.debug /usr/src/debug
-FILES_INFO: {"/bin/.debug/ping6.iputils": 20247, "/bin/.debug/ping.iputils": 19299}
-PKGSIZE_iputils-dbg: 39546
+FILES_INFO: {"/bin/.debug/ping6.iputils": 19943, "/bin/.debug/ping.iputils": 18995}
+PKGSIZE_iputils-dbg: 38938

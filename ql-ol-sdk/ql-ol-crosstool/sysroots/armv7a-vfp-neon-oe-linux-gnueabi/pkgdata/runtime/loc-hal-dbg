@@ -6,10 +6,10 @@ PKGR: r5
 LICENSE: BSD
 DESCRIPTION_loc-hal-dbg: GPS Loc HAL  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_loc-hal-dbg: loc-hal version git-r5 - Debugging files
-RRECOMMENDS_loc-hal-dbg: loc-pla-dbg system-core-liblog-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg data-oss-dbg ql-syslog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+RRECOMMENDS_loc-hal-dbg: loc-pla-dbg system-core-liblog-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg data-oss-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
 SECTION_loc-hal-dbg: devel
 PKG_loc-hal-dbg: loc-hal-dbg
 ALLOW_EMPTY_loc-hal-dbg: 1
 FILES_loc-hal-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-hal/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-hal/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-hal/loc-hal/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libloc_eng_so.so.1.0.0": 57879, "/usr/lib/.debug/libloc_api_v02.so.1.0.0": 36959, "/usr/lib/.debug/libgps_utils_so.so.1.0.0": 104791, "/usr/lib/.debug/libloc_ds_api.so.1.0.0": 7878, "/usr/lib/.debug/libloc_core.so.1.0.0": 23893, "/usr/lib/.debug/libgps_default_so.so.1.0.0": 10139}
-PKGSIZE_loc-hal-dbg: 241539
+FILES_INFO: {"/usr/lib/.debug/libloc_eng_so.so.1.0.0": 57879, "/usr/lib/.debug/libloc_api_v02.so.1.0.0": 36959, "/usr/lib/.debug/libgps_utils_so.so.1.0.0": 104163, "/usr/lib/.debug/libloc_ds_api.so.1.0.0": 7774, "/usr/lib/.debug/libloc_core.so.1.0.0": 23893, "/usr/lib/.debug/libgps_default_so.so.1.0.0": 10139}
+PKGSIZE_loc-hal-dbg: 240807

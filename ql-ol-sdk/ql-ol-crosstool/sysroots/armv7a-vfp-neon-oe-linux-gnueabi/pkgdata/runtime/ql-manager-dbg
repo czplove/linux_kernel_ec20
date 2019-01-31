@@ -6,10 +6,10 @@ PKGR: r21
 LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_ql-manager-dbg: Quectel Manager Modules  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_ql-manager-dbg: ql-manager version git-invalidgit-r21 - Debugging files
-RRECOMMENDS_ql-manager-dbg: libiw-dbg glibc-dbg data-dbg ql-common-tools-dbg libstdc++-dbg ql-syslog-dbg libgcc-dbg qmi-framework-dbg qmi-dbg
+RRECOMMENDS_ql-manager-dbg: libiw-dbg glibc-dbg data-dbg ql-common-tools-dbg libstdc++-dbg libgcc-dbg qmi-framework-dbg qmi-dbg
 SECTION_ql-manager-dbg: devel
 PKG_ql-manager-dbg: ql-manager-dbg
 ALLOW_EMPTY_ql-manager-dbg: 1
 FILES_ql-manager-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-manager/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-manager/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-manager/ql-manager/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libql_mgmt_client.so.1.0.0": 122856, "/usr/bin/.debug/ql_manager_cli": 50269, "/usr/lib/.debug/libql_ipc.so.1.0.0": 100332, "/usr/bin/.debug/ql_manager_server": 432312}
-PKGSIZE_ql-manager-dbg: 705769
+FILES_INFO: {"/usr/bin/.debug/ql_manager_server": 378476, "/usr/bin/.debug/ql_manager_cli": 49873, "/usr/lib/.debug/libql_ipc.so.1.0.0": 99776, "/usr/lib/.debug/libql_mgmt_client.so.1.0.0": 104040}
+PKGSIZE_ql-manager-dbg: 632165

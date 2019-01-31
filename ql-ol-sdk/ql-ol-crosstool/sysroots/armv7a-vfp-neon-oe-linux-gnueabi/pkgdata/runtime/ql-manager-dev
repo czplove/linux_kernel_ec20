@@ -7,10 +7,10 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_ql-manager-dev: Quectel Manager Modules  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_ql-manager-dev: ql-manager version git-invalidgit-r21 - Development files
 RDEPENDS_ql-manager-dev: ql-manager (= git-invalidgit-r21)
-RRECOMMENDS_ql-manager-dev: glibc-dev qmi-dev wireless-tools-dev libstdc++-dev libgcc-dev data-dev dsutils-dev libiw-dev ql-syslog-dev qmi-framework-dev initscripts-dev ql-common-tools-dev diag-dev
+RRECOMMENDS_ql-manager-dev: glibc-dev qmi-dev wireless-tools-dev libstdc++-dev libgcc-dev data-dev dsutils-dev libiw-dev qmi-framework-dev initscripts-dev ql-common-tools-dev diag-dev
 SECTION_ql-manager-dev: devel
 PKG_ql-manager-dev: ql-manager-dev
 ALLOW_EMPTY_ql-manager-dev: 1
 FILES_ql-manager-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-manager/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libql_mgmt_client.so": 26, "/usr/include/ql-manager/manager_msgr.h": 3182, "/usr/include/ql-manager/ql_mgmt_common.h": 1448, "/usr/lib/libql_ipc.so": 18, "/usr/include/ql-manager/error_msgr.h": 1605, "/usr/include/ql-manager/ql_mgmt_data_call.h": 3745, "/usr/lib/libql_mgmt_client.la": 1091, "/usr/include/ql-manager/ql_mgmt_client.h": 6350, "/usr/include/ql-manager/ql_mgmt_wifi.h": 4205, "/usr/include/ql-manager/ql_mgmt_network.h": 1969, "/usr/lib/pkgconfig/ql-manager.pc": 213, "/usr/lib/libql_ipc.la": 983}
-PKGSIZE_ql-manager-dev: 24835
+FILES_INFO: {"/usr/lib/libql_mgmt_client.so": 26, "/usr/include/ql-manager/manager_msgr.h": 3182, "/usr/include/ql-manager/ql_mgmt_common.h": 1448, "/usr/lib/libql_ipc.so": 18, "/usr/include/ql-manager/error_msgr.h": 1605, "/usr/include/ql-manager/ql_mgmt_data_call.h": 3745, "/usr/lib/libql_mgmt_client.la": 1064, "/usr/include/ql-manager/ql_mgmt_client.h": 6350, "/usr/include/ql-manager/ql_mgmt_wifi.h": 4205, "/usr/include/ql-manager/ql_mgmt_network.h": 1969, "/usr/lib/pkgconfig/ql-manager.pc": 213, "/usr/lib/libql_ipc.la": 983}
+PKGSIZE_ql-manager-dev: 24808

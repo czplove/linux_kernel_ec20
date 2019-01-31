@@ -16,9 +16,8 @@ pkg_postrm_quectel-psm-aware: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/n
 pkg_preinst_quectel-psm-aware: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel_psm_aware" ]; then\n\t/etc/init.d/quectel_psm_aware stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel_psm_aware remove\nfi\n
 pkg_prerm_quectel-psm-aware: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel_psm_aware stop\nfi\n
 FILERPROVIDESFLIST_quectel-psm-aware: /usr/bin/quectel@underscore@psm@underscore@aware
-FILES_INFO: {"/usr/bin/quectel_psm_aware": 13052, "/etc/init.d/quectel_psm_aware": 956}
-FILERPROVIDES_/usr/bin/quectel@underscore@psm@underscore@aware_quectel-psm-aware: elf(buildid) (= d324cf746da4ea85fac5d40de42553b4ee57eef8)
-FILERDEPENDSFLIST_quectel-psm-aware: /etc/init.d/quectel@underscore@psm@underscore@aware /usr/bin/quectel@underscore@psm@underscore@aware
-FILERDEPENDS_/etc/init.d/quectel@underscore@psm@underscore@aware_quectel-psm-aware: /bin/sh
+FILES_INFO: {"/usr/bin/quectel_psm_aware": 13052, "/etc/init.d/quectel_psm_aware": 948}
+FILERPROVIDES_/usr/bin/quectel@underscore@psm@underscore@aware_quectel-psm-aware: elf(buildid) (= a2361f3cd3ccc84dd67ffdd06c3cff0e4fd37473)
+FILERDEPENDSFLIST_quectel-psm-aware: /usr/bin/quectel@underscore@psm@underscore@aware
 FILERDEPENDS_/usr/bin/quectel@underscore@psm@underscore@aware_quectel-psm-aware: libc.so.6 libc.so.6(GLIBC_2.4) libpsm_client.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_quectel-psm-aware: 14008
+PKGSIZE_quectel-psm-aware: 14000

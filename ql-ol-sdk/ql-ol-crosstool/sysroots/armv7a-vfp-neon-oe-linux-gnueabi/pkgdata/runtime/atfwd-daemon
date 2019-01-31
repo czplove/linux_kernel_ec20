@@ -10,11 +10,13 @@ RDEPENDS_atfwd-daemon: libcrypto (>= 1.0.1k) glibc (>= 2.21) zlib (>= 1.2.8) qmi
 SECTION: base
 PKG_atfwd-daemon: atfwd-daemon
 FILES_atfwd-daemon: /usr/bin/* /usr/sbin/* /usr/lib/atfwd-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/atfwd-daemon /usr/lib/atfwd-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
-FILERPROVIDESFLIST_atfwd-daemon: /usr/bin/atfwd@underscore@daemon
-FILES_INFO: {"/usr/bin/wget": 331520, "/etc/init.d/start_atfwd_daemon": 454, "/usr/bin/atfwd_daemon": 392436, "/usr/bin/app_detectList": 210}
-FILERPROVIDES_/usr/bin/atfwd@underscore@daemon_atfwd-daemon: elf(buildid) (= 451ba5d2b72154a1f40acd6fbb23e2944a0359cb)
-FILERDEPENDSFLIST_atfwd-daemon: /usr/bin/wget /etc/init.d/start@underscore@atfwd@underscore@daemon /usr/bin/atfwd@underscore@daemon
+FILERPROVIDESFLIST_atfwd-daemon: /usr/bin/atfwd@underscore@daemon /usr/lib/libmad.so.0
+FILES_INFO: {"/usr/bin/wget": 331520, "/etc/init.d/start_atfwd_daemon": 454, "/usr/bin/atfwd_daemon": 379156, "/usr/bin/app_detectList": 210, "/usr/lib/libmad.so.0": 84912}
+FILERPROVIDES_/usr/bin/atfwd@underscore@daemon_atfwd-daemon: elf(buildid) (= 1d35d0241705e6601a59adf7f7c7bcdc06c77e5a)
+FILERPROVIDES_/usr/lib/libmad.so.0_atfwd-daemon: elf(buildid) (= 449ebdc95882bace6cfa91845effd41faadcd1cb) libmad.so.0
+FILERDEPENDSFLIST_atfwd-daemon: /usr/bin/wget /etc/init.d/start@underscore@atfwd@underscore@daemon /usr/bin/atfwd@underscore@daemon /usr/lib/libmad.so.0
 FILERDEPENDS_/usr/bin/wget_atfwd-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) librt.so.1 librt.so.1(GLIBC_2.4) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libz.so.1 rtld(GNU_HASH)
 FILERDEPENDS_/etc/init.d/start@underscore@atfwd@underscore@daemon_atfwd-daemon: /bin/sh
 FILERDEPENDS_/usr/bin/atfwd@underscore@daemon_atfwd-daemon: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdsutils.so.1 libfotainfo.so.1 liblog.so.0 libmad.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_lib_audio.so.1 libql_utils.so.1 libqmi.so.1 libqmi_cci.so.1 libqmiservices.so.1 rtld(GNU_HASH)
-PKGSIZE_atfwd-daemon: 724620
+FILERDEPENDS_/usr/lib/libmad.so.0_atfwd-daemon: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_atfwd-daemon: 796252

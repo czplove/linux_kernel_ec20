@@ -11,5 +11,5 @@ SECTION_audcaltests-dbg: devel
 PKG_audcaltests-dbg: audcaltests-dbg
 ALLOW_EMPTY_audcaltests-dbg: 1
 FILES_audcaltests-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/audcaltests/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/audcaltests/.debug /usr/lib/matchbox-panel/.debug /usr/lib/audcaltests/audcaltests/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/sendcal": 5606}
-PKGSIZE_audcaltests-dbg: 5606
+FILES_INFO: {"/usr/bin/.debug/sendcal": 5570}
+PKGSIZE_audcaltests-dbg: 5570

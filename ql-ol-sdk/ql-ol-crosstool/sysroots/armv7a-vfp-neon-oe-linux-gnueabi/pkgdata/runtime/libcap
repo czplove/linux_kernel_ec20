@@ -13,7 +13,7 @@ PKG_libcap: libcap2
 FILES_libcap: /usr/bin/* /usr/sbin/* /usr/lib/libcap/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libcap /usr/lib/libcap/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/security/*.so
 FILERPROVIDESFLIST_libcap: /lib/libcap.so.2.24
 FILES_INFO: {"/lib/libcap.so.2": 13420}
-FILERPROVIDES_/lib/libcap.so.2.24_libcap: elf(buildid) (= 7b7cbfdc79b74e3ef09a95b9056b1d371766744e) libcap.so.2
+FILERPROVIDES_/lib/libcap.so.2.24_libcap: elf(buildid) (= 2843c6c88aa20625f4c15cdafa24b8ca48808efd) libcap.so.2
 FILERDEPENDSFLIST_libcap: /lib/libcap.so.2.24
 FILERDEPENDS_/lib/libcap.so.2.24_libcap: rtld(GNU_HASH)
 PKGSIZE_libcap: 13420

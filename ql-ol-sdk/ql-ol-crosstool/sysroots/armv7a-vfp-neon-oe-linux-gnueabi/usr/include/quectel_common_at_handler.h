@@ -90,10 +90,6 @@ extern int parse_qdiagport_parameters(AtCmd *cmd, atfwd_param_s_type *para);
 extern void query_qdiagport(quec_AtCmdResponse *response);
 #endif
 
-#ifdef QUECTEL_AT_SUBSYS_VERSION  //Wayne.wei -2018/5/25 :add an AT command :AT+QSUBSYSVER to query subsystem version of TZ/SBL/RPM 
-void query_subsys_version(quec_AtCmdResponse *response);
-#endif
-
 #ifdef QUECTEL_QTEMP
 int parse_qtemp_parameters(AtCmd *cmd, atfwd_param_s_type *para);
 void handle_qtemp_exec(void *param, quec_AtCmdResponse * response);

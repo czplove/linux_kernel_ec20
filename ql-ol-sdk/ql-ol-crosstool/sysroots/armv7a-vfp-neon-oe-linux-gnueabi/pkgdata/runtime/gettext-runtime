@@ -12,9 +12,9 @@ PKG_gettext-runtime: gettext-runtime
 FILES_gettext-runtime: /usr/bin/gettext                          /usr/bin/ngettext                          /usr/bin/envsubst                          /usr/bin/gettext.sh                          /usr/lib/libasprintf.so*                          /usr/lib/GNU.Gettext.dll                         
 FILERPROVIDESFLIST_gettext-runtime: /usr/bin/gettext /usr/bin/envsubst /usr/bin/ngettext
 FILES_INFO: {"/usr/bin/gettext": 30888, "/usr/bin/envsubst": 30904, "/usr/bin/ngettext": 30900, "/usr/bin/gettext.sh": 4616}
-FILERPROVIDES_/usr/bin/gettext_gettext-runtime: elf(buildid) (= de10459fcb184f3abc094724b36f0c52561acc1d)
-FILERPROVIDES_/usr/bin/envsubst_gettext-runtime: elf(buildid) (= 56c7b9c2b5f43e142a83673cd955ee2388acbc61)
-FILERPROVIDES_/usr/bin/ngettext_gettext-runtime: elf(buildid) (= cb8324fff72e0e7564495ef4904117834adfe51e)
+FILERPROVIDES_/usr/bin/gettext_gettext-runtime: elf(buildid) (= e0e59d834800a420fb9b181545dbef6acc4ec792)
+FILERPROVIDES_/usr/bin/envsubst_gettext-runtime: elf(buildid) (= 509992b186041155bb7d8cb62f67a0ce79b42d0a)
+FILERPROVIDES_/usr/bin/ngettext_gettext-runtime: elf(buildid) (= 9715951dc7c1cf84cbcd61943c4b1bf92018d5fe)
 FILERDEPENDSFLIST_gettext-runtime: /usr/bin/gettext /usr/bin/envsubst /usr/bin/ngettext /usr/bin/gettext.sh
 FILERDEPENDS_/usr/bin/gettext_gettext-runtime: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/envsubst_gettext-runtime: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

@@ -11,5 +11,5 @@ SECTION_quectel-remotefs-dbg: devel
 PKG_quectel-remotefs-dbg: quectel-remotefs-dbg
 ALLOW_EMPTY_quectel-remotefs-dbg: 1
 FILES_quectel-remotefs-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-remotefs/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-remotefs/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-remotefs/quectel-remotefs/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel-remotefs-service": 43201}
-PKGSIZE_quectel-remotefs-dbg: 43201
+FILES_INFO: {"/usr/bin/.debug/quectel-remotefs-service": 42969}
+PKGSIZE_quectel-remotefs-dbg: 42969

@@ -11,5 +11,5 @@ SECTION_ql-common-tools-dbg: devel
 PKG_ql-common-tools-dbg: ql-common-tools-dbg
 ALLOW_EMPTY_ql-common-tools-dbg: 1
 FILES_ql-common-tools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-common-tools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-common-tools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-common-tools/ql-common-tools/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libeloop.so.1.0.0": 89245, "/usr/lib/.debug/libql_log.so.1.0.0": 18336, "/usr/lib/.debug/libql_utils.so.1.0.0": 43561}
-PKGSIZE_ql-common-tools-dbg: 151142
+FILES_INFO: {"/usr/lib/.debug/libql_log.so.1.0.0": 18248, "/usr/lib/.debug/libeloop.so.1.0.0": 88865, "/usr/lib/.debug/libql_utils.so.1.0.0": 38198}
+PKGSIZE_ql-common-tools-dbg: 145311

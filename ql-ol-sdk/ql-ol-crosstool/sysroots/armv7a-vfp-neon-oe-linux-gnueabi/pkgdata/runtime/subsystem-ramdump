@@ -17,7 +17,7 @@ pkg_preinst_subsystem-ramdump: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_
 pkg_prerm_subsystem-ramdump: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_subsystem_ramdump stop\nfi\n
 FILERPROVIDESFLIST_subsystem-ramdump: /usr/bin/subsystem@underscore@ramdump
 FILES_INFO: {"/etc/init.d/start_subsystem_ramdump": 392, "/usr/bin/subsystem_ramdump": 16604}
-FILERPROVIDES_/usr/bin/subsystem@underscore@ramdump_subsystem-ramdump: elf(buildid) (= 1c03f5dc1a03df46ea02f315a584c05330de3196)
+FILERPROVIDES_/usr/bin/subsystem@underscore@ramdump_subsystem-ramdump: elf(buildid) (= 2c74e86a4bffa5c4f5e43ab0fd246a943489ad80)
 FILERDEPENDSFLIST_subsystem-ramdump: /usr/bin/subsystem@underscore@ramdump /etc/init.d/start@underscore@subsystem@underscore@ramdump
 FILERDEPENDS_/usr/bin/subsystem@underscore@ramdump_subsystem-ramdump: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/etc/init.d/start@underscore@subsystem@underscore@ramdump_subsystem-ramdump: /bin/sh

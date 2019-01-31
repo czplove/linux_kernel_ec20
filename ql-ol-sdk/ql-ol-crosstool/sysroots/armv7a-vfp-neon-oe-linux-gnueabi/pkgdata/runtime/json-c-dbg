@@ -12,5 +12,5 @@ SECTION_json-c-dbg: devel
 PKG_json-c-dbg: libjson-c-dbg
 ALLOW_EMPTY_json-c-dbg: 1
 FILES_json-c-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/json-c/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/json-c/.debug /usr/lib/matchbox-panel/.debug /usr/lib/json-c/json-c/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libjson-c.so.2.0.1": 18122}
-PKGSIZE_json-c-dbg: 18122
+FILES_INFO: {"/usr/lib/.debug/libjson-c.so.2.0.1": 17886}
+PKGSIZE_json-c-dbg: 17886

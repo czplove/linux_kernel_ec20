@@ -11,5 +11,5 @@ SECTION_quectel-psm-aware-dbg: devel
 PKG_quectel-psm-aware-dbg: quectel-psm-aware-dbg
 ALLOW_EMPTY_quectel-psm-aware-dbg: 1
 FILES_quectel-psm-aware-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-psm-aware/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-psm-aware/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-psm-aware/quectel-psm-aware/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel_psm_aware": 26807}
-PKGSIZE_quectel-psm-aware-dbg: 26807
+FILES_INFO: {"/usr/bin/.debug/quectel_psm_aware": 26643}
+PKGSIZE_quectel-psm-aware-dbg: 26643

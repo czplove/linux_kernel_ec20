@@ -10,5 +10,5 @@ RDEPENDS_ffmpeg-staticdev: ffmpeg-dev (= 2.3-r0)
 SECTION_ffmpeg-staticdev: devel
 PKG_ffmpeg-staticdev: ffmpeg-staticdev
 FILES_ffmpeg-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ffmpeg/*.a
-FILES_INFO: {"/lib/libavformat.a": 1079242, "/lib/libavcodec.a": 2059108, "/lib/libavutil.a": 270912}
-PKGSIZE_ffmpeg-staticdev: 3409262
+FILES_INFO: {"/lib/libavformat.a": 1079226, "/lib/libavcodec.a": 2059088, "/lib/libavutil.a": 270892}
+PKGSIZE_ffmpeg-staticdev: 3409206

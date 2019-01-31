@@ -12,5 +12,5 @@ SECTION_dsutils-dbg: devel
 PKG_dsutils-dbg: libdsutils-dbg
 ALLOW_EMPTY_dsutils-dbg: 1
 FILES_dsutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dsutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dsutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dsutils/dsutils/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libdsutils.so.1.0.0": 127440}
-PKGSIZE_dsutils-dbg: 127440
+FILES_INFO: {"/usr/lib/.debug/libdsutils.so.1.0.0": 127044}
+PKGSIZE_dsutils-dbg: 127044

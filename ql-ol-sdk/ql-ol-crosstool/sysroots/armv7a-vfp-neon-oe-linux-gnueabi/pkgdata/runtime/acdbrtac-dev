@@ -13,5 +13,5 @@ SECTION_acdbrtac-dev: devel
 PKG_acdbrtac-dev: libacdbrtac-dev
 ALLOW_EMPTY_acdbrtac-dev: 1
 FILES_acdbrtac-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acdbrtac/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/pkgconfig/acdbrtac.pc": 192, "/usr/lib/libacdbrtac.so": 20, "/usr/lib/libacdbrtac.la": 1277, "/usr/include/acdbrtac/acdb-rtac.h": 702}
+FILES_INFO: {"/usr/lib/pkgconfig/acdbrtac.pc": 192, "/usr/include/acdbrtac/acdb-rtac.h": 702, "/usr/lib/libacdbrtac.so": 20, "/usr/lib/libacdbrtac.la": 1277}
 PKGSIZE_acdbrtac-dev: 2191

@@ -10,5 +10,5 @@ RDEPENDS_libid3tag-staticdev: libid3tag-dev (= 0.15.1b-r7)
 SECTION_libid3tag-staticdev: devel
 PKG_libid3tag-staticdev: libid3tag-staticdev
 FILES_libid3tag-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libid3tag/*.a
-FILES_INFO: {"/usr/lib/libid3tag.a": 116672}
-PKGSIZE_libid3tag-staticdev: 116672
+FILES_INFO: {"/usr/lib/libid3tag.a": 116568}
+PKGSIZE_libid3tag-staticdev: 116568

@@ -34,8 +34,9 @@ USR_LIB=$(QL_SDK_PATH)/lib/libql_common_api.a
 USR_LIB+=$(QL_SDK_PATH)/lib/libql_peripheral.a
 USR_LIB+=./lib/libbluegate.so
 
-ql_nf3303_ble_server = demo_UI
-ql_nf3303_ble_server_obj = ./source/demo_UI.o \
+ql_nf3303_ble_server = example_nf3303_ble_server
+ql_nf3303_ble_server_obj = ./source/ql_nf3303_ble_server.o \
+			./source/ql_nf3303_bt_callback.o \
 			./source/ql_nf3303_ble_common.o \
 			./source/ql_nf3303_ble_sleep.o
 

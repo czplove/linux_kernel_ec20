@@ -9,5 +9,5 @@ SUMMARY_bzip2-doc: Very high-quality data compression program - Documentation fi
 SECTION_bzip2-doc: doc
 PKG_bzip2-doc: bzip2-doc
 FILES_bzip2-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILES_INFO: {"/usr/share/man/man1/bzegrep.1": 18, "/usr/share/man/man1/bzmore.1": 4310, "/usr/share/man/man1/bzcmp.1": 18, "/usr/share/man/man1/bzless.1": 18, "/usr/share/man/man1/bzip2.1": 16256, "/usr/share/man/man1/bzfgrep.1": 18, "/usr/share/man/man1/bzgrep.1": 1297, "/usr/share/man/man1/bzdiff.1": 897}
+FILES_INFO: {"/usr/share/man/man1/bzip2.1": 16256, "/usr/share/man/man1/bzless.1": 18, "/usr/share/man/man1/bzcmp.1": 18, "/usr/share/man/man1/bzmore.1": 4310, "/usr/share/man/man1/bzegrep.1": 18, "/usr/share/man/man1/bzfgrep.1": 18, "/usr/share/man/man1/bzgrep.1": 1297, "/usr/share/man/man1/bzdiff.1": 897}
 PKGSIZE_bzip2-doc: 22832

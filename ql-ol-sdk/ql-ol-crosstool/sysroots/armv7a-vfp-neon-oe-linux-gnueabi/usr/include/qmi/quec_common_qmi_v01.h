@@ -41,7 +41,7 @@
  *====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
 
 /* This file was generated with Tool version 6.14.7 
-   It was generated on: Wed Aug 15 2018 (Spin 0)
+   It was generated on: Fri Dec  8 2017 (Spin 0)
    From IDL File: quec_common_qmi_v01.idl */
 
 /** @defgroup quec_common_qmi_qmi_consts Constant values defined in the IDL */
@@ -70,7 +70,7 @@ extern "C" {
 /** Major Version Number of the qmi_idl_compiler used to generate this file */
 #define QUEC_COMMON_QMI_V01_IDL_TOOL_VERS 0x06
 /** Maximum Defined Message ID */
-#define QUEC_COMMON_QMI_V01_MAX_MESSAGE_ID 0x0013
+#define QUEC_COMMON_QMI_V01_MAX_MESSAGE_ID 0x0010
 /**
     @}
   */
@@ -86,65 +86,66 @@ extern "C" {
     @}
   */
 
+
 /** @addtogroup quec_common_qmi_qmi_enums
-    @{
-  */
+  @{
+ */
 typedef enum {
-  QUEC_RESULT_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  QUEC_RESULT_SUCCESS_V01 = 0, /**<  Success. */
-  QUEC_RESULT_FAILURE_V01 = 1, /**<  Failure. */
-  QUEC_RESULT_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+        QUEC_RESULT_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
+        QUEC_RESULT_SUCCESS_V01 = 0, /**<  Success. */
+        QUEC_RESULT_FAILURE_V01 = 1, /**<  Failure. */
+        QUEC_RESULT_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
 }quec_result_t_v01;
 /**
-    @}
-  */
+  @}
+ */
 
 /** @addtogroup quec_common_qmi_qmi_enums
-    @{
-  */
+  @{
+ */
 typedef enum {
-  QUEC_ERROR_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  QUEC_SUCCESS_V01 = 0, /**<  Success. */
-  QUEC_SUCCESS_CONDITIONAL_SUCCESS_V01 = 1, /**<  Conditional success. */
-  QUEC_ERROR_QUEC_SERVICES_NOT_AVAILABLE_V01 = 2, /**<  QUEC services not available. */
-  QUEC_ERROR_GENERIC_V01 = 3, /**<  Generic error. */
-  QUEC_ERROR_BADPARM_V01 = 4, /**<  Bad parameter. */
-  QUEC_ERROR_MEMORY_V01 = 5, /**<  Memory error. */
-  QUEC_ERROR_INVALID_STATE_V01 = 6, /**<  Invalid state. */
-  QUEC_ERROR_MALFORMED_MSG_V01 = 7, /**<  Malformed message. */
-  QUEC_ERROR_NO_MEMORY_V01 = 8, /**<  No memory. */
-  QUEC_ERROR_INTERNAL_V01 = 9, /**<  Internal error. */
-  QUEC_ERROR_ABORTED_V01 = 10, /**<  Action was aborted. */
-  QUEC_ERROR_CLIENT_IDS_EXHAUSTED_V01 = 11, /**<  Client IDs have been exhausted. */
-  QUEC_ERROR_UNABORTABLE_TRANSACTION_V01 = 12, /**<  Unabortable transaction. */
-  QUEC_ERROR_INVALID_CLIENT_ID_V01 = 13, /**<  Invalid client ID. */
-  QUEC_ERROR_NO_THRESHOLDS_V01 = 14, /**<  No thresholds. */
-  QUEC_ERROR_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+        QUEC_ERROR_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
+        QUEC_SUCCESS_V01 = 0, /**<  Success. */
+        QUEC_SUCCESS_CONDITIONAL_SUCCESS_V01 = 1, /**<  Conditional success. */
+        QUEC_ERROR_QUEC_SERVICES_NOT_AVAILABLE_V01 = 2, /**<  QUEC services not available. */
+        QUEC_ERROR_GENERIC_V01 = 3, /**<  Generic error. */
+        QUEC_ERROR_BADPARM_V01 = 4, /**<  Bad parameter. */
+        QUEC_ERROR_MEMORY_V01 = 5, /**<  Memory error. */
+        QUEC_ERROR_INVALID_STATE_V01 = 6, /**<  Invalid state. */
+        QUEC_ERROR_MALFORMED_MSG_V01 = 7, /**<  Malformed message. */
+        QUEC_ERROR_NO_MEMORY_V01 = 8, /**<  No memory. */
+        QUEC_ERROR_INTERNAL_V01 = 9, /**<  Internal error. */
+        QUEC_ERROR_ABORTED_V01 = 10, /**<  Action was aborted. */
+        QUEC_ERROR_CLIENT_IDS_EXHAUSTED_V01 = 11, /**<  Client IDs have been exhausted. */
+        QUEC_ERROR_UNABORTABLE_TRANSACTION_V01 = 12, /**<  Unabortable transaction. */
+        QUEC_ERROR_INVALID_CLIENT_ID_V01 = 13, /**<  Invalid client ID. */
+        QUEC_ERROR_NO_THRESHOLDS_V01 = 14, /**<  No thresholds. */
+        QUEC_ERROR_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
 }quec_error_t_v01;
 /**
-    @}
-  */
+  @}
+ */
 
 /** @addtogroup quec_common_qmi_qmi_aggregates
-    @{
-  */
+  @{
+ */
 typedef struct {
 
-  quec_result_t_v01 result;
-  /**<   Result code:
-                            - QUEC_RESULT_SUCCESS
-                            - QUEC_RESULT_FAILURE
-                          */
+        quec_result_t_v01 result;
+        /**<   Result code:
+          - QUEC_RESULT_SUCCESS
+          - QUEC_RESULT_FAILURE
+         */
 
-  quec_error_t_v01 error;
-  /**<   Error code. Possible error code values are
-                            described in the error codes section of each
-                            message definition.
-                          */
+        quec_error_t_v01 error;
+        /**<   Error code. Possible error code values are
+          described in the error codes section of each
+          message definition.
+         */
 }quec_response_t_v01;  /* Type */
 /**
-    @}
-  */
+  @}
+ */
 
 /** @addtogroup quec_common_qmi_qmi_messages
     @{
@@ -743,98 +744,56 @@ typedef struct {
     @}
   */
 
+
 /** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
+  @{
+ */
 /**  Message;  */
 typedef struct {
 
-  /* Mandatory */
-  uint8_t call_id;
+        /* Mandatory */
+        uint8_t call_id;
 }quec_common_qmi_ecall_hangup_req_msg_v01;  /* Message */
 /**
-    @}
-  */
+  @}
+ */
 
 /** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
+  @{
+ */
 /**  Message;  */
 typedef struct {
 
-  /* Mandatory */
-  quec_response_t_v01 resp;
+        /* Mandatory */
+        quec_response_t_v01 resp;
 }quec_common_qmi_ecall_hangup_resp_msg_v01;  /* Message */
 /**
-    @}
-  */
+  @}
+ */
 
 /** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
+  @{
+ */
 /**  Message;  */
 typedef struct {
-  /* This element is a placeholder to prevent the declaration of
-     an empty struct.  DO NOT USE THIS FIELD UNDER ANY CIRCUMSTANCE */
-  char __placeholder;
+        /* This element is a placeholder to prevent the declaration of
+           an empty struct.  DO NOT USE THIS FIELD UNDER ANY CIRCUMSTANCE */
+        char __placeholder;
 }quec_common_qmi_set_ecall_config_req_msg_v01;
 
-  /* Message */
-/**
-    @}
-  */
-
 /** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
+  @{
+ */
 /**  Message;  */
 typedef struct {
 
-  /* Mandatory */
-  quec_response_t_v01 resp;
+        /* Mandatory */
+        quec_response_t_v01 resp;
 }quec_common_qmi_set_ecall_config_resp_msg_v01;  /* Message */
 /**
-    @}
-  */
+  @}
+ */
 
-/** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
-/**  Message;  */
-typedef struct {
-
-  /* Mandatory */
-  uint32_t thermal_limit_rates_flag;
-}quec_common_qmi_get_thermal_limit_rates_flag_req_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
-/**  Message;  */
-typedef struct {
-
-  /* Mandatory */
-  uint32_t thermal_limit_rates_flag;
-}quec_common_qmi_get_thermal_limit_rates_flag_resp_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup quec_common_qmi_qmi_messages
-    @{
-  */
-/**  Message;  */
-typedef struct {
-
-  /* Mandatory */
-  uint32_t thermal_limit_rates_flag;
-}quec_common_qmi_get_thermal_limit_rates_flag_ind_msg_v01;  /* Message */
-/**
-    @}
-  */
 
 /* Conditional compilation tags for message removal */ 
 
@@ -888,9 +847,7 @@ typedef struct {
 #define QUEC_COMMON_QMI_ECALL_HANGUP_RESP_V01 0x0011
 #define QUEC_COMMON_QMI_SET_ECALL_CONFIG_REQ_V01 0x0012
 #define QUEC_COMMON_QMI_SET_ECALL_CONFIG_RESP_V01 0x0012
-#define QMI_COMM_QMI_GET_THERMAL_LIMIT_RATES_FLAG_REQ_V01 0x0013
-#define QMI_COMM_QMI_GET_THERMAL_LIMIT_RATES_FLAG_RESP_V01 0x0013
-#define QMI_COMM_QMI_GET_THERMAL_LIMIT_RATES_FLAG_IND_V01 0x0013
+
 /**
     @}
   */

@@ -12,7 +12,7 @@ PKG_python-datetime: python-datetime
 FILES_python-datetime: /usr/lib/python2.7/_strptime.* /usr/lib/python2.7/calendar.* /usr/lib/python2.7/lib-dynload/datetime.so 
 FILERPROVIDESFLIST_python-datetime: /usr/lib/python2.7/lib-dynload/datetime.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/datetime.so": 82108, "/usr/lib/python2.7/_strptime.py": 20221, "/usr/lib/python2.7/calendar.py": 23305, "/usr/lib/python2.7/calendar.pyc": 27627, "/usr/lib/python2.7/_strptime.pyc": 14835}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/datetime.so_python-datetime: datetime.so elf(buildid) (= c8f75ff585c0a062196cef3daaf7ff2cfbabe406)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/datetime.so_python-datetime: datetime.so elf(buildid) (= 9a9bcc0c741f05268845920dfb63286a4c7104a9)
 FILERDEPENDSFLIST_python-datetime: /usr/lib/python2.7/lib-dynload/datetime.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/datetime.so_python-datetime: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-datetime: 168096

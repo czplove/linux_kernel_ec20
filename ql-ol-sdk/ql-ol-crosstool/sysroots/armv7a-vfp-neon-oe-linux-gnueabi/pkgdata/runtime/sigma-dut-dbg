@@ -11,5 +11,5 @@ SECTION_sigma-dut-dbg: devel
 PKG_sigma-dut-dbg: sigma-dut-dbg
 ALLOW_EMPTY_sigma-dut-dbg: 1
 FILES_sigma-dut-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sigma-dut/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sigma-dut/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sigma-dut/sigma-dut/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/sigma_dut": 29362}
-PKGSIZE_sigma-dut-dbg: 29362
+FILES_INFO: {"/usr/sbin/.debug/sigma_dut": 29158}
+PKGSIZE_sigma-dut-dbg: 29158

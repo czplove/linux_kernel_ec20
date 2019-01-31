@@ -10,5 +10,5 @@ RDEPENDS_mcm-core-staticdev: mcm-core-dev (= git-invalidgit-r5)
 SECTION_mcm-core-staticdev: devel
 PKG_mcm-core-staticdev: mcm-core-staticdev
 FILES_mcm-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/mcm-core/*.a
-FILES_INFO: {"/usr/lib/libmcm.a": 120746, "/usr/lib/libmcm_log_util.a": 28898, "/usr/lib/libmcmipc.a": 82058, "/usr/lib/libmcm_srv_audio.a": 71974}
-PKGSIZE_mcm-core-staticdev: 303676
+FILES_INFO: {"/usr/lib/libmcm.a": 104286, "/usr/lib/libmcm_log_util.a": 22676, "/usr/lib/libmcmipc.a": 70384, "/usr/lib/libmcm_srv_audio.a": 82350}
+PKGSIZE_mcm-core-staticdev: 279696

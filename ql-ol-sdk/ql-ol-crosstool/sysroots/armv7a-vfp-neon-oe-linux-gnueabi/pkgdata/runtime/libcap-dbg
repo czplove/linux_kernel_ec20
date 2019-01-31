@@ -11,5 +11,5 @@ SECTION_libcap-dbg: devel
 PKG_libcap-dbg: libcap-dbg
 ALLOW_EMPTY_libcap-dbg: 1
 FILES_libcap-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libcap/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libcap/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libcap/libcap/.debug /usr/src/debug /lib/security/.debug/*.so
-FILES_INFO: {"/usr/sbin/.debug/setcap": 14675, "/usr/sbin/.debug/capsh": 30753, "/usr/sbin/.debug/getcap": 13337, "/usr/sbin/.debug/getpcaps": 10691, "/lib/.debug/libcap.so.2.24": 43187}
-PKGSIZE_libcap-dbg: 112643
+FILES_INFO: {"/usr/sbin/.debug/setcap": 14547, "/usr/sbin/.debug/capsh": 30609, "/usr/sbin/.debug/getcap": 13193, "/usr/sbin/.debug/getpcaps": 10547, "/lib/.debug/libcap.so.2.24": 42467}
+PKGSIZE_libcap-dbg: 111363

@@ -13,7 +13,7 @@ PKG_ncurses-libmenu: libmenu5
 FILES_ncurses-libmenu: /usr/lib/libmenu.so.5 /usr/lib/libmenu.so.5.9
 FILERPROVIDESFLIST_ncurses-libmenu: /usr/lib/libmenu.so.5.9
 FILES_INFO: {"/usr/lib/libmenu.so.5": 23864}
-FILERPROVIDES_/usr/lib/libmenu.so.5.9_ncurses-libmenu: elf(buildid) (= f50453c3d14886c04b61af968f8f3de9a6659c57) libmenu.so.5
+FILERPROVIDES_/usr/lib/libmenu.so.5.9_ncurses-libmenu: elf(buildid) (= d78d5f3bcebec1419be871d79659d123acc88c37) libmenu.so.5
 FILERDEPENDSFLIST_ncurses-libmenu: /usr/lib/libmenu.so.5.9
 FILERDEPENDS_/usr/lib/libmenu.so.5.9_ncurses-libmenu: libc.so.6 libc.so.6(GLIBC_2.4) libncurses.so.5 libtinfo.so.5 rtld(GNU_HASH)
 PKGSIZE_ncurses-libmenu: 23864

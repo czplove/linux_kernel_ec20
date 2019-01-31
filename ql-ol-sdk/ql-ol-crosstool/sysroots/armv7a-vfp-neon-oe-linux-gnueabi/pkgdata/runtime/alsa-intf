@@ -6,17 +6,17 @@ PKGR: r4
 LICENSE: Apache-2.0
 DESCRIPTION: ALSA Framework Library
 SUMMARY: alsa-intf version git-invalidgit-r4
-RDEPENDS_alsa-intf: audioalsa (>= git) adiertac (>= git-invalidgit) diag (>= git-invalidgit) glibc (>= 2.21) acdbloader (>= git-invalidgit) glib-2.0 (>= 2.42.1) acdbmapper (>= git-invalidgit) acdbrtac (>= git-invalidgit) system-core-liblog (>= git) audcal (>= git-invalidgit) time-genoff (>= git-invalidgit)
+RDEPENDS_alsa-intf: audioalsa (>= git) adiertac (>= git-invalidgit) diag (>= git-invalidgit) time-genoff (>= git-invalidgit) acdbloader (>= git-invalidgit) glib-2.0 (>= 2.42.1) acdbmapper (>= git-invalidgit) acdbrtac (>= git-invalidgit) system-core-liblog (>= git) audcal (>= git-invalidgit) glibc (>= 2.21)
 SECTION: base
 PKG_alsa-intf: alsa-intf
 FILES_alsa-intf: /usr/bin/* /usr/sbin/* /usr/lib/alsa-intf/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /etc/lib/udev/rules.d /etc/share/alsa-intf /usr/lib/alsa-intf/* /etc/share/pixmaps /etc/share/applications /etc/share/idl /etc/share/omf /etc/share/sounds /usr/lib/bonobo/servers /etc/snd_soc_msm/*
 FILERPROVIDESFLIST_alsa-intf: /usr/bin/alsaucm@underscore@test /usr/bin/amix /usr/bin/arec /usr/bin/aplay /usr/lib/libalsa@underscore@intf.so.1.0.0
-FILES_INFO: {"/etc/snd_soc_msm/snd_soc_msm_Sitar": 110958, "/etc/snd_soc_msm/snd_soc_msm_2x": 201788, "/etc/snd_soc_msm/snd_soc_msm_Tapan_SKUF": 168909, "/etc/snd_soc_msm/snd_soc_msm_TapanLite": 187079, "/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuaa": 118266, "/etc/snd_soc_msm/snd_soc_msm_Tomtom_I2S": 19312, "/usr/bin/arec": 14924, "/etc/snd_soc_msm/snd_soc_msm_8x10_wcd": 118266, "/usr/lib/libalsa_intf.so.1": 77628, "/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3": 137318, "/usr/bin/aplay": 16616, "/etc/snd_soc_msm/snd_soc_msm_Tasha_I2S": 12485, "/etc/snd_soc_msm/snd_soc_msm_Taiko_I2S": 16475, "/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuab": 118241, "/etc/snd_soc_msm/snd_soc_msm_I2S": 34757, "/usr/bin/alsaucm_test": 16956, "/etc/snd_soc_msm/snd_soc_msm": 73864, "/usr/bin/amix": 4888, "/etc/snd_soc_msm/snd_soc_msm_Tapan": 187522}
-FILERPROVIDES_/usr/bin/alsaucm@underscore@test_alsa-intf: elf(buildid) (= b3c99059c7b4b4496f599c6bf08ec20658e2de3b)
-FILERPROVIDES_/usr/bin/amix_alsa-intf: elf(buildid) (= 9d9fb2a01442336d66441be6932dc28df442b48a)
-FILERPROVIDES_/usr/bin/arec_alsa-intf: elf(buildid) (= 5d4430bc56153c675cbeb919e4484addd72c15a8)
-FILERPROVIDES_/usr/bin/aplay_alsa-intf: elf(buildid) (= b5660cd3bec85b8efdf275433a1340d423cae8b4)
-FILERPROVIDES_/usr/lib/libalsa@underscore@intf.so.1.0.0_alsa-intf: elf(buildid) (= bd735e8b0885b635a46c1c3914e97244e7c41576) libalsa_intf.so.1
+FILES_INFO: {"/etc/snd_soc_msm/snd_soc_msm_Sitar": 110958, "/etc/snd_soc_msm/snd_soc_msm_2x": 201788, "/etc/snd_soc_msm/snd_soc_msm_TapanLite": 187079, "/etc/snd_soc_msm/snd_soc_msm_Tapan_SKUF": 168909, "/etc/snd_soc_msm/snd_soc_msm_Tomtom_I2S": 19312, "/etc/snd_soc_msm/snd_soc_msm_8x10_wcd": 118266, "/usr/bin/arec": 14924, "/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3": 137318, "/usr/bin/aplay": 16616, "/etc/snd_soc_msm/snd_soc_msm_Tasha_I2S": 12485, "/etc/snd_soc_msm/snd_soc_msm_Taiko_I2S": 16475, "/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuab": 118241, "/etc/snd_soc_msm/snd_soc_msm_I2S": 34757, "/usr/lib/libalsa_intf.so.1": 77628, "/usr/bin/alsaucm_test": 16956, "/etc/snd_soc_msm/snd_soc_msm": 73864, "/usr/bin/amix": 4888, "/etc/snd_soc_msm/snd_soc_msm_8x10_wcd_skuaa": 118266, "/etc/snd_soc_msm/snd_soc_msm_Tapan": 187522}
+FILERPROVIDES_/usr/bin/alsaucm@underscore@test_alsa-intf: elf(buildid) (= 443659a5f50a46bf6fd3cf47c68577c7a0f8f065)
+FILERPROVIDES_/usr/bin/amix_alsa-intf: elf(buildid) (= b31b24859b30a4f8cff6a8728e3bedc0c1e42a07)
+FILERPROVIDES_/usr/bin/arec_alsa-intf: elf(buildid) (= 02ef558760b1d5212549fd3a218d7cc1a8c34567)
+FILERPROVIDES_/usr/bin/aplay_alsa-intf: elf(buildid) (= 409ce737032ffa261c8d69a69ec7a146301af852)
+FILERPROVIDES_/usr/lib/libalsa@underscore@intf.so.1.0.0_alsa-intf: elf(buildid) (= 6a4f9ff16fa81b218b64bc2f4b85a5c4dbd5e459) libalsa_intf.so.1
 FILERDEPENDSFLIST_alsa-intf: /usr/bin/alsaucm@underscore@test /usr/bin/amix /usr/bin/arec /usr/bin/aplay /usr/lib/libalsa@underscore@intf.so.1.0.0
 FILERDEPENDS_/usr/bin/alsaucm@underscore@test_alsa-intf: libacdbloader.so.1 libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/amix_alsa-intf: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)

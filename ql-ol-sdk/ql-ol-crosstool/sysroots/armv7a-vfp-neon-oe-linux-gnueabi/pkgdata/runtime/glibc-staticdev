@@ -11,5 +11,5 @@ RPROVIDES_glibc-staticdev: eglibc-staticdev libc-staticdev glibc-staticdev
 SECTION_glibc-staticdev: devel
 PKG_glibc-staticdev: libc6-staticdev
 FILES_glibc-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/glibc/*.a /usr/lib/*.a /lib/*.a
-FILES_INFO: {"/usr/lib/libg.a": 944, "/usr/lib/libpthread.a": 310426, "/usr/lib/libm.a": 765012, "/usr/lib/libanl.a": 14686, "/usr/lib/libnsl.a": 133222, "/usr/lib/librt.a": 61366, "/usr/lib/libieee.a": 805, "/usr/lib/libutil.a": 9696, "/usr/lib/libBrokenLocale.a": 1354, "/usr/lib/libcrypt.a": 43802, "/usr/lib/libresolv.a": 101464, "/usr/lib/librpcsvc.a": 35970, "/usr/lib/libmcheck.a": 1076, "/usr/lib/libdl.a": 9194, "/usr/lib/libc.a": 3413774}
+FILES_INFO: {"/usr/lib/libg.a": 944, "/usr/lib/libpthread.a": 310426, "/usr/lib/libm.a": 765012, "/usr/lib/libdl.a": 9194, "/usr/lib/libnsl.a": 133222, "/usr/lib/libutil.a": 9696, "/usr/lib/libieee.a": 805, "/usr/lib/librt.a": 61366, "/usr/lib/libBrokenLocale.a": 1354, "/usr/lib/libcrypt.a": 43802, "/usr/lib/libresolv.a": 101464, "/usr/lib/librpcsvc.a": 35970, "/usr/lib/libmcheck.a": 1076, "/usr/lib/libanl.a": 14686, "/usr/lib/libc.a": 3413774}
 PKGSIZE_glibc-staticdev: 4902791

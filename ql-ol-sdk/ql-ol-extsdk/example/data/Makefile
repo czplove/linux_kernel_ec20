@@ -4,7 +4,7 @@
 QL_SDK_PATH   ?= $(shell pwd)/../..
 
 QL_EXP_TARGETS = example_data_call_v2 example_apn_v2 example_default_profile example_data_call_v2_cdma
-QL_EXP_LDLIBS  = -lql_sys_log
+QL_EXP_LDLIBS  =
 
 #--------------------------------------------------------
 # TOOLS BASIC CONFIG

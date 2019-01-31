@@ -11,5 +11,5 @@ SECTION_quectel-gps-handle-dbg: devel
 PKG_quectel-gps-handle-dbg: quectel-gps-handle-dbg
 ALLOW_EMPTY_quectel-gps-handle-dbg: 1
 FILES_quectel-gps-handle-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-gps-handle/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-gps-handle/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-gps-handle/quectel-gps-handle/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel-gps-handle": 35033, "/usr/bin/.debug/quectel-uart-ddp": 35033}
-PKGSIZE_quectel-gps-handle-dbg: 70066
+FILES_INFO: {"/usr/bin/.debug/quectel-gps-handle": 34943, "/usr/bin/.debug/quectel-uart-ddp": 34943}
+PKGSIZE_quectel-gps-handle-dbg: 69886

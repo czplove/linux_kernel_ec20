@@ -15,7 +15,7 @@ PKG_libjpeg-turbo: libjpeg8
 FILES_libjpeg-turbo: /usr/bin/* /usr/sbin/* /usr/lib/libjpeg-turbo/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libjpeg-turbo /usr/lib/libjpeg-turbo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_libjpeg-turbo: /usr/lib/libjpeg.so.8.0.2
 FILES_INFO: {"/usr/lib/libjpeg.so.8": 187712}
-FILERPROVIDES_/usr/lib/libjpeg.so.8.0.2_libjpeg-turbo: elf(buildid) (= d4fb7dbd552a5ea901e5020d475e2ee0ce12510b) libjpeg.so.8 libjpeg.so.8(LIBJPEGTURBO_8.0) libjpeg.so.8(LIBJPEG_8.0)
+FILERPROVIDES_/usr/lib/libjpeg.so.8.0.2_libjpeg-turbo: elf(buildid) (= 653de15559668faa0f7405f01ded3f476b20034a) libjpeg.so.8 libjpeg.so.8(LIBJPEGTURBO_8.0) libjpeg.so.8(LIBJPEG_8.0)
 FILERDEPENDSFLIST_libjpeg-turbo: /usr/lib/libjpeg.so.8.0.2
 FILERDEPENDS_/usr/lib/libjpeg.so.8.0.2_libjpeg-turbo: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
 PKGSIZE_libjpeg-turbo: 187712

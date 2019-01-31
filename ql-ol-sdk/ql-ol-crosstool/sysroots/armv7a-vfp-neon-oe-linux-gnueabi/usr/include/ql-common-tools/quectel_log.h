@@ -30,10 +30,6 @@
 #define PRINTF_FORMAT(n, m)
 #endif
 
-#ifdef QL_SYS_LOG
-#include <qlsyslog/ql_sys_log.h>
-#endif
-
 #define __LOG_FATAL   0 /*!< action must be taken immediately */
 #define __LOG_ERROR   1 /*!< error conditions */
 #define __LOG_WARN    2 /*!< warning conditions */
@@ -173,15 +169,9 @@ extern void __print_buffer(const char *file,
  * @return None
  *
  */
-#ifdef QL_SYS_LOG
-#define log_fatal(fmt, ...)	do{ \
-    __ql_log(__file__, __line__, __func__, __LOG_FATAL, (fmt), ##__VA_ARGS__); \
-    ql_sys_log_print(QL_SYS_LOG_ID_SYSTEM, QL_SYS_LOG_FATAL, QL_SYS_LOG_TAG, "[%s  %d]: "fmt, __func__, __LINE__, ##__VA_ARGS__);\
-}while(0)
-#else
 #define log_fatal(fmt, ...)						\
 	__ql_log(__file__, __line__, __func__, __LOG_FATAL, (fmt), ##__VA_ARGS__)
-#endif
+
 /**
  * Write error message to log.
  * 
@@ -191,15 +181,9 @@ extern void __print_buffer(const char *file,
  * @return None
  *
  */
-#ifdef QL_SYS_LOG
-#define log_err(fmt, ...) do{ \
-    __ql_log(__file__, __line__, __func__, __LOG_ERROR, (fmt), ##__VA_ARGS__); \
-    ql_sys_log_print(QL_SYS_LOG_ID_SYSTEM, QL_SYS_LOG_ERROR, QL_SYS_LOG_TAG, "[%s  %d]: "fmt, __func__, __LINE__, ##__VA_ARGS__);\
-}while(0)
-#else
 #define log_err(fmt, ...)						\
 	__ql_log(__file__, __line__, __func__, __LOG_ERROR, (fmt), ##__VA_ARGS__)
-#endif
+
 /**
  * Write warning message to log
  * 
@@ -209,15 +193,8 @@ extern void __print_buffer(const char *file,
  * @return None
  *
  */
-#ifdef QL_SYS_LOG
-#define log_warn(fmt, ...) do{ \
-    __ql_log(__file__, __line__, __func__, __LOG_WARN, (fmt), ##__VA_ARGS__); \
-    ql_sys_log_print(QL_SYS_LOG_ID_SYSTEM, QL_SYS_LOG_INFO, QL_SYS_LOG_TAG, "[%s  %d]: "fmt, __func__, __LINE__, ##__VA_ARGS__);\
-}while(0)
-#else
 #define log_warn(fmt, ...)						\
 	__ql_log(__file__, __line__, __func__, __LOG_WARN, (fmt), ##__VA_ARGS__)
-#endif
 
 /**
  * Write informational message to log
@@ -228,15 +205,8 @@ extern void __print_buffer(const char *file,
  * @return None
  *
  */
-#ifdef QL_SYS_LOG
-#define log_info(fmt, ...) do{\
-	__ql_log(__file__, __line__, __func__, __LOG_INFO, (fmt), ##__VA_ARGS__); \
-    ql_sys_log_print(QL_SYS_LOG_ID_SYSTEM, QL_SYS_LOG_INFO, QL_SYS_LOG_TAG, "[%s  %d]: "fmt, __func__, __LINE__, ##__VA_ARGS__); \
-}while(0)
-#else
 #define log_info(fmt, ...)						\
 	__ql_log(__file__, __line__, __func__, __LOG_INFO, (fmt), ##__VA_ARGS__)
-#endif
 
 /**
  * Write deubg message to log
@@ -247,15 +217,8 @@ extern void __print_buffer(const char *file,
  * @return None
  *
  */
-#ifdef QL_SYS_LOG
-#define log_dbg(fmt, ...) do{\
-	__ql_log(__file__, __line__, __func__, __LOG_DEBUG, (fmt), ##__VA_ARGS__);\
-    ql_sys_log_print(QL_SYS_LOG_ID_SYSTEM, QL_SYS_LOG_DEBUG, QL_SYS_LOG_TAG, "[%s  %d]: "fmt, __func__, __LINE__,##__VA_ARGS__); \
-}while(0)
-#else
 #define log_dbg(fmt, ...)						\
 	__ql_log(__file__, __line__, __func__, __LOG_DEBUG, (fmt), ##__VA_ARGS__)
-#endif
 
 #define print_buffer(buffer, size) \
 	__print_buffer(__file__, __line__, __func__, (buffer), (size))

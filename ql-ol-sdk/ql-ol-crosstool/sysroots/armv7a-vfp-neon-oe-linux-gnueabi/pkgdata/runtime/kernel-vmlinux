@@ -10,6 +10,6 @@ SECTION: base
 PKG_kernel-vmlinux: kernel-vmlinux
 FILES_kernel-vmlinux: /boot/vmlinux*
 FILERPROVIDESFLIST_kernel-vmlinux: /boot/vmlinux-3.18.20
-FILES_INFO: {"/boot/vmlinux-3.18.20": 122695385}
-FILERPROVIDES_/boot/vmlinux-3.18.20_kernel-vmlinux: elf(buildid) (= 885e1237cc3189c9e025047390f54532ef5bad0d)
-PKGSIZE_kernel-vmlinux: 122695385
+FILES_INFO: {"/boot/vmlinux-3.18.20": 122349161}
+FILERPROVIDES_/boot/vmlinux-3.18.20_kernel-vmlinux: elf(buildid) (= b06af8226ea9502786f0100f7f49f7f3a1cb0735)
+PKGSIZE_kernel-vmlinux: 122349161

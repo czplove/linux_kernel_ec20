@@ -11,5 +11,5 @@ SECTION_libical-dbg: devel
 PKG_libical-dbg: libical-dbg
 ALLOW_EMPTY_libical-dbg: 1
 FILES_libical-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libical/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libical/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libical/libical/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libicalss.so.0.48.0": 25817, "/usr/lib/.debug/libicalvcal.so.0.48.0": 13402, "/usr/lib/.debug/libical.so.0.48.0": 63646}
-PKGSIZE_libical-dbg: 102865
+FILES_INFO: {"/usr/lib/.debug/libicalss.so.0.48.0": 25713, "/usr/lib/.debug/libical.so.0.48.0": 63534, "/usr/lib/.debug/libicalvcal.so.0.48.0": 13402}
+PKGSIZE_libical-dbg: 102649

@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-simple-vhost: lighttpd-module-simple-vhost
 FILES_lighttpd-module-simple-vhost: /usr/lib/mod_simple_vhost.so
 FILERPROVIDESFLIST_lighttpd-module-simple-vhost: /usr/lib/mod@underscore@simple@underscore@vhost.so
-FILES_INFO: {"/usr/lib/mod_simple_vhost.so": 7012}
-FILERPROVIDES_/usr/lib/mod@underscore@simple@underscore@vhost.so_lighttpd-module-simple-vhost: elf(buildid) (= d67094346c785836c8e993920a660ce9ce9f0071) mod_simple_vhost.so
+FILES_INFO: {"/usr/lib/mod_simple_vhost.so": 6996}
+FILERPROVIDES_/usr/lib/mod@underscore@simple@underscore@vhost.so_lighttpd-module-simple-vhost: elf(buildid) (= 71f6092d29ec8d9c822707aceac2313114bda206) mod_simple_vhost.so
 FILERDEPENDSFLIST_lighttpd-module-simple-vhost: /usr/lib/mod@underscore@simple@underscore@vhost.so
 FILERDEPENDS_/usr/lib/mod@underscore@simple@underscore@vhost.so_lighttpd-module-simple-vhost: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-simple-vhost: 7012
+PKGSIZE_lighttpd-module-simple-vhost: 6996

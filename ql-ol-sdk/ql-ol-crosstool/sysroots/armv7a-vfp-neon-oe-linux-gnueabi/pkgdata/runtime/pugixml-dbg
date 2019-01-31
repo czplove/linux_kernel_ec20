@@ -12,5 +12,5 @@ SECTION_pugixml-dbg: devel
 PKG_pugixml-dbg: libpugixml-dbg
 ALLOW_EMPTY_pugixml-dbg: 1
 FILES_pugixml-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pugixml/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pugixml/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pugixml/pugixml/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libpugixml.so.1.0.0": 497219}
-PKGSIZE_pugixml-dbg: 497219
+FILES_INFO: {"/usr/lib/.debug/libpugixml.so.1.0.0": 497019}
+PKGSIZE_pugixml-dbg: 497019

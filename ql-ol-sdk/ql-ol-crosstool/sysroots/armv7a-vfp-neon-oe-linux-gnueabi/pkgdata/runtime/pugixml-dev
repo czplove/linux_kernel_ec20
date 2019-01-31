@@ -13,5 +13,5 @@ SECTION_pugixml-dev: devel
 PKG_pugixml-dev: libpugixml-dev
 ALLOW_EMPTY_pugixml-dev: 1
 FILES_pugixml-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pugixml/*.la /lib/*.la
-FILES_INFO: {"/usr/include/pugixml/pugixml.hpp": 46878, "/usr/lib/libpugixml.so": 19, "/usr/lib/libpugixml.la": 942, "/usr/include/pugixml/pugiconfig.hpp": 2747}
+FILES_INFO: {"/usr/include/pugixml/pugiconfig.hpp": 2747, "/usr/include/pugixml/pugixml.hpp": 46878, "/usr/lib/libpugixml.la": 942, "/usr/lib/libpugixml.so": 19}
 PKGSIZE_pugixml-dev: 50586

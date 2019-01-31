@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
 {
     struct timeval set_tv;
 
-    /*Set system time:2028/06/01 17:25:35 CST*/
+    /*Set system time:2018/06/01 09:25:35 CST*/
     set_tv.tv_sec = 1843464335;
     set_tv.tv_usec = 0;
 
@@ -73,7 +73,7 @@ int main(int argc, char *argv[])
         return -1;
     }
     
-    printf("\n\nChange system Time with: 2028/06/01 17:25:35 CST\n");
+    printf("\n\nChange system Time with: 2018/06/01 09:25:35 CST\n");
     if(0 != ql_settimeofday(&set_tv))
     {
         printf("Changed system Time Failed\n");

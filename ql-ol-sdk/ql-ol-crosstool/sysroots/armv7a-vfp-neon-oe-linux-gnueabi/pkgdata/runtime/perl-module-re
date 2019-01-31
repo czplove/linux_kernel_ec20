@@ -12,7 +12,7 @@ PKG_perl-module-re: perl-module-re
 FILES_perl-module-re: /usr/lib/perl/5.20.0/auto/re/re.so /usr/lib/perl/5.20.0/re.pm
 FILERPROVIDESFLIST_perl-module-re: /usr/lib/perl/5.20.0/auto/re/re.so
 FILES_INFO: {"/usr/lib/perl/5.20.0/re.pm": 17969, "/usr/lib/perl/5.20.0/auto/re/re.so": 368184}
-FILERPROVIDES_/usr/lib/perl/5.20.0/auto/re/re.so_perl-module-re: elf(buildid) (= 81f98570c7842b235dc9558ce01830f9c36ebfb5) re.so
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/re/re.so_perl-module-re: elf(buildid) (= 3970c50587c1bff03ccfeb1be52add25565f1a5a) re.so
 FILERDEPENDSFLIST_perl-module-re: /usr/lib/perl/5.20.0/auto/re/re.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/re/re.so_perl-module-re: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_perl-module-re: 386153

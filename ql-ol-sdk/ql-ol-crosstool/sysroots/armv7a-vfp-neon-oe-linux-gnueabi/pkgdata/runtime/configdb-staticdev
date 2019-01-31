@@ -11,5 +11,5 @@ RPROVIDES_configdb-staticdev:  configdb-staticdev
 SECTION_configdb-staticdev: devel
 PKG_configdb-staticdev: libconfigdb-staticdev
 FILES_configdb-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/configdb/*.a
-FILES_INFO: {"/usr/lib/libconfigdb.a": 70066}
-PKGSIZE_configdb-staticdev: 70066
+FILES_INFO: {"/usr/lib/libconfigdb.a": 69674}
+PKGSIZE_configdb-staticdev: 69674

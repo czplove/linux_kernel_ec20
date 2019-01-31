@@ -10,5 +10,5 @@ RDEPENDS_libcap-staticdev: libcap-dev (= 2.24-r0)
 SECTION_libcap-staticdev: devel
 PKG_libcap-staticdev: libcap-staticdev
 FILES_libcap-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libcap/*.a
-FILES_INFO: {"/lib/libcap.a": 74186}
-PKGSIZE_libcap-staticdev: 74186
+FILES_INFO: {"/lib/libcap.a": 73378}
+PKGSIZE_libcap-staticdev: 73378

@@ -12,8 +12,8 @@ SECTION: network
 PKG_libavahi-common: libavahi-common3
 FILES_libavahi-common: /usr/lib/libavahi-common.so.*
 FILERPROVIDESFLIST_libavahi-common: /usr/lib/libavahi-common.so.3.5.3
-FILES_INFO: {"/usr/lib/libavahi-common.so.3": 41440}
-FILERPROVIDES_/usr/lib/libavahi-common.so.3.5.3_libavahi-common: elf(buildid) (= 781adf1a562198cba356d2fef4bcec76c0be8b8b) libavahi-common.so.3
+FILES_INFO: {"/usr/lib/libavahi-common.so.3": 41268}
+FILERPROVIDES_/usr/lib/libavahi-common.so.3.5.3_libavahi-common: elf(buildid) (= fe47f8e09641e51e705ccf961cf0cfe296ec6077) libavahi-common.so.3
 FILERDEPENDSFLIST_libavahi-common: /usr/lib/libavahi-common.so.3.5.3
 FILERDEPENDS_/usr/lib/libavahi-common.so.3.5.3_libavahi-common: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libavahi-common: 41440
+PKGSIZE_libavahi-common: 41268

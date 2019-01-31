@@ -12,7 +12,7 @@ PKG_pcretest: pcretest
 FILES_pcretest: /usr/bin/pcretest
 FILERPROVIDESFLIST_pcretest: /usr/bin/pcretest
 FILES_INFO: {"/usr/bin/pcretest": 53368}
-FILERPROVIDES_/usr/bin/pcretest_pcretest: elf(buildid) (= 5c6ffca88574aeb0426631a468fe4d4b64568895)
+FILERPROVIDES_/usr/bin/pcretest_pcretest: elf(buildid) (= 347e79aa19e2c9fa17026741e02ed9e38d674719)
 FILERDEPENDSFLIST_pcretest: /usr/bin/pcretest
 FILERDEPENDS_/usr/bin/pcretest_pcretest: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 libpcreposix.so.0 rtld(GNU_HASH)
 PKGSIZE_pcretest: 53368

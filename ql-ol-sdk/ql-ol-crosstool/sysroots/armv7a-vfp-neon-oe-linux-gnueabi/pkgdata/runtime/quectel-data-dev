@@ -12,5 +12,5 @@ SECTION_quectel-data-dev: devel
 PKG_quectel-data-dev: quectel-data-dev
 ALLOW_EMPTY_quectel-data-dev: 1
 FILES_quectel-data-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-data/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libql_qcmap_client.la": 1758, "/usr/lib/pkgconfig/ql-data.pc": 241, "/usr/include/ql_qcmap_client_api.h": 1068, "/usr/include/ql_qcmap_client.h": 713, "/usr/lib/libql_qcmap_client.so": 27}
+FILES_INFO: {"/usr/lib/libql_qcmap_client.la": 1758, "/usr/include/ql_qcmap_client.h": 713, "/usr/lib/pkgconfig/ql-data.pc": 241, "/usr/include/ql_qcmap_client_api.h": 1068, "/usr/lib/libql_qcmap_client.so": 27}
 PKGSIZE_quectel-data-dev: 3807

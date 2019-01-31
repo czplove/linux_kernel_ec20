@@ -11,5 +11,5 @@ SECTION_udev-dbg: devel
 PKG_udev-dbg: udev-dbg
 ALLOW_EMPTY_udev-dbg: 1
 FILES_udev-dbg: /usr/bin/.debug /usr/sbin/.debug /lib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/udev/.debug /usr/lib/matchbox-panel/.debug /lib/udev/.debug /usr/src/debug /lib/.debug /lib/udev/.debug/ /lib/udev/.debug/* /lib/udev/.debug/*
-FILES_INFO: {"/lib/udev/.debug/keymap": 5802, "/lib/udev/.debug/scsi_id": 19155, "/lib/.debug/libudev.so.0.13.1": 24714, "/lib/udev/.debug/ata_id": 16555, "/lib/udev/.debug/cdrom_id": 20532, "/lib/udev/.debug/accelerometer": 20941, "/lib/udev/.debug/mtd_probe": 5024, "/lib/udev/.debug/v4l_id": 4883, "/lib/udev/.debug/collect": 16633, "/usr/bin/.debug/udevadm": 39544, "/lib/.debug/libgudev-1.0.so.0.1.1": 16070, "/lib/udev/.debug/udevd": 39224}
-PKGSIZE_udev-dbg: 229077
+FILES_INFO: {"/lib/udev/.debug/scsi_id": 18899, "/lib/udev/.debug/keymap": 5766, "/lib/.debug/libudev.so.0.13.1": 24494, "/lib/.debug/libgudev-1.0.so.0.1.1": 16070, "/lib/udev/.debug/ata_id": 16299, "/lib/udev/.debug/accelerometer": 20685, "/lib/udev/.debug/mtd_probe": 4988, "/lib/udev/.debug/v4l_id": 4847, "/lib/udev/.debug/collect": 16377, "/usr/bin/.debug/udevadm": 39288, "/lib/udev/.debug/cdrom_id": 20228, "/lib/udev/.debug/udevd": 38968}
+PKGSIZE_udev-dbg: 226909

@@ -12,5 +12,5 @@ PKG_kernel-module-cls-basic: kernel-module-cls-basic
 FILES_kernel-module-cls-basic: /lib/modules/3.18.20/kernel/net/sched/cls_basic.ko /etc/modules-load.d/cls_basic.conf /etc/modprobe.d/cls_basic.conf
 pkg_postinst_kernel-module-cls-basic: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
 pkg_postrm_kernel-module-cls-basic: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
-FILES_INFO: {"/lib/modules/3.18.20/kernel/net/sched/cls_basic.ko": 6876}
-PKGSIZE_kernel-module-cls-basic: 6876
+FILES_INFO: {"/lib/modules/3.18.20/kernel/net/sched/cls_basic.ko": 6856}
+PKGSIZE_kernel-module-cls-basic: 6856

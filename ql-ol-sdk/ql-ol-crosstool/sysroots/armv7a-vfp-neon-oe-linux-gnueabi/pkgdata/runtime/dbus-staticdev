@@ -10,5 +10,5 @@ RDEPENDS_dbus-staticdev: dbus-dev (= 1.8.10-r0)
 SECTION_dbus-staticdev: devel
 PKG_dbus-staticdev: dbus-staticdev
 FILES_dbus-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dbus/*.a
-FILES_INFO: {"/usr/lib/libdbus-1.a": 466772}
-PKGSIZE_dbus-staticdev: 466772
+FILES_INFO: {"/usr/lib/libdbus-1.a": 466616}
+PKGSIZE_dbus-staticdev: 466616

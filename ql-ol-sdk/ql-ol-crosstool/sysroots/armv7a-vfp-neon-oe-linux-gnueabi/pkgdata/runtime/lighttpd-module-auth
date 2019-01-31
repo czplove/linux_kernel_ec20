@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-auth: lighttpd-module-auth
 FILES_lighttpd-module-auth: /usr/lib/mod_auth.so
 FILERPROVIDESFLIST_lighttpd-module-auth: /usr/lib/mod@underscore@auth.so
-FILES_INFO: {"/usr/lib/mod_auth.so": 24364}
-FILERPROVIDES_/usr/lib/mod@underscore@auth.so_lighttpd-module-auth: elf(buildid) (= 034647818f83875b686e902f1eebee4c7c486600) mod_auth.so
+FILES_INFO: {"/usr/lib/mod_auth.so": 24332}
+FILERPROVIDES_/usr/lib/mod@underscore@auth.so_lighttpd-module-auth: elf(buildid) (= c4487bcedaaf23630bbd9b3d91ae5d5b7ce3a89d) mod_auth.so
 FILERDEPENDSFLIST_lighttpd-module-auth: /usr/lib/mod@underscore@auth.so
 FILERDEPENDS_/usr/lib/mod@underscore@auth.so_lighttpd-module-auth: libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-auth: 24364
+PKGSIZE_lighttpd-module-auth: 24332

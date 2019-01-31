@@ -12,7 +12,7 @@ PKG_util-linux-mkfs: util-linux-mkfs
 FILES_util-linux-mkfs: /usr/sbin/mkfs
 FILERPROVIDESFLIST_util-linux-mkfs: /usr/sbin/mkfs
 FILES_INFO: {"/usr/sbin/mkfs": 6988}
-FILERPROVIDES_/usr/sbin/mkfs_util-linux-mkfs: elf(buildid) (= 060d793c2989eb8791001e44cd3b89927e26f06b)
+FILERPROVIDES_/usr/sbin/mkfs_util-linux-mkfs: elf(buildid) (= 03b8c031ccff33abc5f42022ccd37e70c414e854)
 FILERDEPENDSFLIST_util-linux-mkfs: /usr/sbin/mkfs
 FILERDEPENDS_/usr/sbin/mkfs_util-linux-mkfs: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-mkfs: 6988

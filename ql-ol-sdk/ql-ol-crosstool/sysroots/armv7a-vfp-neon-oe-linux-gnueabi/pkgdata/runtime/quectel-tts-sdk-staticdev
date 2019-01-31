@@ -10,5 +10,5 @@ RDEPENDS_quectel-tts-sdk-staticdev: quectel-tts-sdk-dev (= git-r1)
 SECTION_quectel-tts-sdk-staticdev: devel
 PKG_quectel-tts-sdk-staticdev: quectel-tts-sdk-staticdev
 FILES_quectel-tts-sdk-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-tts-sdk/*.a
-FILES_INFO: {"/usr/lib/libql_tts_client.a": 59440}
-PKGSIZE_quectel-tts-sdk-staticdev: 59440
+FILES_INFO: {"/usr/lib/libql_tts_client.a": 59296}
+PKGSIZE_quectel-tts-sdk-staticdev: 59296

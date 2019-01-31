@@ -6,12 +6,12 @@ PKGR: r1
 LICENSE: GPLv2only & LGPLv2.1only
 DESCRIPTION_util-linux-dev: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_util-linux-dev: A suite of basic system administration utilities - Development files
-RDEPENDS_util-linux-dev: util-linux-libblkid util-linux-libuuid util-linux (= 2.25.2-r1) util-linux-libmount
+RDEPENDS_util-linux-dev: util-linux-libuuid util-linux-libmount util-linux (= 2.25.2-r1) util-linux-libblkid
 RPROVIDES_util-linux-dev: util-linux-libblkid-dev util-linux-libmount-dev util-linux-libuuid-dev
 RRECOMMENDS_util-linux-dev: glibc-dev zlib-dev util-linux-libuuid-dev util-linux-libmount-dev util-linux-umount-dev ncurses-libncursesw-dev util-linux-swaponoff-dev update-alternatives-opkg-dev util-linux-libblkid-dev ncurses-dev util-linux-losetup-dev ncurses-libtinfo-dev
 SECTION_util-linux-dev: devel
 PKG_util-linux-dev: util-linux-dev
 ALLOW_EMPTY_util-linux-dev: 1
 FILES_util-linux-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/util-linux/*.la /lib/*.la /usr/lib/python2.7/dist-packages/libmount/pylibmount.la
-FILES_INFO: {"/usr/include/uuid/uuid.h": 3297, "/usr/lib/libmount.so": 27, "/usr/lib/libuuid.so": 26, "/usr/lib/libsmartcols.la": 945, "/usr/include/libsmartcols/libsmartcols.h": 9602, "/usr/lib/libblkid.so": 27, "/usr/include/libmount/libmount.h": 30705, "/usr/lib/pkgconfig/mount.pc": 208, "/usr/lib/pkgconfig/blkid.pc": 214, "/usr/lib/libmount.la": 960, "/usr/lib/pkgconfig/smartcols.pc": 204, "/usr/lib/libuuid.la": 910, "/usr/lib/libsmartcols.so": 31, "/usr/include/blkid/blkid.h": 13710, "/usr/lib/libblkid.la": 938, "/usr/lib/pkgconfig/uuid.pc": 204}
+FILES_INFO: {"/usr/include/uuid/uuid.h": 3297, "/usr/lib/libmount.so": 27, "/usr/lib/libuuid.so": 26, "/usr/lib/libsmartcols.la": 945, "/usr/include/libsmartcols/libsmartcols.h": 9602, "/usr/lib/libsmartcols.so": 31, "/usr/include/libmount/libmount.h": 30705, "/usr/lib/pkgconfig/mount.pc": 208, "/usr/lib/pkgconfig/blkid.pc": 214, "/usr/lib/libmount.la": 960, "/usr/lib/pkgconfig/smartcols.pc": 204, "/usr/lib/libuuid.la": 910, "/usr/lib/libblkid.so": 27, "/usr/include/blkid/blkid.h": 13710, "/usr/lib/libblkid.la": 938, "/usr/lib/pkgconfig/uuid.pc": 204}
 PKGSIZE_util-linux-dev: 62008

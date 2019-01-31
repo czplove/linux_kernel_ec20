@@ -241,25 +241,12 @@ static void ql_sms_cb_func( QL_SMS_MsgRef   msgRef,
         UnicodeStrToUTF8Str((unsigned short*)(&msgRef->sms_data[0]),  
                               smsbuf, 
                               QL_SMS_MAX_MT_MSG_LENGTH) ;
-		if (msgRef->user_data_head_valid)
-		{
-			printf("\n###You've got one new UCS2 msg from %s at %s, total_segments:%d, seg_number:%d, reference_number:%02x, len=%d, content=%s\n", 
-							msgRef->src_addr,
-							msgRef->timestamp,
-							msgRef->user_data_head.total_segments,
-							msgRef->user_data_head.seg_number,
-							msgRef->user_data_head.reference_number,
-							msgRef->sms_data_len,
-							smsbuf); 
-		}
-		else
-		{
-	        printf("\n###You've got one new UCS2 msg from %s at %s, len=%d, content=%s\n", 
-		                    msgRef->src_addr,
-		                    msgRef->timestamp,
-		                    msgRef->sms_data_len,
-		                    smsbuf); 
-    	}
+        
+        printf("\n###You've got one new UCS2 msg from %s at %s, len=%d, content=%s\n", 
+                    msgRef->src_addr,
+                    msgRef->timestamp,
+                    msgRef->sms_data_len,
+                    smsbuf); 
         printf("Received UCS raw data:");
         for(i=0; i<msgRef->sms_data_len; i++)
         {
@@ -276,23 +263,10 @@ static void ql_sms_cb_func( QL_SMS_MsgRef   msgRef,
     }
     else if(msgRef->format == E_QL_SMS_FORMAT_BINARY_DATA)
     {
-    	if (msgRef->user_data_head_valid)
-    	{
-        	printf("###You've got one new BINARY msg from %s at %s , total_segments:%d, seg_number:%d, reference_number:%02x, len=%d, content=", 
-							msgRef->src_addr,
-							msgRef->timestamp,
-							msgRef->user_data_head.total_segments,
-							msgRef->user_data_head.seg_number,
-							msgRef->user_data_head.reference_number,
-							msgRef->sms_data_len); 
-    	}
-		else
-		{
-        	printf("###You've got one new BINARY msg from %s at %s , len=%d, content=", 
-							msgRef->src_addr,
-							msgRef->timestamp,
-							msgRef->sms_data_len); 
-		}
+        printf("###You've got one new BINARY msg from %s at %s , len=%d, content=", 
+                    msgRef->src_addr,
+                    msgRef->timestamp,
+                    msgRef->sms_data_len); 
         for(i=0; i<msgRef->sms_data_len; i++)
         {
             printf("%.2X ", msgRef->sms_data[i]);
@@ -301,23 +275,10 @@ static void ql_sms_cb_func( QL_SMS_MsgRef   msgRef,
     }
     else //default is GSM-7
     {
-    	if (msgRef->user_data_head_valid)
-    	{
-        	printf("###You've got one new GSM-7 msg from %s at %s, total_segments:%d, seg_number:%d, reference_number:%02x, content=%s\n", 
-		                    msgRef->src_addr,
-		                    msgRef->timestamp,
-							msgRef->user_data_head.total_segments,
-		                    msgRef->user_data_head.seg_number,
-					    	msgRef->user_data_head.reference_number,
-		                    msgRef->sms_data);          
-    	}
-		else
-		{
-			printf("###You've got one new GSM-7 msg from %s at %s, content=%s\n", 
-		                    msgRef->src_addr,
-		                    msgRef->timestamp,
-		                    msgRef->sms_data);   
-		}
+        printf("###You've got one new GSM-7 msg from %s at %s content=%s\n", 
+                    msgRef->src_addr,
+                    msgRef->timestamp,
+                    msgRef->sms_data);          
         for(i=0; i<msgRef->sms_data_len; i++)
         {
             printf("%.2X ", msgRef->sms_data[i]);

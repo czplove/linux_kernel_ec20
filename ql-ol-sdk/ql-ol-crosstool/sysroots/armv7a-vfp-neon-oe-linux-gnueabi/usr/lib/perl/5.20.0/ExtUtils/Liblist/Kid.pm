@@ -57,7 +57,7 @@ sub _unix_os2_ext {
     my ( $found ) = 0;
 
     # Debian-specific: don't use LD_RUN_PATH for standard dirs
-    push(@libpath, "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/lib");
+    push(@libpath, "/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/lib");
     $ld_run_path_seen{$_}++ for @libpath;
 
     foreach my $thislib ( split ' ', $potential_libs ) {

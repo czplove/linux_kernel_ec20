@@ -50,7 +50,7 @@ Refetch the stack pointer.  Used after a callback.  See L<perlcall>.
 
 =cut */
 
-#undef SP /* Solaris 2.7 i386 has this in /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/include/sys/reg.h */
+#undef SP /* Solaris 2.7 i386 has this in /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/include/sys/reg.h */
 #define SP sp
 #define MARK mark
 #define TARG targ

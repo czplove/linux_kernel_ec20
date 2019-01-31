@@ -12,7 +12,7 @@ PKG_libturbojpeg: libturbojpeg
 FILES_libturbojpeg: /usr/lib/libturbojpeg.so
 FILERPROVIDESFLIST_libturbojpeg: /usr/lib/libturbojpeg.so
 FILES_INFO: {"/usr/lib/libturbojpeg.so": 207788}
-FILERPROVIDES_/usr/lib/libturbojpeg.so_libturbojpeg: elf(buildid) (= e92fa2e346224ae1fe2397dd55de5a379229d222) libturbojpeg.so libturbojpeg.so(TURBOJPEG_1.0) libturbojpeg.so(TURBOJPEG_1.1) libturbojpeg.so(TURBOJPEG_1.2)
+FILERPROVIDES_/usr/lib/libturbojpeg.so_libturbojpeg: elf(buildid) (= 99edef8b50a24e4bf9950504ff3bf0e5eef84fa6) libturbojpeg.so libturbojpeg.so(TURBOJPEG_1.0) libturbojpeg.so(TURBOJPEG_1.1) libturbojpeg.so(TURBOJPEG_1.2)
 FILERDEPENDSFLIST_libturbojpeg: /usr/lib/libturbojpeg.so
 FILERDEPENDS_/usr/lib/libturbojpeg.so_libturbojpeg: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
 PKGSIZE_libturbojpeg: 207788

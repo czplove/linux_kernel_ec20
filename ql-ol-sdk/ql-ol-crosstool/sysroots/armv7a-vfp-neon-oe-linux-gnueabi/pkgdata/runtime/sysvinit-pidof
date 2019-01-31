@@ -14,7 +14,7 @@ pkg_postinst_sysvinit-pidof: #!/bin/sh\n\tupdate-alternatives --install /bin/pid
 pkg_postrm_sysvinit-pidof: #!/bin/sh\n\tupdate-alternatives --remove  pidof /bin/pidof.sysvinit\n
 FILERPROVIDESFLIST_sysvinit-pidof: /sbin/killall5 /bin/pidof.sysvinit
 FILES_INFO: {"/sbin/killall5": 14492, "/bin/pidof.sysvinit": 14}
-FILERPROVIDES_/sbin/killall5_sysvinit-pidof: elf(buildid) (= 4c38ae03e9c09ce582b4dd9e194a916c94390609)
+FILERPROVIDES_/sbin/killall5_sysvinit-pidof: elf(buildid) (= 883ac66eca390d43adf5d0cd5d866703b6e8bf33)
 FILERPROVIDES_/bin/pidof.sysvinit_sysvinit-pidof:  /bin/pidof
 FILERDEPENDSFLIST_sysvinit-pidof: /sbin/killall5
 FILERDEPENDS_/sbin/killall5_sysvinit-pidof: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

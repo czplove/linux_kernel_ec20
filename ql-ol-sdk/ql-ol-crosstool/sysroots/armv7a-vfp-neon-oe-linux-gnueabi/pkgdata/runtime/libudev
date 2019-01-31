@@ -12,8 +12,8 @@ SECTION: base
 PKG_libudev: libudev0
 FILES_libudev: /lib/libudev.so.*
 FILERPROVIDESFLIST_libudev: /lib/libudev.so.0.13.1
-FILES_INFO: {"/lib/libudev.so.0": 42240}
-FILERPROVIDES_/lib/libudev.so.0.13.1_libudev: elf(buildid) (= 4633d70b8bc4257bc56f04e3b53be4b07f68e628) libudev.so.0
+FILES_INFO: {"/lib/libudev.so.0": 42168}
+FILERPROVIDES_/lib/libudev.so.0.13.1_libudev: elf(buildid) (= 0128339ac934bed2d47d33c4c02c2f7c2adc0a6c) libudev.so.0
 FILERDEPENDSFLIST_libudev: /lib/libudev.so.0.13.1
 FILERDEPENDS_/lib/libudev.so.0.13.1_libudev: libc.so.6 libc.so.6(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libudev: 42240
+PKGSIZE_libudev: 42168

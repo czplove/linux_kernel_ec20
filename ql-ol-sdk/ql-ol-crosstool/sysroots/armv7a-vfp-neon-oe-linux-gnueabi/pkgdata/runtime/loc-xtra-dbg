@@ -7,10 +7,10 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_loc-xtra-dbg: GPS Location Xtra library  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_loc-xtra-dbg: loc-xtra version git-invalidgit-r3 - Debugging files
 RPROVIDES_loc-xtra-dbg:  loc-xtra-dbg
-RRECOMMENDS_loc-xtra-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg ql-syslog-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+RRECOMMENDS_loc-xtra-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
 SECTION_loc-xtra-dbg: devel
 PKG_loc-xtra-dbg: libloc-xtra-dbg
 ALLOW_EMPTY_loc-xtra-dbg: 1
 FILES_loc-xtra-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-xtra/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-xtra/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-xtra/loc-xtra/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libloc_xtra.so.1.0.0": 9187}
-PKGSIZE_loc-xtra-dbg: 9187
+FILES_INFO: {"/usr/lib/.debug/libloc_xtra.so.1.0.0": 9083}
+PKGSIZE_loc-xtra-dbg: 9083

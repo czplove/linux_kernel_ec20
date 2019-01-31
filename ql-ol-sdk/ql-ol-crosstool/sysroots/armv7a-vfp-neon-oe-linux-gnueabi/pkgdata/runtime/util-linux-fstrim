@@ -12,7 +12,7 @@ PKG_util-linux-fstrim: util-linux-fstrim
 FILES_util-linux-fstrim: /sbin/fstrim
 FILERPROVIDESFLIST_util-linux-fstrim: /sbin/fstrim
 FILES_INFO: {"/sbin/fstrim": 23964}
-FILERPROVIDES_/sbin/fstrim_util-linux-fstrim: elf(buildid) (= 05dfc98b22a9169e818eaab4ddb730abb3cbf19d)
+FILERPROVIDES_/sbin/fstrim_util-linux-fstrim: elf(buildid) (= 8f34c2108f3adf997dcc0e6d091742ce0c55d002)
 FILERDEPENDSFLIST_util-linux-fstrim: /sbin/fstrim
 FILERDEPENDS_/sbin/fstrim_util-linux-fstrim: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) libmount.so.1(MOUNT_2.25) rtld(GNU_HASH)
 PKGSIZE_util-linux-fstrim: 23964

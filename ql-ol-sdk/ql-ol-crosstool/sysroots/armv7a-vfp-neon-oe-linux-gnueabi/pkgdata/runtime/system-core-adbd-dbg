@@ -10,5 +10,5 @@ RRECOMMENDS_system-core-adbd-dbg: system-core-liblog-dbg glibc-dbg zlib-dbg libs
 SECTION: base
 PKG_system-core-adbd-dbg: system-core-adbd-dbg
 FILES_system-core-adbd-dbg: /sbin/.debug/adbd
-FILES_INFO: {"/sbin/.debug/adbd": 285040}
-PKGSIZE_system-core-adbd-dbg: 285040
+FILES_INFO: {"/sbin/.debug/adbd": 283724}
+PKGSIZE_system-core-adbd-dbg: 283724

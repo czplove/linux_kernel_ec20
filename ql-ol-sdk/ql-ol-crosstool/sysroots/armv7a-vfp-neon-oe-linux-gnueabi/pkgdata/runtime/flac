@@ -12,8 +12,8 @@ PKG_flac: flac
 FILES_flac: /usr/bin/*
 FILERPROVIDESFLIST_flac: /usr/bin/metaflac /usr/bin/flac
 FILES_INFO: {"/usr/bin/metaflac": 126312, "/usr/bin/flac": 221496}
-FILERPROVIDES_/usr/bin/metaflac_flac: elf(buildid) (= 9b0dcbb787bebe02abbedaeba234ae1ee3b292ed)
-FILERPROVIDES_/usr/bin/flac_flac: elf(buildid) (= a688d9115c577ec09d9a9742e3aae35db9cfdebd)
+FILERPROVIDES_/usr/bin/metaflac_flac: elf(buildid) (= 4f6aae7956b88eff0281b7bfc5ca924912ee6238)
+FILERPROVIDES_/usr/bin/flac_flac: elf(buildid) (= 0764e000dd684ffe4a7369320d44080233435d9b)
 FILERDEPENDSFLIST_flac: /usr/bin/metaflac /usr/bin/flac
 FILERDEPENDS_/usr/bin/metaflac_flac: libFLAC.so.8 libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/flac_flac: libFLAC.so.8 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)

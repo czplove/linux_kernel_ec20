@@ -844,8 +844,8 @@ _m4_escapem4_changequote([-=<{(],[)}>=-])m4_bpatsubst(m4_bpatsubst(m4_bpatsubst(
       -=<{(\[)}>=-, -=<{(@<:@)}>=-),
     -=<{(\])}>=-, -=<{(@:>@)}>=-),
   -=<{(\$)}>=-, -=<{(@S|@)}>=-)m4_changequote([,])
-T16,252
-_m4_divert_stack/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sugar.m4:3259: m4_divert_push: KILL
+T16,234
+_m4_divert_stack/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sugar.m4:3259: m4_divert_push: KILL
 T17,229
 m4_cr_not_letters	
  !"#*%&'()$+,./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`{|}~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ-

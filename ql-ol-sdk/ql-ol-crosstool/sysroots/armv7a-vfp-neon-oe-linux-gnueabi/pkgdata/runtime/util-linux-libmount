@@ -13,7 +13,7 @@ PKG_util-linux-libmount: libmount1
 FILES_util-linux-libmount: /lib/libmount.so.*
 FILERPROVIDESFLIST_util-linux-libmount: /lib/libmount.so.1.1.0
 FILES_INFO: {"/lib/libmount.so.1": 234744}
-FILERPROVIDES_/lib/libmount.so.1.1.0_util-linux-libmount: elf(buildid) (= f6af2f5a0b3e7e03d3bfa1fe548d30844c071ffd) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.20) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.23) libmount.so.1(MOUNT_2.24) libmount.so.1(MOUNT_2.25)
+FILERPROVIDES_/lib/libmount.so.1.1.0_util-linux-libmount: elf(buildid) (= e50bffc6f2f89725c6cd55deee6742907f336fa8) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.20) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.23) libmount.so.1(MOUNT_2.24) libmount.so.1(MOUNT_2.25)
 FILERDEPENDSFLIST_util-linux-libmount: /lib/libmount.so.1.1.0
 FILERDEPENDS_/lib/libmount.so.1.1.0_util-linux-libmount: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.7) libuuid.so.1 rtld(GNU_HASH)
 PKGSIZE_util-linux-libmount: 234744

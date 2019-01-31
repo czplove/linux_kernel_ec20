@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <signal.h>
 
-#define CLOCKID (12)	/*CLOCK_POWEROFF_ALARM, a postix timer*/
+#define CLOCKID (0)	/*CLOCK_REALTIME, a postix timer*/
 
 void timer_thread(union sigval v)
 {
@@ -36,9 +36,9 @@ int main(int argc, char *argv[])
 	}
 	
 	struct itimerspec it;
-	it.it_interval.tv_sec = 100;	//periodic or not, assign it_interval to it_value once the it_value time expiry
+	it.it_interval.tv_sec = 5;	//periodic or not, assign it_interval to it_value once the it_value time expiry
 	it.it_interval.tv_nsec = 0;
-	it.it_value.tv_sec = 100;
+	it.it_value.tv_sec = 5;
 	it.it_value.tv_nsec = 0;
 	
 	if(timer_settime(timer_id, 0, &it, NULL) == -1)

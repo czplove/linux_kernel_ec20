@@ -12,7 +12,7 @@ PKG_e2fsprogs-badblocks: e2fsprogs-badblocks
 FILES_e2fsprogs-badblocks: /sbin/badblocks
 FILERPROVIDESFLIST_e2fsprogs-badblocks: /sbin/badblocks
 FILES_INFO: {"/sbin/badblocks": 19252}
-FILERPROVIDES_/sbin/badblocks_e2fsprogs-badblocks: elf(buildid) (= 17221166c524011cf41051cce198d965ad4d85be)
+FILERPROVIDES_/sbin/badblocks_e2fsprogs-badblocks: elf(buildid) (= 6f262156f720b9b71aaa052e947a8abf4963b5ec)
 FILERDEPENDSFLIST_e2fsprogs-badblocks: /sbin/badblocks
 FILERDEPENDS_/sbin/badblocks_e2fsprogs-badblocks: libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libext2fs.so.2 rtld(GNU_HASH)
 PKGSIZE_e2fsprogs-badblocks: 19252

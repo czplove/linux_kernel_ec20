@@ -10,5 +10,5 @@ RDEPENDS_ncurses-staticdev: ncurses-dev (= 5.9-r15.1)
 SECTION_ncurses-staticdev: devel
 PKG_ncurses-staticdev: ncurses-staticdev
 FILES_ncurses-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ncurses/*.a
-FILES_INFO: {"/usr/lib/libncurses.a": 215614, "/usr/lib/libmenuw.a": 48216, "/usr/lib/libmenu.a": 47692, "/usr/lib/libform.a": 88388, "/usr/lib/libcurses.a": 12, "/usr/lib/libncursesw.a": 297990, "/usr/lib/libformw.a": 93006, "/usr/lib/libtinfo.a": 180210, "/usr/lib/libpanel.a": 20020, "/usr/lib/libncurses++w.a": 140326, "/usr/lib/libpanelw.a": 20020, "/usr/lib/libncurses++.a": 140326, "/usr/lib/libticw.a": 65526, "/usr/lib/libtic.a": 65514}
+FILES_INFO: {"/usr/lib/libncurses.a": 215614, "/usr/lib/libncursesw.a": 297990, "/usr/lib/libmenu.a": 47692, "/usr/lib/libform.a": 88388, "/usr/lib/libcurses.a": 12, "/usr/lib/libmenuw.a": 48216, "/usr/lib/libformw.a": 93006, "/usr/lib/libtinfo.a": 180210, "/usr/lib/libpanel.a": 20020, "/usr/lib/libncurses++w.a": 140326, "/usr/lib/libpanelw.a": 20020, "/usr/lib/libncurses++.a": 140326, "/usr/lib/libticw.a": 65526, "/usr/lib/libtic.a": 65514}
 PKGSIZE_ncurses-staticdev: 1422860

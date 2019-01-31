@@ -13,7 +13,7 @@ PKG_ncurses-libform: libform5
 FILES_ncurses-libform: /usr/lib/libform.so.5 /usr/lib/libform.so.5.9
 FILERPROVIDESFLIST_ncurses-libform: /usr/lib/libform.so.5.9
 FILES_INFO: {"/usr/lib/libform.so.5": 45256}
-FILERPROVIDES_/usr/lib/libform.so.5.9_ncurses-libform: elf(buildid) (= bfd3eb537627f218f24ebc23133df819e0ddd421) libform.so.5
+FILERPROVIDES_/usr/lib/libform.so.5.9_ncurses-libform: elf(buildid) (= 7917b27d60a25ab7947f9e9cad43a17baf8cb912) libform.so.5
 FILERDEPENDSFLIST_ncurses-libform: /usr/lib/libform.so.5.9
 FILERDEPENDS_/usr/lib/libform.so.5.9_ncurses-libform: libc.so.6 libc.so.6(GLIBC_2.4) libncurses.so.5 libtinfo.so.5 rtld(GNU_HASH)
 PKGSIZE_ncurses-libform: 45256

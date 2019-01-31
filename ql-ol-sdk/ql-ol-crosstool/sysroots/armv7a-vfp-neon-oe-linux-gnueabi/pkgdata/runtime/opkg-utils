@@ -12,7 +12,7 @@ PKG_opkg-utils: opkg-utils
 FILES_opkg-utils: /usr/bin/* /usr/sbin/* /usr/lib/opkg-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/opkg-utils /usr/lib/opkg-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_opkg-utils: /usr/bin/opkg-compare-versions
 FILES_INFO: {"/usr/bin/arfile.py": 4039, "/usr/bin/opkg-compare-versions.sh": 1588, "/usr/bin/opkg-compare-versions": 5196, "/usr/bin/opkg-buildpackage": 5371, "/usr/bin/opkg-build": 6992, "/usr/bin/opkg-show-deps": 2768, "/usr/bin/opkg-unbuild": 721, "/usr/bin/opkg-make-index": 7922, "/usr/bin/opkg.py": 19839, "/usr/bin/opkg-compare-indexes": 1438, "/usr/bin/opkg-extract-file": 1013, "/usr/bin/opkg-diff": 221, "/usr/bin/opkg-list-fields": 196}
-FILERPROVIDES_/usr/bin/opkg-compare-versions_opkg-utils: elf(buildid) (= b0549064f46ea516fd5386c7c7ee71942994202a)
+FILERPROVIDES_/usr/bin/opkg-compare-versions_opkg-utils: elf(buildid) (= 0ab90fc6c053b77b219490c711701b4f86e974dc)
 FILERDEPENDSFLIST_opkg-utils: /usr/bin/opkg-compare-versions.sh /usr/bin/opkg-compare-versions /usr/bin/opkg-buildpackage /usr/bin/opkg-compare-indexes /usr/bin/opkg-show-deps /usr/bin/opkg-unbuild /usr/bin/opkg-make-index /usr/bin/opkg.py /usr/bin/opkg-build /usr/bin/opkg-extract-file /usr/bin/opkg-diff /usr/bin/opkg-list-fields
 FILERDEPENDS_/usr/bin/opkg-compare-versions.sh_opkg-utils: /bin/sh
 FILERDEPENDS_/usr/bin/opkg-compare-versions_opkg-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

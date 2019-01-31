@@ -12,7 +12,7 @@ PKG_quectel-mtdimg: quectel-mtdimg
 FILES_quectel-mtdimg: /usr/bin/* /usr/sbin/* /usr/lib/quectel-mtdimg/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-mtdimg /usr/lib/quectel-mtdimg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_quectel-mtdimg: /usr/bin/mtdimg
 FILES_INFO: {"/usr/bin/mtdimg": 13368}
-FILERPROVIDES_/usr/bin/mtdimg_quectel-mtdimg: elf(buildid) (= abff041503d186d52dfddd8208986cc377eb8844)
+FILERPROVIDES_/usr/bin/mtdimg_quectel-mtdimg: elf(buildid) (= 949fd0a529243ac9f53e1a04299357e31f86f7a9)
 FILERDEPENDSFLIST_quectel-mtdimg: /usr/bin/mtdimg
 FILERDEPENDS_/usr/bin/mtdimg_quectel-mtdimg: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
 PKGSIZE_quectel-mtdimg: 13368

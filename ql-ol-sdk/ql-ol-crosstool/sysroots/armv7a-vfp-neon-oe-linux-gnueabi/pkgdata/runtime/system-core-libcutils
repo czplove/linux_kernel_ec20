@@ -13,7 +13,7 @@ PKG_system-core-libcutils: libcutils0
 FILES_system-core-libcutils: /usr/lib/libcutils.so.*
 FILERPROVIDESFLIST_system-core-libcutils: /usr/lib/libcutils.so.0.0.0
 FILES_INFO: {"/usr/lib/libcutils.so.0": 51632}
-FILERPROVIDES_/usr/lib/libcutils.so.0.0.0_system-core-libcutils: elf(buildid) (= 052e1ee4a5d7e15b0c9fcc0ab3d21efb4ab8b01f) libcutils.so.0
+FILERPROVIDES_/usr/lib/libcutils.so.0.0.0_system-core-libcutils: elf(buildid) (= 87a963f4961df45c988c730203bc6fd4245c5f41) libcutils.so.0
 FILERDEPENDSFLIST_system-core-libcutils: /usr/lib/libcutils.so.0.0.0
 FILERDEPENDS_/usr/lib/libcutils.so.0.0.0_system-core-libcutils: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) liblog.so.0 rtld(GNU_HASH)
 PKGSIZE_system-core-libcutils: 51632

@@ -38,7 +38,7 @@ else:
     def b(x):
         return x.encode(sys.getfilesystemencoding())
 
-old_prefix = re.compile(b("/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool"))
+old_prefix = re.compile(b("/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool"))
 
 def get_arch():
     f.seek(0)

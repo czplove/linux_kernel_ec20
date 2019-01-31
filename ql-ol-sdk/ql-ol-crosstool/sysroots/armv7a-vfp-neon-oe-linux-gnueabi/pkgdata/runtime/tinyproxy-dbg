@@ -11,5 +11,5 @@ SECTION_tinyproxy-dbg: devel
 PKG_tinyproxy-dbg: tinyproxy-dbg
 ALLOW_EMPTY_tinyproxy-dbg: 1
 FILES_tinyproxy-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/tinyproxy/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/tinyproxy/.debug /usr/lib/matchbox-panel/.debug /usr/lib/tinyproxy/tinyproxy/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/tinyproxy": 17463}
-PKGSIZE_tinyproxy-dbg: 17463
+FILES_INFO: {"/usr/sbin/.debug/tinyproxy": 17315}
+PKGSIZE_tinyproxy-dbg: 17315

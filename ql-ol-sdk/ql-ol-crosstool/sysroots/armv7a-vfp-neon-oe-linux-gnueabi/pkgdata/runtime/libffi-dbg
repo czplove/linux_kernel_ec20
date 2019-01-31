@@ -11,5 +11,5 @@ SECTION_libffi-dbg: devel
 PKG_libffi-dbg: libffi-dbg
 ALLOW_EMPTY_libffi-dbg: 1
 FILES_libffi-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libffi/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libffi/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libffi/libffi/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libffi.so.6.0.4": 11218}
-PKGSIZE_libffi-dbg: 11218
+FILES_INFO: {"/usr/lib/.debug/libffi.so.6.0.4": 11058}
+PKGSIZE_libffi-dbg: 11058

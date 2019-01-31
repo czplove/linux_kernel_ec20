@@ -10,5 +10,5 @@ RDEPENDS_libxml2-staticdev: libxml2-dev (= 2.9.2-r0)
 SECTION_libxml2-staticdev: devel
 PKG_libxml2-staticdev: libxml2-staticdev
 FILES_libxml2-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libxml2/*.a /usr/lib/python2.7/site-packages/*.a
-FILES_INFO: {"/usr/lib/libxml2.a": 1632172}
-PKGSIZE_libxml2-staticdev: 1632172
+FILES_INFO: {"/usr/lib/libxml2.a": 1632028}
+PKGSIZE_libxml2-staticdev: 1632028

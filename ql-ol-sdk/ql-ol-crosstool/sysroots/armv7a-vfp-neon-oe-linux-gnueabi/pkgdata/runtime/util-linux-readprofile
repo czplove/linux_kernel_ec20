@@ -14,7 +14,7 @@ pkg_postinst_util-linux-readprofile: #!/bin/sh\n\tupdate-alternatives --install 
 pkg_postrm_util-linux-readprofile: #!/bin/sh\n\tupdate-alternatives --remove  readprofile /usr/sbin/readprofile.util-linux\n
 FILERPROVIDESFLIST_util-linux-readprofile: /usr/sbin/readprofile.util-linux
 FILES_INFO: {"/usr/sbin/readprofile.util-linux": 12632}
-FILERPROVIDES_/usr/sbin/readprofile.util-linux_util-linux-readprofile: elf(buildid) (= 4f739186a03f5d844e180b318a9d9dcbddd0fadf) /usr/sbin/readprofile
+FILERPROVIDES_/usr/sbin/readprofile.util-linux_util-linux-readprofile: elf(buildid) (= 6c3e9adb2c01b552021cf8f4217d651baf22bec0) /usr/sbin/readprofile
 FILERDEPENDSFLIST_util-linux-readprofile: /usr/sbin/readprofile.util-linux
 FILERDEPENDS_/usr/sbin/readprofile.util-linux_util-linux-readprofile: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-readprofile: 12632

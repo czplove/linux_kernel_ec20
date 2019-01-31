@@ -12,7 +12,7 @@ PKG_python-compression: python-compression
 FILES_python-compression: /usr/lib/python2.7/gzip.* /usr/lib/python2.7/zipfile.* /usr/lib/python2.7/tarfile.* /usr/lib/python2.7/lib-dynload/bz2.so 
 FILERPROVIDESFLIST_python-compression: /usr/lib/python2.7/lib-dynload/bz2.so
 FILES_INFO: {"/usr/lib/python2.7/gzip.py": 19007, "/usr/lib/python2.7/zipfile.pyc": 41574, "/usr/lib/python2.7/tarfile.pyc": 75112, "/usr/lib/python2.7/gzip.pyc": 15148, "/usr/lib/python2.7/zipfile.py": 58748, "/usr/lib/python2.7/lib-dynload/bz2.so": 36864, "/usr/lib/python2.7/tarfile.py": 89780}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/bz2.so_python-compression: bz2.so elf(buildid) (= 6a10ac71479b09ce2fdd862af757450049b59ab4)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/bz2.so_python-compression: bz2.so elf(buildid) (= 6495ea8e6f25c8cfcc8acb8e8fc08692a3fd2ce9)
 FILERDEPENDSFLIST_python-compression: /usr/lib/python2.7/lib-dynload/bz2.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/bz2.so_python-compression: libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-compression: 336233

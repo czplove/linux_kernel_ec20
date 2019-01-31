@@ -12,8 +12,8 @@ PKG_conntrack-tools: conntrack-tools
 FILES_conntrack-tools: /usr/bin/* /usr/sbin/* /usr/lib/conntrack-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/conntrack-tools /usr/lib/conntrack-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_conntrack-tools: /usr/sbin/conntrack /usr/sbin/conntrackd
 FILES_INFO: {"/usr/sbin/conntrack": 45012, "/usr/sbin/conntrackd": 167028}
-FILERPROVIDES_/usr/sbin/conntrack_conntrack-tools: elf(buildid) (= 5c3e680d0b8d82a29f39e8fe5d81a3724465e07d)
-FILERPROVIDES_/usr/sbin/conntrackd_conntrack-tools: elf(buildid) (= 7ad48941fa5a8c54fc8f5bf5521654d34e85e9dc)
+FILERPROVIDES_/usr/sbin/conntrack_conntrack-tools: elf(buildid) (= 2bb0f2e4d0d7b5f9591f02298346f07f5c52508b)
+FILERPROVIDES_/usr/sbin/conntrackd_conntrack-tools: elf(buildid) (= 5c5cfa591c4b1c92eba8e639c9c2880606183047)
 FILERDEPENDSFLIST_conntrack-tools: /usr/sbin/conntrack /usr/sbin/conntrackd
 FILERDEPENDS_/usr/sbin/conntrack_conntrack-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnetfilter_conntrack.so.3 libnfnetlink.so.0 rtld(GNU_HASH)
 FILERDEPENDS_/usr/sbin/conntrackd_conntrack-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnetfilter_conntrack.so.3 libnfnetlink.so.0 rtld(GNU_HASH)

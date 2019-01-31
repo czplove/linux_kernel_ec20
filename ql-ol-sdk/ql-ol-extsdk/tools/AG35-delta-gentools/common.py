@@ -46,7 +46,6 @@ OPTIONS.device_specific = None
 OPTIONS.extras = {}
 OPTIONS.info_dict = None
 OPTIONS.typefota = 'a'
-OPTIONS.source_tmp = ''
 
 # Values for "certificate" in apkcerts that mean special things.
 SPECIAL_CERT_STRINGS = ("PRESIGNED", "EXTERNAL")
@@ -327,6 +326,7 @@ def GetModemImage(name, prebuilt_name, unpack_dir, tree_subdir):
   else:
     print "building image from target_files %s..." % (tree_subdir,)
     return File(name, BuildModemImage(os.path.join(unpack_dir, tree_subdir)))
+    
     
 def UnzipTemp(filename, pattern=None):
   """Unzip the given archive into a temporary directory and return the name.
@@ -755,21 +755,18 @@ class DeviceSpecificParams(object):
     return self._DoCall("IncrementalOTA_InstallEnd")
 
 class File(object):
-  def __init__(self, name, data, tmp_folder):
+  def __init__(self, name, data):
     self.name = name
     self.data = data
     self.size = len(data)
     self.sha1 = sha1(data).hexdigest()
-    self.tmpf = tmp_folder
-    if tmp_folder:
-      self.mode = os.lstat(tmp_folder + '/SYSTEM' + name[6:]).st_mode
 
   @classmethod
   def FromLocalFile(cls, name, diskname):
     f = open(diskname, "rb")
     data = f.read()
     f.close()
-    return File(name, data, False)
+    return File(name, data)
 
   def WriteToTemp(self):
     t = tempfile.NamedTemporaryFile()

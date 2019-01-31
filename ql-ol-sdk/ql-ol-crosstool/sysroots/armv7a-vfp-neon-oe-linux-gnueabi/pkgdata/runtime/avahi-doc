@@ -9,5 +9,5 @@ SUMMARY_avahi-doc: Avahi IPv4LL network address configuration daemon - Documenta
 SECTION_avahi-doc: doc
 PKG_avahi-doc: avahi-doc
 FILES_avahi-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILES_INFO: {"/usr/share/man/man1/avahi-browse-domains.1": 14, "/usr/share/man/man1/avahi-publish-service.1": 15, "/usr/share/man/man1/avahi-resolve-host-name.1": 15, "/usr/share/man/man1/avahi-resolve-address.1": 15, "/usr/share/man/man1/avahi-publish-address.1": 15}
+FILES_INFO: {"/usr/share/man/man1/avahi-browse-domains.1": 14, "/usr/share/man/man1/avahi-resolve-address.1": 15, "/usr/share/man/man1/avahi-resolve-host-name.1": 15, "/usr/share/man/man1/avahi-publish-service.1": 15, "/usr/share/man/man1/avahi-publish-address.1": 15}
 PKGSIZE_avahi-doc: 74

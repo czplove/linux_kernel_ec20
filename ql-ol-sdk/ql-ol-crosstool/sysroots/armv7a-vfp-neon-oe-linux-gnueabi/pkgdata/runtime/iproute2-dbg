@@ -11,5 +11,5 @@ SECTION_iproute2-dbg: devel
 PKG_iproute2-dbg: iproute2-dbg
 ALLOW_EMPTY_iproute2-dbg: 1
 FILES_iproute2-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iproute2/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iproute2/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iproute2/iproute2/.debug /usr/src/debug /usr/lib/tc/.debug
-FILES_INFO: {"/usr/lib/tc/.debug/m_xt.so": 4915, "/sbin/.debug/ip.iproute2": 39382, "/sbin/.debug/tc": 46609, "/sbin/.debug/rtmon": 9895, "/sbin/.debug/bridge": 14424}
-PKGSIZE_iproute2-dbg: 115225
+FILES_INFO: {"/usr/lib/tc/.debug/m_xt.so": 4915, "/sbin/.debug/ip.iproute2": 39022, "/sbin/.debug/tc": 46229, "/sbin/.debug/rtmon": 9859, "/sbin/.debug/bridge": 14276}
+PKGSIZE_iproute2-dbg: 114301

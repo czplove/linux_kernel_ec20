@@ -6,7 +6,7 @@ PKGR: r1
 LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION: Quectel monitor daemon
 SUMMARY: quectel-monitor-daemon version git-invalidgit-r1
-RDEPENDS_quectel-monitor-daemon: glibc (>= 2.21) ql-syslog (>= git-invalidgit)
+RDEPENDS_quectel-monitor-daemon: glibc (>= 2.21)
 RRECOMMENDS_quectel-monitor-daemon:  update-rc.d
 SECTION: base
 PKG_quectel-monitor-daemon: quectel-monitor-daemon
@@ -16,9 +16,8 @@ pkg_postrm_quectel-monitor-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/
 pkg_preinst_quectel-monitor-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel-monitor-daemon" ]; then\n\t/etc/init.d/quectel-monitor-daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel-monitor-daemon remove\nfi\n
 pkg_prerm_quectel-monitor-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel-monitor-daemon stop\nfi\n
 FILERPROVIDESFLIST_quectel-monitor-daemon: /usr/bin/quectel@underscore@monitor@underscore@daemon
-FILES_INFO: {"/etc/init.d/quectel-monitor-daemon": 972, "/usr/bin/quectel_monitor_daemon": 6652}
-FILERPROVIDES_/usr/bin/quectel@underscore@monitor@underscore@daemon_quectel-monitor-daemon: elf(buildid) (= e9058d6b21626f1e2b67941206a2923e96884666)
-FILERDEPENDSFLIST_quectel-monitor-daemon: /etc/init.d/quectel-monitor-daemon /usr/bin/quectel@underscore@monitor@underscore@daemon
-FILERDEPENDS_/etc/init.d/quectel-monitor-daemon_quectel-monitor-daemon: /bin/sh
-FILERDEPENDS_/usr/bin/quectel@underscore@monitor@underscore@daemon_quectel-monitor-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_sys_log.so.1 rtld(GNU_HASH)
-PKGSIZE_quectel-monitor-daemon: 7624
+FILES_INFO: {"/etc/init.d/quectel-monitor-daemon": 964, "/usr/bin/quectel_monitor_daemon": 6348}
+FILERPROVIDES_/usr/bin/quectel@underscore@monitor@underscore@daemon_quectel-monitor-daemon: elf(buildid) (= 4b53f9a53e485ca0a651fd7b4bcf53efc2e09a7f)
+FILERDEPENDSFLIST_quectel-monitor-daemon: /usr/bin/quectel@underscore@monitor@underscore@daemon
+FILERDEPENDS_/usr/bin/quectel@underscore@monitor@underscore@daemon_quectel-monitor-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-monitor-daemon: 7312

@@ -13,12 +13,12 @@ FILES_iproute2: /usr/bin/* /usr/sbin/* /usr/lib/iproute2/* /usr/lib/lib*.so.* /e
 pkg_postinst_iproute2: #!/bin/sh\n\tupdate-alternatives --install /sbin/ip ip /sbin/ip.iproute2 100\n
 pkg_postrm_iproute2: #!/bin/sh\n\tupdate-alternatives --remove  ip /sbin/ip.iproute2\n
 FILERPROVIDESFLIST_iproute2: /usr/lib/tc/m@underscore@xt.so /sbin/ip.iproute2 /sbin/bridge /sbin/rtmon /sbin/tc
-FILES_INFO: {"/sbin/routel": 1262, "/sbin/rtmon": 26792, "/sbin/routef": 173, "/usr/lib/tc/m_xt.so": 8288, "/sbin/ip.iproute2": 284816, "/etc/iproute2/rt_dsfield": 442, "/etc/iproute2/rt_realms": 112, "/sbin/rtpr": 37, "/sbin/bridge": 43248, "/etc/iproute2/rt_protos": 317, "/sbin/tc": 248976, "/sbin/ifcfg": 3056, "/usr/lib/tc/m_ipt.so": 7, "/etc/iproute2/group": 31, "/etc/iproute2/rt_scopes": 92, "/etc/iproute2/ematch_map": 75, "/etc/iproute2/rt_tables": 87}
+FILES_INFO: {"/usr/lib/tc/m_xt.so": 8288, "/sbin/routel": 1262, "/sbin/rtmon": 26792, "/sbin/routef": 173, "/usr/lib/tc/m_ipt.so": 7, "/sbin/rtpr": 37, "/etc/iproute2/rt_dsfield": 442, "/etc/iproute2/rt_realms": 112, "/sbin/ip.iproute2": 284816, "/sbin/bridge": 43248, "/etc/iproute2/rt_protos": 317, "/sbin/ifcfg": 3056, "/sbin/tc": 248976, "/etc/iproute2/group": 31, "/etc/iproute2/rt_scopes": 92, "/etc/iproute2/ematch_map": 75, "/etc/iproute2/rt_tables": 87}
 FILERPROVIDES_/usr/lib/tc/m@underscore@xt.so_iproute2: elf(buildid) (= d1a0f8ce84a069f225dd5195fbe1bffce16019ee) m_xt.so
-FILERPROVIDES_/sbin/ip.iproute2_iproute2: elf(buildid) (= 84b27065fa463021f081ba5902601fdf0d8a4a5b) /sbin/ip
-FILERPROVIDES_/sbin/bridge_iproute2: elf(buildid) (= ea7a8cf4d68250e2c156eb833383fd9ea56975aa)
-FILERPROVIDES_/sbin/rtmon_iproute2: elf(buildid) (= 8badc6ab125883992fcd0fbb0e6f6bb05cd6a498)
-FILERPROVIDES_/sbin/tc_iproute2: elf(buildid) (= 76b2b87767506f9cb7f490b391d9008844655285)
+FILERPROVIDES_/sbin/ip.iproute2_iproute2: elf(buildid) (= 3957bf85ef70dbc3edca6de0d1b383cdd4f159e1) /sbin/ip
+FILERPROVIDES_/sbin/bridge_iproute2: elf(buildid) (= 142a5a3164a3076fa17a68bddf85aa1252368e08)
+FILERPROVIDES_/sbin/rtmon_iproute2: elf(buildid) (= efaec8787c2b4f0dfc0e27b4875f409a0925c07e)
+FILERPROVIDES_/sbin/tc_iproute2: elf(buildid) (= b23aa77eee9889591ded0f4d9d12a308d6f63d0f)
 FILERDEPENDSFLIST_iproute2: /usr/lib/tc/m@underscore@xt.so /sbin/routel /sbin/rtmon /sbin/ip.iproute2 /sbin/routef /sbin/rtpr /sbin/bridge /sbin/ifcfg /sbin/tc
 FILERDEPENDS_/usr/lib/tc/m@underscore@xt.so_iproute2: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.7 rtld(GNU_HASH)
 FILERDEPENDS_/sbin/routel_iproute2: /bin/sh

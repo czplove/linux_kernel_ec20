@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-accesslog: lighttpd-module-accesslog
 FILES_lighttpd-module-accesslog: /usr/lib/mod_accesslog.so
 FILERPROVIDESFLIST_lighttpd-module-accesslog: /usr/lib/mod@underscore@accesslog.so
-FILES_INFO: {"/usr/lib/mod_accesslog.so": 13424}
-FILERPROVIDES_/usr/lib/mod@underscore@accesslog.so_lighttpd-module-accesslog: elf(buildid) (= 93ad9cb9ebe1f4e517c9b7b91e4bb9087254f466) mod_accesslog.so
+FILES_INFO: {"/usr/lib/mod_accesslog.so": 13408}
+FILERPROVIDES_/usr/lib/mod@underscore@accesslog.so_lighttpd-module-accesslog: elf(buildid) (= 6333e10b8d353b3e2fb6e5af858c5353708d228b) mod_accesslog.so
 FILERDEPENDSFLIST_lighttpd-module-accesslog: /usr/lib/mod@underscore@accesslog.so
 FILERDEPENDS_/usr/lib/mod@underscore@accesslog.so_lighttpd-module-accesslog: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-accesslog: 13424
+PKGSIZE_lighttpd-module-accesslog: 13408

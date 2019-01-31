@@ -11,5 +11,5 @@ SECTION_hostap-daemon-qcacld-dbg: devel
 PKG_hostap-daemon-qcacld-dbg: hostap-daemon-qcacld-dbg
 ALLOW_EMPTY_hostap-daemon-qcacld-dbg: 1
 FILES_hostap-daemon-qcacld-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/hostap-daemon-qcacld/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/hostap-daemon-qcacld/.debug /usr/lib/matchbox-panel/.debug /usr/lib/hostap-daemon-qcacld/hostap-daemon-qcacld/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/hostapd_cli": 12957, "/usr/sbin/.debug/hostapd": 79661}
-PKGSIZE_hostap-daemon-qcacld-dbg: 92618
+FILES_INFO: {"/usr/sbin/.debug/hostapd_cli": 12921, "/usr/sbin/.debug/hostapd": 79409}
+PKGSIZE_hostap-daemon-qcacld-dbg: 92330

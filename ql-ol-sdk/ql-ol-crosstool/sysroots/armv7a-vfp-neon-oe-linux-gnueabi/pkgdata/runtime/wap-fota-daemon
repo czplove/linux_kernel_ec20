@@ -12,7 +12,7 @@ PKG_wap-fota-daemon: wap-fota-daemon
 FILES_wap-fota-daemon: /usr/bin/* /usr/sbin/* /usr/lib/wap-fota-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/wap-fota-daemon /usr/lib/wap-fota-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_wap-fota-daemon: /usr/bin/wapfotadaemon
 FILES_INFO: {"/etc/init.d/wapfotadaemon": 411, "/usr/bin/wapfotadaemon": 12868}
-FILERPROVIDES_/usr/bin/wapfotadaemon_wap-fota-daemon: elf(buildid) (= e5e816a0251ebac80cc00635adf32aca28eca12e)
+FILERPROVIDES_/usr/bin/wapfotadaemon_wap-fota-daemon: elf(buildid) (= eb212d4b1f9abff94e86e59265e49345e8a4e7d7)
 FILERDEPENDSFLIST_wap-fota-daemon: /etc/init.d/wapfotadaemon /usr/bin/wapfotadaemon
 FILERDEPENDS_/etc/init.d/wapfotadaemon_wap-fota-daemon: /bin/sh
 FILERDEPENDS_/usr/bin/wapfotadaemon_wap-fota-daemon: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 rtld(GNU_HASH)

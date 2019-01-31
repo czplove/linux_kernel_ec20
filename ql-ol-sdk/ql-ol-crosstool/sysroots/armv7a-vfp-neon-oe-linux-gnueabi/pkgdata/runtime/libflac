@@ -13,7 +13,7 @@ PKG_libflac: libflac8
 FILES_libflac: /usr/lib/libFLAC.so.*
 FILERPROVIDESFLIST_libflac: /usr/lib/libFLAC.so.8.3.0
 FILES_INFO: {"/usr/lib/libFLAC.so.8": 341388}
-FILERPROVIDES_/usr/lib/libFLAC.so.8.3.0_libflac: elf(buildid) (= dec40a73ed4d890a2553af575c254197fad4e1e2) libFLAC.so.8
+FILERPROVIDES_/usr/lib/libFLAC.so.8.3.0_libflac: elf(buildid) (= 00aa197f1d7395970b21fee17f777626e43c4c6a) libFLAC.so.8
 FILERDEPENDSFLIST_libflac: /usr/lib/libFLAC.so.8.3.0
 FILERDEPENDS_/usr/lib/libFLAC.so.8.3.0_libflac: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) libogg.so.0 rtld(GNU_HASH)
 PKGSIZE_libflac: 341388

@@ -10,5 +10,5 @@ RDEPENDS_libexif-staticdev: libexif-dev (= 0.6.21-r0)
 SECTION_libexif-staticdev: devel
 PKG_libexif-staticdev: libexif-staticdev
 FILES_libexif-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libexif/*.a
-FILES_INFO: {"/lib/libexif.a": 678978}
-PKGSIZE_libexif-staticdev: 678978
+FILES_INFO: {"/lib/libexif.a": 676726}
+PKGSIZE_libexif-staticdev: 676726

@@ -11,5 +11,5 @@ SECTION_usbutils-dbg: devel
 PKG_usbutils-dbg: usbutils-dbg
 ALLOW_EMPTY_usbutils-dbg: 1
 FILES_usbutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/usbutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/usbutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/usbutils/usbutils/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/lsusb": 13541, "/usr/bin/.debug/usbhid-dump": 8090}
-PKGSIZE_usbutils-dbg: 21631
+FILES_INFO: {"/usr/bin/.debug/lsusb": 13393, "/usr/bin/.debug/usbhid-dump": 8054}
+PKGSIZE_usbutils-dbg: 21447

@@ -1,4 +1,4 @@
-/* Generated automatically from /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/armv7a-vfp-neon-oe-linux-gnueabi/python/2.7.9-r1/Python-2.7.9/Modules/config.c.in by makesetup. */
+/* Generated automatically from /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/armv7a-vfp-neon-oe-linux-gnueabi/python/2.7.9-r1/Python-2.7.9/Modules/config.c.in by makesetup. */
 /* -*- C -*- ***********************************************
 Copyright (c) 2000, BeOpen.com.
 Copyright (c) 1995-2000, Corporation for National Research Initiatives.

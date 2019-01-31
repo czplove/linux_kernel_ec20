@@ -17,7 +17,7 @@ pkg_preinst_pdc-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_pdcd" ]
 pkg_prerm_pdc-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_pdcd stop\nfi\n
 FILERPROVIDESFLIST_pdc-daemon: /usr/bin/pdc@underscore@daemon
 FILES_INFO: {"/etc/init.d/start_pdcd": 922, "/usr/bin/pdc_daemon": 14712}
-FILERPROVIDES_/usr/bin/pdc@underscore@daemon_pdc-daemon: elf(buildid) (= 221092e8429c8031db9754ae0e9d2cd73251b0d4)
+FILERPROVIDES_/usr/bin/pdc@underscore@daemon_pdc-daemon: elf(buildid) (= b42f93ddeda3488f83ce23c1ca42f6e2c696c483)
 FILERDEPENDSFLIST_pdc-daemon: /usr/bin/pdc@underscore@daemon
 FILERDEPENDS_/usr/bin/pdc@underscore@daemon_pdc-daemon: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 libqmi_encdec.so.1 rtld(GNU_HASH)
 PKGSIZE_pdc-daemon: 15634

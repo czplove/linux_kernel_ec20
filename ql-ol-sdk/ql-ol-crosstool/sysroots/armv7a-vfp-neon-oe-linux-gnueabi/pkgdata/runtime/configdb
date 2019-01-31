@@ -13,7 +13,7 @@ PKG_configdb: libconfigdb0
 FILES_configdb: /usr/bin/* /usr/sbin/* /usr/lib/configdb/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/configdb /usr/lib/configdb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_configdb: /usr/lib/libconfigdb.so.0.0.0
 FILES_INFO: {"/usr/lib/libconfigdb.so.0": 15824}
-FILERPROVIDES_/usr/lib/libconfigdb.so.0.0.0_configdb: elf(buildid) (= f7b5e3d4fd4a5f4554adc4384a8d83094bfda377) libconfigdb.so.0
+FILERPROVIDES_/usr/lib/libconfigdb.so.0.0.0_configdb: elf(buildid) (= f8a314054e98ca57c09ec948d830ee9bfefd7e2c) libconfigdb.so.0
 FILERDEPENDSFLIST_configdb: /usr/lib/libconfigdb.so.0.0.0
 FILERDEPENDS_/usr/lib/libconfigdb.so.0.0.0_configdb: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
 PKGSIZE_configdb: 15824

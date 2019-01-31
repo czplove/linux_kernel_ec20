@@ -11,5 +11,5 @@ SECTION_lrzsz-dbg: devel
 PKG_lrzsz-dbg: lrzsz-dbg
 ALLOW_EMPTY_lrzsz-dbg: 1
 FILES_lrzsz-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lrzsz/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lrzsz/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lrzsz/lrzsz/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/lrz": 16014, "/usr/bin/.debug/lsz": 17290}
-PKGSIZE_lrzsz-dbg: 33304
+FILES_INFO: {"/usr/bin/.debug/lrz": 15810, "/usr/bin/.debug/lsz": 17086}
+PKGSIZE_lrzsz-dbg: 32896

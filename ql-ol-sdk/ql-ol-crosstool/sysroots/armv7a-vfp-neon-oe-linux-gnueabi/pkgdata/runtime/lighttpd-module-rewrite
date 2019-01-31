@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-rewrite: lighttpd-module-rewrite
 FILES_lighttpd-module-rewrite: /usr/lib/mod_rewrite.so
 FILERPROVIDESFLIST_lighttpd-module-rewrite: /usr/lib/mod@underscore@rewrite.so
-FILES_INFO: {"/usr/lib/mod_rewrite.so": 9132}
-FILERPROVIDES_/usr/lib/mod@underscore@rewrite.so_lighttpd-module-rewrite: elf(buildid) (= b327d80138c56dd770e2c672e7c6711a578f5b25) mod_rewrite.so
+FILES_INFO: {"/usr/lib/mod_rewrite.so": 9112}
+FILERPROVIDES_/usr/lib/mod@underscore@rewrite.so_lighttpd-module-rewrite: elf(buildid) (= 5e6df47c48ba466383ed5707dcabd28eebed96af) mod_rewrite.so
 FILERDEPENDSFLIST_lighttpd-module-rewrite: /usr/lib/mod@underscore@rewrite.so
 FILERDEPENDS_/usr/lib/mod@underscore@rewrite.so_lighttpd-module-rewrite: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-rewrite: 9132
+PKGSIZE_lighttpd-module-rewrite: 9112

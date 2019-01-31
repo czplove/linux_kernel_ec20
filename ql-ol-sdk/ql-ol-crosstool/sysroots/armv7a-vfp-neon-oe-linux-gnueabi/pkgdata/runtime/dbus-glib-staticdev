@@ -11,5 +11,5 @@ RPROVIDES_dbus-glib-staticdev:  dbus-glib-staticdev
 SECTION_dbus-glib-staticdev: devel
 PKG_dbus-glib-staticdev: libdbus-glib-1-staticdev
 FILES_dbus-glib-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dbus-glib/*.a
-FILES_INFO: {"/usr/lib/libdbus-glib-1.a": 199150}
-PKGSIZE_dbus-glib-staticdev: 199150
+FILES_INFO: {"/usr/lib/libdbus-glib-1.a": 199058}
+PKGSIZE_dbus-glib-staticdev: 199058

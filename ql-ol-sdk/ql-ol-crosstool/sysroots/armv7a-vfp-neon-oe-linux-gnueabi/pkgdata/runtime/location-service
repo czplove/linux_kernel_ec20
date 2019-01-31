@@ -6,14 +6,14 @@ PKGR: r1
 LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION: GPS Location Service library
 SUMMARY: location-service version git-r1
-RDEPENDS_location-service: qmi (>= git-invalidgit) data-oss (>= git) qmi-client-helper (>= git-invalidgit) loc-hal (>= git) izat-core (>= git-invalidgit) diag (>= git-invalidgit) glibc (>= 2.21) lbs-core (>= git) ql-syslog (>= git-invalidgit) glib-2.0 (>= 2.42.1) libstdc++ (>= 4.9.2) qmi-framework (>= git-invalidgit) loc-stub (>= git) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) libgcc (>= 4.9.2) loc-pla (>= git) data (>= git-invalidgit) time-genoff (>= git-invalidgit) system-core-liblog (>= git)
+RDEPENDS_location-service: qmi (>= git-invalidgit) data-oss (>= git) qmi-client-helper (>= git-invalidgit) loc-hal (>= git) izat-core (>= git-invalidgit) diag (>= git-invalidgit) glibc (>= 2.21) lbs-core (>= git) glib-2.0 (>= 2.42.1) libstdc++ (>= 4.9.2) qmi-framework (>= git-invalidgit) loc-stub (>= git) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) libgcc (>= 4.9.2) loc-pla (>= git) data (>= git-invalidgit) time-genoff (>= git-invalidgit) system-core-liblog (>= git)
 RPROVIDES_location-service:  location-service
 SECTION: base
 PKG_location-service: liblocationservice1
 FILES_location-service: /usr/bin/* /usr/sbin/* /usr/lib/location-service/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/location-service /usr/lib/location-service/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_location-service: /usr/lib/liblocationservice.so.1.0.0
-FILES_INFO: {"/usr/lib/liblocationservice.so.1": 46088}
-FILERPROVIDES_/usr/lib/liblocationservice.so.1.0.0_location-service: elf(buildid) (= 5c45a943788777cb6dd43bd83ef7192b53511d2e) liblocationservice.so.1
+FILES_INFO: {"/usr/lib/liblocationservice.so.1": 46056}
+FILERPROVIDES_/usr/lib/liblocationservice.so.1.0.0_location-service: elf(buildid) (= 75f3395d4e43bf267ce08dbb6e0dcade24f95d3f) liblocationservice.so.1
 FILERDEPENDSFLIST_location-service: /usr/lib/liblocationservice.so.1.0.0
-FILERDEPENDS_/usr/lib/liblocationservice.so.1.0.0_location-service: libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdl.so.2 libdsi_netctrl.so.0 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_default_so.so.1 libgps_utils_so.so.1 libgthread-2.0.so.0 libizat_core.so.1 liblbs_core.so.1 libloc_api_v02.so.1 libloc_core.so.1 libloc_ds_api.so.1 libloc_eng_so.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libnetmgr.so.0 libpthread.so.0 libqdi.so.0 libql_sys_log.so.1 libqmi.so.1 libqmi_cci.so.1 libqmi_client_helper.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 librmnetctl.so.0 librt.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
-PKGSIZE_location-service: 46088
+FILERDEPENDS_/usr/lib/liblocationservice.so.1.0.0_location-service: libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdl.so.2 libdsi_netctrl.so.0 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_default_so.so.1 libgps_utils_so.so.1 libgthread-2.0.so.0 libizat_core.so.1 liblbs_core.so.1 libloc_api_v02.so.1 libloc_core.so.1 libloc_ds_api.so.1 libloc_eng_so.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libnetmgr.so.0 libpthread.so.0 libqdi.so.0 libqmi.so.1 libqmi_cci.so.1 libqmi_client_helper.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 librmnetctl.so.0 librt.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_location-service: 46056

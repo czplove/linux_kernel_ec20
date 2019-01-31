@@ -17,7 +17,7 @@ old_library='libnetmgr.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' =/usr/lib/librmnetctl.la -lrt -L=/usr/lib =/usr/lib/libconfigdb.la =/usr/lib/libdsutils.la -L=/usr/lib =/usr/lib/libxml.la =/usr/lib/libxml.la =/usr/lib/libdsutils.la =/usr/lib/libdiag.la =/usr/lib/libdiag.la =/usr/lib/libgthread-2.0.la =/usr/lib/libtime_genoff.la =/usr/lib/libtime_genoff.la =/usr/lib/libgthread-2.0.la =/usr/lib/libglib-2.0.la =/usr/lib/libglib-2.0.la =/usr/lib/libql_sys_log.la -lpthread'
+dependency_libs=' =/usr/lib/librmnetctl.la -lrt -L=/usr/lib =/usr/lib/libconfigdb.la =/usr/lib/libdsutils.la -L=/usr/lib =/usr/lib/libxml.la =/usr/lib/libxml.la =/usr/lib/libdsutils.la =/usr/lib/libdiag.la =/usr/lib/libdiag.la =/usr/lib/libgthread-2.0.la =/usr/lib/libtime_genoff.la =/usr/lib/libtime_genoff.la =/usr/lib/libgthread-2.0.la =/usr/lib/libglib-2.0.la =/usr/lib/libglib-2.0.la -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

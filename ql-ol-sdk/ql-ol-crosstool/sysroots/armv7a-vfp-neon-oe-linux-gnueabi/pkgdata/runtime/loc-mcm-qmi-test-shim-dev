@@ -8,10 +8,10 @@ DESCRIPTION_loc-mcm-qmi-test-shim-dev: MCM Location Type Conversion Library  Thi
 SUMMARY_loc-mcm-qmi-test-shim-dev: loc-mcm-qmi-test-shim version git-invalidgit-r4 - Development files
 RDEPENDS_loc-mcm-qmi-test-shim-dev: loc-mcm-qmi-test-shim (= git-invalidgit-r4)
 RPROVIDES_loc-mcm-qmi-test-shim-dev:  loc-mcm-qmi-test-shim-dev
-RRECOMMENDS_loc-mcm-qmi-test-shim-dev: system-core-liblog-dev qmi-client-helper-dev libgcc-dev time-genoff-dev glib-2.0-dev mcm-core-dev loc-hal-dev data-dev qmi-dev ql-syslog-dev configdb-dev loc-mcm-type-conv-dev glibc-dev loc-pla-dev xmllib-dev libstdc++-dev dsutils-dev loc-stub-dev data-oss-dev garden-test-interfaces-dev qmi-framework-dev diag-dev
+RRECOMMENDS_loc-mcm-qmi-test-shim-dev: mcm-core-dev configdb-dev loc-hal-dev glibc-dev loc-stub-dev xmllib-dev data-dev dsutils-dev data-oss-dev garden-test-interfaces-dev libstdc++-dev qmi-client-helper-dev system-core-liblog-dev libgcc-dev loc-mcm-type-conv-dev time-genoff-dev qmi-dev glib-2.0-dev loc-pla-dev diag-dev qmi-framework-dev
 SECTION_loc-mcm-qmi-test-shim-dev: devel
 PKG_loc-mcm-qmi-test-shim-dev: libloc-mcm-qmi-test-shim-dev
 ALLOW_EMPTY_loc-mcm-qmi-test-shim-dev: 1
 FILES_loc-mcm-qmi-test-shim-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-mcm-qmi-test-shim/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libloc_mcm_qmi_test_shim.so": 33, "/usr/include/loc-mcm-qmi-test-shim/location_test_interface_qmi_loc.h": 2203, "/usr/lib/pkgconfig/loc-mcm-qmi-test-shim.pc": 273, "/usr/include/loc-mcm-qmi-test-shim/location_callbacks_qmi_loc.h": 1500, "/usr/lib/libloc_mcm_qmi_test_shim.la": 2801}
-PKGSIZE_loc-mcm-qmi-test-shim-dev: 6810
+FILES_INFO: {"/usr/lib/libloc_mcm_qmi_test_shim.so": 33, "/usr/lib/pkgconfig/loc-mcm-qmi-test-shim.pc": 273, "/usr/include/loc-mcm-qmi-test-shim/location_test_interface_qmi_loc.h": 2203, "/usr/include/loc-mcm-qmi-test-shim/location_callbacks_qmi_loc.h": 1500, "/usr/lib/libloc_mcm_qmi_test_shim.la": 2747}
+PKGSIZE_loc-mcm-qmi-test-shim-dev: 6756

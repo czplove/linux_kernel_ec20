@@ -13,7 +13,7 @@ PKG_libattr: libattr1
 FILES_libattr: /lib/lib*.so.*
 FILERPROVIDESFLIST_libattr: /lib/libattr.so.1.1.0
 FILES_INFO: {"/lib/libattr.so.1": 14364}
-FILERPROVIDES_/lib/libattr.so.1.1.0_libattr: elf(buildid) (= d8611fcad8639635561690cbeb66a110b8b1049d) libattr.so.1 libattr.so.1(ATTR_1.0) libattr.so.1(ATTR_1.1) libattr.so.1(ATTR_1.2)
+FILERPROVIDES_/lib/libattr.so.1.1.0_libattr: elf(buildid) (= 18d24be4303f2cc6200be1fc956d2c76f1bb1b86) libattr.so.1 libattr.so.1(ATTR_1.0) libattr.so.1(ATTR_1.1) libattr.so.1(ATTR_1.2)
 FILERDEPENDSFLIST_libattr: /lib/libattr.so.1.1.0
 FILERDEPENDS_/lib/libattr.so.1.1.0_libattr: rtld(GNU_HASH)
 PKGSIZE_libattr: 14364

@@ -39,6 +39,38 @@ st_api_test_case at_api_testcases[] =
     {3,    "QL_DEV_GetMeid"},
     {4,    "QL_DEV_GetEsn\n"},
     
+    {5,    "QL_WWAN_Initialize ----------------- Not Suggest"},
+    {6,    "QL_WWAN_GetDataSrvHandle ----------- Not Suggest"},
+    {7,    "QL_WWAN_StartDataCall--------------- Not Suggest"},
+    {8,    "QL_WWAN_StopDataCall---------------- Not Suggest"},
+    {9,    "ping www.baidu.com------------------ Not Suggest"},
+    {10,    "QL_WWAN_SetProfileId, QL_WWAN_SetIPVersion------- Not Suggest"},
+    {11,    "QL_WWAN_GetDeviceName-------------- Not Suggest"},
+    {12,    "QL_WWAN_GetIPAddr------------------ Not Suggest"},
+    {13,    "QL_WWAN_GetDataBearerTech---------- Not Suggest"},
+    {14,    "QL_WWAN_GetDataEndReason----------- Not Suggest"},    
+    {15,    "QL_WWAN_ReleaseDataSrvHandle------- Not Suggest"},
+    {16,    "QL_WWAN_SetAPN--------------------- Not Suggest"},
+    {17,    "QL_WWAN_GetAPN--------------------- Not Suggest"},
+    {18,    "QL_WWAN_AddConnStateEventHandler--- Not Suggest\n"},
+    
+    {20,    "QL_NW_GetRegState"},
+    {21,    "QL_NW_GetNetworkNameMccMnc"},
+    {22,    "QL_NW_GetServingCell"},
+    {23,    "QL_NW_AddRegStateEventHandler"},
+    {24,    "QL_NW_GetCSQ"},
+    {25,    "QL_NW_GetRegState_Ex\n"},
+    
+    {30,    "QL_SIM_GetICCID ---------- Not Suggest"},
+    {31,    "QL_SIM_GetIMSI ----------- Not Suggest"},
+    {32,    "QL_SIM_VerifyPIN --------- Not Suggest"},
+    {33,    "QL_SIM_ChangePIN --------- Not Suggest"},    
+    {34,    "QL_SIM_Unlock ------------ Not Suggest"},
+    {35,    "QL_SIM_Lock -------------- Not Suggest"},
+    {36,    "QL_SIM_Unblock ----------- Not Suggest"},    
+    {37,    "QL_SIM_GetPINTriesCnt ---- Not Suggest"},
+    {38,    "QL_SIM_GetState ---------- Not Suggest\n"},
+
     {40,    "QL_LOC Init"},
     {41,    "QL_LOC_Start_Navigation"},
     {42,    "QL_LOC_Stop_Navigation"},
@@ -56,6 +88,13 @@ st_api_test_case at_api_testcases[] =
     {63,    "QL_SMS_AddRxMsgHandler"},
     {64,    "QL_SMS_SetRouteList (Parse sms without store by default, if store, it won't parse)"},
     {65,    "QL_SMS_DeleteFromStorage\n"},
+
+    {70,    "QL_VCALL_AddStateHandler -------- Not Suggest"},
+    {71,    "QL_VCALL_RemoveStateHandler ----- Not Suggest"},
+    {72,    "QL_VCALL_Start ------------------ Not Suggest"},
+    {73,    "QL_VCALL_End -------------------- Not Suggest"},
+    {74,    "QL_VCALL_Answer ----------------- Not Suggest"},
+    {75,    "QL_VCALL_GetTerminationReason --- Not Suggest\n"},
 
     {80,    "set_selected_apn_idx"},
     {90,    "test_sleep_wakeup"},
@@ -1395,6 +1434,370 @@ int main(int argc, char *argv[])
             printf("ret = %d, ESN: %s\n", ret, buf);
             break;
             
+        case 5://"QL_WWAN_Initialize"
+        {
+            ret = QL_WWAN_Initialize(nw_init_cb, NULL);
+            printf("QL_WWAN_Initialize ret=%d!\n", ret);
+            break;
+        }
+        case 6://"QL_WWAN_GetDataSrvHandle"
+        {
+            g_h_handle[g_cur_apn_idx] = QL_WWAN_GetDataSrvHandle(dsi_net_evt_cb, (void*)g_cur_apn_idx);
+            printf("QL_WWAN_GetDataSrvHandle g_h_handle=%d!\n", (int)g_h_handle[g_cur_apn_idx]);
+            break;
+        }
+        case 7://"QL_WWAN_StartDataCall"
+        {
+            char    command[BUF_SIZE]= {0};
+            char    ip_str[64]  = {0};
+            int     valid_ip_cnt= 0;
+            dsi_addr_info_t info;
+            static unsigned short route_flag = 0;    // default route flag
+            
+            ret = QL_WWAN_StartDataCall(g_h_handle[g_cur_apn_idx]);
+            printf("QL_WWAN_StartDataCall ret=%d!\n", ret);
+            while(g_is_network_ready[g_cur_apn_idx] == 0)
+            {
+                printf("Wait for network ready!\n");
+                sleep(1);
+            }
+            
+            ret = QL_WWAN_GetIPAddr(g_h_handle[g_cur_apn_idx], &info, &valid_ip_cnt);
+            if(info.iface_addr_s.valid_addr == 0)
+            {
+                printf("QL_WWAN_GetIPAddr ret = %d, NO valid addr!!\n", ret);
+                break;
+            }            
+            
+            inet_ntop(AF_INET, info.iface_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            printf("QL_WWAN_GetIPAddr ret = %d, valid_ip_cnt=%d \nInterface IP address =%s\n",  ret, valid_ip_cnt, ip_str);
+            
+            ret = QL_WWAN_GetDeviceName(g_h_handle[g_cur_apn_idx], buf, sizeof(buf));
+            printf("QL_WWAN_GetDeviceName ret = %d, name=%s\n", ret, buf);
+
+            snprintf(command, sizeof(command), "ifconfig %s %s netmask 255.0.0.0",buf, ip_str);
+            system(command);
+           
+            /* remove the default route rule, otherwise we cannot add the new one, by gale */
+            if(route_flag)
+            {
+                memset(command, 0, sizeof(command));
+                snprintf(command, sizeof(command), "ip route del default");
+                system(command);
+            }
+            inet_ntop(AF_INET, &info.gtwy_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            snprintf(command, sizeof(command), "ip route add default via %s dev %s", ip_str, buf);
+            system(command);
+            route_flag = 1;    //Mark: there is already a defaule route rule
+            printf("Gateway IP address   =%s\n", ip_str);
+
+            inet_ntop(AF_INET, &info.dnsp_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            snprintf(command, sizeof(command), "echo 'nameserver %s' > /etc/resolv.conf", ip_str);
+            system(command);
+            printf("Primary DNS address  =%s\n", ip_str);
+            
+            inet_ntop(AF_INET, &info.dnss_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            snprintf(command, sizeof(command), "echo 'nameserver %s' >> /etc/resolv.conf", ip_str);
+            system(command);
+            printf("Secondary DNS address=%s\n\n", ip_str);            
+            break;  
+        }
+        case 8://"QL_WWAN_StopDataCall"
+            ret = QL_WWAN_StopDataCall(g_h_handle[g_cur_apn_idx]);
+            printf("QL_WWAN_StopDataCall ret=%d!\n", ret);
+            break;
+
+        case 9://"test network available"
+        {
+            char    command[BUF_SIZE]= {0};
+            char    ip_str[64]  = {0};
+            int     valid_ip_cnt= 0;
+            dsi_addr_info_t info;
+            
+            ret = QL_WWAN_GetIPAddr(g_h_handle[g_cur_apn_idx], &info, &valid_ip_cnt);
+            if(info.iface_addr_s.valid_addr == 0)
+            {
+                printf("QL_WWAN_GetIPAddr ret = %d, NO valid addr!!\n", ret);
+                break;
+            }            
+            
+            inet_ntop(AF_INET, info.iface_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            
+            snprintf(command, BUF_SIZE, "ping -c 10 -I %s www.baidu.com", ip_str);
+            system(command);
+            break;
+        }
+
+        case 10://"QL_WWAN_SetIPVersion"
+            ret = QL_WWAN_SetProfileId(g_h_handle[g_cur_apn_idx], g_cur_apn_idx+1); //Use path 1, you can change it to others
+            printf("QL_WWAN_SetProfileId ret = %d\n", ret);
+            ret = QL_WWAN_SetIPVersion(g_h_handle[g_cur_apn_idx], 4);
+            printf("QL_WWAN_SetIPVersion ret = %d\n", ret);
+            break;
+        case 11://"QL_WWAN_GetDeviceName"
+            ret = QL_WWAN_GetDeviceName(g_h_handle[g_cur_apn_idx], buf, BUF_LEN);
+            printf("QL_WWAN_GetDeviceName ret = %d, name=%s\n", ret, buf);
+            break;
+        case 12://"QL_WWAN_GetIPAddr"
+        {
+            char ip_str[64] = {0};
+            dsi_addr_info_t info;
+            int valid_ip_cnt = 0;
+            
+            ret = QL_WWAN_GetIPAddr(g_h_handle[g_cur_apn_idx], &info, &valid_ip_cnt);
+            if(info.iface_addr_s.valid_addr == 0)
+            {
+                printf("QL_WWAN_GetIPAddr ret = %d, NO valid addr!!\n", ret);
+                break;
+            }            
+            
+            inet_ntop(AF_INET, info.iface_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            printf("QL_WWAN_GetIPAddr ret = %d, valid_ip_cnt=%d \nInterface IP address =%s\n", 
+                            ret, valid_ip_cnt, ip_str);
+            
+            inet_ntop(AF_INET, &info.gtwy_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            printf("Gateway IP address   =%s\n", ip_str);
+
+            inet_ntop(AF_INET, &info.dnsp_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            printf("Primary DNS address  =%s\n", ip_str);
+            
+            inet_ntop(AF_INET, &info.dnss_addr_s.addr.__ss_padding, ip_str, sizeof(ip_str));
+            printf("Secondary DNS address=%s\n\n", ip_str);            
+            break;  
+        }
+        case 13://"QL_WWAN_GetDataBearerTech"
+            ret = (int)QL_WWAN_GetDataBearerTech(g_h_handle[g_cur_apn_idx]);
+            printf("QL_WWAN_GetDataBearerTech ret = %d\n", ret);
+            break;
+        case 14://"QL_WWAN_GetDataEndReason"
+        {
+            dsi_ce_reason_t ce_reason;
+            ret = (int)QL_WWAN_GetDataEndReason(g_h_handle[g_cur_apn_idx], &ce_reason, DSI_IP_FAMILY_V4);
+            printf("QL_WWAN_GetDataEndReason ret = %d, reason.type=%d, reason.code=%d\n", 
+                    ret, ce_reason.reason_type, ce_reason.reason_code);
+            break;
+        }
+        case 15://"QL_WWAN_ReleaseDataSrvHandle"
+        {
+            QL_WWAN_ReleaseDataSrvHandle(g_h_handle[g_cur_apn_idx]);
+            g_h_handle[g_cur_apn_idx] = NULL;
+            printf("QL_WWAN_ReleaseDataSrvHandle return!\n");
+            break;
+        }
+        case 16://"QL_WWAN_SetAPN"
+        {
+            ret = QL_WWAN_SetAPN(g_h_handle[g_cur_apn_idx], g_cur_apn_idx+1, "qldsiCfgAPN", "testuser", "testpwd");
+            printf("QL_WWAN_SetAPN ret = %d\n", ret);
+            break;
+        }
+        case 17://"QL_WWAN_GetAPN"
+        {
+            char   pwd[BUF_SIZE]= {0};
+            ret = QL_WWAN_GetAPN(g_h_handle[g_cur_apn_idx], g_cur_apn_idx+1, buf, BUF_SIZE, buf1, BUF_SIZE, pwd, BUF_SIZE);
+            printf("ret = %d, APN: %s, user:%s, pwd:%s\n", ret, buf, buf1, pwd);
+            break;
+        }
+        case 18://"QL_WWAN_AddConnStateEventHandler"
+        {
+            ret = QL_WWAN_AddConnStateEventHandler(ql_wwan_connstate_cb_func, NULL);
+            printf("QL_WWAN_AddConnStateEventHandler ret = %d\n", ret);
+            break;
+        }
+        
+        
+        case 20://"QL_NW_GetRegState"
+        {
+            E_QL_NW_RADIO_ACCESS_TYPE_T rat;
+            E_QL_WWAN_NET_REG_STATE_T state;
+            char *reg_state[] = {"NOT_REGISTERED", 
+                                 "REGISTERED_HOME_NETWORK", 
+                                 "NOT_REGISTERED_SEARCHING_NOW", 
+                                 "DENIED", 
+                                 "UNKNOWN", 
+                                 "ROAMING"};
+            char *RAT_Name[] = { "GSM", 
+                                 "unknown", 
+                                 "UTRAN", 
+                                 "GSMW_EGPRS", 
+                                 "UTRANW_HSDPA", 
+                                 "UTRANW_HSUPA", 
+                                 "UTRANW_HSDPA_AND_HSUPA", 
+                                 "E_UTRAN"};            
+            ret = QL_NW_GetRegState(&rat, &state, &value, &value1);
+            printf("ret = %d, rat=%s, NetRegState= %s, rssi= %d, ber=%d\n", 
+                    ret, RAT_Name[rat], reg_state[state], value, value1);
+            break;
+        }
+        case 21://QL_NW_GetNetworkNameMccMnc
+        {
+            char   mncStr[BUF_SIZE]= {0};
+            ret = QL_NW_GetNetworkNameMccMnc(buf, BUF_SIZE, buf1, BUF_SIZE, mncStr, BUF_SIZE);
+            printf("ret = %d, name: %s, mcc:%s, mnc:%s\n", ret, buf, buf1, mncStr);
+            break;            
+        }
+        case 22://"QL_NW_GetServingCell"
+        {
+            int i = 0;
+            ST_CellInfo  info = {0};
+            ret = QL_NW_GetServingCell(&info);
+            for(i=0; i<info.validCnt; i++)
+            {
+                printf("ServingCell[%d]: rat=%s, mcc=%d, mnc=%d, lac = 0x%X, ci=0x%x\n", 
+                    i, 
+                    info.cellInfo[i].rat, 
+                    info.cellInfo[i].mcc, 
+                    info.cellInfo[i].mnc, 
+                    info.cellInfo[i].lac, 
+                    info.cellInfo[i].cid);
+            }
+            break;
+        }
+        case 23://"QL_NW_AddRegStateEventHandler"
+            ret = QL_NW_AddRegStateEventHandler(ql_nw_regstate_cb_func, (void*)NULL);
+            printf("QL_NW_AddRegStateEventHandler ret %d\n", ret);
+            break;
+        case 24://"QL_NW_GetCSQ"
+        {
+            int csq = 0;
+            ret = QL_NW_GetCSQ(&csq);
+            printf("QL_NW_GetCSQ ret %d, CSQ=%d\n", ret, csq);
+            break;
+        }
+        case 25://"QL_NW_GetRegState_Ex"
+        {
+            int i;
+            QL_NW_REG_STATE_TYPE_T t_reg_state = {0};  
+            char *reg_state[] = {"NOT_REGISTERED", 
+                                 "REGISTERED_HOME_NETWORK", 
+                                 "NOT_REGISTERED_SEARCHING_NOW", 
+                                 "DENIED", 
+                                 "UNKNOWN", 
+                                 "ROAMING"};
+            char *RAT_Name[] = { "GSM", 
+                                 "unknown", 
+                                 "UTRAN", 
+                                 "GSMW_EGPRS", 
+                                 "UTRANW_HSDPA", 
+                                 "UTRANW_HSUPA", 
+                                 "UTRANW_HSDPA_AND_HSUPA", 
+                                 "E_UTRAN"};  
+            char *cs_ps_state[] = {"UNKNOWN", 
+                                 "ATTACHED", 
+                                 "DETACHED"}; 
+            char *selected_nw[] = {"UNKNOWN", 
+                                 "3GPP2", 
+                                 "3GPP"}; 
+            char *radio_if[] = {"NO_SVC", 
+                                 "CDMA_1X", 
+                                 "CDMA_1XEVDO",
+                                 "AMPS",
+                                 "GSM",
+                                 "UMTS",
+                                 "WLAN",
+                                 "GPS",
+                                 "LTE",
+                                 "TDSCDMA",
+                                 "NO_CHANGE"}; 
+        
+            ret = QL_NW_GetRegState_Ex(&t_reg_state);
+            printf("ret = %d, \r\ne_rat=%s, \r\ne_state= %s, \r\ne_cs_state= %s, \r\ne_ps_state= %s,"
+                    "\r\ne_selected_nw= %s, \r\nrssi= %d, \r\nber=%d, \r\nRadio_IF list:\n", 
+                    ret, 
+                    RAT_Name[t_reg_state.e_rat], 
+                    reg_state[t_reg_state.e_state], 
+                    cs_ps_state[t_reg_state.e_cs_state], 
+                    cs_ps_state[t_reg_state.e_ps_state], 
+                    selected_nw[t_reg_state.e_selected_nw], 
+                    t_reg_state.rssi, 
+                    t_reg_state.ber);
+            for(i=0; i<t_reg_state.radio_if_len; i++)
+            {
+                printf("%s ", radio_if[t_reg_state.radio_if[i]]);
+            }
+            break;            
+        } 
+        
+        case 30://"QL_SIM_GetICCID"
+            ret = QL_SIM_GetICCID(E_QL_SIM_EXTERNAL_SLOT_1, buf, BUF_SIZE);
+            printf("ret = %d, ICCID: %s\n", ret, buf);
+            break;
+        case 31://"QL_SIM_GetIMSI"
+            ret = QL_SIM_GetIMSI(E_QL_SIM_EXTERNAL_SLOT_1, buf, BUF_SIZE);
+            printf("ret = %d, IMSI: %s\n", ret, buf);
+            break;
+        case 32://"QL_SIM_VerifyPIN"
+        {
+            char pin[8] = {0};
+            printf("please input pin: \n");
+            scanf("%s", pin);
+            ret = QL_SIM_VerifyPIN(E_QL_SIM_EXTERNAL_SLOT_1, pin);
+            printf("QL_SIM_VerifyPIN ret = %d\n", ret);
+            break;
+        }
+        case 33://"QL_SIM_ChangePIN"
+        {
+            char old_pin[8] = {0};
+            char new_pin[8] = {0};
+            
+            printf("please input OLD pin: \n");
+            scanf("%s", old_pin);
+            
+            printf("please input NEW pin: \n");
+            scanf("%s", new_pin);
+            
+            ret = QL_SIM_ChangePIN(E_QL_SIM_EXTERNAL_SLOT_1, old_pin, new_pin);
+            printf("QL_SIM_ChangePIN ret = %d\n", ret);
+            break;
+        }
+        case 34://"QL_SIM_Unlock"
+        {
+            char pin[8] = {0};
+            
+            printf("please input pin: \n");
+            scanf("%s", pin);
+            
+            ret = QL_SIM_Unlock(E_QL_SIM_EXTERNAL_SLOT_1, pin);
+            printf("QL_SIM_Unlock ret = %d\n", ret);
+            break;
+        }
+        case 35://"QL_SIM_Lock"
+        {
+            char pin[8] = {0};
+            
+            printf("please input pin: \n");
+            scanf("%s", pin);
+            
+            ret = QL_SIM_Lock(E_QL_SIM_EXTERNAL_SLOT_1, pin);
+            printf("QL_SIM_Lock ret = %d\n", ret);
+            break;
+        }
+        case 36://"QL_SIM_Unblock"
+        {
+            char puk[8] = {0};
+            char new_pin[8] = {0};
+            
+            printf("please input puk: \n");
+            scanf("%s", puk);
+            
+            printf("please input NEW pin: \n");
+            scanf("%s", new_pin);
+            
+            ret = QL_SIM_Unblock(E_QL_SIM_EXTERNAL_SLOT_1, puk, new_pin);
+            printf("QL_SIM_Unblock ret = %d\n", ret);
+            break;
+        }        
+        case 37://"QL_SIM_GetPINTriesCnt"
+            ret = QL_SIM_GetPINTriesCnt(E_QL_SIM_EXTERNAL_SLOT_1);
+            printf("QL_SIM_GetPINTriesCnt = %d\n", ret);
+            break;
+        case 38://"QL_SIM_GetState"
+        {
+            char *pin_state[] = {"NOT_INSERTED", "READY", "PIN_REQ", "PUK_REQ", "BUSY", "BLOCKED", "UNKNOWN"};
+            ret = QL_SIM_GetState(E_QL_SIM_EXTERNAL_SLOT_1);
+            printf("QL_SIM_GetState = %s\n", pin_state[ret]);
+            break;            
+        }
+            
         case 40://"QL_LOC_ Init"
         {
             int                     test_cnt    = 0;
@@ -1676,6 +2079,37 @@ int main(int argc, char *argv[])
             printf("QL_SMS_DeleteFromStorage ret=%d \n", ret);
             break;
         }
+
+
+        case 70://"QL_VCALL_AddStateHandler"
+        {
+            h_voicecall = QL_VCALL_AddStateHandler(ql_vcall_cb_func, (void*)&h_call);
+            printf("QL_VCALL_AddStateHandler h_voicecall = %d\n", h_voicecall);
+            break;
+        }
+        case 71://"QL_VCALL_RemoveStateHandler"
+            QL_VCALL_RemoveStateHandler(h_voicecall);
+            printf("QL_VCALL_RemoveStateHandler finished\n");
+            break;
+        case 72://"QL_VCALL_Start"
+        {
+            char    PhoneNum[32]                  = {0}; 
+
+            printf("please input dest phone number: \n");
+            scanf("%s", PhoneNum);
+            
+            h_call = QL_VCALL_Start(E_QL_VCALL_EXTERNAL_SLOT_1, PhoneNum);
+            printf("QL_VCALL_Start h_call=%d\n", h_call);
+        }
+            break;
+        case 73://"QL_VCALL_End"
+            ret = QL_VCALL_End(h_call);
+            printf("QL_VCALL_End ret=%d \n", ret);
+            break;
+        case 74://"QL_VCALL_Answer"
+            ret = QL_VCALL_Answer(h_call);
+            printf("QL_VCALL_Answer ret=%d \n", ret);
+            break;
 
         case 80://"set_selected_apn_idx"
         {

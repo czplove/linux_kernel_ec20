@@ -3,14 +3,6 @@
 
 static nw_client_handle_type    h_nw     = 0;
 extern func_api_test_t t_nw_test;
-
-char *tech_domain[] = {"NONE", "3GPP", "3GPP2"};
-char *radio_tech[] = {"unknown", 
-    "TD_SCDMA", "GSM",      "HSPAP",    "LTE",      "EHRPD",    "EVDO_B", 
-    "HSPA",     "HSUPA",    "HSDPA",    "EVDO_A",   "EVDO_0",   "1xRTT", 
-    "IS95B",    "IS95A",    "UMTS",     "EDGE",     "GPRS",     "NONE"};
-
-
 st_api_test_case at_nw_testlist[] = 
 {
     {0,     "QL_MCM_NW_Client_Init"},
@@ -28,175 +20,9 @@ st_api_test_case at_nw_testlist[] =
     {12,    "QL_MCM_NW_Client_Deinit"},
     {13,    "Set Time Server"},
     {14,    "Set Time Zone"},
-    {15,    "QL_MCM_NW_AddRxMsgHandler"},
 
     {-1,   "Return to main menu"}
 };
-
-void nw_event_ind_handler (
-    nw_client_handle_type h_nw, 
-    uint32_t ind_flag, 
-    void                  *ind_msg_buf, 
-    uint32_t              ind_msg_len, 
-    void                  *contextPtr)
-{
-    switch(ind_flag) {
-        case NW_IND_VOICE_REG_EVENT_IND_FLAG:
-            {
-                QL_MCM_NW_VOICE_REG_EVENT_IND_T *ind = (void*)ind_msg_buf;
-                printf("Recv event indication : VOICE REG EVENT\n");
-
-                if(ind->registration_valid)
-                {
-                    printf("voice_registration: \ntech_domain=%s, radio_tech=%s, roaming=%d, registration_state=%d\n", 
-                            tech_domain[ind->registration.tech_domain], 
-                            radio_tech[ind->registration.radio_tech],
-                            ind->registration.roaming,
-                            ind->registration.registration_state);
-                }
-                if(ind->registration_details_3gpp_valid)
-                {
-                    printf("voice_registration_details_3gpp: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, cid=0x%X, lac=%d, psc=%d, tac=%d\n", 
-                            tech_domain[ind->registration_details_3gpp.tech_domain], 
-                            radio_tech[ind->registration_details_3gpp.radio_tech],
-                            ind->registration_details_3gpp.mcc,
-                            ind->registration_details_3gpp.mnc,
-                            ind->registration_details_3gpp.roaming,
-                            ind->registration_details_3gpp.forbidden,                    
-                            ind->registration_details_3gpp.cid,
-                            ind->registration_details_3gpp.lac,
-                            ind->registration_details_3gpp.psc,
-                            ind->registration_details_3gpp.tac);
-                }
-
-                if(ind->registration_details_3gpp2_valid)
-                {
-                    printf("voice_registration_details_3gpp2: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, sid=%d, nid=%d, bsid=%d\n", 
-                            tech_domain[ind->registration_details_3gpp2.tech_domain], 
-                            radio_tech[ind->registration_details_3gpp2.radio_tech],
-                            ind->registration_details_3gpp2.mcc,
-                            ind->registration_details_3gpp2.mnc,
-                            ind->registration_details_3gpp2.roaming,
-                            ind->registration_details_3gpp2.forbidden,                    
-                            ind->registration_details_3gpp2.sid,
-                            ind->registration_details_3gpp2.nid,
-                            ind->registration_details_3gpp2.bsid);
-                }
-
-                break;
-            }
-        case NW_IND_DATA_REG_EVENT_IND_FLAG:
-            {
-                QL_MCM_NW_DATA_REG_EVENT_IND_T *ind = (void*)ind_msg_buf;
-
-                printf("Recv event indication : DATA REG EVENT\n");
-
-                if(ind->registration_valid)
-                {
-                    printf("data_registration: \ntech_domain=%s, radio_tech=%s, roaming=%d, registration_state=%d\n", 
-                            tech_domain[ind->registration.tech_domain], 
-                            radio_tech[ind->registration.radio_tech],
-                            ind->registration.roaming,
-                            ind->registration.registration_state);
-                }
-                if(ind->registration_details_3gpp_valid)
-                {
-                    printf("data_registration_details_3gpp: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, cid=0x%X, lac=%d, psc=%d, tac=%d\n", 
-                            tech_domain[ind->registration_details_3gpp.tech_domain], 
-                            radio_tech[ind->registration_details_3gpp.radio_tech],
-                            ind->registration_details_3gpp.mcc,
-                            ind->registration_details_3gpp.mnc,
-                            ind->registration_details_3gpp.roaming,
-                            ind->registration_details_3gpp.forbidden,                    
-                            ind->registration_details_3gpp.cid,
-                            ind->registration_details_3gpp.lac,
-                            ind->registration_details_3gpp.psc,
-                            ind->registration_details_3gpp.tac);
-                }
-
-                if(ind->registration_details_3gpp2_valid)
-                {
-                    printf("data_registration_details_3gpp2: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, sid=%d, nid=%d, bsid=%d\n", 
-                            tech_domain[ind->registration_details_3gpp2.tech_domain], 
-                            radio_tech[ind->registration_details_3gpp2.radio_tech],
-                            ind->registration_details_3gpp2.roaming,
-                            ind->registration_details_3gpp2.forbidden,                    
-                            ind->registration_details_3gpp2.sid,
-                            ind->registration_details_3gpp2.nid,
-                            ind->registration_details_3gpp2.bsid);
-                }
-
-                break;
-            }
-        case NW_IND_SIGNAL_STRENGTH_EVENT_IND_FLAG:
-            {
-                QL_MCM_NW_SINGNAL_EVENT_IND_T *ind = (void*)ind_msg_buf;
-
-                printf("Recv event indication : SIGNAL STRENGTH EVENT\n");
-
-                if(ind->gsm_sig_info_valid)
-                {
-                    printf("gsm_sig_info: rssi=%d\n", 
-                            ind->gsm_sig_info.rssi);
-                } 
-
-                if(ind->wcdma_sig_info_valid)
-                {
-                    printf("wcdma_sig_info: rssi=%d, ecio=%d\n", 
-                            ind->wcdma_sig_info.rssi, 
-                            ind->wcdma_sig_info.ecio);
-                } 
-                if(ind->tdscdma_sig_info_valid)
-                {
-                    printf("tdscdma_sig_info: rssi=%d, rscp=%d, ecio=%d, sinr=%d\n", 
-                            ind->tdscdma_sig_info.rssi, 
-                            ind->tdscdma_sig_info.rscp,
-                            ind->tdscdma_sig_info.ecio,
-                            ind->tdscdma_sig_info.sinr);
-                } 
-                if(ind->lte_sig_info_valid)
-                {
-                    printf("lte_sig_info: rssi=%d, rsrq=%d, rsrp=%d, snr=%d\n", 
-                            ind->lte_sig_info.rssi, 
-                            ind->lte_sig_info.rsrq,
-                            ind->lte_sig_info.rsrp,
-                            ind->lte_sig_info.snr);
-                } 
-                if(ind->cdma_sig_info_valid)
-                {
-                    printf("cdma_sig_info: rssi=%d, ecio=%d\n", 
-                            ind->cdma_sig_info.rssi, 
-                            ind->cdma_sig_info.ecio);
-                } 
-                if(ind->hdr_sig_info_valid)
-                {
-                    printf("hdr_sig_info: rssi=%d, ecio=%d, sinr=%d, io=%d\n", 
-                            ind->hdr_sig_info.rssi, 
-                            ind->hdr_sig_info.ecio,
-                            ind->hdr_sig_info.sinr,
-                            ind->hdr_sig_info.io);
-                }
-                break;
-            }
-        case NW_IND_CELL_ACCESS_STATE_CHG_EVENT_IND_FLAG:
-            {
-                QL_MCM_NW_CELL_ACCESS_STATE_EVENT_IND_T *ind = (void*)ind_msg_buf;
-                printf("Recv event indication : CELL ACCESS STATE EVENT\n");
-                printf("state = %d\n", ind->state);
-                break;
-            }
-        case NW_IND_NITZ_TIME_UPDATE_EVENT_IND_FLAG:
-            {
-                QL_MCM_NW_NITZ_TIME_EVENT_IND_T *ind = (void*)ind_msg_buf; 
-                printf("Recv event indication : NITZ TIME EVENT\n");
-                printf("nitz_time=%s, abs_time=%lld, leap_sec=%d, \n",
-                        ind->info.nitz_time, ind->info.abs_time, ind->info.leap_sec);
-                break;
-            }
-        default:
-            break;
-    }
-}
 
 
 #define BUF_SIZE 32
@@ -300,25 +126,25 @@ static int test_nw(void)
             printf("QL_MCM_NW_GetRegStatus ret = %d, detail info:\n", ret);
             if(t_info.voice_registration_valid)
             {
-                printf("voice_registration: \ntech_domain=%s, radio_tech=%s, roaming=%d, registration_state=%d\n", 
-                    tech_domain[t_info.voice_registration.tech_domain], 
-                    radio_tech[t_info.voice_registration.radio_tech],
+                printf("voice_registration: tech_domain=%d, radio_tech=%d, roaming=%d, registration_state=%d\n", 
+                    t_info.voice_registration.tech_domain, 
+                    t_info.voice_registration.radio_tech,
                     t_info.voice_registration.roaming,
                     t_info.voice_registration.registration_state);
             }
             if(t_info.data_registration_valid)
             {
-                printf("data_registration: \ntech_domain=%s, radio_tech=%s, roaming=%d, registration_state=%d\n", 
-                    tech_domain[t_info.data_registration.tech_domain], 
-                    radio_tech[t_info.data_registration.radio_tech],
+                printf("data_registration: tech_domain=%d, radio_tech=%d, roaming=%d, registration_state=%d\n", 
+                    t_info.data_registration.tech_domain, 
+                    t_info.data_registration.radio_tech,
                     t_info.data_registration.roaming,
                     t_info.data_registration.registration_state);
             }
             if(t_info.voice_registration_details_3gpp_valid)
             {
-                printf("voice_registration_details_3gpp: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, cid=0x%X, lac=%d, psc=%d, tac=%d\n", 
-                    tech_domain[t_info.voice_registration_details_3gpp.tech_domain], 
-                    radio_tech[t_info.voice_registration_details_3gpp.radio_tech],
+                printf("voice_registration_details_3gpp: tech_domain=%d, radio_tech=%d, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, cid=%d, lac=%d, psc=%d, tac=%d\n", 
+                    t_info.voice_registration_details_3gpp.tech_domain, 
+                    t_info.voice_registration_details_3gpp.radio_tech,
                     t_info.voice_registration_details_3gpp.mcc,
                     t_info.voice_registration_details_3gpp.mnc,
                     t_info.voice_registration_details_3gpp.roaming,
@@ -330,9 +156,9 @@ static int test_nw(void)
             }
             if(t_info.data_registration_details_3gpp_valid)
             {
-                printf("data_registration_details_3gpp: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, cid=0x%X, lac=%d, psc=%d, tac=%d\n", 
-                    tech_domain[t_info.data_registration_details_3gpp.tech_domain], 
-                    radio_tech[t_info.data_registration_details_3gpp.radio_tech],
+                printf("voice_registration_details_3gpp: tech_domain=%d, radio_tech=%d, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, cid=%d, lac=%d, psc=%d, tac=%d\n", 
+                    t_info.data_registration_details_3gpp.tech_domain, 
+                    t_info.data_registration_details_3gpp.radio_tech,
                     t_info.data_registration_details_3gpp.mcc,
                     t_info.data_registration_details_3gpp.mnc,
                     t_info.data_registration_details_3gpp.roaming,
@@ -345,9 +171,9 @@ static int test_nw(void)
             
             if(t_info.voice_registration_details_3gpp2_valid)
             {
-                printf("voice_registration_details_3gpp2: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, sid=%d, nid=%d, bsid=%d\n", 
-                    tech_domain[t_info.voice_registration_details_3gpp2.tech_domain], 
-                    radio_tech[t_info.voice_registration_details_3gpp2.radio_tech],
+                printf("voice_registration_details_3gpp2: tech_domain=%d, radio_tech=%d, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, sid=%d, nid=%d, bsid=%d\n", 
+                    t_info.voice_registration_details_3gpp2.tech_domain, 
+                    t_info.voice_registration_details_3gpp2.radio_tech,
                     t_info.voice_registration_details_3gpp2.mcc,
                     t_info.voice_registration_details_3gpp2.mnc,
                     t_info.voice_registration_details_3gpp2.roaming,
@@ -359,9 +185,9 @@ static int test_nw(void)
             
             if(t_info.data_registration_details_3gpp2_valid)
             {
-                printf("data_registration_details_3gpp2: \ntech_domain=%s, radio_tech=%s, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, sid=%d, nid=%d, bsid=%d\n", 
-                    tech_domain[t_info.data_registration_details_3gpp2.tech_domain], 
-                    radio_tech[t_info.data_registration_details_3gpp2.radio_tech],
+                printf("voice_registration_details_3gpp2: tech_domain=%d, radio_tech=%d, mcc=%s, mnc=%s, roaming=%d, forbidden=%d, sid=%d, nid=%d, bsid=%d\n", 
+                    t_info.data_registration_details_3gpp2.tech_domain, 
+                    t_info.data_registration_details_3gpp2.radio_tech,
                     t_info.data_registration_details_3gpp2.mcc,
                     t_info.data_registration_details_3gpp2.mnc,
                     t_info.data_registration_details_3gpp2.roaming,
@@ -417,46 +243,46 @@ static int test_nw(void)
             if(t_info.gsm_sig_info_valid)
             {
                 printf("gsm_sig_info: rssi=%d\n", 
-                        t_info.gsm_sig_info.rssi);
+                    t_info.gsm_sig_info.rssi);
             } 
 
             if(t_info.wcdma_sig_info_valid)
             {
                 printf("wcdma_sig_info: rssi=%d, ecio=%d\n", 
-                        t_info.wcdma_sig_info.rssi, 
-                        t_info.wcdma_sig_info.ecio);
+                    t_info.wcdma_sig_info.rssi, 
+                    t_info.wcdma_sig_info.ecio);
             } 
             if(t_info.tdscdma_sig_info_valid)
             {
                 printf("tdscdma_sig_info: rssi=%d, rscp=%d, ecio=%d, sinr=%d\n", 
-                        t_info.tdscdma_sig_info.rssi, 
-                        t_info.tdscdma_sig_info.rscp,
-                        t_info.tdscdma_sig_info.ecio,
-                        t_info.tdscdma_sig_info.sinr);
+                    t_info.tdscdma_sig_info.rssi, 
+                    t_info.tdscdma_sig_info.rscp,
+                    t_info.tdscdma_sig_info.ecio,
+                    t_info.tdscdma_sig_info.sinr);
             } 
             if(t_info.lte_sig_info_valid)
             {
-                printf("lte_sig_info: rssi=%d, rsrq=%d, rsrp=%d, snr=%d\n", 
-                        t_info.lte_sig_info.rssi, 
-                        t_info.lte_sig_info.rsrq,
-                        t_info.lte_sig_info.rsrp,
-                        t_info.lte_sig_info.snr);
+                printf("tdscdma_sig_info: rssi=%d, rsrq=%d, rsrp=%d, snr=%d\n", 
+                    t_info.lte_sig_info.rssi, 
+                    t_info.lte_sig_info.rsrq,
+                    t_info.lte_sig_info.rsrp,
+                    t_info.lte_sig_info.snr);
             } 
             if(t_info.cdma_sig_info_valid)
             {
                 printf("cdma_sig_info: rssi=%d, ecio=%d\n", 
-                        t_info.cdma_sig_info.rssi, 
-                        t_info.cdma_sig_info.ecio);
+                    t_info.cdma_sig_info.rssi, 
+                    t_info.cdma_sig_info.ecio);
             } 
             if(t_info.hdr_sig_info_valid)
             {
                 printf("hdr_sig_info: rssi=%d, ecio=%d, sinr=%d, io=%d\n", 
-                        t_info.hdr_sig_info.rssi, 
-                        t_info.hdr_sig_info.ecio,
-                        t_info.hdr_sig_info.sinr,
-                        t_info.hdr_sig_info.io);
+                    t_info.hdr_sig_info.rssi, 
+                    t_info.hdr_sig_info.ecio,
+                    t_info.hdr_sig_info.sinr,
+                    t_info.hdr_sig_info.io);
             } 
-
+            
             break;
         }
         case 11://"QL_MCM_NW_GetCellAccessState"
@@ -502,12 +328,6 @@ static int test_nw(void)
             printf("Current time: %s\n", asctime(info));
             
             break;
-        }
-        case 15 :
-        {
-           ret = QL_MCM_NW_AddRxMsgHandler(h_nw, nw_event_ind_handler, NULL);  
-           printf("QL_MCM_NW_AddRxMsgHandler, ret=%d\n", ret);
-           break;
         }
         
         default:

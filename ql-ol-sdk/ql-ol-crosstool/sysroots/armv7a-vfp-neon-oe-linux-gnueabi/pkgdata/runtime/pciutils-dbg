@@ -11,5 +11,5 @@ SECTION_pciutils-dbg: devel
 PKG_pciutils-dbg: pciutils-dbg
 ALLOW_EMPTY_pciutils-dbg: 1
 FILES_pciutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pciutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pciutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pciutils/pciutils/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/lspci": 10212, "/usr/sbin/.debug/setpci": 6617}
-PKGSIZE_pciutils-dbg: 16829
+FILES_INFO: {"/usr/sbin/.debug/lspci": 10176, "/usr/sbin/.debug/setpci": 6581}
+PKGSIZE_pciutils-dbg: 16757

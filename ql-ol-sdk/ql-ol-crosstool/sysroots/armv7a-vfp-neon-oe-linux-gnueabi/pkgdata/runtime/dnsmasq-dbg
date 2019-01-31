@@ -11,5 +11,5 @@ SECTION_dnsmasq-dbg: devel
 PKG_dnsmasq-dbg: dnsmasq-dbg
 ALLOW_EMPTY_dnsmasq-dbg: 1
 FILES_dnsmasq-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dnsmasq/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dnsmasq/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dnsmasq/dnsmasq/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/dnsmasq": 34171}
-PKGSIZE_dnsmasq-dbg: 34171
+FILES_INFO: {"/usr/bin/.debug/dnsmasq": 33867}
+PKGSIZE_dnsmasq-dbg: 33867

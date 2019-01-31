@@ -13,7 +13,7 @@ PKG_util-linux-libblkid: libblkid1
 FILES_util-linux-libblkid: /lib/libblkid.so.*
 FILERPROVIDESFLIST_util-linux-libblkid: /lib/libblkid.so.1.1.0
 FILES_INFO: {"/lib/libblkid.so.1": 202156}
-FILERPROVIDES_/lib/libblkid.so.1.1.0_util-linux-libblkid: elf(buildid) (= d61b9c82531e2b1c80bdcbbee133bb4677015c88) libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.20) libblkid.so.1(BLKID_2.21) libblkid.so.1(BLKID_2.23) libblkid.so.1(BLKID_2.25)
+FILERPROVIDES_/lib/libblkid.so.1.1.0_util-linux-libblkid: elf(buildid) (= ac7f6adaf2f80cb44b74be9a3ecc98db12c6acb7) libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.20) libblkid.so.1(BLKID_2.21) libblkid.so.1(BLKID_2.23) libblkid.so.1(BLKID_2.25)
 FILERDEPENDSFLIST_util-linux-libblkid: /lib/libblkid.so.1.1.0
 FILERDEPENDS_/lib/libblkid.so.1.1.0_util-linux-libblkid: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 PKGSIZE_util-linux-libblkid: 202156

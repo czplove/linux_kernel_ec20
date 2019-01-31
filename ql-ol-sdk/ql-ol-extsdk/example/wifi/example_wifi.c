@@ -366,7 +366,6 @@ int main(int argc, char **argv)
 				if(atoi(sptr) <  QL_WIFI_WORK_MODE_STA || atoi(sptr) > QL_WIFI_WORK_MODE_AP0_AP1
 				   || ql_wifi_work_mode_set(atoi(sptr))) {
 					printf("\nSet WiFi work mode failure");
-					break;
 				}
 				if(QL_WIFI_WORK_MODE_STA == atoi(sptr)) {
 					wifi_sta_config();

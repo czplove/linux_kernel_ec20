@@ -26,14 +26,6 @@ typedef struct mcm_ipc_srv_mgr_exit_func_t
 } mcm_ipc_srv_mgr_exit_func;
 
 int mcm_ipc_srv_mgr_start(mcm_ipc_srv_mgr_exit_func *srv_down_func);
-
-/** add by tyler.kuang@20180502 start : for MCM service manager */
-int mcm_ipc_get_service_is_ready(void);
-void mcm_set_service_ready(int srv_id, int is_ready);
-const char * mcm_get_service_flag_file(int srv_id);
-int mcm_get_service_is_ready(int srv_id);
-/** add by tyler.kuang@20180502 end */
-
 #ifdef __cplusplus
 }
 #endif

@@ -11,5 +11,5 @@ SECTION_system-core-dbg: devel
 PKG_system-core-dbg: system-core-dbg
 ALLOW_EMPTY_system-core-dbg: 1
 FILES_system-core-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/system-core/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/system-core/.debug /usr/lib/matchbox-panel/.debug /usr/lib/system-core/system-core/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/usb_composition_switch": 9467, "/usr/bin/.debug/adb": 372656, "/usr/bin/.debug/fastboot": 207980}
-PKGSIZE_system-core-dbg: 590103
+FILES_INFO: {"/usr/bin/.debug/usb_composition_switch": 9343, "/usr/bin/.debug/adb": 371072, "/usr/bin/.debug/fastboot": 206788}
+PKGSIZE_system-core-dbg: 587203

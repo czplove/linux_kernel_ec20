@@ -12,12 +12,12 @@ PKG_jpeg-tools: jpeg-tools
 FILES_jpeg-tools: /usr/bin/*
 FILERPROVIDESFLIST_jpeg-tools: /usr/bin/djpeg /usr/bin/cjpeg /usr/bin/rdjpgcom /usr/bin/jpegtran /usr/bin/tjbench /usr/bin/wrjpgcom
 FILES_INFO: {"/usr/bin/djpeg": 22880, "/usr/bin/cjpeg": 22572, "/usr/bin/rdjpgcom": 6948, "/usr/bin/jpegtran": 24580, "/usr/bin/tjbench": 37744, "/usr/bin/wrjpgcom": 7616}
-FILERPROVIDES_/usr/bin/djpeg_jpeg-tools: elf(buildid) (= 0f578fbad70ba2a863123d572a4c8253035e26d3)
-FILERPROVIDES_/usr/bin/cjpeg_jpeg-tools: elf(buildid) (= 6ee156b0158bf2ca32cbf4a3a14e5cc67c0cc7fb)
-FILERPROVIDES_/usr/bin/rdjpgcom_jpeg-tools: elf(buildid) (= bb1c5d620c03e53afe5f426d697d2501a43d112c)
-FILERPROVIDES_/usr/bin/jpegtran_jpeg-tools: elf(buildid) (= 9a6720c01671da07d1545beb3327cb54176c7dfc)
-FILERPROVIDES_/usr/bin/tjbench_jpeg-tools: elf(buildid) (= f5fcd1b84f35b5936ae6197462cf80d263f57bc7)
-FILERPROVIDES_/usr/bin/wrjpgcom_jpeg-tools: elf(buildid) (= fa0718bb0f34fa9cbe6c2b5471f388d941036b4d)
+FILERPROVIDES_/usr/bin/djpeg_jpeg-tools: elf(buildid) (= 2c7c4ae4404d51f168d240f3aac9a265358c7ea7)
+FILERPROVIDES_/usr/bin/cjpeg_jpeg-tools: elf(buildid) (= 22215ae0ef4e0e7a963b199e133c743fc2dfdc79)
+FILERPROVIDES_/usr/bin/rdjpgcom_jpeg-tools: elf(buildid) (= 88cef979faa8c6fd405adb49e131ae5a185a0c99)
+FILERPROVIDES_/usr/bin/jpegtran_jpeg-tools: elf(buildid) (= ea0f19c21eb173f8f7ee2115829d6c7452cc6553)
+FILERPROVIDES_/usr/bin/tjbench_jpeg-tools: elf(buildid) (= ff1780fd714dc7b43214d078723a6032cd782c91)
+FILERPROVIDES_/usr/bin/wrjpgcom_jpeg-tools: elf(buildid) (= e3c0a194080ddb1b9aca605e1689e17b202dbfbe)
 FILERDEPENDSFLIST_jpeg-tools: /usr/bin/djpeg /usr/bin/cjpeg /usr/bin/rdjpgcom /usr/bin/jpegtran /usr/bin/tjbench /usr/bin/wrjpgcom
 FILERDEPENDS_/usr/bin/djpeg_jpeg-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/cjpeg_jpeg-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) rtld(GNU_HASH)

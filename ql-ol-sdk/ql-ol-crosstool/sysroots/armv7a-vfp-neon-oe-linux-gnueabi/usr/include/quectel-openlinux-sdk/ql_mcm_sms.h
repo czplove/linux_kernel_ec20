@@ -58,7 +58,6 @@ typedef struct
  {
     uint8_t total_segments;     /**<     The number of long  short message*/
     uint8_t seg_number;         /**<     Current number.*/
-	uint8_t reference_number;   /**< reference_number.*/
 }ql_sms_user_data_head_t; 
 
 typedef struct

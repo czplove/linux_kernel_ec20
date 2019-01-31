@@ -12,7 +12,7 @@ PKG_ethtool: ethtool
 FILES_ethtool: /usr/bin/* /usr/sbin/* /usr/lib/ethtool/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ethtool /usr/lib/ethtool/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_ethtool: /usr/sbin/ethtool
 FILES_INFO: {"/usr/sbin/ethtool": 221132}
-FILERPROVIDES_/usr/sbin/ethtool_ethtool: elf(buildid) (= ecdeb6ba5e471717347e11733f20cd75e0a85028)
+FILERPROVIDES_/usr/sbin/ethtool_ethtool: elf(buildid) (= a89215466947e3709d396aa7afc6bc0b055123c2)
 FILERDEPENDSFLIST_ethtool: /usr/sbin/ethtool
 FILERDEPENDS_/usr/sbin/ethtool_ethtool: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_ethtool: 221132

@@ -13,7 +13,7 @@ PKG_libexif: libexif12
 FILES_libexif: /usr/bin/* /usr/sbin/* /usr/lib/libexif/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libexif /usr/lib/libexif/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_libexif: /lib/libexif.so.12.3.3
 FILES_INFO: {"/lib/libexif.so.12": 197028}
-FILERPROVIDES_/lib/libexif.so.12.3.3_libexif: elf(buildid) (= 4b56a60a8268dd1da755472bc62bb66079daf9f7) libexif.so.12
+FILERPROVIDES_/lib/libexif.so.12.3.3_libexif: elf(buildid) (= 3db79075420ba5517e8051fb7cbf4004bd872e95) libexif.so.12
 FILERDEPENDSFLIST_libexif: /lib/libexif.so.12.3.3
 FILERDEPENDS_/lib/libexif.so.12.3.3_libexif: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_libexif: 197028

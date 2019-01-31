@@ -12,5 +12,5 @@ SECTION_libjpeg-turbo-dbg: devel
 PKG_libjpeg-turbo-dbg: libjpeg-dbg
 ALLOW_EMPTY_libjpeg-turbo-dbg: 1
 FILES_libjpeg-turbo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libjpeg-turbo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libjpeg-turbo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libjpeg-turbo/libjpeg-turbo/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libturbojpeg.so": 31535, "/usr/lib/.debug/libjpeg.so.8.0.2": 28875, "/usr/bin/.debug/jpegtran": 9623, "/usr/bin/.debug/wrjpgcom": 5613, "/usr/bin/.debug/tjbench": 12388, "/usr/bin/.debug/rdjpgcom": 5620, "/usr/bin/.debug/djpeg": 10108, "/usr/bin/.debug/cjpeg": 10064}
-PKGSIZE_libjpeg-turbo-dbg: 113826
+FILES_INFO: {"/usr/lib/.debug/libturbojpeg.so": 31367, "/usr/bin/.debug/wrjpgcom": 5577, "/usr/bin/.debug/jpegtran": 9475, "/usr/lib/.debug/libjpeg.so.8.0.2": 28707, "/usr/bin/.debug/tjbench": 12184, "/usr/bin/.debug/rdjpgcom": 5584, "/usr/bin/.debug/djpeg": 9968, "/usr/bin/.debug/cjpeg": 9916}
+PKGSIZE_libjpeg-turbo-dbg: 112778

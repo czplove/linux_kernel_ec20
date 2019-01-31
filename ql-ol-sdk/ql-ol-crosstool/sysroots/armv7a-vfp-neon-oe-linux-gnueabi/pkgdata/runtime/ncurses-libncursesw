@@ -13,7 +13,7 @@ PKG_ncurses-libncursesw: libncursesw5
 FILES_ncurses-libncursesw: /lib/libncursesw.so.5 /lib/libncursesw.so.5.9
 FILERPROVIDESFLIST_ncurses-libncursesw: /lib/libncursesw.so.5.9
 FILES_INFO: {"/lib/libncursesw.so.5": 175072}
-FILERPROVIDES_/lib/libncursesw.so.5.9_ncurses-libncursesw: elf(buildid) (= 313c91c9c8abeb0a59034f03a447bc69c8f3147a) libncursesw.so.5
+FILERPROVIDES_/lib/libncursesw.so.5.9_ncurses-libncursesw: elf(buildid) (= 9c8a540d9b3c512381df66746d4357026812325b) libncursesw.so.5
 FILERDEPENDSFLIST_ncurses-libncursesw: /lib/libncursesw.so.5.9
 FILERDEPENDS_/lib/libncursesw.so.5.9_ncurses-libncursesw: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
 PKGSIZE_ncurses-libncursesw: 175072

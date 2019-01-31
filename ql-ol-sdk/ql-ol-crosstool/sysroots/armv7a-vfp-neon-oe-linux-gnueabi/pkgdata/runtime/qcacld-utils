@@ -12,9 +12,9 @@ PKG_qcacld-utils: qcacld-utils
 FILES_qcacld-utils: /usr/bin/* /usr/sbin/* /usr/lib/qcacld-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qcacld-utils /usr/lib/qcacld-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_qcacld-utils: /usr/bin/pktlogconf /usr/bin/athdiag /usr/bin/cnss@underscore@diag
 FILES_INFO: {"/usr/bin/pktlogconf": 9084, "/usr/bin/cnss_diag": 179032, "/usr/bin/athdiag": 19756}
-FILERPROVIDES_/usr/bin/pktlogconf_qcacld-utils: elf(buildid) (= 1fd68d860d12d3d9b584d8fad0a29c3ba8e32184)
-FILERPROVIDES_/usr/bin/athdiag_qcacld-utils: elf(buildid) (= b1125f6b7f088fd23f76667f49d5daae88caca25)
-FILERPROVIDES_/usr/bin/cnss@underscore@diag_qcacld-utils: elf(buildid) (= 85a1b34445936eaf5ecf2a52adc5936d92be45b6)
+FILERPROVIDES_/usr/bin/pktlogconf_qcacld-utils: elf(buildid) (= bbb26ba5cbe3a142fa2fd8fcf208cfe4f0790380)
+FILERPROVIDES_/usr/bin/athdiag_qcacld-utils: elf(buildid) (= f5c1994f275014a26af13ab6cfd895aded7187b1)
+FILERPROVIDES_/usr/bin/cnss@underscore@diag_qcacld-utils: elf(buildid) (= 498d1a4461417c474c5959a31e31d64acde38442)
 FILERDEPENDSFLIST_qcacld-utils: /usr/bin/pktlogconf /usr/bin/athdiag /usr/bin/cnss@underscore@diag
 FILERDEPENDS_/usr/bin/pktlogconf_qcacld-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/athdiag_qcacld-utils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

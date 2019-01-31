@@ -12,5 +12,5 @@ RRECOMMENDS_ifrename-dbg: glibc-dbg
 SECTION: base
 PKG_ifrename-dbg: ifrename-dbg
 FILES_ifrename-dbg: /usr/sbin/.debug/ifrename
-FILES_INFO: {"/usr/sbin/.debug/ifrename": 14210}
-PKGSIZE_ifrename-dbg: 14210
+FILES_INFO: {"/usr/sbin/.debug/ifrename": 14062}
+PKGSIZE_ifrename-dbg: 14062

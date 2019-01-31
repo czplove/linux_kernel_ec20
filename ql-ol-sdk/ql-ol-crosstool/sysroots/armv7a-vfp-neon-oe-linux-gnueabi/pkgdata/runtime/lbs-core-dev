@@ -8,10 +8,10 @@ DESCRIPTION_lbs-core-dev: GPS LBS Core  This package contains symbolic links, he
 SUMMARY_lbs-core-dev: lbs-core version git-r1 - Development files
 RDEPENDS_lbs-core-dev: lbs-core (= git-r1)
 RPROVIDES_lbs-core-dev:  lbs-core-dev
-RRECOMMENDS_lbs-core-dev: configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-dev system-core-liblog-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev dsutils-dev time-genoff-dev qmi-dev glib-2.0-dev ql-syslog-dev izat-core-dev diag-dev qmi-framework-dev
+RRECOMMENDS_lbs-core-dev: configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-dev system-core-liblog-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev dsutils-dev time-genoff-dev qmi-dev glib-2.0-dev izat-core-dev diag-dev qmi-framework-dev
 SECTION_lbs-core-dev: devel
 PKG_lbs-core-dev: liblbs-core-dev
 ALLOW_EMPTY_lbs-core-dev: 1
 FILES_lbs-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lbs-core/*.la /lib/*.la
-FILES_INFO: {"/usr/include/lbs-core/LBSApiBase.h": 1448, "/usr/include/lbs-core/LBSProxy.h": 1371, "/usr/lib/pkgconfig/lbs-core.pc": 200, "/usr/lib/liblbs_core.so": 20, "/usr/include/lbs-core/LBSAdapterBase.h": 899, "/usr/include/lbs-core/LBSApiRpc.h": 1201, "/usr/include/lbs-core/LocApiProxy.h": 1392, "/usr/include/lbs-core/Wiper.h": 1812, "/usr/include/lbs-core/geofence.h": 1459, "/usr/lib/liblbs_core.la": 2630, "/usr/include/lbs-core/LBSApiV02.h": 1972}
-PKGSIZE_lbs-core-dev: 14404
+FILES_INFO: {"/usr/include/lbs-core/LBSApiBase.h": 1448, "/usr/include/lbs-core/LBSProxy.h": 1371, "/usr/include/lbs-core/LBSApiV02.h": 1972, "/usr/lib/liblbs_core.so": 20, "/usr/include/lbs-core/LBSAdapterBase.h": 899, "/usr/include/lbs-core/Wiper.h": 1812, "/usr/include/lbs-core/LocApiProxy.h": 1392, "/usr/include/lbs-core/LBSApiRpc.h": 1201, "/usr/include/lbs-core/geofence.h": 1459, "/usr/lib/liblbs_core.la": 2576, "/usr/lib/pkgconfig/lbs-core.pc": 200}
+PKGSIZE_lbs-core-dev: 14350

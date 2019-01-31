@@ -8,10 +8,10 @@ DESCRIPTION_location-service-dev: GPS Location Service library  This package con
 SUMMARY_location-service-dev: location-service version git-r1 - Development files
 RDEPENDS_location-service-dev: location-service (= git-r1)
 RPROVIDES_location-service-dev:  location-service-dev
-RRECOMMENDS_location-service-dev: lbs-core-dev configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-dev system-core-liblog-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev dsutils-dev time-genoff-dev qmi-dev izat-core-dev ql-syslog-dev glib-2.0-dev qmi-framework-dev diag-dev
+RRECOMMENDS_location-service-dev: lbs-core-dev configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-dev system-core-liblog-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev dsutils-dev time-genoff-dev qmi-dev izat-core-dev glib-2.0-dev qmi-framework-dev diag-dev
 SECTION_location-service-dev: devel
 PKG_location-service-dev: liblocationservice-dev
 ALLOW_EMPTY_location-service-dev: 1
 FILES_location-service-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/location-service/*.la /lib/*.la
-FILES_INFO: {"/usr/include/location-service/LBSAdapter.h": 1484, "/usr/lib/liblocationservice.la": 2723, "/usr/lib/pkgconfig/location-service.pc": 231, "/usr/lib/liblocationservice.so": 27, "/usr/include/location-service/GeoFencerProxyMsgs.h": 814, "/usr/include/location-service/loc_extended.h": 1441}
-PKGSIZE_location-service-dev: 6720
+FILES_INFO: {"/usr/include/location-service/LBSAdapter.h": 1484, "/usr/lib/liblocationservice.la": 2669, "/usr/include/location-service/loc_extended.h": 1441, "/usr/lib/liblocationservice.so": 27, "/usr/include/location-service/GeoFencerProxyMsgs.h": 814, "/usr/lib/pkgconfig/location-service.pc": 231}
+PKGSIZE_location-service-dev: 6666

@@ -12,8 +12,8 @@ SECTION: network
 PKG_libavahi-core: libavahi-core7
 FILES_libavahi-core: /usr/lib/libavahi-core.so.*
 FILERPROVIDESFLIST_libavahi-core: /usr/lib/libavahi-core.so.7.0.2
-FILES_INFO: {"/usr/lib/libavahi-core.so.7": 198236}
-FILERPROVIDES_/usr/lib/libavahi-core.so.7.0.2_libavahi-core: elf(buildid) (= 88474be8ab3196ca6eecc96c347f7dfb05d6ffc4) libavahi-core.so.7
+FILES_INFO: {"/usr/lib/libavahi-core.so.7": 197108}
+FILERPROVIDES_/usr/lib/libavahi-core.so.7.0.2_libavahi-core: elf(buildid) (= e6f00f9da93a98741c1ff45dbfeb555a5959f5d0) libavahi-core.so.7
 FILERDEPENDSFLIST_libavahi-core: /usr/lib/libavahi-core.so.7.0.2
 FILERDEPENDS_/usr/lib/libavahi-core.so.7.0.2_libavahi-core: libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libavahi-core: 198236
+PKGSIZE_libavahi-core: 197108

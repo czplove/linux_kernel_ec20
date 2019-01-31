@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-evasive: lighttpd-module-evasive
 FILES_lighttpd-module-evasive: /usr/lib/mod_evasive.so
 FILERPROVIDESFLIST_lighttpd-module-evasive: /usr/lib/mod@underscore@evasive.so
-FILES_INFO: {"/usr/lib/mod_evasive.so": 5388}
-FILERPROVIDES_/usr/lib/mod@underscore@evasive.so_lighttpd-module-evasive: elf(buildid) (= 2ec3bef178f87e7516d9b5e40c30b7e8c5416d62) mod_evasive.so
+FILES_INFO: {"/usr/lib/mod_evasive.so": 5368}
+FILERPROVIDES_/usr/lib/mod@underscore@evasive.so_lighttpd-module-evasive: elf(buildid) (= d3717b5e2865bb5974d935874ec896935986f0ca) mod_evasive.so
 FILERDEPENDSFLIST_lighttpd-module-evasive: /usr/lib/mod@underscore@evasive.so
 FILERDEPENDS_/usr/lib/mod@underscore@evasive.so_lighttpd-module-evasive: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-evasive: 5388
+PKGSIZE_lighttpd-module-evasive: 5368

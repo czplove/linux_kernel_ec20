@@ -12,5 +12,5 @@ SECTION_acdbmapper-dbg: devel
 PKG_acdbmapper-dbg: libacdbmapper-dbg
 ALLOW_EMPTY_acdbmapper-dbg: 1
 FILES_acdbmapper-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/acdbmapper/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/acdbmapper/.debug /usr/lib/matchbox-panel/.debug /usr/lib/acdbmapper/acdbmapper/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libacdbmapper.so.1.0.0": 6501}
-PKGSIZE_acdbmapper-dbg: 6501
+FILES_INFO: {"/usr/lib/.debug/libacdbmapper.so.1.0.0": 6445}
+PKGSIZE_acdbmapper-dbg: 6445

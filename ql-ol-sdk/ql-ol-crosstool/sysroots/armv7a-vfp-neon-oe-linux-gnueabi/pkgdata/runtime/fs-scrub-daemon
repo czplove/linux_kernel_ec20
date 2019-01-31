@@ -17,7 +17,7 @@ pkg_preinst_fs-scrub-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_fs
 pkg_prerm_fs-scrub-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_fs-scrub-daemon stop\nfi\n
 FILERPROVIDESFLIST_fs-scrub-daemon: /sbin/fs-scrub-daemon
 FILES_INFO: {"/etc/init.d/start_fs-scrub-daemon": 721, "/sbin/fs-scrub-daemon": 21380}
-FILERPROVIDES_/sbin/fs-scrub-daemon_fs-scrub-daemon: elf(buildid) (= 69cbf4aca9f1bc8ca26fec34976b506e7befa0fe)
+FILERPROVIDES_/sbin/fs-scrub-daemon_fs-scrub-daemon: elf(buildid) (= 68f3fd5438fc2ced83be8fcd582e588afdecf8f0)
 FILERDEPENDSFLIST_fs-scrub-daemon: /sbin/fs-scrub-daemon
 FILERDEPENDS_/sbin/fs-scrub-daemon_fs-scrub-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 rtld(GNU_HASH)
 PKGSIZE_fs-scrub-daemon: 22101

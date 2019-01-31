@@ -11,5 +11,5 @@ SECTION_location-hal-tests-dbg: devel
 PKG_location-hal-tests-dbg: location-hal-tests-dbg
 ALLOW_EMPTY_location-hal-tests-dbg: 1
 FILES_location-hal-tests-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/location-hal-tests/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/location-hal-tests/.debug /usr/lib/matchbox-panel/.debug /usr/lib/location-hal-tests/location-hal-tests/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/location_hal_test": 23163}
-PKGSIZE_location-hal-tests-dbg: 23163
+FILES_INFO: {"/usr/bin/.debug/location_hal_test": 23127}
+PKGSIZE_location-hal-tests-dbg: 23127

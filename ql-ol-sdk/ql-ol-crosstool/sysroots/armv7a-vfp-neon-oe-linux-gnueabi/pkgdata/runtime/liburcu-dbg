@@ -11,5 +11,5 @@ SECTION_liburcu-dbg: devel
 PKG_liburcu-dbg: liburcu-dbg
 ALLOW_EMPTY_liburcu-dbg: 1
 FILES_liburcu-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/liburcu/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/liburcu/.debug /usr/lib/matchbox-panel/.debug /usr/lib/liburcu/liburcu/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/liburcu-signal.so.2.0.0": 9828, "/usr/lib/.debug/liburcu-cds.so.2.0.0": 12041, "/usr/lib/.debug/liburcu-common.so.2.0.0": 6566, "/usr/lib/.debug/liburcu.so.2.0.0": 9630, "/usr/lib/.debug/liburcu-bp.so.2.0.0": 10559, "/usr/lib/.debug/liburcu-qsbr.so.2.0.0": 9600, "/usr/lib/.debug/liburcu-mb.so.2.0.0": 9448}
-PKGSIZE_liburcu-dbg: 67672
+FILES_INFO: {"/usr/lib/.debug/liburcu-signal.so.2.0.0": 9828, "/usr/lib/.debug/liburcu-cds.so.2.0.0": 11929, "/usr/lib/.debug/liburcu-common.so.2.0.0": 6566, "/usr/lib/.debug/liburcu.so.2.0.0": 9630, "/usr/lib/.debug/liburcu-bp.so.2.0.0": 10559, "/usr/lib/.debug/liburcu-qsbr.so.2.0.0": 9600, "/usr/lib/.debug/liburcu-mb.so.2.0.0": 9448}
+PKGSIZE_liburcu-dbg: 67560

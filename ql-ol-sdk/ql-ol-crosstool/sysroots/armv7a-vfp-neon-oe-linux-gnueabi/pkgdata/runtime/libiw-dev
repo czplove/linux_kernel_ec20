@@ -13,5 +13,5 @@ RRECOMMENDS_libiw-dev: glibc-dev
 SECTION: base
 PKG_libiw-dev: libiw-dev
 FILES_libiw-dev: /usr/lib/*.a /usr/lib/*.so /usr/include
-FILES_INFO: {"/usr/lib/libiw.so": 11, "/usr/include/wireless.h": 44470, "/usr/include/iwlib.h": 12728}
+FILES_INFO: {"/usr/include/wireless.h": 44470, "/usr/lib/libiw.so": 11, "/usr/include/iwlib.h": 12728}
 PKGSIZE_libiw-dev: 57209

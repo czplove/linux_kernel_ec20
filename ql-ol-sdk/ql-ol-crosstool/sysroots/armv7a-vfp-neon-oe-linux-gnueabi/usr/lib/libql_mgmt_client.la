@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' =/usr/lib/libql_ipc.la =/usr/lib/libeloop.la =/usr/lib/libql_log.la =/usr/lib/libql_utils.la =/usr/lib/libql_sys_log.la -lpthread'
+dependency_libs=' =/usr/lib/libql_ipc.la =/usr/lib/libeloop.la =/usr/lib/libql_log.la =/usr/lib/libql_utils.la -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

@@ -17,7 +17,6 @@
 #include "quectel_process.h"
 #include "quectel_socket.h"
 #include "quectel_unistd.h"
-#include "quectel_dfifo.h"
 
 #endif /* end of __QUECTEL_COMMON_H__ */
 

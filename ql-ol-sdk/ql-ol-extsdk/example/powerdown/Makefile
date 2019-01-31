@@ -21,7 +21,7 @@ CPPFLAGS += -I./                     \
             -I$(SDKTARGETSYSROOT)/usr/include/qmi-framework \
 
 
-LDFLAGS += -L./ -L$(QL_SDK_PATH)/lib -lrt ${QL_EXP_LDLIBS} -lql_sys_log
+LDFLAGS += -L./ -L$(QL_SDK_PATH)/lib -lrt ${QL_EXP_LDLIBS}
 
 USR_LIB=$(QL_SDK_PATH)/lib/libql_common_api.a
 

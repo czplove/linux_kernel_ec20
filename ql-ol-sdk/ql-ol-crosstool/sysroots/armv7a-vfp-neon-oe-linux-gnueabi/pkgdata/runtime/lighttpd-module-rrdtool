@@ -12,7 +12,7 @@ PKG_lighttpd-module-rrdtool: lighttpd-module-rrdtool
 FILES_lighttpd-module-rrdtool: /usr/lib/mod_rrdtool.so
 FILERPROVIDESFLIST_lighttpd-module-rrdtool: /usr/lib/mod@underscore@rrdtool.so
 FILES_INFO: {"/usr/lib/mod_rrdtool.so": 10272}
-FILERPROVIDES_/usr/lib/mod@underscore@rrdtool.so_lighttpd-module-rrdtool: elf(buildid) (= 0fc475a6f00eb8a1e36ef7c9ee1dd5d92d678e5f) mod_rrdtool.so
+FILERPROVIDES_/usr/lib/mod@underscore@rrdtool.so_lighttpd-module-rrdtool: elf(buildid) (= 11ee691b1b36c8977de054c8fca069beeffdadbf) mod_rrdtool.so
 FILERDEPENDSFLIST_lighttpd-module-rrdtool: /usr/lib/mod@underscore@rrdtool.so
 FILERDEPENDS_/usr/lib/mod@underscore@rrdtool.so_lighttpd-module-rrdtool: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_lighttpd-module-rrdtool: 10272

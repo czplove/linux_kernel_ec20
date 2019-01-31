@@ -10,5 +10,5 @@ RDEPENDS_python-html: python-core
 SECTION: devel/python
 PKG_python-html: python-html
 FILES_python-html: /usr/lib/python2.7/formatter.* /usr/lib/python2.7/htmlentitydefs.* /usr/lib/python2.7/htmllib.* /usr/lib/python2.7/markupbase.* /usr/lib/python2.7/sgmllib.* /usr/lib/python2.7/HTMLParser.* 
-FILES_INFO: {"/usr/lib/python2.7/formatter.py": 14911, "/usr/lib/python2.7/sgmllib.py": 17884, "/usr/lib/python2.7/htmlentitydefs.pyc": 6365, "/usr/lib/python2.7/htmlentitydefs.py": 18054, "/usr/lib/python2.7/formatter.pyc": 19024, "/usr/lib/python2.7/markupbase.py": 14643, "/usr/lib/python2.7/htmllib.pyc": 20127, "/usr/lib/python2.7/htmllib.py": 12869, "/usr/lib/python2.7/HTMLParser.py": 17136, "/usr/lib/python2.7/sgmllib.pyc": 15342, "/usr/lib/python2.7/markupbase.pyc": 9271, "/usr/lib/python2.7/HTMLParser.pyc": 13659}
+FILES_INFO: {"/usr/lib/python2.7/htmllib.py": 12869, "/usr/lib/python2.7/htmllib.pyc": 20127, "/usr/lib/python2.7/htmlentitydefs.pyc": 6365, "/usr/lib/python2.7/htmlentitydefs.py": 18054, "/usr/lib/python2.7/formatter.pyc": 19024, "/usr/lib/python2.7/markupbase.py": 14643, "/usr/lib/python2.7/sgmllib.py": 17884, "/usr/lib/python2.7/formatter.py": 14911, "/usr/lib/python2.7/HTMLParser.pyc": 13659, "/usr/lib/python2.7/sgmllib.pyc": 15342, "/usr/lib/python2.7/markupbase.pyc": 9271, "/usr/lib/python2.7/HTMLParser.py": 17136}
 PKGSIZE_python-html: 179285

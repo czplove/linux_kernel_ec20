@@ -12,5 +12,5 @@ SECTION_kmod-dev: devel
 PKG_kmod-dev: kmod-dev
 ALLOW_EMPTY_kmod-dev: 1
 FILES_kmod-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kmod/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libkmod.so": 16, "/usr/lib/libkmod.la": 917, "/usr/include/libkmod.h": 9446, "/usr/lib/pkgconfig/libkmod.pc": 373}
-PKGSIZE_kmod-dev: 10752
+FILES_INFO: {"/usr/lib/libkmod.so": 16, "/usr/lib/libkmod.la": 917, "/usr/lib/pkgconfig/libkmod.pc": 355, "/usr/include/libkmod.h": 9446}
+PKGSIZE_kmod-dev: 10734

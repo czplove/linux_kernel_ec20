@@ -11,5 +11,5 @@ SECTION_pkgconfig-dbg: devel
 PKG_pkgconfig-dbg: pkgconfig-dbg
 ALLOW_EMPTY_pkgconfig-dbg: 1
 FILES_pkgconfig-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pkgconfig/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pkgconfig/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pkgconfig/pkgconfig/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/arm-oe-linux-gnueabi-pkg-config": 10621, "/usr/bin/.debug/pkg-config": 10621}
-PKGSIZE_pkgconfig-dbg: 21242
+FILES_INFO: {"/usr/bin/.debug/pkg-config": 10585, "/usr/bin/.debug/arm-oe-linux-gnueabi-pkg-config": 10585}
+PKGSIZE_pkgconfig-dbg: 21170

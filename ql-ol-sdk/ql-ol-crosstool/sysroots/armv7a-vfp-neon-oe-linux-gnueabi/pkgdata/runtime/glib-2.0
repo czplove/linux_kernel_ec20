@@ -14,16 +14,16 @@ SECTION: libs
 PKG_glib-2.0: libglib-2.0-0
 FILES_glib-2.0: /usr/lib/lib*.so.* /usr/lib/gio /usr/share/glib-2.0/schemas                /usr/share/glib-2.0/gettext/mkinstalldirs /usr/share/glib-2.0/gettext/po/Makefile.in.in
 FILERPROVIDESFLIST_glib-2.0: /usr/lib/libgmodule-2.0.so.0.4200.1 /usr/lib/libgio-2.0.so.0.4200.1 /usr/lib/libglib-2.0.so.0.4200.1 /usr/lib/libgobject-2.0.so.0.4200.1 /usr/lib/libgthread-2.0.so.0.4200.1
-FILES_INFO: {"/usr/lib/libgmodule-2.0.so.0": 10300, "/usr/lib/libgio-2.0.so.0": 1286408, "/usr/lib/libgobject-2.0.so.0": 308636, "/usr/lib/libglib-2.0.so.0": 1138852, "/usr/lib/libgthread-2.0.so.0": 4180, "/usr/share/glib-2.0/schemas/gschema.dtd": 2839}
+FILES_INFO: {"/usr/lib/libgmodule-2.0.so.0": 10300, "/usr/lib/libgio-2.0.so.0": 1282312, "/usr/lib/libgobject-2.0.so.0": 306788, "/usr/lib/libglib-2.0.so.0": 1138852, "/usr/lib/libgthread-2.0.so.0": 4160, "/usr/share/glib-2.0/schemas/gschema.dtd": 2839}
 FILERPROVIDES_/usr/lib/libgmodule-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= 93e1ec6280762d960e02d0000b3db63d002654b7) libgmodule-2.0.so.0
-FILERPROVIDES_/usr/lib/libgio-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= 676332b6ab5df93aeead0b3a32ed4342b1be0ccc) libgio-2.0.so.0
-FILERPROVIDES_/usr/lib/libglib-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= 311cc4fa49a67ba41b87b9cc01a16a7b96315ab9) libglib-2.0.so.0
-FILERPROVIDES_/usr/lib/libgobject-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= e97686d04c5d9f548b13ae0382146139e1daf0fb) libgobject-2.0.so.0
-FILERPROVIDES_/usr/lib/libgthread-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= 33e806a5e1e29fcc768bbb094a383143cd4198a3) libgthread-2.0.so.0
+FILERPROVIDES_/usr/lib/libgio-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= ad7f1cbbea165afa2be0acfb3294ff05b97a6948) libgio-2.0.so.0
+FILERPROVIDES_/usr/lib/libglib-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= 8359c63a19353d2781c1691fe852ec923e968ec7) libglib-2.0.so.0
+FILERPROVIDES_/usr/lib/libgobject-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= f90e9e17c0bfc75c0eb4c7f35c4620f5e987a7f4) libgobject-2.0.so.0
+FILERPROVIDES_/usr/lib/libgthread-2.0.so.0.4200.1_glib-2.0: elf(buildid) (= 68b9587f6916f7df85bbc9dab6e7673ed8636556) libgthread-2.0.so.0
 FILERDEPENDSFLIST_glib-2.0: /usr/lib/libgmodule-2.0.so.0.4200.1 /usr/lib/libgio-2.0.so.0.4200.1 /usr/lib/libglib-2.0.so.0.4200.1 /usr/lib/libgobject-2.0.so.0.4200.1 /usr/lib/libgthread-2.0.so.0.4200.1
 FILERDEPENDS_/usr/lib/libgmodule-2.0.so.0.4200.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/libgio-2.0.so.0.4200.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.5) libc.so.6(GLIBC_2.9) libdl.so.2 libffi.so.6 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libresolv.so.2 libresolv.so.2(GLIBC_2.4) libz.so.1 libz.so.1(ZLIB_1.2.2) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/libglib-2.0.so.0.4200.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.9) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/libgobject-2.0.so.0.4200.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libffi.so.6 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/libgthread-2.0.so.0.4200.1_glib-2.0: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 rtld(GNU_HASH)
-PKGSIZE_glib-2.0: 2751215
+PKGSIZE_glib-2.0: 2745251

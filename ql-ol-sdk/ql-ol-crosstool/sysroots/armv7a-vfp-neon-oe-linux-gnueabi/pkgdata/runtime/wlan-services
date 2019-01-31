@@ -17,7 +17,7 @@ pkg_preinst_wlan-services: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_wlan
 pkg_prerm_wlan-services: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_wlan_services stop\nfi\n
 FILERPROVIDESFLIST_wlan-services: /usr/sbin/wlan@underscore@services
 FILES_INFO: {"/usr/sbin/wlan_services": 13048, "/etc/init.d/start_wlan_services": 1432}
-FILERPROVIDES_/usr/sbin/wlan@underscore@services_wlan-services: elf(buildid) (= c9885dfaa48e195a984f6ab6f2d103dff821ea1b)
+FILERPROVIDES_/usr/sbin/wlan@underscore@services_wlan-services: elf(buildid) (= e6816a8b3fa7234fdbd55c8c21630399391bdaea)
 FILERDEPENDSFLIST_wlan-services: /usr/sbin/wlan@underscore@services /etc/init.d/start@underscore@wlan@underscore@services
 FILERDEPENDS_/usr/sbin/wlan@underscore@services_wlan-services: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
 FILERDEPENDS_/etc/init.d/start@underscore@wlan@underscore@services_wlan-services: /bin/sh

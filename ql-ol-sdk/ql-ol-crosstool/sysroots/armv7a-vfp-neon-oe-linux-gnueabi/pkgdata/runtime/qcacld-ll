@@ -12,5 +12,5 @@ SECTION: base
 PKG_qcacld-ll: qcacld-ll
 ALLOW_EMPTY_qcacld-ll: 1
 FILES_qcacld-ll:  /lib/firmware/wlan/* /lib/modules/3.18.20/extra/wlan.ko
-FILES_INFO: {"/lib/modules/3.18.20/extra/wlan.ko": 3890476, "/lib/firmware/wlan/qca_cld/WCNSS_cfg.dat": 10234}
-PKGSIZE_qcacld-ll: 3900710
+FILES_INFO: {"/lib/modules/3.18.20/extra/wlan.ko": 3887988, "/lib/firmware/wlan/qca_cld/WCNSS_cfg.dat": 10234}
+PKGSIZE_qcacld-ll: 3898222

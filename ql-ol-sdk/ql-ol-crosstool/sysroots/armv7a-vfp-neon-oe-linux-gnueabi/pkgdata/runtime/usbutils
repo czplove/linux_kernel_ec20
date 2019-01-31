@@ -11,9 +11,9 @@ SECTION: base
 PKG_usbutils: usbutils
 FILES_usbutils: /usr/bin/* /usr/sbin/* /usr/lib/usbutils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/usbutils /usr/lib/usbutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_usbutils: /usr/bin/usbhid-dump /usr/bin/lsusb
-FILES_INFO: {"/usr/bin/usbhid-dump": 17228, "/usr/sbin/update-usbids.sh": 1069, "/usr/bin/usb-devices": 4214, "/usr/bin/lsusb": 86384, "/usr/bin/lsusb.py": 13399}
-FILERPROVIDES_/usr/bin/usbhid-dump_usbutils: elf(buildid) (= a5f2814385fe7359fe264f59b0fbf7b01d5ddb91)
-FILERPROVIDES_/usr/bin/lsusb_usbutils: elf(buildid) (= 4738503942c27e8d53d75fe1655ac48919129f42)
+FILES_INFO: {"/usr/bin/usb-devices": 4214, "/usr/sbin/update-usbids.sh": 1069, "/usr/bin/usbhid-dump": 17228, "/usr/bin/lsusb": 86384, "/usr/bin/lsusb.py": 13399}
+FILERPROVIDES_/usr/bin/usbhid-dump_usbutils: elf(buildid) (= 4b60ce41242301ea84131cc1c4c94c59b0faf5df)
+FILERPROVIDES_/usr/bin/lsusb_usbutils: elf(buildid) (= ed2192acceedb0a476fb20b834152a443ef33e2a)
 FILERDEPENDSFLIST_usbutils: /usr/bin/usb-devices /usr/sbin/update-usbids.sh /usr/bin/usbhid-dump /usr/bin/lsusb /usr/bin/lsusb.py
 FILERDEPENDS_/usr/bin/usb-devices_usbutils: /bin/sh
 FILERDEPENDS_/usr/sbin/update-usbids.sh_usbutils: /bin/sh

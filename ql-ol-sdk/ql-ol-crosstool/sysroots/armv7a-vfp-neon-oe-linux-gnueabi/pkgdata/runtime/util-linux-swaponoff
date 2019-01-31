@@ -13,10 +13,10 @@ FILES_util-linux-swaponoff: /sbin/swapon.util-linux /sbin/swapoff.util-linux
 pkg_postinst_util-linux-swaponoff: #!/bin/sh\n\tupdate-alternatives --install /sbin/swapoff swapoff /sbin/swapoff.util-linux 100\n\tupdate-alternatives --install /sbin/swapon swapon /sbin/swapon.util-linux 100\n
 pkg_postrm_util-linux-swaponoff: #!/bin/sh\n\tupdate-alternatives --remove  swapoff /sbin/swapoff.util-linux\n\tupdate-alternatives --remove  swapon /sbin/swapon.util-linux\n
 FILERPROVIDESFLIST_util-linux-swaponoff: /sbin/swapoff.util-linux /sbin/swapon.util-linux
-FILES_INFO: {"/sbin/swapoff.util-linux": 8996, "/sbin/swapon.util-linux": 27624}
-FILERPROVIDES_/sbin/swapoff.util-linux_util-linux-swaponoff: elf(buildid) (= a7a019adec329a68ba39d4532771ccca2a15c248) /sbin/swapoff
-FILERPROVIDES_/sbin/swapon.util-linux_util-linux-swaponoff: elf(buildid) (= fc73f9078cb8840a8fda7272c62f9f272a5772f0) /sbin/swapon
+FILES_INFO: {"/sbin/swapoff.util-linux": 8996, "/sbin/swapon.util-linux": 27608}
+FILERPROVIDES_/sbin/swapoff.util-linux_util-linux-swaponoff: elf(buildid) (= 7011072da151f5b04db8e4a6ebb634b71344f90a) /sbin/swapoff
+FILERPROVIDES_/sbin/swapon.util-linux_util-linux-swaponoff: elf(buildid) (= 63a47b1ab0f1333220a3aa98ae6f7f86bbe1c09b) /sbin/swapon
 FILERDEPENDSFLIST_util-linux-swaponoff: /sbin/swapoff.util-linux /sbin/swapon.util-linux
 FILERDEPENDS_/sbin/swapoff.util-linux_util-linux-swaponoff: libc.so.6 libc.so.6(GLIBC_2.4) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) rtld(GNU_HASH)
 FILERDEPENDS_/sbin/swapon.util-linux_util-linux-swaponoff: libc.so.6 libc.so.6(GLIBC_2.4) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) rtld(GNU_HASH)
-PKGSIZE_util-linux-swaponoff: 36620
+PKGSIZE_util-linux-swaponoff: 36604

@@ -12,5 +12,5 @@ SECTION_libgcc-dbg: devel
 PKG_libgcc-dbg: libgcc-s-dbg
 ALLOW_EMPTY_libgcc-dbg: 1
 FILES_libgcc-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libgcc/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libgcc/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libgcc/libgcc/.debug /usr/src/debug /lib/.debug/
-FILES_INFO: {"/lib/.debug/libgcc_s.so.1": 1424232}
-PKGSIZE_libgcc-dbg: 1424232
+FILES_INFO: {"/lib/.debug/libgcc_s.so.1": 1402072}
+PKGSIZE_libgcc-dbg: 1402072

@@ -17,7 +17,7 @@ pkg_preinst_qmuxd: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/qmuxd" ]; then\n\t
 pkg_prerm_qmuxd: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/qmuxd stop\nfi\n
 FILERPROVIDESFLIST_qmuxd: /usr/bin/qmuxd
 FILES_INFO: {"/etc/data/qmi_config.xml": 15520, "/etc/init.d/qmuxd": 610, "/usr/bin/qmuxd": 89796}
-FILERPROVIDES_/usr/bin/qmuxd_qmuxd: elf(buildid) (= 29f5bc0c76eced093f648a6e9df63d0fee771c5c)
+FILERPROVIDES_/usr/bin/qmuxd_qmuxd: elf(buildid) (= c05bf5507b5e387389a2a0305e5434aa861350c8)
 FILERDEPENDSFLIST_qmuxd: /etc/init.d/qmuxd /usr/bin/qmuxd
 FILERDEPENDS_/etc/init.d/qmuxd_qmuxd: /bin/sh
 FILERDEPENDS_/usr/bin/qmuxd_qmuxd: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.9) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmiservices.so.1 rtld(GNU_HASH)

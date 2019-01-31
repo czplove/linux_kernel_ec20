@@ -11,5 +11,5 @@ SECTION_dsrc-tools-dbg: devel
 PKG_dsrc-tools-dbg: dsrc-tools-dbg
 ALLOW_EMPTY_dsrc-tools-dbg: 1
 FILES_dsrc-tools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dsrc-tools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dsrc-tools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dsrc-tools/dsrc-tools/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/dsrc_tx": 7853, "/usr/bin/.debug/dsrc_config": 10703, "/usr/bin/.debug/dsrc_set_chan": 7176, "/usr/bin/.debug/dsrc_rx": 7899}
-PKGSIZE_dsrc-tools-dbg: 33631
+FILES_INFO: {"/usr/bin/.debug/dsrc_tx": 7817, "/usr/bin/.debug/dsrc_config": 10555, "/usr/bin/.debug/dsrc_set_chan": 7140, "/usr/bin/.debug/dsrc_rx": 7863}
+PKGSIZE_dsrc-tools-dbg: 33375

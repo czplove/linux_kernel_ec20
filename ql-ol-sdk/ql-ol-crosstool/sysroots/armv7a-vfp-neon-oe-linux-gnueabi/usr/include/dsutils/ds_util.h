@@ -400,27 +400,6 @@ typedef struct {
       MSG_SPRINTF_1( MSG_SSID_LINUX_DATA, lvl, "%s", buf );                        \
     }
 
-#ifdef QL_SYS_LOG 
-#define QL_MAX_LOG_MSG_SIZE      512
-#include "qlsyslog/ql_sys_events.h"
-
-#define QL_LOG_MSG_DIAG( prio, ... )                                    \
-{                                                                       \
-    char _buf[ QL_MAX_LOG_MSG_SIZE ];                                   \
-    ds_format_log_msg(_buf, sizeof(_buf), __VA_ARGS__ );                \
-    ql_sys_log_puts(QL_SYS_LOG_ID_SYSTEM, prio, QL_SYS_LOG_TAG, _buf);    \
-}
-
-#define ds_log(...)        DS_LOG_MSG_DIAG(MSG_LEGACY_HIGH, __VA_ARGS__);  QL_LOG_MSG_DIAG(QL_SYS_LOG_WARN, __VA_ARGS__)
-#define ds_log_dflt(...)   DS_LOG_MSG_DIAG(MSG_LEGACY_HIGH, __VA_ARGS__);  QL_LOG_MSG_DIAG(QL_SYS_LOG_WARN, __VA_ARGS__)
-#define ds_log_err(...)    DS_LOG_MSG_DIAG(MSG_LEGACY_ERROR, __VA_ARGS__); QL_LOG_MSG_DIAG(QL_SYS_LOG_ERROR, __VA_ARGS__)
-#define ds_log_high(...)   DS_LOG_MSG_DIAG(MSG_LEGACY_HIGH, __VA_ARGS__);  QL_LOG_MSG_DIAG(QL_SYS_LOG_WARN, __VA_ARGS__)
-#define ds_log_med(...)    DS_LOG_MSG_DIAG(MSG_LEGACY_MED, __VA_ARGS__);   QL_LOG_MSG_DIAG(QL_SYS_LOG_INFO, __VA_ARGS__)
-#define ds_log_low(...)    DS_LOG_MSG_DIAG(MSG_LEGACY_LOW, __VA_ARGS__);   QL_LOG_MSG_DIAG(QL_SYS_LOG_DEBUG, __VA_ARGS__)
-#define ds_log_sys_err(a)  DS_LOG_MSG_DIAG(MSG_LEGACY_ERROR,  a " (%d)%s", errno, strerror(errno));QL_LOG_MSG_DIAG(QL_SYS_LOG_FATAL,  a " (%d)%s", errno, strerror(errno))
-
-
-#else
   #define ds_log(...) DS_LOG_MSG_DIAG(MSG_LEGACY_HIGH, __VA_ARGS__)
 
   #define ds_log_dflt(...) DS_LOG_MSG_DIAG(MSG_LEGACY_HIGH, __VA_ARGS__)
@@ -434,27 +413,6 @@ typedef struct {
   #define ds_log_low(...) DS_LOG_MSG_DIAG(MSG_LEGACY_LOW, __VA_ARGS__)
 
   #define ds_log_sys_err(a) DS_LOG_MSG_DIAG(MSG_LEGACY_ERROR,  a " (%d)%s", errno, strerror(errno))
-#endif
-
-#elif defined QL_SYS_LOG
-#define QL_MAX_LOG_MSG_SIZE      512
-#include <qlsyslog/ql_sys_log.h>
-
-#define QL_LOG_MSG_DIAG( prio, ... )                                    \
-{                                                                       \
-    char _buf[ QL_MAX_LOG_MSG_SIZE ];                                   \
-    ds_format_log_msg( buf, sizeof(_buf), __VA_ARGS__ );                \
-    ql_sys_log_puts(QL_SYS_LOG_ID_SYSTEM, prio, QL_SYS_LOG_TAG, _buf);    \
-}
-
-
-#define ds_log(...)        QL_LOG_MSG_DIAG(QL_SYS_LOG_WARN, __VA_ARGS__)
-#define ds_log_dflt(...)   QL_LOG_MSG_DIAG(QL_SYS_LOG_WARN, __VA_ARGS__)
-#define ds_log_err(...)    QL_LOG_MSG_DIAG(QL_SYS_LOG_ERROR, __VA_ARGS__)
-#define ds_log_high(...)   QL_LOG_MSG_DIAG(QL_SYS_LOG_WARN, __VA_ARGS__)
-#define ds_log_med(...)    QL_LOG_MSG_DIAG(QL_SYS_LOG_INFO, __VA_ARGS__)
-#define ds_log_low(...)    QL_LOG_MSG_DIAG(QL_SYS_LOG_DEBUG, __VA_ARGS__)
-#define ds_log_sys_err(a)  QL_LOG_MSG_DIAG(QL_SYS_LOG_FATAL,  a " (%d)%s", errno, strerror(errno))
 
 #endif /* FEATURE_DATA_LOG_QXDM */
 

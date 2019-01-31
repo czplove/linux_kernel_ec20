@@ -7,8 +7,9 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_quectel-audio-lib-staticdev: Quectel audio lib  This package contains static libraries for software development.
 SUMMARY_quectel-audio-lib-staticdev: quectel-audio-lib version git-invalidgit-r1 - Development files (Static Libraries)
 RDEPENDS_quectel-audio-lib-staticdev: quectel-audio-lib-dev (= git-invalidgit-r1)
+RPROVIDES_quectel-audio-lib-staticdev:  quectel-audio-lib-staticdev
 SECTION_quectel-audio-lib-staticdev: devel
-PKG_quectel-audio-lib-staticdev: quectel-audio-lib-staticdev
+PKG_quectel-audio-lib-staticdev: libql-lib-audio-staticdev
 FILES_quectel-audio-lib-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-audio-lib/*.a
 FILES_INFO: {}
 PKGSIZE_quectel-audio-lib-staticdev: 0

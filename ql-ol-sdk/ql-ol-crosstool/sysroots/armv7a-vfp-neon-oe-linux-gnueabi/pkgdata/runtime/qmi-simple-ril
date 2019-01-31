@@ -12,7 +12,7 @@ PKG_qmi-simple-ril: qmi-simple-ril
 FILES_qmi-simple-ril: /usr/bin/* /usr/sbin/* /usr/lib/qmi-simple-ril/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qmi-simple-ril /usr/lib/qmi-simple-ril/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_qmi-simple-ril: /usr/bin/qmi@underscore@simple@underscore@ril@underscore@test
 FILES_INFO: {"/usr/bin/qmi_simple_ril_test": 125972}
-FILERPROVIDES_/usr/bin/qmi@underscore@simple@underscore@ril@underscore@test_qmi-simple-ril: elf(buildid) (= 80af2ff0a31ccb9c402d93f79c8e69ccc9bbb0d8)
+FILERPROVIDES_/usr/bin/qmi@underscore@simple@underscore@ril@underscore@test_qmi-simple-ril: elf(buildid) (= d17859872683a1240dcdb7ea3cd9a1f88cde8d73)
 FILERDEPENDSFLIST_qmi-simple-ril: /usr/bin/qmi@underscore@simple@underscore@ril@underscore@test
 FILERDEPENDS_/usr/bin/qmi@underscore@simple@underscore@ril@underscore@test_qmi-simple-ril: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_encdec.so.1 libqmiservices.so.1 rtld(GNU_HASH)
 PKGSIZE_qmi-simple-ril: 125972

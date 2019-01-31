@@ -17,7 +17,7 @@ pkg_postinst_kmod: #!/bin/sh\n\tupdate-alternatives --install /sbin/insmod insmo
 pkg_postrm_kmod: #!/bin/sh\n\tupdate-alternatives --remove  insmod /sbin/insmod.kmod\n\tupdate-alternatives --remove  modprobe /sbin/modprobe.kmod\n\tupdate-alternatives --remove  rmmod /sbin/rmmod.kmod\n\tupdate-alternatives --remove  modinfo /sbin/modinfo.kmod\n\tupdate-alternatives --remove  bin-lsmod /bin/lsmod.kmod\n\tupdate-alternatives --remove  lsmod /bin/lsmod.kmod\n\tupdate-alternatives --remove  depmod /sbin/depmod.kmod\n
 FILERPROVIDESFLIST_kmod: /bin/kmod /sbin/insmod.kmod /sbin/modprobe.kmod /sbin/rmmod.kmod /sbin/modinfo.kmod /bin/lsmod.kmod /sbin/depmod.kmod
 FILES_INFO: {"/lib/depmod.d/search.conf": 71, "/bin/kmod": 109052, "/sbin/modprobe.kmod": 11, "/sbin/modinfo.kmod": 11, "/sbin/rmmod.kmod": 11, "/bin/lsmod.kmod": 11, "/sbin/insmod.kmod": 11, "/sbin/depmod.kmod": 11}
-FILERPROVIDES_/bin/kmod_kmod: elf(buildid) (= 21b4405dd040390122e9798f8ed6724f6abb55c8)
+FILERPROVIDES_/bin/kmod_kmod: elf(buildid) (= 242a1e7d456c17220045fa99d8baf2f793e851f2)
 FILERPROVIDES_/sbin/insmod.kmod_kmod:  /sbin/insmod
 FILERPROVIDES_/sbin/modprobe.kmod_kmod:  /sbin/modprobe
 FILERPROVIDES_/sbin/rmmod.kmod_kmod:  /sbin/rmmod

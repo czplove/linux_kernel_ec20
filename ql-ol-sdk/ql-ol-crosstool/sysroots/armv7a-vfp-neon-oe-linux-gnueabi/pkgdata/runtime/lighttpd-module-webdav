@@ -12,7 +12,7 @@ PKG_lighttpd-module-webdav: lighttpd-module-webdav
 FILES_lighttpd-module-webdav: /usr/lib/mod_webdav.so
 FILERPROVIDESFLIST_lighttpd-module-webdav: /usr/lib/mod@underscore@webdav.so
 FILES_INFO: {"/usr/lib/mod_webdav.so": 18776}
-FILERPROVIDES_/usr/lib/mod@underscore@webdav.so_lighttpd-module-webdav: elf(buildid) (= 27bb005f395add71cf85694540b1179718476607) mod_webdav.so
+FILERPROVIDES_/usr/lib/mod@underscore@webdav.so_lighttpd-module-webdav: elf(buildid) (= dbe5fcf733df2128ae6ac36919f90ef4ba9483fa) mod_webdav.so
 FILERDEPENDSFLIST_lighttpd-module-webdav: /usr/lib/mod@underscore@webdav.so
 FILERDEPENDS_/usr/lib/mod@underscore@webdav.so_lighttpd-module-webdav: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_lighttpd-module-webdav: 18776

@@ -12,8 +12,8 @@ PKG_hostap-daemon-qcacld: hostap-daemon-qcacld
 FILES_hostap-daemon-qcacld: /usr/bin/* /usr/sbin/* /usr/lib/hostap-daemon-qcacld/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/hostap-daemon-qcacld /usr/lib/hostap-daemon-qcacld/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers         /usr/bin         
 FILERPROVIDESFLIST_hostap-daemon-qcacld: /usr/sbin/hostapd /usr/sbin/hostapd@underscore@cli
 FILES_INFO: {"/usr/sbin/hostapd_cli": 35604, "/usr/sbin/hostapd": 565368}
-FILERPROVIDES_/usr/sbin/hostapd_hostap-daemon-qcacld: elf(buildid) (= 94e65dc2387d08e41cba2590260b3fb91ba2bbe4)
-FILERPROVIDES_/usr/sbin/hostapd@underscore@cli_hostap-daemon-qcacld: elf(buildid) (= d634351aa9a97d1dd66db73c68824730148dbef7)
+FILERPROVIDES_/usr/sbin/hostapd_hostap-daemon-qcacld: elf(buildid) (= dc792945be5194301c11fc7f02807b04c4558241)
+FILERPROVIDES_/usr/sbin/hostapd@underscore@cli_hostap-daemon-qcacld: elf(buildid) (= 574a70bb211d1225ec782cb462f094bcb2327626)
 FILERDEPENDSFLIST_hostap-daemon-qcacld: /usr/sbin/hostapd /usr/sbin/hostapd@underscore@cli
 FILERDEPENDS_/usr/sbin/hostapd_hostap-daemon-qcacld: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libm.so.6 libm.so.6(GLIBC_2.4) libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/sbin/hostapd@underscore@cli_hostap-daemon-qcacld: libc.so.6 libc.so.6(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)

@@ -6,7 +6,7 @@ PKGR: r0
 LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION: QTI Power Saving Mode Framework
 SUMMARY: psm version git-invalidgit-r0
-RDEPENDS_psm: diag (>= git-invalidgit) time-genoff (>= git-invalidgit) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) data (>= git-invalidgit) glibc (>= 2.21)
+RDEPENDS_psm: diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) data (>= git-invalidgit) time-genoff (>= git-invalidgit)
 RRECOMMENDS_psm:  update-rc.d
 SECTION: base
 PKG_psm: psm
@@ -16,7 +16,7 @@ pkg_postrm_psm: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\ti
 pkg_preinst_psm: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/psmd" ]; then\n\t/etc/init.d/psmd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT psmd remove\nfi\n
 pkg_prerm_psm: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/psmd stop\nfi\n
 FILERPROVIDESFLIST_psm: /usr/bin/psm@underscore@test /usr/lib/libutils.so.0.0.0 /usr/lib/libpsm@underscore@client.so.0.0.0 /usr/bin/psmd
-FILES_INFO: {"/usr/bin/psmd": 59168, "/usr/lib/libpsm_client.so.0": 18072, "/etc/init.d/psmd": 823, "/usr/lib/libutils.so.0": 17992, "/usr/bin/psm_test": 26344}
+FILES_INFO: {"/usr/lib/libutils.so.0": 17992, "/usr/bin/psm_test": 26344, "/etc/init.d/psmd": 823, "/usr/lib/libpsm_client.so.0": 18072, "/usr/bin/psmd": 59168}
 FILERPROVIDES_/usr/bin/psm@underscore@test_psm: elf(buildid) (= a4170fa1c8ace7f95a7559e6cb2331af72c1e4b6)
 FILERPROVIDES_/usr/lib/libutils.so.0.0.0_psm: elf(buildid) (= be0b82313e1933a06eb39df55c50f2716b7e9131) libutils.so.0
 FILERPROVIDES_/usr/lib/libpsm@underscore@client.so.0.0.0_psm: elf(buildid) (= b4592c7acfe50c38d11392cd9162ffbf373f893d) libpsm_client.so.0

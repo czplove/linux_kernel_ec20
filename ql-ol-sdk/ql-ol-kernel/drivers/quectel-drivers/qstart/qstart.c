@@ -1,21 +1,3 @@
-/*!	@file
-	qstart.c
-	@brief
-	This file provides apis to set restore flag to mtd nand
-*/
-/*===========================================================================
-	Copyright(c) 2018 Quectel Wierless Solution,Co.,Ltd. All Rights Reserved.
-	Quectel Wireless Solution Proprietary and Confidential.
-============================================================================*/
-/*===========================================================================
-							EDIT HISTORY FOR MODULE
-This section contains comments describing changees made to the module.
-Notice that changes are listed in reverse chronological order.
-WHEN		 WHO		WHAT,WHERE,WHY
-----------	-----		----------------------------------------------------
-06/24/2018	Ramos		add set efs restore flag in linux 
-============================================================================*/
-
 #include <linux/module.h>
 #include <linux/moduleparam.h>
 #include <linux/fs.h>
@@ -33,9 +15,6 @@ WHEN		 WHO		WHAT,WHERE,WHY
 #include "quectel-features-config.h" // quectel add
 
 #if 1 // def  QUECTEL_SYSTEM_BACKUP    // Ramos add for quectel for linuxfs restore
-
-#define CEFS_FILE_MAGIC1        (0x51D24368)
-#define CEFS_FILE_MAGIC2        (0x4378AC6E)
 
 #define QUEC_BACKUP_MAGIC1        (0x78E5D4C2)
 #define QUEC_BACKUP_MAGIC2        (0x54F7D60E)
@@ -96,20 +75,6 @@ typedef struct
 struct qstart_device_t{
 	struct miscdevice misc;
 };
-
-typedef struct 
-{
-  uint32_t magic1;  
-  uint32_t magic2;
-  uint32_t page_count;
-  uint32_t data_crc;
-  
-  uint32_t reserve1;  
-  uint32_t reserve2;
-  uint32_t reserve3;
-  uint32_t reserve4;
-} quec_cefs_file_header_type;
-
 
 static struct mtd_info *mtd = NULL;
 static loff_t qfirst_goodblock_addr = 0;
@@ -195,72 +160,6 @@ static struct qstart_device_t qstart_device = {
 	}
 };
 
-/******************************************************************************************
-who-2018/06/25:Description....
-Refer to [Issue-Depot].[IS0000197][Submitter:ramos.zhang,Date:2018-06-25]
-<ģֳefs޷ԭmodemͣcfun=7޷>
-******************************************************************************************/
-unsigned int Quectel_Is_EFS_Backup_Valid(void)
-{
-	size_t readlen = 0;
-	quec_cefs_file_header_type BackupCefs_Info;
-	uint32_t crc = 0;
-	uint32_t i =0;
-	uint64_t mtd_size;
-	unsigned char *onepage = NULL;
-
-	if(NULL == mtd) // Ramos.zhang 20180624, add efs restore detect,  
-		mtd = get_mtd_device_nm("sys_rev");
-	if(IS_ERR(mtd))
-	{
-		printk("@Ramos get sys_rev mtd fail.!\r\n");
-		goto efsBackupInvalid;
-	}
-	else
-	{
-		mtd_size = mtd->size;
-		printk("@Ramos mtd->writesize =%d, mtd->erasesize:%d  blockcount\n",  mtd->writesize,mtd->erasesize);
-		for(i=0; qfirst_goodblock_addr < mtd_size; i++)
-		{
-			qfirst_goodblock_addr = i * mtd->erasesize; 
-			if(!mtd_block_isbad(mtd,qfirst_goodblock_addr)) 
-				break;
-		}
-
-		onepage = kmalloc(mtd->writesize, GFP_KERNEL);
-		if(NULL == onepage)
-		{
-			printk("@Ramos memory is not enough to onepage, line=%d\n", __LINE__);
-			goto  efsBackupInvalid;
-		}
-		
-		memset(onepage, 0x00, mtd->writesize);
-		mtd_read(mtd, qfirst_goodblock_addr, mtd->writesize, &readlen ,onepage);
-		if(readlen != mtd->writesize )
-		{
-			printk("@Ramos read Flag Failed!!,line=%d\r\n\r\n",__LINE__);
-			goto  efsBackupInvalid;
-		}
-		memset((void *)&BackupCefs_Info, 0x00, sizeof(quec_cefs_file_header_type));
-		memcpy((void *)&BackupCefs_Info, onepage, sizeof(quec_cefs_file_header_type));
-
-		if((CEFS_FILE_MAGIC1 != BackupCefs_Info.magic1) || (CEFS_FILE_MAGIC2 != BackupCefs_Info.magic2))
-		{
-			printk("@Ramos efs2 restore file magic1 error !!!\r\n\r\n");
-			goto  efsBackupInvalid;
-		}
-	}
-
-	return 1;
-efsBackupInvalid:
-	if(onepage != NULL)
-	{
-		kfree(onepage);
-		onepage = NULL;
-	}
-	return 0;
-}
-
 unsigned int Quectel_Is_BackupPartition_Exist(const char * sourc_partition)
 {
 	struct mtd_info *mtd = NULL;
@@ -282,16 +181,9 @@ unsigned int Quectel_Is_BackupPartition_Exist(const char * sourc_partition)
 	{
 		return 1;
 	}
-	else if(!strcmp(sourc_partition, "efs2"))
+	else if(!strcmp(sourc_partition, "cefs"))
 	{
-		if(Quectel_Is_EFS_Backup_Valid())
-		{
-			return 1;
-		}
-		else
-		{
-			return 0;
-		}
+		return 1;
 	}
 	else if (!strcmp(sourc_partition, "recoveryfs"))
 	{
@@ -329,14 +221,12 @@ unsigned int Quectel_Set_Partition_RestoreFlag(const char * partition_name, int 
 
 	if (!Quectel_Is_BackupPartition_Exist(partition_name))
 	{
-		printk("@Ramos the [%s] partition no backup partitino  or  efs backup Invalid !!!!!\r\n", partition_name);
+		printk("@Ramos the [%s] partition no backup partitino  !!!!!\r\n", partition_name);
 		return 0;
 	}
 	
 	//  sys_rev дflagbootloader ʱflagжǷԭӦķ
-	if(NULL == mtd) // Ramos.zhang 20180624, add efs restore detect,   This mtd is global   maby get  already before here.
-		mtd = get_mtd_device_nm("sys_rev");
-	
+	mtd = get_mtd_device_nm("sys_rev");
 	if(IS_ERR(mtd))
 	{
 		printk("@Ramos get sys_rev mtd fail.!\r\n");
@@ -404,21 +294,13 @@ unsigned int Quectel_Set_Partition_RestoreFlag(const char * partition_name, int 
 			memset((void *)&Flag_msg, 0x00, sizeof(Flag_msg));
 					Flag_msg.magic1 =  QUEC_BACKUP_MAGIC1;
 			Flag_msg.magic2 =  QUEC_BACKUP_MAGIC2;
-			//if(1 == fota_upgradedFlag_msg.fota_upgradedFlag)//QUECTEL_FOTA, if one need restore, we restore the whole system, keep the system,modem,boot,recoveryfs are the same version. 
-			if(0)//Ramos.zhang20180823, Openlinux 4+2 project update beckup partition,not need restore the whole system 
+			if(1 == fota_upgradedFlag_msg.fota_upgradedFlag)//QUECTEL_FOTA, if one need restore, we restore the whole system, keep the system,modem,boot,recoveryfs are the same version. 
+			//if(0)//EC25AUTL update beckup partition,not need restore the whole system 
 			{
-				if(!strcmp(partition_name, "efs2"))
-				{
-					Flag_msg.cefs_restore_flag=1;
-				}
-				else
-				{
-					Flag_msg.linuxfs_restore_flag = 1;
-					Flag_msg.recovery_restore_flag = 1;
-					Flag_msg.modem_restore_flag = 1;
-					Flag_msg.image_restoring_flag =1;
-				}
-				
+				Flag_msg.linuxfs_restore_flag = 1;
+				Flag_msg.recovery_restore_flag = 1;
+				Flag_msg.modem_restore_flag = 1;
+				Flag_msg.image_restoring_flag =1;
 			}
 			else// the module not upgraded by fota  never
 			{
@@ -432,7 +314,7 @@ unsigned int Quectel_Set_Partition_RestoreFlag(const char * partition_name, int 
 				}
 				else if(!strcmp(partition_name, "efs2")) // efs2 设置还原在modme那边，所以这了没有代码
 				{
-					Flag_msg.cefs_restore_flag=1;
+
 				}
 			}
 
@@ -440,20 +322,13 @@ unsigned int Quectel_Set_Partition_RestoreFlag(const char * partition_name, int 
 		else
 		{
 			printk("@Ramos set partition magic	right !!!!!\n" );
-			//if(1 == fota_upgradedFlag_msg.fota_upgradedFlag)// if one need restore, we restore the whole system, keep the system,modem,boot,recoveryfs are the same version. 
-			if(0)//Ramos.zhang20180823, Openlinux 4+2 project update beckup partition,not need restore the whole system 
+			if(1 == fota_upgradedFlag_msg.fota_upgradedFlag)// if one need restore, we restore the whole system, keep the system,modem,boot,recoveryfs are the same version. 
+			//if(0)//EC25AUTL update beckup partition,not need restore the whole system 
 			{
-				if(!strcmp(partition_name, "efs2"))
-				{
-					Flag_msg.cefs_restore_flag=1;
-				}
-				else
-				{
-					Flag_msg.linuxfs_restore_flag = 1;
-					Flag_msg.recovery_restore_flag = 1;
-					Flag_msg.modem_restore_flag = 1;
-					Flag_msg.image_restoring_flag =1;
-				}
+				Flag_msg.linuxfs_restore_flag = 1;
+				Flag_msg.recovery_restore_flag = 1;
+				Flag_msg.modem_restore_flag = 1;
+				Flag_msg.image_restoring_flag =1;
 			}
 
 			if(!strcmp(partition_name, "system"))
@@ -478,14 +353,6 @@ unsigned int Quectel_Set_Partition_RestoreFlag(const char * partition_name, int 
 				if(where <10)  // ֹ
 				{
 					Flag_msg.modem_crash[where] +=1;
-				}
-			}
-			else if (!strcmp(partition_name, "efs2"))
-			{
-				Flag_msg.cefs_restore_flag= 1;
-				if(where <10)  
-				{
-					Flag_msg.cefs_crash[where] +=1;
 				}
 			}
 			//else if (!strcmp(partition_name, "modem"))  ûԭflag

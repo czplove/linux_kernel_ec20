@@ -62,7 +62,6 @@ static int test_sim(void)
         {
             QL_SIM_APP_ID_INFO_T    t_info;
 
-            memset(buf, 0, BUF_SIZE);
             t_info.e_slot_id    = E_QL_MCM_SIM_SLOT_ID_1;
             t_info.e_app        = E_QL_MCM_SIM_APP_TYPE_3GPP;
             ret = QL_MCM_SIM_GetIMSI(h_sim, &t_info, buf, BUF_SIZE);
@@ -71,7 +70,6 @@ static int test_sim(void)
         }
         case 3://"QL_MCM_SIM_GetICCID"
         {
-            memset(buf, 0, BUF_SIZE);
             ret = QL_MCM_SIM_GetICCID(h_sim, E_QL_MCM_SIM_SLOT_ID_1, buf, BUF_SIZE);
             printf("QL_MCM_SIM_GetICCID ret = %d, ICCID: %s\n", ret, buf);
             break;
@@ -155,7 +153,7 @@ static int test_sim(void)
             t_info.app_info.e_app       = E_QL_MCM_SIM_APP_TYPE_3GPP;
             t_info.pin_id               = E_QL_MCM_SIM_PIN_ID_1;
             
-            printf("please input PUK pin: \n");
+            printf("please input OLD pin: \n");
             scanf("%9s", t_info.puk_value);
             t_info.puk_value_len = strlen(t_info.puk_value);
             
@@ -202,35 +200,13 @@ static int test_sim(void)
         case 11://"QL_MCM_SIM_GetCardStatus"
         {
             QL_MCM_SIM_CARD_STATUS_INFO_T   t_info = {0};
-
-            char *card_state[] = {  "UNKNOWN", 
-                                    "ABSENT", 
-                                    "PRESENT", 
-                                    "ERROR_UNKNOWN", 
-                                    "ERROR_POWER_DOWN", 
-                                    "ERROR_POLL_ERROR", 
-                                    "ERROR_NO_ATR_RECEIVED", 
-                                    "ERROR_VOLT_MISMATCH", 
-                                    "ERROR_PARITY_ERROR", 
-                                    "ERROR_SIM_TECHNICAL_PROBLEMS"};            
-            char *card_type[]  = {  "UNKNOWN", "ICC", "UICC"};
-            char *app_state[]  = {  "UNKNOWN", 
-                                    "DETECTED",
-                                    "PIN1_REQ",
-                                    "PUK1_REQ",
-                                    "INITALIZATING",
-                                    "PERSO_CK_REQ",
-                                    "PERSO_PUK_REQ",
-                                    "PERSO_PERMANENTLY_BLOCKED",
-                                    "PIN1_PERM_BLOCKED",
-                                    "ILLEGAL",
-                                    "READY"};            
+            
             ret = QL_MCM_SIM_GetCardStatus(h_sim, E_QL_MCM_SIM_SLOT_ID_1, &t_info);
-            printf("QL_MCM_SIM_GetCardStatus ret = %d, card_state=%s, card_type=%s, app_state=%s, pin1_retries=%d\n", 
+            printf("QL_MCM_SIM_GetCardStatus ret = %d, card_state=0x%X, card_type=0x%X, app_state=0x%X, pin1_retries=%d\n", 
                     ret, 
-                    card_state[t_info.e_card_state - 0xB01],
-                    card_type[t_info.e_card_type - 0xB00],
-                    app_state[t_info.card_app_info.app_3gpp.app_state - 0xB00],
+                    t_info.e_card_state,
+                    t_info.e_card_type,
+                    t_info.card_app_info.app_3gpp.app_state,
                     t_info.card_app_info.app_3gpp.pin1_num_retries);
             break;
         }

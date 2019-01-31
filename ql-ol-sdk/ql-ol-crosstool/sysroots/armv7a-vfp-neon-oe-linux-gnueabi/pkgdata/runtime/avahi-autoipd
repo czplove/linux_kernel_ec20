@@ -13,9 +13,9 @@ FILES_avahi-autoipd: /usr/sbin/avahi-autoipd                        /etc/avahi/a
 pkg_postinst_avahi-autoipd: \tif [ "x$D" != "x" ]; then\n\t\texit 0\n\tfi\n\tgrep "^avahi-autoipd:" /etc/group > /dev/null || addgroup avahi-autoipd\n\tgrep "^avahi-autoipd:" /etc/passwd > /dev/null || adduser --disabled-password --system --home /var/lib/avahi-autoipd --no-create-home avahi-autoipd --ingroup avahi-autoipd -g "Avahi autoip daemon"\n
 pkg_postrm_avahi-autoipd: \tdeluser avahi-autoipd || true\n\tdelgroup avahi-autoipd || true\n
 FILERPROVIDESFLIST_avahi-autoipd: /usr/sbin/avahi-autoipd
-FILES_INFO: {"/usr/sbin/avahi-autoipd": 30056, "/etc/avahi/avahi-autoipd.action": 2509}
-FILERPROVIDES_/usr/sbin/avahi-autoipd_avahi-autoipd: elf(buildid) (= 2f06825224e54c8fd7ffb6eeef9337fb3602522e)
+FILES_INFO: {"/usr/sbin/avahi-autoipd": 29944, "/etc/avahi/avahi-autoipd.action": 2509}
+FILERPROVIDES_/usr/sbin/avahi-autoipd_avahi-autoipd: elf(buildid) (= cac41d56f3a0a847aa5263b3f3eaf6b86f21927f)
 FILERDEPENDSFLIST_avahi-autoipd: /usr/sbin/avahi-autoipd /etc/avahi/avahi-autoipd.action
 FILERDEPENDS_/usr/sbin/avahi-autoipd_avahi-autoipd: libc.so.6 libc.so.6(GLIBC_2.4) libdaemon.so.0 rtld(GNU_HASH)
 FILERDEPENDS_/etc/avahi/avahi-autoipd.action_avahi-autoipd: /bin/sh
-PKGSIZE_avahi-autoipd: 32565
+PKGSIZE_avahi-autoipd: 32453

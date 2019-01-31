@@ -15,7 +15,6 @@ kernel/drivers/input/misc/gpio_axis.ko:
 kernel/drivers/mmc/card/mmc_test.ko:
 kernel/drivers/mmc/card/mmc_block_test.ko: kernel/block/test-iosched.ko
 kernel/drivers/of/of_mdio.ko: kernel/drivers/net/phy/libphy.ko
-kernel/drivers/quectel-drivers/low_power_consume_driver_v2/low_power_consume_driver_v2.ko:
 kernel/net/sched/cls_basic.ko:
 kernel/net/netfilter/xt_physdev.ko:
 kernel/net/key/af_key.ko:

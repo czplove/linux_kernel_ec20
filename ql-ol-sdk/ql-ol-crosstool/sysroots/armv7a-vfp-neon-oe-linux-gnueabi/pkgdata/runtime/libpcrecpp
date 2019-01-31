@@ -12,8 +12,8 @@ SECTION: devel
 PKG_libpcrecpp: libpcrecpp0
 FILES_libpcrecpp: /usr/lib/libpcrecpp.so.*
 FILERPROVIDESFLIST_libpcrecpp: /usr/lib/libpcrecpp.so.0.0.1
-FILES_INFO: {"/usr/lib/libpcrecpp.so.0": 25884}
-FILERPROVIDES_/usr/lib/libpcrecpp.so.0.0.1_libpcrecpp: elf(buildid) (= af61af2fe6bfaa1023361fa9b98f34b0a1a9fb2c) libpcrecpp.so.0
+FILES_INFO: {"/usr/lib/libpcrecpp.so.0": 25848}
+FILERPROVIDES_/usr/lib/libpcrecpp.so.0.0.1_libpcrecpp: elf(buildid) (= 83644722352fb2ae70899b56fbfc688413dc95e6) libpcrecpp.so.0
 FILERDEPENDSFLIST_libpcrecpp: /usr/lib/libpcrecpp.so.0.0.1
 FILERDEPENDS_/usr/lib/libpcrecpp.so.0.0.1_libpcrecpp: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libpcre.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.9) rtld(GNU_HASH)
-PKGSIZE_libpcrecpp: 25884
+PKGSIZE_libpcrecpp: 25848

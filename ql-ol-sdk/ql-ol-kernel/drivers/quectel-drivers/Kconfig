@@ -18,12 +18,6 @@ config LOW_POWER_CONSUME
 	---help---
 	  Low power consume driver, refer to KBA document.
 
-config LOW_POWER_CONSUME_V2
-	tristate "low power consume driver v2"
-	default m
-	---help---
-	  Low power consume driver v2, refer to KBA document.
-
 config QTZONE
 	bool "quectel trust zone support"
 	default n

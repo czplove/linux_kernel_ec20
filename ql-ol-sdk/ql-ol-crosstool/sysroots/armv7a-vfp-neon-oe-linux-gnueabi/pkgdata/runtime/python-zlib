@@ -12,7 +12,7 @@ PKG_python-zlib: python-zlib
 FILES_python-zlib: /usr/lib/python2.7/lib-dynload/zlib.so 
 FILERPROVIDESFLIST_python-zlib: /usr/lib/python2.7/lib-dynload/zlib.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/zlib.so": 21896}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/zlib.so_python-zlib: elf(buildid) (= 469b3ec13363b220fbe3ba0223a63f4f38a83150) zlib.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/zlib.so_python-zlib: elf(buildid) (= 92f3a48cc19280ef3d19b458e249d6da251ef4bc) zlib.so
 FILERDEPENDSFLIST_python-zlib: /usr/lib/python2.7/lib-dynload/zlib.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/zlib.so_python-zlib: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libz.so.1 libz.so.1(ZLIB_1.2.0) rtld(GNU_HASH)
 PKGSIZE_python-zlib: 21896

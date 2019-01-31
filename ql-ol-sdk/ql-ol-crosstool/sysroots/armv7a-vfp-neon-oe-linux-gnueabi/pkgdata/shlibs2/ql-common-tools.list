@@ -1,3 +1,3 @@
-libql_log.so.1:/usr/lib:git-invalidgit
-libeloop.so.1:/usr/lib:git-invalidgit
 libql_utils.so.1:/usr/lib:git-invalidgit
+libeloop.so.1:/usr/lib:git-invalidgit
+libql_log.so.1:/usr/lib:git-invalidgit

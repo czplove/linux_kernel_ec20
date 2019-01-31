@@ -8,10 +8,10 @@ DESCRIPTION_loc-mcm-type-conv-dev: MCM Location Type Conversion Library  This pa
 SUMMARY_loc-mcm-type-conv-dev: loc-mcm-type-conv version git-invalidgit-r4 - Development files
 RDEPENDS_loc-mcm-type-conv-dev: loc-mcm-type-conv (= git-invalidgit-r4)
 RPROVIDES_loc-mcm-type-conv-dev:  loc-mcm-type-conv-dev
-RRECOMMENDS_loc-mcm-type-conv-dev: mcm-core-dev configdb-dev loc-hal-dev glibc-dev xmllib-dev libstdc++-dev dsutils-dev time-genoff-dev qmi-dev ql-syslog-dev glib-2.0-dev qmi-framework-dev diag-dev
+RRECOMMENDS_loc-mcm-type-conv-dev: mcm-core-dev configdb-dev loc-hal-dev glibc-dev xmllib-dev libstdc++-dev dsutils-dev time-genoff-dev qmi-dev glib-2.0-dev qmi-framework-dev diag-dev
 SECTION_loc-mcm-type-conv-dev: devel
 PKG_loc-mcm-type-conv-dev: libloc-mcm-type-conv-dev
 ALLOW_EMPTY_loc-mcm-type-conv-dev: 1
 FILES_loc-mcm-type-conv-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-mcm-type-conv/*.la /lib/*.la
-FILES_INFO: {"/usr/include/loc-mcm-type-conv/loc_srv_mcm_to_hal_type_conversions.h": 3646, "/usr/lib/libloc_mcm_type_conv.so": 29, "/usr/include/loc-mcm-type-conv/loc_srv_hal_to_mcm_type_conversions.h": 3868, "/usr/lib/libloc_mcm_type_conv.la": 1998, "/usr/lib/pkgconfig/loc-mcm-type-conv.pc": 239}
-PKGSIZE_loc-mcm-type-conv-dev: 9780
+FILES_INFO: {"/usr/lib/libloc_mcm_type_conv.so": 29, "/usr/include/loc-mcm-type-conv/loc_srv_hal_to_mcm_type_conversions.h": 3868, "/usr/lib/pkgconfig/loc-mcm-type-conv.pc": 239, "/usr/lib/libloc_mcm_type_conv.la": 1944, "/usr/include/loc-mcm-type-conv/loc_srv_mcm_to_hal_type_conversions.h": 3646}
+PKGSIZE_loc-mcm-type-conv-dev: 9726

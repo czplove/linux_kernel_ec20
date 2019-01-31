@@ -11,5 +11,5 @@ SECTION_libpcre-dbg: devel
 PKG_libpcre-dbg: libpcre-dbg
 ALLOW_EMPTY_libpcre-dbg: 1
 FILES_libpcre-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libpcre/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libpcre/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libpcre/libpcre/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libpcre.so.1.2.4": 9450, "/usr/lib/.debug/libpcrecpp.so.0.0.1": 12951, "/usr/bin/.debug/pcretest": 9018, "/usr/lib/.debug/libpcreposix.so.0.0.3": 4395, "/usr/bin/.debug/pcregrep": 11480}
-PKGSIZE_libpcre-dbg: 47294
+FILES_INFO: {"/usr/lib/.debug/libpcre.so.1.2.4": 9450, "/usr/lib/.debug/libpcrecpp.so.0.0.1": 12951, "/usr/bin/.debug/pcretest": 8982, "/usr/bin/.debug/pcregrep": 11340, "/usr/lib/.debug/libpcreposix.so.0.0.3": 4395}
+PKGSIZE_libpcre-dbg: 47118

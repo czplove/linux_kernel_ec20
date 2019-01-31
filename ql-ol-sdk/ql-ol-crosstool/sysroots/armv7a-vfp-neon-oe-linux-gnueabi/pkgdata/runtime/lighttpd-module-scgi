@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-scgi: lighttpd-module-scgi
 FILES_lighttpd-module-scgi: /usr/lib/mod_scgi.so
 FILERPROVIDESFLIST_lighttpd-module-scgi: /usr/lib/mod@underscore@scgi.so
-FILES_INFO: {"/usr/lib/mod_scgi.so": 33620}
-FILERPROVIDES_/usr/lib/mod@underscore@scgi.so_lighttpd-module-scgi: elf(buildid) (= 68d0585c043f5136735b4ee8bf50c60ba1a0f3a2) mod_scgi.so
+FILES_INFO: {"/usr/lib/mod_scgi.so": 33604}
+FILERPROVIDES_/usr/lib/mod@underscore@scgi.so_lighttpd-module-scgi: elf(buildid) (= 4846c32b1e4490811202a4d8d491cbe39b4f18b8) mod_scgi.so
 FILERDEPENDSFLIST_lighttpd-module-scgi: /usr/lib/mod@underscore@scgi.so
 FILERDEPENDS_/usr/lib/mod@underscore@scgi.so_lighttpd-module-scgi: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-scgi: 33620
+PKGSIZE_lighttpd-module-scgi: 33604

@@ -13,7 +13,7 @@ PKG_libasound: libasound2
 FILES_libasound: /usr/lib/libasound.so.*
 FILERPROVIDESFLIST_libasound: /usr/lib/libasound.so.2.0.0
 FILES_INFO: {"/usr/lib/libasound.so.2": 812912}
-FILERPROVIDES_/usr/lib/libasound.so.2.0.0_libasound: elf(buildid) (= a785a6bcff98c0c416bc39c49cc5c1ed53672c61) libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0) libasound.so.2(ALSA_0.9.0rc4) libasound.so.2(ALSA_0.9.0rc8) libasound.so.2(ALSA_0.9.3) libasound.so.2(ALSA_0.9.5) libasound.so.2(ALSA_0.9.7)
+FILERPROVIDES_/usr/lib/libasound.so.2.0.0_libasound: elf(buildid) (= 009c8e4f83143f6c533a7537d2fba7ab544c9e12) libasound.so.2 libasound.so.2(ALSA_0.9) libasound.so.2(ALSA_0.9.0) libasound.so.2(ALSA_0.9.0rc4) libasound.so.2(ALSA_0.9.0rc8) libasound.so.2(ALSA_0.9.3) libasound.so.2(ALSA_0.9.5) libasound.so.2(ALSA_0.9.7)
 FILERDEPENDSFLIST_libasound: /usr/lib/libasound.so.2.0.0
 FILERDEPENDS_/usr/lib/libasound.so.2.0.0_libasound: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_libasound: 812912

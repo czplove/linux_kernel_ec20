@@ -12,8 +12,8 @@ SECTION: base
 PKG_audcal: libaudcal1
 FILES_audcal: /usr/bin/* /usr/sbin/* /usr/lib/audcal/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/audcal /usr/lib/audcal/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_audcal: /usr/lib/libaudcal.so.1.0.0
-FILES_INFO: {"/etc/Headset_cal.acdb": 61153, "/etc/Bluetooth_cal.acdb": 26410, "/etc/General_cal.acdb": 31270, "/etc/Handset_cal.acdb": 86344, "/usr/lib/libaudcal.so.1": 154600, "/etc/Speaker_cal.acdb": 72502, "/etc/Global_cal.acdb": 4440, "/etc/Hdmi_cal.acdb": 1066}
-FILERPROVIDES_/usr/lib/libaudcal.so.1.0.0_audcal: elf(buildid) (= 1a553446065839e19220323fee325c3399da9b7d) libaudcal.so.1
+FILES_INFO: {"/etc/Headset_cal.acdb": 61153, "/etc/Bluetooth_cal.acdb": 26410, "/etc/General_cal.acdb": 31270, "/etc/Handset_cal.acdb": 86344, "/usr/lib/libaudcal.so.1": 154600, "/etc/Hdmi_cal.acdb": 1066, "/etc/Global_cal.acdb": 4440, "/etc/Speaker_cal.acdb": 72502}
+FILERPROVIDES_/usr/lib/libaudcal.so.1.0.0_audcal: elf(buildid) (= edd425c0674841488b334299db508a2fa5ac01c4) libaudcal.so.1
 FILERDEPENDSFLIST_audcal: /usr/lib/libaudcal.so.1.0.0
 FILERDEPENDS_/usr/lib/libaudcal.so.1.0.0_audcal: libacdbmapper.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libtime_genoff.so.1 rtld(GNU_HASH)
 PKGSIZE_audcal: 437785

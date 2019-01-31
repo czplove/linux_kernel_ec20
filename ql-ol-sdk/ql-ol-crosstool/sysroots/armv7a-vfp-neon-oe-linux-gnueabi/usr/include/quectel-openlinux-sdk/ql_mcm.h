@@ -22,6 +22,13 @@
 #define MAGIC_MSG_ID_SERVICE_UP     0x87654321
 #define MAGIC_MSG_ID_SERVICE_DOWN   0x87654320
 
+
+#ifdef QL_USER_LOG
+#undef QL_USER_LOG
+#define QL_USER_LOG(...) LOG_MSG_INFO(...)
+#endif
+
+
 typedef enum 
 {
     E_QL_SUCCESS                        = 0,    /**<  Success. */

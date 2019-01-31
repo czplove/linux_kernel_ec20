@@ -70,102 +70,56 @@ static void ql_mcm_data_nfy
 )
 {
     int is_ipv6 = 0;
-    char *event[] = {   "unknown", 
-                        "NET_UP", 
-                        "NET_DOWN", 
-                        "NEW_ADDR", 
-                        "DEL_ADDR", 
-                        "SERVICE_STATUS", 
-                        "BEARER_TECH_STATUS",
-                        "DORMANCY_STATUS"};
-    char *call_status[] = {   "INVALID", 
-                        "INVALID", 
-                        "CONNECTING",
-                        "CONNECTED",
-                        "DISCONNECTING",
-                        "DISCONNECTED"};
-    printf("### %s got %s event!\n", __func__, event[e_msg_id - 0x5000]);
-
-    switch(e_msg_id)
-    {
-    case E_QL_DATA_NET_UP_EVENT:
-        break;
-    case E_QL_DATA_NET_DOWN_EVENT:
-        break;
-    case E_QL_DATA_NET_NEW_ADDR_EVENT:
-        break;
-    case E_QL_DATA_NET_DEL_ADDR_EVENT:
-        break;
-    case E_QL_DATA_NET_SERVICE_STATUS_EVENT:
-        break;
-    case E_QL_DATA_NET_BEARER_TECH_STATUS_EVENT:
-        break;
-    case E_QL_DATA_NET_DORMANCY_STATUS_EVENT:
-        break;
-    }
-    
-    if(data->call_id_valid) 
-    {
+    printf("=========================receive msg id : 0x%08X=====================\n", e_msg_id);
+    if(data->call_id_valid) {
         printf("call_id : %d\n", data->call_id);
     }
-    if(data->call_status_valid) 
-    {
-        printf("call_status : %s\n", call_status[data->call_status]);
+    if(data->call_status_valid) {
+        printf("call_status : %d\n", data->call_status);
     }
-    if(data->call_tech_valid) 
-    {
+    if(data->call_tech_valid) {
         printf("call_tech : %d\n", data->call_tech);
     }
-    if(data->reg_status_valid) 
-    {
+    if(data->reg_status_valid) {
         printf("reg_status : %d\n", data->reg_status);
     }
-    if(data->dorm_status_valid)
-    {
+    if(data->dorm_status_valid) {
         printf("dorm_status : %d\n", data->dorm_status);
     }
-    if(data->addr_count_valid) 
-    {
+    if(data->addr_count_valid) {
         printf("addr_count  : %d\n", data->addr_count);
     }
-    if(data->addr_info_valid) 
-    {
+    if(data->addr_info_valid) {
         int i;
         QL_MCM_DATA_CALL_ADDR_INFO_T *addr;
         char *ptr;
         char tmpBuf[246];
         struct in_addr ia;
         printf("addr_info_len : %d\n", data->addr_info_len);
-        for(i=0; i<data->addr_info_len; i++) 
-        {
+        for(i=0; i<data->addr_info_len; i++) {
             addr = &data->addr_info[i];
             ptr = addr2str(&addr->iface_addr_s, tmpBuf, sizeof(tmpBuf), &is_ipv6);
-            if(ptr) 
-            {
+            if(ptr) {
                 printf("ipaddr : %s/%d \n", ptr, addr->iface_mask);
             }
 
             ptr = addr2str(&addr->gtwy_addr_s, tmpBuf, sizeof(tmpBuf), &is_ipv6);
-            if(ptr) 
-            {
+            if(ptr) {
                 printf("gateway : %s/%d \n", ptr, addr->gtwy_mask);
             }
 
             ptr = addr2str(&addr->dnsp_addr_s, tmpBuf, sizeof(tmpBuf), &is_ipv6);
-            if(ptr) 
-            {
+            if(ptr) {
                 printf("Primary DNS : %s\n", ptr);
             }
 
             ptr = addr2str(&addr->dnss_addr_s, tmpBuf, sizeof(tmpBuf), &is_ipv6);
-            if(ptr) 
-            {
+            if(ptr) {
                 printf("Secondary DNS : %s\n", ptr);
             }
         }
     }
-    if(data->vce_reason_valid) 
-    {
+    if(data->vce_reason_valid) {
         printf("data call end reason : %d\n", data->vce_reason);
     }
 }
@@ -513,8 +467,8 @@ static int test_data(void)
         case 20://"QL_MCM_DATA_RegisterEvent"
         {
             int mask = 0;
-            printf("please input event mask(HEX base)(DORMANCY | BEARER_TECH | SERVICE | DEL_ADD | NEW_ADDR | DOWN | UP): \n");
-            scanf("%x", &mask);
+            printf("please input event mask(DORMANCY | BEARER_TECH | SERVICE | DEL_ADD | NEW_ADDR | DOWN | UP): \n");
+            scanf("%d", &mask);
             ret = QL_MCM_DATA_RegisterEvent(h_data, mask);            
             printf("QL_MCM_DATA_RegisterEvent ret = %d\n", ret);
             break;

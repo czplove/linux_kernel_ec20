@@ -11,10 +11,10 @@ SECTION: base
 PKG_system-core-liblog: system-core-liblog
 FILES_system-core-liblog: /usr/lib/liblog.so.* /usr/bin/logcat /etc/udev/rules.d/50-log.rules
 FILERPROVIDESFLIST_system-core-liblog: /usr/bin/logcat /usr/lib/liblog.so.0.0.0
-FILES_INFO: {"/usr/lib/liblog.so.0": 19824, "/usr/bin/logcat": 22668, "/etc/udev/rules.d/50-log.rules": 282}
-FILERPROVIDES_/usr/bin/logcat_system-core-liblog: elf(buildid) (= f2db36a0a462c94a8790447e320c6146ba9ff03d)
+FILES_INFO: {"/usr/lib/liblog.so.0": 19824, "/usr/bin/logcat": 22788, "/etc/udev/rules.d/50-log.rules": 282}
+FILERPROVIDES_/usr/bin/logcat_system-core-liblog: elf(buildid) (= c0656650b610ea1bf2955211aa9ec09eb119cf9f)
 FILERPROVIDES_/usr/lib/liblog.so.0.0.0_system-core-liblog: elf(buildid) (= a8357684859aa8281c21d011ae822fd4a193e779) liblog.so.0
 FILERDEPENDSFLIST_system-core-liblog: /usr/bin/logcat /usr/lib/liblog.so.0.0.0
 FILERDEPENDS_/usr/bin/logcat_system-core-liblog: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libstdc++.so.6 libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/liblog.so.0.0.0_system-core-liblog: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_system-core-liblog: 42774
+PKGSIZE_system-core-liblog: 42894

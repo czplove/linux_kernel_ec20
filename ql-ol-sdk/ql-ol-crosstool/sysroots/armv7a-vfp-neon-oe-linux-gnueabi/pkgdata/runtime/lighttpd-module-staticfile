@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-staticfile: lighttpd-module-staticfile
 FILES_lighttpd-module-staticfile: /usr/lib/mod_staticfile.so
 FILERPROVIDESFLIST_lighttpd-module-staticfile: /usr/lib/mod@underscore@staticfile.so
-FILES_INFO: {"/usr/lib/mod_staticfile.so": 10332}
-FILERPROVIDES_/usr/lib/mod@underscore@staticfile.so_lighttpd-module-staticfile: elf(buildid) (= c1afc4877e7f12e99bf482ff5f382e0039cd886a) mod_staticfile.so
+FILES_INFO: {"/usr/lib/mod_staticfile.so": 10312}
+FILERPROVIDES_/usr/lib/mod@underscore@staticfile.so_lighttpd-module-staticfile: elf(buildid) (= 162aafa6a46e722b03e5292c666c6a76f360c9de) mod_staticfile.so
 FILERDEPENDSFLIST_lighttpd-module-staticfile: /usr/lib/mod@underscore@staticfile.so
 FILERDEPENDS_/usr/lib/mod@underscore@staticfile.so_lighttpd-module-staticfile: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-staticfile: 10332
+PKGSIZE_lighttpd-module-staticfile: 10312

@@ -11,5 +11,5 @@ SECTION_qmi-dbg: devel
 PKG_qmi-dbg: qmi-dbg
 ALLOW_EMPTY_qmi-dbg: 1
 FILES_qmi-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi/qmi/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libqmi_client_qmux.so.1.0.0": 12871, "/usr/lib/.debug/libqmiservices.so.1.0.0": 137043, "/usr/lib/.debug/libqmi.so.1.0.0": 37759, "/usr/lib/.debug/libqmiidl.so.1.0.0": 4772}
-PKGSIZE_qmi-dbg: 192445
+FILES_INFO: {"/usr/lib/.debug/libqmi_client_qmux.so.1.0.0": 12871, "/usr/lib/.debug/libqmi.so.1.0.0": 37759, "/usr/lib/.debug/libqmiservices.so.1.0.0": 136808, "/usr/lib/.debug/libqmiidl.so.1.0.0": 4772}
+PKGSIZE_qmi-dbg: 192210

@@ -13,5 +13,5 @@ SECTION_dsutils-dev: devel
 PKG_dsutils-dev: libdsutils-dev
 ALLOW_EMPTY_dsutils-dev: 1
 FILES_dsutils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dsutils/*.la /lib/*.la
-FILES_INFO: {"/usr/include/dsutils/queue.h": 20551, "/usr/include/dsutils/ds_sl_list.h": 14770, "/usr/include/dsutils/ds_util.h": 39644, "/usr/lib/libdsutils.la": 1133, "/usr/include/dsutils/ds_trace.h": 3116, "/usr/include/dsutils/ds_list.h": 9011, "/usr/lib/pkgconfig/dsutils.pc": 226, "/usr/include/dsutils/stm2_os.h": 6158, "/usr/include/dsutils/ds_cmdq.h": 8379, "/usr/include/dsutils/stm2.h": 28658, "/usr/lib/libdsutils.so": 19, "/usr/include/dsutils/ds_string.h": 1704}
-PKGSIZE_dsutils-dev: 133369
+FILES_INFO: {"/usr/include/dsutils/queue.h": 20551, "/usr/include/dsutils/stm2_os.h": 6158, "/usr/include/dsutils/ds_util.h": 37250, "/usr/include/dsutils/stm2.h": 28658, "/usr/include/dsutils/ds_trace.h": 3116, "/usr/include/dsutils/ds_list.h": 9011, "/usr/lib/pkgconfig/dsutils.pc": 226, "/usr/include/dsutils/ds_cmdq.h": 8379, "/usr/lib/libdsutils.la": 1133, "/usr/lib/libdsutils.so": 19, "/usr/include/dsutils/ds_string.h": 1704, "/usr/include/dsutils/ds_sl_list.h": 14770}
+PKGSIZE_dsutils-dev: 130975

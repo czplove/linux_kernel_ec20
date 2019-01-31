@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-redirect: lighttpd-module-redirect
 FILES_lighttpd-module-redirect: /usr/lib/mod_redirect.so
 FILERPROVIDESFLIST_lighttpd-module-redirect: /usr/lib/mod@underscore@redirect.so
-FILES_INFO: {"/usr/lib/mod_redirect.so": 7420}
-FILERPROVIDES_/usr/lib/mod@underscore@redirect.so_lighttpd-module-redirect: elf(buildid) (= dd5e2c5bd0c47f5ca9e9cfa011007e4f4b7a7ceb) mod_redirect.so
+FILES_INFO: {"/usr/lib/mod_redirect.so": 7404}
+FILERPROVIDES_/usr/lib/mod@underscore@redirect.so_lighttpd-module-redirect: elf(buildid) (= 84bb8f86ed2dca3e51f75112de0a6792c6ad616f) mod_redirect.so
 FILERDEPENDSFLIST_lighttpd-module-redirect: /usr/lib/mod@underscore@redirect.so
 FILERDEPENDS_/usr/lib/mod@underscore@redirect.so_lighttpd-module-redirect: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-redirect: 7420
+PKGSIZE_lighttpd-module-redirect: 7404

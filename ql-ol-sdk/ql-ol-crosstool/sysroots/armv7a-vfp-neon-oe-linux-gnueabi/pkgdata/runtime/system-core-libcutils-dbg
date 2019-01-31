@@ -11,5 +11,5 @@ RRECOMMENDS_system-core-libcutils-dbg: system-core-liblog-dbg glibc-dbg zlib-dbg
 SECTION: base
 PKG_system-core-libcutils-dbg: libcutils-dbg
 FILES_system-core-libcutils-dbg: /usr/lib/.debug/libcutils.*
-FILES_INFO: {"/usr/lib/.debug/libcutils.so.0.0.0": 17480}
-PKGSIZE_system-core-libcutils-dbg: 17480
+FILES_INFO: {"/usr/lib/.debug/libcutils.so.0.0.0": 17368}
+PKGSIZE_system-core-libcutils-dbg: 17368

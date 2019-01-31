@@ -12,5 +12,5 @@ SECTION_quectel-libfotainfo-dbg: devel
 PKG_quectel-libfotainfo-dbg: libfotainfo-dbg
 ALLOW_EMPTY_quectel-libfotainfo-dbg: 1
 FILES_quectel-libfotainfo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-libfotainfo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-libfotainfo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-libfotainfo/quectel-libfotainfo/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libfotainfo.so.1.0.0": 34070}
-PKGSIZE_quectel-libfotainfo-dbg: 34070
+FILES_INFO: {"/usr/lib/.debug/libfotainfo.so.1.0.0": 33782}
+PKGSIZE_quectel-libfotainfo-dbg: 33782

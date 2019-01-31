@@ -13,7 +13,7 @@ PKG_db: db
 FILES_db: /usr/bin/* /usr/sbin/* /usr/lib/db/* /usr/lib/lib*-6*.so /etc /com /var /bin/* /sbin/* /lib/*-6*.so /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/db /usr/lib/db/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_db: /usr/lib/libdb-6.0.so
 FILES_INFO: {"/usr/lib/libdb-6.0.so": 1078020, "/usr/lib/libdb-6.so": 12}
-FILERPROVIDES_/usr/lib/libdb-6.0.so_db: elf(buildid) (= b045b3b99984f0686aad8c7cfa2b1e02937e41c9) libdb-6.0.so
+FILERPROVIDES_/usr/lib/libdb-6.0.so_db: elf(buildid) (= a8069bbd9ef0964eb707450df93a106068fddec0) libdb-6.0.so
 FILERDEPENDSFLIST_db: /usr/lib/libdb-6.0.so
 FILERDEPENDS_/usr/lib/libdb-6.0.so_db: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_db: 1078032

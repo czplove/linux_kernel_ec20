@@ -12,5 +12,5 @@ SECTION_audioalsa-dbg: devel
 PKG_audioalsa-dbg: libaudioalsa-dbg
 ALLOW_EMPTY_audioalsa-dbg: 1
 FILES_audioalsa-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/audioalsa/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/audioalsa/.debug /usr/lib/matchbox-panel/.debug /usr/lib/audioalsa/audioalsa/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libaudioalsa.so.1.0.0": 21479}
-PKGSIZE_audioalsa-dbg: 21479
+FILES_INFO: {"/usr/lib/.debug/libaudioalsa.so.1.0.0": 21315}
+PKGSIZE_audioalsa-dbg: 21315

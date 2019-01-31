@@ -11,11 +11,7 @@ st_api_test_case at_api_testcases[] =
 {
     {0,   "print_help"},
     {1,   "QL_Voice_Call_Ecall"},
-    {2,   "QL_Voice_Call_Ecall_HangUp"},
-    {3,   "QL_Voice_Call_Ecall_UpdateMsd"},
-    {4,   "QL_Voice_Call_Ecall_MsdPush"},
-    {5,   "QL_Voice_Call_Ecall_GetConfigInfo"},
-    {6,   "QL_Voice_Call_Ecall_SetConfigInfo"},
+    {2,   "QL_Voice_Call_End"},
     
     {-1,    NULL}
 };
@@ -95,71 +91,7 @@ static void ql_voice_call_ind_func(unsigned int ind_id,
 
             break;
         }
-	/*
-	// Deprecated event beause of E_QL_MCM_VOICE_ECALL_EVENT_IND
-	case E_QL_MCM_VOICE_ECALL_URC_IND:
-        {
-            if(ind_data_len != sizeof(ql_mcm_voice_ecall_urc_ind))
-            {
-                break;
-            }
 
-            ql_mcm_voice_ecall_urc_ind *pEcallUrcInd
-                                           = (ql_mcm_voice_ecall_urc_ind*)ind_data;
- 
-	    printf("========== Ecall URC EVENT:  call_id =%d ,   urc_event:%s    \r\n", 
-			pEcallUrcInd->call_id,pEcallUrcInd->ecall_urc_event);
-	    break;
-        }
-	*/
-	case E_QL_MCM_VOICE_ECALL_EVENT_IND:
-	{
-		if(ind_data_len != sizeof(ql_mcm_voice_ecall_event_ind))
-		{
-			break;
-		}
-
-		ql_mcm_voice_ecall_event_ind *pEcallEventInd = (ql_mcm_voice_ecall_event_ind*)ind_data;
-		
-		if(pEcallEventInd->ecall_event_fails_valid)
-		{
-			printf("========== Ecall IND EVENT:   ecall_event_fails:%d     ==========\r\n", pEcallEventInd->ecall_event_fails);
-		}
-
-		if(pEcallEventInd->ecall_event_process_valid)
-		{
-			printf("========== Ecall IND EVENT:   ecall_event_process:%d   ==========\r\n", pEcallEventInd->ecall_event_process);
-		}
-
-		if(pEcallEventInd->ecall_event_msdupdate_valid)
-		{
-			printf("========== Ecall IND EVENT:   ecall_event_msdupdate:%d ==========  \r\n", pEcallEventInd->ecall_event_msdupdate);
-		}
-
-		if(pEcallEventInd->ecall_event_establish_valid)
-		{
-			printf("========== Ecall IND EVENT:   ecall_event_establish:%d ==========  \r\n", pEcallEventInd->ecall_event_establish);
-		}
-
-		if(pEcallEventInd->ecall_event_hackcode_valid)
-		{
-			printf("========== Ecall IND EVENT:   ecall_event_hackcode:%d  ========== \r\n", pEcallEventInd->ecall_event_hackcode);
-		}
-
-		if(pEcallEventInd->ecall_event_ori_redial_valid)
-		{
-			printf("========== Ecall IND EVENT:  ori_remainder_times:%d		time:%d  ========== \r\n",
-					pEcallEventInd->ecall_event_ori_redial.ori_remainder_times,pEcallEventInd->ecall_event_ori_redial.time);
-		}
-
-		if(pEcallEventInd->ecall_event_drop_redial_valid)
-		{
-			printf("========== Ecall IND EVENT:  drop_remainder_times:%d		time:%d  ========== \r\n",
-					pEcallEventInd->ecall_event_drop_redial.drop_remainder_times,pEcallEventInd->ecall_event_drop_redial.time);
-		}
-
-		break;
-	}
         case E_QL_MCM_VOICE_UNKOWN_IND:
         default:
             break;
@@ -212,123 +144,29 @@ int main(int argc, char *argv[])
             break;
         }
        	case 1://"QL_Voice_Call_Ecall"
-        {			
+        {
             char    PhoneNum[32]                  = {0}; 
             printf("please input dest phone number: \n");
             scanf("%s", PhoneNum);
 
-			ql_mcm_ecall_info ecall_info = {0,};
+			char    msd[140+1]                  = {0}; 
             printf("please input msd content: \n");
-            scanf("%s", ecall_info.ecall_msd);
+            scanf("%s", msd);
 
+            E_QL_MCM_ECALL_VARIANT_T ecall_mode;
             printf("please input ecall mode(1:test 2:emergency): \n");
-            scanf("%d",&ecall_info.eCallModeType);
+            scanf("%d", &ecall_mode);
 
-            ret = QL_Voice_Call_Ecall(h_voice, E_QL_VCALL_EXTERNAL_SLOT_1,PhoneNum, ecall_info, &voice_call_id); 
+            ret = QL_Voice_Call_Ecall(h_voice, E_QL_VCALL_EXTERNAL_SLOT_1,PhoneNum, 
+                msd,0/*0-auto 1-manual*/,ecall_mode, &voice_call_id); 
 			printf(" voice_call_id = %d\n", voice_call_id);
             printf(" ret = %d\n", ret);
             break;
         }
-        case 2://QL_Voice_Call_Ecall_HangUp
+        case 2://"QL_Voice_Call_End"
         {
-            ret = QL_Voice_Call_Ecall_HangUp(h_voice);
+            ret = QL_Voice_Call_End(h_voice, voice_call_id);
             printf(" ret = %d\n", ret);
-            break;
-        }
-
-        case 3://QL_Voice_Call_Ecall_UpdateMsd
-        {
-	    char    cMsd[280+1]                  = {0}; 
-            printf("please input msd content(HEX STR): \n");
-            scanf("%s", cMsd);
-
-            ret = QL_Voice_Call_Ecall_UpdateMsd(h_voice,cMsd);
-            printf(" ret = %d\n", ret);
-            break;
-        }
-	
-	case 4://QL_Voice_Call_Ecall_PushMsd
-        {
-	    E_QL_MCM_ECALL_STATE_T ecall_state;
-
-            ret = QL_Voice_Call_Ecall_MsdPush(h_voice,&ecall_state);
-            printf(" QL_Voice_Call_Ecall_PushMsd ret = %d\n", ret);
-            break;
-        }
-
-	case 5://QL_Voice_Call_Ecall_GetConfigInfo
-        {
-	    ql_mcm_ecall_config_info ecall_config = {0,};
-
-            ret = QL_Voice_Call_Ecall_GetConfigInfo(h_voice,&ecall_config);
-            printf(" QL_Voice_Call_Ecall_GetConfigInfo ret = %d\n", ret);
-	    printf("enable:%d, voiceconfig:%d, ecallmode:%d, processinfo:%d, T5:%d, T6:%d, T7:%d, mofailredial:%d, dropredial:%d\n",
-					ecall_config.enable,
-					ecall_config.voiceconfig,
-					ecall_config.ecallmode,
-					ecall_config.processinfo,
-					ecall_config.T5,
-					ecall_config.T6,
-					ecall_config.T7,
-					ecall_config.mofailredial,
-					ecall_config.dropredial
-					);
-            break;
-        }
-
-	case 6://QL_Voice_Call_Ecall_SetConfigInfo
-        {
-	    uint8_t ecall_config_type;
-	    uint8_t value = 0;
-	    printf("ecall config type(0-E_QL_MCM_VOICE_ECALL_CONFIG_ENABLE): \n");
-	    printf("ecall config type(1-E_QL_MCM_VOICE_ECALL_CONFIG_VIOCECONF): \n");
-	    printf("ecall config type(2-E_QL_MCM_VOICE_ECALL_CONFIG_MODE): \n");
-	    printf("ecall config type(3-E_QL_MCM_VOICE_ECALL_CONFIG_PROCESSINFO): \n");
-	    printf("ecall config type(4-E_QL_MCM_VOICE_ECALL_CONFIG_START_TIMER): \n");
-	    printf("ecall config type(5-E_QL_MCM_VOICE_ECALL_CONFIG_HACK_TIMER): \n");
-	    printf("ecall config type(6-E_QL_MCM_VOICE_ECALL_CONFIG_MSD_TRANSMISSION): \n");
-	    printf("ecall config type(7-E_QL_MCM_VOICE_ECALL_CONFIG_MO_FAILR_REDIAL): \n");
-	    printf("ecall config type(8-E_QL_MCM_VOICE_ECALL_CONFIG_DROP_REDIAL): \n");
-	    printf("please input ecall config type: \n");
-            scanf("%d", &ecall_config_type);
-
-	    printf("please input ecall config value: \n");
-	    scanf("%d", &value);
-	    
-	    switch(ecall_config_type)
-	    {
-		    case 0:
-            		ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_ENABLE,value);
-			 break;
-		    case 1:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_VIOCECONF,value);
-			break;
-		    case 2:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_MODE,value);
-			break;
-		    case 3:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_PROCESSINFO,value);
-			break;
-		    case 4:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_START_TIMER,value);
-			break;
-		    case 5:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_HACK_TIMER,value);
-			break;
-		    case 6:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_MSD_TRANSMISSION,value);
-			break;
-		    case 7:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_MO_FAILR_REDIAL,value);
-			break;
-		    case 8:
-		    	ret = QL_Voice_Call_Ecall_SetConfigInfo(h_voice,E_QL_MCM_VOICE_ECALL_CONFIG_DROP_REDIAL,value);
-			break;
-		default:
-			printf(" Input parameters error\n");
-			break;
-	    }
-            printf(" QL_Voice_Call_Ecall_SetConfigInfo ret = %d\n", ret);
             break;
         }
 

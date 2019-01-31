@@ -12,5 +12,5 @@ SECTION_readline-dbg: devel
 PKG_readline-dbg: libreadline-dbg
 ALLOW_EMPTY_readline-dbg: 1
 FILES_readline-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/readline/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/readline/.debug /usr/lib/matchbox-panel/.debug /usr/lib/readline/readline/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libreadline.so.5.2": 52628, "/usr/lib/.debug/libhistory.so.5.2": 8999}
-PKGSIZE_readline-dbg: 61627
+FILES_INFO: {"/usr/lib/.debug/libreadline.so.5.2": 52524, "/usr/lib/.debug/libhistory.so.5.2": 8999}
+PKGSIZE_readline-dbg: 61523

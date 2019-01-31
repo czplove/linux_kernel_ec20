@@ -13,5 +13,5 @@ SECTION_wireless-tools-dbg: devel
 PKG_wireless-tools-dbg: wireless-tools-dbg
 ALLOW_EMPTY_wireless-tools-dbg: 1
 FILES_wireless-tools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/wireless-tools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/wireless-tools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/wireless-tools/wireless-tools/.debug /usr/src/debug
-FILES_INFO: {"/sbin/.debug/iwconfig": 13822}
-PKGSIZE_wireless-tools-dbg: 13822
+FILES_INFO: {"/sbin/.debug/iwconfig": 13674}
+PKGSIZE_wireless-tools-dbg: 13674

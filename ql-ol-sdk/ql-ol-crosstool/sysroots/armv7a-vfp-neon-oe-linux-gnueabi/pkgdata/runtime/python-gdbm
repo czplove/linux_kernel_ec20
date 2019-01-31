@@ -11,8 +11,8 @@ SECTION: devel/python
 PKG_python-gdbm: python-gdbm
 FILES_python-gdbm: /usr/lib/python2.7/lib-dynload/gdbm.so 
 FILERPROVIDESFLIST_python-gdbm: /usr/lib/python2.7/lib-dynload/gdbm.so
-FILES_INFO: {"/usr/lib/python2.7/lib-dynload/gdbm.so": 13352}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/gdbm.so_python-gdbm: elf(buildid) (= 02468be78289fb94c76c6af48a95ff3bbdf7161f) gdbm.so
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/gdbm.so": 13336}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/gdbm.so_python-gdbm: elf(buildid) (= c907496a7df96e9396c4908d7824feb2d9d419c6) gdbm.so
 FILERDEPENDSFLIST_python-gdbm: /usr/lib/python2.7/lib-dynload/gdbm.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/gdbm.so_python-gdbm: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 libpython2.7.so.1.0 rtld(GNU_HASH)
-PKGSIZE_python-gdbm: 13352
+PKGSIZE_python-gdbm: 13336

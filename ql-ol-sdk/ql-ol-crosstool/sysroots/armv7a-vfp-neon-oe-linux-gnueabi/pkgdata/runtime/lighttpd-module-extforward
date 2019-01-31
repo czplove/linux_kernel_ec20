@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-extforward: lighttpd-module-extforward
 FILES_lighttpd-module-extforward: /usr/lib/mod_extforward.so
 FILERPROVIDESFLIST_lighttpd-module-extforward: /usr/lib/mod@underscore@extforward.so
-FILES_INFO: {"/usr/lib/mod_extforward.so": 8776}
-FILERPROVIDES_/usr/lib/mod@underscore@extforward.so_lighttpd-module-extforward: elf(buildid) (= 18919796f5c6f5fa9d53b012d423cccdc0affafc) mod_extforward.so
+FILES_INFO: {"/usr/lib/mod_extforward.so": 8756}
+FILERPROVIDES_/usr/lib/mod@underscore@extforward.so_lighttpd-module-extforward: elf(buildid) (= 8f8eb4e9c54c261b59b103f3cdc54b71a7cc0f63) mod_extforward.so
 FILERDEPENDSFLIST_lighttpd-module-extforward: /usr/lib/mod@underscore@extforward.so
 FILERDEPENDS_/usr/lib/mod@underscore@extforward.so_lighttpd-module-extforward: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-extforward: 8776
+PKGSIZE_lighttpd-module-extforward: 8756

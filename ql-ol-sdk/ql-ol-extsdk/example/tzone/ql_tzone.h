@@ -154,12 +154,6 @@ typedef struct {
 } ql_tz_rsa_public_key_export_t;
 
 
-typedef struct {
-    uint32 row_num; //in, <0-127>
-    uint64 efuse;   //out
-} ql_tz_fuse_val_t;
-
-
 typedef enum {
     QL_TZ_CRYPTO_SVC_RANDOM_DATA_GEN        = QL_TZ_CRYPTO_SVC_IOC_CMD(0),
     QL_TZ_CRYPTO_SVC_AES_KEY_GEN            = QL_TZ_CRYPTO_SVC_IOC_CMD(1),
@@ -172,6 +166,5 @@ typedef enum {
     QL_TZ_CRYPTO_SVC_RSA_KEYPAIR_IMPORT     = QL_TZ_CRYPTO_SVC_IOC_CMD(8),
     QL_TZ_CRYPTO_SVC_RSA_PKCS8_IMPORT       = QL_TZ_CRYPTO_SVC_IOC_CMD(9),// unsupport
     QL_TZ_CRYPTO_SVC_RSA_PUBKEY_EXPORT      = QL_TZ_CRYPTO_SVC_IOC_CMD(10),
-    QL_TZ_FUSE_SVC_READ                     = QL_TZ_CRYPTO_SVC_IOC_CMD(11),
 } ql_tz_crypto_svc_t;
 #endif

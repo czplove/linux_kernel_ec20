@@ -16,7 +16,7 @@ pkg_postinst_util-linux-blkid: #!/bin/sh\n\tupdate-alternatives --install /sbin/
 pkg_postrm_util-linux-blkid: #!/bin/sh\n\tupdate-alternatives --remove  blkid /sbin/blkid.util-linux\n
 FILERPROVIDESFLIST_util-linux-blkid: /sbin/blkid.util-linux
 FILES_INFO: {"/sbin/blkid.util-linux": 53744}
-FILERPROVIDES_/sbin/blkid.util-linux_util-linux-blkid: elf(buildid) (= ef2055015b7729707af66bcf3089273885b664e9) /sbin/blkid
+FILERPROVIDES_/sbin/blkid.util-linux_util-linux-blkid: elf(buildid) (= e50843189d9e3e2acc6a9ff640634471d1114c63) /sbin/blkid
 FILERDEPENDSFLIST_util-linux-blkid: /sbin/blkid.util-linux
 FILERDEPENDS_/sbin/blkid.util-linux_util-linux-blkid: libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.20) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
 PKGSIZE_util-linux-blkid: 53744

@@ -26,7 +26,7 @@ eval 'case $# in 0) exec /usr/bin/env perl -S "$0";; *) exec /usr/bin/env perl -
 
 BEGIN
 {
-  my $datadir = $ENV{'autom4te_perllibdir'} || '/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/autoconf';
+  my $datadir = $ENV{'autom4te_perllibdir'} || '/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/autoconf';
 #  '/home/kergoth/code/build-arm/tmp/staging/share/autoconf';
   unshift @INC, $datadir;
 
@@ -82,7 +82,7 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ";
 
-my $configdir  = '/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/gnu-config';
+my $configdir  = '/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/gnu-config';
 #'/home/kergoth/code/build-arm/tmp/staging/i686-linux/share/gnu-config';
 my $autoconf   = $ENV{'AUTOCONF'}     || 'autoconf';
 

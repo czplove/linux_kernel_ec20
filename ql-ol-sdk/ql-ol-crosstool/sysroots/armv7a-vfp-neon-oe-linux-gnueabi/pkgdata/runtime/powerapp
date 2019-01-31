@@ -12,10 +12,10 @@ PKG_powerapp: powerapp
 FILES_powerapp: /usr/bin/* /usr/sbin/* /usr/lib/powerapp/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/powerapp /usr/lib/powerapp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 pkg_postinst_powerapp:     [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n    update-rc.d $OPT -f reset_reboot_cookie remove\n    update-rc.d $OPT reset_reboot_cookie start 55 2 3 4 5 .\n
 FILERPROVIDESFLIST_powerapp: /sbin/sys@underscore@shutdown /sbin/powerapp /sbin/sys@underscore@reboot
-FILES_INFO: {"/etc/init.d/reset_reboot_cookie": 159, "/etc/reboot-cookie": 2, "/sbin/sys_shutdown": 24245, "/etc/init.d/syncfs": 566, "/sbin/sys_reboot": 7392, "/sbin/reboot-bootloader": 47, "/sbin/powerapp": 24245, "/sbin/reboot-recovery": 47, "/sbin/qlfotapp": 2686}
-FILERPROVIDES_/sbin/sys@underscore@shutdown_powerapp: elf(buildid) (= b6f50f9f7277b362964df80b4bd67ba09f67e5b4)
-FILERPROVIDES_/sbin/powerapp_powerapp: elf(buildid) (= b6f50f9f7277b362964df80b4bd67ba09f67e5b4)
-FILERPROVIDES_/sbin/sys@underscore@reboot_powerapp: elf(buildid) (= b6f50f9f7277b362964df80b4bd67ba09f67e5b4)
+FILES_INFO: {"/sbin/reboot-recovery": 47, "/etc/init.d/reset_reboot_cookie": 159, "/sbin/qlfotapp": 2664, "/sbin/sys_shutdown": 24065, "/etc/init.d/syncfs": 566, "/sbin/sys_reboot": 24065, "/sbin/reboot-bootloader": 47, "/sbin/powerapp": 7392, "/etc/reboot-cookie": 2}
+FILERPROVIDES_/sbin/sys@underscore@shutdown_powerapp: elf(buildid) (= 48905b754dd5ab6447568f23826fa5d5bab53a28)
+FILERPROVIDES_/sbin/powerapp_powerapp: elf(buildid) (= 48905b754dd5ab6447568f23826fa5d5bab53a28)
+FILERPROVIDES_/sbin/sys@underscore@reboot_powerapp: elf(buildid) (= 48905b754dd5ab6447568f23826fa5d5bab53a28)
 FILERDEPENDSFLIST_powerapp: /sbin/reboot-recovery /sbin/qlfotapp /etc/init.d/reset@underscore@reboot@underscore@cookie /sbin/sys@underscore@reboot /sbin/reboot-bootloader /etc/init.d/syncfs /sbin/powerapp /sbin/sys@underscore@shutdown
 FILERDEPENDS_/sbin/reboot-recovery_powerapp: /bin/sh
 FILERDEPENDS_/sbin/qlfotapp_powerapp: /bin/sh
@@ -25,4 +25,4 @@ FILERDEPENDS_/sbin/reboot-bootloader_powerapp: /bin/sh
 FILERDEPENDS_/etc/init.d/syncfs_powerapp: /bin/sh
 FILERDEPENDS_/sbin/powerapp_powerapp: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/sbin/sys@underscore@shutdown_powerapp: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_powerapp: 59389
+PKGSIZE_powerapp: 59007

@@ -13,7 +13,7 @@ PKG_libffi: libffi6
 FILES_libffi: /usr/bin/* /usr/sbin/* /usr/lib/libffi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libffi /usr/lib/libffi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_libffi: /usr/lib/libffi.so.6.0.4
 FILES_INFO: {"/usr/lib/libffi.so.6": 26944}
-FILERPROVIDES_/usr/lib/libffi.so.6.0.4_libffi: elf(buildid) (= 604c732179e42cc9d4a091d266238ba953c04391) libffi.so.6
+FILERPROVIDES_/usr/lib/libffi.so.6.0.4_libffi: elf(buildid) (= 67d5c12c6e7591b461caf81470c6bdcad9b34948) libffi.so.6
 FILERDEPENDSFLIST_libffi: /usr/lib/libffi.so.6.0.4
 FILERDEPENDS_/usr/lib/libffi.so.6.0.4_libffi: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) rtld(GNU_HASH)
 PKGSIZE_libffi: 26944

@@ -11,5 +11,5 @@ SECTION_ethtool-dbg: devel
 PKG_ethtool-dbg: ethtool-dbg
 ALLOW_EMPTY_ethtool-dbg: 1
 FILES_ethtool-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ethtool/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ethtool/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ethtool/ethtool/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/ethtool": 19716}
-PKGSIZE_ethtool-dbg: 19716
+FILES_INFO: {"/usr/sbin/.debug/ethtool": 19568}
+PKGSIZE_ethtool-dbg: 19568

@@ -1,4 +1,4 @@
-libnss_nis.so.2:/lib:2.21
-libnss_db.so.2:/lib:2.21
 libnss_nisplus.so.2:/lib:2.21
+libnss_nis.so.2:/lib:2.21
 libnss_hesiod.so.2:/lib:2.21
+libnss_db.so.2:/lib:2.21

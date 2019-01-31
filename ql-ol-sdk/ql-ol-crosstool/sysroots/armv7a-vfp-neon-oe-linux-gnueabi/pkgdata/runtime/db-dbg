@@ -11,5 +11,5 @@ SECTION_db-dbg: devel
 PKG_db-dbg: db-dbg
 ALLOW_EMPTY_db-dbg: 1
 FILES_db-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/db/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/db/.debug /usr/lib/matchbox-panel/.debug /usr/lib/db/db/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/db_load": 9325, "/usr/bin/.debug/db_hotbackup": 6414, "/usr/bin/.debug/db_dump": 8675, "/usr/bin/.debug/db_log_verify": 8544, "/usr/bin/.debug/db_verify": 8324, "/usr/bin/.debug/db_upgrade": 6019, "/usr/lib/.debug/libdb-6.0.so": 115069, "/usr/bin/.debug/db_tuner": 10145, "/usr/lib/.debug/libdb_cxx-6.0.so": 151755, "/usr/bin/.debug/db_archive": 5970, "/usr/bin/.debug/db_recover": 6318, "/usr/bin/.debug/db_printlog": 16171, "/usr/bin/.debug/db_deadlock": 6301, "/usr/bin/.debug/db_replicate": 5762, "/usr/bin/.debug/db_stat": 8332, "/usr/bin/.debug/db_checkpoint": 6279}
-PKGSIZE_db-dbg: 379403
+FILES_INFO: {"/usr/bin/.debug/db_load": 9177, "/usr/lib/.debug/libdb-6.0.so": 114689, "/usr/bin/.debug/db_dump": 8527, "/usr/bin/.debug/db_hotbackup": 6378, "/usr/bin/.debug/db_log_verify": 8396, "/usr/bin/.debug/db_verify": 8176, "/usr/bin/.debug/db_upgrade": 5983, "/usr/bin/.debug/db_checkpoint": 6243, "/usr/bin/.debug/db_tuner": 9941, "/usr/lib/.debug/libdb_cxx-6.0.so": 151755, "/usr/bin/.debug/db_archive": 5934, "/usr/bin/.debug/db_recover": 6282, "/usr/bin/.debug/db_printlog": 16135, "/usr/bin/.debug/db_replicate": 5726, "/usr/bin/.debug/db_stat": 8184, "/usr/bin/.debug/db_deadlock": 6265}
+PKGSIZE_db-dbg: 377791

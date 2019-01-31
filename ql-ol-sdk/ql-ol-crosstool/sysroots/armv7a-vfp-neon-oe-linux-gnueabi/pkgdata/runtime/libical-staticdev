@@ -10,5 +10,5 @@ RDEPENDS_libical-staticdev: libical-dev (= 1.0.0-r0)
 SECTION_libical-staticdev: devel
 PKG_libical-staticdev: libical-staticdev
 FILES_libical-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libical/*.a
-FILES_INFO: {"/usr/lib/libicalss.a": 95008, "/usr/lib/libicalvcal.a": 68536, "/usr/lib/libical.a": 374280}
-PKGSIZE_libical-staticdev: 537824
+FILES_INFO: {"/usr/lib/libicalss.a": 94884, "/usr/lib/libicalvcal.a": 68520, "/usr/lib/libical.a": 374092}
+PKGSIZE_libical-staticdev: 537496

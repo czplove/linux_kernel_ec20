@@ -12,10 +12,10 @@ PKG_mtd-utils-jffs2: mtd-utils-jffs2
 FILES_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
 FILERPROVIDESFLIST_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
 FILES_INFO: {"/usr/sbin/mkfs.jffs2": 36500, "/usr/sbin/jffs2dump": 14332, "/usr/sbin/jffs2reader": 11040, "/usr/sbin/sumtool": 17132}
-FILERPROVIDES_/usr/sbin/mkfs.jffs2_mtd-utils-jffs2: elf(buildid) (= 5441c17c7fe30a1ac050416037e3446c34bf15eb)
-FILERPROVIDES_/usr/sbin/jffs2dump_mtd-utils-jffs2: elf(buildid) (= 555dc2fb0e8d085e37a85db4eaed7e22935c4f00)
-FILERPROVIDES_/usr/sbin/jffs2reader_mtd-utils-jffs2: elf(buildid) (= f73f093043982fe76c329ddee6666f04e6fa2158)
-FILERPROVIDES_/usr/sbin/sumtool_mtd-utils-jffs2: elf(buildid) (= 71e44531c3617dfab984beaab10a7e73ca1ec2fe)
+FILERPROVIDES_/usr/sbin/mkfs.jffs2_mtd-utils-jffs2: elf(buildid) (= d54d3357446eeeab61f826ba3fe7a7f74b0f2fa4)
+FILERPROVIDES_/usr/sbin/jffs2dump_mtd-utils-jffs2: elf(buildid) (= 2e09776f52f5a030c18197fb311ab859cefbd8d3)
+FILERPROVIDES_/usr/sbin/jffs2reader_mtd-utils-jffs2: elf(buildid) (= 36a3bc65c9e2386fe136117ee2922f87d0d0bec7)
+FILERPROVIDES_/usr/sbin/sumtool_mtd-utils-jffs2: elf(buildid) (= 43dbc94b6f5d5f7be86b0baa04a385d4692f66d6)
 FILERDEPENDSFLIST_mtd-utils-jffs2: /usr/sbin/mkfs.jffs2 /usr/sbin/jffs2dump /usr/sbin/jffs2reader /usr/sbin/sumtool
 FILERDEPENDS_/usr/sbin/mkfs.jffs2_mtd-utils-jffs2: libc.so.6 libc.so.6(GLIBC_2.4) liblzo2.so.2 libz.so.1 rtld(GNU_HASH)
 FILERDEPENDS_/usr/sbin/jffs2dump_mtd-utils-jffs2: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

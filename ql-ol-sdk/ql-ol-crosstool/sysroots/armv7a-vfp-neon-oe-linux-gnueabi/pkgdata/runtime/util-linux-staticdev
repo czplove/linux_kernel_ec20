@@ -10,5 +10,5 @@ RDEPENDS_util-linux-staticdev: util-linux-dev (= 2.25.2-r1)
 SECTION_util-linux-staticdev: devel
 PKG_util-linux-staticdev: util-linux-staticdev
 FILES_util-linux-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/util-linux/*.a
-FILES_INFO: {"/usr/lib/libmount.a": 418410, "/usr/lib/libsmartcols.a": 197282, "/usr/lib/libuuid.a": 19772, "/usr/lib/libblkid.a": 443516}
-PKGSIZE_util-linux-staticdev: 1078980
+FILES_INFO: {"/usr/lib/libsmartcols.a": 197146, "/usr/lib/libmount.a": 418102, "/usr/lib/libuuid.a": 19772, "/usr/lib/libblkid.a": 443500}
+PKGSIZE_util-linux-staticdev: 1078520

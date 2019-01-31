@@ -11,5 +11,5 @@ SECTION_flac-dbg: devel
 PKG_flac-dbg: flac-dbg
 ALLOW_EMPTY_flac-dbg: 1
 FILES_flac-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/flac/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/flac/.debug /usr/lib/matchbox-panel/.debug /usr/lib/flac/flac/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/flac": 41090, "/usr/lib/.debug/libFLAC++.so.6.3.0": 45786, "/usr/bin/.debug/metaflac": 30153, "/usr/lib/.debug/libFLAC.so.8.3.0": 50713}
-PKGSIZE_flac-dbg: 167742
+FILES_INFO: {"/usr/bin/.debug/flac": 40534, "/usr/lib/.debug/libFLAC++.so.6.3.0": 45786, "/usr/bin/.debug/metaflac": 29757, "/usr/lib/.debug/libFLAC.so.8.3.0": 50353}
+PKGSIZE_flac-dbg: 166430

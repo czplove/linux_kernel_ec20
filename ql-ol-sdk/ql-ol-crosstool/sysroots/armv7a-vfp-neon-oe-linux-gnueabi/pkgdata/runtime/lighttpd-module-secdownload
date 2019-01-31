@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-secdownload: lighttpd-module-secdownload
 FILES_lighttpd-module-secdownload: /usr/lib/mod_secdownload.so
 FILERPROVIDESFLIST_lighttpd-module-secdownload: /usr/lib/mod@underscore@secdownload.so
-FILES_INFO: {"/usr/lib/mod_secdownload.so": 7236}
-FILERPROVIDES_/usr/lib/mod@underscore@secdownload.so_lighttpd-module-secdownload: elf(buildid) (= fae04fbcdc44d638df792e53203c54da19226d2d) mod_secdownload.so
+FILES_INFO: {"/usr/lib/mod_secdownload.so": 7216}
+FILERPROVIDES_/usr/lib/mod@underscore@secdownload.so_lighttpd-module-secdownload: elf(buildid) (= a7bff35dfd2097ccb5000d9ba0c70080ec42fc48) mod_secdownload.so
 FILERDEPENDSFLIST_lighttpd-module-secdownload: /usr/lib/mod@underscore@secdownload.so
 FILERDEPENDS_/usr/lib/mod@underscore@secdownload.so_lighttpd-module-secdownload: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-secdownload: 7236
+PKGSIZE_lighttpd-module-secdownload: 7216

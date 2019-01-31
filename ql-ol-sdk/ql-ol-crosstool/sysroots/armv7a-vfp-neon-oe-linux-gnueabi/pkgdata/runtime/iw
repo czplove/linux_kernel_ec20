@@ -12,7 +12,7 @@ PKG_iw: iw
 FILES_iw: /usr/bin/* /usr/sbin/* /usr/lib/iw/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iw /usr/lib/iw/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_iw: /usr/sbin/iw
 FILES_INFO: {"/usr/sbin/iw": 88324}
-FILERPROVIDES_/usr/sbin/iw_iw: elf(buildid) (= d4d833072c081f6c60448af7cd6e34f059557d74)
+FILERPROVIDES_/usr/sbin/iw_iw: elf(buildid) (= e754e30b0affa19030defc4d5f3bf1abb53e70a6)
 FILERDEPENDSFLIST_iw: /usr/sbin/iw
 FILERDEPENDS_/usr/sbin/iw_iw: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) rtld(GNU_HASH)
 PKGSIZE_iw: 88324

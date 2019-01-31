@@ -10,5 +10,5 @@ RDEPENDS_data-staticdev: data-dev (= git-invalidgit-r21)
 SECTION_data-staticdev: devel
 PKG_data-staticdev: data-staticdev
 FILES_data-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/data/*.a
-FILES_INFO: {"/usr/lib/libnetmgr.a": 383698, "/usr/lib/libqdi.a": 472018, "/usr/lib/libdsi_netctrl.a": 2231884, "/usr/lib/libqdp.a": 150882}
-PKGSIZE_data-staticdev: 3238482
+FILES_INFO: {"/usr/lib/libnetmgr.a": 330158, "/usr/lib/libqdi.a": 471474, "/usr/lib/libdsi_netctrl.a": 2223720, "/usr/lib/libqdp.a": 150882}
+PKGSIZE_data-staticdev: 3176234

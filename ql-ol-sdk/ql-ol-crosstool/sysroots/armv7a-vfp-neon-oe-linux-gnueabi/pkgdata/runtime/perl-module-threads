@@ -12,7 +12,7 @@ PKG_perl-module-threads: perl-module-threads
 FILES_perl-module-threads: /usr/lib/perl/5.20.0/auto/threads/threads.so /usr/lib/perl/5.20.0/threads.pm
 FILERPROVIDESFLIST_perl-module-threads: /usr/lib/perl/5.20.0/auto/threads/threads.so
 FILES_INFO: {"/usr/lib/perl/5.20.0/auto/threads/threads.so": 32308, "/usr/lib/perl/5.20.0/threads.pm": 35767}
-FILERPROVIDES_/usr/lib/perl/5.20.0/auto/threads/threads.so_perl-module-threads: elf(buildid) (= ec15991aa65073bc85868510d5f4df424582160b) threads.so
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/threads/threads.so_perl-module-threads: elf(buildid) (= 7cd095e31c9a0d9645d515fe7c1877abff400d1e) threads.so
 FILERDEPENDSFLIST_perl-module-threads: /usr/lib/perl/5.20.0/auto/threads/threads.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/threads/threads.so_perl-module-threads: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_perl-module-threads: 68075

@@ -12,7 +12,7 @@ PKG_util-linux-uuidgen: util-linux-uuidgen
 FILES_util-linux-uuidgen: /usr/bin/uuidgen
 FILERPROVIDESFLIST_util-linux-uuidgen: /usr/bin/uuidgen
 FILES_INFO: {"/usr/bin/uuidgen": 5764}
-FILERPROVIDES_/usr/bin/uuidgen_util-linux-uuidgen: elf(buildid) (= 55b7e11486410240b14bd8aca962b252aaba3c75)
+FILERPROVIDES_/usr/bin/uuidgen_util-linux-uuidgen: elf(buildid) (= 6dbdba3e5b31c248fb0b9e966219f7446755ad61)
 FILERDEPENDSFLIST_util-linux-uuidgen: /usr/bin/uuidgen
 FILERDEPENDS_/usr/bin/uuidgen_util-linux-uuidgen: libc.so.6 libc.so.6(GLIBC_2.4) libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 PKGSIZE_util-linux-uuidgen: 5764

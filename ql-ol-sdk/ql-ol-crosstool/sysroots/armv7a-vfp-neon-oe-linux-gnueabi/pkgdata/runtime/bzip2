@@ -13,9 +13,9 @@ FILES_bzip2: /usr/bin/* /usr/sbin/* /usr/lib/bzip2/* /usr/lib/lib*.so.* /etc /co
 pkg_postinst_bzip2: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/bunzip2 bunzip2 /usr/bin/bunzip2.bzip2 100\n\tupdate-alternatives --install /usr/bin/bzcat bzcat /usr/bin/bzcat.bzip2 100\n
 pkg_postrm_bzip2: #!/bin/sh\n\tupdate-alternatives --remove  bunzip2 /usr/bin/bunzip2.bzip2\n\tupdate-alternatives --remove  bzcat /usr/bin/bzcat.bzip2\n
 FILERPROVIDESFLIST_bzip2: /usr/bin/bzip2 /usr/bin/bzip2recover /usr/bin/bunzip2.bzip2 /usr/bin/bzcat.bzip2
-FILES_INFO: {"/usr/bin/bzless": 15, "/usr/bin/bzcmp": 15, "/usr/bin/bzip2": 27816, "/usr/bin/bzip2recover": 8872, "/usr/bin/bunzip2.bzip2": 14, "/usr/bin/bzdiff": 2128, "/usr/bin/bzegrep": 15, "/usr/bin/bzmore": 1259, "/usr/bin/bzfgrep": 15, "/usr/bin/bzgrep": 1677, "/usr/bin/bzcat.bzip2": 14}
-FILERPROVIDES_/usr/bin/bzip2_bzip2: elf(buildid) (= 2db9e4d67158ce874af151ed8802277e9cb42d2b)
-FILERPROVIDES_/usr/bin/bzip2recover_bzip2: elf(buildid) (= c6991277264b0d9808edc6bdec720bb3ac5e5e70)
+FILES_INFO: {"/usr/bin/bzless": 15, "/usr/bin/bzcmp": 15, "/usr/bin/bzip2": 27816, "/usr/bin/bzip2recover": 8872, "/usr/bin/bzegrep": 15, "/usr/bin/bzdiff": 2128, "/usr/bin/bunzip2.bzip2": 14, "/usr/bin/bzmore": 1259, "/usr/bin/bzfgrep": 15, "/usr/bin/bzgrep": 1677, "/usr/bin/bzcat.bzip2": 14}
+FILERPROVIDES_/usr/bin/bzip2_bzip2: elf(buildid) (= cb7546a568d8f4156d9f0b90a5878a6c69daab7c)
+FILERPROVIDES_/usr/bin/bzip2recover_bzip2: elf(buildid) (= 5fa673cf5e053252280ff3079c2b6cea7d21f106)
 FILERPROVIDES_/usr/bin/bunzip2.bzip2_bzip2:  /usr/bin/bunzip2
 FILERPROVIDES_/usr/bin/bzcat.bzip2_bzip2:  /usr/bin/bzcat
 FILERDEPENDSFLIST_bzip2: /usr/bin/bzmore /usr/bin/bzip2 /usr/bin/bzgrep /usr/bin/bzip2recover /usr/bin/bzdiff

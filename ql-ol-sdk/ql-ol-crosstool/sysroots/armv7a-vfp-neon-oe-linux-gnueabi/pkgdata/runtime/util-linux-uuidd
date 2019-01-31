@@ -12,7 +12,7 @@ PKG_util-linux-uuidd: util-linux-uuidd
 FILES_util-linux-uuidd: /usr/sbin/uuidd
 FILERPROVIDESFLIST_util-linux-uuidd: /usr/sbin/uuidd
 FILES_INFO: {"/usr/sbin/uuidd": 20548}
-FILERPROVIDES_/usr/sbin/uuidd_util-linux-uuidd: elf(buildid) (= c42db093e5f3677a7bd5212fbca043fb782c29d9)
+FILERPROVIDES_/usr/sbin/uuidd_util-linux-uuidd: elf(buildid) (= 351df85f0b1a936c500707261cfefccbc5584a3c)
 FILERDEPENDSFLIST_util-linux-uuidd: /usr/sbin/uuidd
 FILERDEPENDS_/usr/sbin/uuidd_util-linux-uuidd: libc.so.6 libc.so.6(GLIBC_2.4) libuuid.so.1 libuuid.so.1(UUIDD_PRIVATE) libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 PKGSIZE_util-linux-uuidd: 20548

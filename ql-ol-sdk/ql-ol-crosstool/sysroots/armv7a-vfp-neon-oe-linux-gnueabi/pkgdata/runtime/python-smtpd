@@ -10,7 +10,7 @@ RDEPENDS_python-smtpd: python-core python-mime python-email python-netserver
 SECTION: devel/python
 PKG_python-smtpd: python-smtpd
 FILES_python-smtpd: /usr/bin/smtpd.* /usr/lib/python2.7/smtpd.* 
-FILES_INFO: {"/usr/lib/python2.7/smtpd.py": 18543, "/usr/lib/python2.7/smtpd.pyc": 15829, "/usr/bin/smtpd.py": 18541}
+FILES_INFO: {"/usr/bin/smtpd.py": 18541, "/usr/lib/python2.7/smtpd.pyc": 15829, "/usr/lib/python2.7/smtpd.py": 18543}
 FILERDEPENDSFLIST_python-smtpd: /usr/bin/smtpd.py /usr/lib/python2.7/smtpd.py
 FILERDEPENDS_/usr/bin/smtpd.py_python-smtpd: /usr/bin/python2.7
 FILERDEPENDS_/usr/lib/python2.7/smtpd.py_python-smtpd: /usr/bin/env

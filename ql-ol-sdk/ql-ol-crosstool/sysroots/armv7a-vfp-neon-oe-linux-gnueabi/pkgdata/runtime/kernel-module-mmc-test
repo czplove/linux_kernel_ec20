@@ -12,5 +12,5 @@ PKG_kernel-module-mmc-test: kernel-module-mmc-test
 FILES_kernel-module-mmc-test: /lib/modules/3.18.20/kernel/drivers/mmc/card/mmc_test.ko /etc/modules-load.d/mmc_test.conf /etc/modprobe.d/mmc_test.conf
 pkg_postinst_kernel-module-mmc-test: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
 pkg_postrm_kernel-module-mmc-test: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
-FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/mmc/card/mmc_test.ko": 34024}
-PKGSIZE_kernel-module-mmc-test: 34024
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/mmc/card/mmc_test.ko": 33932}
+PKGSIZE_kernel-module-mmc-test: 33932

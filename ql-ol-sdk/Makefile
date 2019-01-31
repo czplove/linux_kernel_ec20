@@ -24,7 +24,6 @@ debug_kernel_menuconfig=debug_kernel_menuconfig
 kernel=kernel
 kernel_module=kernel_module
 rootfs=rootfs
-squashrootfs=squashrootfs
 usrdata=usrdata
 extsdk=extsdk
 debug_version=debug_version
@@ -79,7 +78,7 @@ endif
 #$(shell source ql-ol-crosstool/ql-ol-crosstool-env-init)
 $(shell mkdir -p target)
 
-world : $(crosstool) $(kernel) $(kernel_module) $(rootfs) $(usrdata) $(squashrootfs)
+world : $(crosstool) $(kernel) $(kernel_module) $(aboot) $(rootfs) $(usrdata)
 
 $(crosstool):
 ifneq ($(CROSSTOOL_FLAG), 1)
@@ -114,31 +113,20 @@ $(kernel_module):
 
 $(rootfs):
 	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; \
-	fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-rootfs -o mdm9607-perf-sysfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
+	./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-rootfs -o mdm9607-perf-sysfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
 ifeq ($(has_usrfs),true)
-	fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrfs -o mdm9607-usrfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
-	mv mdm9607-usrfs.ubifs target/
+	./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrfs -o mdm9607-usrfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
 endif
 	./ql-ol-extsdk/tools/quectel_ubi/ubinize  -o $(sysfs-ubi-fname) -m $(pagesize) -p $(peb-size) -s $(pagesize) ql-ol-extsdk/tools/quectel_ubi/$(ubicfg-fname)
 	mv mdm9607-perf-*.ubifs $(sysfs-ubi-fname) target/
 
-$(squashrootfs):
-	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; \
-	rm -fr machine-image-mdm9607.squashfs
-	fakeroot mksquashfs ql-ol-rootfs  machine-image-mdm9607.squashfs
-ifeq ($(has_usrfs),true)
-	fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrfs -o mdm9607-usrfs.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F
-	mv mdm9607-usrfs.ubifs target/
-endif
-	mv machine-image-mdm9607.squashfs target/
-
 $(usrdata):
-	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrdata -o usrdata.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
+	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r ql-ol-usrdata -o usrdata.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
 	./ql-ol-extsdk/tools/quectel_ubi/ubinize  -o usrdata.ubi -m $(pagesize) -p $(peb-size) -s $(pagesize) ql-ol-extsdk/tools/quectel_ubi/ubinize_usrdata.cfg ; \
 	mv usrdata.ubifs usrdata.ubi target/
 
 $(customapps):
-	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; fakeroot ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r customapps -o customapps.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
+	cd $(TOPDIR) ; chmod +x ./ql-ol-extsdk/tools/quectel_ubi/* ; ./ql-ol-extsdk/tools/quectel_ubi/mkfs.ubifs -r customapps -o customapps.ubifs -m $(pagesize) -e $(leb-size) -c $(max-leb-cnt) -F ;	\
 	./ql-ol-extsdk/tools/quectel_ubi/ubinize  -o customapps.ubi -m $(pagesize) -p $(peb-size) -s $(pagesize) ql-ol-extsdk/tools/quectel_ubi/ubinize_customapps.cfg ; \
 	mv customapps.ubifs customapps.ubi target/
 

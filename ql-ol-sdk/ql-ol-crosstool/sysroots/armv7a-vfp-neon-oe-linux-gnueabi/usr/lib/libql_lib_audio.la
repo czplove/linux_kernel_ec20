@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L. -L./3rdParty/mp3 -lrt =/usr/lib/libalsa_intf.la =/usr/lib/libacdbloader.la =/usr/lib/libacdbloader.la =/usr/lib/liblog.la =/usr/lib/libacdbrtac.la =/usr/lib/libadiertac.la =/usr/lib/libacdbrtac.la =/usr/lib/libadiertac.la =/usr/lib/libaudcal.la =/usr/lib/libaudcal.la =/usr/lib/libaudioalsa.la =/usr/lib/libacdbmapper.la =/usr/lib/libdiag.la =/usr/lib/libaudioalsa.la =/usr/lib/libacdbmapper.la =/usr/lib/libdiag.la =/usr/lib/libgthread-2.0.la =/usr/lib/libtime_genoff.la =/usr/lib/libtime_genoff.la -lm =/usr/lib/libgthread-2.0.la =/usr/lib/libglib-2.0.la =/usr/lib/libglib-2.0.la -lpthread =/usr/lib/liblog.la -lmad'
+dependency_libs=' -L. -lrt =/usr/lib/libalsa_intf.la =/usr/lib/libacdbloader.la =/usr/lib/libacdbloader.la =/usr/lib/liblog.la =/usr/lib/libacdbrtac.la =/usr/lib/libadiertac.la =/usr/lib/libacdbrtac.la =/usr/lib/libadiertac.la =/usr/lib/libaudcal.la =/usr/lib/libaudcal.la =/usr/lib/libaudioalsa.la =/usr/lib/libacdbmapper.la =/usr/lib/libdiag.la =/usr/lib/libaudioalsa.la =/usr/lib/libacdbmapper.la =/usr/lib/libdiag.la =/usr/lib/libgthread-2.0.la =/usr/lib/libtime_genoff.la =/usr/lib/libtime_genoff.la -lm =/usr/lib/libgthread-2.0.la =/usr/lib/libglib-2.0.la =/usr/lib/libglib-2.0.la -lpthread =/usr/lib/liblog.la'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''

@@ -12,7 +12,7 @@ PKG_pcregrep: pcregrep
 FILES_pcregrep: /usr/bin/pcregrep
 FILERPROVIDESFLIST_pcregrep: /usr/bin/pcregrep
 FILES_INFO: {"/usr/bin/pcregrep": 27960}
-FILERPROVIDES_/usr/bin/pcregrep_pcregrep: elf(buildid) (= d99c9db90792f5e49a86937c26558a0ff13b45e2)
+FILERPROVIDES_/usr/bin/pcregrep_pcregrep: elf(buildid) (= bc34e517d05b39e3fefb57e73ccc0e10b8b1aaa9)
 FILERDEPENDSFLIST_pcregrep: /usr/bin/pcregrep
 FILERDEPENDS_/usr/bin/pcregrep_pcregrep: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
 PKGSIZE_pcregrep: 27960

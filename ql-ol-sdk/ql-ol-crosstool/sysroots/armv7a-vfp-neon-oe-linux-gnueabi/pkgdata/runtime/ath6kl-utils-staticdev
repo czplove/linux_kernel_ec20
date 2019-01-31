@@ -10,5 +10,5 @@ RDEPENDS_ath6kl-utils-staticdev: ath6kl-utils-dev (= git-invalidgit-r2)
 SECTION_ath6kl-utils-staticdev: devel
 PKG_ath6kl-utils-staticdev: ath6kl-utils-staticdev
 FILES_ath6kl-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ath6kl-utils/*.a
-FILES_INFO: {"/usr/lib/libtestcmd6174.a": 88200, "/usr/lib/libtcmd.a": 59280, "/usr/lib/libtlvutil.a": 218192}
-PKGSIZE_ath6kl-utils-staticdev: 365672
+FILES_INFO: {"/usr/lib/libtlvutil.a": 216724, "/usr/lib/libtcmd.a": 58936, "/usr/lib/libtestcmd6174.a": 88112}
+PKGSIZE_ath6kl-utils-staticdev: 363772

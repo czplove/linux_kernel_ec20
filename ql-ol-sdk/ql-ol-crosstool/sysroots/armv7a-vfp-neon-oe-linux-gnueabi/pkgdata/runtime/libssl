@@ -13,7 +13,7 @@ PKG_libssl: libssl1.0.0
 FILES_libssl: /usr/lib/libssl.so.*
 FILERPROVIDESFLIST_libssl: /usr/lib/libssl.so.1.0.0
 FILES_INFO: {"/usr/lib/libssl.so.1.0.0": 312552}
-FILERPROVIDES_/usr/lib/libssl.so.1.0.0_libssl: elf(buildid) (= 66783b303e16bc70e954244a99bb2183478e9cd6) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) libssl.so.1.0.0(OPENSSL_1.0.1d)
+FILERPROVIDES_/usr/lib/libssl.so.1.0.0_libssl: elf(buildid) (= 792c690bc349af2345a2194ea1af4a9607628856) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) libssl.so.1.0.0(OPENSSL_1.0.1d)
 FILERDEPENDSFLIST_libssl: /usr/lib/libssl.so.1.0.0
 FILERDEPENDS_/usr/lib/libssl.so.1.0.0_libssl: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libcrypto.so.1.0.0(OPENSSL_1.0.1) libcrypto.so.1.0.0(OPENSSL_1.0.1d) rtld(GNU_HASH)
 PKGSIZE_libssl: 312552

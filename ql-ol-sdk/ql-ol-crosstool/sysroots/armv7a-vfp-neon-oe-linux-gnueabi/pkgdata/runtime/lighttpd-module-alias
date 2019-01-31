@@ -12,7 +12,7 @@ PKG_lighttpd-module-alias: lighttpd-module-alias
 FILES_lighttpd-module-alias: /usr/lib/mod_alias.so
 FILERPROVIDESFLIST_lighttpd-module-alias: /usr/lib/mod@underscore@alias.so
 FILES_INFO: {"/usr/lib/mod_alias.so": 6096}
-FILERPROVIDES_/usr/lib/mod@underscore@alias.so_lighttpd-module-alias: elf(buildid) (= 7bf0cded2dc98e7248e609555181545be53794fc) mod_alias.so
+FILERPROVIDES_/usr/lib/mod@underscore@alias.so_lighttpd-module-alias: elf(buildid) (= e65413bf7d7dc985fabb62543dbaf7f3d62fd33e) mod_alias.so
 FILERDEPENDSFLIST_lighttpd-module-alias: /usr/lib/mod@underscore@alias.so
 FILERDEPENDS_/usr/lib/mod@underscore@alias.so_lighttpd-module-alias: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_lighttpd-module-alias: 6096

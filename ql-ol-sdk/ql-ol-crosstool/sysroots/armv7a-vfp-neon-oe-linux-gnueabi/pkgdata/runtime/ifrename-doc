@@ -11,5 +11,5 @@ SUMMARY: Tools for the Linux Standard Wireless Extension Subsystem
 SECTION: base
 PKG_ifrename-doc: ifrename-doc
 FILES_ifrename-doc: /usr/share/man/man8/ifrename.8 /usr/share/man/man5/iftab.5
-FILES_INFO: {"/usr/share/man/man5/iftab.5": 9235, "/usr/share/man/man8/ifrename.8": 5302}
+FILES_INFO: {"/usr/share/man/man8/ifrename.8": 5302, "/usr/share/man/man5/iftab.5": 9235}
 PKGSIZE_ifrename-doc: 14537

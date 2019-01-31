@@ -12,5 +12,5 @@ SECTION_audcal-dbg: devel
 PKG_audcal-dbg: libaudcal-dbg
 ALLOW_EMPTY_audcal-dbg: 1
 FILES_audcal-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/audcal/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/audcal/.debug /usr/lib/matchbox-panel/.debug /usr/lib/audcal/audcal/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libaudcal.so.1.0.0": 373695}
-PKGSIZE_audcal-dbg: 373695
+FILES_INFO: {"/usr/lib/.debug/libaudcal.so.1.0.0": 372923}
+PKGSIZE_audcal-dbg: 372923

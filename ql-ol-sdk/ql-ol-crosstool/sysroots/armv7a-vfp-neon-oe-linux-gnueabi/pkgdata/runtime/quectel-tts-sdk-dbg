@@ -11,5 +11,5 @@ SECTION_quectel-tts-sdk-dbg: devel
 PKG_quectel-tts-sdk-dbg: quectel-tts-sdk-dbg
 ALLOW_EMPTY_quectel-tts-sdk-dbg: 1
 FILES_quectel-tts-sdk-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-tts-sdk/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-tts-sdk/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-tts-sdk/quectel-tts-sdk/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel_tts_demo": 33288, "/usr/lib/.debug/libql_tts_eng.so.1": 132603, "/usr/lib/.debug/libql_tts_ch.so.1": 132607, "/usr/bin/.debug/quectel_tts_service": 23457}
-PKGSIZE_quectel-tts-sdk-dbg: 321955
+FILES_INFO: {"/usr/bin/.debug/quectel_tts_demo": 33056, "/usr/lib/.debug/libql_tts_eng.so.1": 132239, "/usr/lib/.debug/libql_tts_ch.so.1": 132243, "/usr/bin/.debug/quectel_tts_service": 23277}
+PKGSIZE_quectel-tts-sdk-dbg: 320815

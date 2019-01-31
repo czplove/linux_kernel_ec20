@@ -12,5 +12,5 @@ RRECOMMENDS_libiw-dbg: glibc-dbg
 SECTION: base
 PKG_libiw-dbg: libiw-dbg
 FILES_libiw-dbg: /usr/lib/.debug/*.so.*
-FILES_INFO: {"/usr/lib/.debug/libiw.so.30": 10039}
-PKGSIZE_libiw-dbg: 10039
+FILES_INFO: {"/usr/lib/.debug/libiw.so.30": 9927}
+PKGSIZE_libiw-dbg: 9927

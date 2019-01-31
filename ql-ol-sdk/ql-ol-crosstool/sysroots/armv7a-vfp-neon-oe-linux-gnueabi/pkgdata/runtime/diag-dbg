@@ -11,5 +11,5 @@ SECTION_diag-dbg: devel
 PKG_diag-dbg: diag-dbg
 ALLOW_EMPTY_diag-dbg: 1
 FILES_diag-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/diag/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/diag/.debug /usr/lib/matchbox-panel/.debug /usr/lib/diag/diag/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/diag_klog": 5730, "/usr/bin/.debug/test_diag": 10049, "/usr/bin/.debug/diag_mdlog": 7450, "/usr/bin/.debug/diag_socket_log": 7126, "/usr/bin/.debug/diag_callback_sample": 5434, "/usr/bin/.debug/diag_uart_log": 6672, "/usr/lib/.debug/libdiag.so.1.0.0": 34394, "/usr/bin/.debug/PktRspTest": 5492, "/usr/bin/.debug/diag_dci_sample": 6122}
-PKGSIZE_diag-dbg: 88469
+FILES_INFO: {"/usr/bin/.debug/diag_klog": 5694, "/usr/bin/.debug/test_diag": 9901, "/usr/bin/.debug/diag_mdlog": 7414, "/usr/bin/.debug/diag_socket_log": 7090, "/usr/bin/.debug/diag_callback_sample": 5398, "/usr/bin/.debug/PktRspTest": 5456, "/usr/lib/.debug/libdiag.so.1.0.0": 34174, "/usr/bin/.debug/diag_uart_log": 6636, "/usr/bin/.debug/diag_dci_sample": 6086}
+PKGSIZE_diag-dbg: 87849

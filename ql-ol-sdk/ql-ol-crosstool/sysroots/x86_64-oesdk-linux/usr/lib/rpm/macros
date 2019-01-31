@@ -1,4 +1,4 @@
-#/*! \page config_macros Default configuration: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/macros
+#/*! \page config_macros Default configuration: /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm/macros
 # \verbatim
 #
 # $Id: macros.in,v 1.39.2.36 2012/05/30 19:17:04 jbj Exp $
@@ -31,7 +31,7 @@
 %_usrsrc		%{_usr}/src
 %_var			%{_usr}/../var
 # The dynamic relocation code sets the following two items
-#%_usrlibrpm		/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm
+#%_usrlibrpm		/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/lib/rpm
 #%_etcrpm		/etc/rpm
 
 %__objext		o
@@ -908,7 +908,7 @@ $_arbitrary_tags_tests	Foo:Bar
 # ---- configure macros.
 #	Macro(s) slavishly copied from autoconf's config.status.
 #
-%_prefix		/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr
+%_prefix		/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr
 %_exec_prefix		%{_prefix}
 %_datarootdir		%{_prefix}/share
 %_bindir		%{_exec_prefix}/bin

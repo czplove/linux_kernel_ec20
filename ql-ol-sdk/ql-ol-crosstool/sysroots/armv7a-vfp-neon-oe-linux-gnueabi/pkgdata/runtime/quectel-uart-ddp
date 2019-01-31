@@ -16,9 +16,8 @@ pkg_postrm_quectel-uart-ddp: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/nu
 pkg_preinst_quectel-uart-ddp: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel-uart-ddp" ]; then\n\t/etc/init.d/quectel-uart-ddp stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel-uart-ddp remove\nfi\n
 pkg_prerm_quectel-uart-ddp: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel-uart-ddp stop\nfi\n
 FILERPROVIDESFLIST_quectel-uart-ddp: /usr/bin/quectel-uart-ddp
-FILES_INFO: {"/usr/bin/quectel-uart-ddp": 20372, "/etc/init.d/quectel-uart-ddp": 952}
-FILERPROVIDES_/usr/bin/quectel-uart-ddp_quectel-uart-ddp: elf(buildid) (= 752a5a3cade6df47aae1c8814032cee3e1260854)
-FILERDEPENDSFLIST_quectel-uart-ddp: /etc/init.d/quectel-uart-ddp /usr/bin/quectel-uart-ddp
-FILERDEPENDS_/etc/init.d/quectel-uart-ddp_quectel-uart-ddp: /bin/sh
+FILES_INFO: {"/usr/bin/quectel-uart-ddp": 20376, "/etc/init.d/quectel-uart-ddp": 944}
+FILERPROVIDES_/usr/bin/quectel-uart-ddp_quectel-uart-ddp: elf(buildid) (= 9bedd156b3edb7a9abe6aad21f747c1d70d87149)
+FILERDEPENDSFLIST_quectel-uart-ddp: /usr/bin/quectel-uart-ddp
 FILERDEPENDS_/usr/bin/quectel-uart-ddp_quectel-uart-ddp: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_quectel-uart-ddp: 21324
+PKGSIZE_quectel-uart-ddp: 21320

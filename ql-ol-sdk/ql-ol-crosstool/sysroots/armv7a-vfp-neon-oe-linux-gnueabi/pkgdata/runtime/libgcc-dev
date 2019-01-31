@@ -13,5 +13,5 @@ SECTION_libgcc-dev: devel
 PKG_libgcc-dev: libgcc-s-dev
 ALLOW_EMPTY_libgcc-dev: 1
 FILES_libgcc-dev:     /lib/libgcc*.so     /usr/lib/arm-oe-linux-gnueabi/4.9.2/*crt*     /usr/lib/arm-oe-linux-gnueabi/4.9.2/64     /usr/lib/arm-oe-linux-gnueabi/4.9.2/32     /usr/lib/arm-oe-linux-gnueabi/4.9.2/x32     /usr/lib/arm-oe-linux-gnueabi/4.9.2/n32     /usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcc*     /usr/lib/arm-oe-linux 
-FILES_INFO: {"/lib/libgcc_s.so": 132, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbeginT.o": 2484, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtendS.o": 1077, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o": 1077, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbeginS.o": 2596, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o": 2156, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcc.a": 6284334, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcc_eh.a": 76724}
-PKGSIZE_libgcc-dev: 6370580
+FILES_INFO: {"/lib/libgcc_s.so": 132, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbeginT.o": 2484, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtendS.o": 1077, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtend.o": 1077, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbeginS.o": 2596, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/crtbegin.o": 2156, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcc.a": 6201838, "/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcc_eh.a": 76308}
+PKGSIZE_libgcc-dev: 6287668

@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-access: lighttpd-module-access
 FILES_lighttpd-module-access: /usr/lib/mod_access.so
 FILERPROVIDESFLIST_lighttpd-module-access: /usr/lib/mod@underscore@access.so
-FILES_INFO: {"/usr/lib/mod_access.so": 5420}
-FILERPROVIDES_/usr/lib/mod@underscore@access.so_lighttpd-module-access: elf(buildid) (= b7f8d1990fedc4ea544ce57b9ff9c2247c6395d0) mod_access.so
+FILES_INFO: {"/usr/lib/mod_access.so": 5400}
+FILERPROVIDES_/usr/lib/mod@underscore@access.so_lighttpd-module-access: elf(buildid) (= 913c3420e0251bef91572c512866fb3f4f87fa76) mod_access.so
 FILERDEPENDSFLIST_lighttpd-module-access: /usr/lib/mod@underscore@access.so
 FILERDEPENDS_/usr/lib/mod@underscore@access.so_lighttpd-module-access: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-access: 5420
+PKGSIZE_lighttpd-module-access: 5400

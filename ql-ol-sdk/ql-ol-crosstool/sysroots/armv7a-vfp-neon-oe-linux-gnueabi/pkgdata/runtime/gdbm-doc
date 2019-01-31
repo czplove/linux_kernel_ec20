@@ -10,5 +10,5 @@ RPROVIDES_gdbm-doc:  gdbm-doc
 SECTION_gdbm-doc: doc
 PKG_gdbm-doc: libgdbm-doc
 FILES_gdbm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILES_INFO: {"/usr/share/man/man1/gdbm_load.1": 3323, "/usr/share/man/man3/gdbm.3": 16306, "/usr/share/info/gdbm.info": 122920, "/usr/share/man/man1/gdbmtool.1": 12757, "/usr/share/man/man1/gdbm_dump.1": 2849}
+FILES_INFO: {"/usr/share/man/man3/gdbm.3": 16306, "/usr/share/man/man1/gdbm_load.1": 3323, "/usr/share/man/man1/gdbmtool.1": 12757, "/usr/share/info/gdbm.info": 122920, "/usr/share/man/man1/gdbm_dump.1": 2849}
 PKGSIZE_gdbm-doc: 158155

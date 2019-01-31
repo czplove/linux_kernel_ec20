@@ -40,7 +40,7 @@ enum debug_level {
  * the macro to set debug level, you should call it 
  * once in the files you need use debug system
  */
-#define DEBUG_SET_LEVEL(x)  static int debug = 4
+#define DEBUG_SET_LEVEL(x)  static int debug = x
 
 #define ASSERT()                                        \
 do {                                                    \

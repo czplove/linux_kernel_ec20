@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-dirlisting: lighttpd-module-dirlisting
 FILES_lighttpd-module-dirlisting: /usr/lib/mod_dirlisting.so
 FILERPROVIDESFLIST_lighttpd-module-dirlisting: /usr/lib/mod@underscore@dirlisting.so
-FILES_INFO: {"/usr/lib/mod_dirlisting.so": 15920}
-FILERPROVIDES_/usr/lib/mod@underscore@dirlisting.so_lighttpd-module-dirlisting: elf(buildid) (= f757ef74a0e854d7af7d084021eeae741ce2f1af) mod_dirlisting.so
+FILES_INFO: {"/usr/lib/mod_dirlisting.so": 15900}
+FILERPROVIDES_/usr/lib/mod@underscore@dirlisting.so_lighttpd-module-dirlisting: elf(buildid) (= ede68774a623602c71b130dcc910d67e39b5633f) mod_dirlisting.so
 FILERDEPENDSFLIST_lighttpd-module-dirlisting: /usr/lib/mod@underscore@dirlisting.so
 FILERDEPENDS_/usr/lib/mod@underscore@dirlisting.so_lighttpd-module-dirlisting: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-dirlisting: 15920
+PKGSIZE_lighttpd-module-dirlisting: 15900

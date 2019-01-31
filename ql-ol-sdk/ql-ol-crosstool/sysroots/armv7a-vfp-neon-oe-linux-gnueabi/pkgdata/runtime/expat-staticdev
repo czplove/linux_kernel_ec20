@@ -11,5 +11,5 @@ RPROVIDES_expat-staticdev:  expat-staticdev
 SECTION_expat-staticdev: devel
 PKG_expat-staticdev: libexpat-staticdev
 FILES_expat-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/expat/*.a
-FILES_INFO: {"/usr/lib/libexpat.a": 206336}
-PKGSIZE_expat-staticdev: 206336
+FILES_INFO: {"/usr/lib/libexpat.a": 206320}
+PKGSIZE_expat-staticdev: 206320

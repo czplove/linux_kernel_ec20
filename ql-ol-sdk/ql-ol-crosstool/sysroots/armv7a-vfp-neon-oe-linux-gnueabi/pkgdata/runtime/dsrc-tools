@@ -12,10 +12,10 @@ PKG_dsrc-tools: dsrc-tools
 FILES_dsrc-tools: /usr/bin/* /usr/sbin/* /usr/lib/dsrc-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dsrc-tools /usr/lib/dsrc-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_dsrc-tools: /usr/bin/dsrc@underscore@set@underscore@chan /usr/bin/dsrc@underscore@config /usr/bin/dsrc@underscore@tx /usr/bin/dsrc@underscore@rx
 FILES_INFO: {"/usr/bin/dsrc_tx": 18504, "/usr/bin/dcc.dat": 9572, "/usr/bin/dsrc_set_chan": 14376, "/usr/bin/dsrc_config": 34996, "/usr/bin/dsrc_rx": 18488}
-FILERPROVIDES_/usr/bin/dsrc@underscore@set@underscore@chan_dsrc-tools: elf(buildid) (= ee21b9ebb21ec32c3726dada043918862eafe70f)
-FILERPROVIDES_/usr/bin/dsrc@underscore@config_dsrc-tools: elf(buildid) (= 075cbb8962ef4ec00c7076472f3e208ee7057344)
-FILERPROVIDES_/usr/bin/dsrc@underscore@tx_dsrc-tools: elf(buildid) (= dd98d4e8b7089a0b9893a06de8b1b576ea4267aa)
-FILERPROVIDES_/usr/bin/dsrc@underscore@rx_dsrc-tools: elf(buildid) (= b004cf39f139de9dd27f6146ee0821bf88b2ff0d)
+FILERPROVIDES_/usr/bin/dsrc@underscore@set@underscore@chan_dsrc-tools: elf(buildid) (= d0f8690797dbed98c8858b287c319e7bfe40e433)
+FILERPROVIDES_/usr/bin/dsrc@underscore@config_dsrc-tools: elf(buildid) (= 4a6f7c2cc42ae9b70bc97d698f5cc13e90d3bf85)
+FILERPROVIDES_/usr/bin/dsrc@underscore@tx_dsrc-tools: elf(buildid) (= 402acd916a72874ce44b29a7c0e83b955f39ed07)
+FILERPROVIDES_/usr/bin/dsrc@underscore@rx_dsrc-tools: elf(buildid) (= bd410c6bb49e1ca5e8b16f4e608ee1cd7104528f)
 FILERDEPENDSFLIST_dsrc-tools: /usr/bin/dsrc@underscore@set@underscore@chan /usr/bin/dsrc@underscore@config /usr/bin/dsrc@underscore@tx /usr/bin/dsrc@underscore@rx
 FILERDEPENDS_/usr/bin/dsrc@underscore@set@underscore@chan_dsrc-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnl-3.so.200 libnl-genl-3.so.200 rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/dsrc@underscore@config_dsrc-tools: libc.so.6 libc.so.6(GLIBC_2.4) libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) rtld(GNU_HASH)

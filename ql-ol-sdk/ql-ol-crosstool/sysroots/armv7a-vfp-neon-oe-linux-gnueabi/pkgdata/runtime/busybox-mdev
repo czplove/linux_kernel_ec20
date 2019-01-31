@@ -13,11 +13,11 @@ pkg_postinst_busybox-mdev: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null
 pkg_postrm_busybox-mdev: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT mdev remove\nfi\n
 pkg_preinst_busybox-mdev: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/mdev" ]; then\n\t/etc/init.d/mdev stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT mdev remove\nfi\n
 pkg_prerm_busybox-mdev: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/mdev stop\nfi\n
-FILES_INFO: {"/etc/mdev/find-touchscreen.sh": 342, "/etc/mdev/usb.sh": 821, "/etc/mdev/automountsdcard.sh": 1840, "/etc/mdev.conf": 791, "/etc/mdev/mdev-mount.sh": 1379, "/etc/init.d/mdev": 386}
+FILES_INFO: {"/etc/mdev/find-touchscreen.sh": 342, "/etc/mdev/usb.sh": 821, "/etc/mdev/automountsdcard.sh": 1814, "/etc/mdev.conf": 791, "/etc/mdev/mdev-mount.sh": 1379, "/etc/init.d/mdev": 386}
 FILERDEPENDSFLIST_busybox-mdev: /etc/mdev/usb.sh /etc/init.d/mdev /etc/mdev/mdev-mount.sh /etc/mdev/find-touchscreen.sh /etc/mdev/automountsdcard.sh
 FILERDEPENDS_/etc/mdev/usb.sh_busybox-mdev: /bin/sh
 FILERDEPENDS_/etc/init.d/mdev_busybox-mdev: /bin/sh
 FILERDEPENDS_/etc/mdev/mdev-mount.sh_busybox-mdev: /bin/sh
 FILERDEPENDS_/etc/mdev/find-touchscreen.sh_busybox-mdev: /bin/sh
 FILERDEPENDS_/etc/mdev/automountsdcard.sh_busybox-mdev: /bin/sh
-PKGSIZE_busybox-mdev: 5559
+PKGSIZE_busybox-mdev: 5533

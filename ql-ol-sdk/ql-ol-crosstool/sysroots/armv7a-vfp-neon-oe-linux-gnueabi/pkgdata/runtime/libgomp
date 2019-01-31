@@ -13,7 +13,7 @@ PKG_libgomp: libgomp1
 FILES_libgomp: /usr/lib/libgomp*.so.*
 FILERPROVIDESFLIST_libgomp: /usr/lib/libgomp.so.1.0.0
 FILES_INFO: {"/usr/lib/libgomp.so.1": 81396}
-FILERPROVIDES_/usr/lib/libgomp.so.1.0.0_libgomp: elf(buildid) (= 0edbc35388c8755d0fea6dac064356f6453b077b) libgomp.so.1 libgomp.so.1(GOMP_1.0) libgomp.so.1(GOMP_2.0) libgomp.so.1(GOMP_3.0) libgomp.so.1(GOMP_4.0) libgomp.so.1(OMP_1.0) libgomp.so.1(OMP_2.0) libgomp.so.1(OMP_3.0) libgomp.so.1(OMP_3.1) libgomp.so.1(OMP_4.0)
+FILERPROVIDES_/usr/lib/libgomp.so.1.0.0_libgomp: elf(buildid) (= 336390785cb41e61f904e7f26521c7d24d64d655) libgomp.so.1 libgomp.so.1(GOMP_1.0) libgomp.so.1(GOMP_2.0) libgomp.so.1(GOMP_3.0) libgomp.so.1(GOMP_4.0) libgomp.so.1(OMP_1.0) libgomp.so.1(OMP_2.0) libgomp.so.1(OMP_3.0) libgomp.so.1(OMP_3.1) libgomp.so.1(OMP_4.0)
 FILERDEPENDSFLIST_libgomp: /usr/lib/libgomp.so.1.0.0
 FILERDEPENDS_/usr/lib/libgomp.so.1.0.0_libgomp: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_libgomp: 81396

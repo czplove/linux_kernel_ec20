@@ -11,5 +11,5 @@ SECTION_libxml2-dbg: devel
 PKG_libxml2-dbg: libxml2-dbg
 ALLOW_EMPTY_libxml2-dbg: 1
 FILES_libxml2-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libxml2/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libxml2/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libxml2/libxml2/.debug /usr/src/debug /usr/lib/python2.7/site-packages/.debug
-FILES_INFO: {"/usr/bin/.debug/xmlcatalog": 6476, "/usr/lib/.debug/libxml2.so.2.9.2": 246220, "/usr/bin/.debug/xmllint": 15065}
-PKGSIZE_libxml2-dbg: 267761
+FILES_INFO: {"/usr/bin/.debug/xmlcatalog": 6440, "/usr/lib/.debug/libxml2.so.2.9.2": 246052, "/usr/bin/.debug/xmllint": 15029}
+PKGSIZE_libxml2-dbg: 267521

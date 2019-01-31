@@ -11,5 +11,5 @@ SECTION_quectel-uart-ddp-dbg: devel
 PKG_quectel-uart-ddp-dbg: quectel-uart-ddp-dbg
 ALLOW_EMPTY_quectel-uart-ddp-dbg: 1
 FILES_quectel-uart-ddp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-uart-ddp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-uart-ddp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-uart-ddp/quectel-uart-ddp/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel-uart-ddp": 35033}
-PKGSIZE_quectel-uart-ddp-dbg: 35033
+FILES_INFO: {"/usr/bin/.debug/quectel-uart-ddp": 34939}
+PKGSIZE_quectel-uart-ddp-dbg: 34939

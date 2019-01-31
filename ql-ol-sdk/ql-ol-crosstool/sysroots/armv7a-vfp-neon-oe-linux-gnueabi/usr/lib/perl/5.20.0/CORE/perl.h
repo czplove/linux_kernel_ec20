@@ -3228,7 +3228,7 @@ typedef I32 (*filter_t) (pTHX_ int, SV *, int);
 #if defined(USE_REENTRANT) || defined(_REENTRANT) || defined(_THREAD_SAFE)
 /* We cannot include <crypt.h> to get the struct crypt_data
  * because of setkey prototype problems when threading */
-typedef        struct crypt_data {     /* straight from /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/include/crypt.h */
+typedef        struct crypt_data {     /* straight from /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/include/crypt.h */
     /* From OSF, Not needed in AIX
        char C[28], D[28];
     */

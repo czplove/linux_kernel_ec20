@@ -11,5 +11,5 @@ SECTION_quectel-smd-atcmd-dbg: devel
 PKG_quectel-smd-atcmd-dbg: quectel-smd-atcmd-dbg
 ALLOW_EMPTY_quectel-smd-atcmd-dbg: 1
 FILES_quectel-smd-atcmd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-smd-atcmd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-smd-atcmd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-smd-atcmd/quectel-smd-atcmd/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel-smd-atcmd": 20844}
-PKGSIZE_quectel-smd-atcmd-dbg: 20844
+FILES_INFO: {"/usr/bin/.debug/quectel-smd-atcmd": 20716}
+PKGSIZE_quectel-smd-atcmd-dbg: 20716

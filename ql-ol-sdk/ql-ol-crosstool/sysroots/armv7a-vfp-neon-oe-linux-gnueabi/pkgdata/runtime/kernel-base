@@ -12,5 +12,5 @@ PKG_kernel-base: kernel-3.18.20
 ALLOW_EMPTY_kernel-base: 1
 FILES_kernel-base: /lib/modules/3.18.20/modules.order /lib/modules/3.18.20/modules.builtin
 pkg_postinst_kernel-base: \tif [ ! -e "$D/lib/modules/3.18.20" ]; then\n\t\tmkdir -p $D/lib/modules/3.18.20\n\tfi\n\tif [ -n "$D" ]; then\n\t\tdepmodwrapper -a -b $D 3.18.20\n\telse\n\t\tdepmod -a 3.18.20\n\tfi\n
-FILES_INFO: {"/lib/modules/3.18.20/modules.order": 802, "/lib/modules/3.18.20/modules.builtin": 13127}
-PKGSIZE_kernel-base: 13929
+FILES_INFO: {"/lib/modules/3.18.20/modules.order": 712, "/lib/modules/3.18.20/modules.builtin": 13127}
+PKGSIZE_kernel-base: 13839

@@ -12,10 +12,10 @@ SECTION: console/utils
 PKG_pkgconfig: pkgconfig
 FILES_pkgconfig: /usr/bin/* /usr/sbin/* /usr/lib/pkgconfig/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pkgconfig /usr/lib/pkgconfig/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/aclocal/pkg.m4
 FILERPROVIDESFLIST_pkgconfig: /usr/bin/arm-oe-linux-gnueabi-pkg-config /usr/bin/pkg-config
-FILES_INFO: {"/usr/share/aclocal/pkg.m4": 7799, "/usr/bin/arm-oe-linux-gnueabi-pkg-config": 34244, "/usr/bin/pkg-config": 42825}
-FILERPROVIDES_/usr/bin/arm-oe-linux-gnueabi-pkg-config_pkgconfig: elf(buildid) (= 94b867d13361e6a12a3b106cf07dad0216a6e28a)
-FILERPROVIDES_/usr/bin/pkg-config_pkgconfig: elf(buildid) (= 94b867d13361e6a12a3b106cf07dad0216a6e28a)
+FILES_INFO: {"/usr/bin/arm-oe-linux-gnueabi-pkg-config": 42729, "/usr/share/aclocal/pkg.m4": 7799, "/usr/bin/pkg-config": 34184}
+FILERPROVIDES_/usr/bin/arm-oe-linux-gnueabi-pkg-config_pkgconfig: elf(buildid) (= 41d6f26cca6bb0a4c9768d6ee4f9feb34967d19f)
+FILERPROVIDES_/usr/bin/pkg-config_pkgconfig: elf(buildid) (= 41d6f26cca6bb0a4c9768d6ee4f9feb34967d19f)
 FILERDEPENDSFLIST_pkgconfig: /usr/bin/arm-oe-linux-gnueabi-pkg-config /usr/bin/pkg-config
 FILERDEPENDS_/usr/bin/arm-oe-linux-gnueabi-pkg-config_pkgconfig: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/pkg-config_pkgconfig: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_pkgconfig: 84868
+PKGSIZE_pkgconfig: 84712

@@ -11,5 +11,5 @@ SECTION_atfwd-daemon-dbg: devel
 PKG_atfwd-daemon-dbg: atfwd-daemon-dbg
 ALLOW_EMPTY_atfwd-daemon-dbg: 1
 FILES_atfwd-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/atfwd-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/atfwd-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/atfwd-daemon/atfwd-daemon/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/wget": 68477, "/usr/bin/.debug/atfwd_daemon": 756666}
-PKGSIZE_atfwd-daemon-dbg: 825143
+FILES_INFO: {"/usr/lib/.debug/libmad.so.0": 12662, "/usr/bin/.debug/wget": 68477, "/usr/bin/.debug/atfwd_daemon": 720901}
+PKGSIZE_atfwd-daemon-dbg: 802040

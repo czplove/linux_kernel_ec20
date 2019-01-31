@@ -1,2 +1,3 @@
 libql_peripheral.so.0:/usr/lib:git-invalidgit
 libql_common_api.so.0:/usr/lib:git-invalidgit
+libql_at.so.1:/usr/lib:git-invalidgit

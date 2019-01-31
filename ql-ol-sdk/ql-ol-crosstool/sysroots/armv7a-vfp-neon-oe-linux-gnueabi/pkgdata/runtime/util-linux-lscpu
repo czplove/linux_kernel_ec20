@@ -12,7 +12,7 @@ PKG_util-linux-lscpu: util-linux-lscpu
 FILES_util-linux-lscpu: /usr/bin/lscpu
 FILERPROVIDESFLIST_util-linux-lscpu: /usr/bin/lscpu
 FILES_INFO: {"/usr/bin/lscpu": 38372}
-FILERPROVIDES_/usr/bin/lscpu_util-linux-lscpu: elf(buildid) (= eac23bbd1438e38bb1b8cf1caecda1a92f1f3428)
+FILERPROVIDES_/usr/bin/lscpu_util-linux-lscpu: elf(buildid) (= d4a7d96ca1e6cd41d6eed113affde3310a8b7255)
 FILERDEPENDSFLIST_util-linux-lscpu: /usr/bin/lscpu
 FILERDEPENDS_/usr/bin/lscpu_util-linux-lscpu: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libc.so.6(GLIBC_2.7) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) rtld(GNU_HASH)
 PKGSIZE_util-linux-lscpu: 38372

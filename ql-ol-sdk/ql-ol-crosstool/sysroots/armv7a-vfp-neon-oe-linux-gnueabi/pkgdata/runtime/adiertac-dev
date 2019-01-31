@@ -13,5 +13,5 @@ SECTION_adiertac-dev: devel
 PKG_adiertac-dev: libadiertac-dev
 ALLOW_EMPTY_adiertac-dev: 1
 FILES_adiertac-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/adiertac/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/pkgconfig/adiertac.pc": 192, "/usr/include/adiertac/adie-rtac.h": 1017, "/usr/lib/libadiertac.so": 20, "/usr/lib/libadiertac.la": 1277}
+FILES_INFO: {"/usr/lib/libadiertac.la": 1277, "/usr/lib/libadiertac.so": 20, "/usr/include/adiertac/adie-rtac.h": 1017, "/usr/lib/pkgconfig/adiertac.pc": 192}
 PKGSIZE_adiertac-dev: 2506

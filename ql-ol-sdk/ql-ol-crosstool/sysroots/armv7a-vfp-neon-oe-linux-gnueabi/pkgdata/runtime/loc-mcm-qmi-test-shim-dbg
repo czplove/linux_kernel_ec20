@@ -7,7 +7,7 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_loc-mcm-qmi-test-shim-dbg: MCM Location Type Conversion Library  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_loc-mcm-qmi-test-shim-dbg: loc-mcm-qmi-test-shim version git-invalidgit-r4 - Debugging files
 RPROVIDES_loc-mcm-qmi-test-shim-dbg:  loc-mcm-qmi-test-shim-dbg
-RRECOMMENDS_loc-mcm-qmi-test-shim-dbg: mcm-core-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg loc-pla-dbg loc-mcm-type-conv-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg ql-syslog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+RRECOMMENDS_loc-mcm-qmi-test-shim-dbg: mcm-core-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg loc-pla-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg loc-mcm-type-conv-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
 SECTION_loc-mcm-qmi-test-shim-dbg: devel
 PKG_loc-mcm-qmi-test-shim-dbg: libloc-mcm-qmi-test-shim-dbg
 ALLOW_EMPTY_loc-mcm-qmi-test-shim-dbg: 1

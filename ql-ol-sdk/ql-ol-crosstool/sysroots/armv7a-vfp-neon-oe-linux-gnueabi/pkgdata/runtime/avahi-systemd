@@ -12,5 +12,5 @@ PKG_avahi-systemd: avahi-systemd
 FILES_avahi-systemd: /lib/systemd
 pkg_postinst_avahi-systemd: \tif [ "x$D" != "x" ]; then\n\t\texit 0\n\tfi\n\n\tsystemctl enable avahi-daemon.service\n
 pkg_postrm_avahi-systemd: \t# can\'t do this offline\n\tif [ "x$D" != "x" ]; then\n\t\texit 0\n\tfi\n\n\tsystemctl disable avahi-daemon.service\n
-FILES_INFO: {"/lib/systemd/system/avahi-daemon.service": 1044, "/lib/systemd/system/avahi-dnsconfd.service": 976, "/lib/systemd/system/avahi-daemon.socket": 874}
+FILES_INFO: {"/lib/systemd/system/avahi-daemon.service": 1044, "/lib/systemd/system/avahi-daemon.socket": 874, "/lib/systemd/system/avahi-dnsconfd.service": 976}
 PKGSIZE_avahi-systemd: 2894

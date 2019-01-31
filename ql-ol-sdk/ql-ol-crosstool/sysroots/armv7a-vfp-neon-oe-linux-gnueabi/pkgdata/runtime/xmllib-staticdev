@@ -11,5 +11,5 @@ RPROVIDES_xmllib-staticdev:  xmllib-staticdev
 SECTION_xmllib-staticdev: devel
 PKG_xmllib-staticdev: libxml-staticdev
 FILES_xmllib-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/xmllib/*.a
-FILES_INFO: {"/usr/lib/libxml.a": 175070}
-PKGSIZE_xmllib-staticdev: 175070
+FILES_INFO: {"/usr/lib/libxml.a": 174674}
+PKGSIZE_xmllib-staticdev: 174674

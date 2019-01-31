@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-compress: lighttpd-module-compress
 FILES_lighttpd-module-compress: /usr/lib/mod_compress.so
 FILERPROVIDESFLIST_lighttpd-module-compress: /usr/lib/mod@underscore@compress.so
-FILES_INFO: {"/usr/lib/mod_compress.so": 15164}
-FILERPROVIDES_/usr/lib/mod@underscore@compress.so_lighttpd-module-compress: elf(buildid) (= 19606fed60b6c80bf1ba0e49b987b4f1b6f6a43d) mod_compress.so
+FILES_INFO: {"/usr/lib/mod_compress.so": 15148}
+FILERPROVIDES_/usr/lib/mod@underscore@compress.so_lighttpd-module-compress: elf(buildid) (= 53aefbbebefe7b8aad241f18561f22d286900f2d) mod_compress.so
 FILERDEPENDSFLIST_lighttpd-module-compress: /usr/lib/mod@underscore@compress.so
 FILERDEPENDS_/usr/lib/mod@underscore@compress.so_lighttpd-module-compress: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-compress: 15164
+PKGSIZE_lighttpd-module-compress: 15148

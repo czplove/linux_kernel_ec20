@@ -12,7 +12,7 @@ PKG_python-syslog: python-syslog
 FILES_python-syslog: /usr/lib/python2.7/lib-dynload/syslog.so 
 FILERPROVIDESFLIST_python-syslog: /usr/lib/python2.7/lib-dynload/syslog.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/syslog.so": 7440}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/syslog.so_python-syslog: elf(buildid) (= c0e189f384a524012c9905904ab0d8db7d083f4e) syslog.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/syslog.so_python-syslog: elf(buildid) (= 9b551699e59248f503fb8dfb5f63a83b108399d5) syslog.so
 FILERDEPENDSFLIST_python-syslog: /usr/lib/python2.7/lib-dynload/syslog.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/syslog.so_python-syslog: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
 PKGSIZE_python-syslog: 7440

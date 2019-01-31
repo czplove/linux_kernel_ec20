@@ -6,13 +6,13 @@ PKGR: r4
 LICENSE: BSD
 DESCRIPTION: Rebooter daemon
 SUMMARY: reboot-daemon version 1.0-r4
-RDEPENDS_reboot-daemon: glibc (>= 2.21) ql-syslog (>= git-invalidgit)
+RDEPENDS_reboot-daemon: glibc (>= 2.21)
 SECTION: base
 PKG_reboot-daemon: reboot-daemon
 FILES_reboot-daemon: /usr/bin/* /usr/sbin/* /usr/lib/reboot-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/reboot-daemon /usr/lib/reboot-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_reboot-daemon: /sbin/reboot-daemon
-FILES_INFO: {"/sbin/reboot-daemon": 4832}
-FILERPROVIDES_/sbin/reboot-daemon_reboot-daemon: elf(buildid) (= c9041da28cc20e5c54ebcc123d26af4247b3f2ba)
+FILES_INFO: {"/sbin/reboot-daemon": 4264}
+FILERPROVIDES_/sbin/reboot-daemon_reboot-daemon: elf(buildid) (= 590d7ba1f019ceed638dbb7593829d5f30f979d4)
 FILERDEPENDSFLIST_reboot-daemon: /sbin/reboot-daemon
-FILERDEPENDS_/sbin/reboot-daemon_reboot-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libql_sys_log.so.1 rtld(GNU_HASH)
-PKGSIZE_reboot-daemon: 4832
+FILERDEPENDS_/sbin/reboot-daemon_reboot-daemon: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_reboot-daemon: 4264

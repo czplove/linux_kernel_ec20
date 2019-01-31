@@ -17,7 +17,7 @@ pkg_preinst_thermal-engine: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/thermal-e
 pkg_prerm_thermal-engine: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/thermal-engine stop\nfi\n
 FILERPROVIDESFLIST_thermal-engine: /usr/bin/thermal-engine
 FILES_INFO: {"/usr/bin/thermal-engine": 2228444, "/etc/thermal-engine.conf": 84, "/etc/init.d/thermal-engine": 659}
-FILERPROVIDES_/usr/bin/thermal-engine_thermal-engine: elf(buildid) (= 729e7b3704d86aed15337dafb9cbad9e0b44645e)
+FILERPROVIDES_/usr/bin/thermal-engine_thermal-engine: elf(buildid) (= 51a36a92e65fa905e2ab59fb60e0041af05a2c35)
 FILERDEPENDSFLIST_thermal-engine: /usr/bin/thermal-engine /etc/init.d/thermal-engine
 FILERDEPENDS_/usr/bin/thermal-engine_thermal-engine: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/etc/init.d/thermal-engine_thermal-engine: /bin/sh

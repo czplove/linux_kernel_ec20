@@ -11,5 +11,5 @@ SECTION_qcacld-utils-dbg: devel
 PKG_qcacld-utils-dbg: qcacld-utils-dbg
 ALLOW_EMPTY_qcacld-utils-dbg: 1
 FILES_qcacld-utils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qcacld-utils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qcacld-utils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qcacld-utils/qcacld-utils/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/athdiag": 6670, "/usr/bin/.debug/pktlogconf": 5408, "/usr/bin/.debug/cnss_diag": 24865}
-PKGSIZE_qcacld-utils-dbg: 36943
+FILES_INFO: {"/usr/bin/.debug/athdiag": 6634, "/usr/bin/.debug/pktlogconf": 5372, "/usr/bin/.debug/cnss_diag": 24505}
+PKGSIZE_qcacld-utils-dbg: 36511

@@ -13,7 +13,7 @@ PKG_json-c: libjson-c2
 FILES_json-c: /usr/bin/* /usr/sbin/* /usr/lib/json-c/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/json-c /usr/lib/json-c/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_json-c: /usr/lib/libjson-c.so.2.0.1
 FILES_INFO: {"/usr/lib/libjson-c.so.2": 33304}
-FILERPROVIDES_/usr/lib/libjson-c.so.2.0.1_json-c: elf(buildid) (= f8ac1691c2da1d3ab8967fd2006cc62d7794e5a2) libjson-c.so.2
+FILERPROVIDES_/usr/lib/libjson-c.so.2.0.1_json-c: elf(buildid) (= b322bfe60ed0a1a7a94eedff447386ee9e0f88f9) libjson-c.so.2
 FILERDEPENDSFLIST_json-c: /usr/lib/libjson-c.so.2.0.1
 FILERDEPENDS_/usr/lib/libjson-c.so.2.0.1_json-c: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_json-c: 33304

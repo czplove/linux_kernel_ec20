@@ -11,9 +11,9 @@ SECTION: console/network
 PKG_ppp: ppp
 FILES_ppp: /etc /usr/bin /usr/sbin/chat /usr/sbin/pppd /lib/systemd/system/ppp@.service
 FILERPROVIDESFLIST_ppp: /usr/sbin/pppd /usr/sbin/chat
-FILES_INFO: {"/etc/ppp/peers/provider": 1093, "/etc/ppp/ip-up": 1452, "/etc/ppp/ip-down.d/92removedns": 118, "/etc/chatscripts/pap": 653, "/etc/ppp/options": 5, "/etc/ppp/chap-secrets": 78, "/etc/ppp/ip-up.d/08setupdns": 292, "/etc/disconnect": 77, "/etc/init.d/ppp": 1231, "/usr/sbin/chat": 18692, "/etc/ppp/ppp_on_boot": 573, "/usr/sbin/pppd": 261996, "/etc/ppp/ipv6-up": 385, "/etc/ppp/pap-secrets": 77, "/usr/bin/poff": 653, "/etc/ppp/ip-down": 1454, "/usr/bin/pon": 116}
-FILERPROVIDES_/usr/sbin/pppd_ppp: elf(buildid) (= 3ab37f9412e7f8504bcab391a006fc8bcbc67b0e)
-FILERPROVIDES_/usr/sbin/chat_ppp: elf(buildid) (= 53507e740829c2efd1096b807f42175daa9a14a7)
+FILES_INFO: {"/etc/ppp/peers/provider": 1093, "/etc/ppp/ip-up": 1452, "/etc/ppp/ip-down.d/92removedns": 118, "/etc/chatscripts/pap": 653, "/etc/ppp/options": 5, "/etc/ppp/chap-secrets": 78, "/etc/ppp/ip-up.d/08setupdns": 292, "/etc/disconnect": 77, "/etc/ppp/ppp_on_boot": 573, "/usr/sbin/chat": 18692, "/etc/ppp/pap-secrets": 77, "/usr/sbin/pppd": 261996, "/etc/ppp/ipv6-up": 385, "/etc/init.d/ppp": 1231, "/usr/bin/poff": 653, "/etc/ppp/ip-down": 1454, "/usr/bin/pon": 116}
+FILERPROVIDES_/usr/sbin/pppd_ppp: elf(buildid) (= 125da360be3d2d11d64f37fe792e0211473a4aa8)
+FILERPROVIDES_/usr/sbin/chat_ppp: elf(buildid) (= ead216c0a489fb96c03992fac892c04586bc1afd)
 FILERDEPENDSFLIST_ppp: /etc/ppp/ip-up /etc/ppp/ip-down.d/92removedns /usr/bin/pon /etc/ppp/ip-up.d/08setupdns /etc/disconnect /etc/init.d/ppp /usr/sbin/pppd /etc/ppp/ipv6-up /usr/bin/poff /etc/ppp/ip-down /usr/sbin/chat
 FILERDEPENDS_/etc/ppp/ip-up_ppp: /bin/sh
 FILERDEPENDS_/etc/ppp/ip-down.d/92removedns_ppp: /bin/sh

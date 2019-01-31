@@ -12,7 +12,7 @@ PKG_util-linux-findfs: util-linux-findfs
 FILES_util-linux-findfs: /usr/sbin/findfs
 FILERPROVIDESFLIST_util-linux-findfs: /usr/sbin/findfs
 FILES_INFO: {"/usr/sbin/findfs": 5484}
-FILERPROVIDES_/usr/sbin/findfs_util-linux-findfs: elf(buildid) (= 89fed51cf2cb2d48cbb968a4a4182bb1e270949f)
+FILERPROVIDES_/usr/sbin/findfs_util-linux-findfs: elf(buildid) (= 7af3713f8ab7b41252230d5540bb743c7b8ca3b8)
 FILERDEPENDSFLIST_util-linux-findfs: /usr/sbin/findfs
 FILERDEPENDS_/usr/sbin/findfs_util-linux-findfs: libblkid.so.1 libblkid.so.1(BLKID_2.15) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-findfs: 5484

@@ -351,26 +351,12 @@ typedef struct
 
 typedef enum 
 {
-    E_QL_MCM_SIM_REFRESH_EVENT              = 0xB00,    /**< Card refresh event  */
-    E_QL_MCM_SIM_CARD_STATUS_UPDATE_EVENT   = 0xB01,    /**< Card status update event.  */
-}E_QL_SIM_NFY_MSG_ID_T;
+    E_QL_MCM_DM_AIRPLANE_MODE_ON    = 1,    /**< Radio power off or unknown. Airplane ON. */
+    E_QL_MCM_DM_AIRPLANE_MODE_OFF   = 2,    /**< Radio online. Airplane OFF. */
+    E_QL_MCM_DM_AIRPLANE_MODE_NA    = 3     /**< Radio Unvailable. */
+}E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T;
 
 
-typedef void (*QL_SIM_CardStatusIndMsgHandlerFunc_t)   
-(    
-    sim_client_handle_type  h_sim,
-    E_QL_SIM_NFY_MSG_ID_T   e_msg_id,
-    void                    *pv_data,
-    void                    *contextPtr    
-);
-
-
-int QL_MCM_SIM_Client_Init(sim_client_handle_type  *ph_sim);
-
-int QL_MCM_SIM_Client_Deinit(sim_client_handle_type h_sim);
-
-/* Add callback function if anything changed specified by the mask in QL_LOC_Set_Indications*/
-int QL_MCM_SIM_AddRxIndMsgHandler(QL_SIM_CardStatusIndMsgHandlerFunc_t handlerPtr, void* contextPtr);
 
 
 /*===========================================================================
@@ -699,6 +685,26 @@ E_QL_ERROR_CODE_T QL_MCM_SIM_GetFileSize
     QL_MCM_SIM_FILE_SIZE_INFO_T                     *pt_out     ///< [OUT] output file size info
 );
 
+/* Get airplane mode*/
+E_QL_ERROR_CODE_T QL_MCM_DM_GetAirplaneMode
+(
+    sim_client_handle_type                  h_dm,
+    E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T        *pe_airplane_mode   ///< [OUT] Radio mode
+);
+
+/* Set airplane mode*/
+E_QL_ERROR_CODE_T QL_MCM_DM_SetAirplaneMode
+(
+    sim_client_handle_type                  h_dm,
+    E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T        e_airplane_mode     ///< [IN] Airplane mode
+);
+
+/* Set indication on off when airplane mode changed */
+E_QL_ERROR_CODE_T QL_MCM_DM_SetAirplaneModeChgInd
+(
+    sim_client_handle_type      h_dm,
+    uint32_t                    ind_onoff  ///< [IN] 0: indication off, 1: on
+);
 
 
 #endif // __QL_MCM_SIM_H__

@@ -12,5 +12,5 @@ SECTION_libdaemon-dev: devel
 PKG_libdaemon-dev: libdaemon-dev
 ALLOW_EMPTY_libdaemon-dev: 1
 FILES_libdaemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libdaemon/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libdaemon.so": 18, "/usr/include/libdaemon/dexec.h": 2516, "/usr/include/libdaemon/dnonblock.h": 1311, "/usr/include/libdaemon/dsignal.h": 2375, "/usr/lib/pkgconfig/libdaemon.pc": 250, "/usr/include/libdaemon/dpid.h": 2940, "/usr/lib/libdaemon.la": 924, "/usr/include/libdaemon/daemon.h": 1051, "/usr/include/libdaemon/dlog.h": 3610, "/usr/include/libdaemon/dfork.h": 5377}
+FILES_INFO: {"/usr/lib/libdaemon.so": 18, "/usr/include/libdaemon/dexec.h": 2516, "/usr/include/libdaemon/dnonblock.h": 1311, "/usr/include/libdaemon/dsignal.h": 2375, "/usr/include/libdaemon/daemon.h": 1051, "/usr/include/libdaemon/dpid.h": 2940, "/usr/lib/libdaemon.la": 924, "/usr/lib/pkgconfig/libdaemon.pc": 250, "/usr/include/libdaemon/dlog.h": 3610, "/usr/include/libdaemon/dfork.h": 5377}
 PKGSIZE_libdaemon-dev: 20372

@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-indexfile: lighttpd-module-indexfile
 FILES_lighttpd-module-indexfile: /usr/lib/mod_indexfile.so
 FILERPROVIDESFLIST_lighttpd-module-indexfile: /usr/lib/mod@underscore@indexfile.so
-FILES_INFO: {"/usr/lib/mod_indexfile.so": 6180}
-FILERPROVIDES_/usr/lib/mod@underscore@indexfile.so_lighttpd-module-indexfile: elf(buildid) (= 06c14e88cc5ef9cdcd5edc9fd5dd9d68f28cee54) mod_indexfile.so
+FILES_INFO: {"/usr/lib/mod_indexfile.so": 6164}
+FILERPROVIDES_/usr/lib/mod@underscore@indexfile.so_lighttpd-module-indexfile: elf(buildid) (= 558b1bbe59544165735c8ba1c41caf16907b9df0) mod_indexfile.so
 FILERDEPENDSFLIST_lighttpd-module-indexfile: /usr/lib/mod@underscore@indexfile.so
 FILERDEPENDS_/usr/lib/mod@underscore@indexfile.so_lighttpd-module-indexfile: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-indexfile: 6180
+PKGSIZE_lighttpd-module-indexfile: 6164

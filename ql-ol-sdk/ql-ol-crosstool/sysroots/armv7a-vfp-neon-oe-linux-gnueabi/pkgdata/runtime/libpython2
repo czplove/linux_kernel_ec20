@@ -12,8 +12,8 @@ SECTION: devel/python
 PKG_libpython2: libpython2.7-1.0
 FILES_libpython2: /usr/lib/libpython*.so.*
 FILERPROVIDESFLIST_libpython2: /usr/lib/libpython2.7.so.1.0
-FILES_INFO: {"/usr/lib/libpython2.7.so.1.0": 1542036}
-FILERPROVIDES_/usr/lib/libpython2.7.so.1.0_libpython2: elf(buildid) (= 99ec6f398d213b147ab14eaac1653a9dec5fae41) libpython2.7.so.1.0
+FILES_INFO: {"/usr/lib/libpython2.7.so.1.0": 1540668}
+FILERPROVIDES_/usr/lib/libpython2.7.so.1.0_libpython2: elf(buildid) (= 2a5f9992ad511bd3e92f3245676a41169cb83d71) libpython2.7.so.1.0
 FILERDEPENDSFLIST_libpython2: /usr/lib/libpython2.7.so.1.0
 FILERDEPENDS_/usr/lib/libpython2.7.so.1.0_libpython2: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libutil.so.1 libutil.so.1(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libpython2: 1542036
+PKGSIZE_libpython2: 1540668

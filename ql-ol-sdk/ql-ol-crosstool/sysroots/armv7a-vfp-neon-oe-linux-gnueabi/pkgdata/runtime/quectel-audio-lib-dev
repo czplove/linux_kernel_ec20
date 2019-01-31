@@ -7,10 +7,11 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_quectel-audio-lib-dev: Quectel audio lib  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_quectel-audio-lib-dev: quectel-audio-lib version git-invalidgit-r1 - Development files
 RDEPENDS_quectel-audio-lib-dev: quectel-audio-lib (= git-invalidgit-r1)
+RPROVIDES_quectel-audio-lib-dev:  quectel-audio-lib-dev
 RRECOMMENDS_quectel-audio-lib-dev: adiertac-dev acdbrtac-dev system-core-liblog-dev alsa-intf-dev acdbloader-dev acdbmapper-dev glibc-dev time-genoff-dev glib-2.0-dev system-core-dev audioalsa-dev audcal-dev diag-dev
 SECTION_quectel-audio-lib-dev: devel
-PKG_quectel-audio-lib-dev: quectel-audio-lib-dev
+PKG_quectel-audio-lib-dev: libql-lib-audio-dev
 ALLOW_EMPTY_quectel-audio-lib-dev: 1
 FILES_quectel-audio-lib-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-audio-lib/*.la /lib/*.la
-FILES_INFO: {"/usr/include/ql_audio.h": 26818, "/usr/include/audio_log.h": 2594, "/usr/lib/libql_lib_audio.la": 1580, "/usr/lib/libmad.so": 11, "/usr/include/amrFileCodec.h": 1591, "/usr/include/quectel-audio-lib.h": 3395, "/usr/lib/libql_lib_audio.so": 24}
-PKGSIZE_quectel-audio-lib-dev: 36013
+FILES_INFO: {"/usr/include/ql_audio.h": 13011, "/usr/include/audio_log.h": 2594, "/usr/lib/libql_lib_audio.la": 1557, "/usr/include/amrFileCodec.h": 1591, "/usr/include/quectel-audio-lib.h": 2546, "/usr/lib/libql_lib_audio.so": 24}
+PKGSIZE_quectel-audio-lib-dev: 21323

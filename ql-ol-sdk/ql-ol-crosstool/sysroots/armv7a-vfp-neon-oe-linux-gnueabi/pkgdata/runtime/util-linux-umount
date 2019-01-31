@@ -14,7 +14,7 @@ pkg_postinst_util-linux-umount: #!/bin/sh\n\tupdate-alternatives --install /bin/
 pkg_postrm_util-linux-umount: #!/bin/sh\n\tupdate-alternatives --remove  umount /bin/umount.util-linux\n
 FILERPROVIDESFLIST_util-linux-umount: /bin/umount.util-linux
 FILES_INFO: {"/bin/umount.util-linux": 18868}
-FILERPROVIDES_/bin/umount.util-linux_util-linux-umount: elf(buildid) (= 282076bc80f9333d1005da71346c12d185c1ca9a) /bin/umount
+FILERPROVIDES_/bin/umount.util-linux_util-linux-umount: elf(buildid) (= a3503d5fc962c52870143b9c4a9af5359c1fb9d5) /bin/umount
 FILERDEPENDSFLIST_util-linux-umount: /bin/umount.util-linux
 FILERDEPENDS_/bin/umount.util-linux_util-linux-umount: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.20) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.23) libmount.so.1(MOUNT_2.24) libmount.so.1(MOUNT_2.25) rtld(GNU_HASH)
 PKGSIZE_util-linux-umount: 18868

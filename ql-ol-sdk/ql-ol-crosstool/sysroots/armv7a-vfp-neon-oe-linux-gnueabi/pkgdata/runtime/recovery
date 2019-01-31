@@ -16,11 +16,11 @@ pkg_postrm_recovery: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then
 pkg_preinst_recovery: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/recovery" ]; then\n\t/etc/init.d/recovery stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT recovery remove\nfi\n
 pkg_prerm_recovery: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/recovery stop\nfi\n
 FILERPROVIDESFLIST_recovery: /usr/bin/updater /usr/bin/recovery /usr/bin/applypatch /usr/bin/verifier@underscore@test
-FILES_INFO: {"/usr/bin/updater": 97544, "/etc/init.d/full_update.sh": 5568, "/etc/sysctl.conf": 63, "/etc/init.d/recovery": 628, "/etc/urc.ini": 92, "/usr/bin/verifier_test": 9360, "/res/recovery_volume_config": 480, "/etc/init.d/usb_remount.sh": 739, "/etc/fstab": 480, "/usr/bin/applypatch": 648088, "/etc/ubinize_system_rootfs.cfg": 129, "/etc/ubinize_modem.cfg": 121, "/etc/init.d/backup_rootfs.sh": 3664, "/usr/bin/recovery": 72404}
-FILERPROVIDES_/usr/bin/updater_recovery: elf(buildid) (= 16a9c04eea5ef05c1628c90ebc6a2183c348653a)
-FILERPROVIDES_/usr/bin/recovery_recovery: elf(buildid) (= 2bbd48c6d444b21e2f288088a5e058c53b90c1e3)
-FILERPROVIDES_/usr/bin/applypatch_recovery: elf(buildid) (= a8f75ba8ce610b6856404bee1f92c53fbf042b2e)
-FILERPROVIDES_/usr/bin/verifier@underscore@test_recovery: elf(buildid) (= ee72c7b9327c8571cdabf016f779dd3e07b41086)
+FILES_INFO: {"/usr/bin/updater": 97544, "/etc/init.d/full_update.sh": 5568, "/etc/sysctl.conf": 63, "/etc/ubinize_system_rootfs.cfg": 129, "/etc/urc.ini": 92, "/usr/bin/verifier_test": 9360, "/res/recovery_volume_config": 480, "/etc/init.d/usb_remount.sh": 739, "/etc/fstab": 480, "/usr/bin/applypatch": 648088, "/etc/init.d/recovery": 628, "/etc/ubinize_modem.cfg": 121, "/etc/init.d/backup_rootfs.sh": 3664, "/usr/bin/recovery": 72404}
+FILERPROVIDES_/usr/bin/updater_recovery: elf(buildid) (= de84984f33ae8f2e7f73027f0d69e59a26bf09b9)
+FILERPROVIDES_/usr/bin/recovery_recovery: elf(buildid) (= 461a0be66c05dbc53ed00e11e32269d0afdda35e)
+FILERPROVIDES_/usr/bin/applypatch_recovery: elf(buildid) (= 8fcc2dc7797d735895e815163bf3b62766625144)
+FILERPROVIDES_/usr/bin/verifier@underscore@test_recovery: elf(buildid) (= e2813097ec79e08c49c4a0b0ac795148574bcdcb)
 FILERDEPENDSFLIST_recovery: /usr/bin/updater /etc/init.d/recovery /etc/init.d/usb@underscore@remount.sh /etc/init.d/backup@underscore@rootfs.sh /usr/bin/verifier@underscore@test /usr/bin/recovery
 FILERDEPENDS_/usr/bin/updater_recovery: libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
 FILERDEPENDS_/etc/init.d/recovery_recovery: /bin/sh

@@ -11,5 +11,5 @@ SECTION_libexif-dbg: devel
 PKG_libexif-dbg: libexif-dbg
 ALLOW_EMPTY_libexif-dbg: 1
 FILES_libexif-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libexif/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libexif/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libexif/libexif/.debug /usr/src/debug
-FILES_INFO: {"/lib/.debug/libexif.so.12.3.3": 267700}
-PKGSIZE_libexif-dbg: 267700
+FILES_INFO: {"/lib/.debug/libexif.so.12.3.3": 265612}
+PKGSIZE_libexif-dbg: 265612

@@ -11,5 +11,5 @@ SECTION_iw-dbg: devel
 PKG_iw-dbg: iw-dbg
 ALLOW_EMPTY_iw-dbg: 1
 FILES_iw-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iw/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iw/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iw/iw/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/iw": 30415}
-PKGSIZE_iw-dbg: 30415
+FILES_INFO: {"/usr/sbin/.debug/iw": 30159}
+PKGSIZE_iw-dbg: 30159

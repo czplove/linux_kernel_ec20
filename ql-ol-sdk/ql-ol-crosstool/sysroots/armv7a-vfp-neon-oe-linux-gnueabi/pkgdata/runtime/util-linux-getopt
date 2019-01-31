@@ -14,7 +14,7 @@ pkg_postinst_util-linux-getopt: #!/bin/sh\n\tupdate-alternatives --install /usr/
 pkg_postrm_util-linux-getopt: #!/bin/sh\n\tupdate-alternatives --remove  getopt /usr/bin/getopt.util-linux\n
 FILERPROVIDESFLIST_util-linux-getopt: /usr/bin/getopt.util-linux
 FILES_INFO: {"/usr/bin/getopt.util-linux": 9720}
-FILERPROVIDES_/usr/bin/getopt.util-linux_util-linux-getopt: elf(buildid) (= b3870bff886fbe5f7f6ed5de8ad8cccc675ea5ec) /usr/bin/getopt
+FILERPROVIDES_/usr/bin/getopt.util-linux_util-linux-getopt: elf(buildid) (= 0d965987ce0e805587edda306a1dad024c549499) /usr/bin/getopt
 FILERDEPENDSFLIST_util-linux-getopt: /usr/bin/getopt.util-linux
 FILERDEPENDS_/usr/bin/getopt.util-linux_util-linux-getopt: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-getopt: 9720

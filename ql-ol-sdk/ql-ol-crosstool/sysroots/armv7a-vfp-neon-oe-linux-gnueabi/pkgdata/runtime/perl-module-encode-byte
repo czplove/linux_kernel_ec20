@@ -11,7 +11,7 @@ SECTION: devel
 PKG_perl-module-encode-byte: perl-module-encode-byte
 FILES_perl-module-encode-byte: /usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so /usr/lib/perl/5.20.0/Encode/Byte.pm
 FILERPROVIDESFLIST_perl-module-encode-byte: /usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so
-FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/Byte.pm": 2430, "/usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so": 155760}
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so": 155760, "/usr/lib/perl/5.20.0/Encode/Byte.pm": 2430}
 FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so_perl-module-encode-byte: Byte.so elf(buildid) (= 32af2482951743400bd9d5864c925c1eb3503beb)
 FILERDEPENDSFLIST_perl-module-encode-byte: /usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Encode/Byte/Byte.so_perl-module-encode-byte: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

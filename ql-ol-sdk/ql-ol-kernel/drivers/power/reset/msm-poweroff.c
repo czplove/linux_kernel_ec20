@@ -144,7 +144,7 @@ static void set_dload_mode(int on)
 	ret = scm_set_dload_mode(on ? SCM_DLOAD_MODE : 0, 0);
 	if (ret)
 		pr_err("Failed to set secure DLOAD mode: %d\n", ret);
-	printk(KERN_WARNING"dload_mode_enabled:%d\n",on);
+
 	dload_mode_enabled = on;
 }
 
@@ -240,13 +240,6 @@ void msm_set_restart_mode(int mode)
 	restart_mode = mode;
 }
 EXPORT_SYMBOL(msm_set_restart_mode);
-
-int msm_get_restart_mode(void)
-{
-	return restart_mode ;
-}
-EXPORT_SYMBOL(msm_get_restart_mode);
-
 
 /*
  * Force the SPMI PMIC arbiter to shutdown so that no more SPMI transactions

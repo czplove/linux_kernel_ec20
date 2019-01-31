@@ -489,28 +489,6 @@ static int ql_tzapp_random_gen(int tz_fd, const char *keyfile)
 }
 
 
-static int ql_tzapp_fuse_read(int tz_fd, uint32 row_num)
-{
-    int ret = -1;
-    ql_tz_fuse_val_t fuse_val;
-    
-    if (row_num < 128) {
-        fuse_val.row_num = row_num;
-        fuse_val.efuse = 0;
-    }
-    else {
-        return -1;
-    }
-    
-    ret = ioctl(tz_fd,  QL_TZ_FUSE_SVC_READ, &fuse_val);
-    if (ret >= 0) {
-        printf("row=%d, val:0x%llx\n\r", row_num, fuse_val.efuse);
-    }
-    
-    return ret;
-}
-
-
 int main(int argc, char *argv[])
 {
     int ret = -1;
@@ -553,11 +531,8 @@ int main(int argc, char *argv[])
         else if (!strcasecmp(op, "rsa_export_pubkey")) {
             ret = ql_tzapp_rsa_export_pubkey(fd, keyfile, infile);
         }
-        else if (!strcasecmp(op, "random_gen")) {
+         else if (!strcasecmp(op, "random_gen")) {
             ret = ql_tzapp_random_gen(fd, keyfile);
-        }
-        else if (!strcasecmp(op, "fuse_read")) {
-            ret = ql_tzapp_fuse_read(fd, atoi(argv[2]));
         }
         else {
             printf("unknow op=%s\n", op);
@@ -577,7 +552,6 @@ int main(int argc, char *argv[])
         printf("tzapp rsa_import_keypair key.blob\n");
         printf("tzapp rsa_export_pubkey key.blob pubkey_file\n");
         printf("tzapp random_gen rnd.blob\n");
-        printf("tzapp fuse_read <row_num>\n");
     }
 
     return ret;

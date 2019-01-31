@@ -10,5 +10,5 @@ RDEPENDS_libcheck-staticdev: libcheck-dev (= 0.9.14-r0)
 SECTION_libcheck-staticdev: devel
 PKG_libcheck-staticdev: libcheck-staticdev
 FILES_libcheck-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libcheck/*.a
-FILES_INFO: {"/usr/lib/libcheck.a": 57836}
-PKGSIZE_libcheck-staticdev: 57836
+FILES_INFO: {"/usr/lib/libcheck.a": 57700}
+PKGSIZE_libcheck-staticdev: 57700

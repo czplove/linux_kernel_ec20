@@ -11,8 +11,8 @@ SECTION: libs
 PKG_libgettextsrc: libgettextsrc
 FILES_libgettextsrc: /usr/lib/libgettextsrc-*.so*
 FILERPROVIDESFLIST_libgettextsrc: /usr/lib/libgettextsrc-0.19.4.so
-FILES_INFO: {"/usr/lib/libgettextsrc-0.19.4.so": 236304}
-FILERPROVIDES_/usr/lib/libgettextsrc-0.19.4.so_libgettextsrc: elf(buildid) (= 70ae9e3b3c4b3fd18baf263b9079e337be1ce203) libgettextsrc-0.19.4.so
+FILES_INFO: {"/usr/lib/libgettextsrc-0.19.4.so": 236272}
+FILERPROVIDES_/usr/lib/libgettextsrc-0.19.4.so_libgettextsrc: elf(buildid) (= bc44bbd47c09f4c315c8afa4cdcb99a94e2ef5f7) libgettextsrc-0.19.4.so
 FILERDEPENDSFLIST_libgettextsrc: /usr/lib/libgettextsrc-0.19.4.so
 FILERDEPENDS_/usr/lib/libgettextsrc-0.19.4.so_libgettextsrc: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so rtld(GNU_HASH)
-PKGSIZE_libgettextsrc: 236304
+PKGSIZE_libgettextsrc: 236272

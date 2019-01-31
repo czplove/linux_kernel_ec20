@@ -1,3 +1,3 @@
 #!/bin/bash
 realpath=`readlink -fn $0`
-exec -a `dirname $realpath`/file `dirname $realpath`/file.real --magic-file /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/misc/magic.mgc "$@"
+exec -a `dirname $realpath`/file `dirname $realpath`/file.real --magic-file /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/deploy/sdk/ql-ol-sdk/ql-ol-crosstool/sysroots/x86_64-oesdk-linux/usr/share/misc/magic.mgc "$@"

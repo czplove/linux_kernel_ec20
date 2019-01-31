@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-evhost: lighttpd-module-evhost
 FILES_lighttpd-module-evhost: /usr/lib/mod_evhost.so
 FILERPROVIDESFLIST_lighttpd-module-evhost: /usr/lib/mod@underscore@evhost.so
-FILES_INFO: {"/usr/lib/mod_evhost.so": 7312}
-FILERPROVIDES_/usr/lib/mod@underscore@evhost.so_lighttpd-module-evhost: elf(buildid) (= bf0968cfeac787622dc9f50673d7c26f37a21a67) mod_evhost.so
+FILES_INFO: {"/usr/lib/mod_evhost.so": 7292}
+FILERPROVIDES_/usr/lib/mod@underscore@evhost.so_lighttpd-module-evhost: elf(buildid) (= a8b9ffa2548d5b405732cc6e3510002c181eeebb) mod_evhost.so
 FILERDEPENDSFLIST_lighttpd-module-evhost: /usr/lib/mod@underscore@evhost.so
 FILERDEPENDS_/usr/lib/mod@underscore@evhost.so_lighttpd-module-evhost: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-evhost: 7312
+PKGSIZE_lighttpd-module-evhost: 7292

@@ -12,7 +12,7 @@ PKG_perl-module-devel-ppport: perl-module-devel-ppport
 FILES_perl-module-devel-ppport: /usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so /usr/lib/perl/5.20.0/Devel/PPPort.pm
 FILERPROVIDESFLIST_perl-module-devel-ppport: /usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so
 FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so": 74252, "/usr/lib/perl/5.20.0/Devel/PPPort.pm": 214025}
-FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so_perl-module-devel-ppport: PPPort.so elf(buildid) (= eae5743d4fc58bbdad399ae18844f22d5dfd4b5a)
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so_perl-module-devel-ppport: PPPort.so elf(buildid) (= 84179df947d88ff2befef4651bc3bf4ce790b9e1)
 FILERDEPENDSFLIST_perl-module-devel-ppport: /usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Devel/PPPort/PPPort.so_perl-module-devel-ppport: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_perl-module-devel-ppport: 288277

@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-trigger-b4-dl: lighttpd-module-trigger-b4-dl
 FILES_lighttpd-module-trigger-b4-dl: /usr/lib/mod_trigger_b4_dl.so
 FILERPROVIDESFLIST_lighttpd-module-trigger-b4-dl: /usr/lib/mod@underscore@trigger@underscore@b4@underscore@dl.so
-FILES_INFO: {"/usr/lib/mod_trigger_b4_dl.so": 6984}
-FILERPROVIDES_/usr/lib/mod@underscore@trigger@underscore@b4@underscore@dl.so_lighttpd-module-trigger-b4-dl: elf(buildid) (= 3e15bbebe33e6b40b2d0858c560fd1eff8a35558) mod_trigger_b4_dl.so
+FILES_INFO: {"/usr/lib/mod_trigger_b4_dl.so": 6968}
+FILERPROVIDES_/usr/lib/mod@underscore@trigger@underscore@b4@underscore@dl.so_lighttpd-module-trigger-b4-dl: elf(buildid) (= 4012432d78c9f1f3178bac5e5951e8ddfbbc8e2c) mod_trigger_b4_dl.so
 FILERDEPENDSFLIST_lighttpd-module-trigger-b4-dl: /usr/lib/mod@underscore@trigger@underscore@b4@underscore@dl.so
 FILERDEPENDS_/usr/lib/mod@underscore@trigger@underscore@b4@underscore@dl.so_lighttpd-module-trigger-b4-dl: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-trigger-b4-dl: 6984
+PKGSIZE_lighttpd-module-trigger-b4-dl: 6968

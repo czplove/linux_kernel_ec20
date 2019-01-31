@@ -11,5 +11,5 @@ SECTION_minidlna-dbg: devel
 PKG_minidlna-dbg: minidlna-dbg
 ALLOW_EMPTY_minidlna-dbg: 1
 FILES_minidlna-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/minidlna/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/minidlna/.debug /usr/lib/matchbox-panel/.debug /usr/lib/minidlna/minidlna/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/minidlnad": 42340}
-PKGSIZE_minidlna-dbg: 42340
+FILES_INFO: {"/usr/sbin/.debug/minidlnad": 41876}
+PKGSIZE_minidlna-dbg: 41876

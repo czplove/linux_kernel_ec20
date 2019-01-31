@@ -9,5 +9,5 @@ SUMMARY: GNU cc and gcc C compilers
 SECTION: devel
 PKG_libgcov-dev: libgcov-dev
 FILES_libgcov-dev:     /usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcov.a 
-FILES_INFO: {"/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcov.a": 142594}
-PKGSIZE_libgcov-dev: 142594
+FILES_INFO: {"/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcov.a": 140838}
+PKGSIZE_libgcov-dev: 140838

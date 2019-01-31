@@ -12,5 +12,5 @@ SECTION_adiertac-dbg: devel
 PKG_adiertac-dbg: libadiertac-dbg
 ALLOW_EMPTY_adiertac-dbg: 1
 FILES_adiertac-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/adiertac/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/adiertac/.debug /usr/lib/matchbox-panel/.debug /usr/lib/adiertac/adiertac/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libadiertac.so.1.0.0": 32376}
-PKGSIZE_adiertac-dbg: 32376
+FILES_INFO: {"/usr/lib/.debug/libadiertac.so.1.0.0": 32288}
+PKGSIZE_adiertac-dbg: 32288

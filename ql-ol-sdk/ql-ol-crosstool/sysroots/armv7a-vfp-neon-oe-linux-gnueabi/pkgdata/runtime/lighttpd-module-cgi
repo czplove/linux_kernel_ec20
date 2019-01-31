@@ -12,7 +12,7 @@ PKG_lighttpd-module-cgi: lighttpd-module-cgi
 FILES_lighttpd-module-cgi: /usr/lib/mod_cgi.so
 FILERPROVIDESFLIST_lighttpd-module-cgi: /usr/lib/mod@underscore@cgi.so
 FILES_INFO: {"/usr/lib/mod_cgi.so": 18628}
-FILERPROVIDES_/usr/lib/mod@underscore@cgi.so_lighttpd-module-cgi: elf(buildid) (= 545f5c1cdca2a86909aac73e757d8ed367b3a0d5) mod_cgi.so
+FILERPROVIDES_/usr/lib/mod@underscore@cgi.so_lighttpd-module-cgi: elf(buildid) (= 039499dc9b572c9f807d142e6301d8dd1e1da376) mod_cgi.so
 FILERDEPENDSFLIST_lighttpd-module-cgi: /usr/lib/mod@underscore@cgi.so
 FILERDEPENDS_/usr/lib/mod@underscore@cgi.so_lighttpd-module-cgi: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_lighttpd-module-cgi: 18628

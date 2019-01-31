@@ -11,5 +11,5 @@ SECTION_time-services-dbg: devel
 PKG_time-services-dbg: time-services-dbg
 ALLOW_EMPTY_time-services-dbg: 1
 FILES_time-services-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/time-services/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/time-services/.debug /usr/lib/matchbox-panel/.debug /usr/lib/time-services/time-services/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/time_daemon": 52716}
-PKGSIZE_time-services-dbg: 52716
+FILES_INFO: {"/usr/bin/.debug/time_daemon": 52320}
+PKGSIZE_time-services-dbg: 52320

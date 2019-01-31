@@ -16,15 +16,15 @@ pkg_postrm_quectel-tts-sdk: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/nul
 pkg_preinst_quectel-tts-sdk: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_quectel_tts_service_daemon" ]; then\n\t/etc/init.d/start_quectel_tts_service_daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_quectel_tts_service_daemon remove\nfi\n
 pkg_prerm_quectel-tts-sdk: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_quectel_tts_service_daemon stop\nfi\n
 FILERPROVIDESFLIST_quectel-tts-sdk: /usr/lib/libql@underscore@tts@underscore@ch.so.1 /usr/lib/libql@underscore@tts@underscore@eng.so.1 /usr/bin/quectel@underscore@tts@underscore@demo /usr/bin/quectel@underscore@tts@underscore@service
-FILES_INFO: {"/usr/share/TTS/tts.prop": 12, "/etc/init.d/start_quectel_tts_service_daemon": 761, "/usr/share/TTS/Resource_ENG.irf": 1938658, "/usr/bin/quectel_tts_service": 10380, "/usr/bin/quectel_tts_demo": 14648, "/usr/lib/libql_tts.so.1": 409772, "/usr/share/TTS/Resource_CH.irf": 2731334}
-FILERPROVIDES_/usr/lib/libql@underscore@tts@underscore@ch.so.1_quectel-tts-sdk: elf(buildid) (= 2c9137a325d23c2570f217052b64cd3dd6b39140) libql_tts.so.1
-FILERPROVIDES_/usr/lib/libql@underscore@tts@underscore@eng.so.1_quectel-tts-sdk: elf(buildid) (= c5a8eb6d416a28fcdcbe122ac188487aeeb8299c) libql_tts.so.1
-FILERPROVIDES_/usr/bin/quectel@underscore@tts@underscore@demo_quectel-tts-sdk: elf(buildid) (= 9ba193d5b6c329411abe3713ac1ef0221e7f735e)
-FILERPROVIDES_/usr/bin/quectel@underscore@tts@underscore@service_quectel-tts-sdk: elf(buildid) (= 23e85993e4ca6cd2c37e2ad0ead037e8c26ba434)
+FILES_INFO: {"/usr/share/TTS/tts.prop": 12, "/etc/init.d/start_quectel_tts_service_daemon": 463, "/usr/share/TTS/Resource_ENG.irf": 1938658, "/usr/bin/quectel_tts_service": 10380, "/usr/lib/libql_tts.so.1": 409772, "/usr/bin/quectel_tts_demo": 14648, "/usr/share/TTS/Resource_CH.irf": 2731334}
+FILERPROVIDES_/usr/lib/libql@underscore@tts@underscore@ch.so.1_quectel-tts-sdk: elf(buildid) (= 405e84584c5ce0c4dce331e2c94bf30a60f821c3) libql_tts.so.1
+FILERPROVIDES_/usr/lib/libql@underscore@tts@underscore@eng.so.1_quectel-tts-sdk: elf(buildid) (= 25be798b6848c95d56d8448369482f34d9df937d) libql_tts.so.1
+FILERPROVIDES_/usr/bin/quectel@underscore@tts@underscore@demo_quectel-tts-sdk: elf(buildid) (= 40a043a9a831be67b8ca0b842b41624198542a6e)
+FILERPROVIDES_/usr/bin/quectel@underscore@tts@underscore@service_quectel-tts-sdk: elf(buildid) (= 00d31437262e2367bd6ab5c5f8164a51675c63fe)
 FILERDEPENDSFLIST_quectel-tts-sdk: /usr/lib/libql@underscore@tts@underscore@ch.so.1 /etc/init.d/start@underscore@quectel@underscore@tts@underscore@service@underscore@daemon /usr/lib/libql@underscore@tts@underscore@eng.so.1 /usr/bin/quectel@underscore@tts@underscore@demo /usr/bin/quectel@underscore@tts@underscore@service
 FILERDEPENDS_/usr/lib/libql@underscore@tts@underscore@ch.so.1_quectel-tts-sdk: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/etc/init.d/start@underscore@quectel@underscore@tts@underscore@service@underscore@daemon_quectel-tts-sdk: /bin/sh
 FILERDEPENDS_/usr/lib/libql@underscore@tts@underscore@eng.so.1_quectel-tts-sdk: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/quectel@underscore@tts@underscore@demo_quectel-tts-sdk: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/quectel@underscore@tts@underscore@service_quectel-tts-sdk: libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_lib_audio.so.1 libql_tts.so.1 rtld(GNU_HASH)
-PKGSIZE_quectel-tts-sdk: 5105565
+PKGSIZE_quectel-tts-sdk: 5105267

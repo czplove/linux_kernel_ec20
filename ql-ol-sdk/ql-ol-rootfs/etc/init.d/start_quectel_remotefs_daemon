@@ -1,8 +1,4 @@
 #! /bin/sh
-#  ---------------------------------------------------------------------------
-#  Copyright (c) 2015 Quectel Wireless Solutions Co., Ltd. All Rights Reserved.
-#  Quectel Wireless Solutions Proprietary and Confidential.
-#  ---------------------------------------------------------------------------
 
 set -e
 

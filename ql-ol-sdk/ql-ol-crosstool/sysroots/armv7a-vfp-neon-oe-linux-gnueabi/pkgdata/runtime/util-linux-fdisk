@@ -13,8 +13,8 @@ FILES_util-linux-fdisk: /sbin/fdisk.util-linux
 pkg_postinst_util-linux-fdisk: #!/bin/sh\n\tupdate-alternatives --install /sbin/fdisk fdisk /sbin/fdisk.util-linux 100\n
 pkg_postrm_util-linux-fdisk: #!/bin/sh\n\tupdate-alternatives --remove  fdisk /sbin/fdisk.util-linux\n
 FILERPROVIDESFLIST_util-linux-fdisk: /sbin/fdisk.util-linux
-FILES_INFO: {"/sbin/fdisk.util-linux": 223536}
-FILERPROVIDES_/sbin/fdisk.util-linux_util-linux-fdisk: elf(buildid) (= 398393a6b0bd3cec3b7b85a53ee644198308b0e1) /sbin/fdisk
+FILES_INFO: {"/sbin/fdisk.util-linux": 223272}
+FILERPROVIDES_/sbin/fdisk.util-linux_util-linux-fdisk: elf(buildid) (= c0d3aa6a05f8d18c99b95f265310bdde7c13628c) /sbin/fdisk
 FILERDEPENDSFLIST_util-linux-fdisk: /sbin/fdisk.util-linux
 FILERDEPENDS_/sbin/fdisk.util-linux_util-linux-fdisk: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libblkid.so.1 libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
-PKGSIZE_util-linux-fdisk: 223536
+PKGSIZE_util-linux-fdisk: 223272

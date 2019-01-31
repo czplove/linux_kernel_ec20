@@ -8173,7 +8173,7 @@ is defined.
 From F<i_string.U>:
 
 This variable holds the full path of the string header that will be
-used. Typically F</home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/C<LE>.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe>-F<core/build/tmp>-F<glibc/sysroots/mdm9607>-F<perf/usr/include/string.h> or F</home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/C<LE>.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe>-F<core/build/tmp>-F<glibc/sysroots/mdm9607>-F<perf/usr/include/strings.h>.
+used. Typically F</home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/C<LE>.1.0.c3/Main/R06/apps_proc/oe>-F<core/build/tmp>-F<glibc/sysroots/mdm9607>-F<perf/usr/include/string.h> or F</home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/C<LE>.1.0.c3/Main/R06/apps_proc/oe>-F<core/build/tmp>-F<glibc/sysroots/mdm9607>-F<perf/usr/include/strings.h>.
 
 =item C<submit>
 

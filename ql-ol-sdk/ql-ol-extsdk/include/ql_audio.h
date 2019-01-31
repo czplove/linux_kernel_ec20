@@ -49,16 +49,6 @@ WHEN        WHO            WHAT, WHERE, WHY
 #define FALSE 0
 #endif
 
-#define QUEC_PCM_8K 8000
-#define QUEC_PCM_16K 16000
-#define QUEC_PCM_44k 44100
-#define QUEC_PCM_MONO 1
-#define QUEC_PCM_STEREO 2
-
-typedef enum {
-        AUD_UP_LINK = 0,
-        AUD_DOWN_LINK,
-} Enum_AudDlink;
 
 typedef enum {
 	AUD_PLAYER_ERROR = -1,
@@ -386,92 +376,6 @@ int Ql_AudCodec_Set_ALC5616_DRCAGC(const char *i2c, struct Ql_ALC5616_DRCAGC *cf
 //   wav file size to update
 int Ql_Update_wav_size(int fd, int size);
 
-//add by grady, 2018-5-29
-/*
- * describe : this function is use to open pcm device 
- * paras    :
- *        device : this should be fix to hw:0,0 
- *        flags ; pcm play flags
- *        rate: sample rate 
- *        channels  : audio channal 1 or 2      
- *        format: format to play or record, 16bit line,MP3
- *        hostless: if there is no file it is true
- * return    :
- *        pcm : pcm handle, use can use this handle to read write data
- */
-struct pcm *quec_pcm_open(char *device, unsigned flags, unsigned rate, unsigned channels, unsigned format, unsigned hostless);
-
-/*
- * describe : this function is use to close pcm handle 
- * paras    :
- *        pcm : pcm handle to close  
- * return    :
- */
-int quec_pcm_close(struct pcm *pcm );
-
-/*
- * describe : this function is use to read pcm buffer 
- * paras    :
- *        pcm : pcm handle to write date 
- *        buffer: data buffer 
- *        lenth: data length
- * return    :
- */
-int quec_read_pcm(struct pcm *pcm, void * buffer, int length);
-
-/*
- * describe : this function is use to get pcm buffer lenth 
- * paras    :
- *        lenth: data length
- * return
- *        buffer length     
- */
-int quec_get_pem_buffer_len(struct pcm *pcm);
-
-//add by grady, 2018-6-2
-/*
- * describe : this function is use to open mixer device 
- * paras        :
- *              device: mixer device
- * return
- *              mixer handle    
- */
-struct mixer *quec_mixer_open(const char *device);
-
-/*
- * describe : this function is use to close mixer device
- * paras        :
- *              mixer: mixer handle
- * return
- *              none    
- */
-void quec_mixer_close(struct mixer *mixer);
-
-/*
- * describe : this function is use to get mixer devie control 
- * paras        :
- *              mixer: mixer handle
- *              name: mixer device
- *              index: mixer index
- * return
- *              mixer control   
- */
-struct mixer_ctl *quec_mixer_get_control(struct mixer *mixer, const char *name, unsigned index);
-
-/*
- * describe : this function is use to set mulvalues
- * paras        :
- *              mixer: mixer handle
- *              count: count
- *              argv: data
- * return       :
- *                      
- */
-int quec_mixer_ctl_mulvalues(struct mixer_ctl *ctl, int count, char ** argv);
-
-
-//end grady
-
 /*****************************************************************
 * Function:     Ql_AudPlayer_OpenExt
 *
@@ -547,32 +451,6 @@ int Ql_AudRecorder_OpenExt(
             int channels,
             int rate,
             int format);
-
-/*
-* Function:     uac enable
-* 
-* Description:
-*               uac enable
-*
-* Parameters:
-*               none
-* Return:        
-*               TURE or FALSE
-*/
-int ql_uac_enable(void);
-
-/*
-* Function:     uac disable
-* 
-* Description:
-*               uac disable
-*
-* Parameters:
-*               none
-* Return:        
-*               TURE or FALSE
-*/
-int ql_uac_disable(void);
 
 
 #endif //__AUD_H__

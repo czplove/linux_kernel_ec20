@@ -12,7 +12,7 @@ PKG_util-linux-cfdisk: util-linux-cfdisk
 FILES_util-linux-cfdisk: /sbin/cfdisk
 FILERPROVIDESFLIST_util-linux-cfdisk: /sbin/cfdisk
 FILES_INFO: {"/sbin/cfdisk": 217140}
-FILERPROVIDES_/sbin/cfdisk_util-linux-cfdisk: elf(buildid) (= f31825ca2b6823a65bfd7a4711f5c9fb2bc4c707)
+FILERPROVIDES_/sbin/cfdisk_util-linux-cfdisk: elf(buildid) (= de8bee8be82cb26f8e26aa7c761f00f08929e294)
 FILERDEPENDSFLIST_util-linux-cfdisk: /sbin/cfdisk
 FILERDEPENDS_/sbin/cfdisk_util-linux-cfdisk: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libblkid.so.1 libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libncursesw.so.5 libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) libtinfo.so.5 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 PKGSIZE_util-linux-cfdisk: 217140

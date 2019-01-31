@@ -11,16 +11,16 @@ SECTION: base
 PKG_e2fsprogs-mke2fs: e2fsprogs-mke2fs
 FILES_e2fsprogs-mke2fs: /sbin/mke2fs /sbin/mkfs.ext* /etc/mke2fs.conf
 FILERPROVIDESFLIST_e2fsprogs-mke2fs: /sbin/mke2fs /sbin/mkfs.ext3 /sbin/mkfs.ext2 /sbin/mkfs.ext4 /sbin/mkfs.ext4dev
-FILES_INFO: {"/sbin/mkfs.ext4": 111853, "/etc/mke2fs.conf": 956, "/sbin/mke2fs": 111853, "/sbin/mkfs.ext3": 111853, "/sbin/mkfs.ext2": 81472, "/sbin/mkfs.ext4dev": 111853}
-FILERPROVIDES_/sbin/mke2fs_e2fsprogs-mke2fs: elf(buildid) (= 6d41cf29fe05aadebdd7e9733f57fe733cbe64f3)
-FILERPROVIDES_/sbin/mkfs.ext3_e2fsprogs-mke2fs: elf(buildid) (= 6d41cf29fe05aadebdd7e9733f57fe733cbe64f3)
-FILERPROVIDES_/sbin/mkfs.ext2_e2fsprogs-mke2fs: elf(buildid) (= 6d41cf29fe05aadebdd7e9733f57fe733cbe64f3)
-FILERPROVIDES_/sbin/mkfs.ext4_e2fsprogs-mke2fs: elf(buildid) (= 6d41cf29fe05aadebdd7e9733f57fe733cbe64f3)
-FILERPROVIDES_/sbin/mkfs.ext4dev_e2fsprogs-mke2fs: elf(buildid) (= 6d41cf29fe05aadebdd7e9733f57fe733cbe64f3)
+FILES_INFO: {"/sbin/mkfs.ext4dev": 111337, "/etc/mke2fs.conf": 956, "/sbin/mke2fs": 111337, "/sbin/mkfs.ext3": 81392, "/sbin/mkfs.ext2": 111337, "/sbin/mkfs.ext4": 111337}
+FILERPROVIDES_/sbin/mke2fs_e2fsprogs-mke2fs: elf(buildid) (= 727b3c8f31a71b8d35d77f3071ae137d61fd7de3)
+FILERPROVIDES_/sbin/mkfs.ext3_e2fsprogs-mke2fs: elf(buildid) (= 727b3c8f31a71b8d35d77f3071ae137d61fd7de3)
+FILERPROVIDES_/sbin/mkfs.ext2_e2fsprogs-mke2fs: elf(buildid) (= 727b3c8f31a71b8d35d77f3071ae137d61fd7de3)
+FILERPROVIDES_/sbin/mkfs.ext4_e2fsprogs-mke2fs: elf(buildid) (= 727b3c8f31a71b8d35d77f3071ae137d61fd7de3)
+FILERPROVIDES_/sbin/mkfs.ext4dev_e2fsprogs-mke2fs: elf(buildid) (= 727b3c8f31a71b8d35d77f3071ae137d61fd7de3)
 FILERDEPENDSFLIST_e2fsprogs-mke2fs: /sbin/mke2fs /sbin/mkfs.ext3 /sbin/mkfs.ext2 /sbin/mkfs.ext4 /sbin/mkfs.ext4dev
 FILERDEPENDS_/sbin/mke2fs_e2fsprogs-mke2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 FILERDEPENDS_/sbin/mkfs.ext3_e2fsprogs-mke2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 FILERDEPENDS_/sbin/mkfs.ext2_e2fsprogs-mke2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 FILERDEPENDS_/sbin/mkfs.ext4_e2fsprogs-mke2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
 FILERDEPENDS_/sbin/mkfs.ext4dev_e2fsprogs-mke2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
-PKGSIZE_e2fsprogs-mke2fs: 529840
+PKGSIZE_e2fsprogs-mke2fs: 527696

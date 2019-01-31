@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-ssi: lighttpd-module-ssi
 FILES_lighttpd-module-ssi: /usr/lib/mod_ssi.so
 FILERPROVIDESFLIST_lighttpd-module-ssi: /usr/lib/mod@underscore@ssi.so
-FILES_INFO: {"/usr/lib/mod_ssi.so": 24584}
-FILERPROVIDES_/usr/lib/mod@underscore@ssi.so_lighttpd-module-ssi: elf(buildid) (= 88aa2c51ddc5f6e772839cbe4f4ceae5f41c1551) mod_ssi.so
+FILES_INFO: {"/usr/lib/mod_ssi.so": 24548}
+FILERPROVIDES_/usr/lib/mod@underscore@ssi.so_lighttpd-module-ssi: elf(buildid) (= ee7452399a3d5420d2b02ca1501ae11ffe044bc8) mod_ssi.so
 FILERDEPENDSFLIST_lighttpd-module-ssi: /usr/lib/mod@underscore@ssi.so
 FILERDEPENDS_/usr/lib/mod@underscore@ssi.so_lighttpd-module-ssi: libc.so.6 libc.so.6(GLIBC_2.4) libpcre.so.1 rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-ssi: 24584
+PKGSIZE_lighttpd-module-ssi: 24548

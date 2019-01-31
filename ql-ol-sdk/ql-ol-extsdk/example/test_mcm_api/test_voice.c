@@ -20,8 +20,6 @@ st_api_test_case at_voice_testlist[] =
     {11,    "QL_Voice_Call_Ecall"},
     {12,    "QL_Voice_Call_UpdateMsd"},
     {13,    "QL_Voice_Call_SetAutoAnswer"},
-    {14,    "QL_Voice_Call_GetCallStatus"},
-    {15,    "QL_Voice_Call_CancelDial"},
 
     {-1,   "Return to main menu"}
 };
@@ -101,9 +99,6 @@ static int test_voice(void)
         }
         case 5://"QL_Voice_Call_End"
         {
-            printf("please input end call id: \n");
-            scanf("%d", &voice_call_id);
-            
             ret = QL_Voice_Call_End(h_voice, voice_call_id);
             printf("QL_Voice_Call_End voice_call_id=%d, ret = %d\n", voice_call_id, ret);
             break;
@@ -160,42 +155,7 @@ static int test_voice(void)
             printf("QL_Voice_Call_SetAutoAnswer ret = %d\n", ret);
             break;
         } 
-
-        case 14://"QL_Voice_Call_GetCallStatus"
-        {
-            int i;
-            ql_mcm_voice_calls_state_t t_info = {0};
-            char *call_direct[] = { "MO",       "MT",       "??",           "??"};
-            char *voice_tech[]  = { "3GPP   ",  "3GPP2  ",  "UNKNOWN",      "UNKNOWN"};
-            char *voice_prsnt[] = { "UNKNOWN",  "ALLOWED",  "RESTRICTED",   "PAYPHONE  "};
-            char *call_state[]  = { "INCOMING", "DIALING",  "ALERTING",     "ACTIVE", 
-                                    "HOLD",     "END",      "WAITING",      "UNKNOWN"};
-            
-            ret = QL_Voice_Call_GetCallStatus(h_voice, -1, &t_info); // -1<0 means all, you can specified it with voice_call_id
-            printf("QL_Voice_Call_GetCallStatus ret = %d\n", ret);
-            for (i = 0; i < t_info.calls_len; i++)
-            {
-                printf("call[%d] call_ID:%d, direction:%s, number:%s, presentation:%s, tech:%s, state:%s, call_end_reason:%d\n",
-                                i,
-                                t_info.calls[i].call_id,
-                                call_direct[t_info.calls[i].direction & 0x03],
-                                t_info.calls[i].number,
-                                voice_prsnt[t_info.calls[i].number_presentation & 0x03],
-                                voice_tech[t_info.calls[i].tech & 0x03],
-                                call_state[t_info.calls[i].state & 0x07],
-                                t_info.calls[i].call_end_reason);
-            }
-            break;
-        } 
-
-        case 15://"QL_Voice_Call_CancelDial"
-        {
-            ret = QL_Voice_Call_CancelDial(h_voice);
-            printf("QL_Voice_Call_CancelDial ret = %d\n", ret);
-            break;
-        } 
-
-
+    
         default:
             show_group_help(&t_voice_test);
         }

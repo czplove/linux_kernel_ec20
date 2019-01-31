@@ -12,5 +12,5 @@ SECTION_expat-dbg: devel
 PKG_expat-dbg: libexpat-dbg
 ALLOW_EMPTY_expat-dbg: 1
 FILES_expat-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/expat/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/expat/.debug /usr/lib/matchbox-panel/.debug /usr/lib/expat/expat/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/xmlwf": 9054, "/usr/lib/.debug/libexpat.so.1.6.0": 20248}
-PKGSIZE_expat-dbg: 29302
+FILES_INFO: {"/usr/lib/.debug/libexpat.so.1.6.0": 20248, "/usr/bin/.debug/xmlwf": 9018}
+PKGSIZE_expat-dbg: 29266

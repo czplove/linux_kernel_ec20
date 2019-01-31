@@ -7,7 +7,7 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_diag-reboot-app-dev: Reboot Diag  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_diag-reboot-app-dev: diag-reboot-app version git-invalidgit-r5 - Development files
 RDEPENDS_diag-reboot-app-dev: diag-reboot-app (= git-invalidgit-r5)
-RRECOMMENDS_diag-reboot-app-dev: ql-syslog-dev glib-2.0-dev glibc-dev qmi-dev diag-dev
+RRECOMMENDS_diag-reboot-app-dev: glib-2.0-dev glibc-dev qmi-dev diag-dev
 SECTION_diag-reboot-app-dev: devel
 PKG_diag-reboot-app-dev: diag-reboot-app-dev
 ALLOW_EMPTY_diag-reboot-app-dev: 1

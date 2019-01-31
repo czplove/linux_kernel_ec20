@@ -14,7 +14,7 @@ PKG_dbus-lib: libdbus-1-3
 FILES_dbus-lib: /usr/lib/lib*.so.*
 FILERPROVIDESFLIST_dbus-lib: /usr/lib/libdbus-1.so.3.8.8
 FILES_INFO: {"/usr/lib/libdbus-1.so.3": 233056}
-FILERPROVIDES_/usr/lib/libdbus-1.so.3.8.8_dbus-lib: elf(buildid) (= 4c77adcadfd386a96a9f22a3faa524a00cfc9900) libdbus-1.so.3
+FILERPROVIDES_/usr/lib/libdbus-1.so.3.8.8_dbus-lib: elf(buildid) (= 939aed2f17f8fd763de71728d7e305c6df2a58d2) libdbus-1.so.3
 FILERDEPENDSFLIST_dbus-lib: /usr/lib/libdbus-1.so.3.8.8
 FILERDEPENDS_/usr/lib/libdbus-1.so.3.8.8_dbus-lib: libc.so.6 libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_dbus-lib: 233056

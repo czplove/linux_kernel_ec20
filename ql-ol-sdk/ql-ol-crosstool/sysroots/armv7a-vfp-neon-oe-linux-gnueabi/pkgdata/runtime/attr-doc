@@ -9,5 +9,5 @@ SUMMARY_attr-doc: Utilities for manipulating filesystem extended attributes - Do
 SECTION_attr-doc: doc
 PKG_attr-doc: attr-doc
 FILES_attr-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILES_INFO: {"/usr/share/doc/attr/COPYING": 18312, "/usr/share/man/man5/attr.5.gz": 2748, "/usr/share/doc/attr/COPYING.LGPL": 26763, "/usr/share/doc/attr/PORTING": 3221, "/usr/share/doc/attr/CHANGES.gz": 5039, "/usr/share/man/man1/setfattr.1.gz": 1605, "/usr/share/doc/attr/README": 422, "/usr/share/man/man1/attr.1.gz": 2421, "/usr/share/man/man1/getfattr.1.gz": 1970}
+FILES_INFO: {"/usr/share/doc/attr/COPYING": 18312, "/usr/share/man/man1/attr.1.gz": 2421, "/usr/share/man/man5/attr.5.gz": 2748, "/usr/share/doc/attr/PORTING": 3221, "/usr/share/doc/attr/CHANGES.gz": 5039, "/usr/share/man/man1/setfattr.1.gz": 1605, "/usr/share/doc/attr/README": 422, "/usr/share/doc/attr/COPYING.LGPL": 26763, "/usr/share/man/man1/getfattr.1.gz": 1970}
 PKGSIZE_attr-doc: 62501

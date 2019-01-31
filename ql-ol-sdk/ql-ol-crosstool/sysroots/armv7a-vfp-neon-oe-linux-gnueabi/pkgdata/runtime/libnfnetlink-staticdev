@@ -10,5 +10,5 @@ RDEPENDS_libnfnetlink-staticdev: libnfnetlink-dev (= 1.0.0-r0)
 SECTION_libnfnetlink-staticdev: devel
 PKG_libnfnetlink-staticdev: libnfnetlink-staticdev
 FILES_libnfnetlink-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libnfnetlink/*.a
-FILES_INFO: {"/usr/lib/libnfnetlink.a": 30456}
-PKGSIZE_libnfnetlink-staticdev: 30456
+FILES_INFO: {"/usr/lib/libnfnetlink.a": 30420}
+PKGSIZE_libnfnetlink-staticdev: 30420

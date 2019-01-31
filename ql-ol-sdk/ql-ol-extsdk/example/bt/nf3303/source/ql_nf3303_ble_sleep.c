@@ -26,8 +26,8 @@ static int pin_value = 0; /*BT_HOST_WAKE Pin Value*/
 
 #if defined(__QUECTEL_PROJECT_AG35C__) || defined(__QUECTEL_PROJECT_AG35CE__) \
     || defined(__QUECTEL_PROJECT_AG35CEN__)|| defined(__QUECTEL_PROJECT_AG35CEVBM__)
-static Enum_PinName BT_HostWakePin = PINNAME_WLAN_WAKE;
-static Enum_PinName BT_DevWakePin = PINNAME_GPIO4;
+static Enum_PinName BT_HostWakePin = PINNAME_GPIO4;
+static Enum_PinName BT_DevWakePin = PINNAME_GPIO2;
 #else
 static Enum_PinName BT_HostWakePin = PINNAME_GPIO1;
 static Enum_PinName BT_DevWakePin = PINNAME_GPIO6;

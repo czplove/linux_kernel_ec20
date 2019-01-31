@@ -7,5 +7,5 @@ Name: libkmod
 Description: Library to deal with kernel modules
 Version: 19
 Libs: -L${libdir} -lkmod
-Libs.private:  -L/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/lib -lz 
+Libs.private:  -L/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/usr/lib -lz 
 Cflags: -I${includedir}

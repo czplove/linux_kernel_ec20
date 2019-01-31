@@ -10,5 +10,5 @@ RDEPENDS_ql-ol-extsdk-staticdev: ql-ol-extsdk-dev (= git-invalidgit-r01)
 SECTION_ql-ol-extsdk-staticdev: devel
 PKG_ql-ol-extsdk-staticdev: ql-ol-extsdk-staticdev
 FILES_ql-ol-extsdk-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-ol-extsdk/*.a
-FILES_INFO: {"/usr/lib/libql_common_api.a": 1793232, "/usr/lib/libql_peripheral.a": 107918}
-PKGSIZE_ql-ol-extsdk-staticdev: 1901150
+FILES_INFO: {"/usr/lib/libql_common_api.a": 1366588, "/usr/lib/libql_peripheral.a": 105098, "/usr/lib/libql_at.a": 63096}
+PKGSIZE_ql-ol-extsdk-staticdev: 1534782

@@ -12,5 +12,5 @@ SECTION_acdbloader-dbg: devel
 PKG_acdbloader-dbg: libacdbloader-dbg
 ALLOW_EMPTY_acdbloader-dbg: 1
 FILES_acdbloader-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/acdbloader/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/acdbloader/.debug /usr/lib/matchbox-panel/.debug /usr/lib/acdbloader/acdbloader/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libacdbloader.so.1.0.0": 186313}
-PKGSIZE_acdbloader-dbg: 186313
+FILES_INFO: {"/usr/lib/.debug/libacdbloader.so.1.0.0": 185913}
+PKGSIZE_acdbloader-dbg: 185913

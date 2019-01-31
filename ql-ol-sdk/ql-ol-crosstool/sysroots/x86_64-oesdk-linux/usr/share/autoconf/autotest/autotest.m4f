@@ -44,10 +44,10 @@ m4_divert_push([TEST_SCRIPT])dnl
 
 T8,46
 AT_SETUPm4_fatal([AT_SETUP: missing AT_INIT detected])
-T27,227
-m4_location(_AS_ME_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1122
-T20,226
-m4_location(AS_EXIT)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:585
+T27,209
+m4_location(_AS_ME_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1122
+T20,208
+m4_location(AS_EXIT)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:585
 T21,479
 _AS_VAR_ARITH_PREPARE_m4_defun_pro([$0])AS_FUNCTION_DESCRIBE([as_fn_arith], [ARG...],
 [Perform arithmetic evaluation on the ARGs, and store the result in
@@ -70,8 +70,8 @@ m4_map_args_sepm4_if([$#], [0], [m4_fatal([$0: too few arguments: $#])],
        [$#], [3], [],
        [$#], [4], [$1[$4]$2[]],
        [$1[$4]$2[]_m4_foreach([$3[]$1], [$2], m4_shift3($@))])
-T22,227
-m4_location(AS_TEST_X)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1090
+T22,209
+m4_location(AS_TEST_X)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1090
 T16,3
 _m4_divert(HELP)300
 T8,150
@@ -128,8 +128,8 @@ m4_list_cmp_$0_raw(m4_dquote($1), m4_dquote($2))
 T7,84
 _m4_for$4[$1]$5[]m4_if([$1], [$2], [],
 		 [$0(m4_eval([$1 + $3]), [$2], [$3], [$4], [$5])])
-T27,231
-m4_location(_AT_ARG_OPTION)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/autotest/general.m4:1693
+T27,213
+m4_location(_AT_ARG_OPTION)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/autotest/general.m4:1693
 T12,78
 m4_foreach_wm4_pushdef([$1])m4_map_args_w([$2],
   [m4_define([$1],], [)$3])m4_popdef([$1])
@@ -143,8 +143,8 @@ _m4_dumpdefm4_if([$#], [0], [m4_fatal([$0: missing argument])],
        [m4_map_args_sep([m4_builtin([dumpdef],], [)], [], $@)])
 T20,3
 _m4_divert(HELP_END)305
-T25,227
-m4_location(AS_VAR_ARITH)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1981
+T25,209
+m4_location(AS_VAR_ARITH)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1981
 T14,131
 m4_set_add_allm4_define([_m4_set_size($1)], m4_eval(m4_set_size([$1])
   + m4_len(m4_ifdef([_m4_set_cleanup($1)], [_$0_check], [_$0])([$1], $@))))
@@ -161,8 +161,8 @@ AS_VAR_TEST_SETAS_LITERAL_WORD_IF([$1],
   [eval \${$1+:} false])
 T7,111
 AS_EXIT_m4_defun_pro([$0])AS_REQUIRE([_AS_EXIT_PREPARE])[]as_fn_exit m4_ifval([$1], [$1], [$][?])[]_m4_defun_epi([$0])
-T27,227
-m4_location(_AS_CR_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1793
+T27,209
+m4_location(_AS_CR_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1793
 T13,175
 m4_defun_initm4_define([$1], [$3[]])m4_defun([$1],
    [$2[]_m4_popdef(]m4_dquote($[0])[)m4_indir(]m4_dquote($[0])dnl
@@ -202,15 +202,15 @@ T18,72
 m4_version_compare_m4_list_cmp_raw(_m4_version_unletter([$1]), _m4_version_unletter([$2]))
 T32,0
 m4_include(autotest/specific.m4)
-T31,227
-m4_location(_AS_LINENO_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1167
+T31,209
+m4_location(_AS_LINENO_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1167
 T25,1
 _m4_divert(M4SH-SANITIZE)4
 T10,120
 _AS_ESCAPEm4_if(m4_index(m4_translit([[$1]], [$3], [$2$2$2$2]), [$2]), [-1],
        [$0_], [m4_bpatsubst])([$1], [[$2$3]], [\\\&])
-T29,226
-m4_location(_AS_EXIT_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:568
+T29,208
+m4_location(_AS_EXIT_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:568
 T15,165
 _m4_set_add_allm4_if([$#], [2], [],
        [m4_ifdef([_m4_set([$1],$3)], [],
@@ -268,8 +268,8 @@ _AS_IFelif $1; then :
 
 T13,15
 AS_VAR_POPDEFm4_popdef([$1])
-T23,226
-m4_location(AS_REQUIRE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:385
+T23,208
+m4_location(AS_REQUIRE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:385
 F6,3
 m4_lenlen
 T14,42
@@ -281,8 +281,8 @@ T10,115
 AS_VAR_GETAS_LITERAL_WORD_IF([$1],
 	       [$$1],
   [`eval 'as_val=${'_AS_ESCAPE([[$1]], [`], [\])'};AS_ECHO(["$as_val"])'`])
-T29,227
-m4_location(_AS_LN_S_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1223
+T29,209
+m4_location(_AS_LN_S_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1223
 F12,9
 m4_debugmodedebugmode
 T10,280
@@ -299,8 +299,8 @@ m4_append_uniqm4_ifval([$3], [m4_if(m4_index([$2], [$3]), [-1], [],
 				[$0: `$2' contains `$3'])])])_$0($@)
 T15,0
 _m4_divert_dump
-T27,227
-m4_location(AS_VAR_PUSHDEF)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:2066
+T27,209
+m4_location(AS_VAR_PUSHDEF)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:2066
 T20,20
 m4_PACKAGE_BUGREPORTbug-autoconf@gnu.org
 T22,38
@@ -342,8 +342,8 @@ _m4_append_uniqm4_ifdef([$1],
 	  [m4_if(m4_index([$3]_m4_defn([$1])[$3], [$3$2$3]), [-1],
 		 [m4_append([$1], [$2], [$3])$4], [$5])],
 	  [m4_define([$1], [$2])$4])
-T32,227
-m4_location(_AS_MKDIR_P_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1296
+T32,209
+m4_location(_AS_MKDIR_P_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1296
 T20,201
 _AS_BASENAME_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_EXPR_PREPARE])if (basename -- /) >/dev/null 2>&1 && test "X`basename -- / 2>&1`" = "X/"; then
   as_basename=basename
@@ -400,8 +400,8 @@ m4_popdefm4_if([$#], [0], [[$0]],
        [$#], [1], [m4_ifdef([$1], [_m4_popdef([$1])],
 			    [m4_fatal([$0: undefined macro: $1])])],
        [m4_map_args([$0], $@)])
-T21,226
-m4_location(AS_UNSET)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:671
+T21,208
+m4_location(AS_UNSET)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:671
 T12,152
 _m4_set_dumpm4_ifdef([_m4_set([$1])],
 	  [[$2]_m4_defn([_m4_set([$1])])_m4_popdef([_m4_set([$1],]_m4_defn(
@@ -432,10 +432,10 @@ m4_case([$1],
       [true], [m4_define([AT_xfail], [at_xfail=yes])],
       [m4_append([AT_xfail], [
       $1 && at_xfail=yes])])
-T31,226
-m4_location(_AS_ECHO_N_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:807
-T27,226
-m4_location(AS_LINENO_PUSH)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:894
+T31,208
+m4_location(_AS_ECHO_N_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:807
+T27,208
+m4_location(AS_LINENO_PUSH)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:894
 T14,142
 _AT_CHECK_EXITm4_define([AT_ingroup])AS_ECHO(_AT_LINE_ESCAPED) >"$at_check_line_file"
 m4_ifval([$1], [($1) \
@@ -458,16 +458,16 @@ _AS_MKDIR_Pcase $as_dir in #(
     test -z "$as_dirs" || eval "mkdir $as_dirs"
   } || test -d "$as_dir" || AS_ERROR([cannot create directory $as_dir])
 
-T39,227
-m4_location(_AS_PATH_SEPARATOR_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1315
+T39,209
+m4_location(_AS_PATH_SEPARATOR_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1315
 T5,73
 m4_dom4_if([$#], 0, [],
        [$#], 1, [$1[]],
        [$1[]$0(m4_shift($@))])
 F9,6
 m4_substrsubstr
-T33,226
-m4_location(_AS_DETECT_SUGGESTED)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:167
+T33,208
+m4_location(_AS_DETECT_SUGGESTED)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:167
 T18,8
 m4_PACKAGE_TARNAMEautoconf
 T13,252
@@ -478,8 +478,8 @@ m4_set_removem4_set_contains([$1], [$2], [_m4_set_size([$1],
 		      [_m4_set([$1],$2)], [0])])$3], [$4])
 T19,109
 _m4_defun_epi_outer_m4_popdef([_m4_divert_dump], [_m4_diverting([$1])], [_m4_diverting])m4_divert_pop([GROW])m4_undivert([GROW])
-T27,227
-m4_location(_AS_TR_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1878
+T27,209
+m4_location(_AS_TR_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1878
 T15,58
 m4_divert_stackm4_stack_foreach_sep_lifo([_m4_divert_stack], [], [], [
 ])
@@ -489,10 +489,10 @@ T14,28
 AS_VAR_PUSHDEF_$0([$1], m4_expand([$2]))[]
 T14,130
 AS_VAR_PUSHDEF_m4_defun_pro([$0])AS_REQUIRE([_AS_TR_SH_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
-T18,226
-m4_location(AS_IF)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:639
-T31,227
-m4_location(AS_VERSION_COMPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1767
+T18,208
+m4_location(AS_IF)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:639
+T31,209
+m4_location(AS_VERSION_COMPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1767
 F9,6
 m4_syscmdsyscmd
 T28,44
@@ -531,8 +531,8 @@ T8,0
 __unix__
 T17,77
 AT_ARG_OPTION_ARG_m4_defun_pro([$0])_AT_ARG_OPTION([$1],[$2],1,[$3],[$4])[]_m4_defun_epi([$0])
-T20,227
-m4_location(AS_LN_S)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1257
+T20,209
+m4_location(AS_LN_S)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1257
 T14,109
 m4_file_appendm4_syscmd([cat >>$1 <<_m4eof
 $2
@@ -547,8 +547,8 @@ m4_pushdef([$1], [$as_[$1]])],
 [m4_pushdef([$1], [_AS_TR_SH_LITERAL([$2])])])
 T15,49
 m4_rename_forcem4_ifdef([$2], [_m4_undefine([$2])])m4_rename($@)
-T28,227
-m4_location(AS_EXECUTABLE_P)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1098
+T28,209
+m4_location(AS_EXECUTABLE_P)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1098
 T9,222
 m4_bmatchm4_if([$#], 0, [m4_fatal([$0: too few arguments: $#])],
        [$#], 1, [m4_fatal([$0: too few arguments: $#: $1])],
@@ -581,8 +581,8 @@ T28,0
 AT_DIFF_STDERR(ignore-nolog)
 T27,3
 _m4_divert(VERSION_NOTICES)351
-T26,226
-m4_location(AS_SET_STATUS)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:649
+T26,208
+m4_location(AS_SET_STATUS)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:649
 T14,37
 m4_PACKAGE_URLhttp://www.gnu.org/software/autoconf/
 T11,62
@@ -2255,8 +2255,8 @@ m4_nm4_if([$1],
        [], [],
 	   [$1
 ])
-T26,226
-m4_location(AS_LINENO_POP)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:904
+T26,208
+m4_location(AS_LINENO_POP)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:904
 T8,22
 AS_TR_SH_$0(m4_expand([$1]))[]
 T8,124
@@ -2277,8 +2277,8 @@ T29,3
 _m4_divert(HELP_TUNING_BEGIN)302
 T22,3
 _m4_divert(HELP_MODES)301
-T21,227
-m4_location(AS_TR_SH)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1826
+T21,209
+m4_location(AS_TR_SH)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1826
 T22,3
 _m4_divert(HELP_OTHER)304
 T9,35
@@ -2295,8 +2295,8 @@ T12,25
 m4_set_listcm4_set_map_sep([$1], [,])
 F9,6
 m4_divnumdivnum
-T30,227
-m4_location(AS_INIT_GENERATED)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:2121
+T30,209
+m4_location(AS_INIT_GENERATED)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:2121
 T21,76
 _m4_set_add_all_checkm4_if([$#], [2], [],
        [m4_set_add([$1], [$3])$0([$1], m4_shift2($@))])
@@ -2535,8 +2535,8 @@ F8,5
 m4_indirindir
 T12,1
 _m4_divert()0
-T31,227
-m4_location(_AS_TR_CPP_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1845
+T31,209
+m4_location(_AS_TR_CPP_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1845
 F12,9
 m4_changecomchangecom
 T20,40
@@ -2677,12 +2677,12 @@ AS_REQUIRE([_AS_VAR_ARITH_PREPARE], [], [M4SH-INIT-FN])
 m4_divert_pop[][]_m4_defun_epi([$0])
 T11,17
 m4_location__file__:__line__
-T24,226
-m4_location(AS_BASENAME)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:942
+T24,208
+m4_location(AS_BASENAME)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:942
 T22,30
 AT_DIFF_STDERR(ignore)echo stderr:; cat "$at_stderr"
-T36,226
-m4_location(_AS_DETECT_BETTER_SHELL)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:194
+T36,208
+m4_location(_AS_DETECT_BETTER_SHELL)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:194
 T11,54
 m4_ifnblankm4_if(m4_translit([[$1]],  [ ][	][
 ]), [], [$3], [$2])
@@ -2725,8 +2725,8 @@ m4_form4_pushdef([$1], m4_eval([$2]))m4_cond([m4_eval(([$3]) > ([$2]))], 1,
 	 [m4_pushdef([_m4_step])_$0(_m4_defn([$1]), _m4_defn([$1]), 0,])[m4_define([$1],], [)$5])m4_popdef([_m4_step], [$1])
 T8,42
 _AS_ECHO_AS_ECHO_UNQUOTED([_AS_QUOTE([$1])], [$2])
-T25,226
-m4_location(_AS_ECHO_LOG)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:790
+T25,208
+m4_location(_AS_ECHO_LOG)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:790
 T17,185
 _AS_TR_SH_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_CR_PREPARE])# Sed expression to map a string onto a valid variable name.
 as_tr_sh="eval sed 'y%*+%pp%;s%[[^_$as_cr_alnum]]%_%g'"
@@ -2776,8 +2776,8 @@ _AS_CASE_DEFAULT [@%:@(]
     $1 ;;
 T7,30
 AS_WARNAS_MESSAGE([WARNING: $1], [2])
-T30,226
-m4_location(_AS_BASENAME_EXPR)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:921
+T30,208
+m4_location(_AS_BASENAME_EXPR)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:921
 T17,490
 _AS_TR_SH_LITERALm4_translit([[$1]],
   [*+[]][	
@@ -2852,8 +2852,8 @@ m4_set_deletem4_ifdef([_m4_set([$1])],
 		    [_m4_popdef([_m4_set_cleanup($1)])])m4_ifdef(
 		    [_m4_set_size($1)],
 		    [_m4_popdef([_m4_set_size($1)])])])
-T34,226
-m4_location(_AS_REEXEC_WITH_SHELL)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:279
+T34,208
+m4_location(_AS_REEXEC_WITH_SHELL)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:279
 T12,10
 m4_cr_digits0123456789
 T17,17
@@ -2905,8 +2905,8 @@ m4_wrap([m4_popdef([_m4_divert_diversion])m4_ifdef(
   [_m4_divert_diversion], [m4_fatal([$0: unbalanced m4_divert_push:
 ]m4_divert_stack)])_m4_popdef([_m4_divert_stack])m4_divert_push([KILL])])
 
-T21,226
-m4_location(AS_ERROR)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:883
+T21,208
+m4_location(AS_ERROR)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:883
 T11,162
 m4_dumpdefsm4_if([$#], [0], [m4_fatal([$0: missing argument])],
        [$#], [1], [m4_stack_foreach_lifo([$1], [m4_dumpdef([$1])m4_ignore])],
@@ -2927,14 +2927,14 @@ m4_n([$2])$1 ()
 {
 $3
 } @%:@ $1[]
-T22,227
-m4_location(AS_TR_CPP)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1859
+T22,209
+m4_location(AS_TR_CPP)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1859
 T8,28
 _AS_CASE [@%:@(]
   $1[)] :
     $2 ;;
-T19,226
-m4_location(AS_FOR)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:607
+T19,208
+m4_location(AS_FOR)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:607
 T9,156
 m4_escapem4_if(m4_index(m4_translit([$1],
    [[]#,()][abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789], [$$$]), [$]),
@@ -2956,18 +2956,18 @@ m4_if(AS_MESSAGE_FD, [1], [], [exec AS_MESSAGE_FD>&1
 _ASEOF
 test $as_write_fail = 0 && chmod +x $1[]dnl
 _m4_popdef([AS_MESSAGE_LOG_FD])[]_m4_defun_epi([$0])
-T29,226
-m4_location(_AS_DIRNAME_EXPR)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:975
+T29,208
+m4_location(_AS_DIRNAME_EXPR)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:975
 T12,24
 m4_rename_m4m4_rename([$1], [m4_$1])
-T30,226
-m4_location(_AS_UNSET_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:657
+T30,208
+m4_location(_AS_UNSET_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:657
 T20,111
 m4_stack_foreach_sep_m4_stack_reverse([$1], [m4_tmp-$1])_m4_stack_reverse([m4_tmp-$1], [$1], [$2[]_m4_defn([m4_tmp-$1])$3], [$4[]])
-T20,227
-m4_location(AS_ECHO)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1026
-T35,227
-m4_location(_AS_VAR_APPEND_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1906
+T20,209
+m4_location(AS_ECHO)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1026
+T35,209
+m4_location(_AS_VAR_APPEND_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1906
 T19,156
 _m4_defun_pro_outerm4_set_delete([_m4_provide])m4_pushdef([_m4_diverting([$1])])m4_pushdef([_m4_diverting], [$1])m4_pushdef([_m4_divert_dump], m4_divnum)m4_divert_push([GROW])
 T18,49
@@ -2996,12 +2996,12 @@ T21,101
 m4_stack_foreach_lifo_m4_stack_reverse([$1], [m4_tmp-$1], [$2(_m4_defn([m4_tmp-$1]))])_m4_stack_reverse([m4_tmp-$1], [$1])
 T11,33
 m4_set_listm4_set_map_sep([$1], [], [], [,])
-T32,226
-m4_location(_AS_DETECT_REQUIRED)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:156
-T23,226
-m4_location(AS_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:353
-T29,227
-m4_location(_AS_TEST_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1384
+T32,208
+m4_location(_AS_DETECT_REQUIRED)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:156
+T23,208
+m4_location(AS_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:353
+T29,209
+m4_location(_AS_TEST_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1384
 F8,8
 __line____line__
 T9,793
@@ -3101,8 +3101,8 @@ m4_set_containsm4_ifdef([_m4_set_cleanup($1)],
 	  [m4_if(m4_ifdef([_m4_set([$1],$2)],
 		    [m4_indir([_m4_set([$1],$2)])], [0]), [1], [$3], [$4])],
 	  [m4_ifdef([_m4_set([$1],$2)], [$3], [$4])])
-T30,231
-m4_location(AT_ARG_OPTION_ARG)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/autotest/general.m4:1806
+T30,213
+m4_location(AT_ARG_OPTION_ARG)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/autotest/general.m4:1806
 F10,7
 m4_esyscmdesyscmd
 T22,43
@@ -3134,8 +3134,8 @@ m4_bpatsubstsm4_if([$#], 0, [m4_fatal([$0: too few arguments: $#])],
        [$#], 2, [m4_unquote(m4_builtin([patsubst], [[$1]], [$2]))],
        [$#], 3, [m4_unquote(m4_builtin([patsubst], [[$1]], [$2], [$3]))],
        [_$0($@m4_if(m4_eval($# & 1), 0, [,]))])
-T23,226
-m4_location(AS_MESSAGE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:834
+T23,208
+m4_location(AS_MESSAGE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:834
 F7,4
 m4_decrdecr
 T12,93
@@ -3148,12 +3148,12 @@ m4_set_emptym4_ifdef([_m4_set_size($1)],
 	  [m4_if(m4_indir([_m4_set_size($1)]), [0], [$2], [$3])], [$2])
 T15,36
 m4_set_contentsm4_set_map_sep([$1], [], [], [[$2]])
-T32,227
-m4_location(_AS_DIRNAME_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1011
+T32,209
+m4_location(_AS_DIRNAME_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1011
 T15,55
 _AS_TR_SH_INDIR`AS_ECHO(["_AS_ESCAPE([[$1]], [`], [\])"]) | $as_tr_sh`
-T20,226
-m4_location(AS_CASE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:550
+T20,208
+m4_location(AS_CASE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:550
 T10,168
 m4_combinem4_if([$2], [], [], m4_eval([$# > 3]), [1],
 [m4_map_args_sep([m4_map_args_sep(m4_dquote(], [)[[$3]], [], [[$1]],]]m4_dquote(m4_dquote(m4_shift3($@)))[[)], [[$1]], $2)])
@@ -3172,12 +3172,12 @@ m4_cr_not_symbols1
 T18,192
 m4_cr_not_symbols2	
  !"#*%&'()$+,./:;<=>?@[\]^`{|}~€‚ƒ„…†‡ˆ‰Š‹Œ‘’“”•–—˜™š›œŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäåæçèéêëìíîïğñòóôõö÷øùúûüışÿ-
-T23,227
-m4_location(AS_DIRNAME)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1002
+T23,209
+m4_location(AS_DIRNAME)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1002
 F12,8
 m4_bpatsubstpatsubst
-T31,226
-m4_location(_AS_SHELL_SANITIZE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:451
+T31,208
+m4_location(_AS_SHELL_SANITIZE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:451
 T7,2
 m4_echo$@
 T20,1
@@ -3189,12 +3189,12 @@ m4_stack_foreach_sep_lifo_m4_stack_reverse([$1], [m4_tmp-$1], [$2[]_m4_defn([m4_
 T14,102
 _AS_ME_PREPARE_m4_defun_pro([$0])AS_REQUIRE([_AS_BASENAME_PREPARE])as_me=`AS_BASENAME("$[0]")`
 []_m4_defun_epi([$0])
-T26,227
-m4_location(_AS_PATH_WALK)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1339
+T26,209
+m4_location(_AS_PATH_WALK)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1339
 T7,91
 m4_argnm4_assert([0 < $1])m4_pushdef([_$0], [_m4_popdef([_$0])]m4_dquote([$]m4_incr([$1])))_$0($@)
-T29,227
-m4_location(_AS_ECHO_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1044
+T29,209
+m4_location(_AS_ECHO_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1044
 T8,27
 m4_ifvalm4_if([$1], [], [$3], [$2])
 T7,197
@@ -3292,18 +3292,18 @@ T9,75
 AS_ESCAPE_$0([$1], m4_if([$2], [], [[`], [\"$]], [m4_substr([$2], [0], [1]), [$2]]))
 T20,4
 _m4_divert_diversionKILL
-T24,226
-m4_location(_AS_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:322
-T22,227
-m4_location(AS_ECHO_N)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1034
+T24,208
+m4_location(_AS_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:322
+T22,209
+m4_location(AS_ECHO_N)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1034
 T15,131
 AT_CAPTURE_FILEm4_ifndef([AT_ingroup],
  [m4_fatal([AT_CAPTURE_FILE: missing AT_SETUP detected])])m4_append_uniq([AT_capture_files], ["$1"], [ \
 ])
-T30,227
-m4_location(_AS_TR_SH_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1805
-T23,227
-m4_location(AS_MKDIR_P)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1289
+T30,209
+m4_location(_AS_TR_SH_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1805
+T23,209
+m4_location(AS_MKDIR_P)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1289
 F12,8
 _m4_undivertundivert
 T7,54
@@ -3318,8 +3318,8 @@ T16,56
 _AS_TR_CPP_INDIR`AS_ECHO(["_AS_ESCAPE([[$1]], [`], [\])"]) | $as_tr_cpp`
 T17,28
 m4_default_nblankm4_ifblank([$1], [$2], [$1])
-T28,226
-m4_location(_AS_DIRNAME_SED)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:982
+T28,208
+m4_location(_AS_DIRNAME_SED)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:982
 T18,540
 _AS_TR_CPP_LITERALm4_translit([[$1]],
   [*[]][abcdefghijklmnopqrstuvwxyz	
@@ -3512,8 +3512,8 @@ T11,146
 _m4_expand_m4_if([$4], [}>=-],
        [m4_changequote([-=<{$2], [)}>=-])$3m4_changequote([, ])],
        [$0([$1], [($2], -=<{($2$1)}>=-, [}>=-])m4_ignore$2])
-T29,226
-m4_location(_AS_BASENAME_SED)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:926
+T29,208
+m4_location(_AS_BASENAME_SED)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:926
 T14,29
 AT_COLOR_TESTSm4_define([AT_color], [auto])
 T17,64
@@ -3579,8 +3579,8 @@ AS_SET_CATFILEcase $2 in @%:@((
   *) AS_VAR_SET([$1], [$2/$3]);;
   esac;;
 esac[]
-T34,227
-m4_location(_AS_VAR_ARITH_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1948
+T34,209
+m4_location(_AS_VAR_ARITH_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1948
 T13,26
 m4_cr_lettersabcdefghijklmnopqrstuvwxyz
 T11,140
@@ -3649,8 +3649,8 @@ T10,124
 AS_DIRNAME_m4_defun_pro([$0])AS_REQUIRE([_$0_PREPARE])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
 T23,3
 _m4_divert(TEST_SCRIPT)450
-T33,226
-m4_location(_AS_BASENAME_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:954
+T33,208
+m4_location(_AS_BASENAME_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:954
 T13,42
 m4_mapall_sepm4_if([$3], [], [], [_$0([$1], [$2], $3)])
 T9,26
@@ -3746,8 +3746,8 @@ AT_DATAm4_ifndef([AT_ingroup],
 [cat >$1 <<'_ATEOF'
 $2[]_ATEOF
 ])
-T26,227
-m4_location(AS_ME_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1121
+T26,209
+m4_location(AS_ME_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1121
 F7,6
 m4_exitm4exit
 T12,83
@@ -3777,14 +3777,14 @@ T8,33
 m4_applym4_if([$2], [], [$1], [$1($2)])[]
 T30,0
 m4_include(m4sugar/version.m4)
-T26,227
-m4_location(AS_VAR_APPEND)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1939
+T26,209
+m4_location(AS_VAR_APPEND)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1939
 T19,3
 _m4_divert(VERSION)350
 T14,73
 _m4_mapall_sepm4_apply([$1], [$3])_m4_foreach([m4_apply([$2[]$1],], [)], m4_shift2($@))
-T26,231
-m4_location(AT_ARG_OPTION)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/autotest/general.m4:1785
+T26,213
+m4_location(AT_ARG_OPTION)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/autotest/general.m4:1785
 T9,132
 m4_divertm4_popdef([_m4_divert_stack])m4_define([_m4_divert_diversion], [$1])m4_divert_stack_push([$0], [$1])_m4_divert_raw(_m4_divert([$1]))
 F10,7
@@ -3836,8 +3836,8 @@ T13,20
 AS_VAR_APPENDas_fn_append $1 $2[]
 T13,155
 AS_VAR_APPEND_m4_defun_pro([$0])AS_REQUIRE([_AS_VAR_APPEND_PREPARE], [], [M4SH-INIT-FN])[]_m4_popdef([$0])m4_indir([$0]m4_if([$#], [0], [], [,$@]))[]_m4_defun_epi([$0])
-T29,227
-m4_location(_AS_EXPR_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1108
+T29,209
+m4_location(_AS_EXPR_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1108
 T8,198
 _m4_qlenm4_define([m4_qlen-$1],
 m4_if(m4_index([$1], [@]), [-1], [m4_len([$1])],
@@ -3849,10 +3849,10 @@ m4_reversem4_if([$#], [0], [], [$#], [1], [[$1]],
        [$0(m4_shift($@)), [$1]])
 T13,1
 AS_MESSAGE_FD1
-T40,227
-m4_location(_AS_VERSION_COMPARE_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1697
-T30,227
-m4_location(AS_LINENO_PREPARE)/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1166
+T40,209
+m4_location(_AS_VERSION_COMPARE_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1697
+T30,209
+m4_location(AS_LINENO_PREPARE)/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sh.m4:1166
 T10,294
 _m4_escapem4_changequote([-=<{(],[)}>=-])m4_bpatsubst(m4_bpatsubst(m4_bpatsubst(m4_bpatsubst(
 	  -=<{(-=<{(-=<{(-=<{(-=<{($1)}>=-)}>=-)}>=-)}>=-)}>=-,
@@ -3860,8 +3860,8 @@ _m4_escapem4_changequote([-=<{(],[)}>=-])m4_bpatsubst(m4_bpatsubst(m4_bpatsubst(
       -=<{(\[)}>=-, -=<{(@<:@)}>=-),
     -=<{(\])}>=-, -=<{(@:>@)}>=-),
   -=<{(\$)}>=-, -=<{(@S|@)}>=-)m4_changequote([,])
-T16,252
-_m4_divert_stack/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sugar.m4:3259: m4_divert_push: KILL
+T16,234
+_m4_divert_stack/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/work/x86_64-nativesdk-oesdk-linux/nativesdk-autoconf/2.69-r11/autoconf-2.69/lib/m4sugar/m4sugar.m4:3259: m4_divert_push: KILL
 T11,54
 AS_VAR_COPYAS_LITERAL_WORD_IF([$1[]$2], [$1=$$2], [eval $1=\$$2])
 T17,229

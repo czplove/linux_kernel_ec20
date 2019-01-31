@@ -12,8 +12,8 @@ SECTION: network
 PKG_libavahi-gobject: libavahi-gobject0
 FILES_libavahi-gobject: /usr/lib/libavahi-gobject.so.*
 FILERPROVIDESFLIST_libavahi-gobject: /usr/lib/libavahi-gobject.so.0.0.4
-FILES_INFO: {"/usr/lib/libavahi-gobject.so.0": 36176}
-FILERPROVIDES_/usr/lib/libavahi-gobject.so.0.0.4_libavahi-gobject: elf(buildid) (= efd48e39de392eb1577e1e2e5b2ffb93db01b02c) libavahi-gobject.so.0
+FILES_INFO: {"/usr/lib/libavahi-gobject.so.0": 35936}
+FILERPROVIDES_/usr/lib/libavahi-gobject.so.0.0.4_libavahi-gobject: elf(buildid) (= 51b7f952e011c5985b4d2758f1a7e4ea88ac5139) libavahi-gobject.so.0
 FILERDEPENDSFLIST_libavahi-gobject: /usr/lib/libavahi-gobject.so.0.0.4
 FILERDEPENDS_/usr/lib/libavahi-gobject.so.0.0.4_libavahi-gobject: libavahi-client.so.3 libavahi-common.so.3 libavahi-glib.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libdl.so.2 libffi.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 rtld(GNU_HASH)
-PKGSIZE_libavahi-gobject: 36176
+PKGSIZE_libavahi-gobject: 35936

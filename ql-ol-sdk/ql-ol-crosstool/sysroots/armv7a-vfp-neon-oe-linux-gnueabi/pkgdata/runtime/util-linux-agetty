@@ -14,7 +14,7 @@ pkg_postinst_util-linux-agetty: #!/bin/sh\n\tupdate-alternatives --install /sbin
 pkg_postrm_util-linux-agetty: #!/bin/sh\n\tupdate-alternatives --remove  getty /sbin/agetty\n
 FILERPROVIDESFLIST_util-linux-agetty: /sbin/agetty
 FILES_INFO: {"/sbin/agetty": 27912}
-FILERPROVIDES_/sbin/agetty_util-linux-agetty: elf(buildid) (= 470eb647603a26b344b9677a0066f2abd4cab963) /sbin/getty
+FILERPROVIDES_/sbin/agetty_util-linux-agetty: elf(buildid) (= cd5fdff5dda0c978d8ac669e44e74a8ce8aca218) /sbin/getty
 FILERDEPENDSFLIST_util-linux-agetty: /sbin/agetty
 FILERDEPENDS_/sbin/agetty_util-linux-agetty: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-agetty: 27912

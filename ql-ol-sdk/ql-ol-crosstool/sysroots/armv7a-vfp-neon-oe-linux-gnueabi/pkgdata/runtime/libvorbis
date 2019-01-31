@@ -12,9 +12,9 @@ PKG_libvorbis: libvorbis
 FILES_libvorbis: /usr/bin/* /usr/sbin/* /usr/lib/libvorbis/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libvorbis /usr/lib/libvorbis/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_libvorbis: /usr/lib/libvorbisfile.so.3.3.5 /usr/lib/libvorbis.so.0.4.6 /usr/lib/libvorbisenc.so.2.0.9
 FILES_INFO: {"/usr/lib/libvorbisenc.so.2": 1490700, "/usr/lib/libvorbis.so.0": 156252, "/usr/lib/libvorbisfile.so.3": 26836}
-FILERPROVIDES_/usr/lib/libvorbisfile.so.3.3.5_libvorbis: elf(buildid) (= eb63fd36d5641eb7250ee96e79bce57c408be33e) libvorbisfile.so.3
-FILERPROVIDES_/usr/lib/libvorbis.so.0.4.6_libvorbis: elf(buildid) (= 0ff95c13cb40c439f4ec5ba83b1cdd997b07ffdb) libvorbis.so.0
-FILERPROVIDES_/usr/lib/libvorbisenc.so.2.0.9_libvorbis: elf(buildid) (= d0ba2ae024aaf8c5bc53b67b127eec0a4d7041c0) libvorbisenc.so.2
+FILERPROVIDES_/usr/lib/libvorbisfile.so.3.3.5_libvorbis: elf(buildid) (= 62ab25f04f66470851a098e75c2cca9ad3638a30) libvorbisfile.so.3
+FILERPROVIDES_/usr/lib/libvorbis.so.0.4.6_libvorbis: elf(buildid) (= e1c7db31f85062f5a9dbb1d2d455c19eee7e2e93) libvorbis.so.0
+FILERPROVIDES_/usr/lib/libvorbisenc.so.2.0.9_libvorbis: elf(buildid) (= 00e4542a108783f284145a1468b59f12b56d5099) libvorbisenc.so.2
 FILERDEPENDSFLIST_libvorbis: /usr/lib/libvorbisfile.so.3.3.5 /usr/lib/libvorbis.so.0.4.6 /usr/lib/libvorbisenc.so.2.0.9
 FILERDEPENDS_/usr/lib/libvorbisfile.so.3.3.5_libvorbis: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libogg.so.0 libvorbis.so.0 rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/libvorbis.so.0.4.6_libvorbis: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.15) libm.so.6(GLIBC_2.4) libogg.so.0 rtld(GNU_HASH)

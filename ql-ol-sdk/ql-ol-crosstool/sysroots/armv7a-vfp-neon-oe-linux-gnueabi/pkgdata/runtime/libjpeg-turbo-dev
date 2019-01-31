@@ -13,5 +13,5 @@ SECTION_libjpeg-turbo-dev: devel
 PKG_libjpeg-turbo-dev: libjpeg-dev
 ALLOW_EMPTY_libjpeg-turbo-dev: 1
 FILES_libjpeg-turbo-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libjpeg-turbo/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libjpeg.so": 16, "/usr/lib/libturbojpeg.la": 935, "/usr/include/jerror.h": 14748, "/usr/include/jpeglib.h": 50207, "/usr/include/turbojpeg.h": 36565, "/usr/lib/libjpeg.la": 910, "/usr/include/jconfig.h": 1653, "/usr/include/jmorecfg.h": 13774}
+FILES_INFO: {"/usr/lib/libjpeg.so": 16, "/usr/include/jerror.h": 14748, "/usr/lib/libturbojpeg.la": 935, "/usr/include/jpeglib.h": 50207, "/usr/include/turbojpeg.h": 36565, "/usr/lib/libjpeg.la": 910, "/usr/include/jconfig.h": 1653, "/usr/include/jmorecfg.h": 13774}
 PKGSIZE_libjpeg-turbo-dev: 118808

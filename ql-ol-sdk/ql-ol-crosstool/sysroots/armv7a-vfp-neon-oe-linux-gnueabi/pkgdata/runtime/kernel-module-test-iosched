@@ -12,5 +12,5 @@ PKG_kernel-module-test-iosched: kernel-module-test-iosched
 FILES_kernel-module-test-iosched: /lib/modules/3.18.20/kernel/block/test-iosched.ko /etc/modules-load.d/test-iosched.conf /etc/modprobe.d/test-iosched.conf
 pkg_postinst_kernel-module-test-iosched: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
 pkg_postrm_kernel-module-test-iosched: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
-FILES_INFO: {"/lib/modules/3.18.20/kernel/block/test-iosched.ko": 19848}
-PKGSIZE_kernel-module-test-iosched: 19848
+FILES_INFO: {"/lib/modules/3.18.20/kernel/block/test-iosched.ko": 19776}
+PKGSIZE_kernel-module-test-iosched: 19776

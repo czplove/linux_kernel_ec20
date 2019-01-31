@@ -11,5 +11,5 @@ SECTION_qmi-shutdown-modem-dbg: devel
 PKG_qmi-shutdown-modem-dbg: qmi-shutdown-modem-dbg
 ALLOW_EMPTY_qmi-shutdown-modem-dbg: 1
 FILES_qmi-shutdown-modem-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi-shutdown-modem/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi-shutdown-modem/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi-shutdown-modem/qmi-shutdown-modem/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/qmi_shutdown_modem": 28994}
-PKGSIZE_qmi-shutdown-modem-dbg: 28994
+FILES_INFO: {"/usr/bin/.debug/qmi_shutdown_modem": 25403}
+PKGSIZE_qmi-shutdown-modem-dbg: 25403

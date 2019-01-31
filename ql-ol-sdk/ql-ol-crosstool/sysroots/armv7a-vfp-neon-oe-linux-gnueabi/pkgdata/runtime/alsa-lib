@@ -11,12 +11,12 @@ SECTION: libs/multimedia
 PKG_alsa-lib: alsa-lib
 FILES_alsa-lib: /usr/bin/* /usr/sbin/* /usr/lib/alsa-lib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/alsa-lib /usr/lib/alsa-lib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/alsa-lib/smixer/*.so
 FILERPROVIDESFLIST_alsa-lib: /usr/lib/alsa-lib/smixer/smixer-sbase.so /usr/lib/alsa-lib/smixer/smixer-hda.so /usr/lib/alsa-lib/smixer/smixer-ac97.so
-FILES_INFO: {"/usr/lib/alsa-lib/smixer/smixer-sbase.so": 8644, "/usr/lib/alsa-lib/smixer/smixer-hda.so": 6208, "/usr/lib/alsa-lib/smixer/smixer-ac97.so": 6208}
-FILERPROVIDES_/usr/lib/alsa-lib/smixer/smixer-sbase.so_alsa-lib: elf(buildid) (= 29835b6befa2b378ab2e7544cd11263083bc9eeb) smixer-sbase.so
-FILERPROVIDES_/usr/lib/alsa-lib/smixer/smixer-hda.so_alsa-lib: elf(buildid) (= 8ba35bbf4c3ec32d43f70fabe1dfec7f7779e797) smixer-hda.so
-FILERPROVIDES_/usr/lib/alsa-lib/smixer/smixer-ac97.so_alsa-lib: elf(buildid) (= e1a1aeaa3cbd5f7d815a1d5decfce0403eaa2c39) smixer-ac97.so
+FILES_INFO: {"/usr/lib/alsa-lib/smixer/smixer-sbase.so": 8644, "/usr/lib/alsa-lib/smixer/smixer-hda.so": 6192, "/usr/lib/alsa-lib/smixer/smixer-ac97.so": 6192}
+FILERPROVIDES_/usr/lib/alsa-lib/smixer/smixer-sbase.so_alsa-lib: elf(buildid) (= a63ff0084f99d5befb9c4b83060777cce2e00569) smixer-sbase.so
+FILERPROVIDES_/usr/lib/alsa-lib/smixer/smixer-hda.so_alsa-lib: elf(buildid) (= 02f6420eac10f3f344c546cedc33e941bc0ecadd) smixer-hda.so
+FILERPROVIDES_/usr/lib/alsa-lib/smixer/smixer-ac97.so_alsa-lib: elf(buildid) (= b75fcc583a93cd5d2d2954f0a29976b086fa1251) smixer-ac97.so
 FILERDEPENDSFLIST_alsa-lib: /usr/lib/alsa-lib/smixer/smixer-sbase.so /usr/lib/alsa-lib/smixer/smixer-hda.so /usr/lib/alsa-lib/smixer/smixer-ac97.so
 FILERDEPENDS_/usr/lib/alsa-lib/smixer/smixer-sbase.so_alsa-lib: libasound.so.2 libasound.so.2(ALSA_0.9) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libm.so.6 libpthread.so.0 librt.so.1 rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/alsa-lib/smixer/smixer-hda.so_alsa-lib: libasound.so.2 libasound.so.2(ALSA_0.9) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libm.so.6 libpthread.so.0 librt.so.1 rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/alsa-lib/smixer/smixer-ac97.so_alsa-lib: libasound.so.2 libasound.so.2(ALSA_0.9) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libm.so.6 libpthread.so.0 librt.so.1 rtld(GNU_HASH)
-PKGSIZE_alsa-lib: 21060
+PKGSIZE_alsa-lib: 21028

@@ -3,54 +3,14 @@
 /**
   @file mcm_voice_v01.h
 
-  @brief This is the public header file which defines the mcm_voice service Data structures.
-
-  This header file defines the types and structures that were defined in
-  mcm_voice. It contains the constant values defined, enums, structures,
-  messages, and service message IDs (in that order) Structures that were
-  defined in the IDL as messages contain mandatory elements, optional
-  elements, a combination of mandatory and optional elements (mandatory
-  always come before optionals in the structure), or nothing (null message)
-
-  An optional element in a message is preceded by a uint8_t value that must be
-  set to true if the element is going to be included. When decoding a received
-  message, the uint8_t values will be set to true or false by the decode
-  routine, and should be checked before accessing the values that they
-  correspond to.
-
-  Variable sized arrays are defined as static sized arrays with an unsigned
-  integer (32 bit) preceding it that must be set to the number of elements
-  in the array that are valid. For Example:
-
-  uint32_t test_opaque_len;
-  uint8_t test_opaque[16];
-
-  If only 4 elements are added to test_opaque[] then test_opaque_len must be
-  set to 4 before sending the message.  When decoding, the _len value is set
-  by the decode routine and should be checked so that the correct number of
-  elements in the array will be accessed.
+  @brief This is the public header file which defines the mcm_voice service data structures.
 
 */
 /*====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*
-  
-
-  
- *====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
-/*====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*
- *THIS IS AN AUTO GENERATED FILE. DO NOT ALTER IN ANY WAY
- *====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
-
-/* This file was generated with Tool version 6.14.7 
-   It was generated on: Thu Jul 12 2018 (Spin 0)
-   From IDL File: mcm_voice_v01.idl */
-
-/** @defgroup mcm_voice_qmi_consts Constant values defined in the IDL */
-/** @defgroup mcm_voice_qmi_msg_ids Constant values for QMI message IDs */
-/** @defgroup mcm_voice_qmi_enums Enumerated types used in QMI messages */
-/** @defgroup mcm_voice_qmi_messages Structures sent as QMI messages */
-/** @defgroup mcm_voice_qmi_aggregates Aggregate types used in QMI messages */
-/** @defgroup mcm_voice_qmi_accessor Accessor for QMI service object */
-/** @defgroup mcm_voice_qmi_version Constant values for versioning information */
+   Copyright (c) 2013 Qualcomm Technologies, Inc.
+   All rights reserved.
+   Confidential and Proprietary - Qualcomm Technologies, Inc.
+*====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
 
 #include <stdint.h>
 #include "mcm_common_v01.h"
@@ -100,9 +60,6 @@ extern "C" {
 
 /**  Maximum size of the MSD sent to the network with an eCall */
 #define MCM_MAX_ECALL_MSD_V01 140
-
-/**  Maximum size of the ecall urc event */
-#define MCM_MAX_ECALL_URC_EVENT_LENGTH_V01 128
 /**
     @}
   */
@@ -931,8 +888,6 @@ typedef struct {
   /**<   User-to-user signaling data.*/
 
   mcm_voice_call_end_reason_t_v01 call_end_reason;
-
-  uint8_t type;
 }mcm_voice_call_record_t_v01;  /* Type */
 /**
     @}
@@ -981,189 +936,6 @@ typedef enum {
   MCM_VOICE_ECALL_MSD_TRANSMISSION_STATUS_FAILURE_V01 = 0x01, /**<   Generic failure   */
   MCM_ECALL_MSD_TRANSMISSION_STATUS_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
 }mcm_ecall_msd_transmission_status_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_COMMAND_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_COMMAND_PUSH_V01 = 0, /**<  IVS PUSH command */
-  MCM_VOICE_ECALL_COMMAND_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_command_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_STATE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_INACTIVE_V01 = 0, 
-  MCM_VOICE_ECALL_ORIGINATING_CALL_V01 = 1, 
-  MCM_VOICE_ECALL_IN_CALL_TRANSMITTING_V01 = 2, /**<  ECALL APP TRANSMITTING */
-  MCM_VOICE_ECALL_WATING_FOR_AL_ACK_V01 = 3, 
-  MCM_VOICE_ECALL_IN_CALL_V01 = 4, 
-  MCM_VOICE_ECALL_IDLE_ALLOW_MT_ECALL_V01 = 5, 
-  MCM_VOICE_ECALL_STATE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_state_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_MODE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_MODE_NOMAL_V01 = 0, 
-  MCM_VOICE_ECALL_MODE_ONLY_V01 = 1, 
-  MCM_VOICE_ECALL_MODE_DEFAULT_V01 = 2, /**<  ECALL APP TRANSMITTING */
-  MCM_VOICE_ECALL_MODE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_mode_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_aggregates
-    @{
-  */
-typedef struct {
-
-  uint8_t enable;
-  /**<   Enable or disable ecall. 
- 0 -- Disable; 1 -- Enable.*/
-
-  uint8_t voiceconfig;
-  /**<   0 -- Disable to mute IVS speaker automatical in MSD transmission.
- 1 -- Enable to mute IVS speaker automatical in MSD transmission.*/
-
-  /*  Enable or disable to mute IVS speaker in MSD. */
-  mcm_voice_ecall_mode_t_v01 ecallmode;
-  /**<   The Ecall mode.*/
-
-  uint8_t processinfo;
-  /**<   Enable or disable to report ecall event info.
- 0 -- Disable; 1 -- Enable*/
-
-  uint16_t T5;
-  /**<   The timer of IVS waiting for "START".*/
-
-  uint16_t T6;
-  /**<   The timer of IVS waiting for "HACK".*/
-
-  uint16_t T7;
-  /**<   The timer of MSD transmission.*/
-
-  uint8_t mofailredial;
-  /**<   The dial fail times.*/
-
-  uint8_t dropredial;
-  /**<   The ecall abnormal disconnenct redial times.*/
-}mcm_voice_ecall_config_info_t_v01;  /* Type */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_EVENT_FAIL_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_EVENT_FAIL_START_TIMEOUT_V01 = 1, /**<  Wait for START timeout. */
-  MCM_VOICE_ECALL_EVENT_FAIL_HACK_TIMEOUT_V01 = 2, /**<  Wait for HACK timeout.	 */
-  MCM_VOICE_ECALL_EVENT_FAIL_MSD_TRANSMISSION_TIMEOUT_V01 = 3, /**<  MSD transmission timeout.	 */
-  MCM_VOICE_ECALL_EVENT_FAIL_IVS_RESET_TIMEOUT_V01 = 4, /**<  IVS reset. */
-  MCM_VOICE_ECALL_EVENT_FAIL_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_event_fail_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_EVENT_PROCESS_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_EVENT_PROCESS_IVS_START_RECEIVED_MSD_V01 = 1, /**<  IVS Link Layer receives START message and starts to send MSD */
-  MCM_VOICE_ECALL_EVENT_PROCESS_IVS_NACK_RECEIVED_V01 = 2, /**<  IVS Link Layer receives NACK message. */
-  MCM_VOICE_ECALL_EVENT_PROCESS_IVS_ACK_RECEIVED_V01 = 3, /**<  IVS Link Layer receives the first LACK message. */
-  MCM_VOICE_ECALL_EVENT_PROCESS_IVS_TX_COMPLETED_V01 = 4, /**<  IVS MSD transmission is complete. */
-  MCM_VOICE_ECALL_EVENT_PROCESS_IVS_HLACK_RECEIVED_V01 = 5, /**<  IVS Link Layer receives first HACK message. */
-  MCM_VOICE_ECALL_EVENT_PROCESS_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_event_process_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_EVENT_MSDUPADTE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_EVENT_MSDUPDATE_IVS_UPDATING_MSD_V01 = 0, /**<  Indicates MSD has been updated. */
-  MCM_VOICE_ECALL_EVENT_MSDUPDATE_PSAP_REQURE_UPDATE_MSD_V01 = 1, /**<  Indicate to update MSD in 5 seconds. */
-  MCM_VOICE_ECALL_EVENT_MSDUPDATE_IVS_UPDATE_MSD_TIMEOUT_V01 = 2, /**<  Indicate timeout of updating MSD and module starts to transfer the old MSD. */
-  MCM_VOICE_ECALL_EVENT_MSDUPADTE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_event_msdupadte_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_enums
-    @{
-  */
-typedef enum {
-  MCM_VOICE_ECALL_EVENT_ESTABLISH_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_VOICE_ECALL_EVENT_ECALL_ESTABLISHNG_SUCCESS_V01 = 0, /**<  Establish eCall successfully. */
-  MCM_VOICE_ECALL_EVENT_ECALL_ESTABLISHNG_FAIL_V01 = 1, /**<  Establish eCall fails. */
-  MCM_VOICE_ECALL_EVENT_ESTABLISH_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
-}mcm_voice_ecall_event_establish_t_v01;
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_aggregates
-    @{
-  */
-typedef struct {
-
-  uint16_t hack_code;
-  /**<   psap hack code.*/
-}mcm_voice_ecall_event_hackcode_t_v01;  /* Type */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_aggregates
-    @{
-  */
-typedef struct {
-
-  uint8_t ori_remainder_times;
-  /**<   originate fail remainder times*/
-
-  uint16_t time;
-  /**<   the minimum time duration between the previous call attempt*/
-}mcm_voice_ecall_event_originate_fail_and_redial_t_v01;  /* Type */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_aggregates
-    @{
-  */
-typedef struct {
-
-  uint8_t drop_remainder_times;
-  /**<   dorp remainder times*/
-
-  uint16_t time;
-  /**<   the minimum time duration between the previous call attempt*/
-}mcm_voice_ecall_event_drop_and_redial_t_v01;  /* Type */
 /**
     @}
   */
@@ -1241,10 +1013,11 @@ typedef struct {
   /* Optional */
   uint8_t ecall_variant_valid;  /**< Must be set to true if ecall_variant is being passed */
   mcm_ecall_variant_t_v01 ecall_variant;
-  /**<     eCall variant. Values: \n
-        - ECALL_TEST (0x01)      --  Test eCall \n 
-        - ECALL_EMERGENCY (0x02) --  Emergency eCall \n 
-        - ECALL_RECONFIG (0x03)  --  Reconfig eCall */
+  /**<  	 eCall variant. Values: \n
+							  - ECALL_TEST (0x01) --  Test eCall \n 
+							  - ECALL_EMERGENCY (0x02) --  Emergency eCall \n 
+							  - ECALL_RECONFIG (0x03) --  Reconfig eCall 
+ 						    */
 }mcm_voice_dial_req_msg_v01;  /* Message */
 /**
     @}
@@ -1586,21 +1359,6 @@ typedef struct {
   uint8_t register_e911_state_event_valid;  /**< Must be set to true if register_e911_state_event is being passed */
   uint8_t register_e911_state_event;
   /**<   MCM_VOICE_E911_STATE_INDICATION*/
-
-  /* Optional */
-  uint8_t register_ecall_status_event_valid;  /**< Must be set to true if register_ecall_status_event is being passed */
-  uint8_t register_ecall_status_event;
-  /**<   MCM_VOICE_ECALL_STATUE_INDICATION*/
-
-  /* Optional */
-  uint8_t register_ecall_urc_event_valid;  /**< Must be set to true if register_ecall_urc_event is being passed */
-  uint8_t register_ecall_urc_event;
-  /**<   MCM_VOICE_ECALL_URC_INDICATION*/
-
-  /* Optional */
-  uint8_t register_ecall_event_valid;  /**< Must be set to true if register_ecall_event is being passed */
-  uint8_t register_ecall_event;
-  /**<   MCM_VOICE_ECALL_EVENT_INDICATION*/
 }mcm_voice_event_register_req_msg_v01;  /* Message */
 /**
     @}
@@ -2227,208 +1985,6 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Response Message; Indication for MCM_VOICE_ECALL_URC_IND. */
-typedef struct {
-
-  /* Mandatory */
-  uint8_t call_id;
-  /**<  call_id.*/
-
-  /* Mandatory */
-  uint32_t ecall_urc_event_len;  /**< Must be set to # of elements in ecall_urc_event */
-  char ecall_urc_event[MCM_MAX_ECALL_URC_EVENT_LENGTH_V01];
-}mcm_voice_ecall_urc_ind_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Request Message; Indication for MCM_VOICE_ECALL_COMMAND. */
-typedef struct {
-
-  /* Mandatory */
-  mcm_voice_ecall_command_t_v01 ecall_command_ivs;
-}mcm_voice_ecall_command_req_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Response Message; Indication for MCM_VOICE_ECALL_COMMAND. */
-typedef struct {
-
-  /* Mandatory */
-  mcm_response_t_v01 response;
-  /**<  Result code.*/
-
-  /* Optional */
-  uint8_t ecall_state_valid;  /**< Must be set to true if ecall_state is being passed */
-  mcm_voice_ecall_state_t_v01 ecall_state;
-  /**<  ecall state*/
-}mcm_voice_ecall_command_resp_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Request Message; Indication for MCM_VOICE_ECALL_SET_CONFIG.
-Indication for MCM_VOICE_ECALL_GET_CONFIG. */
-typedef struct {
-
-  /* Optional */
-  uint8_t enable_valid;  /**< Must be set to true if enable is being passed */
-  uint8_t enable;
-
-  /* Optional */
-  /*  Enable or disable ecall 
-	0 -- Disable; 1 -- Enable */
-  uint8_t voiceconfig_valid;  /**< Must be set to true if voiceconfig is being passed */
-  uint8_t voiceconfig;
-
-  /* Optional */
-  /*  Enable or disable to mute IVS speaker in MSD
-	0 -- Disable to mute IVS speaker automatical in MSD transmission
-	1 -- Enable to mute IVS speaker automatical in MSD transmission */
-  uint8_t ecallmode_valid;  /**< Must be set to true if ecallmode is being passed */
-  mcm_voice_ecall_mode_t_v01 ecallmode;
-
-  /* Optional */
-  /*  The Ecall mode. */
-  uint8_t processinfo_valid;  /**< Must be set to true if processinfo is being passed */
-  uint8_t processinfo;
-
-  /* Optional */
-  /*  Enable or disable to report ecall event info.
-	0 -- Disable; 1 -- Enable */
-  uint8_t T5_valid;  /**< Must be set to true if T5 is being passed */
-  uint16_t T5;
-
-  /* Optional */
-  /*  The timer of IVS waiting for "START". */
-  uint8_t T6_valid;  /**< Must be set to true if T6 is being passed */
-  uint16_t T6;
-
-  /* Optional */
-  /*  The timer of IVS waiting for "HACK". */
-  uint8_t T7_valid;  /**< Must be set to true if T7 is being passed */
-  uint16_t T7;
-
-  /* Optional */
-  /*  The timer of MSD transmission. */
-  uint8_t mofailredial_valid;  /**< Must be set to true if mofailredial is being passed */
-  uint8_t mofailredial;
-
-  /* Optional */
-  /*  The dial fail times. */
-  uint8_t dropredial_valid;  /**< Must be set to true if dropredial is being passed */
-  uint8_t dropredial;
-}mcm_voice_ecall_set_config_req_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Response Message; Indication for MCM_VOICE_ECALL_SET_CONFIG.
-Indication for MCM_VOICE_ECALL_GET_CONFIG. */
-typedef struct {
-
-  /* Mandatory */
-  mcm_response_t_v01 response;
-  /**<  Result code.*/
-}mcm_voice_ecall_set_config_resp_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Request Message; Indication for MCM_VOICE_ECALL_SET_CONFIG.
-Indication for MCM_VOICE_ECALL_GET_CONFIG. */
-typedef struct {
-  /* This element is a placeholder to prevent the declaration of
-     an empty struct.  DO NOT USE THIS FIELD UNDER ANY CIRCUMSTANCE */
-  char __placeholder;
-}mcm_voice_ecall_get_config_req_msg_v01;
-
-  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Response Message; Indication for MCM_VOICE_ECALL_SET_CONFIG.
-Indication for MCM_VOICE_ECALL_GET_CONFIG. */
-typedef struct {
-
-  /* Mandatory */
-  mcm_response_t_v01 response;
-
-  /* Mandatory */
-  mcm_voice_ecall_config_info_t_v01 ecall_config_info;
-}mcm_voice_ecall_get_config_resp_msg_v01;  /* Message */
-/**
-    @}
-  */
-
-/** @addtogroup mcm_voice_qmi_messages
-    @{
-  */
-/** Response Message; Indication for MCM_VOICE_ECALL_EVENT_IND. */
-typedef struct {
-
-  /* Optional */
-  uint8_t ecall_event_fails_valid;  /**< Must be set to true if ecall_event_fails is being passed */
-  mcm_voice_ecall_event_fail_t_v01 ecall_event_fails;
-  /**<   event of eCall Failed.*/
-
-  /* Optional */
-  uint8_t ecall_event_process_valid;  /**< Must be set to true if ecall_event_process is being passed */
-  mcm_voice_ecall_event_process_t_v01 ecall_event_process;
-  /**<   event of eCall process.*/
-
-  /* Optional */
-  uint8_t ecall_event_msdupdate_valid;  /**< Must be set to true if ecall_event_msdupdate is being passed */
-  mcm_voice_ecall_event_msdupadte_t_v01 ecall_event_msdupdate;
-  /**<   event of ecall msd update.*/
-
-  /* Optional */
-  uint8_t ecall_event_establish_valid;  /**< Must be set to true if ecall_event_establish is being passed */
-  mcm_voice_ecall_event_establish_t_v01 ecall_event_establish;
-  /**<   event of eCall establish.*/
-
-  /* Optional */
-  uint8_t ecall_event_hackcode_valid;  /**< Must be set to true if ecall_event_hackcode is being passed */
-  mcm_voice_ecall_event_hackcode_t_v01 ecall_event_hackcode;
-  /**<   event of eCall hack code.*/
-
-  /* Optional */
-  uint8_t ecall_event_ori_redial_valid;  /**< Must be set to true if ecall_event_ori_redial is being passed */
-  mcm_voice_ecall_event_originate_fail_and_redial_t_v01 ecall_event_ori_redial;
-  /**<   event of originate fail and redial.*/
-
-  /* Optional */
-  uint8_t ecall_event_drop_redial_valid;  /**< Must be set to true if ecall_event_drop_redial is being passed */
-  mcm_voice_ecall_event_drop_and_redial_t_v01 ecall_event_drop_redial;
-  /**<   event of drop and redial.*/
-}mcm_voice_ecall_event_ind_msg_v01;  /* Message */
-/**
-    @}
-  */
-
 #define MCM_VOICE_GET_CALLS_REQ_V01 0x1000
 #define MCM_VOICE_GET_CALLS_RESP_V01 0x1000
 #define MCM_VOICE_DIAL_REQ_V01 0x1001
@@ -2486,15 +2042,9 @@ typedef struct {
 #define MCM_VOICE_GET_E911_STATE_RESP_V01 0x101D
 #define MCM_VOICE_ECALL_HANGUP_REQ_V01 0x10A0
 #define MCM_VOICE_ECALL_HANGUP_RESP_V01 0x10A0
+//Laurence.yin-2018/03/30-QCM9XOL00004C011-P01, <[MCM-ECALL] : fix ecall status ind.>
 #define MCM_VOICE_ECALL_STATUE_IND_V01 0x10A1
-#define MCM_VOICE_ECALL_URC_IND_V01 0x10A2
-#define MCM_VOICE_ECALL_COMMAND_REQ_V01 0x10A3
-#define MCM_VOICE_ECALL_COMMAND_RESP_V01 0x10A3
-#define MCM_VOICE_ECALL_SET_CONFIG_REQ_V01 0x10A4
-#define MCM_VOICE_ECALL_SET_CONFIG_RESP_V01 0x10A4
-#define MCM_VOICE_ECALL_GET_CONFIG_REQ_V01 0x10A5
-#define MCM_VOICE_ECALL_GET_CONFIG_RESP_V01 0x10A5
-#define MCM_VOICE_ECALL_EVENT_IND_V01 0x10A6
+
 #ifdef __cplusplus
 }
 #endif

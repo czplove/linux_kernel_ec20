@@ -14,7 +14,7 @@ pkg_postinst_util-linux-hwclock: #!/bin/sh\n\tupdate-alternatives --install /sbi
 pkg_postrm_util-linux-hwclock: #!/bin/sh\n\tupdate-alternatives --remove  hwclock /sbin/hwclock.util-linux\n
 FILERPROVIDESFLIST_util-linux-hwclock: /sbin/hwclock.util-linux
 FILES_INFO: {"/sbin/hwclock.util-linux": 32876}
-FILERPROVIDES_/sbin/hwclock.util-linux_util-linux-hwclock: elf(buildid) (= ae3458cf7ffc816c48c259ff5d371ad1892caedf) /sbin/hwclock
+FILERPROVIDES_/sbin/hwclock.util-linux_util-linux-hwclock: elf(buildid) (= 3092d29809bfdd1ed933403bec6555295d69a555) /sbin/hwclock
 FILERDEPENDSFLIST_util-linux-hwclock: /sbin/hwclock.util-linux
 FILERDEPENDS_/sbin/hwclock.util-linux_util-linux-hwclock: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-hwclock: 32876

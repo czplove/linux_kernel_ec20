@@ -7,7 +7,7 @@ LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_mcmlocserver-dev: MCM Location Server  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_mcmlocserver-dev: mcmlocserver version git-invalidgit-r5 - Development files
 RDEPENDS_mcmlocserver-dev: mcmlocserver (= git-invalidgit-r5)
-RRECOMMENDS_mcmlocserver-dev: mcm-core-dev loc-hal-dev glibc-dev loc-pla-dev location-service-dev lbs-core-dev libgcc-dev loc-mcm-type-conv-dev ql-syslog-dev glib-2.0-dev mcm-dev qmi-framework-dev
+RRECOMMENDS_mcmlocserver-dev: mcm-core-dev loc-hal-dev glibc-dev loc-pla-dev location-service-dev lbs-core-dev libgcc-dev loc-mcm-type-conv-dev glib-2.0-dev mcm-dev qmi-framework-dev
 SECTION_mcmlocserver-dev: devel
 PKG_mcmlocserver-dev: mcmlocserver-dev
 ALLOW_EMPTY_mcmlocserver-dev: 1

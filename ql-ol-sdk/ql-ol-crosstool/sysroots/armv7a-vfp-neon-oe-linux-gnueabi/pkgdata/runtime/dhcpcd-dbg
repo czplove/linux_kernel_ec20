@@ -11,5 +11,5 @@ SECTION_dhcpcd-dbg: devel
 PKG_dhcpcd-dbg: dhcpcd-dbg
 ALLOW_EMPTY_dhcpcd-dbg: 1
 FILES_dhcpcd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dhcpcd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dhcpcd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dhcpcd/dhcpcd/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/dhcpcd": 17613}
-PKGSIZE_dhcpcd-dbg: 17613
+FILES_INFO: {"/usr/sbin/.debug/dhcpcd": 17473}
+PKGSIZE_dhcpcd-dbg: 17473

@@ -12,7 +12,7 @@ PKG_perl-module-compress-raw-bzip2: perl-module-compress-raw-bzip2
 FILES_perl-module-compress-raw-bzip2: /usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so /usr/lib/perl/5.20.0/Compress/Raw/Bzip2.pm
 FILERPROVIDESFLIST_perl-module-compress-raw-bzip2: /usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so
 FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so": 78964, "/usr/lib/perl/5.20.0/Compress/Raw/Bzip2.pm": 10689}
-FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so_perl-module-compress-raw-bzip2: Bzip2.so elf(buildid) (= ad8614c7933bc64ba1aef0b9d653e8c2acc420d5)
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so_perl-module-compress-raw-bzip2: Bzip2.so elf(buildid) (= c4224f37a6b36f9de2cbe91644ffeecc6d378f1f)
 FILERDEPENDSFLIST_perl-module-compress-raw-bzip2: /usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so_perl-module-compress-raw-bzip2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_perl-module-compress-raw-bzip2: 89653

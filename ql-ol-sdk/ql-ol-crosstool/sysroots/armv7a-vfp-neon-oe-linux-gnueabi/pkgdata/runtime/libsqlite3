@@ -15,7 +15,7 @@ PKG_libsqlite3: libsqlite3-0
 FILES_libsqlite3: /usr/lib/*.so.*
 FILERPROVIDESFLIST_libsqlite3: /usr/lib/libsqlite3.so.0.8.6
 FILES_INFO: {"/usr/lib/libsqlite3.so.0": 666860}
-FILERPROVIDES_/usr/lib/libsqlite3.so.0.8.6_libsqlite3: elf(buildid) (= 8867bc3691c1fe9a5752f87e930ec54c6a9ff5a3) libsqlite3.so.0
+FILERPROVIDES_/usr/lib/libsqlite3.so.0.8.6_libsqlite3: elf(buildid) (= c814d752b6903db27632ecbe0340e37e93659a99) libsqlite3.so.0
 FILERDEPENDSFLIST_libsqlite3: /usr/lib/libsqlite3.so.0.8.6
 FILERDEPENDS_/usr/lib/libsqlite3.so.0.8.6_libsqlite3: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_libsqlite3: 666860

@@ -13,5 +13,5 @@ RRECOMMENDS_libsqlite3-dev: glibc-dev readline-dev ncurses-dev
 SECTION: libs
 PKG_libsqlite3-dev: libsqlite3-dev
 FILES_libsqlite3-dev: /usr/lib/*.la /usr/lib/*.so \t                \t   /usr/lib/pkgconfig /usr/include
-FILES_INFO: {"/usr/lib/libsqlite3.so": 19, "/usr/include/sqlite3.h": 363411, "/usr/lib/libsqlite3.la": 946, "/usr/lib/pkgconfig/sqlite3.pc": 253, "/usr/include/sqlite3ext.h": 27763}
+FILES_INFO: {"/usr/lib/libsqlite3.so": 19, "/usr/lib/pkgconfig/sqlite3.pc": 253, "/usr/lib/libsqlite3.la": 946, "/usr/include/sqlite3.h": 363411, "/usr/include/sqlite3ext.h": 27763}
 PKGSIZE_libsqlite3-dev: 392392

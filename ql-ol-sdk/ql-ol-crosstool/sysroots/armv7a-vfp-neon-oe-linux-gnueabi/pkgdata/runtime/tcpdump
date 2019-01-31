@@ -12,7 +12,7 @@ PKG_tcpdump: tcpdump
 FILES_tcpdump: /usr/bin/* /usr/sbin/* /usr/lib/tcpdump/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tcpdump /usr/lib/tcpdump/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_tcpdump: /usr/sbin/tcpdump
 FILES_INFO: {"/usr/sbin/tcpdump": 600676}
-FILERPROVIDES_/usr/sbin/tcpdump_tcpdump: elf(buildid) (= 98e5177ac72055532db6b4a6a322ee2b078ed998)
+FILERPROVIDES_/usr/sbin/tcpdump_tcpdump: elf(buildid) (= 5b77bfc827249da353b00e31a2cfde0289eac274)
 FILERDEPENDSFLIST_tcpdump: /usr/sbin/tcpdump
 FILERDEPENDS_/usr/sbin/tcpdump_tcpdump: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpcap.so.1 rtld(GNU_HASH)
 PKGSIZE_tcpdump: 600676

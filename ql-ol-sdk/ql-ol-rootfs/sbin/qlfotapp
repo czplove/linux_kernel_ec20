@@ -98,6 +98,4 @@ else
 fi
 
 config_port
-sync
-reboot-recovery
-#sys_reboot recovery
+sys_reboot recovery

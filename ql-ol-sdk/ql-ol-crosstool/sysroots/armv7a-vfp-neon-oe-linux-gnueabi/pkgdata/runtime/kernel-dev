@@ -6,9 +6,9 @@ PKGR: r3
 LICENSE: GPLv2
 DESCRIPTION: QuIC Linux Kernel
 SUMMARY: linux-quic version git-quectel-r3
-RRECOMMENDS_kernel-dev: kernel-module-mmc-test-dev kernel-module-af-key-dev kernel-module-gpio-axis-dev kernel-module-low-power-consume-driver-v2-dev kernel-module-xt-physdev-dev kernel-base-dev kernel-module-qca8337-dev kernel-module-quec-spi-chn-dev kernel-module-quectel-phy-dev kernel-module-qcom-emac-dev kernel-module-of-mdio-dev kernel-module-mmc-block-test-dev kernel-module-gpio-event-dev kernel-module-libphy-dev kernel-module-ansi-cprng-dev kernel-3.18.20-dev kernel-module-gpio-matrix-dev kernel-module-at803x-dev kernel-module-gpio-output-dev kernel-module-spidev-dev kernel-module-gpio-input-dev kernel-module-cls-basic-dev kernel-module-test-iosched-dev
+RRECOMMENDS_kernel-dev: kernel-module-mmc-test-dev kernel-module-af-key-dev kernel-module-gpio-axis-dev kernel-module-xt-physdev-dev kernel-base-dev kernel-module-qca8337-dev kernel-module-quec-spi-chn-dev kernel-module-quectel-phy-dev kernel-module-qcom-emac-dev kernel-module-of-mdio-dev kernel-module-mmc-block-test-dev kernel-module-gpio-event-dev kernel-module-libphy-dev kernel-module-ansi-cprng-dev kernel-3.18.20-dev kernel-module-gpio-matrix-dev kernel-module-at803x-dev kernel-module-gpio-output-dev kernel-module-spidev-dev kernel-module-gpio-input-dev kernel-module-cls-basic-dev kernel-module-test-iosched-dev
 SECTION: base
 PKG_kernel-dev: kernel-dev
 FILES_kernel-dev: /boot/System.map* /boot/Module.symvers* /boot/config* /usr/src/kernel /lib/modules/3.18.20/build /boot/zImage-3.18.20
-FILES_INFO: {"/boot/Module.symvers-3.18.20": 409677, "/boot/zImage-3.18.20": 5643416, "/boot/System.map-3.18.20": 2569888, "/boot/config-3.18.20": 93751}
-PKGSIZE_kernel-dev: 8716732
+FILES_INFO: {"/boot/Module.symvers-3.18.20": 409623, "/boot/zImage-3.18.20": 5641496, "/boot/System.map-3.18.20": 2569223, "/boot/config-3.18.20": 93721}
+PKGSIZE_kernel-dev: 8714063

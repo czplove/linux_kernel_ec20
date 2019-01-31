@@ -1,9 +1,9 @@
-liblttng-ust.so.0:/usr/lib:2.6.0
-liblttng-ust-pthread-wrapper.so.0:/usr/lib:2.6.0
 liblttng-ust-cyg-profile.so.0:/usr/lib:2.6.0
+liblttng-ust.so.0:/usr/lib:2.6.0
+liblttng-ust-libc-wrapper.so.0:/usr/lib:2.6.0
+liblttng-ust-ctl.so.2:/usr/lib:2.6.0
+liblttng-ust-pthread-wrapper.so.0:/usr/lib:2.6.0
+liblttng-ust-tracepoint.so.0:/usr/lib:2.6.0
 liblttng-ust-fork.so.0:/usr/lib:2.6.0
 liblttng-ust-cyg-profile-fast.so.0:/usr/lib:2.6.0
 liblttng-ust-dl.so.0:/usr/lib:2.6.0
-liblttng-ust-tracepoint.so.0:/usr/lib:2.6.0
-liblttng-ust-libc-wrapper.so.0:/usr/lib:2.6.0
-liblttng-ust-ctl.so.2:/usr/lib:2.6.0

@@ -39,11 +39,11 @@
 
 #define MCM_TOKEN_ID_INVALID     0
 
-#define MCM_QMI_TIMEOUT (20000)
+#define MCM_QMI_TIMEOUT (10000)
 
 #define MCM_MAX_EONS_LENGTH (512)
 
-#define MCM_MAX_NUM_OF_MSG_ID (20)
+#define MCM_MAX_NUM_OF_MSG_ID (6)
 
 #define MCM_MAX_SRVS      (5)
 
@@ -56,8 +56,13 @@
 #define MCM_SRV_MANAGER           0x407
 
 #define MCM_RIL_DMS_SERVICE_MIN   0x0201
+//Laurence.yin-2018/04/20-QCM9XOL00004C015-P01, <[DM] :
+//increase MCM_RIL_DMS_SERVICE_MAX beause of MCM_DM_GET_DEVICE_SERIAL_NUMBERS_REQ_V01.>
+#if defined (QL_DM_SERVICE_SURPORT)
 #define MCM_RIL_DMS_SERVICE_MAX   0x02FF
-
+#else
+#define MCM_RIL_DMS_SERVICE_MAX   0x0206
+#endif
 #define MCM_RIL_NAS_SERVICE_MIN   0x0500
 #define MCM_RIL_NAS_SERVICE_MAX   0x05FF
 
@@ -85,11 +90,5 @@
 #define MCM_SRV_MANAGER_MIN    0x0800
 #define MCM_SRV_MANAGER_MAX    0x0802
 
-#define MCM_SERVICE_READY_FILE             "/tmp/mcm_service_ready.flag"
-#define MCM_DATA_SERVICE_READY_FILE        "/tmp//mcm_data_service_ready.flag"
-#define MCM_LOC_SERVICE_READY_FILE         "/tmp/mcm_loc_service_ready.flag"
-#define MCM_ATCOP_SERVICE_READY_FILE       "/tmp/mcm_atcop_service_ready.flag"
-#define MCM_MOBILEAP_SERVICE_READY_FILE    "/tmp/mcm_mobileap_service_ready.flag"
-#define MCM_SIM_SERVICE_READY_FILE         "/tmp/mcm_sim_service_ready.flag"
 
 #endif // MCM_CONSTANTS_H

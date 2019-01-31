@@ -11,5 +11,5 @@ SECTION_libnetfilter-conntrack-dbg: devel
 PKG_libnetfilter-conntrack-dbg: libnetfilter-conntrack-dbg
 ALLOW_EMPTY_libnetfilter-conntrack-dbg: 1
 FILES_libnetfilter-conntrack-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libnetfilter-conntrack/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libnetfilter-conntrack/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libnetfilter-conntrack/libnetfilter-conntrack/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libnetfilter_conntrack.so.3.1.3": 32240}
-PKGSIZE_libnetfilter-conntrack-dbg: 32240
+FILES_INFO: {"/usr/lib/.debug/libnetfilter_conntrack.so.3.1.3": 32020}
+PKGSIZE_libnetfilter-conntrack-dbg: 32020

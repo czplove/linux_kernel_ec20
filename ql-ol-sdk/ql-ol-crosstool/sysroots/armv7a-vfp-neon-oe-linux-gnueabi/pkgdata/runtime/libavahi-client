@@ -12,8 +12,8 @@ SECTION: network
 PKG_libavahi-client: libavahi-client3
 FILES_libavahi-client: /usr/lib/libavahi-client.so.*
 FILERPROVIDESFLIST_libavahi-client: /usr/lib/libavahi-client.so.3.2.9
-FILES_INFO: {"/usr/lib/libavahi-client.so.3": 57112}
-FILERPROVIDES_/usr/lib/libavahi-client.so.3.2.9_libavahi-client: elf(buildid) (= f75c99629a47d83d0a6e3bade13aab0712013c0d) libavahi-client.so.3
+FILES_INFO: {"/usr/lib/libavahi-client.so.3": 56976}
+FILERPROVIDES_/usr/lib/libavahi-client.so.3.2.9_libavahi-client: elf(buildid) (= 36b6f0d4288067c80a35a944aa3ea0a62d4da734) libavahi-client.so.3
 FILERDEPENDSFLIST_libavahi-client: /usr/lib/libavahi-client.so.3.2.9
 FILERDEPENDS_/usr/lib/libavahi-client.so.3.2.9_libavahi-client: libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libdl.so.2 libdl.so.2(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libavahi-client: 57112
+PKGSIZE_libavahi-client: 56976

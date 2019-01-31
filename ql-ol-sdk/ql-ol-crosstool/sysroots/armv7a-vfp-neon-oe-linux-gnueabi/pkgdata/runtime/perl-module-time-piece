@@ -12,7 +12,7 @@ PKG_perl-module-time-piece: perl-module-time-piece
 FILES_perl-module-time-piece: /usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so /usr/lib/perl/5.20.0/Time/Piece.pm
 FILERPROVIDESFLIST_perl-module-time-piece: /usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so
 FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so": 15704, "/usr/lib/perl/5.20.0/Time/Piece.pm": 23793}
-FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so_perl-module-time-piece: Piece.so elf(buildid) (= 1d47428f690e925038e9bac83416fd4e18c21009)
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so_perl-module-time-piece: Piece.so elf(buildid) (= 86347db8425dc46fbe6ea87bd7d17493d923886e)
 FILERDEPENDSFLIST_perl-module-time-piece: /usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Time/Piece/Piece.so_perl-module-time-piece: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_perl-module-time-piece: 39497

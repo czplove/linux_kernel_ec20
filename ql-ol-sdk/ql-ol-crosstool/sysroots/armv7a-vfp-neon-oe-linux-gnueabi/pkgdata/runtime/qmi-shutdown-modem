@@ -16,8 +16,8 @@ pkg_postrm_qmi-shutdown-modem: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/
 pkg_preinst_qmi-shutdown-modem: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/qmi_shutdown_modemd" ]; then\n\t/etc/init.d/qmi_shutdown_modemd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT qmi_shutdown_modemd remove\nfi\n
 pkg_prerm_qmi-shutdown-modem: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/qmi_shutdown_modemd stop\nfi\n
 FILERPROVIDESFLIST_qmi-shutdown-modem: /usr/bin/qmi@underscore@shutdown@underscore@modem
-FILES_INFO: {"/usr/bin/qmi_shutdown_modem": 11280, "/etc/init.d/qmi_shutdown_modemd": 985}
-FILERPROVIDES_/usr/bin/qmi@underscore@shutdown@underscore@modem_qmi-shutdown-modem: elf(buildid) (= bdd42c1523628f7de1226de388dc12de93e9fae9)
+FILES_INFO: {"/usr/bin/qmi_shutdown_modem": 9272, "/etc/init.d/qmi_shutdown_modemd": 985}
+FILERPROVIDES_/usr/bin/qmi@underscore@shutdown@underscore@modem_qmi-shutdown-modem: elf(buildid) (= 46c2e9dddd0c8a373bf535732848c2e1106af8e8)
 FILERDEPENDSFLIST_qmi-shutdown-modem: /usr/bin/qmi@underscore@shutdown@underscore@modem
-FILERDEPENDS_/usr/bin/qmi@underscore@shutdown@underscore@modem_qmi-shutdown-modem: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmiservices.so.1 rtld(GNU_HASH)
-PKGSIZE_qmi-shutdown-modem: 12265
+FILERDEPENDS_/usr/bin/qmi@underscore@shutdown@underscore@modem_qmi-shutdown-modem: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_qmi-shutdown-modem: 10257

@@ -4,19 +4,19 @@ if [ "$1" != "-a" -o "$2" != "-b" ]; then
     echo "Usage: depmodwrapper -a -b rootfs KERNEL_VERSION" >&2
     exit 1
 fi
-if [ ! -r /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/kernel-abiversion ]; then
-    echo "Unable to read: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/kernel-abiversion" >&2
+if [ ! -r /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/kernel-abiversion ]; then
+    echo "Unable to read: /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/kernel-abiversion" >&2
 else
-    kernelabi=$(cat /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/kernel-abiversion)
+    kernelabi=$(cat /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/kernel-abiversion)
     if [ "$kernelabi" != "$4" ]; then
         echo "Error: Kernel version $4 does not match kernel-abiversion ($kernelabi)" >&2
         exit 1
     fi
 fi
 
-if [ ! -r /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/System.map-$4 ]; then
-    echo "Unable to read: /home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/System.map-$4" >&2
+if [ ! -r /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/System.map-$4 ]; then
+    echo "Unable to read: /home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/System.map-$4" >&2
     exec env depmod "$1" "$2" "$3" "$4"
 else
-    exec env depmod "$1" "$2" "$3" -F "/home/quectel/Alessa_Linux_193/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Release/EC20CEFAG/R06A04/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/System.map-$4" "$4"
+    exec env depmod "$1" "$2" "$3" -F "/home/quectel/belle_Linux192/Qualcomm/MDM9x07/OpenLinux/LE.1.0.c3/Main/R06/apps_proc/oe-core/build/tmp-glibc/sysroots/mdm9607-perf/pkgdata/kernel-depmod/System.map-$4" "$4"
 fi

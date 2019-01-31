@@ -8,14 +8,6 @@
 
 typedef uint32 dm_client_handle_type;
 
-
-typedef enum 
-{
-    E_QL_MCM_DM_AIRPLANE_MODE_ON    = 1,    /**< Radio power off or unknown. Airplane ON. */
-    E_QL_MCM_DM_AIRPLANE_MODE_OFF   = 2,    /**< Radio online. Airplane OFF. */
-    E_QL_MCM_DM_AIRPLANE_MODE_NA    = 3     /**< Radio Unvailable. */
-}E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T;
-
 typedef struct 
  {
     uint8_t imei_valid; 
@@ -30,26 +22,23 @@ typedef struct
 }ql_dm_device_rev_id_t;
 
 
-int QL_MCM_DM_Client_Init(dm_client_handle_type  *ph_dm);
+int QL_MCM_DM_Client_Init(atc_client_handle_type  *ph_dm);
 
 /* Stop getting coordinates */
 int QL_MCM_DM_Client_Deinit(dm_client_handle_type h_dm);
 
-/* Get airplane mode*/
 E_QL_ERROR_CODE_T QL_MCM_DM_GetAirplaneMode
 (
     dm_client_handle_type                   h_dm,
-    E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T        *pe_airplane_mode   ///< [OUT] Radio mode
+    E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T        *pe_airplane_mode  ///< [OUT] Radio mode
 );
 
-/* Set airplane mode*/
 E_QL_ERROR_CODE_T QL_MCM_DM_SetAirplaneMode
 (
     dm_client_handle_type                   h_dm,
-    E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T        e_airplane_mode     ///< [IN] Airplane mode
+    E_QL_MCM_DM_AIRPLANE_MODE_TYPE_T        e_airplane_mode  ///< [IN] Airplane mode
 );
 
-/* Set indication on off when airplane mode changed */
 E_QL_ERROR_CODE_T QL_MCM_DM_SetAirplaneModeChgInd
 (
     dm_client_handle_type       h_dm,

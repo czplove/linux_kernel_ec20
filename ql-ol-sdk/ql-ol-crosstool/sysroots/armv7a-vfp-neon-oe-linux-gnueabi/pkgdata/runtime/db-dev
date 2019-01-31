@@ -12,5 +12,5 @@ SECTION_db-dev: devel
 PKG_db-dev: db-dev
 ALLOW_EMPTY_db-dev: 1
 FILES_db-dev: /usr/include /usr/lib/libdb.so /usr/lib/libdb_cxx.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/db/*.la /lib/*.la
-FILES_INFO: {"/usr/lib/libdb-6.0.la": 923, "/usr/include/db.h": 9, "/usr/include/db_cxx.h": 13, "/usr/lib/libdb_cxx-6.0.la": 974, "/usr/lib/libdb.so": 12, "/usr/include/db60/db.h": 126500, "/usr/include/db60/db_cxx.h": 50598}
+FILES_INFO: {"/usr/lib/libdb-6.0.la": 923, "/usr/include/db.h": 9, "/usr/include/db_cxx.h": 13, "/usr/include/db60/db.h": 126500, "/usr/lib/libdb.so": 12, "/usr/lib/libdb_cxx-6.0.la": 974, "/usr/include/db60/db_cxx.h": 50598}
 PKGSIZE_db-dev: 179029

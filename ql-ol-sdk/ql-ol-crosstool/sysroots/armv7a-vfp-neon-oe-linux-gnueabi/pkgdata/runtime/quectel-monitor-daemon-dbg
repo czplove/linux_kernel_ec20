@@ -6,10 +6,10 @@ PKGR: r1
 LICENSE: Qualcomm-Technologies-Inc.-Proprietary
 DESCRIPTION_quectel-monitor-daemon-dbg: Quectel monitor daemon  This package contains ELF symbols and related sources for debugging purposes.
 SUMMARY_quectel-monitor-daemon-dbg: quectel-monitor-daemon version git-invalidgit-r1 - Debugging files
-RRECOMMENDS_quectel-monitor-daemon-dbg: ql-syslog-dbg glibc-dbg
+RRECOMMENDS_quectel-monitor-daemon-dbg: glibc-dbg
 SECTION_quectel-monitor-daemon-dbg: devel
 PKG_quectel-monitor-daemon-dbg: quectel-monitor-daemon-dbg
 ALLOW_EMPTY_quectel-monitor-daemon-dbg: 1
 FILES_quectel-monitor-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-monitor-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-monitor-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-monitor-daemon/quectel-monitor-daemon/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/quectel_monitor_daemon": 13572}
-PKGSIZE_quectel-monitor-daemon-dbg: 13572
+FILES_INFO: {"/usr/bin/.debug/quectel_monitor_daemon": 12703}
+PKGSIZE_quectel-monitor-daemon-dbg: 12703

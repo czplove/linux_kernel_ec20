@@ -11,5 +11,5 @@ SECTION_tcpdump-dbg: devel
 PKG_tcpdump-dbg: tcpdump-dbg
 ALLOW_EMPTY_tcpdump-dbg: 1
 FILES_tcpdump-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/tcpdump/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/tcpdump/.debug /usr/lib/matchbox-panel/.debug /usr/lib/tcpdump/tcpdump/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/tcpdump": 77444}
-PKGSIZE_tcpdump-dbg: 77444
+FILES_INFO: {"/usr/sbin/.debug/tcpdump": 77240}
+PKGSIZE_tcpdump-dbg: 77240

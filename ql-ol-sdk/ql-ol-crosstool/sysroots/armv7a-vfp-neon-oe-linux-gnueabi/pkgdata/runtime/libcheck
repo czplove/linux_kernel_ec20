@@ -12,9 +12,9 @@ SECTION: devel
 PKG_libcheck: libcheck
 FILES_libcheck: /usr/bin/* /usr/sbin/* /usr/lib/libcheck/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libcheck /usr/lib/libcheck/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_libcheck: /usr/lib/libcheck.so.0.0.0
-FILES_INFO: {"/usr/lib/libcheck.so.0": 36304, "/usr/bin/checkmk": 15185}
-FILERPROVIDES_/usr/lib/libcheck.so.0.0.0_libcheck: elf(buildid) (= 73dbe4a4ef7f7a2fc24981eacc5f7255bd482fbe) libcheck.so.0
+FILES_INFO: {"/usr/lib/libcheck.so.0": 36168, "/usr/bin/checkmk": 15185}
+FILERPROVIDES_/usr/lib/libcheck.so.0.0.0_libcheck: elf(buildid) (= 30c42cf77058e6540a4465112f030f0a6f1842f2) libcheck.so.0
 FILERDEPENDSFLIST_libcheck: /usr/bin/checkmk /usr/lib/libcheck.so.0.0.0
 FILERDEPENDS_/usr/bin/checkmk_libcheck: /usr/bin/gawk
 FILERDEPENDS_/usr/lib/libcheck.so.0.0.0_libcheck: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_libcheck: 51489
+PKGSIZE_libcheck: 51353

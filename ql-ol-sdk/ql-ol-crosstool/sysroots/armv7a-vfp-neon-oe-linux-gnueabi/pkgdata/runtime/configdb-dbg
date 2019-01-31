@@ -12,5 +12,5 @@ SECTION_configdb-dbg: devel
 PKG_configdb-dbg: libconfigdb-dbg
 ALLOW_EMPTY_configdb-dbg: 1
 FILES_configdb-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/configdb/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/configdb/.debug /usr/lib/matchbox-panel/.debug /usr/lib/configdb/configdb/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libconfigdb.so.0.0.0": 44199}
-PKGSIZE_configdb-dbg: 44199
+FILES_INFO: {"/usr/lib/.debug/libconfigdb.so.0.0.0": 43839}
+PKGSIZE_configdb-dbg: 43839

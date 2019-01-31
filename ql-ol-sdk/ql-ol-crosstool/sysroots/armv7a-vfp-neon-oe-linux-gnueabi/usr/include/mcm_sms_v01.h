@@ -1,56 +1,11 @@
 #ifndef MCM_SMS_SERVICE_01_H
 #define MCM_SMS_SERVICE_01_H
-/**
-  @file mcm_sms_v01.h
 
-  @brief This is the public header file which defines the mcm_sms service Data structures.
-
-  This header file defines the types and structures that were defined in
-  mcm_sms. It contains the constant values defined, enums, structures,
-  messages, and service message IDs (in that order) Structures that were
-  defined in the IDL as messages contain mandatory elements, optional
-  elements, a combination of mandatory and optional elements (mandatory
-  always come before optionals in the structure), or nothing (null message)
-
-  An optional element in a message is preceded by a uint8_t value that must be
-  set to true if the element is going to be included. When decoding a received
-  message, the uint8_t values will be set to true or false by the decode
-  routine, and should be checked before accessing the values that they
-  correspond to.
-
-  Variable sized arrays are defined as static sized arrays with an unsigned
-  integer (32 bit) preceding it that must be set to the number of elements
-  in the array that are valid. For Example:
-
-  uint32_t test_opaque_len;
-  uint8_t test_opaque[16];
-
-  If only 4 elements are added to test_opaque[] then test_opaque_len must be
-  set to 4 before sending the message.  When decoding, the _len value is set
-  by the decode routine and should be checked so that the correct number of
-  elements in the array will be accessed.
-
-*/
 /*====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*
-  
-
-  
- *====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
-/*====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*
- *THIS IS AN AUTO GENERATED FILE. DO NOT ALTER IN ANY WAY
- *====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
-
-/* This file was generated with Tool version 6.14.7 
-   It was generated on: Thu Jun  7 2018 (Spin 0)
-   From IDL File: mcm_sms_v01.idl */
-
-/** @defgroup mcm_sms_qmi_consts Constant values defined in the IDL */
-/** @defgroup mcm_sms_qmi_msg_ids Constant values for QMI message IDs */
-/** @defgroup mcm_sms_qmi_enums Enumerated types used in QMI messages */
-/** @defgroup mcm_sms_qmi_messages Structures sent as QMI messages */
-/** @defgroup mcm_sms_qmi_aggregates Aggregate types used in QMI messages */
-/** @defgroup mcm_sms_qmi_accessor Accessor for QMI service object */
-/** @defgroup mcm_sms_qmi_version Constant values for versioning information */
+   Copyright (c) 2013 Qualcomm Technologies, Inc.
+   All rights reserved.
+   Confidential and Proprietary - Qualcomm Technologies, Inc.
+*====*====*====*====*====*====*====*====*====*====*====*====*====*====*====*/
 
 #include <stdint.h>
 #include "mcm_common_v01.h"
@@ -60,22 +15,8 @@
 extern "C" {
 #endif
 
-/** @addtogroup mcm_sms_qmi_version
-    @{
-  */
-/** Major Version Number of the IDL used to generate this file */
-#define MCM_SMS_V01_IDL_MAJOR_VERS 0x01
-/** Revision Number of the IDL used to generate this file */
-#define MCM_SMS_V01_IDL_MINOR_VERS 0x01
-/** Major Version Number of the qmi_idl_compiler used to generate this file */
-#define MCM_SMS_V01_IDL_TOOL_VERS 0x06
 
-/**
-    @}
-  */
-
-
-/** @addtogroup mcm_sms_qmi_consts
+/** @addtogroup mcm_sms_consts
     @{
   */
 
@@ -88,77 +29,79 @@ extern "C" {
 /**  Maximum string length. */
 #define MCM_SMS_MAX_ADDR_LENGTH_V01 252
 
+//Laurence.yin-2018/04/19-QCM9XOL00004C012-P01, <[SMS][SCA] : define sms sca length.>
 /**  Maximum string length. */
 #define MCM_SMS_MAX_SCA_TYPE_LENGTH_V01 3
+
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_SMS_MSG_FORMAT_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_SMS_MSG_FORMAT_GSM_7BIT_V01 = 0, /**<  Message format ASCII text. */
-  MCM_SMS_MSG_FORMAT_TEXT_BINARY_DATA_V01 = 1, /**<  Message format binary data. */
-  MCM_SMS_MSG_FORMAT_TEXT_UCS2_V01 = 2, /**<  Message format UCS2 text. */
-  MCM_SMS_MSG_FORMAT_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_MSG_FORMAT_T_MIN_ENUM_VAL_V01     = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_MSG_FORMAT_GSM_7BIT_V01           = 0,          /**<	Message format default GSM 7-bit. */
+  MCM_SMS_MSG_FORMAT_TEXT_BINARY_DATA_V01   = 1, /**<  Message format ASCII text. */
+  MCM_SMS_MSG_FORMAT_TEXT_UCS2_V01          = 2, /**<  Message format UTF8 text. */
+  MCM_SMS_MSG_FORMAT_T_MAX_ENUM_VAL_V01     = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_sms_msg_format_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_SMS_MSG_SIZE_VALIDATION_MODE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_MSG_SIZE_VALIDATION_MODE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
   MCM_SMS_MSG_SIZE_VALIDATION_MODE_AUTO_BREAK_V01 = 1, /**<  Message size validation mode;
  Auto-break into 160-byte segments. */
   MCM_SMS_MSG_SIZE_VALIDATION_MODE_NO_AUTO_BREAK_V01 = 2, /**<  Message size validation mode;
  No auto-break. */
-  MCM_SMS_MSG_SIZE_VALIDATION_MODE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_MSG_SIZE_VALIDATION_MODE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_sms_msg_size_validation_mode_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_SMS_RECEPTION_MODE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_RECEPTION_MODE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
   MCM_SMS_RECEPTION_MODE_NO_RECEPTION_V01 = 1, /**<  No reception. */
-  MCM_SMS_RECEPTION_MODE_ON_AUTO_CONFIRM_TO_NW_V01 = 2, /**<  Reception on with auto confirm to the network. */
-  MCM_SMS_RECEPTION_MODE_ON_WITHOUT_AUTO_CONFIRM_TO_NW_V01 = 3, /**<  Reception on without auto confirm to the network. */
-  MCM_SMS_RECEPTION_MODE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_RECEPTION_MODE_ON_AUTO_CONFIRM_TO_NW_V01 = 2, /**<  Reception on with auto confirm to network. */
+  MCM_SMS_RECEPTION_MODE_ON_WITHOUT_AUTO_CONFIRM_TO_NW_V01 = 3, /**<  Reception on without auto confirm to network. */
+  MCM_SMS_RECEPTION_MODE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_sms_reception_mode_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_SMS_MESSAGE_CLASS_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_MESSAGE_CLASS_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
   MCM_SMS_MESSAGE_CLASS_0_V01 = 0, /**<  Class 0. */
   MCM_SMS_MESSAGE_CLASS_1_V01 = 1, /**<  Class 1. */
   MCM_SMS_MESSAGE_CLASS_2_V01 = 2, /**<  Class 2. */
   MCM_SMS_MESSAGE_CLASS_3_V01 = 3, /**<  Class 3. */
   MCM_SMS_MESSAGE_CLASS_NONE_V01 = 4, /**<  None. */
-  MCM_SMS_MESSAGE_CLASS_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_SMS_MESSAGE_CLASS_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_sms_message_class_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_CBS_CMAE_CATEGORY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_CBS_CMAE_CATEGORY_INVALID_V01 = -1, 
+  MCM_CBS_CMAE_CATEGORY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_CATEGORY_INVALID_V01 = -1,
   MCM_CBS_CMAE_CATEGORY_GEO_V01 = 0, /**<  Geophysical, including landslide. */
   MCM_CBS_CMAE_CATEGORY_MET_V01 = 1, /**<  Meteorological, including flood. */
   MCM_CBS_CATEGORY_SAFETY_V01 = 2, /**<  Safety (general emergency and public safety). */
@@ -174,18 +117,18 @@ typedef enum {
   MCM_CBS_CMAE_CATEGORY_CBRNE_V01 = 10, /**<  CBRNE (chemical, biological, radiological, nuclear,
  or high-yield explosive thread or attack). */
   MCM_CBS_CMAE_CATEGORY_OTHER_V01 = 11, /**<  Other events. */
-  MCM_CBS_CMAE_CATEGORY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_CATEGORY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_cbs_cmae_category_type_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_CBS_CMAE_RESPONSE_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_CBS_CMAE_RESPONSE_TYPE_INVALID_V01 = -1, 
+  MCM_CBS_CMAE_RESPONSE_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_RESPONSE_TYPE_INVALID_V01 = -1,
   MCM_CBS_CMAE_RESPONSE_TYPE_SHELTER_V01 = 0, /**<  Shelter (take shelter in place). */
   MCM_CBS_CMAE_RESPONSE_TYPE_EVACUATE_V01 = 1, /**<  Evacuate (relocate). */
   MCM_CBS_CMAE_RESPONSE_TYPE_PREPARE_V01 = 2, /**<  Prepare (make preparations). */
@@ -194,55 +137,55 @@ typedef enum {
   MCM_CBS_CMAE_RESPONSE_TYPE_AVOID_V01 = 5, /**<  Avoid (avoid hazards). */
   MCM_CBS_CMAE_RESPONSE_TYPE_ASSESS_V01 = 6, /**<  Assess (evaluate the information in this message). */
   MCM_CBS_CMAE_RESPONSE_TYPE_NONE_V01 = 7, /**<  None (no action recommended). */
-  MCM_CBS_CMAE_RESPONSE_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_RESPONSE_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_cbs_cmae_response_type_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_CBS_CMAE_SEVERITY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_CBS_CMAE_SEVERITY_INVALID_V01 = -1, 
+  MCM_CBS_CMAE_SEVERITY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_SEVERITY_INVALID_V01 = -1,
   MCM_CBS_CMAE_SEVERITY_EXTREME_V01 = 0, /**<  Extreme (extraodinary threat to life or property). */
   MCM_CBS_CMAE_SEVERITY_SEVERE_V01 = 1, /**<  Severe (significant threat to life or property). */
-  MCM_CBS_CMAE_SEVERITY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_SEVERITY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_cbs_cmae_severity_type_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_CBS_CMAE_URGENCY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_CBS_CMAE_URGENCY_INVALID_V01 = -1, 
+  MCM_CBS_CMAE_URGENCY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_URGENCY_INVALID_V01 = -1,
   MCM_CBS_CMAE_URGENCY_IMMEDIATE_V01 = 0, /**<  Immediate (responsive action should be taken immediately).  */
   MCM_CBS_CMAE_URGENCY_EXPECTED_V01 = 1, /**<  Expected (reponsive action should be taken soon, i.e., within the next hour). */
-  MCM_CBS_CMAE_URGENCY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_URGENCY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_cbs_cmae_urgency_type_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_enums
+/** @addtogroup mcm_sms_enums
     @{
   */
 typedef enum {
-  MCM_CBS_CMAE_CERTAINTY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /**< To force a 32 bit signed enum.  Do not change or use*/
-  MCM_CBS_CMAE_CERTAINTY_INVALID_V01 = -1, 
+  MCM_CBS_CMAE_CERTAINTY_TYPE_T_MIN_ENUM_VAL_V01 = -2147483647, /* To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_CERTAINTY_INVALID_V01 = -1,
   MCM_CBS_CMAE_CERTAINTY_OBSERVED_V01 = 0, /**<  Observed (determined to have occurred or to be ongoing). */
   MCM_CBS_CMAE_CERTAINTY_LIKELY_V01 = 1, /**<  Likely (probabiltiy > ~50%). */
-  MCM_CBS_CMAE_CERTAINTY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /**< To force a 32 bit signed enum.  Do not change or use*/
+  MCM_CBS_CMAE_CERTAINTY_TYPE_T_MAX_ENUM_VAL_V01 = 2147483647 /* To force a 32 bit signed enum.  Do not change or use*/
 }mcm_cbs_cmae_certainty_type_t_v01;
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_aggregates
+/** @addtogroup mcm_sms_aggregates
     @{
   */
 typedef struct {
@@ -311,20 +254,20 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_aggregates
+/** @addtogroup mcm_sms_aggregates
     @{
   */
 typedef struct {
 
-  uint32_t message_content_len;  /**< Must be set to # of elements in message_content */
+  uint32_t message_content_len;  /**< Must be set to the number of elements in message_content. */
   char message_content[MCM_SMS_MAX_MT_MSG_LENGTH_V01];
-  /**<   Message content.*/
+  /**<   Message content. @newpagetable */
 }mcm_cbs_cmae_record_type_0_t_v01;  /* Type */
 /**
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_aggregates
+/** @addtogroup mcm_sms_aggregates
     @{
   */
 typedef struct {
@@ -348,7 +291,7 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_aggregates
+/** @addtogroup mcm_sms_aggregates
     @{
   */
 typedef struct {
@@ -370,63 +313,63 @@ typedef struct {
   */
 
 /** @addtogroup mcm_sms_qmi_aggregates
-    @{
-  */
+  @{
+ */
 typedef struct {
 
-  uint8_t year;
-  /**<     Year.*/
+        uint8_t year;
+        /**<     Year.*/
 
-  uint8_t month;
-  /**<     Month.*/
+        uint8_t month;
+        /**<     Month.*/
 
-  uint8_t day;
-  /**<     Day.*/
+        uint8_t day;
+        /**<     Day.*/
 
-  uint8_t hours;
-  /**<     Hour.*/
+        uint8_t hours;
+        /**<     Hour.*/
 
-  uint8_t minutes;
-  /**<     Minutes.*/
+        uint8_t minutes;
+        /**<     Minutes.*/
 
-  uint8_t seconds;
-  /**<     Seconds.*/
+        uint8_t seconds;
+        /**<     Seconds.*/
 
-  uint8_t timezone;
-  /**<     Timezone.*/
+        uint8_t timezone;
+        /**<     Timezone.*/
 }mcm_sms_timestamp_type_t_v01;  /* Type */
 /**
-    @}
-  */
+  @}
+ */
 
+//Laurence.yin-2018/04/10-QCM9XOL00004C014-P01, <[MCM-SMS] : add user data head info struct .> 
 /** @addtogroup mcm_sms_qmi_aggregates
-    @{
-  */
+  @{
+ */
 typedef struct {
 
-  uint8_t total_segments;
-  /**<       The number of long  short message   */
+    uint8_t total_segments;
+    /**<       The number of long  short message   */
 
-  uint8_t seg_number;
-  /**<       Current number. */
-
-  uint8_t reference_num;
-  /**<       reference  number. */
+    uint8_t seg_number;
+    /**<       Current number. */
 }mcm_sms_user_data_head_type_t_v01;  /* Type */
 /**
-    @}
-  */
+  @}
+ */
 
-/** @addtogroup mcm_sms_qmi_messages
+
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Sets the service center configuration type. */
+/** Request message; Sets the service center configuration type. */
 typedef struct {
 
   /* Mandatory */
   char service_center_addr[MCM_SMS_MAX_ADDR_LENGTH_V01 + 1];
   /**<   Address of the service center.*/
 
+  //Laurence.yin-2018/04/19-QCM9XOL00004C012-P01, <[SMS][SCA] : define service_center_addr_type.>
   /* Optional */
   uint8_t service_center_addr_type_valid;  /**< Must be set to true if service_center_addr_type is being passed */
   char service_center_addr_type[MCM_SMS_MAX_SCA_TYPE_LENGTH_V01 + 1];
@@ -434,7 +377,7 @@ typedef struct {
     145 if the SMSC address starts with a "+" character*/
 
   /* Optional */
-  uint8_t validity_time_valid;  /**< Must be set to true if validity_time is being passed */
+  uint8_t validity_time_valid;  /**< Must be set to TRUE if validity_time is being passed.. */
   int64_t validity_time;
   /**<   Validity time.*/
 }mcm_sms_set_service_center_cfg_type_req_msg_v01;  /* Message */
@@ -442,10 +385,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Sets the service center configuration type. */
+/** Response message; Sets the service center configuration type. */
 typedef struct {
 
   /* Mandatory */
@@ -456,25 +399,21 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
-    @{
-  */
-/** Request Message; Gets the service center configuration type. */
+/** @cond
+*/
+
 typedef struct {
   /* This element is a placeholder to prevent the declaration of
      an empty struct.  DO NOT USE THIS FIELD UNDER ANY CIRCUMSTANCE */
   char __placeholder;
 }mcm_sms_get_service_center_cfg_type_req_msg_v01;
 
-  /* Message */
-/**
-    @}
-  */
+/** @endcond */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Gets the service center configuration type. */
+/** Response message; Gets the service center configuration type. */
 typedef struct {
 
   /* Mandatory */
@@ -482,10 +421,11 @@ typedef struct {
   /**<   Result code.*/
 
   /* Optional */
-  uint8_t service_center_addr_valid;  /**< Must be set to true if service_center_addr is being passed */
+  uint8_t service_center_addr_valid;  /**< Must be set to TRUE if service_center_addr is being passed. */
   char service_center_addr[MCM_SMS_MAX_ADDR_LENGTH_V01 + 1];
   /**<   Address of the service center.*/
 
+  //Laurence.yin-2018/04/19-QCM9XOL00004C012-P01, <[SMS][SCA] : define sca type.>
   /* Optional */
   uint8_t service_center_addr_type_valid;  /**< Must be set to true if service_center_addr_type is being passed */
   char service_center_addr_type[MCM_SMS_MAX_SCA_TYPE_LENGTH_V01 + 1];
@@ -494,7 +434,7 @@ typedef struct {
 
 
   /* Optional */
-  uint8_t validity_time_valid;  /**< Must be set to true if validity_time is being passed */
+  uint8_t validity_time_valid;  /**< Must be set to TRUE if validity_time is being passed. */
   int64_t validity_time;
   /**<   Validity time.*/
 }mcm_sms_get_service_center_cfg_type_resp_msg_v01;  /* Message */
@@ -502,10 +442,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Sends an MO message. */
+/** Request message; Sends an MO message. */
 typedef struct {
 
   /* Mandatory */
@@ -522,7 +462,7 @@ typedef struct {
   /**<   Destination. */
 
   /* Optional */
-  uint8_t size_validation_valid;  /**< Must be set to true if size_validation is being passed */
+  uint8_t size_validation_valid;  /**< Must be set to TRUE if size_validation is being passed. */
   mcm_sms_msg_size_validation_mode_t_v01 size_validation;
   /**<   Size validation. */
 }mcm_sms_send_mo_msg_req_msg_v01;  /* Message */
@@ -530,10 +470,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Sends an MO message. */
+/** Response message; Sends an MO message. */
 typedef struct {
 
   /* Mandatory */
@@ -544,19 +484,19 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Sets the message configutation. */
+/** Request message; Sets the message configutation. */
 typedef struct {
 
   /* Optional */
-  uint8_t default_size_validation_mode_valid;  /**< Must be set to true if default_size_validation_mode is being passed */
+  uint8_t default_size_validation_mode_valid;  /**< Must be set to TRUE if default_size_validation_mode is being passed. */
   mcm_sms_msg_size_validation_mode_t_v01 default_size_validation_mode;
   /**<   Default size validation mode. */
 
   /* Optional */
-  uint8_t enable_cb_valid;  /**< Must be set to true if enable_cb is being passed */
+  uint8_t enable_cb_valid;  /**< Must be set to TRUE if enable_cb is being passed. */
   uint8_t enable_cb;
   /**<   Enable callback. */
 }mcm_sms_set_msg_config_req_msg_v01;  /* Message */
@@ -564,10 +504,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Sets the message configutation. */
+/** Response message; Sets the message configutation. */
 typedef struct {
 
   /* Mandatory */
@@ -578,25 +518,21 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
-    @{
-  */
-/** Request Message; Gets the message configuration. */
+/** @cond
+*/
+
 typedef struct {
   /* This element is a placeholder to prevent the declaration of
      an empty struct.  DO NOT USE THIS FIELD UNDER ANY CIRCUMSTANCE */
   char __placeholder;
 }mcm_sms_get_msg_config_req_msg_v01;
 
-  /* Message */
-/**
-    @}
-  */
+/** @endcond */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Gets the message configuration. */
+/** Response message; Gets the message configuration. */
 typedef struct {
 
   /* Mandatory */
@@ -604,12 +540,12 @@ typedef struct {
   /**<   Result code.*/
 
   /* Optional */
-  uint8_t default_size_validation_mode_valid;  /**< Must be set to true if default_size_validation_mode is being passed */
+  uint8_t default_size_validation_mode_valid;  /**< Must be set to TRUE if default_size_validation_mode is being passed. */
   mcm_sms_msg_size_validation_mode_t_v01 default_size_validation_mode;
   /**<   Default size validation mode. */
 
   /* Optional */
-  uint8_t enable_cb_valid;  /**< Must be set to true if enable_cb is being passed */
+  uint8_t enable_cb_valid;  /**< Must be set to TRUE if enable_cb is being passed. */
   uint8_t enable_cb;
   /**<   Enable callback. */
 }mcm_sms_get_msg_config_resp_msg_v01;  /* Message */
@@ -617,10 +553,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Sets the reception mode. */
+/** Request message; Sets the reception mode. */
 typedef struct {
 
   /* Mandatory */
@@ -628,7 +564,7 @@ typedef struct {
   /**<   Reception mode. */
 
   /* Optional */
-  uint8_t last_absorbed_message_id_valid;  /**< Must be set to true if last_absorbed_message_id is being passed */
+  uint8_t last_absorbed_message_id_valid;  /**< Must be set to TRUE if last_absorbed_message_id is being passed. */
   int64_t last_absorbed_message_id;
   /**<   Last absorbed message ID. */
 }mcm_sms_set_reception_mode_req_msg_v01;  /* Message */
@@ -636,10 +572,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Sets the reception mode. */
+/** Response message; Sets the reception mode. */
 typedef struct {
 
   /* Mandatory */
@@ -650,14 +586,14 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Registers for an indication of events. */
+/** Request message; Registers for an indication of events. */
 typedef struct {
 
   /* Optional */
-  uint8_t register_sms_pp_event_valid;  /**< Must be set to true if register_sms_pp_event is being passed */
+  uint8_t register_sms_pp_event_valid;  /**< Must be set to TRUE if register_sms_pp_event is being passed. */
   uint8_t register_sms_pp_event;
   /**<   Receive a PP SMS event.*/
 }mcm_sms_event_register_req_msg_v01;  /* Message */
@@ -665,10 +601,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Response Message; Registers for an indication of events. */
+/** Response message; Registers for an indication of events. */
 typedef struct {
 
   /* Mandatory */
@@ -679,16 +615,16 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Point-to-point message indication. */
+/** Indication message; Point-to-point message indication. */
 typedef struct {
 
   /* Mandatory */
   mcm_sms_msg_format_t_v01 message_format;
   /**<   Message format. */
-
+  
   /* Mandatory */
   uint32_t message_content_len;  /**< Must be set to # of elements in message_content */
   char message_content[MCM_SMS_MAX_MT_MSG_LENGTH_V01];
@@ -706,13 +642,14 @@ typedef struct {
   mcm_sms_timestamp_type_t_v01 message_timestamp;
   /**<   Message time_stamp. */
 
+  //Laurence.yin-2018/04/10-QCM9XOL00004C014-P01, <[MCM-SMS] : add  user_data_head .> 
   /* Optional */
   uint8_t user_data_head_valid;  /**< Must be set to true if user_data_head is being passed */
   mcm_sms_user_data_head_type_t_v01 user_data_head;
   /**<    long sms userdata head info. */
 
   /* Optional */
-  uint8_t message_class_valid;  /**< Must be set to true if message_class is being passed */
+  uint8_t message_class_valid;  /**< Must be set to TRUE if message_class is being passed. */
   mcm_sms_message_class_t_v01 message_class;
   /**<   Message class. */
 }mcm_sms_pp_ind_msg_v01;  /* Message */
@@ -720,10 +657,10 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Cell broadcast message indication. */
+/** Indication message; Cell broadcast message indication. */
 typedef struct {
 
   /* Mandatory */
@@ -739,24 +676,24 @@ typedef struct {
     @}
   */
 
-/** @addtogroup mcm_sms_qmi_messages
+/** @addtogroup mcm_sms_messages
     @{
   */
-/** Request Message; Cell broadcast CMAS message indication. */
+/** Indication message; Cell broadcast CMAS message indication. */
 typedef struct {
 
   /* Optional */
-  uint8_t type_0_record_valid;  /**< Must be set to true if type_0_record is being passed */
+  uint8_t type_0_record_valid;  /**< Must be set to TRUE if type_0_record is being passed. */
   mcm_cbs_cmae_record_type_0_t_v01 type_0_record;
   /**<   Type 0 record. */
 
   /* Optional */
-  uint8_t type_1_record_valid;  /**< Must be set to true if type_1_record is being passed */
+  uint8_t type_1_record_valid;  /**< Must be set to TRUE if type_1_record is being passed. */
   mcm_cbs_cmae_record_type_1_t_v01 type_1_record;
   /**<   Type 1 record. */
 
   /* Optional */
-  uint8_t type_2_record_valid;  /**< Must be set to true if type_2_record is being passed */
+  uint8_t type_2_record_valid;  /**< Must be set to TRUE if type_2_record is being passed. */
   mcm_cbs_cmae_record_type_2_t_v01 type_2_record;
   /**<   Type 2 record. */
 }mcm_sms_cb_cmas_ind_msg_v01;  /* Message */

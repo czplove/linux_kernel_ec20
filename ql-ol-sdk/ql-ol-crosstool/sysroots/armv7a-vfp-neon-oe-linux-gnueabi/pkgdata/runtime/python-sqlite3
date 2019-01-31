@@ -11,8 +11,8 @@ SECTION: devel/python
 PKG_python-sqlite3: python-sqlite3
 FILES_python-sqlite3: /usr/lib/python2.7/lib-dynload/_sqlite3.so /usr/lib/python2.7/sqlite3/dbapi2.* /usr/lib/python2.7/sqlite3/__init__.* /usr/lib/python2.7/sqlite3/dump.* 
 FILERPROVIDESFLIST_python-sqlite3: /usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so
-FILES_INFO: {"/usr/lib/python2.7/sqlite3/dbapi2.pyc": 2690, "/usr/lib/python2.7/sqlite3/dump.pyc": 2065, "/usr/lib/python2.7/sqlite3/dbapi2.py": 2698, "/usr/lib/python2.7/sqlite3/dump.py": 2804, "/usr/lib/python2.7/lib-dynload/_sqlite3.so": 62932, "/usr/lib/python2.7/sqlite3/__init__.pyc": 162, "/usr/lib/python2.7/sqlite3/__init__.py": 1037}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so_python-sqlite3: _sqlite3.so elf(buildid) (= 1768335678d557132636a57d97bfaccc7b1cba0a)
+FILES_INFO: {"/usr/lib/python2.7/sqlite3/dbapi2.py": 2698, "/usr/lib/python2.7/sqlite3/dump.pyc": 2065, "/usr/lib/python2.7/sqlite3/dbapi2.pyc": 2690, "/usr/lib/python2.7/sqlite3/dump.py": 2804, "/usr/lib/python2.7/lib-dynload/_sqlite3.so": 62932, "/usr/lib/python2.7/sqlite3/__init__.pyc": 162, "/usr/lib/python2.7/sqlite3/__init__.py": 1037}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so_python-sqlite3: _sqlite3.so elf(buildid) (= 854dc1dd263b59df6999e12083a0aeb5e2e05158)
 FILERDEPENDSFLIST_python-sqlite3: /usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@sqlite3.so_python-sqlite3: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libsqlite3.so.0 rtld(GNU_HASH)
 PKGSIZE_python-sqlite3: 74388

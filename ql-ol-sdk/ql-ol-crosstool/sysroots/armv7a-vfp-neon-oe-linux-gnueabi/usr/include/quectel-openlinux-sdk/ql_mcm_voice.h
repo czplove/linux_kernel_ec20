@@ -18,7 +18,6 @@
 #define QL_MCM_MAX_PASSWORD_LENGTH              4   /**  Maximum password length. */
 #define QL_MCM_MAX_CALL_FORWARDING_INFO         13  /**  Maximum call forwarding information. */
 #define QL_MCM_MAX_ECALL_MSD                    140 /**  Maximum size of the MSD sent to the network with an eCall */
-#define QL_MCM_MAX_ECALL_URC_EVENT_LENGTH       128 /**  Maximum size of the ecall urc event */
 
 
 typedef enum 
@@ -386,108 +385,89 @@ typedef enum
     E_QL_MCM_VOICE_CALL_END_CAUSE_EMM_REJ                                   = 317, 
 }ql_mcm_voice_call_end_reason_t;
 
-typedef enum 
-{
-    E_QL_MCM_VOICE_UUS_TYPE1_IMPLICIT,          //!< Type 1 implicit.
-    E_QL_MCM_VOICE_UUS_TYPE1_REQUIRED,          //!< Type 1 required.
-    E_QL_MCM_VOICE_UUS_TYPE1_NOT_REQUIRED,      //!< Type 1 not required.
-    E_QL_MCM_VOICE_UUS_TYPE2_REQUIRED,          //!< Type 2 required.
-    E_QL_MCM_VOICE_UUS_TYPE2_NOT_REQUIRED,      //!< Type 2 not required.
-    E_QL_MCM_VOICE_UUS_TYPE3_REQUIRED,          //!< Type 3 required.
-    E_QL_MCM_VOICE_UUS_TYPE3_NOT_REQUIRED,      //!< Type 3 not required.
-    E_QL_MCM_VOICE_UUS_TYPE_DATA                //!< Data.
-} ql_mcm_voice_uus_type_t;
-
-typedef enum 
-{
-    E_QL_MCM_VOICE_UUS_DCS_IA5,                 //!< IA5.
-    E_QL_MCM_VOICE_UUS_DCS_OHLP,                //!< OHLP.
-    E_QL_MCM_VOICE_UUS_DCS_USP,                 //!< USP.
-    E_QL_MCM_VOICE_UUS_DCS_X244                 //!< x244.
-} ql_mcm_voice_uus_dcs_type_t;                  //!< UUS data coding scheme. 
-
-
-typedef struct 
-{
-    ql_mcm_voice_uus_type_t     type;           /**< UUS type; range -- 0 to 6.*/
-    ql_mcm_voice_uus_dcs_type_t dcs;            /**< UUS data coding scheme; range -- 0 to 4.*/
-    uint32_t                    uus_data_len;   /**< Must be set to the number of elements in uus_data. */
-    uint8_t                     uus_data[QL_MCM_MAX_UUS_DATA];/**< Voice call UUS data.*/
-}ql_mcm_voice_uusdata_t;
-
 typedef struct 
 {
     uint32_t                                      call_id;                                /**<   Call ID associated with this call.*/
     ql_mcm_voice_call_state_t                     state;                                  /**<   Current call state (mcm_voice_call_state).*/
     ql_mcm_voice_tech_t                           tech;                                   /**<   Technology (mcm_tech).*/
-    char                                          number[QL_MCM_MAX_PHONE_NUMBER + 1];    /**<   Phone number.*/
+    char                                          number[QL_MCM_MAX_PHONE_NUMBER + 1];   /**<   Phone number.*/
     ql_mcm_voice_call_number_presentation_type_t  number_presentation;                    /**<   Number presentation.*/
     ql_mcm_voice_call_direction_type_t            direction;                              /**<   Voice call direction.*/
-    uint8_t                                       uusdata_valid;                          /**<   Indicates whether UUS data is valid.*/
-    ql_mcm_voice_uusdata_t                        uusdata;                                /**<   User-to-user signaling data.*/
-    ql_mcm_voice_call_end_reason_t                call_end_reason;
+    //uint8_t                                     uusdata_valid;                          /**<   Indicates whether UUS data is valid.*/
+    //mcm_voice_uusdata_t                         uusdata;                                /**<   User-to-user signaling data.*/
+    ql_mcm_voice_call_end_reason_t               call_end_reason;
 }ql_mcm_voice_call_record_t;
 
 typedef struct 
 {
     uint32_t                      calls_len;  /**< Must be set to # of elements in calls */
     ql_mcm_voice_call_record_t    calls[QL_MCM_MAX_VOICE_CALLS]; /**<   Calls.*/
-}ql_mcm_voice_calls_state_t;
+}ql_mcm_voice_calls_state_t;  /* Message */  
 
+#if 0
+typedef enum 
+{
+    E_QL_MCM_SIMRIL_DIAL_CMD_REGISTER,               /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_UNREGISTER,             /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_HANGUP,                 /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_ANSWER,                 /**< Answer the call. */
+    E_QL_MCM_SIMRIL_DIAL_CMD_CONFERENCE,             /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_HOLD,                   /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_UNHOLD,                 /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_END_ALL,                /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_MUTE,                   /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_UNMUTE,                 /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_ENABLE_AUTO_ANSWER,     /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_DISABLE_AUTO_ANSWER,    /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_BARRING,                /**< . */
+    E_QL_MCM_SIMRIL_DIAL_CMD_ECALL_MANUAL,           /**< param="phone number". */
+    E_QL_MCM_SIMRIL_DIAL_CMD_ECALL_AUTO,             /**< param="phone number". */
+    E_QL_MCM_SIMRIL_DIAL_CMD_DIAL_NUMBER,            /**< param="phone number". */    
+}ql_mcm_simril_dial_cmd_t;
+
+typedef struct
+{
+    ql_mcm_simril_dial_cmd_t    cmd;
+    void                        *param;
+} ql_mcm_simril_dial_cmd_info_t;
+
+typedef int (* mcm_simril_dial_cmd_handler)(mcm_simril_dial_cmd_info_t* cmd_params);
+#endif
 
 typedef enum 
 {
     E_QL_MCM_VOICE_CALL_FORWARDING_DISABLED         = 0, /**<  Disabled. */
     E_QL_MCM_VOICE_CALL_FORWARDING_ENABLED          = 1, /**<  Enabled. */
-}QL_MCM_VOICE_CALL_FORWARDING_STATUS_T;
+}ql_mcm_voice_call_forwarding_status_t;
 
 typedef enum 
 {
     E_QL_MCM_VOICE_CALL_FORWARDING_TYPE_VOICE       = 0, /**<  Voice. */
     E_QL_MCM_VOICE_CALL_FORWARDING_TYPE_DATA        = 1, /**<  Data. */
     E_QL_MCM_VOICE_CALL_FORWARDING_TYPE_VOICE_DATA  = 2, /**<  Voice and data. */
-}QL_MCM_VOICE_CALL_FORWARDING_TYPE_T;
+}ql_mcm_voice_call_forwarding_type_t;
 
 typedef struct 
 {
-    QL_MCM_VOICE_CALL_FORWARDING_TYPE_T     type;       /**<   Call forwarding type.*/
-    char number[QL_MCM_MAX_PHONE_NUMBER + 1];           /**<   Call forwarding number.*/
-}QL_MCM_VOICE_CALL_FORWARDING_INFO_T;  /* Type */
+    ql_mcm_voice_call_forwarding_type_t     type;       /**<   Call forwarding type.*/
+    char number[QL_MCM_MAX_PHONE_NUMBER + 1];          /**<   Call forwarding number.*/
+}ql_mcm_voice_call_forwarding_info_t;  /* Type */
 
 typedef struct 
 {
-    QL_MCM_VOICE_CALL_FORWARDING_STATUS_T     status;     /**<   Call forwarding status.*/
+    ql_mcm_voice_call_forwarding_status_t     status;     /**<   Call forwarding status.*/
+
     uint32_t                                  info_len;   /**< Must be set to # of elements in info */
-    QL_MCM_VOICE_CALL_FORWARDING_INFO_T       info[QL_MCM_MAX_CALL_FORWARDING_INFO];/**<   Call forwarding information.*/
+    ql_mcm_voice_call_forwarding_info_t       info[QL_MCM_MAX_CALL_FORWARDING_INFO];/**<   Call forwarding information.*/
 }ql_mcm_voice_call_forwarding_status_list_t;  /* Message */
-
-typedef enum 
-{
-    E_QL_MCM_VOICE_SERVICE_UNKOWN       =   0,
-    E_QL_MCM_VOICE_SERVICE_REGISTER     =   1,  /**<  Register. */
-    E_QL_MCM_VOICE_SERVICE_ERASE        =   2,  /**<  Erase. */
-}E_QL_MCM_VOICE_CALL_SERVICE_T;
-
-typedef enum 
-{
-    E_QL_MCM_VOICE_CALL_FORWARD_UNCONDITIONALLY     = 0, /**<  Unconditional call forwarding. */
-    E_QL_MCM_VOICE_CALL_FORWARD_MOBILEBUSY          = 1, /**<  Forward when the mobile device is busy. */
-    E_QL_MCM_VOICE_CALL_FORWARD_NOREPLY             = 2, /**<  Forward when there is no reply. */
-    E_QL_MCM_VOICE_CALL_FORWARD_UNREACHABLE         = 3, /**<  Forward when the call is unreachable. */
-    E_QL_MCM_VOICE_CALL_FORWARD_ALLFORWARDING       = 4, /**<  All forwarding(0-3). */
-    E_QL_MCM_VOICE_CALL_FORWARD_ALLCONDITIONAL      = 5, /**<  All conditional forwarding(1-3). */
-}E_QL_MCM_VOICE_CALL_FORWARDING_REASON_T;
 
 
 typedef enum 
 {
     E_QL_MCM_VOICE_CALL_WAITING_VOICE_ENABLED       = 0, /**<  Voice call waiting enabled. */
-    E_QL_MCM_VOICE_CALL_WAITING_DISABLED            = 1, /**<  Voice call waiting disabled. */
-}E_QL_MCM_VOICE_CALL_WAITING_SERVICE_T;
-
-typedef struct 
-{
-    E_QL_MCM_VOICE_CALL_WAITING_SERVICE_T   waiting_service;
+    E_QL_MCM_VOICE_CALL_WAITING_DATA_ENABLED        = 1, /**<  Data call waiting enabled. */
+    E_QL_MCM_VOICE_CALL_WAITING_VOICE_DATA_ENABLED  = 2, /**<  Voice and data call waiting enabled. */
+    E_QL_MCM_VOICE_CALL_WAITING_DISABLED            = 3, /**<  Voice call waiting disabled. */
 }ql_mcm_voice_call_waiting_service_t;
 
 
@@ -566,26 +546,23 @@ typedef ql_mcm_voice_call_state_t E_QL_VOICE_CALL_STATE_T;
 
 typedef enum 
 {
-    E_QL_MCM_ECALL_TEST             = 0x01, 
-    E_QL_MCM_ECALL_EMERGENCY        = 0x02, 
-    E_QL_MCM_ECALL_RECONFIG         = 0x03, 
+    E_QL_MCM_ECALL_TEST      		= 0x01, 
+    E_QL_MCM_ECALL_EMERGENCY     	= 0x02, 
+    E_QL_MCM_ECALL_RECONFIG  		= 0x03, 
 }E_QL_MCM_ECALL_VARIANT_T;
 
 typedef enum {
- 	E_QL_MCM_VOICE_AUTO_ANSWER_ENABLE       = 0,    /**<  Enable auto-answer. */
- 	E_QL_MCM_VOICE_AUTO_ANSWER_DISABLE      = 1,    /**<  Disable auto-answer. */
+ 	E_QL_MCM_VOICE_AUTO_ANSWER_ENABLE 		= 0, 	/**<  Enable auto-answer. */
+ 	E_QL_MCM_VOICE_AUTO_ANSWER_DISABLE 		= 1, 	/**<  Disable auto-answer. */
 }E_QL_MCM_VOICE_AUTO_ANSWER_T;
 
 
 //Laurence.yin-2018/04/03-QCM9XOL00004C011-P02, <[MCM-ECALL] : add ecall status ind info.>
 typedef enum 
 {
-    E_QL_MCM_VOICE_UNKOWN_IND               = 0,
-    E_QL_MCM_VOICE_CALL_IND                 ,
-    E_QL_MCM_VOICE_ECALL_STATUE_IND         ,
-    E_QL_MCM_VOICE_ECALL_URC_IND            ,
-    E_QL_MCM_VOICE_ECALL_EVENT_IND          ,
-
+    E_QL_MCM_VOICE_UNKOWN_IND                   = 0,
+    E_QL_MCM_VOICE_CALL_IND,
+    E_QL_MCM_VOICE_ECALL_STATUE_IND,
 }E_QL_MCM_VOICE_IND_T;
 
 typedef enum 
@@ -594,59 +571,6 @@ typedef enum
     E_QL_MCM_VOICE_ECALL_MSD_TRANSMISSION_STATUS_FAILURE        = 0x01, /**<   Generic failure  */
 }E_QL_MCM_EALL_MSD_TRANSMISSION_STATUS_T;
 
-typedef enum 
-{
-    E_QL_MCM_VOICE_ECALL_INACTIVE               = 0, 
-    E_QL_MCM_VOICE_ECALL_ORIGINATING_CALL       = 1, 
-    E_QL_MCM_VOICE_ECALL_IN_CALL_TRANSMITTING   = 2, /**<  ECALL APP TRANSMITTING */
-    E_QL_MCM_VOICE_ECALL_WATING_FOR_AL_ACK      = 3, 
-    E_QL_MCM_VOICE_ECALL_IN_CALL                = 4, 
-    E_QL_MCM_VOICE_ECALL_IDLE_ALLOW_MT_ECALL    = 5, 
-}E_QL_MCM_ECALL_STATE_T;
-
-typedef enum
-{
-  E_QL_MCM_VOICE_ECALL_MODE_NOMAL   = 0, 
-  E_QL_MCM_VOICE_ECALL_MODE_ONLY    = 1, 
-  E_QL_MCM_VOICE_ECALL_MODE_DEFAULT = 2
-}E_QL_MCM_ECALL_MODE_T;
-
-typedef enum
-{
-  E_QL_MCM_VOICE_ECALL_CONFIG_ENABLE            = 0, 
-  E_QL_MCM_VOICE_ECALL_CONFIG_VIOCECONF         , 
-  E_QL_MCM_VOICE_ECALL_CONFIG_MODE              ,
-  E_QL_MCM_VOICE_ECALL_CONFIG_PROCESSINFO       ,
-  E_QL_MCM_VOICE_ECALL_CONFIG_START_TIMER       ,
-  E_QL_MCM_VOICE_ECALL_CONFIG_HACK_TIMER        ,
-  E_QL_MCM_VOICE_ECALL_CONFIG_MSD_TRANSMISSION  ,
-  E_QL_MCM_VOICE_ECALL_CONFIG_MO_FAILR_REDIAL   ,
-  E_QL_MCM_VOICE_ECALL_CONFIG_DROP_REDIAL
-}E_QL_MCM_ECALL_CONFIG_T;
-
-typedef struct
-{
-    char                        ecall_msd[QL_MCM_MAX_ECALL_MSD+1];  //max msd length 140
-    int                         manual;
-    E_QL_MCM_ECALL_VARIANT_T    eCallModeType; 
-}ql_mcm_ecall_info;
-
-typedef struct 
-{
-  uint8_t enable;           /*  Enable or disable ecall ;0 -- Disable; 1 -- Enable */
-  uint8_t voiceconfig;      /*  Enable or disable to mute IVS speaker in MSD
-                            0 -- Disable to mute IVS speaker automatical in MSD transmission
-                            1 -- Enable to mute IVS speaker automatical in MSD transmission */
-  E_QL_MCM_ECALL_MODE_T ecallmode;  /*  The Ecall mode. */
-  uint8_t processinfo;      /*  Enable or disable to report ecall event info.   0 -- Disable; 1 -- Enable */
-  uint8_t T5;               /*  The timer of IVS waiting for "START". */
-  uint8_t T6;               /*  The timer of IVS waiting for "HACK". */
-  uint8_t T7;               /*  The timer of MSD transmission. */
-  uint8_t mofailredial;     /*  The dial fail times. */
-  uint8_t dropredial;
-}ql_mcm_ecall_config_info;
-
-
 typedef struct 
 {
     uint8_t call_id;                                                    /**<  call_id.*/
@@ -654,85 +578,8 @@ typedef struct
     E_QL_MCM_EALL_MSD_TRANSMISSION_STATUS_T ecall_msd_tx_status;
 }ql_mcm_voice_ecall_status_t;  /* Message */
 
-typedef struct 
-{
-    uint8_t call_id;                /**<  call_id.*/
-    uint32_t ecall_urc_event_len;   /**< Must be set to # of elements in ecall_urc_event */
-    char ecall_urc_event[QL_MCM_MAX_ECALL_URC_EVENT_LENGTH];
-}ql_mcm_voice_ecall_urc_t;
-
-typedef enum 
-{
-  E_QL_MCM_VOICE_ECALL_EVENT_FAIL_START_TIMEOUT             = 1, /**<  Wait for START timeout. */
-  E_QL_MCM_VOICE_ECALL_EVENT_FAIL_HACK_TIMEOUT              = 2, /**<  Wait for HACK timeout.	 */
-  E_QL_MCM_VOICE_ECALL_EVENT_FAIL_MSD_TRANSMISSION_TIMEOUT  = 3, /**<  MSD transmission timeout.	 */
-  E_QL_MCM_VOICE_ECALL_EVENT_FAIL_IVS_RESET_TIMEOUT         = 4  /**<  IVS reset. */
-}E_QL_MCM_VOICE_ECALL_EVENT_FAIL_T;
-
-typedef enum 
-{
-  E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_IVS_START_RECEIVED_MSD = 1, /**<  IVS Link Layer receives START message and starts to send MSD */
-  E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_IVS_NACK_RECEIVED      = 2, /**<  IVS Link Layer receives NACK message. */
-  E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_IVS_ACK_RECEIVED       = 3, /**<  IVS Link Layer receives the first LACK message. */
-  E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_IVS_TX_COMPLETED       = 4, /**<  IVS MSD transmission is complete. */
-  E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_IVS_HLACK_RECEIVED     = 5  /**<  IVS Link Layer receives first HACK message. */
-}E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_T;
-
-typedef enum 
-{
-  E_QL_MCM_VOICE_ECALL_EVENT_MSDUPDATE_IVS_UPDATING_MSD         = 0, /**<  Indicates MSD has been updated. */
-  E_QL_MCM_VOICE_ECALL_EVENT_MSDUPDATE_PSAP_REQURE_UPDATE_MSD   = 1, /**<  Indicate timeout of updating MSD and module starts to transfer the old MSD. */
-  E_QL_MCM_VOICE_ECALL_EVENT_MSDUPDATE_IVS_UPDATE_MSD_TIMEOUT   = 2  /**<  Indicate to update MSD in 5 seconds. */
-}E_QL_MCM_VOICE_ECALL_EVENT_MSDUPDATE_T;
-
-typedef enum 
-{
-  E_QL_MCM_VOICE_ECALL_EVENT_ECALL_ESTABLISHNG_SUCCESS  = 0, /**<  Establish eCall successfully. */
-  E_QL_MCM_VOICE_ECALL_EVENT_ECALL_ESTABLISHNG_FAIL     = 1  /**<  Establish eCall fails. */
-}E_QL_MCM_VOICE_ECALL_EVENT_ESTABLISH_T;
-
-typedef struct 
-{
-  uint16_t hack_code;  /**<   psap hack code.*/
-}ql_mcm_voice_ecall_event_hackcode_t;  /* Type */
-
-typedef struct 
-{
-  uint8_t ori_remainder_times;  /**<   originate fail remainder times*/
-  uint16_t time;                /**<   the minimum time duration between the previous call attempt*/
-}ql_mcm_voice_ecall_event_originate_fail_and_redial_t;  /* Type */
-
-typedef struct 
-{
-  uint8_t drop_remainder_times;  /**<   dorp remainder times*/
-  uint16_t time;                 /**<   the minimum time duration between the previous call attempt*/
-}ql_mcm_voice_ecall_event_drop_and_redial_t;  /* Type */
-
-
-typedef struct 
-{
-  uint8_t                                               ecall_event_fails_valid;
-  E_QL_MCM_VOICE_ECALL_EVENT_FAIL_T                     ecall_event_fails;          /**<   event of eCall Failed.*/
-  uint8_t                                               ecall_event_process_valid;  
-  E_QL_MCM_VOICE_ECALL_EVENT_PROCESS_T                  ecall_event_process;        /**<   event of eCall process.*/
-  uint8_t                                               ecall_event_msdupdate_valid;  
-  E_QL_MCM_VOICE_ECALL_EVENT_MSDUPDATE_T                ecall_event_msdupdate;      /**<   event of ecall msd update.*/
-  uint8_t                                               ecall_event_establish_valid; 
-  E_QL_MCM_VOICE_ECALL_EVENT_ESTABLISH_T                ecall_event_establish;      /**<   event of eCall establish.*/
-  uint8_t                                               ecall_event_hackcode_valid;  
-  ql_mcm_voice_ecall_event_hackcode_t                   ecall_event_hackcode;       /**<   event of eCall hack code.*/
-  uint8_t                                               ecall_event_ori_redial_valid;  
-  ql_mcm_voice_ecall_event_originate_fail_and_redial_t  ecall_event_ori_redial;     /**<   event of originate fail and redial.*/
-  uint8_t                                               ecall_event_drop_redial_valid;
-  ql_mcm_voice_ecall_event_drop_and_redial_t            ecall_event_drop_redial;    /**<   event of drop and redial.*/
-}ql_mcm_voice_ecall_event_t;  /* Message */
-  
-
 typedef ql_mcm_voice_calls_state_t ql_mcm_voice_call_ind;
 typedef ql_mcm_voice_ecall_status_t ql_mcm_voice_ecall_status_ind;
-typedef ql_mcm_voice_ecall_urc_t ql_mcm_voice_ecall_urc_ind;
-typedef ql_mcm_voice_ecall_event_t ql_mcm_voice_ecall_event_ind;
-
 
 
 
@@ -808,76 +655,22 @@ int QL_Voice_Call_EndConference( voice_client_handle_type   h_voice);
 int QL_Voice_Call_Ecall(voice_client_handle_type    h_voice,
                         E_QL_VCALL_ID_T             simId,
                         char*                       phone_number, 
-                        ql_mcm_ecall_info           ecall_info,
+                        char* 						ecall_msd,
+                        int 						manual,
+                        E_QL_MCM_ECALL_VARIANT_T	eCallModeType, 
                         int                         *call_id);
 
+int QL_Voice_Call_UpdateMsd(voice_client_handle_type    h_voice,
+                         		const char				 *hex_msd);
 
-int QL_Voice_Call_SetAutoAnswer(voice_client_handle_type                h_voice,
-                                        E_QL_MCM_VOICE_AUTO_ANSWER_T    eAnswerType,
-                                        uint32_t                        uAnswerTime);
+int QL_Voice_Call_SetAutoAnswer(voice_client_handle_type    			h_voice,
+                        			E_QL_MCM_VOICE_AUTO_ANSWER_T		eAnswerType,
+                        			uint32_t							uAnswerTime);
 
 int QL_Voice_Call_Ecall_HangUp(voice_client_handle_type h_voice);
 
-int QL_Voice_Call_Ecall_UpdateMsd(voice_client_handle_type    h_voice,const char *hex_msd);
-
-//Ecall Push caommand
-int QL_Voice_Call_Ecall_MsdPush(voice_client_handle_type h_voice,
-                                        E_QL_MCM_ECALL_STATE_T *ecall_state);
-
-//Get Ecall config info
-int QL_Voice_Call_Ecall_GetConfigInfo(voice_client_handle_type h_voice,
-                                        ql_mcm_ecall_config_info *ecall_config);
-
-int QL_Voice_Call_Ecall_SetConfigInfo(voice_client_handle_type h_voice,
-                                        E_QL_MCM_ECALL_CONFIG_T ecall_config_type,
-                                        uint8_t value);
-
-
-
 //Cancel dial
 int QL_Voice_Call_CancelDial( voice_client_handle_type   h_voice);
-
-//VTS API
-int QL_Voice_Call_Dtmf( voice_client_handle_type h_voice,uint8_t digit,int call_id);
-
-
-int QL_Voice_Call_GetCallStatus
-(
-    int                         h_voice, 
-    int                         call_id, // If call_id<0, means to get all calls state, or get specified call_id info
-    ql_mcm_voice_calls_state_t  *pt_callstate
-);
-
-//Set forwarding
-int QL_Voice_Call_SetForwarding
-(
-    int                             h_voice, 
-    E_QL_MCM_VOICE_CALL_SERVICE_T   service, 
-    E_QL_MCM_VOICE_CALL_FORWARDING_REASON_T  reason,
-    char *number
-);
-
-//Get forwarding status
-int QL_Voice_Call_GetForwardingStatus
-(
-    int                             h_voice, 
-    E_QL_MCM_VOICE_CALL_FORWARDING_REASON_T  reason,
-    ql_mcm_voice_call_forwarding_status_list_t *pt_status
-);
-
-//Set voice call waiting
-int QL_Voice_Call_SetWaiting
-( 
-    int                                 h_voice, 
-    ql_mcm_voice_call_waiting_service_t e_service
-);
-
-//Get voice call waiting status
-int QL_Voice_Call_GetWaitingStatus
-(
-    int                                 h_voice, 
-    ql_mcm_voice_call_waiting_service_t *pe_service
-);
 
 
 /*

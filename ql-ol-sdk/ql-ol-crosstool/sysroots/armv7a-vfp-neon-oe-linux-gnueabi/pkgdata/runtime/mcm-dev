@@ -11,5 +11,5 @@ SECTION_mcm-dev: devel
 PKG_mcm-dev: mcm-dev
 ALLOW_EMPTY_mcm-dev: 1
 FILES_mcm-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mcm/*.la /lib/*.la
-FILES_INFO: {"/usr/include/mcm_sim_v01.h": 52735, "/usr/include/mcm_dm_v01.h": 6361, "/usr/include/mcm_sms_v01.h": 24543, "/usr/include/mcm_client_v01.h": 2424, "/usr/include/mcm_common_v01.h": 14126, "/usr/include/mcm_atcop_v01.h": 2159, "/usr/include/mcm_voice_v01.h": 87037, "/usr/include/mcm_data_v01.h": 41555, "/usr/include/mcm_client.h": 7044, "/usr/include/mcm_loc_v01.h": 39173, "/usr/include/mcm_qmi_adapt.h": 216088, "/usr/include/mcm_nw_v01.h": 32876, "/usr/include/mcm_mobileap_v01.h": 72205}
-PKGSIZE_mcm-dev: 598326
+FILES_INFO: {"/usr/include/mcm_sim_v01.h": 52735, "/usr/include/mcm_dm_v01.h": 6361, "/usr/include/mcm_sms_v01.h": 22181, "/usr/include/mcm_client_v01.h": 2424, "/usr/include/mcm_common_v01.h": 14126, "/usr/include/mcm_atcop_v01.h": 2159, "/usr/include/mcm_voice_v01.h": 71821, "/usr/include/mcm_data_v01.h": 41555, "/usr/include/mcm_client.h": 7044, "/usr/include/mcm_loc_v01.h": 39173, "/usr/include/mcm_qmi_adapt.h": 216088, "/usr/include/mcm_nw_v01.h": 32876, "/usr/include/mcm_mobileap_v01.h": 72205}
+PKGSIZE_mcm-dev: 580748

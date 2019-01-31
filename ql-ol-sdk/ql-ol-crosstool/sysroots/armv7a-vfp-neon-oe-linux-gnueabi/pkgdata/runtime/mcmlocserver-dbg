@@ -11,5 +11,5 @@ SECTION_mcmlocserver-dbg: devel
 PKG_mcmlocserver-dbg: mcmlocserver-dbg
 ALLOW_EMPTY_mcmlocserver-dbg: 1
 FILES_mcmlocserver-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/mcmlocserver/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/mcmlocserver/.debug /usr/lib/matchbox-panel/.debug /usr/lib/mcmlocserver/mcmlocserver/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/mcmlocserver": 14780}
-PKGSIZE_mcmlocserver-dbg: 14780
+FILES_INFO: {"/usr/bin/.debug/mcmlocserver": 15878}
+PKGSIZE_mcmlocserver-dbg: 15878

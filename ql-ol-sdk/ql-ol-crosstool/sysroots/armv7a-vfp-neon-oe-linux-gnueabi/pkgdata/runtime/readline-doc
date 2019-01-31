@@ -10,5 +10,5 @@ RPROVIDES_readline-doc:  readline-doc
 SECTION_readline-doc: doc
 PKG_readline-doc: libreadline-doc
 FILES_readline-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
-FILES_INFO: {"/usr/share/man/man3/readline.3": 38459, "/usr/share/info/readline.info": 192320, "/usr/share/info/history.info": 58583, "/usr/share/man/man3/history.3": 21769, "/usr/share/info/rluserman.info": 72955}
+FILES_INFO: {"/usr/share/man/man3/readline.3": 38459, "/usr/share/info/history.info": 58583, "/usr/share/man/man3/history.3": 21769, "/usr/share/info/readline.info": 192320, "/usr/share/info/rluserman.info": 72955}
 PKGSIZE_readline-doc: 384086

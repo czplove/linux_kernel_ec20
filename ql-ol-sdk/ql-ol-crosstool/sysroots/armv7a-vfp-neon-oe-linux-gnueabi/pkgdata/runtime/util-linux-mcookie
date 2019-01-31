@@ -12,7 +12,7 @@ PKG_util-linux-mcookie: util-linux-mcookie
 FILES_util-linux-mcookie: /usr/bin/mcookie
 FILERPROVIDESFLIST_util-linux-mcookie: /usr/bin/mcookie
 FILES_INFO: {"/usr/bin/mcookie": 18964}
-FILERPROVIDES_/usr/bin/mcookie_util-linux-mcookie: elf(buildid) (= 46d40e2e4ec91be285aa2153afb765682339d521)
+FILERPROVIDES_/usr/bin/mcookie_util-linux-mcookie: elf(buildid) (= 1c50642166c08ace8567065f1e7df736dc901c3a)
 FILERDEPENDSFLIST_util-linux-mcookie: /usr/bin/mcookie
 FILERDEPENDS_/usr/bin/mcookie_util-linux-mcookie: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_util-linux-mcookie: 18964

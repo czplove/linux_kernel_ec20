@@ -12,8 +12,8 @@ PKG_ncurses: ncurses
 FILES_ncurses:   /usr/bin/tput   /usr/bin/tset   /usr/bin/ncurses5-config   /usr/bin/ncursesw5-config   /usr/share/tabset 
 FILERPROVIDESFLIST_ncurses: /usr/bin/tset /usr/bin/tput
 FILES_INFO: {"/usr/share/tabset/stdcrt": 95, "/usr/bin/tset": 14820, "/usr/share/tabset/vt300": 64, "/usr/bin/tput": 8896, "/usr/share/tabset/std": 135, "/usr/share/tabset/vt100": 160}
-FILERPROVIDES_/usr/bin/tset_ncurses: elf(buildid) (= 7e8102523002f14c443f0f855a1a64f0aabecd0f)
-FILERPROVIDES_/usr/bin/tput_ncurses: elf(buildid) (= e1685763910531f0fd72ce40aff85b7537d3402c)
+FILERPROVIDES_/usr/bin/tset_ncurses: elf(buildid) (= 483cd7e08d3d1d50997d02a889497cb938ff2aa2)
+FILERPROVIDES_/usr/bin/tput_ncurses: elf(buildid) (= 86add028387931fb40ae2c59b0cbb654393381eb)
 FILERDEPENDSFLIST_ncurses: /usr/bin/tset /usr/bin/tput
 FILERDEPENDS_/usr/bin/tset_ncurses: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/tput_ncurses: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)

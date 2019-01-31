@@ -13,7 +13,7 @@ PKG_pugixml: libpugixml1
 FILES_pugixml: /usr/bin/* /usr/sbin/* /usr/lib/pugixml/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pugixml /usr/lib/pugixml/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_pugixml: /usr/lib/libpugixml.so.1.0.0
 FILES_INFO: {"/usr/lib/libpugixml.so.1": 146536}
-FILERPROVIDES_/usr/lib/libpugixml.so.1.0.0_pugixml: elf(buildid) (= 602bf52acdf7155741bb111573883f27cda94064) libpugixml.so.1
+FILERPROVIDES_/usr/lib/libpugixml.so.1.0.0_pugixml: elf(buildid) (= 1c36b90c7f665eacbfe6611e8102960a37bbb2e0) libpugixml.so.1
 FILERDEPENDSFLIST_pugixml: /usr/lib/libpugixml.so.1.0.0
 FILERDEPENDS_/usr/lib/libpugixml.so.1.0.0_pugixml: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libm.so.6(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
 PKGSIZE_pugixml: 146536

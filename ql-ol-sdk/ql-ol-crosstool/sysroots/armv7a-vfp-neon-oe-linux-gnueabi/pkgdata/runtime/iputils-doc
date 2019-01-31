@@ -9,5 +9,5 @@ SUMMARY_iputils-doc: Network monitoring tools - Documentation files
 SECTION_iputils-doc: doc
 PKG_iputils-doc: iputils-doc
 FILES_iputils-doc: /usr/share/man/man8
-FILES_INFO: {"/usr/share/man/man8/ping.8": 14568}
-PKGSIZE_iputils-doc: 14568
+FILES_INFO: {"/usr/share/man/man8/ping.8": 14566}
+PKGSIZE_iputils-doc: 14566

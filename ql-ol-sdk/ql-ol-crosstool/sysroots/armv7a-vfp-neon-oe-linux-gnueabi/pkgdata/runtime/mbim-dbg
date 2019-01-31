@@ -11,5 +11,5 @@ SECTION_mbim-dbg: devel
 PKG_mbim-dbg: mbim-dbg
 ALLOW_EMPTY_mbim-dbg: 1
 FILES_mbim-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/mbim/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/mbim/.debug /usr/lib/matchbox-panel/.debug /usr/lib/mbim/mbim/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/mbimd": 301477}
-PKGSIZE_mbim-dbg: 301477
+FILES_INFO: {"/usr/bin/.debug/mbimd": 301117}
+PKGSIZE_mbim-dbg: 301117

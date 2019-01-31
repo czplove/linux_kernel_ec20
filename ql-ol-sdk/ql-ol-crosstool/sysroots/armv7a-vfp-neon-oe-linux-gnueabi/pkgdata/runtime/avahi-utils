@@ -11,14 +11,14 @@ SECTION: network
 PKG_avahi-utils: avahi-utils
 FILES_avahi-utils: /usr/bin/avahi-*
 FILERPROVIDESFLIST_avahi-utils: /usr/bin/avahi-set-host-name /usr/bin/avahi-resolve /usr/bin/avahi-browse /usr/bin/avahi-publish
-FILES_INFO: {"/usr/bin/avahi-resolve-host-name": 13, "/usr/bin/avahi-resolve": 11096, "/usr/bin/avahi-browse": 17180, "/usr/bin/avahi-publish": 13312, "/usr/bin/avahi-publish-address": 13, "/usr/bin/avahi-resolve-address": 13, "/usr/bin/avahi-set-host-name": 8616, "/usr/bin/avahi-publish-service": 13, "/usr/bin/avahi-browse-domains": 12}
-FILERPROVIDES_/usr/bin/avahi-set-host-name_avahi-utils: elf(buildid) (= 848f9d0b7d1369c05dec9904679dc726afdcacfb)
-FILERPROVIDES_/usr/bin/avahi-resolve_avahi-utils: elf(buildid) (= 737c6d9abce1d437d70292600a16e4c2fde3c134)
-FILERPROVIDES_/usr/bin/avahi-browse_avahi-utils: elf(buildid) (= eb53c0f98a1e2b5c3cd611f89f5731cffe54a753)
-FILERPROVIDES_/usr/bin/avahi-publish_avahi-utils: elf(buildid) (= 500016e09735e4e8ba2320be97393c66de0bbbc5)
+FILES_INFO: {"/usr/bin/avahi-resolve-host-name": 13, "/usr/bin/avahi-resolve": 11056, "/usr/bin/avahi-browse": 17148, "/usr/bin/avahi-publish": 13272, "/usr/bin/avahi-publish-address": 13, "/usr/bin/avahi-resolve-address": 13, "/usr/bin/avahi-set-host-name": 8592, "/usr/bin/avahi-publish-service": 13, "/usr/bin/avahi-browse-domains": 12}
+FILERPROVIDES_/usr/bin/avahi-set-host-name_avahi-utils: elf(buildid) (= 8d73d913fb097bc8a6240debbdfe23b0ba951bc4)
+FILERPROVIDES_/usr/bin/avahi-resolve_avahi-utils: elf(buildid) (= 6c97c1cda1f7b0df14c8090e2775720460202971)
+FILERPROVIDES_/usr/bin/avahi-browse_avahi-utils: elf(buildid) (= 936614a9abf5d9573d8fa857dd786fee09001af6)
+FILERPROVIDES_/usr/bin/avahi-publish_avahi-utils: elf(buildid) (= 4a58e0ca3670f1ceb2eea9e708cb770601365956)
 FILERDEPENDSFLIST_avahi-utils: /usr/bin/avahi-set-host-name /usr/bin/avahi-resolve /usr/bin/avahi-browse /usr/bin/avahi-publish
 FILERDEPENDS_/usr/bin/avahi-set-host-name_avahi-utils: libavahi-client.so.3 libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/avahi-resolve_avahi-utils: libavahi-client.so.3 libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/avahi-browse_avahi-utils: libavahi-client.so.3 libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/bin/avahi-publish_avahi-utils: libavahi-client.so.3 libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_avahi-utils: 50268
+PKGSIZE_avahi-utils: 50132

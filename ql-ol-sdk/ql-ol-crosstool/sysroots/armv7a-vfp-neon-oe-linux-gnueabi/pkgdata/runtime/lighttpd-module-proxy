@@ -12,7 +12,7 @@ PKG_lighttpd-module-proxy: lighttpd-module-proxy
 FILES_lighttpd-module-proxy: /usr/lib/mod_proxy.so
 FILERPROVIDESFLIST_lighttpd-module-proxy: /usr/lib/mod@underscore@proxy.so
 FILES_INFO: {"/usr/lib/mod_proxy.so": 18668}
-FILERPROVIDES_/usr/lib/mod@underscore@proxy.so_lighttpd-module-proxy: elf(buildid) (= d6113161f15993dac8b658891d0dda6c2e53132b) mod_proxy.so
+FILERPROVIDES_/usr/lib/mod@underscore@proxy.so_lighttpd-module-proxy: elf(buildid) (= 97be07bf6bb5c191d1e265ff4ab6cb6f0a3dcfc5) mod_proxy.so
 FILERDEPENDSFLIST_lighttpd-module-proxy: /usr/lib/mod@underscore@proxy.so
 FILERDEPENDS_/usr/lib/mod@underscore@proxy.so_lighttpd-module-proxy: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_lighttpd-module-proxy: 18668

@@ -11,8 +11,8 @@ SECTION: net
 PKG_lighttpd-module-fastcgi: lighttpd-module-fastcgi
 FILES_lighttpd-module-fastcgi: /usr/lib/mod_fastcgi.so
 FILERPROVIDESFLIST_lighttpd-module-fastcgi: /usr/lib/mod@underscore@fastcgi.so
-FILES_INFO: {"/usr/lib/mod_fastcgi.so": 44560}
-FILERPROVIDES_/usr/lib/mod@underscore@fastcgi.so_lighttpd-module-fastcgi: elf(buildid) (= 56134811ae2c06d303298a24acf8056845f9ba22) mod_fastcgi.so
+FILES_INFO: {"/usr/lib/mod_fastcgi.so": 44540}
+FILERPROVIDES_/usr/lib/mod@underscore@fastcgi.so_lighttpd-module-fastcgi: elf(buildid) (= 81837e79f7837370090b28341d897c2cc39e9643) mod_fastcgi.so
 FILERDEPENDSFLIST_lighttpd-module-fastcgi: /usr/lib/mod@underscore@fastcgi.so
 FILERDEPENDS_/usr/lib/mod@underscore@fastcgi.so_lighttpd-module-fastcgi: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_lighttpd-module-fastcgi: 44560
+PKGSIZE_lighttpd-module-fastcgi: 44540

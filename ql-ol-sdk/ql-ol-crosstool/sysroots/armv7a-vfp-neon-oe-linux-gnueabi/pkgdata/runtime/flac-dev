@@ -6,11 +6,11 @@ PKGR: r0
 LICENSE: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
 DESCRIPTION_flac-dev: FLAC stands for Free Lossless Audio Codec, a lossless audio compression format.  This package contains symbolic links, header files, and related items necessary for software development.
 SUMMARY_flac-dev: Free Lossless Audio Codec - Development files
-RDEPENDS_flac-dev: libflac libflac++ flac (= 1.3.1-r0)
+RDEPENDS_flac-dev: libflac++ libflac flac (= 1.3.1-r0)
 RRECOMMENDS_flac-dev: glibc-dev libflac-dev libogg-dev libstdc++-dev libgcc-dev libflac++-dev
 SECTION_flac-dev: devel
 PKG_flac-dev: flac-dev
 ALLOW_EMPTY_flac-dev: 1
 FILES_flac-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/flac/*.la /lib/*.la
-FILES_INFO: {"/usr/include/FLAC++/metadata.h": 51182, "/usr/lib/pkgconfig/flac.pc": 232, "/usr/include/FLAC++/decoder.h": 12772, "/usr/lib/libFLAC.so": 16, "/usr/lib/pkgconfig/flac++.pc": 229, "/usr/include/FLAC++/export.h": 3001, "/usr/include/FLAC/assert.h": 2000, "/usr/include/FLAC++/encoder.h": 15414, "/usr/include/FLAC/all.h": 15980, "/usr/include/FLAC/export.h": 3204, "/usr/include/FLAC++/all.h": 1976, "/usr/include/FLAC/format.h": 40477, "/usr/include/FLAC/callback.h": 7233, "/usr/include/FLAC/stream_encoder.h": 82345, "/usr/share/aclocal/libFLAC++.m4": 4554, "/usr/include/FLAC/metadata.h": 99372, "/usr/lib/libFLAC.la": 934, "/usr/lib/libFLAC++.la": 973, "/usr/share/aclocal/libFLAC.m4": 4423, "/usr/include/FLAC/stream_decoder.h": 70473, "/usr/include/FLAC/ordinals.h": 2666, "/usr/lib/libFLAC++.so": 18}
+FILES_INFO: {"/usr/include/FLAC++/metadata.h": 51182, "/usr/lib/pkgconfig/flac.pc": 232, "/usr/include/FLAC++/decoder.h": 12772, "/usr/lib/libFLAC.so": 16, "/usr/lib/pkgconfig/flac++.pc": 229, "/usr/include/FLAC++/export.h": 3001, "/usr/include/FLAC/assert.h": 2000, "/usr/include/FLAC++/encoder.h": 15414, "/usr/include/FLAC/all.h": 15980, "/usr/include/FLAC/export.h": 3204, "/usr/include/FLAC++/all.h": 1976, "/usr/include/FLAC/format.h": 40477, "/usr/include/FLAC/callback.h": 7233, "/usr/include/FLAC/stream_encoder.h": 82345, "/usr/lib/libFLAC++.la": 973, "/usr/include/FLAC/metadata.h": 99372, "/usr/lib/libFLAC.la": 934, "/usr/share/aclocal/libFLAC++.m4": 4554, "/usr/share/aclocal/libFLAC.m4": 4423, "/usr/include/FLAC/stream_decoder.h": 70473, "/usr/include/FLAC/ordinals.h": 2666, "/usr/lib/libFLAC++.so": 18}
 PKGSIZE_flac-dev: 419474

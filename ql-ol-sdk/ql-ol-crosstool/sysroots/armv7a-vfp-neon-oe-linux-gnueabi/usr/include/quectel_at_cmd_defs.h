@@ -61,11 +61,10 @@ extern "C" {
 #define QUECTEL_DECGAIN_5616_PWRCTL_NV	//add hertz for decgain and 5616pwrctl nv save
 #define QUECTEL_NET_STATUS_SUPPORT
 #define QUECTEL_AT_DEBUG_SUPPORT
-#define QUECTEL_AT_SUBSYS_VERSION  //Wayne.wei -2018/5/25 :add an AT command :AT+QSUBSYSVER to query subsystem version of TZ/SBL/RPM 
 #define QUECTEL_ABOUT_ATC // add by running.qian, 2018.3.20
 //#define QUECTEL_QJSON
 #define QUECTEL_FTCMD_ATC //[Quinn]2018/04/11 Add for support fct test
-#define QUECTEL_THERMAL_EXTENSION_SUPPORT//duke  2018/06/19 for the third thermal config 
+#define QUECTEL_THERMAL_EXTENSION_SUPPORT//duke  2018/06/19 for the third thermal config
 #define QUECTEL_QCUSTAT    1// add for by pass at cmd from modem to linux
 #ifndef boolean
 #define boolean unsigned int

@@ -11,5 +11,5 @@ SECTION_gdb-dbg: devel
 PKG_gdb-dbg: gdb-dbg
 ALLOW_EMPTY_gdb-dbg: 1
 FILES_gdb-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gdb/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gdb/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gdb/gdb/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/gdb": 619289, "/usr/bin/.debug/gdbserver": 57954}
-PKGSIZE_gdb-dbg: 677243
+FILES_INFO: {"/usr/bin/.debug/gdb": 618781, "/usr/bin/.debug/gdbserver": 57650}
+PKGSIZE_gdb-dbg: 676431

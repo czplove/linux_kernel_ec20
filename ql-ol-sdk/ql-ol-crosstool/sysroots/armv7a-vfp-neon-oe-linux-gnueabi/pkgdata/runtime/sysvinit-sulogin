@@ -14,7 +14,7 @@ pkg_postinst_sysvinit-sulogin: #!/bin/sh\n\tupdate-alternatives --install /sbin/
 pkg_postrm_sysvinit-sulogin: #!/bin/sh\n\tupdate-alternatives --remove  sulogin /sbin/sulogin.sysvinit\n
 FILERPROVIDESFLIST_sysvinit-sulogin: /sbin/sulogin.sysvinit
 FILES_INFO: {"/sbin/sulogin.sysvinit": 10388}
-FILERPROVIDES_/sbin/sulogin.sysvinit_sysvinit-sulogin: elf(buildid) (= 130640ffc8b5aab2571d95fcf67d51bea4a5e6cf) /sbin/sulogin
+FILERPROVIDES_/sbin/sulogin.sysvinit_sysvinit-sulogin: elf(buildid) (= cf89ba67fea819f88b306fe929f01732192abc3d) /sbin/sulogin
 FILERDEPENDSFLIST_sysvinit-sulogin: /sbin/sulogin.sysvinit
 FILERDEPENDS_/sbin/sulogin.sysvinit_sysvinit-sulogin: libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_sysvinit-sulogin: 10388

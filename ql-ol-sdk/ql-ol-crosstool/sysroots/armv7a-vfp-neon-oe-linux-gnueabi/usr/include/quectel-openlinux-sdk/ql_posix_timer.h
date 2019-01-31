@@ -11,12 +11,7 @@
 #ifndef QL_POSIX_TIMER_H
 #define QL_POSIX_TIMER_H
 
-#if 1
-#include "signal.h"
-#else
-/*rock.wang 2018-06-20 add feature __sigval_t_defined for LE2.2 
- with gcc version 6.4 for compile error*/
-#if (!defined(__have_sigval_t)&&!defined(__sigval_t_defined))
+#if (!defined(__have_sigval_t))
 typedef union sigval
 {
 	int sival_int;
@@ -24,7 +19,6 @@ typedef union sigval
 }sigval_t;
 #endif
 
-#endif
 /****************************************************************
 *
 * Function: ql_posix_timer_enable

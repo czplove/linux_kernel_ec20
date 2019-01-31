@@ -13,12 +13,12 @@ FILES_ncurses-tools:   /usr/bin/tic   /usr/bin/toe   /usr/bin/infotocap   /usr/b
 pkg_postinst_ncurses-tools: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/clear clear /usr/bin/clear.ncurses 100\n\tupdate-alternatives --install /usr/bin/reset reset /usr/bin/reset.ncurses 100\n
 pkg_postrm_ncurses-tools: #!/bin/sh\n\tupdate-alternatives --remove  clear /usr/bin/clear.ncurses\n\tupdate-alternatives --remove  reset /usr/bin/reset.ncurses\n
 FILERPROVIDESFLIST_ncurses-tools: /usr/bin/clear.ncurses /usr/bin/infocmp /usr/bin/toe /usr/bin/tic /usr/bin/tabs /usr/bin/reset.ncurses
-FILES_INFO: {"/usr/bin/infocmp": 45968, "/usr/bin/toe": 8632, "/usr/bin/reset.ncurses": 4, "/usr/bin/tabs": 9108, "/usr/bin/infotocap": 3, "/usr/bin/tic": 49896, "/usr/bin/captoinfo": 3, "/usr/bin/clear.ncurses": 3840}
-FILERPROVIDES_/usr/bin/clear.ncurses_ncurses-tools: elf(buildid) (= 9427b295b9aad053d849557a980ccd6fdceac805) /usr/bin/clear
-FILERPROVIDES_/usr/bin/infocmp_ncurses-tools: elf(buildid) (= 0e3f883d6a16c92303f6f936d459848c7048845d)
-FILERPROVIDES_/usr/bin/toe_ncurses-tools: elf(buildid) (= beea4f55d0dd92ed59eefbbf1f1d9c2a776a091d)
-FILERPROVIDES_/usr/bin/tic_ncurses-tools: elf(buildid) (= 3a44592f5752e8d8da75349d4a1493f14777a2d0)
-FILERPROVIDES_/usr/bin/tabs_ncurses-tools: elf(buildid) (= c75aae7f87de04c86a6e915cdf588d770c944b66)
+FILES_INFO: {"/usr/bin/infocmp": 45968, "/usr/bin/clear.ncurses": 3840, "/usr/bin/reset.ncurses": 4, "/usr/bin/tabs": 9108, "/usr/bin/infotocap": 3, "/usr/bin/toe": 8632, "/usr/bin/captoinfo": 3, "/usr/bin/tic": 49896}
+FILERPROVIDES_/usr/bin/clear.ncurses_ncurses-tools: elf(buildid) (= 93d475a1ecd0cd9142f8b2c897ced3e60e4285bc) /usr/bin/clear
+FILERPROVIDES_/usr/bin/infocmp_ncurses-tools: elf(buildid) (= 1086868c6e63c26e431eb1ba8a3d9f1608f95ca3)
+FILERPROVIDES_/usr/bin/toe_ncurses-tools: elf(buildid) (= bf18b9507077de1ef183986c8d5561706506971f)
+FILERPROVIDES_/usr/bin/tic_ncurses-tools: elf(buildid) (= af8f18d3da1c14dcafa17835b10a9d0ec4d61ed9)
+FILERPROVIDES_/usr/bin/tabs_ncurses-tools: elf(buildid) (= d74e542102196882196805facd88d55a271b208a)
 FILERPROVIDES_/usr/bin/reset.ncurses_ncurses-tools:  /usr/bin/reset
 FILERDEPENDSFLIST_ncurses-tools: /usr/bin/clear.ncurses /usr/bin/infocmp /usr/bin/toe /usr/bin/tic /usr/bin/tabs
 FILERDEPENDS_/usr/bin/clear.ncurses_ncurses-tools: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)

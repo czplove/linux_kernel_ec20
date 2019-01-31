@@ -11,5 +11,5 @@ SECTION_libpcap-dbg: devel
 PKG_libpcap-dbg: libpcap-dbg
 ALLOW_EMPTY_libpcap-dbg: 1
 FILES_libpcap-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libpcap/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libpcap/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libpcap/libpcap/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libpcap.so.1.6.2": 38326}
-PKGSIZE_libpcap-dbg: 38326
+FILES_INFO: {"/usr/lib/.debug/libpcap.so.1.6.2": 38058}
+PKGSIZE_libpcap-dbg: 38058

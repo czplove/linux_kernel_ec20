@@ -10,5 +10,5 @@ RDEPENDS_libpcre-staticdev: libpcre-dev (= 8.36-r0)
 SECTION_libpcre-staticdev: devel
 PKG_libpcre-staticdev: libpcre-staticdev
 FILES_libpcre-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libpcre/*.a
-FILES_INFO: {"/usr/lib/libpcreposix.a": 4304, "/usr/lib/libpcrecpp.a": 37490, "/usr/lib/libpcre.a": 183608}
-PKGSIZE_libpcre-staticdev: 225402
+FILES_INFO: {"/usr/lib/libpcreposix.a": 4304, "/usr/lib/libpcrecpp.a": 37454, "/usr/lib/libpcre.a": 183608}
+PKGSIZE_libpcre-staticdev: 225366

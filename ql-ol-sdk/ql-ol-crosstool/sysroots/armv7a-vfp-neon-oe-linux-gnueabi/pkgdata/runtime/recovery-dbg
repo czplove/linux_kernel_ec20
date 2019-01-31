@@ -11,5 +11,5 @@ SECTION_recovery-dbg: devel
 PKG_recovery-dbg: recovery-dbg
 ALLOW_EMPTY_recovery-dbg: 1
 FILES_recovery-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/recovery/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/recovery/.debug /usr/lib/matchbox-panel/.debug /usr/lib/recovery/recovery/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/updater": 270110, "/usr/bin/.debug/recovery": 188055, "/usr/bin/.debug/applypatch": 248493, "/usr/bin/.debug/verifier_test": 25739}
-PKGSIZE_recovery-dbg: 732397
+FILES_INFO: {"/usr/bin/.debug/updater": 268490, "/usr/bin/.debug/recovery": 186863, "/usr/bin/.debug/verifier_test": 25451, "/usr/bin/.debug/applypatch": 247001}
+PKGSIZE_recovery-dbg: 727805

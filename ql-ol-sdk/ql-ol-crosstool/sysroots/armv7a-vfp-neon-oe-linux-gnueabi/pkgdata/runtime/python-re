@@ -10,5 +10,5 @@ RDEPENDS_python-re: python-core
 SECTION: devel/python
 PKG_python-re: python-re
 FILES_python-re: /usr/lib/python2.7/re.* /usr/lib/python2.7/sre.* /usr/lib/python2.7/sre_compile.* /usr/lib/python2.7/sre_constants* /usr/lib/python2.7/sre_parse.* 
-FILES_INFO: {"/usr/lib/python2.7/re.py": 13423, "/usr/lib/python2.7/sre_parse.pyc": 19503, "/usr/lib/python2.7/sre_constants.pyc": 6185, "/usr/lib/python2.7/sre_constants.py": 7197, "/usr/lib/python2.7/sre_compile.py": 19817, "/usr/lib/python2.7/re.pyc": 13370, "/usr/lib/python2.7/sre.py": 384, "/usr/lib/python2.7/sre_compile.pyc": 12529, "/usr/lib/python2.7/sre_parse.py": 27927, "/usr/lib/python2.7/sre.pyc": 517}
+FILES_INFO: {"/usr/lib/python2.7/re.py": 13423, "/usr/lib/python2.7/sre_parse.pyc": 19503, "/usr/lib/python2.7/sre_constants.pyc": 6185, "/usr/lib/python2.7/sre_constants.py": 7197, "/usr/lib/python2.7/re.pyc": 13370, "/usr/lib/python2.7/sre_compile.py": 19817, "/usr/lib/python2.7/sre.py": 384, "/usr/lib/python2.7/sre_compile.pyc": 12529, "/usr/lib/python2.7/sre_parse.py": 27927, "/usr/lib/python2.7/sre.pyc": 517}
 PKGSIZE_python-re: 120852

@@ -13,5 +13,5 @@ RPROVIDES_libnl-staticdev:  libnl-staticdev
 SECTION_libnl-staticdev: devel
 PKG_libnl-staticdev: libnl-3-staticdev
 FILES_libnl-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libnl/*.a /usr/lib/libnl/cli/*/*.a
-FILES_INFO: {"/usr/lib/libnl/cli/qdisc/plug.a": 4332, "/usr/lib/libnl/cli/qdisc/ingress.a": 2516, "/usr/lib/libnl-route-3.a": 550676, "/usr/lib/libnl/cli/cls/basic.a": 3324, "/usr/lib/libnl-nf-3.a": 104684, "/usr/lib/libnl-idiag-3.a": 30126, "/usr/lib/libnl/cli/cls/cgroup.a": 2768, "/usr/lib/libnl/cli/qdisc/htb.a": 5552, "/usr/lib/libnl/cli/qdisc/blackhole.a": 2556, "/usr/lib/libnl/cli/qdisc/fq_codel.a": 3580, "/usr/lib/libnl-3.a": 140102, "/usr/lib/libnl-genl-3.a": 21024, "/usr/lib/libnl/cli/qdisc/pfifo.a": 2816, "/usr/lib/libnl-cli-3.a": 43194, "/usr/lib/libnl/cli/qdisc/bfifo.a": 2964}
-PKGSIZE_libnl-staticdev: 920214
+FILES_INFO: {"/usr/lib/libnl/cli/qdisc/ingress.a": 2516, "/usr/lib/libnl/cli/qdisc/plug.a": 4332, "/usr/lib/libnl-route-3.a": 550092, "/usr/lib/libnl/cli/cls/basic.a": 3324, "/usr/lib/libnl-nf-3.a": 104664, "/usr/lib/libnl-idiag-3.a": 30126, "/usr/lib/libnl/cli/cls/cgroup.a": 2768, "/usr/lib/libnl/cli/qdisc/htb.a": 5552, "/usr/lib/libnl/cli/qdisc/blackhole.a": 2556, "/usr/lib/libnl/cli/qdisc/fq_codel.a": 3580, "/usr/lib/libnl-3.a": 139886, "/usr/lib/libnl-genl-3.a": 20976, "/usr/lib/libnl/cli/qdisc/pfifo.a": 2816, "/usr/lib/libnl-cli-3.a": 43194, "/usr/lib/libnl/cli/qdisc/bfifo.a": 2964}
+PKGSIZE_libnl-staticdev: 919346

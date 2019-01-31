@@ -11,5 +11,5 @@ SECTION_thermal-engine-dbg: devel
 PKG_thermal-engine-dbg: thermal-engine-dbg
 ALLOW_EMPTY_thermal-engine-dbg: 1
 FILES_thermal-engine-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/thermal-engine/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/thermal-engine/.debug /usr/lib/matchbox-panel/.debug /usr/lib/thermal-engine/thermal-engine/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/thermal-engine": 380584}
-PKGSIZE_thermal-engine-dbg: 380584
+FILES_INFO: {"/usr/bin/.debug/thermal-engine": 378516}
+PKGSIZE_thermal-engine-dbg: 378516

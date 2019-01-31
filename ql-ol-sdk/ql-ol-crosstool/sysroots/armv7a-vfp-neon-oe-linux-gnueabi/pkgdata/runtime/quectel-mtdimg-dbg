@@ -11,5 +11,5 @@ SECTION_quectel-mtdimg-dbg: devel
 PKG_quectel-mtdimg-dbg: quectel-mtdimg-dbg
 ALLOW_EMPTY_quectel-mtdimg-dbg: 1
 FILES_quectel-mtdimg-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-mtdimg/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-mtdimg/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-mtdimg/quectel-mtdimg/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/mtdimg": 38893}
-PKGSIZE_quectel-mtdimg-dbg: 38893
+FILES_INFO: {"/usr/bin/.debug/mtdimg": 38497}
+PKGSIZE_quectel-mtdimg-dbg: 38497

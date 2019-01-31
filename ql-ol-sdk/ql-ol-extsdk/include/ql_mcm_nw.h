@@ -44,12 +44,11 @@ typedef struct
 
 
 //defined for QL_MCM_NW_EventRegister
-#define     NW_IND_VOICE_REG_EVENT_IND_FLAG               (1 << 0)    /**< msg format : QL_MCM_NW_VOICE_REG_EVENT_IND_T */
-#define     NW_IND_DATA_REG_EVENT_IND_FLAG                (1 << 1)    /**< msg format : QL_MCM_NW_DATA_REG_EVENT_IND_T */ 
-#define     NW_IND_SIGNAL_STRENGTH_EVENT_IND_FLAG         (1 << 2)    /**< msg format : QL_MCM_NW_SINGNAL_EVENT_IND_T */ 
-#define     NW_IND_CELL_ACCESS_STATE_CHG_EVENT_IND_FLAG   (1 << 3)    /**< msg format : QL_MCM_NW_CELL_ACCESS_STATE_EVENT_IND_T */ 
-#define     NW_IND_NITZ_TIME_UPDATE_EVENT_IND_FLAG        (1 << 4)    /**< msg format : QL_MCM_NW_NITZ_TIME_EVENT_IND_T */ 
-
+#define     NW_IND_VOICE_EVENT_ON                   (1 << 0)
+#define     NW_IND_DATA_EVENT_ON                    (1 << 1)
+#define     NW_IND_SIGNAL_STRENGTH_EVENT_ON         (1 << 2)
+#define     NW_IND_CELL_ACCESS_STATE_CHG_EVENT_ON   (1 << 3)
+#define     NW_IND_NITZ_TIME_UPDATE_EVENT_ON        (1 << 4)
 
 
 typedef struct 
@@ -254,8 +253,8 @@ typedef struct
 {
     int8_t      rssi;       /**<   RSSI in dBm. Indicates forward link pilot Ec. A signed value; -125 or lower indicates no signal.*/
     int8_t      rsrq;       /**<   RSRQ value in dB (signed integer value), as measured by L1. Range: -3 to -20 (-3 equals -3 dB, -20 equals -20 dB).*/
-    int16_t      rsrp;       /**<   Current RSRP in dBm, as measured by L1. Range: -44 to -140 (-44 equals -44 dBm, -140 equals -140 dBm).*/
-    int16_t      snr;        /**<   SNR level as a scaled integer in units of 0.1 dB; e.g., -16 dB has a value of -160 and 24.6 dB has a value of 246.*/
+    int8_t      rsrp;       /**<   Current RSRP in dBm, as measured by L1. Range: -44 to -140 (-44 equals -44 dBm, -140 equals -140 dBm).*/
+    int8_t      snr;        /**<   SNR level as a scaled integer in units of 0.1 dB; e.g., -16 dB has a value of -160 and 24.6 dB has a value of 246.*/
 }QL_MCM_NW_LTE_SIGNAL_INFO_T;
 
 
@@ -291,7 +290,6 @@ typedef struct
 }QL_MCM_NW_SIGNAL_STRENGTH_INFO_T;
 
 
-
 typedef enum 
 {
     E_QL_MCM_NW_CELL_ACCESS_NONE            = 0x00,             /**<  Unknown cell access state. */
@@ -302,83 +300,8 @@ typedef enum
 }E_QL_MCM_NW_CELL_ACCESS_STATE_TYPE_T;
 
 
-/* @bridef Callback function registered to QL_MCM_NW_AddRxMsgHandler 
- * map of ind_flag and ind_msg_buf as bellow :
- *  NW_IND_VOICE_REG_EVENT_IND_FLAG : QL_MCM_NW_VOICE_REG_EVENT_IND_T
- *  NW_IND_DATA_REG_EVENT_IND_FLAG : QL_MCM_NW_DATA_REG_EVENT_IND_T
- *  NW_IND_SIGNAL_STRENGTH_EVENT_IND_FLAG : QL_MCM_NW_SINGNAL_EVENT_IND_T
- *  NW_IND_CELL_ACCESS_STATE_CHG_EVENT_IND_FLAG : QL_MCM_NW_CELL_ACCESS_STATE_EVENT_IND_T
- *  NW_IND_NITZ_TIME_UPDATE_EVENT_IND_FLAG : QL_MCM_NW_NITZ_TIME_EVENT_IND_T 
- * */
-typedef void (*QL_MCM_NW_RxMsgHandlerFunc_t)(
-    nw_client_handle_type h_nw, 
-    uint32_t ind_flag, 
-    void                  *ind_msg_buf, 
-    uint32_t              ind_msg_len, 
-    void                  *contextPtr
-);
 
 
-/** Indication message; Indication for the corresponding registered event flag NW_IND_VOICE_REG_EVENT_IND_FLAG */
-typedef struct {
-
-  uint8_t                         registration_valid;               /**< Must be set to TRUE if voice_registration is being passed. */
-  QL_MCM_NW_COMMON_REG_INFO_T     registration;                     /**< Voice registration. */
-
-  uint8_t                         registration_details_3gpp_valid;  /**< Must be set to TRUE if voice_registration_details_3gpp is being passed. */
-  QL_MCM_NW_3GPP_REG_INFO_T       registration_details_3gpp;        /**< Voice registration details for 3GPP. */
-
-  uint8_t                         registration_details_3gpp2_valid; /**< Must be set to TRUE if voice_registration_details_3gpp2 is being passed. */
-  QL_MCM_NW_3GPP2_REG_INFO_T      registration_details_3gpp2;       /**< Voice registration details for 3GPP2. */
-}QL_MCM_NW_VOICE_REG_EVENT_IND_T; 
-
-/** Indication message; Indication for the corresponding registered event flag NW_IND_DATA_REG_EVENT_IND_FLAG */
-typedef struct {
-
-  uint8_t                         registration_valid;               /**< Must be set to TRUE if data_registration is being passed. */
-  QL_MCM_NW_COMMON_REG_INFO_T     registration;                     /**< Data registration. */
-  
-  uint8_t                         registration_details_3gpp_valid;  /**< Must be set to TRUE if data_registration_details_3gpp is being passed. */
-  QL_MCM_NW_3GPP_REG_INFO_T       registration_details_3gpp;        /**< Data registration details for 3GPP. */
-
-  uint8_t                         registration_details_3gpp2_valid; /**< Must be set to TRUE if data_registration_details_3gpp2 is being passed. */
-  QL_MCM_NW_3GPP2_REG_INFO_T      registration_details_3gpp2;       /**< Data registration details for 3GPP2. */
-}QL_MCM_NW_DATA_REG_EVENT_IND_T;
-
-
-/** Indication message; Indication for the corresponding registered event flag NW_IND_SIGNAL_STRENGTH_EVENT_IND_FLAG */
-typedef struct {
-    uint8_t gsm_sig_info_valid;                       /**< Must be set to TRUE if gsm_sig_info is being passed. */
-    QL_MCM_NW_GSM_SIGNAL_INFO_T       gsm_sig_info;   /**< GSM singal information. */
-
-    uint8_t wcdma_sig_info_valid;                     /**< Must be set to TRUE if wcdma_sig_info is being passed. */
-    QL_MCM_NW_WCDMA_SIGNAL_INFO_T wcdma_sig_info;     /**< WCDMA singal information. */
-
-    uint8_t tdscdma_sig_info_valid;                   /**< Must be set to TRUE if tdscdma_sig_info is being passed. */
-    QL_MCM_NW_TDSCDMA_SIGNAL_INFO_T tdscdma_sig_info; /**< TDSCDMA singal information. */
-
-    uint8_t lte_sig_info_valid;                       /**< Must be set to TRUE if lte_sig_info is being passed. */
-    QL_MCM_NW_LTE_SIGNAL_INFO_T lte_sig_info;         /**< LTE singal information. */
-
-    uint8_t cdma_sig_info_valid;                      /**< Must be set to TRUE if cdma_sig_info is being passed. */
-    QL_MCM_NW_CDMA_SIGNAL_INFO_T cdma_sig_info;       /**< CDMA singal information. */
-
-    uint8_t hdr_sig_info_valid;                       /**< Must be set to TRUE if hdr_sig_info is being passed. */
-    QL_MCM_NW_HDR_SIGNAL_INFO_T hdr_sig_info;         /**< HDR singal information. */
-}QL_MCM_NW_SINGNAL_EVENT_IND_T;
-
-
-/** Indication message; Indication for a change in the cell access state, e.g., emergency only, CS call only. 
- * Indication for the corresponding registered event flag NW_IND_CELL_ACCESS_STATE_CHG_EVENT_IND_FLAG */
-typedef struct {
-    E_QL_MCM_NW_CELL_ACCESS_STATE_TYPE_T state; /**< Network cell access state. */
-}QL_MCM_NW_CELL_ACCESS_STATE_EVENT_IND_T;
-
-/** Indication Message; Indication to update NITZ time. 
- * Indication for the corresponding registered event flag NW_IND_NITZ_TIME_UPDATE_EVENT_IND_FLAG */
-typedef struct {
-    QL_MCM_NW_NITZ_TIME_INFO_T info;
-}QL_MCM_NW_NITZ_TIME_EVENT_IND_T;
 
 
 
@@ -453,12 +376,7 @@ E_QL_ERROR_CODE_T QL_MCM_NW_GetCellAccessState
     E_QL_MCM_NW_CELL_ACCESS_STATE_TYPE_T    *pe_state
 );
 
-E_QL_ERROR_CODE_T QL_MCM_NW_AddRxMsgHandler
-(
-    nw_client_handle_type        h_nw,
-    QL_MCM_NW_RxMsgHandlerFunc_t handlerPtr, 
-    void* contextPtr
-);
+
 
 
 #endif//__QL_MCM_NW_H__

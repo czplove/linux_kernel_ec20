@@ -109,10 +109,6 @@ extern "C" {
 #include "ql_mcm_voice.h"
 #include "ql_mcm_dm.h"
 #include "ql_acdb.h"
-#include "ql_time.h"
-#include "ql_ntp.h"
-#include "ql_voice_record.h"
-#include "ql_utils.h"
 
 
 #ifndef POLLRDHUP
@@ -131,7 +127,13 @@ extern "C" {
 #define FALSE 0
 #endif
 
-#define QL_USER_LOG  printf
+#ifndef LOG_MSG_INFO
+#define LOG_MSG_INFO  
+#endif
+
+#ifndef QL_USER_LOG
+#define QL_USER_LOG  LOG_MSG_INFO//(format, ...) fprintf(stderr, "[%s  %d]: "format, __func__, __LINE__, ##__VA_ARGS__)
+#endif
 
 #ifdef __cplusplus
 }

@@ -10,5 +10,5 @@ RDEPENDS_libdaemon-staticdev: libdaemon-dev (= 0.14-r0)
 SECTION_libdaemon-staticdev: devel
 PKG_libdaemon-staticdev: libdaemon-staticdev
 FILES_libdaemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libdaemon/*.a
-FILES_INFO: {"/usr/lib/libdaemon.a": 27962}
-PKGSIZE_libdaemon-staticdev: 27962
+FILES_INFO: {"/usr/lib/libdaemon.a": 27930}
+PKGSIZE_libdaemon-staticdev: 27930

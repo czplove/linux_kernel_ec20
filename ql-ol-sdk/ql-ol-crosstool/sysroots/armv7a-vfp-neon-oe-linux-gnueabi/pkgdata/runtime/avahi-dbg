@@ -11,5 +11,5 @@ SECTION_avahi-dbg: devel
 PKG_avahi-dbg: avahi-dbg
 ALLOW_EMPTY_avahi-dbg: 1
 FILES_avahi-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/avahi/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/avahi/.debug /usr/lib/matchbox-panel/.debug /usr/lib/avahi/avahi/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/avahi-set-host-name": 6701, "/usr/lib/.debug/libavahi-glib.so.1.0.2": 15918, "/usr/lib/.debug/libavahi-common.so.3.5.3": 27783, "/usr/bin/.debug/avahi-publish": 7615, "/usr/bin/.debug/avahi-browse": 8750, "/usr/lib/.debug/libavahi-client.so.3.2.9": 17103, "/usr/sbin/.debug/avahi-daemon": 31687, "/usr/sbin/.debug/avahi-autoipd": 23426, "/usr/lib/.debug/libavahi-core.so.7.0.2": 68046, "/usr/bin/.debug/avahi-resolve": 7274, "/usr/lib/.debug/libavahi-gobject.so.0.0.4": 15224, "/usr/sbin/.debug/avahi-dnsconfd": 7491}
-PKGSIZE_avahi-dbg: 237018
+FILES_INFO: {"/usr/lib/.debug/libavahi-client.so.3.2.9": 17103, "/usr/sbin/.debug/avahi-autoipd": 23086, "/usr/bin/.debug/avahi-set-host-name": 6665, "/usr/lib/.debug/libavahi-common.so.3.5.3": 27527, "/usr/bin/.debug/avahi-publish": 7579, "/usr/lib/.debug/libavahi-gobject.so.0.0.4": 15224, "/usr/sbin/.debug/avahi-dnsconfd": 7455, "/usr/sbin/.debug/avahi-daemon": 31539, "/usr/lib/.debug/libavahi-core.so.7.0.2": 67742, "/usr/bin/.debug/avahi-resolve": 7238, "/usr/bin/.debug/avahi-browse": 8714, "/usr/lib/.debug/libavahi-glib.so.1.0.2": 15698}
+PKGSIZE_avahi-dbg: 235570

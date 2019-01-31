@@ -11,5 +11,5 @@ SECTION_garden-app-dbg: devel
 PKG_garden-app-dbg: garden-app-dbg
 ALLOW_EMPTY_garden-app-dbg: 1
 FILES_garden-app-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/garden-app/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/garden-app/.debug /usr/lib/matchbox-panel/.debug /usr/lib/garden-app/garden-app/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/garden_app": 10221}
-PKGSIZE_garden-app-dbg: 10221
+FILES_INFO: {"/usr/bin/.debug/garden_app": 10185}
+PKGSIZE_garden-app-dbg: 10185

@@ -11,5 +11,5 @@ RPROVIDES_libusb1-staticdev:  libusb1-staticdev
 SECTION_libusb1-staticdev: devel
 PKG_libusb1-staticdev: libusb-1.0-staticdev
 FILES_libusb1-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libusb1/*.a
-FILES_INFO: {"/lib/libusb-1.0.a": 119654}
-PKGSIZE_libusb1-staticdev: 119654
+FILES_INFO: {"/lib/libusb-1.0.a": 119634}
+PKGSIZE_libusb1-staticdev: 119634

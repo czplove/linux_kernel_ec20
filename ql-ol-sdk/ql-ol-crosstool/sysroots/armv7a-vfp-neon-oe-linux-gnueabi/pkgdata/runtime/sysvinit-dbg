@@ -11,5 +11,5 @@ SECTION_sysvinit-dbg: devel
 PKG_sysvinit-dbg: sysvinit-dbg
 ALLOW_EMPTY_sysvinit-dbg: 1
 FILES_sysvinit-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sysvinit/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sysvinit/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sysvinit/sysvinit/.debug /usr/src/debug
-FILES_INFO: {"/sbin/.debug/halt.sysvinit": 6853, "/usr/bin/.debug/utmpdump.sysvinit": 6029, "/sbin/.debug/bootlogd": 6844, "/sbin/.debug/killall5": 7185, "/sbin/.debug/sulogin.sysvinit": 6651, "/sbin/.debug/init.sysvinit": 9561, "/bin/.debug/mountpoint.sysvinit": 5374, "/sbin/.debug/runlevel.sysvinit": 5115, "/sbin/.debug/shutdown.sysvinit": 7904, "/usr/bin/.debug/last.sysvinit": 6921, "/usr/bin/.debug/mesg.sysvinit": 5398, "/sbin/.debug/fstab-decode": 5171, "/usr/bin/.debug/wall.sysvinit": 6403}
-PKGSIZE_sysvinit-dbg: 85409
+FILES_INFO: {"/sbin/.debug/halt.sysvinit": 6817, "/usr/bin/.debug/utmpdump.sysvinit": 5993, "/sbin/.debug/init.sysvinit": 9525, "/sbin/.debug/killall5": 7149, "/sbin/.debug/bootlogd": 6808, "/bin/.debug/mountpoint.sysvinit": 5338, "/sbin/.debug/runlevel.sysvinit": 5079, "/sbin/.debug/shutdown.sysvinit": 7868, "/usr/bin/.debug/last.sysvinit": 6885, "/sbin/.debug/sulogin.sysvinit": 6615, "/sbin/.debug/fstab-decode": 5135, "/usr/bin/.debug/wall.sysvinit": 6367, "/usr/bin/.debug/mesg.sysvinit": 5362}
+PKGSIZE_sysvinit-dbg: 84941

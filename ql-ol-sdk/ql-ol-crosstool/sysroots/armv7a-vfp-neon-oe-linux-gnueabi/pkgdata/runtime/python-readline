@@ -12,7 +12,7 @@ PKG_python-readline: python-readline
 FILES_python-readline: /usr/lib/python2.7/lib-dynload/readline.so /usr/lib/python2.7/rlcompleter.* 
 FILERPROVIDESFLIST_python-readline: /usr/lib/python2.7/lib-dynload/readline.so
 FILES_INFO: {"/usr/lib/python2.7/lib-dynload/readline.so": 22004, "/usr/lib/python2.7/rlcompleter.py": 5816, "/usr/lib/python2.7/rlcompleter.pyc": 5962}
-FILERPROVIDES_/usr/lib/python2.7/lib-dynload/readline.so_python-readline: elf(buildid) (= 86e5b760ad350e0f6f1a0bc6430a33d0d9142400) readline.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/readline.so_python-readline: elf(buildid) (= ce09ae4d9c0f983b6e54d06fb9e9ca4224717205) readline.so
 FILERDEPENDSFLIST_python-readline: /usr/lib/python2.7/lib-dynload/readline.so
 FILERDEPENDS_/usr/lib/python2.7/lib-dynload/readline.so_python-readline: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libreadline.so.5 rtld(GNU_HASH)
 PKGSIZE_python-readline: 33782

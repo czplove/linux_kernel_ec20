@@ -16,11 +16,11 @@ pkg_postrm_lighttpd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then
 pkg_preinst_lighttpd: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/lighttpd" ]; then\n\t/etc/init.d/lighttpd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT lighttpd remove\nfi\n
 pkg_prerm_lighttpd: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/lighttpd stop\nfi\n
 FILERPROVIDESFLIST_lighttpd: /usr/sbin/lighttpd-angel /usr/sbin/lighttpd
-FILES_INFO: {"/www/lighttpd.user": 112, "/etc/init.d/lighttpd": 4287, "/etc/openssl.cnf": 9771, "/usr/sbin/lighttpd-angel": 5032, "/usr/sbin/lighttpd": 165084, "/www/pages/index.html": 44, "/etc/lighttpd.conf": 13779}
-FILERPROVIDES_/usr/sbin/lighttpd-angel_lighttpd: elf(buildid) (= a8967964f624a8a94131e6ec924dbc70cad59744)
-FILERPROVIDES_/usr/sbin/lighttpd_lighttpd: elf(buildid) (= 2fd33e79448c8e44032c8c5371aa70f251b1c862)
+FILES_INFO: {"/www/lighttpd.user": 112, "/etc/openssl.cnf": 9771, "/usr/sbin/lighttpd-angel": 5016, "/usr/sbin/lighttpd": 164540, "/etc/init.d/lighttpd": 4287, "/etc/lighttpd.conf": 13779, "/www/pages/index.html": 44}
+FILERPROVIDES_/usr/sbin/lighttpd-angel_lighttpd: elf(buildid) (= 1ddda7cbcd05fd4b9498404af17eaf9565811615)
+FILERPROVIDES_/usr/sbin/lighttpd_lighttpd: elf(buildid) (= 6ac975a278ea5fc6a193e165a8091bc4ee7abc09)
 FILERDEPENDSFLIST_lighttpd: /etc/init.d/lighttpd /usr/sbin/lighttpd-angel /usr/sbin/lighttpd
 FILERDEPENDS_/etc/init.d/lighttpd_lighttpd: /bin/sh
 FILERDEPENDS_/usr/sbin/lighttpd-angel_lighttpd: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/sbin/lighttpd_lighttpd: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdl.so.2 libdl.so.2(GLIBC_2.4) libpcre.so.1 libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) rtld(GNU_HASH)
-PKGSIZE_lighttpd: 198109
+PKGSIZE_lighttpd: 197549

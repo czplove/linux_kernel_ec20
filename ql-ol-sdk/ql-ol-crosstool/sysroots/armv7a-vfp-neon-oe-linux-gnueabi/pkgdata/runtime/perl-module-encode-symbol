@@ -11,7 +11,7 @@ SECTION: devel
 PKG_perl-module-encode-symbol: perl-module-encode-symbol
 FILES_perl-module-encode-symbol: /usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so /usr/lib/perl/5.20.0/Encode/Symbol.pm
 FILERPROVIDESFLIST_perl-module-encode-symbol: /usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so
-FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/Symbol.pm": 847, "/usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so": 24432}
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so": 24432, "/usr/lib/perl/5.20.0/Encode/Symbol.pm": 847}
 FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so_perl-module-encode-symbol: Symbol.so elf(buildid) (= b6034d7a1326ec0fa47296913f115fe735e96e1b)
 FILERDEPENDSFLIST_perl-module-encode-symbol: /usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so
 FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Encode/Symbol/Symbol.so_perl-module-encode-symbol: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

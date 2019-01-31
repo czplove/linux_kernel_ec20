@@ -90,11 +90,11 @@ def MostPopularKey(d, default):
 def IsSymlink(info):
   """Return true if the zipfile.ZipInfo object passed in represents a
   symlink."""
-  return oct(info.external_attr >> 16) == "0120777"
+  return (info.external_attr >> 16) == 0120777
 def IsRegular(info):
   """Return true if the zipfile.ZipInfo object passed in represents a
   symlink."""
-  return oct(info.external_attr >> 28) == "010"
+  return (info.external_attr >> 28) == 010
 """
 2016/07/08[becking]Add this code to find files from a directory
 def FindFile(filename, value):
@@ -486,7 +486,7 @@ def WriteMetadata(metadata, output_zip):
   common.ZipWriteStr(output_zip, "META-INF/com/android/metadata",
                      "".join(["%s=%s\n" % kv
                               for kv in sorted(metadata.iteritems())]))
-def LoadSystemFiles(z, tmp):
+def LoadSystemFiles(z):
   """Load all the files from SYSTEM/... in a given target-files
   ZipFile, and return a dict of {filename: File object}."""
   out = {}
@@ -496,7 +496,7 @@ def LoadSystemFiles(z, tmp):
       basefilename = info.filename[7:]
       fn = "system/" + basefilename
       data = z.read(info.filename)
-      out[fn] = common.File(fn, data, tmp)
+      out[fn] = common.File(fn, data)
       if info.filename.startswith("SYSTEM/lib/") and IsRegular(info):
         retouch_files.append(("/system/" + basefilename,
                               out[fn].sha1))
@@ -542,13 +542,12 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_zip, fota):
       metadata=metadata,
       info_dict=OPTIONS.info_dict)
   print "Loading target..."
-  (target_data, target_retouch_files) = LoadSystemFiles(target_zip, OPTIONS.target_tmp)
+  (target_data, target_retouch_files) = LoadSystemFiles(target_zip)
   print "Loading source..."
-  (source_data, source_retouch_files) = LoadSystemFiles(source_zip, OPTIONS.source_tmp)
+  (source_data, source_retouch_files) = LoadSystemFiles(source_zip)
   verbatim_targets = []
   patch_list = []
   diffs = []
-  tmp_perm = {}
   largest_source_size = 0
   updating_recovery = 0
   updating_boot = 0
@@ -567,8 +566,6 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_zip, fota):
         print "send", fn, "verbatim"
         tf.AddToZip(output_zip)
         verbatim_targets.append((fn, tf.size))
-        new_mode = oct(tf.mode)[-3:]
-        tmp_perm["/" + tf.name] = int(new_mode, 8)
       elif tf.sha1 != sf.sha1:
         if nfns:
           print "***********nfns is not none ********"
@@ -623,13 +620,6 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_zip, fota):
             else:
               if tf.name != ffn.replace("SYSTEM/","system/",7):
                 diffs.append(common.Difference(tf, sf))
-        
-        if tf.mode != sf.mode:
-          re_mode = oct(tf.mode)[-3:]
-          tmp_perm["/" + tf.name] = int(re_mode, 8)
-        else:
-          pass
-        
       else:
         # Target file identical to source.
         pass
@@ -640,8 +630,6 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_zip, fota):
         # patch is almost as big as the file; don't bother patching
         tf.AddToZip(output_zip)
         verbatim_targets.append((tf.name, tf.size))
-        verb_mode = oct(tf.mode)[-3:]
-        tmp_perm["/" + tf.name] = int(verb_mode, 8)
       else:
         common.ZipWriteStr(output_zip, "patch/" + tf.name + ".p", d)
         patch_list.append((tf.name, tf, sf, tf.size, common.sha1(d).hexdigest()))
@@ -863,61 +851,13 @@ def WriteIncrementalOTAPackage(target_zip, source_zip, output_zip, fota):
            
   # Now that the symlinks are created, we can set all the
   # permissions.
-  #script.AppendScript(temp_script)
-  for k, v in tmp_perm.items():
-    if k.endswith("/"): 
-      script.SetPermissionsRecursive(k, 0, 0, v, v)
-    else:
-      script.SetPermissions(k, 0, 0, v)
+  script.AppendScript(temp_script)
            
   # Do device-specific installation (eg, write radio image).
   device_specific.IncrementalOTA_InstallEnd()
            
   if OPTIONS.extra_script is not None:
     script.AppendExtra(OPTIONS.extra_script)
-  
-  # change the folder and file mode for customer
-  perm_file="quectel_chmod_filelist.txt"
-  quid = "0"
-  qgid = "0"
-  qfmode = "0755"
-  qdmode = "0755"
-  dic = {"qfile":"", "qfmode":"", "quid":"", "qgid":"","qdmode":""}
-  f=open(perm_file)
-  for line in f.readlines():
-    line.strip()
-    if line.startswith("/"):
-      mode_info=line.split()
-      dic["qfile"] = "/system" + mode_info[0]
-      mode_len=len(mode_info)
-
-      if mode_len > 1:
-        dic["qfmode"] = mode_info[1]
-      else:
-        dic["qfmode"] = qfmode
-
-      if mode_len > 2:
-        dic["quid"] = mode_info[2]
-      else:
-        dic["quid"] = quid
-
-      if mode_len > 3:
-        dic["qgid"] = mode_info[3]
-      else:
-        dic["qgid"] = qgid
-
-      if mode_info[0].endswith("/"):
-        if mode_len > 4:
-          dic["qdmode"] = mode_info[4]
-        else:
-          dic["qdmode"] = qdmode
-        script.SetPermissionsRecursive(dic["qfile"][:-1], int(dic["quid"]), int(dic["qgid"]), int(dic["qdmode"], 8), int(dic["qfmode"], 8))
-      else:
-        dic["qdmode"] = ''
-        script.SetPermissions(dic["qfile"], int(dic['quid']), int(dic['qgid']), int(dic['qfmode'], 8))
-    else:
-      pass
-  f.close()
            
   # Patch the build.prop file last, so if something fails but the
   # device can still come up, it appears to be the old build and will
@@ -1001,7 +941,7 @@ def main(argv):
   output_zip = zipfile.ZipFile(temp_zip_file, "w",
                                compression=zipfile.ZIP_STORED)
                           
-  (target_data, target_retouch_files) = LoadSystemFiles(input_zip, OPTIONS.target_tmp)
+  (target_data, target_retouch_files) = LoadSystemFiles(input_zip)
   """      
   for fn in sorted(target_data.keys()):
     tf = target_data[fn]

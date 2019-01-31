@@ -12,7 +12,7 @@ PKG_audcaltests: audcaltests
 FILES_audcaltests: /usr/bin/* /usr/sbin/* /usr/lib/audcaltests/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/audcaltests /usr/lib/audcaltests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
 FILERPROVIDESFLIST_audcaltests: /usr/bin/sendcal
 FILES_INFO: {"/usr/bin/sendcal": 6536}
-FILERPROVIDES_/usr/bin/sendcal_audcaltests: elf(buildid) (= a74baeeeb50ed5344bba515c1761a3eaec25e41e)
+FILERPROVIDES_/usr/bin/sendcal_audcaltests: elf(buildid) (= ee8081abda54a7beccf636eb798a699710e0b729)
 FILERDEPENDSFLIST_audcaltests: /usr/bin/sendcal
 FILERDEPENDS_/usr/bin/sendcal_audcaltests: libacdbloader.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
 PKGSIZE_audcaltests: 6536

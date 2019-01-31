@@ -12,8 +12,8 @@ SECTION: devel
 PKG_gdbserver: gdbserver
 FILES_gdbserver: /usr/bin/gdbserver
 FILERPROVIDESFLIST_gdbserver: /usr/bin/gdbserver
-FILES_INFO: {"/usr/bin/gdbserver": 241268}
-FILERPROVIDES_/usr/bin/gdbserver_gdbserver: elf(buildid) (= 37e5edb2ac0588095c7b80503c9c751c568d0cbc)
+FILES_INFO: {"/usr/bin/gdbserver": 240964}
+FILERPROVIDES_/usr/bin/gdbserver_gdbserver: elf(buildid) (= f7b02ae47a0c913c46f4955dffaab9c969825fb4)
 FILERDEPENDSFLIST_gdbserver: /usr/bin/gdbserver
 FILERDEPENDS_/usr/bin/gdbserver_gdbserver: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.9) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_gdbserver: 241268
+PKGSIZE_gdbserver: 240964

@@ -12,5 +12,5 @@ SECTION_xmllib-dbg: devel
 PKG_xmllib-dbg: libxml-dbg
 ALLOW_EMPTY_xmllib-dbg: 1
 FILES_xmllib-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/xmllib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/xmllib/.debug /usr/lib/matchbox-panel/.debug /usr/lib/xmllib/xmllib/.debug /usr/src/debug
-FILES_INFO: {"/usr/lib/.debug/libxml.so.0.0.0": 92913}
-PKGSIZE_xmllib-dbg: 92913
+FILES_INFO: {"/usr/lib/.debug/libxml.so.0.0.0": 92661}
+PKGSIZE_xmllib-dbg: 92661

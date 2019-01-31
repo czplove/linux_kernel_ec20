@@ -11,5 +11,5 @@ SECTION_miniupnpd-dbg: devel
 PKG_miniupnpd-dbg: miniupnpd-dbg
 ALLOW_EMPTY_miniupnpd-dbg: 1
 FILES_miniupnpd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/miniupnpd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/miniupnpd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/miniupnpd/miniupnpd/.debug /usr/src/debug
-FILES_INFO: {"/usr/sbin/.debug/miniupnpd": 22645}
-PKGSIZE_miniupnpd-dbg: 22645
+FILES_INFO: {"/usr/sbin/.debug/miniupnpd": 22609}
+PKGSIZE_miniupnpd-dbg: 22609

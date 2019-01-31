@@ -12,8 +12,8 @@ PKG_ppp-tools: ppp-tools
 FILES_ppp-tools: /usr/sbin/pppstats /usr/sbin/pppdump
 FILERPROVIDESFLIST_ppp-tools: /usr/sbin/pppdump /usr/sbin/pppstats
 FILES_INFO: {"/usr/sbin/pppdump": 43988, "/usr/sbin/pppstats": 10264}
-FILERPROVIDES_/usr/sbin/pppdump_ppp-tools: elf(buildid) (= 862e279f5f63ceb85ebfd338edb051db0a4241e9)
-FILERPROVIDES_/usr/sbin/pppstats_ppp-tools: elf(buildid) (= 718c619ac540436b4186585a1b2ff9b96efd059d)
+FILERPROVIDES_/usr/sbin/pppdump_ppp-tools: elf(buildid) (= b352b2dc39779ba47316b70b90c232695fbf8f67)
+FILERPROVIDES_/usr/sbin/pppstats_ppp-tools: elf(buildid) (= 87ade687efd72f46f258133462747a5f37a4d49a)
 FILERDEPENDSFLIST_ppp-tools: /usr/sbin/pppdump /usr/sbin/pppstats
 FILERDEPENDS_/usr/sbin/pppdump_ppp-tools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/sbin/pppstats_ppp-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)

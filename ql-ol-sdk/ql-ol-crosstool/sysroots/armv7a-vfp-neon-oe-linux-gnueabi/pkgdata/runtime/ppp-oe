@@ -12,7 +12,7 @@ PKG_ppp-oe: ppp-oe
 FILES_ppp-oe: /usr/sbin/pppoe-discovery /usr/lib/pppd/2.4.7/rp-pppoe.so
 FILERPROVIDESFLIST_ppp-oe: /usr/sbin/pppoe-discovery /usr/lib/pppd/2.4.7/rp-pppoe.so
 FILES_INFO: {"/usr/sbin/pppoe-discovery": 11944, "/usr/lib/pppd/2.4.7/rp-pppoe.so": 20988}
-FILERPROVIDES_/usr/sbin/pppoe-discovery_ppp-oe: elf(buildid) (= 26f85dca99ecb1709489f5346a088d9a3ffe934e)
+FILERPROVIDES_/usr/sbin/pppoe-discovery_ppp-oe: elf(buildid) (= d430b836f3808c64af4e2ab06c9fdfe3b9f41c97)
 FILERPROVIDES_/usr/lib/pppd/2.4.7/rp-pppoe.so_ppp-oe: elf(buildid) (= f76ca12028f746f7954746c60f112a995c667b75) rp-pppoe.so
 FILERDEPENDSFLIST_ppp-oe: /usr/sbin/pppoe-discovery /usr/lib/pppd/2.4.7/rp-pppoe.so
 FILERDEPENDS_/usr/sbin/pppoe-discovery_ppp-oe: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)

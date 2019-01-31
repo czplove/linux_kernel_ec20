@@ -11,5 +11,5 @@ SECTION_dbus-dbg: devel
 PKG_dbus-dbg: dbus-dbg
 ALLOW_EMPTY_dbus-dbg: 1
 FILES_dbus-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dbus/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dbus/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dbus/dbus/.debug /usr/src/debug
-FILES_INFO: {"/usr/bin/.debug/dbus-run-session": 5549, "/usr/lib/.debug/libdbus-1.so.3.8.8": 78065, "/usr/bin/.debug/dbus-monitor": 9026, "/usr/bin/.debug/dbus-send": 9599, "/usr/bin/.debug/dbus-daemon": 103641, "/usr/bin/.debug/dbus-uuidgen": 5479, "/usr/lib/dbus/.debug/dbus-daemon-launch-helper": 83019, "/usr/bin/.debug/dbus-launch": 6442, "/usr/bin/.debug/dbus-cleanup-sockets": 5742}
-PKGSIZE_dbus-dbg: 306562
+FILES_INFO: {"/usr/bin/.debug/dbus-run-session": 5513, "/usr/lib/.debug/libdbus-1.so.3.8.8": 77897, "/usr/bin/.debug/dbus-monitor": 8878, "/usr/bin/.debug/dbus-cleanup-sockets": 5706, "/usr/bin/.debug/dbus-daemon": 103437, "/usr/bin/.debug/dbus-uuidgen": 5443, "/usr/lib/dbus/.debug/dbus-daemon-launch-helper": 82815, "/usr/bin/.debug/dbus-launch": 6406, "/usr/bin/.debug/dbus-send": 9451}
+PKGSIZE_dbus-dbg: 305546

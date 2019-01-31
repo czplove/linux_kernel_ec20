@@ -12,7 +12,7 @@ SECTION_libpcre-dev: devel
 PKG_libpcre-dev: libpcre-dev
 ALLOW_EMPTY_libpcre-dev: 1
 FILES_libpcre-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libpcre/*.la /lib/*.la /usr/bin/*-config
-FILES_INFO: {"/usr/lib/libpcreposix.so": 21, "/usr/lib/libpcre.la": 910, "/usr/include/pcrecpp.h": 26529, "/usr/include/pcre_scanner.h": 6600, "/usr/lib/pkgconfig/libpcre.pc": 281, "/usr/include/pcrecpparg.h": 6783, "/usr/include/pcre.h": 31706, "/usr/include/pcre_stringpiece.h": 6312, "/usr/lib/libpcrecpp.la": 975, "/usr/lib/pkgconfig/libpcreposix.pc": 285, "/usr/include/pcreposix.h": 5631, "/usr/lib/pkgconfig/libpcrecpp.pc": 243, "/usr/lib/libpcre.so": 16, "/usr/lib/libpcrecpp.so": 19, "/usr/bin/pcre-config": 68, "/usr/lib/libpcreposix.la": 966}
+FILES_INFO: {"/usr/lib/libpcreposix.so": 21, "/usr/include/pcreposix.h": 5631, "/usr/lib/libpcrecpp.la": 975, "/usr/lib/pkgconfig/libpcre.pc": 281, "/usr/lib/libpcre.la": 910, "/usr/include/pcre.h": 31706, "/usr/include/pcre_stringpiece.h": 6312, "/usr/include/pcre_scanner.h": 6600, "/usr/lib/pkgconfig/libpcrecpp.pc": 243, "/usr/include/pcrecpp.h": 26529, "/usr/lib/pkgconfig/libpcreposix.pc": 285, "/usr/lib/libpcre.so": 16, "/usr/lib/libpcreposix.la": 966, "/usr/lib/libpcrecpp.so": 19, "/usr/include/pcrecpparg.h": 6783, "/usr/bin/pcre-config": 68}
 FILERDEPENDSFLIST_libpcre-dev: /usr/bin/pcre-config
 FILERDEPENDS_/usr/bin/pcre-config_libpcre-dev: /bin/sh
 PKGSIZE_libpcre-dev: 87345

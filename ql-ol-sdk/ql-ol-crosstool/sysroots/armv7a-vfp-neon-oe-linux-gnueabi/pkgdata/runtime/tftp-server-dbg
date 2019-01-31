@@ -11,5 +11,5 @@ SECTION_tftp-server-dbg: devel
 PKG_tftp-server-dbg: tftp-server-dbg
 ALLOW_EMPTY_tftp-server-dbg: 1
 FILES_tftp-server-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/tftp-server/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/tftp-server/.debug /usr/lib/matchbox-panel/.debug /usr/lib/tftp-server/tftp-server/.debug /usr/src/debug
-FILES_INFO: {"/sbin/.debug/tftp_server": 209350}
-PKGSIZE_tftp-server-dbg: 209350
+FILES_INFO: {"/sbin/.debug/tftp_server": 207962}
+PKGSIZE_tftp-server-dbg: 207962

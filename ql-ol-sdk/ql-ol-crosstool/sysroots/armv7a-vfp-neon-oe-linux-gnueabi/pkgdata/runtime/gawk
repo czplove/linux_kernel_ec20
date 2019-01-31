@@ -13,23 +13,23 @@ FILES_gawk: /usr/bin/* /usr/sbin/* /usr/lib/gawk/* /usr/lib/lib*.so.* /etc /com 
 pkg_postinst_gawk: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/awk awk /usr/bin/gawk 100\n
 pkg_postrm_gawk: #!/bin/sh\n\tupdate-alternatives --remove  awk /usr/bin/gawk\n
 FILERPROVIDESFLIST_gawk: /usr/lib/gawk/ordchr.so /usr/lib/gawk/inplace.so /usr/lib/gawk/testext.so /usr/lib/gawk/readfile.so /usr/bin/gawk /usr/lib/gawk/filefuncs.so /usr/lib/gawk/rwarray.so /usr/bin/gawk-4.1.1 /usr/lib/gawk/revtwoway.so /usr/lib/gawk/fnmatch.so /usr/lib/gawk/readdir.so /usr/lib/gawk/time.so /usr/lib/gawk/awk/pwcat /usr/lib/gawk/fork.so /usr/lib/gawk/revoutput.so /usr/lib/gawk/awk/grcat
-FILES_INFO: {"/usr/lib/gawk/ordchr.so": 5164, "/usr/share/awk/noassign.awk": 425, "/usr/share/awk/join.awk": 378, "/usr/lib/gawk/testext.so": 16572, "/usr/lib/gawk/filefuncs.so": 20992, "/usr/share/awk/rewind.awk": 404, "/usr/lib/gawk/rwarray.so": 8296, "/usr/share/awk/cliff_rand.awk": 307, "/usr/share/awk/ctime.awk": 233, "/usr/share/awk/readable.awk": 492, "/usr/share/awk/libintl.awk": 238, "/usr/share/awk/strtonum.awk": 1462, "/usr/share/awk/ord.awk": 937, "/usr/share/awk/zerofile.awk": 424, "/usr/share/awk/bits2str.awk": 327, "/usr/bin/gawk": 485840, "/usr/share/awk/quicksort.awk": 1025, "/usr/share/awk/inplace.awk": 335, "/usr/share/awk/group.awk": 1793, "/usr/lib/gawk/revoutput.so": 4720, "/usr/share/awk/passwd.awk": 1200, "/usr/lib/gawk/readfile.so": 6072, "/usr/lib/gawk/time.so": 5136, "/usr/bin/gawk-4.1.1": 548615, "/usr/share/awk/getopt.awk": 2236, "/usr/lib/gawk/awk/grcat": 4072, "/usr/share/awk/ftrans.awk": 317, "/usr/share/awk/round.awk": 661, "/usr/lib/gawk/inplace.so": 8724, "/usr/share/awk/assert.awk": 382, "/usr/share/awk/readfile.awk": 267, "/usr/lib/gawk/fnmatch.so": 6288, "/usr/share/awk/gettime.awk": 2491, "/usr/lib/gawk/revtwoway.so": 5608, "/usr/share/awk/walkarray.awk": 214, "/usr/lib/gawk/readdir.so": 5612, "/usr/lib/gawk/awk/pwcat": 3904, "/usr/lib/gawk/fork.so": 6088, "/usr/bin/igawk": 3188}
+FILES_INFO: {"/usr/share/awk/gettime.awk": 2491, "/usr/share/awk/noassign.awk": 425, "/usr/share/awk/join.awk": 378, "/usr/lib/gawk/testext.so": 16572, "/usr/lib/gawk/filefuncs.so": 20992, "/usr/share/awk/inplace.awk": 335, "/usr/lib/gawk/rwarray.so": 8296, "/usr/share/awk/cliff_rand.awk": 307, "/usr/share/awk/readable.awk": 492, "/usr/share/awk/libintl.awk": 238, "/usr/share/awk/strtonum.awk": 1462, "/usr/share/awk/ord.awk": 937, "/usr/lib/gawk/ordchr.so": 5164, "/usr/share/awk/zerofile.awk": 424, "/usr/share/awk/bits2str.awk": 327, "/usr/bin/gawk": 485480, "/usr/share/awk/quicksort.awk": 1025, "/usr/share/awk/rewind.awk": 404, "/usr/share/awk/group.awk": 1793, "/usr/lib/gawk/revoutput.so": 4720, "/usr/share/awk/passwd.awk": 1200, "/usr/lib/gawk/readfile.so": 6072, "/usr/lib/gawk/time.so": 5136, "/usr/bin/gawk-4.1.1": 547859, "/usr/share/awk/getopt.awk": 2236, "/usr/lib/gawk/awk/pwcat": 3904, "/usr/share/awk/ftrans.awk": 317, "/usr/share/awk/round.awk": 661, "/usr/lib/gawk/inplace.so": 8724, "/usr/share/awk/assert.awk": 382, "/usr/lib/gawk/fnmatch.so": 6288, "/usr/share/awk/readfile.awk": 267, "/usr/share/awk/ctime.awk": 233, "/usr/lib/gawk/revtwoway.so": 5608, "/usr/share/awk/walkarray.awk": 214, "/usr/lib/gawk/readdir.so": 5612, "/usr/lib/gawk/awk/grcat": 4072, "/usr/lib/gawk/fork.so": 6088, "/usr/bin/igawk": 3188}
 FILERPROVIDES_/usr/lib/gawk/ordchr.so_gawk: elf(buildid) (= 4554e2216335fd2dc77bbdbce3c13cd12071d769) ordchr.so
 FILERPROVIDES_/usr/lib/gawk/inplace.so_gawk: elf(buildid) (= 1fdcafd84df918017b477a3bde96654de8ce6e46) inplace.so
 FILERPROVIDES_/usr/lib/gawk/testext.so_gawk: elf(buildid) (= 08f5db4109163576dd79be7471fd6331ca19132d) testext.so
 FILERPROVIDES_/usr/lib/gawk/readfile.so_gawk: elf(buildid) (= d5df83be9d9c519aad62a957d2d416a1e31be55c) readfile.so
-FILERPROVIDES_/usr/bin/gawk_gawk: elf(buildid) (= 9262b304c4373155ad14dc33198d30d878a7124b) /usr/bin/awk
-FILERPROVIDES_/usr/lib/gawk/filefuncs.so_gawk: elf(buildid) (= 5104cc2c2f56a62a3a3a23c1f933e1e20d56d86e) filefuncs.so
+FILERPROVIDES_/usr/bin/gawk_gawk: elf(buildid) (= 5054acb74b2e08d12286d481ac2328fa28d4055e) /usr/bin/awk
+FILERPROVIDES_/usr/lib/gawk/filefuncs.so_gawk: elf(buildid) (= d28485cc9782adf8e360ab4a8ae20fcb2a9219ab) filefuncs.so
 FILERPROVIDES_/usr/lib/gawk/rwarray.so_gawk: elf(buildid) (= b46a3ce8cceee1f5d2e8ee54fd267ecc8a352eb4) rwarray.so
-FILERPROVIDES_/usr/bin/gawk-4.1.1_gawk: elf(buildid) (= 9262b304c4373155ad14dc33198d30d878a7124b)
+FILERPROVIDES_/usr/bin/gawk-4.1.1_gawk: elf(buildid) (= 5054acb74b2e08d12286d481ac2328fa28d4055e)
 FILERPROVIDES_/usr/lib/gawk/revtwoway.so_gawk: elf(buildid) (= 5d378be4347a1f7cd3360dd75f7f6341ff4d70f4) revtwoway.so
 FILERPROVIDES_/usr/lib/gawk/fnmatch.so_gawk: elf(buildid) (= e36bbb7fd99ede621eab63caff2c191be1f93fd0) fnmatch.so
 FILERPROVIDES_/usr/lib/gawk/readdir.so_gawk: elf(buildid) (= 0f50d656e58f0fa6707e22e308bfbdbef3a0e517) readdir.so
 FILERPROVIDES_/usr/lib/gawk/time.so_gawk: elf(buildid) (= 5575f8fb60c5bbcfc219cc8ee0f1555ad56defad) time.so
-FILERPROVIDES_/usr/lib/gawk/awk/pwcat_gawk: elf(buildid) (= fa5666eefecae7d5e13199f521c9c0239298b176)
+FILERPROVIDES_/usr/lib/gawk/awk/pwcat_gawk: elf(buildid) (= 559bdf08c3eae3a728a07295c1e01aa25f37c010)
 FILERPROVIDES_/usr/lib/gawk/fork.so_gawk: elf(buildid) (= 7c2318e7c86919fef0ba189463e596dfdc931ff2) fork.so
 FILERPROVIDES_/usr/lib/gawk/revoutput.so_gawk: elf(buildid) (= 6c17bfdfaa236aa62cb0129a53913e0c1e504a6d) revoutput.so
-FILERPROVIDES_/usr/lib/gawk/awk/grcat_gawk: elf(buildid) (= 08c8698dcee79ebd54a21fab8dd2c78461a03bcd)
+FILERPROVIDES_/usr/lib/gawk/awk/grcat_gawk: elf(buildid) (= 7f69269edb9faef4b8f642a3a8088bcb2f7c0c7f)
 FILERDEPENDSFLIST_gawk: /usr/lib/gawk/ordchr.so /usr/lib/gawk/inplace.so /usr/lib/gawk/testext.so /usr/lib/gawk/readfile.so /usr/bin/gawk /usr/lib/gawk/filefuncs.so /usr/lib/gawk/rwarray.so /usr/bin/gawk-4.1.1 /usr/bin/igawk /usr/lib/gawk/revtwoway.so /usr/lib/gawk/fnmatch.so /usr/lib/gawk/readdir.so /usr/lib/gawk/time.so /usr/lib/gawk/awk/pwcat /usr/lib/gawk/fork.so /usr/lib/gawk/revoutput.so /usr/lib/gawk/awk/grcat
 FILERDEPENDS_/usr/lib/gawk/ordchr.so_gawk: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/gawk/inplace.so_gawk: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
@@ -48,4 +48,4 @@ FILERDEPENDS_/usr/lib/gawk/awk/pwcat_gawk: libc.so.6 libc.so.6(GLIBC_2.4) rtld(G
 FILERDEPENDS_/usr/lib/gawk/fork.so_gawk: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/gawk/revoutput.so_gawk: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
 FILERDEPENDS_/usr/lib/gawk/awk/grcat_gawk: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
-PKGSIZE_gawk: 1161439
+PKGSIZE_gawk: 1160323
