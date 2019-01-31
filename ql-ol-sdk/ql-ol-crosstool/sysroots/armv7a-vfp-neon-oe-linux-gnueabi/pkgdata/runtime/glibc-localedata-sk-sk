@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sk-sk: locale definition for sk-sk
+SUMMARY_glibc-localedata-sk-sk: locale definition for sk-sk
+RDEPENDS_glibc-localedata-sk-sk: glibc-localedata-i18n glibc-localedata-cs-cz
+SECTION: base
+PKG_glibc-localedata-sk-sk: glibc-localedata-sk-sk
+FILES_glibc-localedata-sk-sk: /usr/share/i18n/locales/sk_SK
+FILES_INFO: {"/usr/share/i18n/locales/sk_SK": 5838}
+PKGSIZE_glibc-localedata-sk-sk: 5838

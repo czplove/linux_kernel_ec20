@@ -1,0 +1,15 @@
+PN: acdbrtac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbrtac-staticdev: acdb rtac Library  This package contains static libraries for software development.
+SUMMARY_acdbrtac-staticdev: acdbrtac version git-invalidgit-r3 - Development files (Static Libraries)
+RDEPENDS_acdbrtac-staticdev: acdbrtac-dev (= git-invalidgit-r3)
+RPROVIDES_acdbrtac-staticdev:  acdbrtac-staticdev
+SECTION_acdbrtac-staticdev: devel
+PKG_acdbrtac-staticdev: libacdbrtac-staticdev
+FILES_acdbrtac-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/acdbrtac/*.a
+FILES_INFO: {}
+PKGSIZE_acdbrtac-staticdev: 0

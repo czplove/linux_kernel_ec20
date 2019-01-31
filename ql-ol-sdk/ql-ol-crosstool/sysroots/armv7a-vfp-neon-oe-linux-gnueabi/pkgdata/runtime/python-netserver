@@ -1,0 +1,16 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-netserver: Python Internet Protocol servers
+RDEPENDS_python-netserver: python-core python-netclient
+SECTION: devel/python
+PKG_python-netserver: python-netserver
+FILES_python-netserver: /usr/lib/python2.7/cgi.* /usr/lib/python2.7/*HTTPServer.* /usr/lib/python2.7/SocketServer.* 
+FILES_INFO: {"/usr/lib/python2.7/SimpleHTTPServer.pyc": 7844, "/usr/lib/python2.7/cgi.pyc": 32421, "/usr/lib/python2.7/SocketServer.pyc": 23944, "/usr/lib/python2.7/CGIHTTPServer.pyc": 11084, "/usr/lib/python2.7/CGIHTTPServer.py": 13154, "/usr/lib/python2.7/SimpleHTTPServer.py": 7745, "/usr/lib/python2.7/cgi.py": 34336, "/usr/lib/python2.7/SocketServer.py": 24036, "/usr/lib/python2.7/BaseHTTPServer.pyc": 21649, "/usr/lib/python2.7/BaseHTTPServer.py": 22461}
+FILERDEPENDSFLIST_python-netserver: /usr/lib/python2.7/cgi.py
+FILERDEPENDS_/usr/lib/python2.7/cgi.py_python-netserver: /usr/bin/env
+PKGSIZE_python-netserver: 198674

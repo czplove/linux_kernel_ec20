@@ -1,0 +1,3 @@
+/sbin/init
+/bin/busybox 50
+/sbin/init.sysvinit 50

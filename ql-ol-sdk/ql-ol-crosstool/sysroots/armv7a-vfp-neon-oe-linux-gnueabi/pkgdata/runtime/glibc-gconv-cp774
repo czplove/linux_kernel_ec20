@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cp774: gconv module for character set cp774
+SUMMARY_glibc-gconv-cp774: gconv module for character set cp774
+RDEPENDS_glibc-gconv-cp774: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cp774: glibc-gconv-cp774
+FILES_glibc-gconv-cp774: /usr/lib/gconv/CP774.so
+FILES_INFO: {"/usr/lib/gconv/CP774.so": 9584}
+PKGSIZE_glibc-gconv-cp774: 9584

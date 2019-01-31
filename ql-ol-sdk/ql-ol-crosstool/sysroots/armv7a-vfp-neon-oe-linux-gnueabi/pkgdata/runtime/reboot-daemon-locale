@@ -1,0 +1,13 @@
+PN: reboot-daemon
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION: Rebooter daemon
+SUMMARY: reboot-daemon version 1.0-r4
+SECTION: base
+PKG_reboot-daemon-locale: reboot-daemon-locale
+FILES_reboot-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_reboot-daemon-locale: 0

@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-difflib: Python helpers for computing deltas between objects
+RDEPENDS_python-difflib: python-re python-lang
+SECTION: devel/python
+PKG_python-difflib: python-difflib
+FILES_python-difflib: /usr/lib/python2.7/difflib.* 
+FILES_INFO: {"/usr/lib/python2.7/difflib.pyc": 61841, "/usr/lib/python2.7/difflib.py": 82320}
+PKGSIZE_python-difflib: 144161

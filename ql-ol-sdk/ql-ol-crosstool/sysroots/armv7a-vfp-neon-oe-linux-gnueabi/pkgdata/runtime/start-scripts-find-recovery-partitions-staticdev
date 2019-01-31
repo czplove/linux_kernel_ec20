@@ -1,0 +1,14 @@
+PN: start-scripts-find-recovery-partitions
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: BSD
+DESCRIPTION_start-scripts-find-recovery-partitions-staticdev: Start up script for finding partitions used in recovery  This package contains static libraries for software development.
+SUMMARY_start-scripts-find-recovery-partitions-staticdev: start-scripts-find-recovery-partitions version 1.0-r3 - Development files (Static Libraries)
+RDEPENDS_start-scripts-find-recovery-partitions-staticdev: start-scripts-find-recovery-partitions-dev (= 1.0-r3)
+SECTION_start-scripts-find-recovery-partitions-staticdev: devel
+PKG_start-scripts-find-recovery-partitions-staticdev: start-scripts-find-recovery-partitions-staticdev
+FILES_start-scripts-find-recovery-partitions-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/start-scripts-find-recovery-partitions/*.a
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-recovery-partitions-staticdev: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-t.61-8bit: character map for t.61-8bit encoding
+SUMMARY_glibc-charmap-t.61-8bit: character map for t.61-8bit encoding
+SECTION: base
+PKG_glibc-charmap-t.61-8bit: glibc-charmap-t.61-8bit
+FILES_glibc-charmap-t.61-8bit: /usr/share/i18n/charmaps/T.61-8BIT.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/T.61-8BIT.gz": 4304}
+PKGSIZE_glibc-charmap-t.61-8bit: 4304

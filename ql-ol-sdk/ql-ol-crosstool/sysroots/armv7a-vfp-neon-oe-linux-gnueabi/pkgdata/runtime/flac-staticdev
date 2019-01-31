@@ -1,0 +1,14 @@
+PN: flac
+PV: 1.3.1
+PR: r0
+PKGV: 1.3.1
+PKGR: r0
+LICENSE: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION_flac-staticdev: FLAC stands for Free Lossless Audio Codec, a lossless audio compression format.  This package contains static libraries for software development.
+SUMMARY_flac-staticdev: Free Lossless Audio Codec - Development files (Static Libraries)
+RDEPENDS_flac-staticdev: flac-dev (= 1.3.1-r0)
+SECTION_flac-staticdev: devel
+PKG_flac-staticdev: flac-staticdev
+FILES_flac-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/flac/*.a
+FILES_INFO: {}
+PKGSIZE_flac-staticdev: 0

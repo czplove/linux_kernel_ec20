@@ -1,0 +1,14 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION_ppp-staticdev: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.  This package contains static libraries for software development.
+SUMMARY_ppp-staticdev: Point-to-Point Protocol (PPP) support - Development files (Static Libraries)
+RDEPENDS_ppp-staticdev: ppp-dev (= 2.4.7-r0)
+SECTION_ppp-staticdev: devel
+PKG_ppp-staticdev: ppp-staticdev
+FILES_ppp-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ppp/*.a
+FILES_INFO: {}
+PKGSIZE_ppp-staticdev: 0

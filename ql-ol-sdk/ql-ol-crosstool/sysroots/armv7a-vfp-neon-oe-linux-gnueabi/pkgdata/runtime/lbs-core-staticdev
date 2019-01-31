@@ -1,0 +1,15 @@
+PN: lbs-core
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-staticdev: GPS LBS Core  This package contains static libraries for software development.
+SUMMARY_lbs-core-staticdev: lbs-core version git-r1 - Development files (Static Libraries)
+RDEPENDS_lbs-core-staticdev: lbs-core-dev (= git-r1)
+RPROVIDES_lbs-core-staticdev:  lbs-core-staticdev
+SECTION_lbs-core-staticdev: devel
+PKG_lbs-core-staticdev: liblbs-core-staticdev
+FILES_lbs-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lbs-core/*.a
+FILES_INFO: {}
+PKGSIZE_lbs-core-staticdev: 0

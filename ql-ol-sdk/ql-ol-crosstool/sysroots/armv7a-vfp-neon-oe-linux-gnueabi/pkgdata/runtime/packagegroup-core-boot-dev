@@ -1,0 +1,16 @@
+PN: packagegroup-core-boot
+PV: 1.0
+PR: r17
+PKGV: 1.0
+PKGR: r17
+LICENSE: MIT
+DESCRIPTION_packagegroup-core-boot-dev: The minimal set of packages required to boot the system  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-core-boot-dev: Minimal boot requirements - Development files
+RDEPENDS_packagegroup-core-boot-dev: packagegroup-core-boot (= 1.0-r17)
+RRECOMMENDS_packagegroup-core-boot-dev: base-passwd-dev netbase-dev base-files-dev busybox-dev sysvinit-dev busybox-hwclock-dev modutils-initscripts-dev keymaps-dev busybox-mdev-dev update-alternatives-opkg-dev init-ifupdown-dev initscripts-dev
+SECTION_packagegroup-core-boot-dev: devel
+PKG_packagegroup-core-boot-dev: packagegroup-core-boot-dev
+ALLOW_EMPTY_packagegroup-core-boot-dev: 1
+FILES_packagegroup-core-boot-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-core-boot/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-boot-dev: 0

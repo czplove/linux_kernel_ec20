@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-el: Locale data from glibc.  This package contains language translation files for the el locale.
+SUMMARY_glibc-locale-el: Locale data from glibc - el translations
+RPROVIDES_glibc-locale-el: glibc-locale el-translation
+RRECOMMENDS_glibc-locale-el: virtual-locale-el
+SECTION: base
+PKG_glibc-locale-el: glibc-locale-el
+FILES_glibc-locale-el: /usr/share/locale/el
+FILES_INFO: {"/usr/share/locale/el/LC_MESSAGES/libc.mo": 87190}
+PKGSIZE_glibc-locale-el: 87190

@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-mime: Python MIME handling APIs
+RDEPENDS_python-mime: python-core python-io
+SECTION: devel/python
+PKG_python-mime: python-mime
+FILES_python-mime: /usr/lib/python2.7/mimetools.* /usr/lib/python2.7/uu.* /usr/lib/python2.7/quopri.* /usr/lib/python2.7/rfc822.* /usr/lib/python2.7/MimeWriter.* 
+FILES_INFO: {"/usr/lib/python2.7/mimetools.py": 7168, "/usr/lib/python2.7/MimeWriter.pyc": 7346, "/usr/lib/python2.7/MimeWriter.py": 6482, "/usr/lib/python2.7/uu.pyc": 4302, "/usr/lib/python2.7/mimetools.pyc": 8182, "/usr/lib/python2.7/quopri.pyc": 6550, "/usr/lib/python2.7/uu.py": 6555, "/usr/lib/python2.7/rfc822.pyc": 31671, "/usr/lib/python2.7/quopri.py": 6969, "/usr/lib/python2.7/rfc822.py": 33295}
+FILERDEPENDSFLIST_python-mime: /usr/lib/python2.7/quopri.py /usr/lib/python2.7/uu.py
+FILERDEPENDS_/usr/lib/python2.7/quopri.py_python-mime: /usr/bin/env
+FILERDEPENDS_/usr/lib/python2.7/uu.py_python-mime: /usr/bin/env
+PKGSIZE_python-mime: 118520

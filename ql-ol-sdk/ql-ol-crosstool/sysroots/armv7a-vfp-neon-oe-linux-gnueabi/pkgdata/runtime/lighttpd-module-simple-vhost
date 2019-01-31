@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-simple-vhost: Lighttpd module for simple-vhost
+SUMMARY_lighttpd-module-simple-vhost: Lighttpd module for simple-vhost
+RDEPENDS_lighttpd-module-simple-vhost: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-simple-vhost: lighttpd-module-simple-vhost
+FILES_lighttpd-module-simple-vhost: /usr/lib/mod_simple_vhost.so
+FILERPROVIDESFLIST_lighttpd-module-simple-vhost: /usr/lib/mod@underscore@simple@underscore@vhost.so
+FILES_INFO: {"/usr/lib/mod_simple_vhost.so": 7012}
+FILERPROVIDES_/usr/lib/mod@underscore@simple@underscore@vhost.so_lighttpd-module-simple-vhost: elf(buildid) (= d67094346c785836c8e993920a660ce9ce9f0071) mod_simple_vhost.so
+FILERDEPENDSFLIST_lighttpd-module-simple-vhost: /usr/lib/mod@underscore@simple@underscore@vhost.so
+FILERDEPENDS_/usr/lib/mod@underscore@simple@underscore@vhost.so_lighttpd-module-simple-vhost: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-simple-vhost: 7012

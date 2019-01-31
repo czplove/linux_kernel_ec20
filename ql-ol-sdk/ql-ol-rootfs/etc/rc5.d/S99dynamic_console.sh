@@ -1,0 +1,1 @@
+../init.d/dynamic_console.sh

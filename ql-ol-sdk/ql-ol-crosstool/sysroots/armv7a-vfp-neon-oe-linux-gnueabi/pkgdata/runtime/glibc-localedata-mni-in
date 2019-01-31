@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mni-in: locale definition for mni-in
+SUMMARY_glibc-localedata-mni-in: locale definition for mni-in
+RDEPENDS_glibc-localedata-mni-in: glibc-localedata-en-in glibc-localedata-bn-in
+SECTION: base
+PKG_glibc-localedata-mni-in: glibc-localedata-mni-in
+FILES_glibc-localedata-mni-in: /usr/share/i18n/locales/mni_IN
+FILES_INFO: {"/usr/share/i18n/locales/mni_IN": 5607}
+PKGSIZE_glibc-localedata-mni-in: 5607

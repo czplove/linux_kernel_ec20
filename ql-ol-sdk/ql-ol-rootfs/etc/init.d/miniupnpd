@@ -1,0 +1,42 @@
+#!/bin/sh
+# $Id: miniupnpd.init.d.script,v 1.3 2012/03/14 22:09:53 nanard Exp $
+# MiniUPnP project
+# author: Thomas Bernard
+# website: http://miniupnp.free.fr/ or http://miniupnp.tuxfamily.org/
+
+### BEGIN INIT INFO
+# Provides:          miniupnpd
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: MiniUPnPd port-forwarding daemon
+### END INIT INFO
+
+set -e
+
+MINIUPNPD=/usr/sbin/miniupnpd
+ARGS='-f /etc/miniupnpd/miniupnpd.conf'
+
+test -f $MINIUPNPD || exit 0
+
+case "$1" in
+  start)
+	start-stop-daemon --start --quiet --pidfile /var/run/miniupnpd.pid --startas $MINIUPNPD -- $ARGS $LSBNAMES
+	;;
+  stop)
+	start-stop-daemon --stop --quiet --pidfile /var/run/miniupnpd.pid
+	;;
+  restart|reload|force-reload)
+	start-stop-daemon --stop --retry 5 --quiet --pidfile /var/run/miniupnpd.pid
+	start-stop-daemon --start --quiet --pidfile /var/run/miniupnpd.pid --startas $MINIUPNPD -- $ARGS $LSBNAMES
+	;;
+  status)
+	status_of_proc /usr/sbin/miniupnpd miniupnpd
+	;;
+  *)
+	log_action_msg "Usage: /etc/init.d/miniupnpd {start|stop|restart|reload|force-reload}"
+	exit 2
+	;;
+esac
+exit 0

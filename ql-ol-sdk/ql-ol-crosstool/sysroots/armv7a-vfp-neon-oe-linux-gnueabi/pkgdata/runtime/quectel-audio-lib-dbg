@@ -1,0 +1,15 @@
+PN: quectel-audio-lib
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-audio-lib-dbg: Quectel audio lib  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-audio-lib-dbg: quectel-audio-lib version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-audio-lib-dbg: adiertac-dbg audcal-dbg acdbloader-dbg glibc-dbg acdbrtac-dbg acdbmapper-dbg diag-dbg audioalsa-dbg time-genoff-dbg system-core-liblog-dbg glib-2.0-dbg alsa-intf-dbg
+SECTION_quectel-audio-lib-dbg: devel
+PKG_quectel-audio-lib-dbg: quectel-audio-lib-dbg
+ALLOW_EMPTY_quectel-audio-lib-dbg: 1
+FILES_quectel-audio-lib-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-audio-lib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-audio-lib/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-audio-lib/quectel-audio-lib/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libmad.so.0": 12662, "/usr/lib/.debug/libql_lib_audio.so.1.0.0": 173375}
+PKGSIZE_quectel-audio-lib-dbg: 186037

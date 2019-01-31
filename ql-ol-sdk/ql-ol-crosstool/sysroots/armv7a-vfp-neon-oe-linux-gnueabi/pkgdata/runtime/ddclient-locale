@@ -1,0 +1,13 @@
+PN: ddclient
+PV: 3.8.1
+PR: r5
+PKGV: 3.8.1
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION: DDClient is a perl based dynamic DNS Utility
+SUMMARY: ddclient version 3.8.1-r5
+SECTION: console/network
+PKG_ddclient-locale: ddclient-locale
+FILES_ddclient-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ddclient-locale: 0

@@ -1,0 +1,13 @@
+PN: usbutils
+PV: 007
+PR: r0
+PKGV: 007
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_usbutils-doc: Contains the lsusb utility for inspecting the devices connected to the USB bus.  This package contains documentation.
+SUMMARY_usbutils-doc: Host side USB console utilities - Documentation files
+SECTION_usbutils-doc: doc
+PKG_usbutils-doc: usbutils-doc
+FILES_usbutils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/usbhid-dump.8": 4249, "/usr/share/man/man8/lsusb.8": 1722, "/usr/share/man/man1/usb-devices.1": 1552}
+PKGSIZE_usbutils-doc: 7523

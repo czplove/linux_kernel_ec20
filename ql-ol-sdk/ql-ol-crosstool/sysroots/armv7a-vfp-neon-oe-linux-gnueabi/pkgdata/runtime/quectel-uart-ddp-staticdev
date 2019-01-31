@@ -1,0 +1,14 @@
+PN: quectel-uart-ddp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-uart-ddp-staticdev: Quectel uart data dispatch  This package contains static libraries for software development.
+SUMMARY_quectel-uart-ddp-staticdev: quectel-uart-ddp version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-uart-ddp-staticdev: quectel-uart-ddp-dev (= git-invalidgit-r1)
+SECTION_quectel-uart-ddp-staticdev: devel
+PKG_quectel-uart-ddp-staticdev: quectel-uart-ddp-staticdev
+FILES_quectel-uart-ddp-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-uart-ddp/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-uart-ddp-staticdev: 0

@@ -1,0 +1,18 @@
+PN: openssl
+PV: 1.0.1k
+PR: r0
+PKGV: 1.0.1k
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+RDEPENDS_openssl: glibc (>= 2.21) libcrypto (>= 1.0.1k) libssl (>= 1.0.1k)
+SECTION: libs/network
+PKG_openssl: openssl
+FILES_openssl:  /usr/lib/ssl/* /usr/bin/* /usr/sbin/* /usr/lib/openssl/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/openssl /usr/lib/openssl/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_openssl: /usr/bin/openssl
+FILES_INFO: {"/usr/bin/openssl": 470596}
+FILERPROVIDES_/usr/bin/openssl_openssl: elf(buildid) (= bd0d5ec487b0ffef45637b49651eb46e6d2a6506)
+FILERDEPENDSFLIST_openssl: /usr/bin/openssl
+FILERDEPENDS_/usr/bin/openssl_openssl: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libcrypto.so.1.0.0(OPENSSL_1.0.1) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) rtld(GNU_HASH)
+PKGSIZE_openssl: 470596

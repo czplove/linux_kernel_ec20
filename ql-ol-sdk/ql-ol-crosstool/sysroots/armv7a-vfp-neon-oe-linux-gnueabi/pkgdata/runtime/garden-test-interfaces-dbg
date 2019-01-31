@@ -1,0 +1,14 @@
+PN: garden-test-interfaces
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-test-interfaces-dbg: Garden Test Interfaces  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_garden-test-interfaces-dbg: garden-test-interfaces version git-r3 - Debugging files
+SECTION_garden-test-interfaces-dbg: devel
+PKG_garden-test-interfaces-dbg: garden-test-interfaces-dbg
+ALLOW_EMPTY_garden-test-interfaces-dbg: 1
+FILES_garden-test-interfaces-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/garden-test-interfaces/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/garden-test-interfaces/.debug /usr/lib/matchbox-panel/.debug /usr/lib/garden-test-interfaces/garden-test-interfaces/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_garden-test-interfaces-dbg: 0

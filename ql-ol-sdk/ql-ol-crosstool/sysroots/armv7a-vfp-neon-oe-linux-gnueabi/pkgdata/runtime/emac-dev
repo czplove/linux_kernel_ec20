@@ -1,0 +1,15 @@
+PN: emac
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_emac-dev: emac init.d script  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_emac-dev: emac version git-r0 - Development files
+RDEPENDS_emac-dev: emac (= git-r0)
+SECTION_emac-dev: devel
+PKG_emac-dev: emac-dev
+ALLOW_EMPTY_emac-dev: 1
+FILES_emac-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/emac/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_emac-dev: 0

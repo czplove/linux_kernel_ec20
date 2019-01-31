@@ -1,0 +1,14 @@
+PN: acdbloader
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbloader-doc: acdb loader Library  This package contains documentation.
+SUMMARY_acdbloader-doc: acdbloader version git-invalidgit-r7 - Documentation files
+RPROVIDES_acdbloader-doc:  acdbloader-doc
+SECTION_acdbloader-doc: doc
+PKG_acdbloader-doc: libacdbloader-doc
+FILES_acdbloader-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_acdbloader-doc: 0

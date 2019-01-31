@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ta-lk: locale definition for ta-lk
+SUMMARY_glibc-localedata-ta-lk: locale definition for ta-lk
+RDEPENDS_glibc-localedata-ta-lk: glibc-localedata-ta-in glibc-localedata-si-lk
+SECTION: base
+PKG_glibc-localedata-ta-lk: glibc-localedata-ta-lk
+FILES_glibc-localedata-ta-lk: /usr/share/i18n/locales/ta_LK
+FILES_INFO: {"/usr/share/i18n/locales/ta_LK": 1874}
+PKGSIZE_glibc-localedata-ta-lk: 1874

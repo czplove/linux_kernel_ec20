@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ta-in: locale definition for ta-in
+SUMMARY_glibc-localedata-ta-in: locale definition for ta-in
+RDEPENDS_glibc-localedata-ta-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ta-in: glibc-localedata-ta-in
+FILES_glibc-localedata-ta-in: /usr/share/i18n/locales/ta_IN
+FILES_INFO: {"/usr/share/i18n/locales/ta_IN": 7001}
+PKGSIZE_glibc-localedata-ta-in: 7001

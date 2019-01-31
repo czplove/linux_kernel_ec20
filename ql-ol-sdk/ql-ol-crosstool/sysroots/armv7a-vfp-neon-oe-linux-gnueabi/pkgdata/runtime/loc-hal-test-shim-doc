@@ -1,0 +1,13 @@
+PN: loc-hal-test-shim
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-hal-test-shim-doc: GPS HAL API Test shim Library  This package contains documentation.
+SUMMARY_loc-hal-test-shim-doc: loc-hal-test-shim version git-invalidgit-r3 - Documentation files
+SECTION_loc-hal-test-shim-doc: doc
+PKG_loc-hal-test-shim-doc: loc-hal-test-shim-doc
+FILES_loc-hal-test-shim-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-hal-test-shim-doc: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-big5-hkscs: character map for big5-hkscs encoding
+SUMMARY_glibc-charmap-big5-hkscs: character map for big5-hkscs encoding
+SECTION: base
+PKG_glibc-charmap-big5-hkscs: glibc-charmap-big5-hkscs
+FILES_glibc-charmap-big5-hkscs: /usr/share/i18n/charmaps/BIG5-HKSCS.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/BIG5-HKSCS.gz": 110198}
+PKGSIZE_glibc-charmap-big5-hkscs: 110198

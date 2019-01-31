@@ -1,0 +1,16 @@
+PN: tftp-server
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_tftp-server-dev: tftp_server server module  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_tftp-server-dev: tftp-server version git-invalidgit-r1 - Development files
+RDEPENDS_tftp-server-dev: tftp-server (= git-invalidgit-r1)
+RRECOMMENDS_tftp-server-dev: glib-2.0-dev common-dev glibc-dev initscripts-dev
+SECTION_tftp-server-dev: devel
+PKG_tftp-server-dev: tftp-server-dev
+ALLOW_EMPTY_tftp-server-dev: 1
+FILES_tftp-server-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tftp-server/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_tftp-server-dev: 0

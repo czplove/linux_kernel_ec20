@@ -1,0 +1,14 @@
+PN: audioalsa
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audioalsa-doc: libaudioalsa Library  This package contains documentation.
+SUMMARY_audioalsa-doc: audioalsa version git-r4 - Documentation files
+RPROVIDES_audioalsa-doc:  audioalsa-doc
+SECTION_audioalsa-doc: doc
+PKG_audioalsa-doc: libaudioalsa-doc
+FILES_audioalsa-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_audioalsa-doc: 0

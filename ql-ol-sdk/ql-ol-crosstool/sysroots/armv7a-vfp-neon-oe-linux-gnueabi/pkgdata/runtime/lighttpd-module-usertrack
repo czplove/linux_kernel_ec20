@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-usertrack: Lighttpd module for usertrack
+SUMMARY_lighttpd-module-usertrack: Lighttpd module for usertrack
+RDEPENDS_lighttpd-module-usertrack: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-usertrack: lighttpd-module-usertrack
+FILES_lighttpd-module-usertrack: /usr/lib/mod_usertrack.so
+FILERPROVIDESFLIST_lighttpd-module-usertrack: /usr/lib/mod@underscore@usertrack.so
+FILES_INFO: {"/usr/lib/mod_usertrack.so": 7468}
+FILERPROVIDES_/usr/lib/mod@underscore@usertrack.so_lighttpd-module-usertrack: elf(buildid) (= 67c854a77acd41884c9f97ab263665309c9f173f) mod_usertrack.so
+FILERDEPENDSFLIST_lighttpd-module-usertrack: /usr/lib/mod@underscore@usertrack.so
+FILERDEPENDS_/usr/lib/mod@underscore@usertrack.so_lighttpd-module-usertrack: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-usertrack: 7468

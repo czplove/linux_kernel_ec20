@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ti-et: locale definition for ti-et
+SUMMARY_glibc-localedata-ti-et: locale definition for ti-et
+RDEPENDS_glibc-localedata-ti-et: glibc-localedata-i18n glibc-localedata-am-et
+SECTION: base
+PKG_glibc-localedata-ti-et: glibc-localedata-ti-et
+FILES_glibc-localedata-ti-et: /usr/share/i18n/locales/ti_ET
+FILES_INFO: {"/usr/share/i18n/locales/ti_ET": 30305}
+PKGSIZE_glibc-localedata-ti-et: 30305

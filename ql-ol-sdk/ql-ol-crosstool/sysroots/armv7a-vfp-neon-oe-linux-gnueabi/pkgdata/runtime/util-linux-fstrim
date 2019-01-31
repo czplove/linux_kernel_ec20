@@ -1,0 +1,18 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-fstrim: util-linux-libmount (>= 2.25.2) glibc (>= 2.21)
+SECTION: base
+PKG_util-linux-fstrim: util-linux-fstrim
+FILES_util-linux-fstrim: /sbin/fstrim
+FILERPROVIDESFLIST_util-linux-fstrim: /sbin/fstrim
+FILES_INFO: {"/sbin/fstrim": 23964}
+FILERPROVIDES_/sbin/fstrim_util-linux-fstrim: elf(buildid) (= 05dfc98b22a9169e818eaab4ddb730abb3cbf19d)
+FILERDEPENDSFLIST_util-linux-fstrim: /sbin/fstrim
+FILERDEPENDS_/sbin/fstrim_util-linux-fstrim: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.22) libmount.so.1(MOUNT_2.24) libmount.so.1(MOUNT_2.25) rtld(GNU_HASH)
+PKGSIZE_util-linux-fstrim: 23964

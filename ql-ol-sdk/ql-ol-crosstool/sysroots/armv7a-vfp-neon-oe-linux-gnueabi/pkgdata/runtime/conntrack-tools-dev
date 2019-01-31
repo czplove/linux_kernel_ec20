@@ -1,0 +1,16 @@
+PN: conntrack-tools
+PV: 1.0.1
+PR: r1
+PKGV: 1.0.1
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION_conntrack-tools-dev: The conntrack-tools are a set of free software tools for GNU/Linux that allow system administrators interact, from user-space, with the in-kernel Connection Tracking System.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_conntrack-tools-dev: Tools for managing kernel packet filtering capabilities - Development files
+RDEPENDS_conntrack-tools-dev: conntrack-tools (= 1.0.1-r1)
+RRECOMMENDS_conntrack-tools-dev: libnfnetlink-dev glibc-dev libnetfilter-conntrack-dev
+SECTION_conntrack-tools-dev: devel
+PKG_conntrack-tools-dev: conntrack-tools-dev
+ALLOW_EMPTY_conntrack-tools-dev: 1
+FILES_conntrack-tools-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/conntrack-tools/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_conntrack-tools-dev: 0

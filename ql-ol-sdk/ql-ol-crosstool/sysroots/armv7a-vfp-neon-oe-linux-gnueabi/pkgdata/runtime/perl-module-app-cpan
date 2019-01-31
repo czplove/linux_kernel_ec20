@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-app-cpan: perl module app-cpan
+SUMMARY_perl-module-app-cpan: perl module app-cpan
+RDEPENDS_perl-module-app-cpan: perl-module-data-dumper perl-module-carp perl-module-if perl-module-user-pwent perl-module-getopt-std perl-module-config perl-module-vars perl-module-file-find perl perl-module-warnings perl-module-net-ping perl-module-strict perl-module-constant perl-module-file-spec-functions perl-module-file-basename perl-module-cpan perl-module-cwd
+SECTION: devel
+PKG_perl-module-app-cpan: perl-module-app-cpan
+FILES_perl-module-app-cpan: /usr/lib/perl/5.20.0/App/Cpan.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/App/Cpan.pm": 31855}
+PKGSIZE_perl-module-app-cpan: 31855

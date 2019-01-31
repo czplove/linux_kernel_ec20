@@ -1,0 +1,13 @@
+PN: start-scripts-misc-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-misc-daemon-doc: Start up script for misc daemons  This package contains documentation.
+SUMMARY_start-scripts-misc-daemon-doc: start-scripts-misc-daemon version git-invalidgit-r2 - Documentation files
+SECTION_start-scripts-misc-daemon-doc: doc
+PKG_start-scripts-misc-daemon-doc: start-scripts-misc-daemon-doc
+FILES_start-scripts-misc-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-misc-daemon-doc: 0

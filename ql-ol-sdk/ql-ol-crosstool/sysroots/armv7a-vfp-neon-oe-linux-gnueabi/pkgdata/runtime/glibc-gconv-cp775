@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cp775: gconv module for character set cp775
+SUMMARY_glibc-gconv-cp775: gconv module for character set cp775
+RDEPENDS_glibc-gconv-cp775: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cp775: glibc-gconv-cp775
+FILES_glibc-gconv-cp775: /usr/lib/gconv/CP775.so
+FILES_INFO: {"/usr/lib/gconv/CP775.so": 9760}
+PKGSIZE_glibc-gconv-cp775: 9760

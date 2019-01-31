@@ -1,0 +1,19 @@
+PN: acdbloader
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb loader Library
+SUMMARY: acdbloader version git-invalidgit-r7
+RDEPENDS_acdbloader: audioalsa (>= git) adiertac (>= git-invalidgit) diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) acdbmapper (>= git-invalidgit) acdbrtac (>= git-invalidgit) system-core-liblog (>= git) audcal (>= git-invalidgit) time-genoff (>= git-invalidgit)
+RPROVIDES_acdbloader:  acdbloader
+SECTION: base
+PKG_acdbloader: libacdbloader1
+FILES_acdbloader: /usr/bin/* /usr/sbin/* /usr/lib/acdbloader/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/acdbloader /usr/lib/acdbloader/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_acdbloader: /usr/lib/libacdbloader.so.1.0.0
+FILES_INFO: {"/usr/lib/libacdbloader.so.1": 78796, "/etc/firmware/wcd9310/wcd9310_mbhc.bin": 25, "/etc/firmware/wcd9310/wcd9310_anc.bin": 32}
+FILERPROVIDES_/usr/lib/libacdbloader.so.1.0.0_acdbloader: elf(buildid) (= 565013401f3af5902d228d2430ff24dcda8191e9) libacdbloader.so.1
+FILERDEPENDSFLIST_acdbloader: /usr/lib/libacdbloader.so.1.0.0
+FILERDEPENDS_/usr/lib/libacdbloader.so.1.0.0_acdbloader: libacdbmapper.so.1 libacdbrtac.so.1 libadiertac.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_acdbloader: 78853

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-cgi-carp: perl module cgi-carp
+SUMMARY_perl-module-cgi-carp: perl module cgi-carp
+RDEPENDS_perl-module-cgi-carp: perl-module-exporter perl-module-carp perl-module-file-spec perl-module-if perl
+SECTION: devel
+PKG_perl-module-cgi-carp: perl-module-cgi-carp
+FILES_perl-module-cgi-carp: /usr/lib/perl/5.20.0/CGI/Carp.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/CGI/Carp.pm": 19208}
+PKGSIZE_perl-module-cgi-carp: 19208

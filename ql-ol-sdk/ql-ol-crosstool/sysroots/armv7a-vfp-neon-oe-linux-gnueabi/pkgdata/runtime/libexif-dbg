@@ -1,0 +1,15 @@
+PN: libexif
+PV: 0.6.21
+PR: r0
+PKGV: 0.6.21
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libexif-dbg: Library to read the extended image information (EXIF) from JPEG pictures.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libexif-dbg: Library to read the extended image information (EXIF) from JPEG pictures - Debugging files
+RRECOMMENDS_libexif-dbg: glibc-dbg
+SECTION_libexif-dbg: devel
+PKG_libexif-dbg: libexif-dbg
+ALLOW_EMPTY_libexif-dbg: 1
+FILES_libexif-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libexif/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libexif/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libexif/libexif/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libexif.so.12.3.3": 267700}
+PKGSIZE_libexif-dbg: 267700

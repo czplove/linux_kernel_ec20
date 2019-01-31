@@ -1,0 +1,13 @@
+PN: audio-ftm
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio FTM
+SUMMARY: audio-ftm version git-invalidgit-r4
+SECTION: base
+PKG_audio-ftm-locale: audio-ftm-locale
+FILES_audio-ftm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_audio-ftm-locale: 0

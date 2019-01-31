@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-unicode-collate-locale-sr: perl module unicode-collate-locale-sr
+SUMMARY_perl-module-unicode-collate-locale-sr: perl module unicode-collate-locale-sr
+RDEPENDS_perl-module-unicode-collate-locale-sr: perl
+SECTION: devel
+PKG_perl-module-unicode-collate-locale-sr: perl-module-unicode-collate-locale-sr
+FILES_perl-module-unicode-collate-locale-sr: /usr/lib/perl/5.20.0/Unicode/Collate/Locale/sr.pl
+FILES_INFO: {"/usr/lib/perl/5.20.0/Unicode/Collate/Locale/sr.pl": 3866}
+PKGSIZE_perl-module-unicode-collate-locale-sr: 3866

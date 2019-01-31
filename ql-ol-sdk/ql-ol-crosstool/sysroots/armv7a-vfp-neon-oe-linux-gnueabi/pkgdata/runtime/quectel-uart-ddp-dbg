@@ -1,0 +1,15 @@
+PN: quectel-uart-ddp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-uart-ddp-dbg: Quectel uart data dispatch  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-uart-ddp-dbg: quectel-uart-ddp version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-uart-ddp-dbg: glibc-dbg
+SECTION_quectel-uart-ddp-dbg: devel
+PKG_quectel-uart-ddp-dbg: quectel-uart-ddp-dbg
+ALLOW_EMPTY_quectel-uart-ddp-dbg: 1
+FILES_quectel-uart-ddp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-uart-ddp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-uart-ddp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-uart-ddp/quectel-uart-ddp/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/quectel-uart-ddp": 35033}
+PKGSIZE_quectel-uart-ddp-dbg: 35033

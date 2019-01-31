@@ -1,0 +1,14 @@
+PN: start-scripts-misc-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-misc-daemon-dbg: Start up script for misc daemons  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_start-scripts-misc-daemon-dbg: start-scripts-misc-daemon version git-invalidgit-r2 - Debugging files
+SECTION_start-scripts-misc-daemon-dbg: devel
+PKG_start-scripts-misc-daemon-dbg: start-scripts-misc-daemon-dbg
+ALLOW_EMPTY_start-scripts-misc-daemon-dbg: 1
+FILES_start-scripts-misc-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/start-scripts-misc-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/start-scripts-misc-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/start-scripts-misc-daemon/start-scripts-misc-daemon/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_start-scripts-misc-daemon-dbg: 0

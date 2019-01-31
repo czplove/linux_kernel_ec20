@@ -1,0 +1,2 @@
+/sbin/rtcwake
+/bin/busybox 50

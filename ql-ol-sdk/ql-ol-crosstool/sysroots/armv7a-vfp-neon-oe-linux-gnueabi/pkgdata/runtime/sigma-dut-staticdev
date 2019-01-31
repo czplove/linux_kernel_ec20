@@ -1,0 +1,14 @@
+PN: sigma-dut
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_sigma-dut-staticdev: WFA certification testing tool for QCA devices  This package contains static libraries for software development.
+SUMMARY_sigma-dut-staticdev: sigma-dut version git-invalidgit-r0 - Development files (Static Libraries)
+RDEPENDS_sigma-dut-staticdev: sigma-dut-dev (= git-invalidgit-r0)
+SECTION_sigma-dut-staticdev: devel
+PKG_sigma-dut-staticdev: sigma-dut-staticdev
+FILES_sigma-dut-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/sigma-dut/*.a
+FILES_INFO: {}
+PKGSIZE_sigma-dut-staticdev: 0

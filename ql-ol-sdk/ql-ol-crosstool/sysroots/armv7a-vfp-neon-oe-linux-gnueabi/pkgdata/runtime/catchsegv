@@ -1,0 +1,16 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_catchsegv: libsegfault
+SECTION: libs
+PKG_catchsegv: catchsegv
+FILES_catchsegv: /usr/bin/catchsegv
+FILES_INFO: {"/usr/bin/catchsegv": 3284}
+FILERDEPENDSFLIST_catchsegv: /usr/bin/catchsegv
+FILERDEPENDS_/usr/bin/catchsegv_catchsegv: /bin/sh
+PKGSIZE_catchsegv: 3284

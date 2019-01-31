@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-mailbox: Python mailbox format support
+RDEPENDS_python-mailbox: python-core python-mime
+SECTION: devel/python
+PKG_python-mailbox: python-mailbox
+FILES_python-mailbox: /usr/lib/python2.7/mailbox.* 
+FILES_INFO: {"/usr/lib/python2.7/mailbox.py": 81145, "/usr/lib/python2.7/mailbox.pyc": 76255}
+PKGSIZE_python-mailbox: 157400

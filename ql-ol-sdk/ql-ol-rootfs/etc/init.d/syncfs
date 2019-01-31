@@ -1,0 +1,27 @@
+#! /bin/sh
+# Author : Darren
+# Data : 2017/6/28
+# THIS SCRIPT WILL FLUSH FILESYSTEM DATA WHICH SAVEING IN MEMORY.
+# AFTER,THE SCRIPT WILL CLOSE MTD WRITE AND ERASE.THIS ACTIONS 
+# GUARANTEE NO PROCESS WIRTE DATA TO FLASH BEFORE POWERDOWN
+
+
+set -e
+CLOSE_MTD_PATH="/sys/class/mtd/mtd0/disable_write"
+case "$1" in
+  start)
+        ;;
+  stop)
+        sync
+        sleep 1
+        [ -f ${CLOSE_MTD_PATH} ] && echo 1 > ${CLOSE_MTD_PATH}
+        ;;
+  restart)
+        ;;
+  *)
+        echo "Usage syncfs { start | stop | restart}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

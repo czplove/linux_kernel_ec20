@@ -1,0 +1,14 @@
+PN: data-oss
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_data-oss-staticdev: Data Services Open Source  This package contains static libraries for software development.
+SUMMARY_data-oss-staticdev: data-oss version git-r4 - Development files (Static Libraries)
+RDEPENDS_data-oss-staticdev: data-oss-dev (= git-r4)
+SECTION_data-oss-staticdev: devel
+PKG_data-oss-staticdev: data-oss-staticdev
+FILES_data-oss-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/data-oss/*.a
+FILES_INFO: {}
+PKGSIZE_data-oss-staticdev: 0

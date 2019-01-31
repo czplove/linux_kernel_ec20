@@ -1,0 +1,15 @@
+PN: netbase
+PE: 1
+PV: 5.3
+PR: r1
+PKGE: 1
+PKGV: 5.3
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION: This package provides the necessary infrastructure for basic TCP/IP based networking
+SUMMARY: Basic TCP/IP networking support
+SECTION: base
+PKG_netbase-locale: netbase-locale
+FILES_netbase-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_netbase-locale: 0

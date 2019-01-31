@@ -1,0 +1,17 @@
+PN: acdbmapper
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbmapper-dev: acdb mapper Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_acdbmapper-dev: acdbmapper version git-invalidgit-r2 - Development files
+RDEPENDS_acdbmapper-dev: acdbmapper (= git-invalidgit-r2)
+RPROVIDES_acdbmapper-dev:  acdbmapper-dev
+RRECOMMENDS_acdbmapper-dev: glib-2.0-dev audioalsa-dev glibc-dev
+SECTION_acdbmapper-dev: devel
+PKG_acdbmapper-dev: libacdbmapper-dev
+ALLOW_EMPTY_acdbmapper-dev: 1
+FILES_acdbmapper-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acdbmapper/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/acdbmapper.pc": 200, "/usr/include/acdbmapper/acdb-id-mapper.h": 4503, "/usr/lib/libacdbmapper.la": 1034, "/usr/lib/libacdbmapper.so": 22}
+PKGSIZE_acdbmapper-dev: 5759

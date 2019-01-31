@@ -1,0 +1,16 @@
+PN: qmi-shutdown-modem
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-shutdown-modem-dev: QMI shutdown modem Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qmi-shutdown-modem-dev: qmi-shutdown-modem version git-invalidgit-r4 - Development files
+RDEPENDS_qmi-shutdown-modem-dev: qmi-shutdown-modem (= git-invalidgit-r4)
+RRECOMMENDS_qmi-shutdown-modem-dev: qmi-framework-dev glibc-dev qmi-dev initscripts-dev
+SECTION_qmi-shutdown-modem-dev: devel
+PKG_qmi-shutdown-modem-dev: qmi-shutdown-modem-dev
+ALLOW_EMPTY_qmi-shutdown-modem-dev: 1
+FILES_qmi-shutdown-modem-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qmi-shutdown-modem/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_qmi-shutdown-modem-dev: 0

@@ -1,0 +1,14 @@
+PN: bluez5
+PV: 5.19
+PR: r1
+PKGV: 5.19
+PKGR: r1
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_bluez5-staticdev: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.  This package contains static libraries for software development.
+SUMMARY_bluez5-staticdev: Linux Bluetooth Stack Userland V5 - Development files (Static Libraries)
+RDEPENDS_bluez5-staticdev: bluez5-dev (= 5.19-r1)
+SECTION_bluez5-staticdev: devel
+PKG_bluez5-staticdev: bluez5-staticdev
+FILES_bluez5-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bluez5/*.a
+FILES_INFO: {}
+PKGSIZE_bluez5-staticdev: 0

@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-hash-util: perl module hash-util
+SUMMARY_perl-module-hash-util: perl module hash-util
+RDEPENDS_perl-module-hash-util: perl-module-carp perl-module-warnings-register glibc (>= 2.21) perl-module-warnings perl-module-hash-util-fieldhash perl-module-xsloader perl-module-scalar-util perl-module-exporter perl-module-strict perl
+SECTION: devel
+PKG_perl-module-hash-util: perl-module-hash-util
+FILES_perl-module-hash-util: /usr/lib/perl/5.20.0/auto/Hash/Util/Util.so /usr/lib/perl/5.20.0/Hash/Util.pm
+FILERPROVIDESFLIST_perl-module-hash-util: /usr/lib/perl/5.20.0/auto/Hash/Util/Util.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Hash/Util.pm": 19326, "/usr/lib/perl/5.20.0/auto/Hash/Util/Util.so": 10208}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Hash/Util/Util.so_perl-module-hash-util: Util.so elf(buildid) (= 658be62fa399aed52f11c8c9db4c23b1569d086d)
+FILERDEPENDSFLIST_perl-module-hash-util: /usr/lib/perl/5.20.0/auto/Hash/Util/Util.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Hash/Util/Util.so_perl-module-hash-util: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-hash-util: 29534

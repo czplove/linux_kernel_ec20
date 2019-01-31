@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-db: Python file-based database support
+RDEPENDS_python-db: python-core
+SECTION: devel/python
+PKG_python-db: python-db
+FILES_python-db: /usr/lib/python2.7/anydbm.* /usr/lib/python2.7/dumbdbm.* /usr/lib/python2.7/whichdb.* 
+FILES_INFO: {"/usr/lib/python2.7/anydbm.pyc": 2794, "/usr/lib/python2.7/whichdb.pyc": 2237, "/usr/lib/python2.7/dumbdbm.py": 8868, "/usr/lib/python2.7/dumbdbm.pyc": 6489, "/usr/lib/python2.7/anydbm.py": 2663, "/usr/lib/python2.7/whichdb.py": 3379}
+PKGSIZE_python-db: 26430

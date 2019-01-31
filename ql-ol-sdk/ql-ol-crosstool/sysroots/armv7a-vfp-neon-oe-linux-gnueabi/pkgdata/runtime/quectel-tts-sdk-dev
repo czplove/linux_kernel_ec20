@@ -1,0 +1,16 @@
+PN: quectel-tts-sdk
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-tts-sdk-dev: Quectel TTS SDK  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-tts-sdk-dev: quectel-tts-sdk version git-r1 - Development files
+RDEPENDS_quectel-tts-sdk-dev: quectel-tts-sdk (= git-r1)
+RRECOMMENDS_quectel-tts-sdk-dev: quectel-audio-lib-dev glibc-dev system-core-liblog-dev alsa-intf-dev initscripts-dev
+SECTION_quectel-tts-sdk-dev: devel
+PKG_quectel-tts-sdk-dev: quectel-tts-sdk-dev
+ALLOW_EMPTY_quectel-tts-sdk-dev: 1
+FILES_quectel-tts-sdk-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-tts-sdk/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ql_tts_client_api.h": 1617, "/usr/lib/libql_tts.so": 17, "/usr/include/ivTTSThread.h": 755}
+PKGSIZE_quectel-tts-sdk-dev: 2389

@@ -1,0 +1,19 @@
+PN: zlib
+PV: 1.2.8
+PR: r0
+PKGV: 1.2.8
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION: Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.
+SUMMARY: Zlib Compression Library
+RDEPENDS_zlib: glibc (>= 2.21)
+RPROVIDES_zlib:  zlib
+SECTION: libs
+PKG_zlib: libz1
+FILES_zlib: /usr/bin/* /usr/sbin/* /usr/lib/zlib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/zlib /usr/lib/zlib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_zlib: /lib/libz.so.1.2.8
+FILES_INFO: {"/lib/libz.so.1": 74388}
+FILERPROVIDES_/lib/libz.so.1.2.8_zlib: elf(buildid) (= d743e9b3b2c93e5193d3ede47e02aa7ec1f1d208) libz.so.1 libz.so.1(ZLIB_1.2.0) libz.so.1(ZLIB_1.2.0.2) libz.so.1(ZLIB_1.2.0.8) libz.so.1(ZLIB_1.2.2) libz.so.1(ZLIB_1.2.2.3) libz.so.1(ZLIB_1.2.2.4) libz.so.1(ZLIB_1.2.3.3) libz.so.1(ZLIB_1.2.3.4) libz.so.1(ZLIB_1.2.3.5) libz.so.1(ZLIB_1.2.5.1) libz.so.1(ZLIB_1.2.5.2) libz.so.1(ZLIB_1.2.7.1)
+FILERDEPENDSFLIST_zlib: /lib/libz.so.1.2.8
+FILERDEPENDS_/lib/libz.so.1.2.8_zlib: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_zlib: 74388

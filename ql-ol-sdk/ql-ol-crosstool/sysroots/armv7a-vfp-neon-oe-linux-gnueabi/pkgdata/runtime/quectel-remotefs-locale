@@ -1,0 +1,13 @@
+PN: quectel-remotefs
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel RemoteFs Service
+SUMMARY: quectel-remotefs version git-invalidgit-r1
+SECTION: base
+PKG_quectel-remotefs-locale: quectel-remotefs-locale
+FILES_quectel-remotefs-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-remotefs-locale: 0

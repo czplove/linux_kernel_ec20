@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-jus-i.b1.002: character map for jus-i.b1.002 encoding
+SUMMARY_glibc-charmap-jus-i.b1.002: character map for jus-i.b1.002 encoding
+SECTION: base
+PKG_glibc-charmap-jus-i.b1.002: glibc-charmap-jus-i.b1.002
+FILES_glibc-charmap-jus-i.b1.002: /usr/share/i18n/charmaps/JUS_I.B1.002.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/JUS_I.B1.002.gz": 1552}
+PKGSIZE_glibc-charmap-jus-i.b1.002: 1552

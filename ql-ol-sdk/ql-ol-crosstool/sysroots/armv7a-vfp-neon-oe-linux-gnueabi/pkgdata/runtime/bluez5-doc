@@ -1,0 +1,13 @@
+PN: bluez5
+PV: 5.19
+PR: r1
+PKGV: 5.19
+PKGR: r1
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_bluez5-doc: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.  This package contains documentation.
+SUMMARY_bluez5-doc: Linux Bluetooth Stack Userland V5 - Documentation files
+SECTION_bluez5-doc: doc
+PKG_bluez5-doc: bluez5-doc
+FILES_bluez5-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/hciconfig.1": 5503, "/usr/share/man/man1/hid2hci.1": 1314, "/usr/share/man/man1/hcidump.1": 3238, "/usr/share/man/man1/rfcomm.1": 3361, "/usr/share/man/man1/ciptool.1": 2104, "/usr/share/man/man1/rctest.1": 1399, "/usr/share/man/man1/l2ping.1": 1616, "/usr/share/man/man1/bccmd.1": 2649, "/usr/share/man/man8/bluetoothd.8": 1863, "/usr/share/man/man1/sdptool.1": 3456, "/usr/share/man/man1/hciattach.1": 3429, "/usr/share/man/man1/hcitool.1": 4781}
+PKGSIZE_bluez5-doc: 34713

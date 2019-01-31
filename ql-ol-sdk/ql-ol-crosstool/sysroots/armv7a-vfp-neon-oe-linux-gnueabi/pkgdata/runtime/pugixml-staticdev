@@ -1,0 +1,15 @@
+PN: pugixml
+PV: 1.4
+PR: r0
+PKGV: 1.4
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_pugixml-staticdev: XML Parser library .  This package contains static libraries for software development.
+SUMMARY_pugixml-staticdev: XML Parser library  - Development files (Static Libraries)
+RDEPENDS_pugixml-staticdev: pugixml-dev (= 1.4-r0)
+RPROVIDES_pugixml-staticdev:  pugixml-staticdev
+SECTION_pugixml-staticdev: devel
+PKG_pugixml-staticdev: libpugixml-staticdev
+FILES_pugixml-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/pugixml/*.a
+FILES_INFO: {}
+PKGSIZE_pugixml-staticdev: 0

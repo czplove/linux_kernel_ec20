@@ -1,0 +1,13 @@
+PN: iproute2
+PV: 3.16.0
+PR: r0
+PKGV: 3.16.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iproute2-doc: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.  This package contains documentation.
+SUMMARY_iproute2-doc: TCP / IP networking and traffic control utilities - Documentation files
+SECTION_iproute2-doc: doc
+PKG_iproute2-doc: iproute2-doc
+FILES_iproute2-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/iproute2/examples/cbqinit.eth1": 2625, "/usr/share/doc/iproute2/preamble.tex": 629, "/usr/share/doc/iproute2/examples/diffserv/Edge32-cb-chains": 4423, "/usr/share/doc/iproute2/examples/README.iproute2+tc": 3594, "/usr/share/doc/iproute2/examples/diffserv/regression-testing": 3893, "/usr/share/doc/iproute2/examples/diffserv/efcbq": 1203, "/usr/share/doc/iproute2/ss.sgml": 18067, "/usr/share/doc/iproute2/examples/SYN-DoS.rate.limit": 1664, "/usr/share/doc/iproute2/ip-tunnels.tex": 16923, "/usr/share/doc/iproute2/examples/diffserv/Edge31-ca-u32": 5014, "/usr/share/doc/iproute2/SNAPSHOT.tex": 19, "/usr/share/doc/iproute2/examples/diffserv/Edge32-ca-u32": 5892, "/usr/share/doc/iproute2/examples/README.cbq": 4752, "/usr/share/doc/iproute2/examples/diffserv/ef-prio": 906, "/usr/share/doc/iproute2/arpd.sgml": 4431, "/usr/share/doc/iproute2/nstat.sgml": 4555, "/usr/share/doc/iproute2/examples/diffserv/README": 2305, "/usr/share/doc/iproute2/examples/diffserv/Edge31-cb-chains": 3992, "/usr/share/doc/iproute2/api-ip6-flowlabels.tex": 15765, "/usr/share/doc/iproute2/ip-cref.tex": 120361, "/usr/share/doc/iproute2/examples/cbq.init-v0.7.3": 33488, "/usr/share/doc/iproute2/examples/diffserv/Edge2": 2957, "/usr/share/doc/iproute2/examples/gaiconf": 1999, "/usr/share/doc/iproute2/examples/diffserv/afcbq": 3506, "/usr/share/doc/iproute2/examples/dhcp-client-script": 10032, "/usr/share/doc/iproute2/rtstat.sgml": 1350, "/usr/share/doc/iproute2/examples/diffserv/Edge1": 2028, "/usr/share/doc/iproute2/examples/diffserv/Edge32-cb-u32": 4337}
+PKGSIZE_iproute2-doc: 280710

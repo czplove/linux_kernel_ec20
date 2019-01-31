@@ -1,0 +1,13 @@
+PN: cryptodev-linux
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: A /dev/crypto device driver header file.
+SUMMARY: A /dev/crypto device driver header file
+SECTION: base
+PKG_cryptodev-linux-locale: cryptodev-linux-locale
+FILES_cryptodev-linux-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_cryptodev-linux-locale: 0

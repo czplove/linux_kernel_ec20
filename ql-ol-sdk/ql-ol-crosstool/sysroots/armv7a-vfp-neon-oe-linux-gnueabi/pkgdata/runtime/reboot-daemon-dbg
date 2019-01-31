@@ -1,0 +1,15 @@
+PN: reboot-daemon
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_reboot-daemon-dbg: Rebooter daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_reboot-daemon-dbg: reboot-daemon version 1.0-r4 - Debugging files
+RRECOMMENDS_reboot-daemon-dbg: ql-syslog-dbg glibc-dbg
+SECTION_reboot-daemon-dbg: devel
+PKG_reboot-daemon-dbg: reboot-daemon-dbg
+ALLOW_EMPTY_reboot-daemon-dbg: 1
+FILES_reboot-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/reboot-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/reboot-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/reboot-daemon/reboot-daemon/.debug /usr/src/debug
+FILES_INFO: {"/sbin/.debug/reboot-daemon": 5235}
+PKGSIZE_reboot-daemon-dbg: 5235

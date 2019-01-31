@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-armscii-8: gconv module for character set armscii-8
+SUMMARY_glibc-gconv-armscii-8: gconv module for character set armscii-8
+RDEPENDS_glibc-gconv-armscii-8: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-armscii-8: glibc-gconv-armscii-8
+FILES_glibc-gconv-armscii-8: /usr/lib/gconv/ARMSCII-8.so
+FILES_INFO: {"/usr/lib/gconv/ARMSCII-8.so": 9588}
+PKGSIZE_glibc-gconv-armscii-8: 9588

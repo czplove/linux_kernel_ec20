@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-nhn-mx: locale definition for nhn-mx
+SUMMARY_glibc-localedata-nhn-mx: locale definition for nhn-mx
+RDEPENDS_glibc-localedata-nhn-mx: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-es-mx glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-nhn-mx: glibc-localedata-nhn-mx
+FILES_glibc-localedata-nhn-mx: /usr/share/i18n/locales/nhn_MX
+FILES_INFO: {"/usr/share/i18n/locales/nhn_MX": 5274}
+PKGSIZE_glibc-localedata-nhn-mx: 5274

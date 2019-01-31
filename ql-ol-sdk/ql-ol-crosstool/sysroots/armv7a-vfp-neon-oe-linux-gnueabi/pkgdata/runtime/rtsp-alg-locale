@@ -1,0 +1,13 @@
+PN: rtsp-alg
+PV: 3.7
+PR: r6-3.18.20
+PKGV: 3.7
+PKGR: r6-3.18.20
+LICENSE: GPLv2
+DESCRIPTION: RSTP ALG
+SUMMARY: rtsp-alg version 3.7-r6-3.18.20
+SECTION: base
+PKG_rtsp-alg-locale: rtsp-alg-locale
+FILES_rtsp-alg-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_rtsp-alg-locale: 0

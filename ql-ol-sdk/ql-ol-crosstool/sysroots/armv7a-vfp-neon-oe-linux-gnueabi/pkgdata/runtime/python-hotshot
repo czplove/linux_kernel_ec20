@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-hotshot: Python hotshot performance profiler
+RDEPENDS_python-hotshot: python-core glibc (>= 2.21) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-hotshot: python-hotshot
+FILES_python-hotshot: /usr/lib/python2.7/hotshot /usr/lib/python2.7/lib-dynload/_hotshot.so 
+FILERPROVIDESFLIST_python-hotshot: /usr/lib/python2.7/lib-dynload/@underscore@hotshot.so
+FILES_INFO: {"/usr/lib/python2.7/hotshot/stats.py": 2582, "/usr/lib/python2.7/hotshot/stones.py": 767, "/usr/lib/python2.7/hotshot/__init__.py": 2670, "/usr/lib/python2.7/hotshot/stats.pyc": 3252, "/usr/lib/python2.7/lib-dynload/_hotshot.so": 25452, "/usr/lib/python2.7/hotshot/__init__.pyc": 3462, "/usr/lib/python2.7/hotshot/log.pyc": 5514, "/usr/lib/python2.7/hotshot/log.py": 6239, "/usr/lib/python2.7/hotshot/stones.pyc": 1152}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@hotshot.so_python-hotshot: _hotshot.so elf(buildid) (= ea0ca53281481b62710448d62e7685c40f7a7018)
+FILERDEPENDSFLIST_python-hotshot: /usr/lib/python2.7/lib-dynload/@underscore@hotshot.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@hotshot.so_python-hotshot: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-hotshot: 51090

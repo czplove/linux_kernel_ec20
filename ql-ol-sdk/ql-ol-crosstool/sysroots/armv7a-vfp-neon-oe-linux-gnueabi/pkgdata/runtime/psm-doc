@@ -1,0 +1,13 @@
+PN: psm
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_psm-doc: QTI Power Saving Mode Framework  This package contains documentation.
+SUMMARY_psm-doc: psm version git-invalidgit-r0 - Documentation files
+SECTION_psm-doc: doc
+PKG_psm-doc: psm-doc
+FILES_psm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_psm-doc: 0

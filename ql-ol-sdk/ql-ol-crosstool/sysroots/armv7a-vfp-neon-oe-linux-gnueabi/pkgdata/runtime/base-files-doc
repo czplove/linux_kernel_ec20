@@ -1,0 +1,13 @@
+PN: base-files
+PV: 3.0.14
+PR: r89
+PKGV: 3.0.14
+PKGR: r89
+LICENSE: GPLv2
+DESCRIPTION_base-files-doc: The base-files package creates the basic system directory structure and provides a small set of key configuration files for the system.  This package contains documentation.
+SUMMARY_base-files-doc: Miscellaneous files for the base system - Documentation files
+SECTION_base-files-doc: doc
+PKG_base-files-doc: base-files-doc
+FILES_base-files-doc: /usr/share/doc/base-files-3.0.14 /usr/share/common-licenses
+FILES_INFO: {}
+PKGSIZE_base-files-doc: 0

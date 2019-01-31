@@ -1,0 +1,15 @@
+PN: open-source-kernel-tests
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: BSD
+DESCRIPTION_open-source-kernel-tests-dbg: Open Source kernel tests  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_open-source-kernel-tests-dbg: open-source-kernel-tests version git-r6 - Debugging files
+RRECOMMENDS_open-source-kernel-tests-dbg: glibc-dbg
+SECTION_open-source-kernel-tests-dbg: devel
+PKG_open-source-kernel-tests-dbg: open-source-kernel-tests-dbg
+ALLOW_EMPTY_open-source-kernel-tests-dbg: 1
+FILES_open-source-kernel-tests-dbg: /usr/kernel-tests/*/.debug/* /usr/src/debug/* /usr/lib/*.so /usr/lib/.debug/*
+FILES_INFO: {"/usr/kernel-tests/msm_iommu/.debug/msm_iommutest": 6149, "/usr/kernel-tests/glink/.debug/glink_pkt_test": 7483, "/usr/kernel-tests/swp/.debug/swp_test": 128338, "/usr/kernel-tests/qrng/.debug/qrngtest": 5942}
+PKGSIZE_open-source-kernel-tests-dbg: 147912

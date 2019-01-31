@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-mac-sami: character map for mac-sami encoding
+SUMMARY_glibc-charmap-mac-sami: character map for mac-sami encoding
+SECTION: base
+PKG_glibc-charmap-mac-sami: glibc-charmap-mac-sami
+FILES_glibc-charmap-mac-sami: /usr/share/i18n/charmaps/MAC-SAMI.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/MAC-SAMI.gz": 2884}
+PKGSIZE_glibc-charmap-mac-sami: 2884

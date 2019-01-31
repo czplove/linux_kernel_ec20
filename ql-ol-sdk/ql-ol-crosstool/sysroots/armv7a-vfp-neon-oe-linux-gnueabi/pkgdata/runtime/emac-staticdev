@@ -1,0 +1,14 @@
+PN: emac
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_emac-staticdev: emac init.d script  This package contains static libraries for software development.
+SUMMARY_emac-staticdev: emac version git-r0 - Development files (Static Libraries)
+RDEPENDS_emac-staticdev: emac-dev (= git-r0)
+SECTION_emac-staticdev: devel
+PKG_emac-staticdev: emac-staticdev
+FILES_emac-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/emac/*.a
+FILES_INFO: {}
+PKGSIZE_emac-staticdev: 0

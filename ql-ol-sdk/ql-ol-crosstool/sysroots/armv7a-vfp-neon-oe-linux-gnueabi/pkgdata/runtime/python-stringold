@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-stringold: Python string APIs [deprecated]
+RDEPENDS_python-stringold: python-core glibc (>= 2.21) libpython2 (>= 2.7.9) python-re
+SECTION: devel/python
+PKG_python-stringold: python-stringold
+FILES_python-stringold: /usr/lib/python2.7/lib-dynload/strop.so /usr/lib/python2.7/string.* /usr/lib/python2.7/stringold.* 
+FILERPROVIDESFLIST_python-stringold: /usr/lib/python2.7/lib-dynload/strop.so
+FILES_INFO: {"/usr/lib/python2.7/string.py": 20517, "/usr/lib/python2.7/stringold.pyc": 12495, "/usr/lib/python2.7/lib-dynload/strop.so": 22676, "/usr/lib/python2.7/stringold.py": 12449, "/usr/lib/python2.7/string.pyc": 19809}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/strop.so_python-stringold: elf(buildid) (= e1e0b32448b223b49ba5c001a06e54bdbbee89e3) strop.so
+FILERDEPENDSFLIST_python-stringold: /usr/lib/python2.7/lib-dynload/strop.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/strop.so_python-stringold: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-stringold: 87946

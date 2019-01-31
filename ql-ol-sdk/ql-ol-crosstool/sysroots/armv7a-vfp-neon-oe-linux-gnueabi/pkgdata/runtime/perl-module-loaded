@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-loaded: perl module loaded
+SUMMARY_perl-module-loaded: perl module loaded
+RDEPENDS_perl-module-loaded: perl-module-strict perl perl-module-carp perl-module-vars
+SECTION: devel
+PKG_perl-module-loaded: perl-module-loaded
+FILES_perl-module-loaded: /usr/lib/perl/5.20.0/Module/Loaded.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Module/Loaded.pm": 3348}
+PKGSIZE_perl-module-loaded: 3348

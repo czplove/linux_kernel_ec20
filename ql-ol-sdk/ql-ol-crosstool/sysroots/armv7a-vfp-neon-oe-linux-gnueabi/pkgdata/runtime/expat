@@ -1,0 +1,19 @@
+PN: expat
+PV: 2.1.0
+PR: r0
+PKGV: 2.1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)
+SUMMARY: A stream-oriented XML parser library
+RDEPENDS_expat: glibc (>= 2.21) libgcc (>= 4.9.2)
+RPROVIDES_expat:  expat
+SECTION: libs
+PKG_expat: libexpat1
+FILES_expat: /usr/bin/* /usr/sbin/* /usr/lib/expat/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/expat /usr/lib/expat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_expat: /usr/lib/libexpat.so.1.6.0
+FILES_INFO: {"/usr/lib/libexpat.so.1": 132496}
+FILERPROVIDES_/usr/lib/libexpat.so.1.6.0_expat: elf(buildid) (= 463d7a6180a5f0dba4b1b58699038c6ed44be06c) libexpat.so.1
+FILERDEPENDSFLIST_expat: /usr/lib/libexpat.so.1.6.0
+FILERDEPENDS_/usr/lib/libexpat.so.1.6.0_expat: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) rtld(GNU_HASH)
+PKGSIZE_expat: 132496

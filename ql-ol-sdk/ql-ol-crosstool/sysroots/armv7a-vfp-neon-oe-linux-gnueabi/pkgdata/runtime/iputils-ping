@@ -1,0 +1,20 @@
+PN: iputils
+PV: s20101006
+PR: r6
+PKGV: s20101006
+PKGR: r6
+LICENSE: BSD & GPLv2+
+DESCRIPTION: Utilities for the IP protocol, including traceroute6, tracepath, tracepath6, ping, ping6 and arping.
+SUMMARY: Network monitoring tools
+RDEPENDS_iputils-ping: update-alternatives-opkg glibc (>= 2.21)
+SECTION: console/network
+PKG_iputils-ping: iputils-ping
+FILES_iputils-ping: /bin/ping.iputils
+pkg_postinst_iputils-ping: #!/bin/sh\n\tupdate-alternatives --install /bin/ping ping /bin/ping.iputils 100\n
+pkg_postrm_iputils-ping: #!/bin/sh\n\tupdate-alternatives --remove  ping /bin/ping.iputils\n
+FILERPROVIDESFLIST_iputils-ping: /bin/ping.iputils
+FILES_INFO: {"/bin/ping.iputils": 31292}
+FILERPROVIDES_/bin/ping.iputils_iputils-ping: elf(buildid) (= 707568dbbccece58e5a9784a38ce930c084d442e) /bin/ping
+FILERDEPENDSFLIST_iputils-ping: /bin/ping.iputils
+FILERDEPENDS_/bin/ping.iputils_iputils-ping: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_iputils-ping: 31292

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-niu-nu: locale definition for niu-nu
+SUMMARY_glibc-localedata-niu-nu: locale definition for niu-nu
+RDEPENDS_glibc-localedata-niu-nu: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-en-nz glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-niu-nu: glibc-localedata-niu-nu
+FILES_glibc-localedata-niu-nu: /usr/share/i18n/locales/niu_NU
+FILES_INFO: {"/usr/share/i18n/locales/niu_NU": 6074}
+PKGSIZE_glibc-localedata-niu-nu: 6074

@@ -1,0 +1,14 @@
+PN: loc-vzw
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-vzw-doc: GPS Location vzw  This package contains documentation.
+SUMMARY_loc-vzw-doc: loc-vzw version git-invalidgit-r1 - Documentation files
+RPROVIDES_loc-vzw-doc:  loc-vzw-doc
+SECTION_loc-vzw-doc: doc
+PKG_loc-vzw-doc: libloc-ext-doc
+FILES_loc-vzw-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-vzw-doc: 0

@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-cml: Lighttpd module for cml
+SUMMARY_lighttpd-module-cml: Lighttpd module for cml
+RDEPENDS_lighttpd-module-cml: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-cml: lighttpd-module-cml
+FILES_lighttpd-module-cml: /usr/lib/mod_cml.so
+FILERPROVIDESFLIST_lighttpd-module-cml: /usr/lib/mod@underscore@cml.so
+FILES_INFO: {"/usr/lib/mod_cml.so": 7064}
+FILERPROVIDES_/usr/lib/mod@underscore@cml.so_lighttpd-module-cml: elf(buildid) (= d4a40c3d3c42268a364d2017dc83d6abfab28d33) mod_cml.so
+FILERDEPENDSFLIST_lighttpd-module-cml: /usr/lib/mod@underscore@cml.so
+FILERDEPENDS_/usr/lib/mod@underscore@cml.so_lighttpd-module-cml: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-cml: 7064

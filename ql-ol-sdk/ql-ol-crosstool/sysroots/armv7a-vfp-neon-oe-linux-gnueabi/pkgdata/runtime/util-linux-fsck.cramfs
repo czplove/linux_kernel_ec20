@@ -1,0 +1,18 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-fsck.cramfs: glibc (>= 2.21) zlib (>= 1.2.8)
+SECTION: base
+PKG_util-linux-fsck.cramfs: util-linux-fsck.cramfs
+FILES_util-linux-fsck.cramfs: /usr/sbin/fsck.cramfs
+FILERPROVIDESFLIST_util-linux-fsck.cramfs: /usr/sbin/fsck.cramfs
+FILES_INFO: {"/usr/sbin/fsck.cramfs": 23724}
+FILERPROVIDES_/usr/sbin/fsck.cramfs_util-linux-fsck.cramfs: elf(buildid) (= bbf69b82fa1628f5c8a6239f2f57471bdf90fb37)
+FILERDEPENDSFLIST_util-linux-fsck.cramfs: /usr/sbin/fsck.cramfs
+FILERDEPENDS_/usr/sbin/fsck.cramfs_util-linux-fsck.cramfs: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_util-linux-fsck.cramfs: 23724

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iec-p27-1: gconv module for character set iec-p27-1
+SUMMARY_glibc-gconv-iec-p27-1: gconv module for character set iec-p27-1
+RDEPENDS_glibc-gconv-iec-p27-1: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iec-p27-1: glibc-gconv-iec-p27-1
+FILES_glibc-gconv-iec-p27-1: /usr/lib/gconv/IEC_P27-1.so
+FILES_INFO: {"/usr/lib/gconv/IEC_P27-1.so": 9588}
+PKGSIZE_glibc-gconv-iec-p27-1: 9588

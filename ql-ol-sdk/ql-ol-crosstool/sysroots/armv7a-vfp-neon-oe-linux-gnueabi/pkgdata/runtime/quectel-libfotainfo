@@ -1,0 +1,19 @@
+PN: quectel-libfotainfo
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: quectel-libfotainfo version git-invalidgit-r1
+RDEPENDS_quectel-libfotainfo: glibc (>= 2.21)
+RPROVIDES_quectel-libfotainfo:  quectel-libfotainfo
+SECTION: base
+PKG_quectel-libfotainfo: libfotainfo1
+FILES_quectel-libfotainfo: /usr/bin/* /usr/sbin/* /usr/lib/quectel-libfotainfo/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-libfotainfo /usr/lib/quectel-libfotainfo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_quectel-libfotainfo: /usr/lib/libfotainfo.so.1.0.0
+FILES_INFO: {"/usr/lib/libfotainfo.so.1": 15244}
+FILERPROVIDES_/usr/lib/libfotainfo.so.1.0.0_quectel-libfotainfo: elf(buildid) (= 7194786dd7cafb04f2de97dc81e9d6bfc72bfa05) libfotainfo.so.1
+FILERDEPENDSFLIST_quectel-libfotainfo: /usr/lib/libfotainfo.so.1.0.0
+FILERDEPENDS_/usr/lib/libfotainfo.so.1.0.0_quectel-libfotainfo: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_quectel-libfotainfo: 15244

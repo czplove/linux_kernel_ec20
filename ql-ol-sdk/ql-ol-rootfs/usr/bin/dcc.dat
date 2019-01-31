@@ -1,0 +1,298 @@
+#
+# DCC configuration. Use comma,hiphen as seperation character.
+# Values for each channel has to be in the same order as channels
+# For Eg:- If DCC_Channels=5860,5870, then DCC_NumActiveStates=4,1 means
+# NumActiveStates for channel 5860 = 4 and for channel 5870 = 1
+# Bandwidth is assumed as 10MHz for the channel. Lower layers will make the
+# adjustments if the bandwidth is different (5 or 10MHz)
+#
+
+# DCC types as described in ETSI TS 102 687
+# Type                   Format            stepSize    referenceValue  numBits
+# -------------------------------------------------------------------------
+# ndlType_acPrio         INTEGER (0...7)   1           number          3
+# ndlType_controlLoop    INTEGER (0...7)   1           0               3
+# ndlType_arrivalRate    INTEGER (0..8191) 0.01 /s     0               13
+# ndlType_channelLoad    INTEGER (0..1000) 0.1 %       0 %             10
+# ndlType_channelUse     INTEGER (0..8000) 0.0125 %    0 %             13
+# ndlType_datarate       INTEGER (0..7)                Table 8         3
+# ndlType_distance       INTEGER (0..4095) 1 m         0               12
+# ndlType_numberElements INTEGER (0..63)               number          6
+# ndlType_packetDuration INTEGER (0..2047) TSYM        0               11
+# ndlType_packetInterval INTEGER (0..1023) 10 ms       0               10
+# ndlType_pathloss       INTEGER (0..31)   0.1         1.0             5
+# ndlType_rxPower        INTEGER (0..127)  -0.5 dB     -40 dBm         7
+# ndlType_snr            INTEGER (0..127)  0.5 dB      -10 dB          7
+# ndlType_timing         INTEGER (0..4095) 10 ms       0               12
+# ndlType_txPower        INTEGER (0..127)  0.5 dB      -20 dBm         7
+# ndlType_ratio          INTEGER (0..100)  1 %         0 %             7
+# ndlType_exponent       INTEGER (0..100)  0.1         0               7
+# ndlType_queueStatus    1 - OPEN, 0 - CLOSED
+# ndlType_dccMechanism   Bitmask 1= TPC; 2= TRC; 4=TDC 8= DSC; 16=TAC 32=reserved 0=NONE; 63= ALL
+
+
+#Channels that support DCC
+DCC_Channels=5860,5890
+
+#Enable DCC control loop state machine
+DCC_ControlLoopEnable=1,1
+
+#Enable DCC stats collection
+DCC_StatsEnable=0,0
+
+#DCC Stats interval
+DCC_StatsInterval=500,500
+
+#DCC control loop min sampling time
+DCC_MinDccSampling=100,500
+
+#Measurement Interval
+DCC_MeasurementInterval=500,500
+
+
+#Trasmit power threshold
+#Min Tx power for each channel
+NDL_minTxPower=20,20
+#Max Tx power for each channel
+NDL_maxTxPower=106,106
+#Default power for each channel (Not used currently)
+NDL_defTxPower-AC_BK=86,86
+NDL_defTxPower-AC_BE=86,86
+NDL_defTxPower-AC_VO=86,86
+NDL_defTxPower-AC_VI=86,86
+
+
+#Packet timing thresholds
+#Max packet duration in multiple of 8us
+NDL_maxPacketDuration-AC_BK=750,1250
+NDL_maxPacketDuration-AC_BE=750,1250
+NDL_maxPacketDuration-AC_VO=750,1250
+NDL_maxPacketDuration-AC_VI=750,1250
+#Min packet interval
+NDL_minPacketInterval=4,4
+#Max packet interval
+NDL_maxPacketInterval=100,200
+#Default packet interval
+NDL_defPacketInterval-AC_BK=50,50
+NDL_defPacketInterval-AC_BE=50,50
+NDL_defPacketInterval-AC_VO=50,50
+NDL_defPacketInterval-AC_VI=50,50
+
+
+#Packet datarate thresholds
+#Min datarate
+NDL_minDatarate=0,2
+#Max datarate
+NDL_maxDatarate=4,5
+#Default datarate (Not used currently)
+NDL_defDatarate-AC_BK=2,2
+NDL_defDatarate-AC_BE=2,2
+NDL_defDatarate-AC_VO=2,2
+NDL_defDatarate-AC_VI=2,2
+
+
+#Receive signal thresholds
+#Min carrier sense (Not used currently)
+NDL_minCarrierSense=110,110
+#Max carrier sense (Not used currently)
+NDL_maxCarrierSense=50,50
+#Default carrier sense (Not used currently)
+NDL_defCarrierSense=90,90
+
+
+#Receive model parameter
+#Default DCC sensitivity (Not used currently)
+NDL_defDccSensitivity=90,90
+#Max CS range
+NDL_maxCsRange=1000,1000
+#Reference path loss
+NDL_refPathloss=10,10
+#Min SNR
+NDL_minSNR=40,40
+
+
+#Demodulation model parameter
+#SNR backoff
+NDL_snrBackoff-MCS0=20,20
+NDL_snrBackoff-MCS1=22,22
+NDL_snrBackoff-MCS2=26,26
+NDL_snrBackoff-MCS3=30,30
+NDL_snrBackoff-MCS4=36,36
+NDL_snrBackoff-MCS5=44,44
+NDL_snrBackoff-MCS6=52,52
+NDL_snrBackoff-MCS7=54,54
+
+
+#Transmit model parameter
+#Packet arrival rate
+NDL_tmPacketArrivalRate-AC_BK=
+NDL_tmPacketArrivalRate-AC_BE=
+NDL_tmPacketArrivalRate-AC_VO=
+NDL_tmPacketArrivalRate-AC_VI=
+#Packet average duration
+NDL_tmPacketAvgDuration-AC_BK=
+NDL_tmPacketAvgDuration-AC_BE=
+NDL_tmPacketAvgDuration-AC_VO=
+NDL_tmPacketAvgDuration-AC_VI=
+#Signal average power
+NDL_tmSignalAvgPower-AC_BK=
+NDL_tmSignalAvgPower-AC_BE=
+NDL_tmSignalAvgPower-AC_VO=
+NDL_tmSignalAvgPower-AC_VI=
+#Max channel use
+NDL_maxChannelUse=
+#Channel use per AC
+NDL_tmChannelUse-AC_BK=
+NDL_tmChannelUse-AC_BE=
+NDL_tmChannelUse-AC_VO=
+NDL_tmChannelUse-AC_VI=
+
+
+#Channel load thresholds
+#Min channel load
+NDL_minChannelLoad=150,200
+#Max channel load
+NDL_maxChannelLoad=400,500
+
+
+#Transmit queue parameter
+#Num of queues (This cannot be changed)
+NDL_numQueue=4,4
+#Queue status (1=open, 0=close)
+NDL_refQueueStatus-AC_BK=1,1
+NDL_refQueueStatus-AC_BE=1,1
+NDL_refQueueStatus-AC_VO=1,1
+NDL_refQueueStatus-AC_VI=1,1
+#Queue length
+NDL_queueLen-AC_BK=2,8
+NDL_queueLen-AC_BE=2,8
+NDL_queueLen-AC_VO=2,8
+NDL_queueLen-AC_VI=2,8
+
+
+#DCC control loop configuration
+#Time up
+NDL_timeUp=100,100
+#Time down
+NDL_timeDown=500,500
+#Number of active states
+NDL_NumActiveStates=1,4
+
+
+#Active state configuration. Value 'ref' indicates that the parameter is unchanged and
+#the previous value of the corresponding reference parameter is used.
+#Use ref to maintain the channel order even if some of the states are invalid for a channel.
+#Do not use 'ref' for asChanLoad and asDcc
+#Active state 1
+#Channel load
+NDL_asChanLoad-ActiveState_1=200,250
+#DCC mechanism
+NDL_asDcc-AC_BK-ActiveState_1=1,1
+NDL_asDcc-AC_BE-ActiveState_1=1,1
+NDL_asDcc-AC_VO-ActiveState_1=1,0
+NDL_asDcc-AC_VI-ActiveState_1=0,0
+#Tx power
+NDL_asTxPower-AC_BK-ActiveState_1=70,80
+NDL_asTxPower-AC_BE-ActiveState_1=80,90
+NDL_asTxPower-AC_VO-ActiveState_1=90,ref
+NDL_asTxPower-AC_VI-ActiveState_1=ref,ref
+#Packet interval
+NDL_asPacketInterval-AC_BK-ActiveState_1=ref,ref
+NDL_asPacketInterval-AC_BE-ActiveState_1=ref,ref
+NDL_asPacketInterval-AC_VO-ActiveState_1=ref,ref
+NDL_asPacketInterval-AC_VI-ActiveState_1=ref,ref
+#Datarate
+NDL_asDatarate-AC_BK-ActiveState_1=ref,ref
+NDL_asDatarate-AC_BE-ActiveState_1=ref,ref
+NDL_asDatarate-AC_VO-ActiveState_1=ref,ref
+NDL_asDatarate-AC_VI-ActiveState_1=ref,ref
+#Carrier sense (Not supported)
+NDL_asCarrierSense-AC_BK-ActiveState_1=ref,ref
+NDL_asCarrierSense-AC_BE-ActiveState_1=ref,ref
+NDL_asCarrierSense-AC_VO-ActiveState_1=ref,ref
+NDL_asCarrierSense-AC_VI-ActiveState_1=ref,ref
+#Active state 2
+#Channel load
+NDL_asChanLoad-ActiveState_2=ref,300
+#DCC mechanism
+NDL_asDcc-AC_BK-ActiveState_2=ref,3
+NDL_asDcc-AC_BE-ActiveState_2=ref,1
+NDL_asDcc-AC_VO-ActiveState_2=ref,1
+NDL_asDcc-AC_VI-ActiveState_2=ref,1
+#Tx power
+NDL_asTxPower-AC_BK-ActiveState_2=ref,60
+NDL_asTxPower-AC_BE-ActiveState_2=ref,80
+NDL_asTxPower-AC_VO-ActiveState_2=ref,90
+NDL_asTxPower-AC_VI-ActiveState_2=ref,90
+#Packet interval
+NDL_asPacketInterval-AC_BK-ActiveState_2=ref,100
+NDL_asPacketInterval-AC_BE-ActiveState_2=ref,ref
+NDL_asPacketInterval-AC_VO-ActiveState_2=ref,ref
+NDL_asPacketInterval-AC_VI-ActiveState_2=ref,ref
+#Datarate
+NDL_asDatarate-AC_BK-ActiveState_2=ref,ref
+NDL_asDatarate-AC_BE-ActiveState_2=ref,ref
+NDL_asDatarate-AC_VO-ActiveState_2=ref,ref
+NDL_asDatarate-AC_VI-ActiveState_2=ref,ref
+#Carrier sense (Not supported)
+NDL_asCarrierSense-AC_BK-ActiveState_2=ref,ref
+NDL_asCarrierSense-AC_BE-ActiveState_2=ref,ref
+NDL_asCarrierSense-AC_VO-ActiveState_2=ref,ref
+NDL_asCarrierSense-AC_VI-ActiveState_2=ref,ref
+#Active state 3
+#Channel load
+NDL_asChanLoad-ActiveState_3=ref,350
+#DCC mechanism
+NDL_asDcc-AC_BK-ActiveState_3=ref,7
+NDL_asDcc-AC_BE-ActiveState_3=ref,7
+NDL_asDcc-AC_VO-ActiveState_3=ref,1
+NDL_asDcc-AC_VI-ActiveState_3=ref,1
+#Tx power
+NDL_asTxPower-AC_BK-ActiveState_3=ref,50
+NDL_asTxPower-AC_BE-ActiveState_3=ref,60
+NDL_asTxPower-AC_VO-ActiveState_3=ref,70
+NDL_asTxPower-AC_VI-ActiveState_3=ref,70
+#Packet interval
+NDL_asPacketInterval-AC_BK-ActiveState_3=ref,150
+NDL_asPacketInterval-AC_BE-ActiveState_3=ref,100
+NDL_asPacketInterval-AC_VO-ActiveState_3=ref,ref
+NDL_asPacketInterval-AC_VI-ActiveState_3=ref,ref
+#Datarate
+NDL_asDatarate-AC_BK-ActiveState_3=ref,3
+NDL_asDatarate-AC_BE-ActiveState_3=ref,3
+NDL_asDatarate-AC_VO-ActiveState_3=ref,ref
+NDL_asDatarate-AC_VI-ActiveState_3=ref,ref
+#Carrier sense (Not supported)
+NDL_asCarrierSense-AC_BK-ActiveState_3=ref,ref
+NDL_asCarrierSense-AC_BE-ActiveState_3=ref,ref
+NDL_asCarrierSense-AC_VO-ActiveState_3=ref,ref
+NDL_asCarrierSense-AC_VI-ActiveState_3=ref,ref
+#Active state 4
+#Channel load
+NDL_asChanLoad-ActiveState_4=ref,400
+#DCC mechanism
+NDL_asDcc-AC_BK-ActiveState_4=ref,7
+NDL_asDcc-AC_BE-ActiveState_4=ref,7
+NDL_asDcc-AC_VO-ActiveState_4=ref,7
+NDL_asDcc-AC_VI-ActiveState_4=ref,5
+#Tx power
+NDL_asTxPower-AC_BK-ActiveState_4=ref,20
+NDL_asTxPower-AC_BE-ActiveState_4=ref,30
+NDL_asTxPower-AC_VO-ActiveState_4=ref,40
+NDL_asTxPower-AC_VI-ActiveState_4=ref,10
+#Packet interval
+NDL_asPacketInterval-AC_BK-ActiveState_4=ref,200
+NDL_asPacketInterval-AC_BE-ActiveState_4=ref,150
+NDL_asPacketInterval-AC_VO-ActiveState_4=ref,100
+NDL_asPacketInterval-AC_VI-ActiveState_4=ref,ref
+#Datarate
+NDL_asDatarate-AC_BK-ActiveState_4=ref,5
+NDL_asDatarate-AC_BE-ActiveState_4=ref,5
+NDL_asDatarate-AC_VO-ActiveState_4=ref,4
+NDL_asDatarate-AC_VI-ActiveState_4=ref,4
+#Carrier sense (Not supported)
+NDL_asCarrierSense-AC_BK-ActiveState_4=ref,ref
+NDL_asCarrierSense-AC_BE-ActiveState_4=ref,ref
+NDL_asCarrierSense-AC_VO-ActiveState_4=ref,ref
+NDL_asCarrierSense-AC_VI-ActiveState_4=ref,ref
+

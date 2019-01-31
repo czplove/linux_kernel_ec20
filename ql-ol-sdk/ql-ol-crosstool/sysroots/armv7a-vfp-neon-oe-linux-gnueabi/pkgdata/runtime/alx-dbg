@@ -1,0 +1,14 @@
+PN: alx
+PV: git
+PR: r4-3.18.20
+PKGV: git
+PKGR: r4-3.18.20
+LICENSE: ISC
+DESCRIPTION_alx-dbg: Qualcomm Atheros Gigabit Ethernet Driver  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_alx-dbg: alx version git-r4-3.18.20 - Debugging files
+SECTION_alx-dbg: devel
+PKG_alx-dbg: alx-dbg
+ALLOW_EMPTY_alx-dbg: 1
+FILES_alx-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/alx/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/alx/.debug /usr/lib/matchbox-panel/.debug /usr/lib/alx/alx/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_alx-dbg: 0

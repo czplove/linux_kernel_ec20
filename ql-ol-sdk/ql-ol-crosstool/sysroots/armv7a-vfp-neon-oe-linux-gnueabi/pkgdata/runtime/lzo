@@ -1,0 +1,19 @@
+PN: lzo
+PV: 2.09
+PR: r0
+PKGV: 2.09
+PKGR: r0
+LICENSE_lzo: GPLv2only
+DESCRIPTION: Lossless data compression library.
+SUMMARY: Lossless data compression library
+RDEPENDS_lzo: glibc (>= 2.21)
+RPROVIDES_lzo:  lzo
+SECTION: libs
+PKG_lzo: liblzo2-2
+FILES_lzo: /usr/bin/* /usr/sbin/* /usr/lib/lzo/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lzo /usr/lib/lzo/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_lzo: /usr/lib/liblzo2.so.2.0.0
+FILES_INFO: {"/usr/lib/liblzo2.so.2": 111192}
+FILERPROVIDES_/usr/lib/liblzo2.so.2.0.0_lzo: elf(buildid) (= 304e3287d2c9795194f317a266c35c42271d0535) liblzo2.so.2
+FILERDEPENDSFLIST_lzo: /usr/lib/liblzo2.so.2.0.0
+FILERDEPENDS_/usr/lib/liblzo2.so.2.0.0_lzo: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lzo: 111192

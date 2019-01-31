@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-dbg: Utilities for manipulating filesystem extended attributes.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_attr-dbg: Utilities for manipulating filesystem extended attributes - Debugging files
+RRECOMMENDS_attr-dbg: glibc-dbg libattr-dbg
+SECTION_attr-dbg: devel
+PKG_attr-dbg: attr-dbg
+ALLOW_EMPTY_attr-dbg: 1
+FILES_attr-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/attr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/attr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/attr/attr/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libattr.so.1.1.0": 46739, "/usr/bin/.debug/attr": 13951, "/usr/bin/.debug/getfattr": 40328, "/usr/bin/.debug/setfattr": 31013}
+PKGSIZE_attr-dbg: 132031

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-makemaker-config: perl module extutils-makemaker-config
+SUMMARY_perl-module-extutils-makemaker-config: perl module extutils-makemaker-config
+RDEPENDS_perl-module-extutils-makemaker-config: perl-module-strict perl-module-config perl
+SECTION: devel
+PKG_perl-module-extutils-makemaker-config: perl-module-extutils-makemaker-config
+FILES_perl-module-extutils-makemaker-config: /usr/lib/perl/5.20.0/ExtUtils/MakeMaker/Config.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MakeMaker/Config.pm": 567}
+PKGSIZE_perl-module-extutils-makemaker-config: 567

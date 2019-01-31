@@ -1,0 +1,14 @@
+PN: libnss-mdns
+PV: 0.10
+PR: r7
+PKGV: 0.10
+PKGR: r7
+LICENSE: LGPLv2.1+
+DESCRIPTION_libnss-mdns-staticdev: Name Service Switch module for Multicast DNS (zeroconf) name resolution.  This package contains static libraries for software development.
+SUMMARY_libnss-mdns-staticdev: Name Service Switch module for Multicast DNS (zeroconf) name resolution - Development files (Static Libraries)
+RDEPENDS_libnss-mdns-staticdev: libnss-mdns-dev (= 0.10-r7)
+SECTION_libnss-mdns-staticdev: devel
+PKG_libnss-mdns-staticdev: libnss-mdns-staticdev
+FILES_libnss-mdns-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libnss-mdns/*.a
+FILES_INFO: {}
+PKGSIZE_libnss-mdns-staticdev: 0

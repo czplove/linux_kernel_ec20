@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-nats-dano-add: character map for nats-dano-add encoding
+SUMMARY_glibc-charmap-nats-dano-add: character map for nats-dano-add encoding
+SECTION: base
+PKG_glibc-charmap-nats-dano-add: glibc-charmap-nats-dano-add
+FILES_glibc-charmap-nats-dano-add: /usr/share/i18n/charmaps/NATS-DANO-ADD.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/NATS-DANO-ADD.gz": 1716}
+PKGSIZE_glibc-charmap-nats-dano-add: 1716

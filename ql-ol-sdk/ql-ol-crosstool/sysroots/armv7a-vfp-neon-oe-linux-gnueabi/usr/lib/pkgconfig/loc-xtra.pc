@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-xtra
+Description: Qualcomm GPS Location XTRA
+Version: 1.0.0
+Libs: -L${libdir} -lloc_xtra
+Cflags: -I${includedir}/loc-xtra

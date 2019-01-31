@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-big5hkscs: gconv module for character set big5hkscs
+SUMMARY_glibc-gconv-big5hkscs: gconv module for character set big5hkscs
+RDEPENDS_glibc-gconv-big5hkscs: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-big5hkscs: glibc-gconv-big5hkscs
+FILES_glibc-gconv-big5hkscs: /usr/lib/gconv/BIG5HKSCS.so
+FILES_INFO: {"/usr/lib/gconv/BIG5HKSCS.so": 234868}
+PKGSIZE_glibc-gconv-big5hkscs: 234868

@@ -1,0 +1,17 @@
+PN: readline
+PV: 5.2
+PR: r9
+PKGV: 5.2
+PKGR: r9
+LICENSE: GPLv2+
+DESCRIPTION_readline-dev: The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes  additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those   lines, and perform csh-like history expansion on previous commands.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_readline-dev: Library for editing typed command lines - Development files
+RDEPENDS_readline-dev: readline (= 5.2-r9)
+RPROVIDES_readline-dev:  readline-dev
+RRECOMMENDS_readline-dev: glibc-dev ncurses-libtinfo-dev ncurses-dev
+SECTION_readline-dev: devel
+PKG_readline-dev: libreadline-dev
+ALLOW_EMPTY_readline-dev: 1
+FILES_readline-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/readline/*.la /lib/*.la
+FILES_INFO: {"/usr/include/readline/history.h": 10207, "/usr/lib/libreadline.so": 18, "/usr/include/readline/rltypedefs.h": 2977, "/usr/include/readline/rlconf.h": 2305, "/usr/include/readline/chardefs.h": 4684, "/usr/include/readline/readline.h": 34515, "/usr/include/readline/tilde.h": 3167, "/usr/include/readline/keymaps.h": 3529, "/usr/lib/libhistory.so": 17, "/usr/include/readline/rlstdc.h": 1503}
+PKGSIZE_readline-dev: 62922

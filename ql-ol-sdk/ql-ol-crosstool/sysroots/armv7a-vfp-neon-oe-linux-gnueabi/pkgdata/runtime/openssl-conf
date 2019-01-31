@@ -1,0 +1,13 @@
+PN: openssl
+PV: 1.0.1k
+PR: r0
+PKGV: 1.0.1k
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+SECTION: libs/network
+PKG_openssl-conf: openssl-conf
+FILES_openssl-conf: /usr/lib/ssl/openssl.cnf
+FILES_INFO: {"/usr/lib/ssl/openssl.cnf": 10835}
+PKGSIZE_openssl-conf: 10835

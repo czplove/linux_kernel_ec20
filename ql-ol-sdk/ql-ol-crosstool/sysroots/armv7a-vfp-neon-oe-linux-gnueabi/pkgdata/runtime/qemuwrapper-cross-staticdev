@@ -1,0 +1,14 @@
+PN: qemuwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_qemuwrapper-cross-staticdev: QEMU wrapper script.  This package contains static libraries for software development.
+SUMMARY_qemuwrapper-cross-staticdev: QEMU wrapper script - Development files (Static Libraries)
+RDEPENDS_qemuwrapper-cross-staticdev: qemuwrapper-cross-dev (= 1.0-r0)
+SECTION_qemuwrapper-cross-staticdev: devel
+PKG_qemuwrapper-cross-staticdev: qemuwrapper-cross-staticdev
+FILES_qemuwrapper-cross-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qemuwrapper/*.a
+FILES_INFO: {}
+PKGSIZE_qemuwrapper-cross-staticdev: 0

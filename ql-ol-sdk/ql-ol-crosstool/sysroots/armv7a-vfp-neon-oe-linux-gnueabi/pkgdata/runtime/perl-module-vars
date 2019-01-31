@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-vars: perl module vars
+SUMMARY_perl-module-vars: perl module vars
+RDEPENDS_perl-module-vars: perl
+SECTION: devel
+PKG_perl-module-vars: perl-module-vars
+FILES_perl-module-vars: /usr/lib/perl/5.20.0/vars.pm
+FILES_INFO: {}
+PKGSIZE_perl-module-vars: 0

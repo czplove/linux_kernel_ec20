@@ -1,0 +1,16 @@
+PN: libnetfilter-conntrack
+PV: 0.9.1
+PR: r0
+PKGV: 0.9.1
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnetfilter-conntrack-dev: Userspace library providing a programming interface (API) to the in-kernel connection tracking state table  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libnetfilter-conntrack-dev: libnetfilter-conntrack version 0.9.1-r0 - Development files
+RDEPENDS_libnetfilter-conntrack-dev: libnetfilter-conntrack (= 0.9.1-r0)
+RRECOMMENDS_libnetfilter-conntrack-dev: glibc-dev libnfnetlink-dev
+SECTION_libnetfilter-conntrack-dev: devel
+PKG_libnetfilter-conntrack-dev: libnetfilter-conntrack-dev
+ALLOW_EMPTY_libnetfilter-conntrack-dev: 1
+FILES_libnetfilter-conntrack-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnetfilter-conntrack/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libnetfilter_conntrack.so": 31, "/usr/include/libnetfilter_conntrack/linux_nfnetlink_conntrack.h": 3982, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_dccp.h": 813, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_ipv6.h": 371, "/usr/lib/libnetfilter_conntrack.la": 1022, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_tcp.h": 1557, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_icmp.h": 694, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_ipv4.h": 371, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack.h": 20389, "/usr/lib/pkgconfig/libnetfilter_conntrack.pc": 398, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_udp.h": 1121, "/usr/include/libnetfilter_conntrack/libnetfilter_conntrack_sctp.h": 637}
+PKGSIZE_libnetfilter-conntrack-dev: 31386

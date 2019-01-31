@@ -1,0 +1,16 @@
+PN: expat
+PV: 2.1.0
+PR: r0
+PKGV: 2.1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_expat-dbg: Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_expat-dbg: A stream-oriented XML parser library - Debugging files
+RPROVIDES_expat-dbg:  expat-dbg
+RRECOMMENDS_expat-dbg: libgcc-dbg glibc-dbg
+SECTION_expat-dbg: devel
+PKG_expat-dbg: libexpat-dbg
+ALLOW_EMPTY_expat-dbg: 1
+FILES_expat-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/expat/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/expat/.debug /usr/lib/matchbox-panel/.debug /usr/lib/expat/expat/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/xmlwf": 9054, "/usr/lib/.debug/libexpat.so.1.6.0": 20248}
+PKGSIZE_expat-dbg: 29302

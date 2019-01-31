@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ayc-pe: locale definition for ayc-pe
+SUMMARY_glibc-localedata-ayc-pe: locale definition for ayc-pe
+RDEPENDS_glibc-localedata-ayc-pe: glibc-localedata-iso14651-t1 glibc-localedata-es-es glibc-localedata-es-pe
+SECTION: base
+PKG_glibc-localedata-ayc-pe: glibc-localedata-ayc-pe
+FILES_glibc-localedata-ayc-pe: /usr/share/i18n/locales/ayc_PE
+FILES_INFO: {"/usr/share/i18n/locales/ayc_PE": 7458}
+PKGSIZE_glibc-localedata-ayc-pe: 7458

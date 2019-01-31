@@ -1,0 +1,14 @@
+PN: hostap-daemon-qcacld
+PV: git
+PR: r4.2
+PKGV: git
+PKGR: r4.2
+LICENSE: BSD
+DESCRIPTION_hostap-daemon-qcacld-staticdev: Hostap Daemon  This package contains static libraries for software development.
+SUMMARY_hostap-daemon-qcacld-staticdev: hostap-daemon-qcacld version git-r4.2 - Development files (Static Libraries)
+RDEPENDS_hostap-daemon-qcacld-staticdev: hostap-daemon-qcacld-dev (= git-r4.2)
+SECTION_hostap-daemon-qcacld-staticdev: devel
+PKG_hostap-daemon-qcacld-staticdev: hostap-daemon-qcacld-staticdev
+FILES_hostap-daemon-qcacld-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/hostap-daemon-qcacld/*.a
+FILES_INFO: {}
+PKGSIZE_hostap-daemon-qcacld-staticdev: 0

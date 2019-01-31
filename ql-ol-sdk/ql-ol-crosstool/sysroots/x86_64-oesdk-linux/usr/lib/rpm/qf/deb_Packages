@@ -1,0 +1,35 @@
+"\
+Package: %{NAME}\
+%|Priority?{\
+\nPriority: %{Priority}\
+}:{\
+\nPriority: optional\
+}|\
+\nSection: %{GROUP}\
+\nInstalled-Size: %{SIZE:rpn(1023,+,1024,/)}\
+%|PACKAGER?{\
+\nMaintainer: %{PACKAGER}\
+}|\
+\nArchitecture: %{ARCH:strsub(noarch,all,src,source)}\
+\nSource: %{SOURCERPM}\
+\nVersion: %|EPOCH?{%{EPOCH}:}|%{VERSION}-%{RELEASE}\
+\nReplaces: XXX\
+\nProvides: XXX\
+%|REQUIRENAME?{\
+\nDepends:[ %{needswhat}]\
+}|\
+\nRecommends: XXX\
+\nSuggests: XXX\
+\nConflicts: XXX\
+\nFilename: XXX\
+\nSize: %{SIZE}\
+\nMD5sum: XXX\
+\nSHA1: XXX\
+\nSHA256: XXX\
+\nDescription: %{SUMMARY}\
+\n%{DESCRIPTION:strsub(^, )}\
+%|URL?{\
+\nHomepage: %{URL}\
+}|\
+Python-Version: XXX\
+\n"

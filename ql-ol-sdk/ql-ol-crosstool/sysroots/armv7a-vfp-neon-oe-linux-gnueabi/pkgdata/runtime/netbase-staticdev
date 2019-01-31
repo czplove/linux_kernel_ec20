@@ -1,0 +1,16 @@
+PN: netbase
+PE: 1
+PV: 5.3
+PR: r1
+PKGE: 1
+PKGV: 5.3
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION_netbase-staticdev: This package provides the necessary infrastructure for basic TCP/IP based networking  This package contains static libraries for software development.
+SUMMARY_netbase-staticdev: Basic TCP/IP networking support - Development files (Static Libraries)
+RDEPENDS_netbase-staticdev: netbase-dev (= 1:5.3-r1)
+SECTION_netbase-staticdev: devel
+PKG_netbase-staticdev: netbase-staticdev
+FILES_netbase-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/netbase/*.a
+FILES_INFO: {}
+PKGSIZE_netbase-staticdev: 0

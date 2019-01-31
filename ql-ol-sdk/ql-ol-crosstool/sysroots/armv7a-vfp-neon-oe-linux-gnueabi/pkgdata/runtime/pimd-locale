@@ -1,0 +1,13 @@
+PN: pimd
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION: PIMD - Multicast Routing Daemon
+SUMMARY: pimd version git-r5
+SECTION: base
+PKG_pimd-locale: pimd-locale
+FILES_pimd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_pimd-locale: 0

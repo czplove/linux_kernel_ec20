@@ -1,0 +1,13 @@
+PN: lk
+PV: git
+PR: r15
+PKGV: git
+PKGR: r15
+LICENSE: MIT
+DESCRIPTION_lk-doc: Little Kernel bootloader  This package contains documentation.
+SUMMARY_lk-doc: lk version git-r15 - Documentation files
+SECTION_lk-doc: doc
+PKG_lk-doc: lk-doc
+FILES_lk-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lk-doc: 0

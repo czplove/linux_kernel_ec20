@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-mime-header-iso-2022-jp: perl module encode-mime-header-iso-2022-jp
+SUMMARY_perl-module-encode-mime-header-iso-2022-jp: perl module encode-mime-header-iso-2022-jp
+RDEPENDS_perl-module-encode-mime-header-iso-2022-jp: perl-module-encode-cjkconstants perl perl-module-warnings perl-module-strict perl-module-constant perl-module-parent
+SECTION: devel
+PKG_perl-module-encode-mime-header-iso-2022-jp: perl-module-encode-mime-header-iso-2022-jp
+FILES_perl-module-encode-mime-header-iso-2022-jp: /usr/lib/perl/5.20.0/Encode/MIME/Header/ISO_2022_JP.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/MIME/Header/ISO_2022_JP.pm": 3107}
+PKGSIZE_perl-module-encode-mime-header-iso-2022-jp: 3107

@@ -1,0 +1,13 @@
+PN: run-postinsts
+PV: 1.0
+PR: r9
+PKGV: 1.0
+PKGR: r9
+LICENSE: MIT
+DESCRIPTION: Runs postinstall scripts on first boot of the target device.
+SUMMARY: Runs postinstall scripts on first boot of the target device
+SECTION: devel
+PKG_run-postinsts-locale: run-postinsts-locale
+FILES_run-postinsts-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_run-postinsts-locale: 0

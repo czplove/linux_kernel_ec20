@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sd-in: locale definition for sd-in
+SUMMARY_glibc-localedata-sd-in: locale definition for sd-in
+RDEPENDS_glibc-localedata-sd-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in glibc-localedata-i18n glibc-localedata-ar-eg
+SECTION: base
+PKG_glibc-localedata-sd-in: glibc-localedata-sd-in
+FILES_glibc-localedata-sd-in: /usr/share/i18n/locales/sd_IN
+FILES_INFO: {"/usr/share/i18n/locales/sd_IN": 6083}
+PKGSIZE_glibc-localedata-sd-in: 6083

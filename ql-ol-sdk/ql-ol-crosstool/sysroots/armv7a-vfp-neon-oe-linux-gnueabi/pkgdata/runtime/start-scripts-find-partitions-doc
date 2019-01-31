@@ -1,0 +1,13 @@
+PN: start-scripts-find-partitions
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_start-scripts-find-partitions-doc: Start up script for detecting partitions  This package contains documentation.
+SUMMARY_start-scripts-find-partitions-doc: start-scripts-find-partitions version 1.0-r4 - Documentation files
+SECTION_start-scripts-find-partitions-doc: doc
+PKG_start-scripts-find-partitions-doc: start-scripts-find-partitions-doc
+FILES_start-scripts-find-partitions-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-partitions-doc: 0

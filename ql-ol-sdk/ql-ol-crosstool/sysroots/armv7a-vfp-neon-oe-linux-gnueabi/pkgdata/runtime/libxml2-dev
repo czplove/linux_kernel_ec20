@@ -1,0 +1,18 @@
+PN: libxml2
+PV: 2.9.2
+PR: r0
+PKGV: 2.9.2
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_libxml2-dev: The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libxml2-dev: XML C Parser Library and Toolkit - Development files
+RDEPENDS_libxml2-dev: libxml2 (= 2.9.2-r0)
+RRECOMMENDS_libxml2-dev: libgcc-dev glibc-dev zlib-dev
+SECTION_libxml2-dev: devel
+PKG_libxml2-dev: libxml2-dev
+ALLOW_EMPTY_libxml2-dev: 1
+FILES_libxml2-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libxml2/*.la /lib/*.la /usr/bin/*-config /usr/lib/xml2Conf.sh /usr/lib/cmake/*
+FILES_INFO: {"/usr/include/libxml2/libxml/xmlautomata.h": 3956, "/usr/include/libxml2/libxml/encoding.h": 8301, "/usr/include/libxml2/libxml/nanoftp.h": 3762, "/usr/include/libxml2/libxml/globals.h": 14694, "/usr/include/libxml2/libxml/xmlregexp.h": 5458, "/usr/include/libxml2/libxml/xmlreader.h": 12606, "/usr/include/libxml2/libxml/tree.h": 38034, "/usr/include/libxml2/libxml/xpathInternals.h": 19353, "/usr/share/aclocal/libxml.m4": 355, "/usr/include/libxml2/libxml/schematron.h": 4371, "/usr/include/libxml2/libxml/entities.h": 4712, "/usr/include/libxml2/libxml/c14n.h": 3109, "/usr/include/libxml2/libxml/xmlschemas.h": 7069, "/usr/include/libxml2/libxml/xinclude.h": 2967, "/usr/include/libxml2/libxml/xmlwriter.h": 21265, "/usr/include/libxml2/libxml/HTMLtree.h": 3646, "/usr/include/libxml2/libxml/nanohttp.h": 2005, "/usr/lib/pkgconfig/libxml-2.0.pc": 242, "/usr/include/libxml2/libxml/uri.h": 2664, "/usr/include/libxml2/libxml/xpointer.h": 3359, "/usr/include/libxml2/libxml/debugXML.h": 5152, "/usr/include/libxml2/libxml/xlink.h": 5040, "/usr/include/libxml2/libxml/threads.h": 1852, "/usr/include/libxml2/libxml/xmlexports.h": 3920, "/usr/include/libxml2/libxml/HTMLparser.h": 9398, "/usr/include/libxml2/libxml/xmlunicode.h": 9993, "/usr/include/libxml2/libxml/parser.h": 39719, "/usr/include/libxml2/libxml/schemasInternals.h": 26021, "/usr/include/libxml2/libxml/list.h": 3366, "/usr/include/libxml2/libxml/catalog.h": 4905, "/usr/include/libxml2/libxml/xmlsave.h": 2337, "/usr/include/libxml2/libxml/xmlschemastypes.h": 4841, "/usr/lib/libxml2.so": 16, "/usr/include/libxml2/libxml/xmlmodule.h": 1170, "/usr/lib/libxml2.la": 924, "/usr/bin/xml2-config": 68, "/usr/include/libxml2/libxml/xmlIO.h": 10611, "/usr/include/libxml2/libxml/pattern.h": 2586, "/usr/include/libxml2/libxml/xmlerror.h": 36784, "/usr/include/libxml2/libxml/valid.h": 13622, "/usr/include/libxml2/libxml/DOCBparser.h": 3157, "/usr/include/libxml2/libxml/dict.h": 1842, "/usr/include/libxml2/libxml/parserInternals.h": 17394, "/usr/include/libxml2/libxml/xmlstring.h": 5469, "/usr/include/libxml2/libxml/hash.h": 6492, "/usr/include/libxml2/libxml/chvalid.h": 5159, "/usr/include/libxml2/libxml/SAX2.h": 4949, "/usr/include/libxml2/libxml/xpath.h": 16398, "/usr/include/libxml2/libxml/xmlmemory.h": 5945, "/usr/lib/xml2Conf.sh": 198, "/usr/include/libxml2/libxml/relaxng.h": 5996, "/usr/lib/cmake/libxml2/libxml2-config.cmake": 1604, "/usr/include/libxml2/libxml/xmlversion.h": 8067, "/usr/include/libxml2/libxml/SAX.h": 4341}
+FILERDEPENDSFLIST_libxml2-dev: /usr/bin/xml2-config
+FILERDEPENDS_/usr/bin/xml2-config_libxml2-dev: /bin/sh
+PKGSIZE_libxml2-dev: 431264

@@ -1,0 +1,26 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: Lightweight high-performance web server.
+SUMMARY: Lightweight high-performance web server
+RDEPENDS_lighttpd: lighttpd-module-compress lighttpd-module-alias lighttpd-module-evasive lighttpd-module-redirect lighttpd-module-dirlisting glibc (>= 2.21) lighttpd-module-auth lighttpd-module-cgi libcrypto (>= 1.0.1k) lighttpd-module-access libpcre (>= 8.36) libssl (>= 1.0.1k) lighttpd-module-staticfile lighttpd-module-indexfile lighttpd-module-accesslog
+RRECOMMENDS_lighttpd:  update-rc.d
+SECTION: net
+PKG_lighttpd: lighttpd
+FILES_lighttpd: /usr/bin/* /usr/sbin/* /usr/lib/lighttpd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lighttpd /usr/lib/lighttpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /etc /www
+pkg_postinst_lighttpd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT lighttpd defaults 70\nfi\n
+pkg_postrm_lighttpd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT lighttpd remove\nfi\n
+pkg_preinst_lighttpd: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/lighttpd" ]; then\n\t/etc/init.d/lighttpd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT lighttpd remove\nfi\n
+pkg_prerm_lighttpd: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/lighttpd stop\nfi\n
+FILERPROVIDESFLIST_lighttpd: /usr/sbin/lighttpd-angel /usr/sbin/lighttpd
+FILES_INFO: {"/www/lighttpd.user": 112, "/etc/init.d/lighttpd": 4287, "/etc/openssl.cnf": 9771, "/usr/sbin/lighttpd-angel": 5032, "/usr/sbin/lighttpd": 165084, "/www/pages/index.html": 44, "/etc/lighttpd.conf": 13779}
+FILERPROVIDES_/usr/sbin/lighttpd-angel_lighttpd: elf(buildid) (= a8967964f624a8a94131e6ec924dbc70cad59744)
+FILERPROVIDES_/usr/sbin/lighttpd_lighttpd: elf(buildid) (= 2fd33e79448c8e44032c8c5371aa70f251b1c862)
+FILERDEPENDSFLIST_lighttpd: /etc/init.d/lighttpd /usr/sbin/lighttpd-angel /usr/sbin/lighttpd
+FILERDEPENDS_/etc/init.d/lighttpd_lighttpd: /bin/sh
+FILERDEPENDS_/usr/sbin/lighttpd-angel_lighttpd: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/lighttpd_lighttpd: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdl.so.2 libdl.so.2(GLIBC_2.4) libpcre.so.1 libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) rtld(GNU_HASH)
+PKGSIZE_lighttpd: 198109

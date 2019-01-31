@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-lzh-tw: locale definition for lzh-tw
+SUMMARY_glibc-localedata-lzh-tw: locale definition for lzh-tw
+RDEPENDS_glibc-localedata-lzh-tw: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-lzh-tw: glibc-localedata-lzh-tw
+FILES_glibc-localedata-lzh-tw: /usr/share/i18n/locales/lzh_TW
+FILES_INFO: {"/usr/share/i18n/locales/lzh_TW": 7334}
+PKGSIZE_glibc-localedata-lzh-tw: 7334

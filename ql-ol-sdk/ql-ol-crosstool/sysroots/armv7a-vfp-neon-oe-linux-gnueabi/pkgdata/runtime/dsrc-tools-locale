@@ -1,0 +1,13 @@
+PN: dsrc-tools
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION: dsrc-tools
+SUMMARY: dsrc-tools version git-r0
+SECTION: base
+PKG_dsrc-tools-locale: dsrc-tools-locale
+FILES_dsrc-tools-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dsrc-tools-locale: 0

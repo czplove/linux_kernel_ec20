@@ -1,0 +1,13 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libmudflap-staticdev: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+SECTION: devel
+PKG_libmudflap-staticdev: libmudflap-staticdev
+FILES_libmudflap-staticdev: /usr/lib/libmudflap.a
+FILES_INFO: {}
+PKGSIZE_libmudflap-staticdev: 0

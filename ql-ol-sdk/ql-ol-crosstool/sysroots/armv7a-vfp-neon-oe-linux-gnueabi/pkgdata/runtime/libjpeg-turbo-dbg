@@ -1,0 +1,16 @@
+PN: libjpeg-turbo
+PV: 1.2.1
+PR: r2
+PKGV: 1.2.1
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_libjpeg-turbo-dbg: Accelerates basline JPEG compression and decompression..  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libjpeg-turbo-dbg: Accelerates basline JPEG compression and decompression. - Debugging files
+RPROVIDES_libjpeg-turbo-dbg:  libjpeg-turbo-dbg
+RRECOMMENDS_libjpeg-turbo-dbg: glibc-dbg libturbojpeg-dbg
+SECTION_libjpeg-turbo-dbg: devel
+PKG_libjpeg-turbo-dbg: libjpeg-dbg
+ALLOW_EMPTY_libjpeg-turbo-dbg: 1
+FILES_libjpeg-turbo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libjpeg-turbo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libjpeg-turbo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libjpeg-turbo/libjpeg-turbo/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libturbojpeg.so": 31535, "/usr/lib/.debug/libjpeg.so.8.0.2": 28875, "/usr/bin/.debug/jpegtran": 9623, "/usr/bin/.debug/wrjpgcom": 5613, "/usr/bin/.debug/tjbench": 12388, "/usr/bin/.debug/rdjpgcom": 5620, "/usr/bin/.debug/djpeg": 10108, "/usr/bin/.debug/cjpeg": 10064}
+PKGSIZE_libjpeg-turbo-dbg: 113826

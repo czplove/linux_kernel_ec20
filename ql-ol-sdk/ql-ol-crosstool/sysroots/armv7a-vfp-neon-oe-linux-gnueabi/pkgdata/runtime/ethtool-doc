@@ -1,0 +1,13 @@
+PN: ethtool
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_ethtool-doc: ethtool is the standard Linux utility for controlling networkdrivers and hardware, particularly for wired Ethernet devices  This package contains documentation.
+SUMMARY_ethtool-doc: ethtool is the standard Linux utility for managing Ethernet Drivers - Documentation files
+SECTION_ethtool-doc: doc
+PKG_ethtool-doc: ethtool-doc
+FILES_ethtool-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/ethtool.8": 23153}
+PKGSIZE_ethtool-doc: 23153

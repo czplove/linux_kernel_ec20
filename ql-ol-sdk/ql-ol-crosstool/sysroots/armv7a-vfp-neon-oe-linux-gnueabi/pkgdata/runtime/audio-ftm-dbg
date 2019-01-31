@@ -1,0 +1,15 @@
+PN: audio-ftm
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audio-ftm-dbg: Audio FTM  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_audio-ftm-dbg: audio-ftm version git-invalidgit-r4 - Debugging files
+RRECOMMENDS_audio-ftm-dbg: glibc-dbg alsa-intf-dbg glib-2.0-dbg
+SECTION_audio-ftm-dbg: devel
+PKG_audio-ftm-dbg: audio-ftm-dbg
+ALLOW_EMPTY_audio-ftm-dbg: 1
+FILES_audio-ftm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/audio-ftm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/audio-ftm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/audio-ftm/audio-ftm/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/audio_ftm": 358429}
+PKGSIZE_audio-ftm-dbg: 358429

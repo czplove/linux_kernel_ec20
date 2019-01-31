@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-extforward: Lighttpd module for extforward
+SUMMARY_lighttpd-module-extforward: Lighttpd module for extforward
+RDEPENDS_lighttpd-module-extforward: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-extforward: lighttpd-module-extforward
+FILES_lighttpd-module-extforward: /usr/lib/mod_extforward.so
+FILERPROVIDESFLIST_lighttpd-module-extforward: /usr/lib/mod@underscore@extforward.so
+FILES_INFO: {"/usr/lib/mod_extforward.so": 8776}
+FILERPROVIDES_/usr/lib/mod@underscore@extforward.so_lighttpd-module-extforward: elf(buildid) (= 18919796f5c6f5fa9d53b012d423cccdc0affafc) mod_extforward.so
+FILERDEPENDSFLIST_lighttpd-module-extforward: /usr/lib/mod@underscore@extforward.so
+FILERDEPENDS_/usr/lib/mod@underscore@extforward.so_lighttpd-module-extforward: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-extforward: 8776

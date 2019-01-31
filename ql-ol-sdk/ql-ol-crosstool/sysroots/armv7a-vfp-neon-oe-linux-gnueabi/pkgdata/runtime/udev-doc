@@ -1,0 +1,13 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE: GPLv2.0+ & LGPLv2.1+
+DESCRIPTION_udev-doc: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.  This package contains documentation.
+SUMMARY_udev-doc: /dev/ and hotplug management daemon - Documentation files
+SECTION_udev-doc: doc
+PKG_udev-doc: udev-doc
+FILES_udev-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man7/udev.7": 16617, "/usr/share/man/man8/scsi_id.8": 3752, "/usr/share/man/man8/udevd.8": 3521, "/usr/share/doc/udev/README.keymap.txt": 4179, "/usr/share/man/man8/udevadm.8": 10475}
+PKGSIZE_udev-doc: 38544

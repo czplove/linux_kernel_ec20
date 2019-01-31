@@ -1,0 +1,13 @@
+PN: quectel-data
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-data-doc: Quectel RemoteFs Service  This package contains documentation.
+SUMMARY_quectel-data-doc: quectel-data version git-invalidgit-r1 - Documentation files
+SECTION_quectel-data-doc: doc
+PKG_quectel-data-doc: quectel-data-doc
+FILES_quectel-data-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-data-doc: 0

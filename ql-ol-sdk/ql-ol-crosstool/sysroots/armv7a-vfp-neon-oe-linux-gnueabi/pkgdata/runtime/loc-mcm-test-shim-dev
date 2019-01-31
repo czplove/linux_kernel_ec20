@@ -1,0 +1,17 @@
+PN: loc-mcm-test-shim
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-test-shim-dev: MCM Location Test Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-mcm-test-shim-dev: loc-mcm-test-shim version git-invalidgit-r4 - Development files
+RDEPENDS_loc-mcm-test-shim-dev: loc-mcm-test-shim (= git-invalidgit-r4)
+RPROVIDES_loc-mcm-test-shim-dev:  loc-mcm-test-shim-dev
+RRECOMMENDS_loc-mcm-test-shim-dev: system-core-liblog-dev qmi-client-helper-dev libgcc-dev time-genoff-dev glib-2.0-dev mcm-core-dev loc-hal-dev data-dev qmi-dev ql-syslog-dev mcm-dev configdb-dev loc-mcm-type-conv-dev glibc-dev loc-pla-dev xmllib-dev libstdc++-dev dsutils-dev loc-stub-dev data-oss-dev garden-test-interfaces-dev diag-dev qmi-framework-dev
+SECTION_loc-mcm-test-shim-dev: devel
+PKG_loc-mcm-test-shim-dev: libloc-mcm-test-shim-dev
+ALLOW_EMPTY_loc-mcm-test-shim-dev: 1
+FILES_loc-mcm-test-shim-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-mcm-test-shim/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libloc_mcm_test_shim.la": 2777, "/usr/lib/libloc_mcm_test_shim.so": 29, "/usr/lib/pkgconfig/loc-mcm-test-shim.pc": 261, "/usr/include/loc-mcm-test-shim/location_test_interface_mcm_loc.h": 2203, "/usr/include/loc-mcm-test-shim/location_callbacks_mcm_loc.h": 1493}
+PKGSIZE_loc-mcm-test-shim-dev: 6763

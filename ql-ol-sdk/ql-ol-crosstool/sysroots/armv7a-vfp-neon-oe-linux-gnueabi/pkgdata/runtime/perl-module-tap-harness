@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-harness: perl module tap-harness
+SUMMARY_perl-module-tap-harness: perl module tap-harness
+RDEPENDS_perl-module-tap-harness: perl-module-carp perl-module-file-path perl-module-io-handle perl-module-file-spec perl perl-module-warnings perl-module-strict perl-module-base
+SECTION: devel
+PKG_perl-module-tap-harness: perl-module-tap-harness
+FILES_perl-module-tap-harness: /usr/lib/perl/5.20.0/TAP/Harness.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Harness.pm": 27143}
+PKGSIZE_perl-module-tap-harness: 27143

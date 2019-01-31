@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-at803x: at803x kernel module; Atheros 803x PHY driver
+SUMMARY_kernel-module-at803x: at803x kernel module
+RDEPENDS_kernel-module-at803x: kernel-3.18.20 kernel-module-libphy
+SECTION: base
+PKG_kernel-module-at803x: kernel-module-at803x
+FILES_kernel-module-at803x: /lib/modules/3.18.20/kernel/drivers/net/phy/at803x.ko /etc/modules-load.d/at803x.conf /etc/modprobe.d/at803x.conf
+pkg_postinst_kernel-module-at803x: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-at803x: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/net/phy/at803x.ko": 7184}
+PKGSIZE_kernel-module-at803x: 7184

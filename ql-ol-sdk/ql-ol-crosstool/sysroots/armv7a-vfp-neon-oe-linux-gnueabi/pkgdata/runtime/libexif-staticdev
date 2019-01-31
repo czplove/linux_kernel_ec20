@@ -1,0 +1,14 @@
+PN: libexif
+PV: 0.6.21
+PR: r0
+PKGV: 0.6.21
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libexif-staticdev: Library to read the extended image information (EXIF) from JPEG pictures.  This package contains static libraries for software development.
+SUMMARY_libexif-staticdev: Library to read the extended image information (EXIF) from JPEG pictures - Development files (Static Libraries)
+RDEPENDS_libexif-staticdev: libexif-dev (= 0.6.21-r0)
+SECTION_libexif-staticdev: devel
+PKG_libexif-staticdev: libexif-staticdev
+FILES_libexif-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libexif/*.a
+FILES_INFO: {"/lib/libexif.a": 678978}
+PKGSIZE_libexif-staticdev: 678978

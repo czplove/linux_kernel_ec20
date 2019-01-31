@@ -1,0 +1,20 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-profile: Python basic performance profiling support
+RDEPENDS_python-profile: python-core glibc (>= 2.21) libpython2 (>= 2.7.9) python-textutils
+SECTION: devel/python
+PKG_python-profile: python-profile
+FILES_python-profile: /usr/lib/python2.7/profile.* /usr/lib/python2.7/pstats.* /usr/lib/python2.7/cProfile.* /usr/lib/python2.7/lib-dynload/_lsprof.so 
+FILERPROVIDESFLIST_python-profile: /usr/lib/python2.7/lib-dynload/@underscore@lsprof.so
+FILES_INFO: {"/usr/lib/python2.7/pstats.pyc": 24893, "/usr/lib/python2.7/cProfile.pyc": 6280, "/usr/lib/python2.7/cProfile.py": 6515, "/usr/lib/python2.7/profile.py": 22782, "/usr/lib/python2.7/pstats.py": 26711, "/usr/lib/python2.7/lib-dynload/_lsprof.so": 16740, "/usr/lib/python2.7/profile.pyc": 16380}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@lsprof.so_python-profile: _lsprof.so elf(buildid) (= 8be7d204c0f69a1c7452e16e181b45254586ee0e)
+FILERDEPENDSFLIST_python-profile: /usr/lib/python2.7/lib-dynload/@underscore@lsprof.so /usr/lib/python2.7/cProfile.py /usr/lib/python2.7/profile.py
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@lsprof.so_python-profile: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/cProfile.py_python-profile: /usr/bin/env
+FILERDEPENDS_/usr/lib/python2.7/profile.py_python-profile: /usr/bin/env
+PKGSIZE_python-profile: 120301

@@ -1,0 +1,19 @@
+PN: acdbmapper
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb mapper Library
+SUMMARY: acdbmapper version git-invalidgit-r2
+RDEPENDS_acdbmapper: glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RPROVIDES_acdbmapper:  acdbmapper
+SECTION: base
+PKG_acdbmapper: libacdbmapper1
+FILES_acdbmapper: /usr/bin/* /usr/sbin/* /usr/lib/acdbmapper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/acdbmapper /usr/lib/acdbmapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_acdbmapper: /usr/lib/libacdbmapper.so.1.0.0
+FILES_INFO: {"/usr/lib/libacdbmapper.so.1": 5612}
+FILERPROVIDES_/usr/lib/libacdbmapper.so.1.0.0_acdbmapper: elf(buildid) (= 5cde3ea20ee506b4ff861f8df7ea55d46a1ba526) libacdbmapper.so.1
+FILERDEPENDSFLIST_acdbmapper: /usr/lib/libacdbmapper.so.1.0.0
+FILERDEPENDS_/usr/lib/libacdbmapper.so.1.0.0_acdbmapper: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 rtld(GNU_HASH)
+PKGSIZE_acdbmapper: 5612

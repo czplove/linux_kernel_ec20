@@ -1,0 +1,13 @@
+PN: libcheck
+PV: 0.9.14
+PR: r0
+PKGV: 0.9.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libcheck-doc: Check - unit testing framework for C code.  This package contains documentation.
+SUMMARY_libcheck-doc: Check - unit testing framework for C code - Documentation files
+SECTION_libcheck-doc: doc
+PKG_libcheck-doc: libcheck-doc
+FILES_libcheck-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/check/example/src/money.h": 223, "/usr/share/doc/check/example/configure.ac": 949, "/usr/share/doc/check/example/src/money.c": 540, "/usr/share/doc/check/ChangeLogOld": 3680, "/usr/share/doc/check/example/README": 2206, "/usr/share/info/check.info": 108636, "/usr/share/doc/check/COPYING.LESSER": 26527, "/usr/share/doc/check/example/src/money.6.c": 540, "/usr/share/doc/check/example/src/Makefile.am": 195, "/usr/share/doc/check/example/src/money.1.h": 54, "/usr/share/doc/check/example/src/money.5.c": 478, "/usr/share/doc/check/example/src/money.1.c": 0, "/usr/share/doc/check/example/src/money.4.c": 297, "/usr/share/doc/check/NEWS": 18760, "/usr/share/doc/check/README": 2767, "/usr/share/doc/check/example/src/money.2.h": 223, "/usr/share/doc/check/example/tests/check_money.3.c": 816, "/usr/share/doc/check/example/src/money.3.c": 254, "/usr/share/doc/check/example/tests/Makefile.am": 273, "/usr/share/doc/check/SVNChangeLog": 395234, "/usr/share/doc/check/example/tests/check_money.7.c": 1623, "/usr/share/doc/check/example/tests/check_money.2.c": 279, "/usr/share/doc/check/ChangeLog": 36523, "/usr/share/doc/check/example/tests/check_money.1.c": 33, "/usr/share/man/man1/checkmk.1": 16827, "/usr/share/doc/check/example/tests/check_money.c": 1663, "/usr/share/doc/check/example/src/main.c": 243, "/usr/share/doc/check/example/tests/check_money.6.c": 1468, "/usr/share/doc/check/example/Makefile.am": 80}
+PKGSIZE_libcheck-doc: 621391

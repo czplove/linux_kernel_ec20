@@ -1,0 +1,15 @@
+PN: netbase
+PE: 1
+PV: 5.3
+PR: r1
+PKGE: 1
+PKGV: 5.3
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION_netbase-doc: This package provides the necessary infrastructure for basic TCP/IP based networking  This package contains documentation.
+SUMMARY_netbase-doc: Basic TCP/IP networking support - Documentation files
+SECTION_netbase-doc: doc
+PKG_netbase-doc: netbase-doc
+FILES_netbase-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_netbase-doc: 0

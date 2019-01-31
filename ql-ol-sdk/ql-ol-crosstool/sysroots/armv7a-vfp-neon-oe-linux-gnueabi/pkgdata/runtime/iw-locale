@@ -1,0 +1,13 @@
+PN: iw
+PV: 3.6
+PR: r1
+PKGV: 3.6
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: iw is a new nl80211 based CLI configuration utility for                wireless devices. It supports almost all new drivers that have been added                to the kernel recently. 
+SUMMARY: nl80211 based CLI configuration utility for wireless devices
+SECTION: base
+PKG_iw-locale: iw-locale
+FILES_iw-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_iw-locale: 0

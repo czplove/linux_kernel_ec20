@@ -1,0 +1,14 @@
+PN: adiertac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_adiertac-doc: adie rtac Library and calibiration files  This package contains documentation.
+SUMMARY_adiertac-doc: adiertac version git-invalidgit-r3 - Documentation files
+RPROVIDES_adiertac-doc:  adiertac-doc
+SECTION_adiertac-doc: doc
+PKG_adiertac-doc: libadiertac-doc
+FILES_adiertac-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_adiertac-doc: 0

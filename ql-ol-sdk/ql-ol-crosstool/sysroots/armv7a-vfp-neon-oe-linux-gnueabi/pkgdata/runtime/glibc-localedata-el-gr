@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-el-gr: locale definition for el-gr
+SUMMARY_glibc-localedata-el-gr: locale definition for el-gr
+RDEPENDS_glibc-localedata-el-gr: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-el-gr: glibc-localedata-el-gr
+FILES_glibc-localedata-el-gr: /usr/share/i18n/locales/el_GR
+FILES_INFO: {"/usr/share/i18n/locales/el_GR": 5976}
+PKGSIZE_glibc-localedata-el-gr: 5976

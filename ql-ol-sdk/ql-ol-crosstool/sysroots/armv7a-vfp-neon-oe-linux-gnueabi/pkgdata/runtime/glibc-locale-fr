@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-fr: Locale data from glibc.  This package contains language translation files for the fr locale.
+SUMMARY_glibc-locale-fr: Locale data from glibc - fr translations
+RPROVIDES_glibc-locale-fr: glibc-locale fr-translation
+RRECOMMENDS_glibc-locale-fr: virtual-locale-fr
+SECTION: base
+PKG_glibc-locale-fr: glibc-locale-fr
+FILES_glibc-locale-fr: /usr/share/locale/fr
+FILES_INFO: {"/usr/share/locale/fr/LC_MESSAGES/libc.mo": 154314}
+PKGSIZE_glibc-locale-fr: 154314

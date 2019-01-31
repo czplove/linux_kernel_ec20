@@ -1,0 +1,31 @@
+#! /bin/sh
+#
+#Copyright (c) 2013 Qualcomm Technologies, Inc.  All Rights Reserved.
+#Qualcomm Technologies Proprietary and Confidential.
+
+# MCM Location service  init.d script to start the Location Software's mcmlocserver daemon
+
+set -e
+
+case "$1" in
+  start)
+        echo -n "Starting MCM Location Services: "
+        start-stop-daemon -S -b -a mcmlocserver
+        echo "done"
+        ;;
+  stop)
+        echo -n "Stopping MCM Location Services: "
+        start-stop-daemon -K -n mcmlocserver
+        echo "done"
+        ;;
+  restart)
+        $0 stop
+        $0 start
+        ;;
+  *)
+        echo "Usage mcmlocserver { start | stop | restart}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

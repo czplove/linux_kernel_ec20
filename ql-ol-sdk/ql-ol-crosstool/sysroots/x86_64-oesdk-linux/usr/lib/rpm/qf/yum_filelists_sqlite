@@ -1,0 +1,11 @@
+"\
+INSERT into packages values (\
+'%{DBINSTANCE}'\
+, '%|PACKAGEDIGEST?{%{PACKAGEDIGEST}}|'\
+);\
+%|basenames?{[\
+\nINSERT into filelist values (\
+%{filessqlentry2}\
+);\
+]}|\
+\n"

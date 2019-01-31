@@ -1,0 +1,13 @@
+PN: quectel-features-config-tc-native
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-features-config-tc-native-doc: Quectel Features Config  This package contains documentation.
+SUMMARY_quectel-features-config-tc-native-doc: quectel-features-config-tc-native version 1.0-r1 - Documentation files
+SECTION_quectel-features-config-tc-native-doc: doc
+PKG_quectel-features-config-tc-native-doc: quectel-features-config-tc-native-doc
+FILES_quectel-features-config-tc-native-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-tc-native-doc: 0

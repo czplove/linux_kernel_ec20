@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mg-mg: locale definition for mg-mg
+SUMMARY_glibc-localedata-mg-mg: locale definition for mg-mg
+RDEPENDS_glibc-localedata-mg-mg: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-mg-mg: glibc-localedata-mg-mg
+FILES_glibc-localedata-mg-mg: /usr/share/i18n/locales/mg_MG
+FILES_INFO: {"/usr/share/i18n/locales/mg_MG": 6067}
+PKGSIZE_glibc-localedata-mg-mg: 6067

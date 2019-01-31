@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-do: locale definition for es-do
+SUMMARY_glibc-localedata-es-do: locale definition for es-do
+RDEPENDS_glibc-localedata-es-do: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-do: glibc-localedata-es-do
+FILES_glibc-localedata-es-do: /usr/share/i18n/locales/es_DO
+FILES_INFO: {"/usr/share/i18n/locales/es_DO": 4980}
+PKGSIZE_glibc-localedata-es-do: 4980

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ebcdic-fi-se: character map for ebcdic-fi-se encoding
+SUMMARY_glibc-charmap-ebcdic-fi-se: character map for ebcdic-fi-se encoding
+SECTION: base
+PKG_glibc-charmap-ebcdic-fi-se: glibc-charmap-ebcdic-fi-se
+FILES_glibc-charmap-ebcdic-fi-se: /usr/share/i18n/charmaps/EBCDIC-FI-SE.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EBCDIC-FI-SE.gz": 2126}
+PKGSIZE_glibc-charmap-ebcdic-fi-se: 2126

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-so-et: locale definition for so-et
+SUMMARY_glibc-localedata-so-et: locale definition for so-et
+RDEPENDS_glibc-localedata-so-et: glibc-localedata-so-so glibc-localedata-ti-et glibc-localedata-am-et
+SECTION: base
+PKG_glibc-localedata-so-et: glibc-localedata-so-et
+FILES_glibc-localedata-so-et: /usr/share/i18n/locales/so_ET
+FILES_INFO: {"/usr/share/i18n/locales/so_ET": 6770}
+PKGSIZE_glibc-localedata-so-et: 6770

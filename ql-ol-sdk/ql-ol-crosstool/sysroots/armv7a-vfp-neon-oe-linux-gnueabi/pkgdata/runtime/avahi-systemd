@@ -1,0 +1,16 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.
+SUMMARY: Avahi IPv4LL network address configuration daemon
+RDEPENDS_avahi-systemd: avahi-daemon
+SECTION: network
+PKG_avahi-systemd: avahi-systemd
+FILES_avahi-systemd: /lib/systemd
+pkg_postinst_avahi-systemd: \tif [ "x$D" != "x" ]; then\n\t\texit 0\n\tfi\n\n\tsystemctl enable avahi-daemon.service\n
+pkg_postrm_avahi-systemd: \t# can\'t do this offline\n\tif [ "x$D" != "x" ]; then\n\t\texit 0\n\tfi\n\n\tsystemctl disable avahi-daemon.service\n
+FILES_INFO: {"/lib/systemd/system/avahi-daemon.service": 1044, "/lib/systemd/system/avahi-dnsconfd.service": 976, "/lib/systemd/system/avahi-daemon.socket": 874}
+PKGSIZE_avahi-systemd: 2894

@@ -1,0 +1,13 @@
+PN: garden-app
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Garden test shippable app for LOC API HAL
+SUMMARY: garden-app version git-invalidgit-r4
+SECTION: base
+PKG_garden-app-locale: garden-app-locale
+FILES_garden-app-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_garden-app-locale: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-yi-us: locale definition for yi-us
+SUMMARY_glibc-localedata-yi-us: locale definition for yi-us
+RDEPENDS_glibc-localedata-yi-us: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-en-us glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-yi-us: glibc-localedata-yi-us
+FILES_glibc-localedata-yi-us: /usr/share/i18n/locales/yi_US
+FILES_INFO: {"/usr/share/i18n/locales/yi_US": 6437}
+PKGSIZE_glibc-localedata-yi-us: 6437

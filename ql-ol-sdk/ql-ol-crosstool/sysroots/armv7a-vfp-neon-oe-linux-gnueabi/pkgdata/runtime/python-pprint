@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-pprint: Python pretty-print support
+RDEPENDS_python-pprint: python-core python-io
+SECTION: devel/python
+PKG_python-pprint: python-pprint
+FILES_python-pprint: /usr/lib/python2.7/pprint.* 
+FILES_INFO: {"/usr/lib/python2.7/pprint.py": 11777, "/usr/lib/python2.7/pprint.pyc": 10156}
+PKGSIZE_python-pprint: 21933

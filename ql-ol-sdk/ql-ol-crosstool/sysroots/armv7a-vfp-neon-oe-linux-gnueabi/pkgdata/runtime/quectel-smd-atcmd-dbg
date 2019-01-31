@@ -1,0 +1,15 @@
+PN: quectel-smd-atcmd
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-smd-atcmd-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-smd-atcmd-dbg: quectel-smd-atcmd version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-smd-atcmd-dbg: glibc-dbg
+SECTION_quectel-smd-atcmd-dbg: devel
+PKG_quectel-smd-atcmd-dbg: quectel-smd-atcmd-dbg
+ALLOW_EMPTY_quectel-smd-atcmd-dbg: 1
+FILES_quectel-smd-atcmd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-smd-atcmd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-smd-atcmd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-smd-atcmd/quectel-smd-atcmd/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/quectel-smd-atcmd": 20844}
+PKGSIZE_quectel-smd-atcmd-dbg: 20844

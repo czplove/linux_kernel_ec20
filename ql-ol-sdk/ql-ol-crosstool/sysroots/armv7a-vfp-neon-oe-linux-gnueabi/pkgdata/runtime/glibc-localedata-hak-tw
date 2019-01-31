@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-hak-tw: locale definition for hak-tw
+SUMMARY_glibc-localedata-hak-tw: locale definition for hak-tw
+RDEPENDS_glibc-localedata-hak-tw: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-hak-tw: glibc-localedata-hak-tw
+FILES_glibc-localedata-hak-tw: /usr/share/i18n/locales/hak_TW
+FILES_INFO: {"/usr/share/i18n/locales/hak_TW": 6157}
+PKGSIZE_glibc-localedata-hak-tw: 6157

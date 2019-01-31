@@ -1,0 +1,14 @@
+PN: libpcre
+PV: 8.36
+PR: r0
+PKGV: 8.36
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libpcre-staticdev: The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API.  This package contains static libraries for software development.
+SUMMARY_libpcre-staticdev: Perl Compatible Regular Expressions - Development files (Static Libraries)
+RDEPENDS_libpcre-staticdev: libpcre-dev (= 8.36-r0)
+SECTION_libpcre-staticdev: devel
+PKG_libpcre-staticdev: libpcre-staticdev
+FILES_libpcre-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libpcre/*.a
+FILES_INFO: {"/usr/lib/libpcreposix.a": 4304, "/usr/lib/libpcrecpp.a": 37490, "/usr/lib/libpcre.a": 183608}
+PKGSIZE_libpcre-staticdev: 225402

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-locale-codes-language: perl module locale-codes-language
+SUMMARY_perl-module-locale-codes-language: perl module locale-codes-language
+RDEPENDS_perl-module-locale-codes-language: perl-module-carp perl-module-locale-codes-constants perl-module-locale-codes perl-module-warnings perl perl-module-exporter perl-module-strict perl-module-locale-codes-language-codes perl-module-locale-codes-language-retired
+SECTION: devel
+PKG_perl-module-locale-codes-language: perl-module-locale-codes-language
+FILES_perl-module-locale-codes-language: /usr/lib/perl/5.20.0/Locale/Codes/Language.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Locale/Codes/Language.pm": 2329}
+PKGSIZE_perl-module-locale-codes-language: 2329

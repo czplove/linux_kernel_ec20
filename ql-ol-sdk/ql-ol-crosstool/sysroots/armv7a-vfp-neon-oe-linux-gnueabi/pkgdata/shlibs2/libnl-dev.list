@@ -1,0 +1,9 @@
+basic.so:/usr/lib/libnl/cli/cls:3.2.25
+cgroup.so:/usr/lib/libnl/cli/cls:3.2.25
+blackhole.so:/usr/lib/libnl/cli/qdisc:3.2.25
+pfifo.so:/usr/lib/libnl/cli/qdisc:3.2.25
+fq_codel.so:/usr/lib/libnl/cli/qdisc:3.2.25
+ingress.so:/usr/lib/libnl/cli/qdisc:3.2.25
+bfifo.so:/usr/lib/libnl/cli/qdisc:3.2.25
+plug.so:/usr/lib/libnl/cli/qdisc:3.2.25
+htb.so:/usr/lib/libnl/cli/qdisc:3.2.25

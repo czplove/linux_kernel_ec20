@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-be: Locale data from glibc.  This package contains language translation files for the be locale.
+SUMMARY_glibc-locale-be: Locale data from glibc - be translations
+RPROVIDES_glibc-locale-be: glibc-locale be-translation
+RRECOMMENDS_glibc-locale-be: virtual-locale-be
+SECTION: base
+PKG_glibc-locale-be: glibc-locale-be
+FILES_glibc-locale-be: /usr/share/locale/be
+FILES_INFO: {"/usr/share/locale/be/LC_MESSAGES/libc.mo": 23926}
+PKGSIZE_glibc-locale-be: 23926

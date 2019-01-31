@@ -1,0 +1,28 @@
+kernel/crypto/ansi_cprng.ko:
+kernel/block/test-iosched.ko:
+kernel/drivers/spi/spidev.ko:
+kernel/drivers/spi/quec_spi_chn.ko:
+kernel/drivers/net/ethernet/qualcomm/emac/qcom_emac.ko: kernel/drivers/net/phy/qca8337.ko kernel/drivers/of/of_mdio.ko kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/libphy.ko:
+kernel/drivers/net/phy/at803x.ko: kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/quectel_phy.ko: kernel/drivers/net/phy/libphy.ko
+kernel/drivers/net/phy/qca8337.ko: kernel/drivers/net/phy/libphy.ko
+kernel/drivers/input/misc/gpio_event.ko:
+kernel/drivers/input/misc/gpio_matrix.ko:
+kernel/drivers/input/misc/gpio_input.ko:
+kernel/drivers/input/misc/gpio_output.ko:
+kernel/drivers/input/misc/gpio_axis.ko:
+kernel/drivers/mmc/card/mmc_test.ko:
+kernel/drivers/mmc/card/mmc_block_test.ko: kernel/block/test-iosched.ko
+kernel/drivers/of/of_mdio.ko: kernel/drivers/net/phy/libphy.ko
+kernel/drivers/quectel-drivers/low_power_consume_driver_v2/low_power_consume_driver_v2.ko:
+kernel/net/sched/cls_basic.ko:
+kernel/net/netfilter/xt_physdev.ko:
+kernel/net/key/af_key.ko:
+extra/embms_kernel.ko:
+extra/shortcut-fe-cm.ko: extra/shortcut-fe-ipv6.ko extra/shortcut-fe.ko
+kernel/drivers/net/nf_conntrack_rtsp.ko:
+extra/shortcut-fe.ko:
+extra/shortcut-fe-ipv6.ko:
+extra/wlan.ko:
+kernel/drivers/net/nf_nat_rtsp.ko: kernel/drivers/net/nf_conntrack_rtsp.ko

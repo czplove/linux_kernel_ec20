@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-au: locale definition for en-au
+SUMMARY_glibc-localedata-en-au: locale definition for en-au
+RDEPENDS_glibc-localedata-en-au: glibc-localedata-iso14651-t1 glibc-localedata-en-gb
+SECTION: base
+PKG_glibc-localedata-en-au: glibc-localedata-en-au
+FILES_glibc-localedata-en-au: /usr/share/i18n/locales/en_AU
+FILES_INFO: {"/usr/share/i18n/locales/en_AU": 5513}
+PKGSIZE_glibc-localedata-en-au: 5513

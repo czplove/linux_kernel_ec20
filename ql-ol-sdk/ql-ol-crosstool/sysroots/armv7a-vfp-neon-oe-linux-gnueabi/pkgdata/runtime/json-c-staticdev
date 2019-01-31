@@ -1,0 +1,15 @@
+PN: json-c
+PV: 0.12
+PR: r0
+PKGV: 0.12
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_json-c-staticdev: JSON-C implements a reference counting object model that allows you to easily construct JSON objects in C.  This package contains static libraries for software development.
+SUMMARY_json-c-staticdev: C bindings for apps which will manipulate JSON data - Development files (Static Libraries)
+RDEPENDS_json-c-staticdev: json-c-dev (= 0.12-r0)
+RPROVIDES_json-c-staticdev:  json-c-staticdev
+SECTION_json-c-staticdev: devel
+PKG_json-c-staticdev: libjson-c-staticdev
+FILES_json-c-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/json-c/*.a
+FILES_INFO: {"/usr/lib/libjson-c.a": 49372}
+PKGSIZE_json-c-staticdev: 49372

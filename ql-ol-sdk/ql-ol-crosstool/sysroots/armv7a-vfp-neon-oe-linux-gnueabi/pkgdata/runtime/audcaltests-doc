@@ -1,0 +1,13 @@
+PN: audcaltests
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audcaltests-doc: Audio Calibration Library  This package contains documentation.
+SUMMARY_audcaltests-doc: audcaltests version git-invalidgit-r7 - Documentation files
+SECTION_audcaltests-doc: doc
+PKG_audcaltests-doc: audcaltests-doc
+FILES_audcaltests-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_audcaltests-doc: 0

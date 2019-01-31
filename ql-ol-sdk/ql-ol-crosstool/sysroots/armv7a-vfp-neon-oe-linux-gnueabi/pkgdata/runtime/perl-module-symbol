@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-symbol: perl module symbol
+SUMMARY_perl-module-symbol: perl module symbol
+RDEPENDS_perl-module-symbol: perl-module-exporter perl
+SECTION: devel
+PKG_perl-module-symbol: perl-module-symbol
+FILES_perl-module-symbol: /usr/lib/perl/5.20.0/Symbol.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Symbol.pm": 4794}
+PKGSIZE_perl-module-symbol: 4794

@@ -1,0 +1,14 @@
+PN: dsutils
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Data DSutils Module
+SUMMARY: dsutils version git-invalidgit-r7
+RPROVIDES_dsutils-locale:  dsutils-locale
+SECTION: base
+PKG_dsutils-locale: libdsutils-locale
+FILES_dsutils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dsutils-locale: 0

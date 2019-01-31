@@ -1,0 +1,13 @@
+PN: atfwd-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Daemon to handle AT commands
+SUMMARY: atfwd-daemon version git-invalidgit-r3
+SECTION: base
+PKG_atfwd-daemon-locale: atfwd-daemon-locale
+FILES_atfwd-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_atfwd-daemon-locale: 0

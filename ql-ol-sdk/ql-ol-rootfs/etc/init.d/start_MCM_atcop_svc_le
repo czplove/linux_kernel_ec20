@@ -1,0 +1,32 @@
+#! /bin/sh
+#
+#Copyright (c) 2013 Qualcomm Technologies, Inc.  All Rights Reserved.
+#Qualcomm Technologies Proprietary and Confidential.
+
+# MCM_atcop_svc   init.d script to start the Data Software's MCM_atcop_svc daemon
+
+set -e
+
+case "$1" in
+  start)
+        echo -n "Starting MCM_atcop_svc: "
+        echo 10 > /sys/class/tty/smd8/open_timeout
+        start-stop-daemon -S -b -a MCM_atcop_svc
+        echo "done"
+        ;;
+  stop)
+        echo -n "Stopping MCM_atcop_svc: "
+        start-stop-daemon -K -n MCM_atcop_svc
+        echo "done"
+        ;;
+  restart)
+        $0 stop
+        $0 start
+        ;;
+  *)
+        echo "Usage MCM_atcop_svc { start | stop | restart}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

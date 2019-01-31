@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ca+valencia: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ca@valencia locale.
+SUMMARY_glib-2.0-locale-ca+valencia: A general-purpose utility library - ca@valencia translations
+RPROVIDES_glib-2.0-locale-ca+valencia: glib-2.0-locale ca+valencia-translation glib-2.0-locale-ca+valencia
+RRECOMMENDS_glib-2.0-locale-ca+valencia: virtual-locale-ca+valencia
+SECTION: libs
+PKG_glib-2.0-locale-ca+valencia: libglib-2.0-locale-ca+valencia
+FILES_glib-2.0-locale-ca+valencia: /usr/share/locale/ca@valencia
+FILES_INFO: {"/usr/share/locale/ca@valencia/LC_MESSAGES/glib20.mo": 105797}
+PKGSIZE_glib-2.0-locale-ca+valencia: 105797

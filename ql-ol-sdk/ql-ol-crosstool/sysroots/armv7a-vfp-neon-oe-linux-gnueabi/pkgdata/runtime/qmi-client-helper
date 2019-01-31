@@ -1,0 +1,19 @@
+PN: qmi-client-helper
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI Client Helper Module
+SUMMARY: qmi-client-helper version git-invalidgit-r0
+RDEPENDS_qmi-client-helper: diag (>= git-invalidgit) time-genoff (>= git-invalidgit) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) glibc (>= 2.21)
+RPROVIDES_qmi-client-helper:  qmi-client-helper
+SECTION: base
+PKG_qmi-client-helper: libqmi-client-helper1
+FILES_qmi-client-helper: /usr/bin/* /usr/sbin/* /usr/lib/qmi-client-helper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qmi-client-helper /usr/lib/qmi-client-helper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_qmi-client-helper: /usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0
+FILES_INFO: {"/usr/lib/libqmi_client_helper.so.1": 11544}
+FILERPROVIDES_/usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0_qmi-client-helper: elf(buildid) (= 3eccab87b9277064b018663f23d23de1a2b99a60) libqmi_client_helper.so.1
+FILERDEPENDSFLIST_qmi-client-helper: /usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0
+FILERDEPENDS_/usr/lib/libqmi@underscore@client@underscore@helper.so.1.0.0_qmi-client-helper: libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_qmi-client-helper: 11544

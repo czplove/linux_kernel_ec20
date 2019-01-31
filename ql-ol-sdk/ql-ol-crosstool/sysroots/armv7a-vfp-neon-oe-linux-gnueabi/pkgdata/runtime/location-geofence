@@ -1,0 +1,19 @@
+PN: location-geofence
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Geofence
+SUMMARY: location-geofence version git-invalidgit-r1
+RDEPENDS_location-geofence: libstdc++ (>= 4.9.2) glibc (>= 2.21) libgcc (>= 4.9.2)
+RPROVIDES_location-geofence:  location-geofence
+SECTION: base
+PKG_location-geofence: libgeofence1
+FILES_location-geofence: /usr/lib/*
+FILERPROVIDESFLIST_location-geofence: /usr/lib/libgeofence.so.1.0.0
+FILES_INFO: {"/usr/lib/libgeofence.so": 20, "/usr/lib/libgeofence.so.1": 20, "/usr/lib/libgeofence.la": 948, "/usr/lib/libgeofence.so.1.0.0": 169680, "/usr/lib/pkgconfig/location-geofence.pc": 213}
+FILERPROVIDES_/usr/lib/libgeofence.so.1.0.0_location-geofence: elf(buildid) (= 16d794dc6e84dddc69f237becdf39b0f69862345) libgeofence.so.1
+FILERDEPENDSFLIST_location-geofence: /usr/lib/libgeofence.so.1.0.0
+FILERDEPENDS_/usr/lib/libgeofence.so.1.0.0_location-geofence: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_location-geofence: 170881

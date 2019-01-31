@@ -1,0 +1,16 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb1-dbg: Userspace library to access USB (version 1.0).  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libusb1-dbg: Userspace library to access USB (version 1.0) - Debugging files
+RPROVIDES_libusb1-dbg:  libusb1-dbg
+RRECOMMENDS_libusb1-dbg: glibc-dbg
+SECTION_libusb1-dbg: devel
+PKG_libusb1-dbg: libusb-1.0-dbg
+ALLOW_EMPTY_libusb1-dbg: 1
+FILES_libusb1-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libusb1/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libusb1/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libusb1/libusb1/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libusb-1.0.so.0.1.0": 24637}
+PKGSIZE_libusb1-dbg: 24637

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-config-extensions: perl module config-extensions
+SUMMARY_perl-module-config-extensions: perl module config-extensions
+RDEPENDS_perl-module-config-extensions: perl-module-strict perl-module-config perl-module-exporter perl-module-vars perl
+SECTION: devel
+PKG_perl-module-config-extensions: perl-module-config-extensions
+FILES_perl-module-config-extensions: /usr/lib/perl/5.20.0/Config/Extensions.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Config/Extensions.pm": 1358}
+PKGSIZE_perl-module-config-extensions: 1358

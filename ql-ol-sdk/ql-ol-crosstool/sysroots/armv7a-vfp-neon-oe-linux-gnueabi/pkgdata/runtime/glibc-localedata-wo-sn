@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-wo-sn: locale definition for wo-sn
+SUMMARY_glibc-localedata-wo-sn: locale definition for wo-sn
+RDEPENDS_glibc-localedata-wo-sn: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-wo-sn: glibc-localedata-wo-sn
+FILES_glibc-localedata-wo-sn: /usr/share/i18n/locales/wo_SN
+FILES_INFO: {"/usr/share/i18n/locales/wo_SN": 5720}
+PKGSIZE_glibc-localedata-wo-sn: 5720

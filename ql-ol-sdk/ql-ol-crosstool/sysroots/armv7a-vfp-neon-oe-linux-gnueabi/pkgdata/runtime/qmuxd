@@ -1,0 +1,24 @@
+PN: qmuxd
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMUXD Module
+SUMMARY: qmuxd version git-invalidgit-r0
+RDEPENDS_qmuxd: diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit)
+RRECOMMENDS_qmuxd:  update-rc.d
+SECTION: base
+PKG_qmuxd: qmuxd
+FILES_qmuxd: /usr/bin/* /usr/sbin/* /usr/lib/qmuxd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qmuxd /usr/lib/qmuxd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_qmuxd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT qmuxd start 40 2 3 4 5 . stop 80 0 1 6 .\nfi\n
+pkg_postrm_qmuxd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT qmuxd remove\nfi\n
+pkg_preinst_qmuxd: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/qmuxd" ]; then\n\t/etc/init.d/qmuxd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT qmuxd remove\nfi\n
+pkg_prerm_qmuxd: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/qmuxd stop\nfi\n
+FILERPROVIDESFLIST_qmuxd: /usr/bin/qmuxd
+FILES_INFO: {"/etc/data/qmi_config.xml": 15520, "/etc/init.d/qmuxd": 610, "/usr/bin/qmuxd": 89796}
+FILERPROVIDES_/usr/bin/qmuxd_qmuxd: elf(buildid) (= 29f5bc0c76eced093f648a6e9df63d0fee771c5c)
+FILERDEPENDSFLIST_qmuxd: /etc/init.d/qmuxd /usr/bin/qmuxd
+FILERDEPENDS_/etc/init.d/qmuxd_qmuxd: /bin/sh
+FILERDEPENDS_/usr/bin/qmuxd_qmuxd: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.9) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmiservices.so.1 rtld(GNU_HASH)
+PKGSIZE_qmuxd: 105926

@@ -1,0 +1,15 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION_system-conf-dev: Device specific config  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_system-conf-dev: system-conf version git-r3 - Development files
+RDEPENDS_system-conf-dev: system-conf (= git-r3)
+SECTION_system-conf-dev: devel
+PKG_system-conf-dev: system-conf-dev
+ALLOW_EMPTY_system-conf-dev: 1
+FILES_system-conf-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/system-conf/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_system-conf-dev: 0

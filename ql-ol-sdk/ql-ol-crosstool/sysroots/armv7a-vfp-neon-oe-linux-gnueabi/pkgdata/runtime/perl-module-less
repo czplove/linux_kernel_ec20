@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-less: perl module less
+SUMMARY_perl-module-less: perl module less
+RDEPENDS_perl-module-less: perl-module-strict perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-less: perl-module-less
+FILES_perl-module-less: /usr/lib/perl/5.20.0/less.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/less.pm": 3204}
+PKGSIZE_perl-module-less: 3204

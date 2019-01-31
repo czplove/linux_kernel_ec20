@@ -1,0 +1,19 @@
+PN: miniupnpd
+PV: 1.9.20150307
+PR: r7
+PKGV: 1.9.20150307
+PKGR: r7
+LICENSE: BSD
+DESCRIPTION: MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling seamless detection of other UPnP devices/control points.
+SUMMARY: Lightweight implementation of a UPnP IGD daemon.
+RDEPENDS_miniupnpd: libnfnetlink (>= 1.0.0) libcrypto (>= 1.0.1k) glibc (>= 2.21) libstdc++ (>= 4.9.2) libgcc (>= 4.9.2) data (>= git-invalidgit) libssl (>= 1.0.1k)
+SECTION: base
+PKG_miniupnpd: miniupnpd
+FILES_miniupnpd: /usr/bin/* /usr/sbin/* /usr/lib/miniupnpd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/miniupnpd /usr/lib/miniupnpd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_miniupnpd: /usr/sbin/miniupnpd
+FILES_INFO: {"/etc/miniupnpd/miniupnpd.conf": 4987, "/usr/sbin/miniupnpd": 113656, "/etc/init.d/miniupnpd": 1174}
+FILERPROVIDES_/usr/sbin/miniupnpd_miniupnpd: elf(buildid) (= 19dd72b1095fbb9ff2e71a066e4c55a190b7a509)
+FILERDEPENDSFLIST_miniupnpd: /etc/init.d/miniupnpd /usr/sbin/miniupnpd
+FILERDEPENDS_/etc/init.d/miniupnpd_miniupnpd: /bin/sh
+FILERDEPENDS_/usr/sbin/miniupnpd_miniupnpd: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libnfnetlink.so.0 libqcmap_client.so.1 libssl.so.1.0.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_miniupnpd: 119817

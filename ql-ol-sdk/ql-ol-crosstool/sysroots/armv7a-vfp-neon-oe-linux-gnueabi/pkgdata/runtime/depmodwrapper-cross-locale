@@ -1,0 +1,13 @@
+PN: depmodwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Wrapper script for the Linux kernel module dependency indexer.
+SUMMARY: Wrapper script for the Linux kernel module dependency indexer
+SECTION: base
+PKG_depmodwrapper-cross-locale: depmodwrapper-cross-locale
+FILES_depmodwrapper-cross-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_depmodwrapper-cross-locale: 0

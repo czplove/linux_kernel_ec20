@@ -1,0 +1,10 @@
+1. make
+
+2. parse xml file
+   upload example_parse_xml and parse_test.xml file into 4G module, 
+   modify permission,and then excute cmd: ./example_parse_xml parse_test.xml child_node
+   such as: ./example_parse_xml parse_test.xml title
+
+3. create xml file
+   upload example_create_xml file into 4G module,
+   modify permission,and then excute cmd: ./example_create_xml file_name

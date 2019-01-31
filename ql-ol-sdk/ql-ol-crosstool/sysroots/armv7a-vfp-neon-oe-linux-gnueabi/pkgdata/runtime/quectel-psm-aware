@@ -1,0 +1,24 @@
+PN: quectel-psm-aware
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel file data dispatch
+SUMMARY: quectel-psm-aware version git-invalidgit-r1
+RDEPENDS_quectel-psm-aware: glibc (>= 2.21)
+RRECOMMENDS_quectel-psm-aware:  update-rc.d
+SECTION: base
+PKG_quectel-psm-aware: quectel-psm-aware
+FILES_quectel-psm-aware: /usr/bin/* /usr/sbin/* /usr/lib/quectel-psm-aware/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-psm-aware /usr/lib/quectel-psm-aware/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_quectel-psm-aware: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT quectel_psm_aware start 45 2 3 4 5 .\nfi\n
+pkg_postrm_quectel-psm-aware: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel_psm_aware remove\nfi\n
+pkg_preinst_quectel-psm-aware: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel_psm_aware" ]; then\n\t/etc/init.d/quectel_psm_aware stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel_psm_aware remove\nfi\n
+pkg_prerm_quectel-psm-aware: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel_psm_aware stop\nfi\n
+FILERPROVIDESFLIST_quectel-psm-aware: /usr/bin/quectel@underscore@psm@underscore@aware
+FILES_INFO: {"/usr/bin/quectel_psm_aware": 13052, "/etc/init.d/quectel_psm_aware": 956}
+FILERPROVIDES_/usr/bin/quectel@underscore@psm@underscore@aware_quectel-psm-aware: elf(buildid) (= d324cf746da4ea85fac5d40de42553b4ee57eef8)
+FILERDEPENDSFLIST_quectel-psm-aware: /etc/init.d/quectel@underscore@psm@underscore@aware /usr/bin/quectel@underscore@psm@underscore@aware
+FILERDEPENDS_/etc/init.d/quectel@underscore@psm@underscore@aware_quectel-psm-aware: /bin/sh
+FILERDEPENDS_/usr/bin/quectel@underscore@psm@underscore@aware_quectel-psm-aware: libc.so.6 libc.so.6(GLIBC_2.4) libpsm_client.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-psm-aware: 14008

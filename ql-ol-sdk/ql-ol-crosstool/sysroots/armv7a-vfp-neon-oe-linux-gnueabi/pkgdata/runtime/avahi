@@ -1,0 +1,17 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.
+SUMMARY: Avahi IPv4LL network address configuration daemon
+RRECOMMENDS_avahi: libnss-mdns update-rc.d
+SECTION: network
+PKG_avahi: avahi
+FILES_avahi: /usr/bin/* /usr/sbin/* /usr/lib/avahi/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/avahi /usr/lib/avahi/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/etc/dhcp/dhclient-exit-hooks.d/avahi-autoipd": 1025, "/etc/dhcp/dhclient-enter-hooks.d/avahi-autoipd": 1028}
+FILERDEPENDSFLIST_avahi: /etc/dhcp/dhclient-exit-hooks.d/avahi-autoipd /etc/dhcp/dhclient-enter-hooks.d/avahi-autoipd
+FILERDEPENDS_/etc/dhcp/dhclient-exit-hooks.d/avahi-autoipd_avahi: /bin/sh
+FILERDEPENDS_/etc/dhcp/dhclient-enter-hooks.d/avahi-autoipd_avahi: /bin/sh
+PKGSIZE_avahi: 2053

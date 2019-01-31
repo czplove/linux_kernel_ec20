@@ -1,0 +1,14 @@
+PN: cryptodev-linux
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_cryptodev-linux-dbg: A /dev/crypto device driver header file.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_cryptodev-linux-dbg: A /dev/crypto device driver header file - Debugging files
+SECTION_cryptodev-linux-dbg: devel
+PKG_cryptodev-linux-dbg: cryptodev-linux-dbg
+ALLOW_EMPTY_cryptodev-linux-dbg: 1
+FILES_cryptodev-linux-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/cryptodev-linux/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/cryptodev-linux/.debug /usr/lib/matchbox-panel/.debug /usr/lib/cryptodev-linux/cryptodev-linux/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_cryptodev-linux-dbg: 0

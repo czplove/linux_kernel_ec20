@@ -1,0 +1,18 @@
+PN: location-hal-tests
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Location HAL Tests
+SUMMARY: location-hal-tests version git-r1
+RDEPENDS_location-hal-tests: location-flp (>= git-invalidgit) loc-hal (>= git) lbs-core (>= git) glibc (>= 2.21) libstdc++ (>= 4.9.2) libgcc (>= 4.9.2)
+SECTION: base
+PKG_location-hal-tests: location-hal-tests
+FILES_location-hal-tests: /usr/bin/* /usr/sbin/* /usr/lib/location-hal-tests/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/location-hal-tests /usr/lib/location-hal-tests/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_location-hal-tests: /usr/bin/location@underscore@hal@underscore@test
+FILES_INFO: {"/usr/bin/location_hal_test": 110912}
+FILERPROVIDES_/usr/bin/location@underscore@hal@underscore@test_location-hal-tests: elf(buildid) (= c5494da5cf2fc3d35912e2d63b727e3008d8af29)
+FILERDEPENDSFLIST_location-hal-tests: /usr/bin/location@underscore@hal@underscore@test
+FILERDEPENDS_/usr/bin/location@underscore@hal@underscore@test_location-hal-tests: libc.so.6 libc.so.6(GLIBC_2.4) libflp_default.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libgps_default_so.so.1 libgps_utils_so.so.1 liblbs_core.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_location-hal-tests: 110912

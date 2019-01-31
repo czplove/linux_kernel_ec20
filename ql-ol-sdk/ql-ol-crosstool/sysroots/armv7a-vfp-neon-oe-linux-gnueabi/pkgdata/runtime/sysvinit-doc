@@ -1,0 +1,23 @@
+PN: sysvinit
+PV: 2.88dsf
+PR: r14
+PKGV: 2.88dsf
+PKGR: r14
+LICENSE: GPLv2+
+DESCRIPTION_sysvinit-doc: This package is required to boot in most configurations.  It provides the /sbin/init program.  This is the first process started on boot, and the last process terminated before the system halts.  This package contains documentation.
+SUMMARY_sysvinit-doc: System-V like init - Documentation files
+RDEPENDS_sysvinit-doc: update-alternatives-opkg
+SECTION_sysvinit-doc: doc
+PKG_sysvinit-doc: sysvinit-doc
+FILES_sysvinit-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+pkg_postinst_sysvinit-doc: #!/bin/sh\n\tupdate-alternatives --install /usr/share/man/man1/mountpoint.1 mountpoint.1 /usr/share/man/man1/mountpoint.1.sysvinit 200\n\tupdate-alternatives --install /usr/share/man/man1/last.1 last.1 /usr/share/man/man1/last.1.sysvinit 200\n\tupdate-alternatives --install /usr/share/man/man1/mesg.1 mesg.1 /usr/share/man/man1/mesg.1.sysvinit 200\n\tupdate-alternatives --install /usr/share/man/man1/wall.1 wall.1 /usr/share/man/man1/wall.1.sysvinit 200\n\tupdate-alternatives --install /usr/share/man/man8/sulogin.8 sulogin.8 /usr/share/man/man8/sulogin.8.sysvinit 200\n\tupdate-alternatives --install /usr/share/man/man1/utmpdump.1 utmpdump.1 /usr/share/man/man1/utmpdump.1.sysvinit 200\n
+pkg_postrm_sysvinit-doc: #!/bin/sh\n\tupdate-alternatives --remove  mountpoint.1 /usr/share/man/man1/mountpoint.1.sysvinit\n\tupdate-alternatives --remove  last.1 /usr/share/man/man1/last.1.sysvinit\n\tupdate-alternatives --remove  mesg.1 /usr/share/man/man1/mesg.1.sysvinit\n\tupdate-alternatives --remove  wall.1 /usr/share/man/man1/wall.1.sysvinit\n\tupdate-alternatives --remove  sulogin.8 /usr/share/man/man8/sulogin.8.sysvinit\n\tupdate-alternatives --remove  utmpdump.1 /usr/share/man/man1/utmpdump.1.sysvinit\n
+FILERPROVIDESFLIST_sysvinit-doc:  /usr/share/man/man1/mountpoint.1.sysvinit /usr/share/man/man1/last.1.sysvinit /usr/share/man/man1/mesg.1.sysvinit /usr/share/man/man1/wall.1.sysvinit /usr/share/man/man8/sulogin.8.sysvinit /usr/share/man/man1/utmpdump.1.sysvinit
+FILES_INFO: {"/usr/share/man/man5/inittab.5": 8290, "/usr/share/man/man8/poweroff.8": 16, "/usr/share/man/man8/telinit.8": 16, "/usr/share/man/man8/pidof.8": 3480, "/usr/share/man/man8/halt.8": 3957, "/usr/share/man/man8/init.8": 12124, "/usr/share/man/man8/runlevel.8": 1872, "/usr/share/man/man8/reboot.8": 16, "/usr/share/man/man8/sulogin.8.sysvinit": 3309, "/usr/share/man/man1/wall.1.sysvinit": 1960, "/usr/share/man/man5/initscript.5": 2428, "/usr/share/man/man8/killall5.8": 1866, "/usr/share/man/man1/mesg.1.sysvinit": 1867, "/usr/share/man/man1/utmpdump.1.sysvinit": 1949, "/usr/share/man/man8/fstab-decode.8": 1444, "/usr/share/man/man1/last.1.sysvinit": 4242, "/usr/share/man/man8/bootlogd.8": 2847, "/usr/share/man/man1/lastb.1": 16, "/usr/share/man/man8/shutdown.8": 8017, "/usr/share/man/man1/mountpoint.1.sysvinit": 1886}
+FILERPROVIDES_/usr/share/man/man1/mountpoint.1.sysvinit_sysvinit-doc:  /usr/share/man/man1/mountpoint.1
+FILERPROVIDES_/usr/share/man/man1/last.1.sysvinit_sysvinit-doc:  /usr/share/man/man1/last.1
+FILERPROVIDES_/usr/share/man/man1/mesg.1.sysvinit_sysvinit-doc:  /usr/share/man/man1/mesg.1
+FILERPROVIDES_/usr/share/man/man1/wall.1.sysvinit_sysvinit-doc:  /usr/share/man/man1/wall.1
+FILERPROVIDES_/usr/share/man/man8/sulogin.8.sysvinit_sysvinit-doc:  /usr/share/man/man8/sulogin.8
+FILERPROVIDES_/usr/share/man/man1/utmpdump.1.sysvinit_sysvinit-doc:  /usr/share/man/man1/utmpdump.1
+PKGSIZE_sysvinit-doc: 61602

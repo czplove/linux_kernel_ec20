@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-text-wrap: perl module text-wrap
+SUMMARY_perl-module-text-wrap: perl module text-wrap
+RDEPENDS_perl-module-text-wrap: perl-module-warnings-register perl-module-re perl-module-vars perl perl-module-exporter perl-module-text-tabs perl-module-strict
+SECTION: devel
+PKG_perl-module-text-wrap: perl-module-text-wrap
+FILES_perl-module-text-wrap: /usr/lib/perl/5.20.0/Text/Wrap.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Text/Wrap.pm": 9018}
+PKGSIZE_perl-module-text-wrap: 9018

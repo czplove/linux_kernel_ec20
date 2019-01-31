@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm1399: gconv module for character set ibm1399
+SUMMARY_glibc-gconv-ibm1399: gconv module for character set ibm1399
+RDEPENDS_glibc-gconv-ibm1399: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm1399: glibc-gconv-ibm1399
+FILES_glibc-gconv-ibm1399: /usr/lib/gconv/IBM1399.so
+FILES_INFO: {"/usr/lib/gconv/IBM1399.so": 230764}
+PKGSIZE_glibc-gconv-ibm1399: 230764

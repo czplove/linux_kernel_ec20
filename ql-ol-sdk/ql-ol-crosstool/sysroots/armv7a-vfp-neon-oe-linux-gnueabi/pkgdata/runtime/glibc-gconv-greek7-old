@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-greek7-old: gconv module for character set greek7-old
+SUMMARY_glibc-gconv-greek7-old: gconv module for character set greek7-old
+RDEPENDS_glibc-gconv-greek7-old: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-greek7-old: glibc-gconv-greek7-old
+FILES_glibc-gconv-greek7-old: /usr/lib/gconv/GREEK7-OLD.so
+FILES_INFO: {"/usr/lib/gconv/GREEK7-OLD.so": 9588}
+PKGSIZE_glibc-gconv-greek7-old: 9588

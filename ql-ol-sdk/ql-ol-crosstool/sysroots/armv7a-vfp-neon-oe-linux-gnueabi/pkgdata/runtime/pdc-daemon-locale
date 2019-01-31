@@ -1,0 +1,13 @@
+PN: pdc-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Persistent device config Daemon
+SUMMARY: pdc-daemon version git-invalidgit-r1
+SECTION: base
+PKG_pdc-daemon-locale: pdc-daemon-locale
+FILES_pdc-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_pdc-daemon-locale: 0

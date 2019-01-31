@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-eo: Locale data from glibc.  This package contains language translation files for the eo locale.
+SUMMARY_glibc-locale-eo: Locale data from glibc - eo translations
+RPROVIDES_glibc-locale-eo: glibc-locale eo-translation
+RRECOMMENDS_glibc-locale-eo: virtual-locale-eo
+SECTION: base
+PKG_glibc-locale-eo: glibc-locale-eo
+FILES_glibc-locale-eo: /usr/share/locale/eo
+FILES_INFO: {"/usr/share/locale/eo/LC_MESSAGES/libc.mo": 70477}
+PKGSIZE_glibc-locale-eo: 70477

@@ -1,0 +1,13 @@
+PN: kbd
+PV: 2.0.2
+PR: r0
+PKGV: 2.0.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_kbd-doc: Keytable files and keyboard utilities.  This package contains documentation.
+SUMMARY_kbd-doc: Keytable files and keyboard utilities - Documentation files
+SECTION_kbd-doc: doc
+PKG_kbd-doc: kbd-doc
+FILES_kbd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/setleds.1": 2249, "/usr/share/man/man1/openvt.1": 2516, "/usr/share/man/man1/showkey.1": 3405, "/usr/share/man/man8/showconsolefont.8": 546, "/usr/share/man/man1/psfxtable.1": 1412, "/usr/share/man/man8/setkeycodes.8": 2327, "/usr/share/man/man8/setvtrgb.8": 820, "/usr/share/man/man1/psfstriptable.1": 648, "/usr/share/man/man1/loadkeys.1": 5401, "/usr/share/man/man1/deallocvt.1": 607, "/usr/share/man/man8/mapscrn.8": 3062, "/usr/share/man/man1/unicode_start.1": 1231, "/usr/share/man/man5/keymaps.5": 12679, "/usr/share/man/man1/kbd_mode.1": 1327, "/usr/share/man/man1/unicode_stop.1": 501, "/usr/share/man/man1/dumpkeys.1": 5635, "/usr/share/man/man8/setfont.8": 7118, "/usr/share/man/man8/loadunimap.8": 998, "/usr/share/man/man1/chvt.1": 437, "/usr/share/man/man1/psfgettable.1": 624, "/usr/share/man/man1/psfaddtable.1": 1551, "/usr/share/man/man8/kbdrate.8": 2359, "/usr/share/man/man1/setmetamode.1": 961, "/usr/share/man/man8/getkeycodes.8": 369, "/usr/share/man/man1/fgconsole.1": 808, "/usr/share/man/man8/resizecons.8": 2231}
+PKGSIZE_kbd-doc: 61822

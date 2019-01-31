@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sq-mk: locale definition for sq-mk
+SUMMARY_glibc-localedata-sq-mk: locale definition for sq-mk
+RDEPENDS_glibc-localedata-sq-mk: glibc-localedata-sq-al glibc-localedata-mk-mk
+SECTION: base
+PKG_glibc-localedata-sq-mk: glibc-localedata-sq-mk
+FILES_glibc-localedata-sq-mk: /usr/share/i18n/locales/sq_MK
+FILES_INFO: {"/usr/share/i18n/locales/sq_MK": 2732}
+PKGSIZE_glibc-localedata-sq-mk: 2732

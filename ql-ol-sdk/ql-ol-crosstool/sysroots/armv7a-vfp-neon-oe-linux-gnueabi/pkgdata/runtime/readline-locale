@@ -1,0 +1,14 @@
+PN: readline
+PV: 5.2
+PR: r9
+PKGV: 5.2
+PKGR: r9
+LICENSE: GPLv2+
+DESCRIPTION: The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes  additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those   lines, and perform csh-like history expansion on previous commands.
+SUMMARY: Library for editing typed command lines
+RPROVIDES_readline-locale:  readline-locale
+SECTION: libs
+PKG_readline-locale: libreadline-locale
+FILES_readline-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_readline-locale: 0

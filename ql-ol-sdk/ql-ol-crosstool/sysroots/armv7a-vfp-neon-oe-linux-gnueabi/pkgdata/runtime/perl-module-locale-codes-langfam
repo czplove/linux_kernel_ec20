@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-locale-codes-langfam: perl module locale-codes-langfam
+SUMMARY_perl-module-locale-codes-langfam: perl module locale-codes-langfam
+RDEPENDS_perl-module-locale-codes-langfam: perl-module-locale-codes-langfam-retired perl-module-carp perl-module-locale-codes-constants perl-module-locale-codes perl-module-warnings perl-module-locale-codes-langfam-codes perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-locale-codes-langfam: perl-module-locale-codes-langfam
+FILES_perl-module-locale-codes-langfam: /usr/lib/perl/5.20.0/Locale/Codes/LangFam.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Locale/Codes/LangFam.pm": 2127}
+PKGSIZE_perl-module-locale-codes-langfam: 2127

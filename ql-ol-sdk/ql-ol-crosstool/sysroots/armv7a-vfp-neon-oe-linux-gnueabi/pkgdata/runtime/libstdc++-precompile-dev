@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libstdc++-precompile-dev: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RRECOMMENDS_libstdc++-precompile-dev: libgcc-dev
+SECTION: devel
+PKG_libstdc++-precompile-dev: libstdc++-precompile-dev
+FILES_libstdc++-precompile-dev: /usr/include/c++/arm-oe-linux-gnueabi/bits/*.gch
+FILES_INFO: {}
+PKGSIZE_libstdc++-precompile-dev: 0

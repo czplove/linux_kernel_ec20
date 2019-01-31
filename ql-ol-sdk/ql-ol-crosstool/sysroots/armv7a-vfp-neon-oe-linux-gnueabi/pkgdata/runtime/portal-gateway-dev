@@ -1,0 +1,16 @@
+PN: portal-gateway
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_portal-gateway-dev: Quectel Function Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_portal-gateway-dev: portal-gateway version git-invalidgit-r1 - Development files
+RDEPENDS_portal-gateway-dev: portal-gateway (= git-invalidgit-r1)
+RRECOMMENDS_portal-gateway-dev: glibc-dev initscripts-dev
+SECTION_portal-gateway-dev: devel
+PKG_portal-gateway-dev: portal-gateway-dev
+ALLOW_EMPTY_portal-gateway-dev: 1
+FILES_portal-gateway-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/portal-gateway/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_portal-gateway-dev: 0

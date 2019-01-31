@@ -1,0 +1,13 @@
+PN: diag
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-doc: Library and routing applications for diagnostic traffic  This package contains documentation.
+SUMMARY_diag-doc: diag version git-invalidgit-r9 - Documentation files
+SECTION_diag-doc: doc
+PKG_diag-doc: diag-doc
+FILES_diag-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_diag-doc: 0

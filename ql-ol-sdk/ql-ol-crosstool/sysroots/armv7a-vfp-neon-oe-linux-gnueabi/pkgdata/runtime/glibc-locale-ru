@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-ru: Locale data from glibc.  This package contains language translation files for the ru locale.
+SUMMARY_glibc-locale-ru: Locale data from glibc - ru translations
+RPROVIDES_glibc-locale-ru: glibc-locale ru-translation
+RRECOMMENDS_glibc-locale-ru: virtual-locale-ru
+SECTION: base
+PKG_glibc-locale-ru: glibc-locale-ru
+FILES_glibc-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/libc.mo": 191922}
+PKGSIZE_glibc-locale-ru: 191922

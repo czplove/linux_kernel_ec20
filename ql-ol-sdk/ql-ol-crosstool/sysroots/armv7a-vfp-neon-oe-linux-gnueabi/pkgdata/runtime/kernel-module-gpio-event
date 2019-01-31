@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-gpio-event: gpio-event kernel module; GPIO Event Driver
+SUMMARY_kernel-module-gpio-event: gpio-event kernel module
+RDEPENDS_kernel-module-gpio-event: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-gpio-event: kernel-module-gpio-event
+FILES_kernel-module-gpio-event: /lib/modules/3.18.20/kernel/drivers/input/misc/gpio_event.ko /etc/modules-load.d/gpio_event.conf /etc/modprobe.d/gpio_event.conf
+pkg_postinst_kernel-module-gpio-event: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-gpio-event: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/input/misc/gpio_event.ko": 5584}
+PKGSIZE_kernel-module-gpio-event: 5584

@@ -1,0 +1,1 @@
+PACKAGES: gcc-runtime-dbg libstdc++ libstdc++-precompile-dev libstdc++-dev libstdc++-staticdev libg2c libg2c-dev libssp libssp-dev libssp-staticdev libmudflap libmudflap-dev libmudflap-staticdev libquadmath libquadmath-dev libquadmath-staticdev libgomp libgomp-dev libgomp-staticdev libatomic libatomic-dev libatomic-staticdev

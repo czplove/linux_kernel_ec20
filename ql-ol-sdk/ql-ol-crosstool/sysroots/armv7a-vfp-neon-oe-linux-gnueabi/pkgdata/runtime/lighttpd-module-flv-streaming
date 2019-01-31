@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-flv-streaming: Lighttpd module for flv-streaming
+SUMMARY_lighttpd-module-flv-streaming: Lighttpd module for flv-streaming
+RDEPENDS_lighttpd-module-flv-streaming: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-flv-streaming: lighttpd-module-flv-streaming
+FILES_lighttpd-module-flv-streaming: /usr/lib/mod_flv_streaming.so
+FILERPROVIDESFLIST_lighttpd-module-flv-streaming: /usr/lib/mod@underscore@flv@underscore@streaming.so
+FILES_INFO: {"/usr/lib/mod_flv_streaming.so": 6540}
+FILERPROVIDES_/usr/lib/mod@underscore@flv@underscore@streaming.so_lighttpd-module-flv-streaming: elf(buildid) (= a96c127355e1d2b2dd0a74dbb637b1170dc8a99d) mod_flv_streaming.so
+FILERDEPENDSFLIST_lighttpd-module-flv-streaming: /usr/lib/mod@underscore@flv@underscore@streaming.so
+FILERDEPENDS_/usr/lib/mod@underscore@flv@underscore@streaming.so_lighttpd-module-flv-streaming: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-flv-streaming: 6540

@@ -1,0 +1,15 @@
+PN: acdbmapper
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbmapper-staticdev: acdb mapper Library  This package contains static libraries for software development.
+SUMMARY_acdbmapper-staticdev: acdbmapper version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_acdbmapper-staticdev: acdbmapper-dev (= git-invalidgit-r2)
+RPROVIDES_acdbmapper-staticdev:  acdbmapper-staticdev
+SECTION_acdbmapper-staticdev: devel
+PKG_acdbmapper-staticdev: libacdbmapper-staticdev
+FILES_acdbmapper-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/acdbmapper/*.a
+FILES_INFO: {}
+PKGSIZE_acdbmapper-staticdev: 0

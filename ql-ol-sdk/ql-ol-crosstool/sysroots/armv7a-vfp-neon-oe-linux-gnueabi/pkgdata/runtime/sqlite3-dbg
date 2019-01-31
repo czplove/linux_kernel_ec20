@@ -1,0 +1,17 @@
+PN: sqlite3
+PE: 3
+PV: 3.8.7.4
+PR: r0
+PKGE: 3
+PKGV: 3.8.7.4
+PKGR: r0
+LICENSE: PD
+DESCRIPTION_sqlite3-dbg: Embeddable SQL database engine.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sqlite3-dbg: Embeddable SQL database engine - Debugging files
+RRECOMMENDS_sqlite3-dbg: libsqlite3-dbg readline-dbg glibc-dbg
+SECTION_sqlite3-dbg: devel
+PKG_sqlite3-dbg: sqlite3-dbg
+ALLOW_EMPTY_sqlite3-dbg: 1
+FILES_sqlite3-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sqlite3/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sqlite3/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sqlite3/sqlite3/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/sqlite3": 17433, "/usr/lib/.debug/libsqlite3.so.0.8.6": 89599}
+PKGSIZE_sqlite3-dbg: 107032

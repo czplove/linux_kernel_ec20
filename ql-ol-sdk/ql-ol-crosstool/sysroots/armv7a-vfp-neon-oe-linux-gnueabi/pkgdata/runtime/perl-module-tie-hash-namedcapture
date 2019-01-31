@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tie-hash-namedcapture: perl module tie-hash-namedcapture
+SUMMARY_perl-module-tie-hash-namedcapture: perl module tie-hash-namedcapture
+RDEPENDS_perl-module-tie-hash-namedcapture: perl-module-strict glibc (>= 2.21) perl perl-module-xsloader
+SECTION: devel
+PKG_perl-module-tie-hash-namedcapture: perl-module-tie-hash-namedcapture
+FILES_perl-module-tie-hash-namedcapture: /usr/lib/perl/5.20.0/auto/Tie/Hash/NamedCapture/NamedCapture.so /usr/lib/perl/5.20.0/Tie/Hash/NamedCapture.pm
+FILERPROVIDESFLIST_perl-module-tie-hash-namedcapture: /usr/lib/perl/5.20.0/auto/Tie/Hash/NamedCapture/NamedCapture.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Tie/Hash/NamedCapture.pm": 1542, "/usr/lib/perl/5.20.0/auto/Tie/Hash/NamedCapture/NamedCapture.so": 7760}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Tie/Hash/NamedCapture/NamedCapture.so_perl-module-tie-hash-namedcapture: NamedCapture.so elf(buildid) (= a2515bd0b940de343865058604b5d787bc620ccf)
+FILERDEPENDSFLIST_perl-module-tie-hash-namedcapture: /usr/lib/perl/5.20.0/auto/Tie/Hash/NamedCapture/NamedCapture.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Tie/Hash/NamedCapture/NamedCapture.so_perl-module-tie-hash-namedcapture: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-tie-hash-namedcapture: 9302

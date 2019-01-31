@@ -1,0 +1,19 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION: Perl scripting language.
+SUMMARY: Perl scripting language
+RDEPENDS_perl: perl-lib (>= 5.20.0) glibc (>= 2.21)
+RPROVIDES_perl:  perl-module-strict perl-module-vars perl-module-config perl-module-warnings                     perl-module-warnings-register
+SECTION: devel
+PKG_perl: perl
+FILES_perl: /usr/bin/perl /usr/bin/perl5.20.0                /usr/lib/perl/5.20.0/Config.pm                /usr/lib/perl/5.20.0/strict.pm                /usr/lib/perl/5.20.0/warnings.pm                /usr/lib/perl/5.20.0/warnings                /usr/lib/perl/5.20.0/vars.pm               
+FILERPROVIDESFLIST_perl: /usr/bin/perl5.20.0
+FILES_INFO: {"/usr/bin/perl": 10, "/usr/lib/perl/5.20.0/warnings/register.pm": 753, "/usr/bin/perl5.20.0": 5336, "/usr/lib/perl/5.20.0/strict.pm": 3925, "/usr/lib/perl/5.20.0/Config.pm": 4273, "/usr/lib/perl/5.20.0/warnings.pm": 39427, "/usr/lib/perl/5.20.0/vars.pm": 2414}
+FILERPROVIDES_/usr/bin/perl5.20.0_perl: elf(buildid) (= 3cf2411c2abe4e980fc42d09286a63456dfe2038)
+FILERDEPENDSFLIST_perl: /usr/bin/perl5.20.0
+FILERDEPENDS_/usr/bin/perl5.20.0_perl: libc.so.6 libc.so.6(GLIBC_2.4) libperl.so.5 rtld(GNU_HASH)
+PKGSIZE_perl: 56138

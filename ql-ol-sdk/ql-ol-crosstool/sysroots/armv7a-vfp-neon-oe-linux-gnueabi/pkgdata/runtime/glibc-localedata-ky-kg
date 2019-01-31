@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ky-kg: locale definition for ky-kg
+SUMMARY_glibc-localedata-ky-kg: locale definition for ky-kg
+RDEPENDS_glibc-localedata-ky-kg: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ky-kg: glibc-localedata-ky-kg
+FILES_glibc-localedata-ky-kg: /usr/share/i18n/locales/ky_KG
+FILES_INFO: {"/usr/share/i18n/locales/ky_KG": 6267}
+PKGSIZE_glibc-localedata-ky-kg: 6267

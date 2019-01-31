@@ -1,0 +1,13 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: Check
+Description: A unit test framework for C
+URL: http://check.sourceforge.net
+Version: 0.9.14
+Requires.private: 
+Libs: -L${libdir} -lcheck
+Libs.private:   -lrt -lm 
+Cflags: -I${includedir} -pthread

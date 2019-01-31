@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-guess: perl module encode-guess
+SUMMARY_perl-module-encode-guess: perl module encode-guess
+RDEPENDS_perl-module-encode-guess: perl-module-carp perl-module-encode perl perl-module-warnings perl-module-bytes perl-module-encode-unicode perl-module-strict perl-module-constant perl-module-parent
+RPROVIDES_perl-module-encode-guess: perl-module-arm-oe-linux-gnueabi-encode-guess
+SECTION: devel
+PKG_perl-module-encode-guess: perl-module-encode-guess
+FILES_perl-module-encode-guess: /usr/lib/perl/5.20.0/Encode/Guess.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/Guess.pm": 10092}
+PKGSIZE_perl-module-encode-guess: 10092

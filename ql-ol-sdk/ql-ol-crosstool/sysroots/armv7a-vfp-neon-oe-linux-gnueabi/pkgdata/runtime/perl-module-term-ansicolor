@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-term-ansicolor: perl module term-ansicolor
+SUMMARY_perl-module-term-ansicolor: perl module term-ansicolor
+RDEPENDS_perl-module-term-ansicolor: perl-module-strict perl-module-exporter perl-module-carp perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-term-ansicolor: perl-module-term-ansicolor
+FILES_perl-module-term-ansicolor: /usr/lib/perl/5.20.0/Term/ANSIColor.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Term/ANSIColor.pm": 47407}
+PKGSIZE_perl-module-term-ansicolor: 47407

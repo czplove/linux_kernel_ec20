@@ -1,0 +1,19 @@
+PN: gmp
+PV: 6.0.0
+PR: r0
+PKGV: 6.0.0
+PKGR: r0
+LICENSE: GPLv2 | LGPLv3
+DESCRIPTION: GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers
+SUMMARY: GNU multiprecision arithmetic library
+RDEPENDS_libgmpxx: libstdc++ (>= 4.9.2) glibc (>= 2.21) gmp (>= 6.0.0) libgcc (>= 4.9.2)
+RPROVIDES_libgmpxx:  libgmpxx
+SECTION: devel
+PKG_libgmpxx: libgmpxx4
+FILES_libgmpxx: /usr/lib/libgmpxx.so.*
+FILERPROVIDESFLIST_libgmpxx: /usr/lib/libgmpxx.so.4.4.0
+FILES_INFO: {"/usr/lib/libgmpxx.so.4": 18708}
+FILERPROVIDES_/usr/lib/libgmpxx.so.4.4.0_libgmpxx: elf(buildid) (= f182eb5304b5f439a1fcdf62feb96ae82e9f2259) libgmpxx.so.4
+FILERDEPENDSFLIST_libgmpxx: /usr/lib/libgmpxx.so.4.4.0
+FILERDEPENDS_/usr/lib/libgmpxx.so.4.4.0_libgmpxx: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libgmp.so.10 libm.so.6 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.11) rtld(GNU_HASH)
+PKGSIZE_libgmpxx: 18708

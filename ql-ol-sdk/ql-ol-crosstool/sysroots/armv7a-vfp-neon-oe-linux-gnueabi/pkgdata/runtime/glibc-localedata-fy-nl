@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-fy-nl: locale definition for fy-nl
+SUMMARY_glibc-localedata-fy-nl: locale definition for fy-nl
+RDEPENDS_glibc-localedata-fy-nl: glibc-localedata-nl-nl
+SECTION: base
+PKG_glibc-localedata-fy-nl: glibc-localedata-fy-nl
+FILES_glibc-localedata-fy-nl: /usr/share/i18n/locales/fy_NL
+FILES_INFO: {"/usr/share/i18n/locales/fy_NL": 4199}
+PKGSIZE_glibc-localedata-fy-nl: 4199

@@ -1,0 +1,15 @@
+PN: iputils
+PV: s20101006
+PR: r6
+PKGV: s20101006
+PKGR: r6
+LICENSE: BSD & GPLv2+
+DESCRIPTION_iputils-dbg: Utilities for the IP protocol, including traceroute6, tracepath, tracepath6, ping, ping6 and arping.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_iputils-dbg: Network monitoring tools - Debugging files
+RRECOMMENDS_iputils-dbg: glibc-dbg libcrypto-dbg
+SECTION_iputils-dbg: devel
+PKG_iputils-dbg: iputils-dbg
+ALLOW_EMPTY_iputils-dbg: 1
+FILES_iputils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iputils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iputils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iputils/iputils/.debug /usr/src/debug
+FILES_INFO: {"/bin/.debug/ping6.iputils": 20247, "/bin/.debug/ping.iputils": 19299}
+PKGSIZE_iputils-dbg: 39546

@@ -1,0 +1,14 @@
+PN: qcacld-ll
+PV: git
+PR: r7-3.18.20
+PKGV: git
+PKGR: r7-3.18.20
+LICENSE: ISC
+DESCRIPTION_qcacld-ll-dbg: Qualcomm Atheros WLAN CLD driver  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qcacld-ll-dbg: qcacld-ll version git-r7-3.18.20 - Debugging files
+SECTION_qcacld-ll-dbg: devel
+PKG_qcacld-ll-dbg: qcacld-ll-dbg
+ALLOW_EMPTY_qcacld-ll-dbg: 1
+FILES_qcacld-ll-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qcacld-ll/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qcacld-ll/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qcacld-ll/qcacld-ll/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_qcacld-ll-dbg: 0

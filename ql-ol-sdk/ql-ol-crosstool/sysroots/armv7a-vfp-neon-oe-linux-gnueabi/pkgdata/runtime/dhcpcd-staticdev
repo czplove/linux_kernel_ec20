@@ -1,0 +1,14 @@
+PN: dhcpcd
+PV: 5.2.10
+PR: r2
+PKGV: 5.2.10
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_dhcpcd-staticdev: dhcpcd is an RFC2131-, RFC2132-, and RFC1541-compliant DHCP client daemon. It gets an IP address and other information from the DHCP server, automatically configures the network interface, and tries to renew the lease time according to RFC2131 or RFC1541.  This package contains static libraries for software development.
+SUMMARY_dhcpcd-staticdev: dhcpcd version 5.2.10-r2 - Development files (Static Libraries)
+RDEPENDS_dhcpcd-staticdev: dhcpcd-dev (= 5.2.10-r2)
+SECTION_dhcpcd-staticdev: devel
+PKG_dhcpcd-staticdev: dhcpcd-staticdev
+FILES_dhcpcd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dhcpcd/*.a
+FILES_INFO: {}
+PKGSIZE_dhcpcd-staticdev: 0

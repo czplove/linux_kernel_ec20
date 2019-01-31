@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-euc-jp-ms: gconv module for character set euc-jp-ms
+SUMMARY_glibc-gconv-euc-jp-ms: gconv module for character set euc-jp-ms
+RDEPENDS_glibc-gconv-euc-jp-ms: glibc (>= 2.21) glibc-gconv-libjis (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-euc-jp-ms: glibc-gconv-euc-jp-ms
+FILES_glibc-gconv-euc-jp-ms: /usr/lib/gconv/EUC-JP-MS.so
+FILES_INFO: {"/usr/lib/gconv/EUC-JP-MS.so": 87428}
+PKGSIZE_glibc-gconv-euc-jp-ms: 87428

@@ -1,0 +1,16 @@
+PN: diag
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-dev: Library and routing applications for diagnostic traffic  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_diag-dev: diag version git-invalidgit-r9 - Development files
+RDEPENDS_diag-dev: diag (= git-invalidgit-r9)
+RRECOMMENDS_diag-dev: glib-2.0-dev glibc-dev common-dev system-core-dev time-genoff-dev
+SECTION_diag-dev: devel
+PKG_diag-dev: diag-dev
+ALLOW_EMPTY_diag-dev: 1
+FILES_diag-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/diag/*.la /lib/*.la
+FILES_INFO: {"/usr/include/diag/event_defs.h": 133615, "/usr/include/diag/diagpkt.h": 27600, "/usr/lib/pkgconfig/diag.pc": 209, "/usr/lib/libdiag.so": 16, "/usr/include/diag/msgtgt.h": 45726, "/usr/include/diag/msg.h": 42288, "/usr/include/diag/diag_lsm_dci.h": 7618, "/usr/include/diag/msgcfg.h": 215109, "/usr/include/diag/diag.h": 7603, "/usr/include/diag/diagdiag.h": 40637, "/usr/include/diag/event.h": 3145, "/usr/include/diag/msg_pkt_defs.h": 6557, "/usr/include/diag/msg_qsr.h": 18979, "/usr/include/diag/diag_lsm.h": 13951, "/usr/lib/libdiag.la": 1026, "/usr/include/diag/diagcmd.h": 25248, "/usr/include/diag/diagi.h": 4252, "/usr/include/diag/msg_arrays_i.h": 1829, "/usr/include/diag/log.h": 14558, "/usr/include/diag/log_codes.h": 130411}
+PKGSIZE_diag-dev: 740377

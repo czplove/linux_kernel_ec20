@@ -1,0 +1,15 @@
+PN: busybox
+PV: 1.23.1
+PR: r0
+PKGV: 1.23.1
+PKGR: r0
+LICENSE: GPLv2 & bzip2
+DESCRIPTION_busybox-dbg: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_busybox-dbg: Tiny versions of many common UNIX utilities in a single small executable - Debugging files
+RRECOMMENDS_busybox-dbg: glibc-dbg
+SECTION_busybox-dbg: devel
+PKG_busybox-dbg: busybox-dbg
+ALLOW_EMPTY_busybox-dbg: 1
+FILES_busybox-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/busybox/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/busybox/.debug /usr/lib/matchbox-panel/.debug /usr/lib/busybox/busybox/.debug /usr/src/debug
+FILES_INFO: {"/bin/.debug/busybox": 180990}
+PKGSIZE_busybox-dbg: 180990

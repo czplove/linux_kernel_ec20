@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-checker: perl module pod-checker
+SUMMARY_perl-module-pod-checker: perl module pod-checker
+RDEPENDS_perl-module-pod-checker: perl-module-pod-parser perl-module-pod-parseutils perl-module-carp perl-module-vars perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-pod-checker: perl-module-pod-checker
+FILES_perl-module-pod-checker: /usr/lib/perl/5.20.0/Pod/Checker.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Checker.pm": 44107}
+PKGSIZE_perl-module-pod-checker: 44107

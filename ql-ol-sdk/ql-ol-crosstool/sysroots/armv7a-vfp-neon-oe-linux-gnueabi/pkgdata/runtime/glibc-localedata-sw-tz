@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sw-tz: locale definition for sw-tz
+SUMMARY_glibc-localedata-sw-tz: locale definition for sw-tz
+RDEPENDS_glibc-localedata-sw-tz: glibc-localedata-iso14651-t1 glibc-localedata-sw-ke
+SECTION: base
+PKG_glibc-localedata-sw-tz: glibc-localedata-sw-tz
+FILES_glibc-localedata-sw-tz: /usr/share/i18n/locales/sw_TZ
+FILES_INFO: {"/usr/share/i18n/locales/sw_TZ": 2733}
+PKGSIZE_glibc-localedata-sw-tz: 2733

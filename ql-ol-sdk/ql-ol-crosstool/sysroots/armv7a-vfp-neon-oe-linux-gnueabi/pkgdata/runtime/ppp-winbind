@@ -1,0 +1,18 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-winbind: Plugin for PPP to authenticate against Samba or Windows
+RDEPENDS_ppp-winbind: glibc (>= 2.21)
+SECTION: console/network
+PKG_ppp-winbind: ppp-winbind
+FILES_ppp-winbind: /usr/lib/pppd/2.4.7/winbind.so
+FILERPROVIDESFLIST_ppp-winbind: /usr/lib/pppd/2.4.7/winbind.so
+FILES_INFO: {"/usr/lib/pppd/2.4.7/winbind.so": 10872}
+FILERPROVIDES_/usr/lib/pppd/2.4.7/winbind.so_ppp-winbind: elf(buildid) (= 185c929083f5b170eab115107be48bca7ab708e4) winbind.so
+FILERDEPENDSFLIST_ppp-winbind: /usr/lib/pppd/2.4.7/winbind.so
+FILERDEPENDS_/usr/lib/pppd/2.4.7/winbind.so_ppp-winbind: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ppp-winbind: 10872

@@ -1,0 +1,13 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION_recovery-doc: Recovery bootloader  This package contains documentation.
+SUMMARY_recovery-doc: recovery version git-r7 - Documentation files
+SECTION_recovery-doc: doc
+PKG_recovery-doc: recovery-doc
+FILES_recovery-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_recovery-doc: 0

@@ -1,0 +1,14 @@
+PN: tzdata
+PV: 2015a
+PR: r0
+PKGV: 2015a
+PKGR: r0
+LICENSE: PD & BSD
+DESCRIPTION: Timezone data
+SUMMARY: tzdata version 2015a-r0
+RPROVIDES_tzdata-atlantic: tzdata-atlantic
+SECTION: base
+PKG_tzdata-atlantic: tzdata-atlantic
+FILES_tzdata-atlantic:  /usr/share/zoneinfo/Atlantic/*
+FILES_INFO: {"/usr/share/zoneinfo/Atlantic/Jan_Mayen": 2251, "/usr/share/zoneinfo/Atlantic/South_Georgia": 148, "/usr/share/zoneinfo/Atlantic/Reykjavik": 1190, "/usr/share/zoneinfo/Atlantic/Faroe": 1829, "/usr/share/zoneinfo/Atlantic/St_Helena": 170, "/usr/share/zoneinfo/Atlantic/Stanley": 1246, "/usr/share/zoneinfo/Atlantic/Madeira": 3478, "/usr/share/zoneinfo/Atlantic/Faeroe": 1829, "/usr/share/zoneinfo/Atlantic/Azores": 3488, "/usr/share/zoneinfo/Atlantic/Cape_Verde": 254, "/usr/share/zoneinfo/Atlantic/Canary": 1913, "/usr/share/zoneinfo/Atlantic/Bermuda": 2004}
+PKGSIZE_tzdata-atlantic: 19800

@@ -1,0 +1,15 @@
+PN: psm
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_psm-dbg: QTI Power Saving Mode Framework  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_psm-dbg: psm version git-invalidgit-r0 - Debugging files
+RRECOMMENDS_psm-dbg: dsutils-dbg glibc-dbg data-dbg configdb-dbg diag-dbg time-genoff-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
+SECTION_psm-dbg: devel
+PKG_psm-dbg: psm-dbg
+ALLOW_EMPTY_psm-dbg: 1
+FILES_psm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/psm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/psm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/psm/psm/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/psm_test": 84916, "/usr/bin/.debug/psmd": 164699, "/usr/lib/.debug/libutils.so.0.0.0": 51958, "/usr/lib/.debug/libpsm_client.so.0.0.0": 37273}
+PKGSIZE_psm-dbg: 338846

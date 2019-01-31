@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-transcodesmart: perl module pod-simple-transcodesmart
+SUMMARY_perl-module-pod-simple-transcodesmart: perl module pod-simple-transcodesmart
+RDEPENDS_perl-module-pod-simple-transcodesmart: perl-module-strict perl-module-encode perl perl-module-pod-simple perl-module-vars
+SECTION: devel
+PKG_perl-module-pod-simple-transcodesmart: perl-module-pod-simple-transcodesmart
+FILES_perl-module-pod-simple-transcodesmart: /usr/lib/perl/5.20.0/Pod/Simple/TranscodeSmart.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Simple/TranscodeSmart.pm": 715}
+PKGSIZE_perl-module-pod-simple-transcodesmart: 715

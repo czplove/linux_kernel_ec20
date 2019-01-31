@@ -1,0 +1,14 @@
+PN: tzdata
+PV: 2015a
+PR: r0
+PKGV: 2015a
+PKGR: r0
+LICENSE: PD & BSD
+DESCRIPTION: Timezone data
+SUMMARY: tzdata version 2015a-r0
+RPROVIDES_tzdata-africa: tzdata-africa
+SECTION: base
+PKG_tzdata-africa: tzdata-africa
+FILES_tzdata-africa:  /usr/share/zoneinfo/Africa/*
+FILES_INFO: {"/usr/share/zoneinfo/Africa/Ouagadougou": 170, "/usr/share/zoneinfo/Africa/Porto-Novo": 171, "/usr/share/zoneinfo/Africa/Addis_Ababa": 283, "/usr/share/zoneinfo/Africa/Mbabane": 271, "/usr/share/zoneinfo/Africa/Maputo": 171, "/usr/share/zoneinfo/Africa/Tripoli": 655, "/usr/share/zoneinfo/Africa/Maseru": 271, "/usr/share/zoneinfo/Africa/Johannesburg": 271, "/usr/share/zoneinfo/Africa/Bissau": 208, "/usr/share/zoneinfo/Africa/Brazzaville": 171, "/usr/share/zoneinfo/Africa/Monrovia": 241, "/usr/share/zoneinfo/Africa/Banjul": 170, "/usr/share/zoneinfo/Africa/Lubumbashi": 171, "/usr/share/zoneinfo/Africa/Casablanca": 1657, "/usr/share/zoneinfo/Africa/Abidjan": 170, "/usr/share/zoneinfo/Africa/Dakar": 170, "/usr/share/zoneinfo/Africa/Asmara": 283, "/usr/share/zoneinfo/Africa/Conakry": 170, "/usr/share/zoneinfo/Africa/Lagos": 171, "/usr/share/zoneinfo/Africa/Lusaka": 171, "/usr/share/zoneinfo/Africa/Djibouti": 283, "/usr/share/zoneinfo/Africa/Nouakchott": 170, "/usr/share/zoneinfo/Africa/Bujumbura": 171, "/usr/share/zoneinfo/Africa/Windhoek": 1582, "/usr/share/zoneinfo/Africa/Kigali": 171, "/usr/share/zoneinfo/Africa/Freetown": 170, "/usr/share/zoneinfo/Africa/Kampala": 283, "/usr/share/zoneinfo/Africa/Gaborone": 171, "/usr/share/zoneinfo/Africa/Algiers": 760, "/usr/share/zoneinfo/Africa/Dar_es_Salaam": 283, "/usr/share/zoneinfo/Africa/Harare": 171, "/usr/share/zoneinfo/Africa/Juba": 683, "/usr/share/zoneinfo/Africa/Accra": 840, "/usr/share/zoneinfo/Africa/Tunis": 710, "/usr/share/zoneinfo/Africa/Ceuta": 2075, "/usr/share/zoneinfo/Africa/Douala": 171, "/usr/share/zoneinfo/Africa/Nairobi": 283, "/usr/share/zoneinfo/Africa/Timbuktu": 170, "/usr/share/zoneinfo/Africa/Libreville": 171, "/usr/share/zoneinfo/Africa/Bamako": 170, "/usr/share/zoneinfo/Africa/El_Aaiun": 1487, "/usr/share/zoneinfo/Africa/Luanda": 171, "/usr/share/zoneinfo/Africa/Khartoum": 683, "/usr/share/zoneinfo/Africa/Mogadishu": 283, "/usr/share/zoneinfo/Africa/Kinshasa": 171, "/usr/share/zoneinfo/Africa/Ndjamena": 225, "/usr/share/zoneinfo/Africa/Asmera": 283, "/usr/share/zoneinfo/Africa/Bangui": 171, "/usr/share/zoneinfo/Africa/Blantyre": 171, "/usr/share/zoneinfo/Africa/Niamey": 171, "/usr/share/zoneinfo/Africa/Malabo": 171, "/usr/share/zoneinfo/Africa/Sao_Tome": 170, "/usr/share/zoneinfo/Africa/Lome": 170}
+PKGSIZE_tzdata-africa: 19831

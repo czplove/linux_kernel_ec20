@@ -1,0 +1,15 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_avahi-locale-it: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.  This package contains language translation files for the it locale.
+SUMMARY_avahi-locale-it: Avahi IPv4LL network address configuration daemon - it translations
+RPROVIDES_avahi-locale-it: avahi-locale it-translation
+RRECOMMENDS_avahi-locale-it: virtual-locale-it
+SECTION: network
+PKG_avahi-locale-it: avahi-locale-it
+FILES_avahi-locale-it: /usr/share/locale/it
+FILES_INFO: {"/usr/share/locale/it/LC_MESSAGES/avahi.mo": 17477}
+PKGSIZE_avahi-locale-it: 17477

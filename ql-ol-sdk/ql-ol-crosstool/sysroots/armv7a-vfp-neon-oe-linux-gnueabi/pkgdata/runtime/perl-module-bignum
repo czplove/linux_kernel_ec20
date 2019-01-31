@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-bignum: perl module bignum
+SUMMARY_perl-module-bignum: perl module bignum
+RDEPENDS_perl-module-bignum: perl-module-carp perl-module-math-bigfloat-trace perl-module-math-bigint perl-module-overload perl-module-math-bigint-trace perl-module-math-bigfloat perl-module-bigint perl-module-vars perl-module-exporter perl-module-strict perl
+SECTION: devel
+PKG_perl-module-bignum: perl-module-bignum
+FILES_perl-module-bignum: /usr/lib/perl/5.20.0/bignum.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/bignum.pm": 18121}
+PKGSIZE_perl-module-bignum: 18121

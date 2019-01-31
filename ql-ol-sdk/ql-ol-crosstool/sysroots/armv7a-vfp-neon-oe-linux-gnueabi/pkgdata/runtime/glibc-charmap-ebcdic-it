@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ebcdic-it: character map for ebcdic-it encoding
+SUMMARY_glibc-charmap-ebcdic-it: character map for ebcdic-it encoding
+SECTION: base
+PKG_glibc-charmap-ebcdic-it: glibc-charmap-ebcdic-it
+FILES_glibc-charmap-ebcdic-it: /usr/share/i18n/charmaps/EBCDIC-IT.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EBCDIC-IT.gz": 2125}
+PKGSIZE_glibc-charmap-ebcdic-it: 2125

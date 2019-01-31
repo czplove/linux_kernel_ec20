@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-zh-cn: Locale data from glibc.  This package contains language translation files for the zh_CN locale.
+SUMMARY_glibc-locale-zh-cn: Locale data from glibc - zh_CN translations
+RPROVIDES_glibc-locale-zh-cn: glibc-locale zh-cn-translation
+RRECOMMENDS_glibc-locale-zh-cn: virtual-locale-zh-cn
+SECTION: base
+PKG_glibc-locale-zh-cn: glibc-locale-zh-cn
+FILES_glibc-locale-zh-cn: /usr/share/locale/zh_CN
+FILES_INFO: {"/usr/share/locale/zh_CN/LC_MESSAGES/libc.mo": 76409}
+PKGSIZE_glibc-locale-zh-cn: 76409

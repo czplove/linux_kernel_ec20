@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-socket-unix: perl module io-socket-unix
+SUMMARY_perl-module-io-socket-unix: perl module io-socket-unix
+RDEPENDS_perl-module-io-socket-unix: perl-module-strict perl-module-carp perl-module-io-socket perl
+SECTION: devel
+PKG_perl-module-io-socket-unix: perl-module-io-socket-unix
+FILES_perl-module-io-socket-unix: /usr/lib/perl/5.20.0/IO/Socket/UNIX.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Socket/UNIX.pm": 3423}
+PKGSIZE_perl-module-io-socket-unix: 3423

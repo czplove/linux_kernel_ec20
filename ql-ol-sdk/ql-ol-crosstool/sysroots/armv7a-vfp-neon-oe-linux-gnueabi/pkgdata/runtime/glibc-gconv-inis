@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-inis: gconv module for character set inis
+SUMMARY_glibc-gconv-inis: gconv module for character set inis
+RDEPENDS_glibc-gconv-inis: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-inis: glibc-gconv-inis
+FILES_glibc-gconv-inis: /usr/lib/gconv/INIS.so
+FILES_INFO: {"/usr/lib/gconv/INIS.so": 9580}
+PKGSIZE_glibc-gconv-inis: 9580

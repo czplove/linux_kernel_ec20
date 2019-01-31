@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-file-fetch: perl module file-fetch
+SUMMARY_perl-module-file-fetch: perl module file-fetch
+RDEPENDS_perl-module-file-fetch: perl perl-module-carp perl-module-params-check perl-module-load perl-module-file-path perl-module-file-copy perl-module-vars perl-module-file-spec perl-module-ipc-cmd perl-module-filehandle perl-module-locale-maketext-simple perl-module-file-temp perl-module-strict perl-module-constant perl-module-file-basename perl-module-file-spec-unix perl-module-cwd
+SECTION: devel
+PKG_perl-module-file-fetch: perl-module-file-fetch
+FILES_perl-module-file-fetch: /usr/lib/perl/5.20.0/File/Fetch.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/File/Fetch.pm": 46249}
+PKGSIZE_perl-module-file-fetch: 46249

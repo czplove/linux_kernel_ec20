@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ht-ht: locale definition for ht-ht
+SUMMARY_glibc-localedata-ht-ht: locale definition for ht-ht
+RDEPENDS_glibc-localedata-ht-ht: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ht-ht: glibc-localedata-ht-ht
+FILES_glibc-localedata-ht-ht: /usr/share/i18n/locales/ht_HT
+FILES_INFO: {"/usr/share/i18n/locales/ht_HT": 6597}
+PKGSIZE_glibc-localedata-ht-ht: 6597

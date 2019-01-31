@@ -1,0 +1,19 @@
+PN: wap-fota-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: WAP FOTA DAEMON
+SUMMARY: wap-fota-daemon version git-invalidgit-r3
+RDEPENDS_wap-fota-daemon: qmi-framework (>= git-invalidgit) glibc (>= 2.21)
+SECTION: base
+PKG_wap-fota-daemon: wap-fota-daemon
+FILES_wap-fota-daemon: /usr/bin/* /usr/sbin/* /usr/lib/wap-fota-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/wap-fota-daemon /usr/lib/wap-fota-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_wap-fota-daemon: /usr/bin/wapfotadaemon
+FILES_INFO: {"/etc/init.d/wapfotadaemon": 411, "/usr/bin/wapfotadaemon": 12868}
+FILERPROVIDES_/usr/bin/wapfotadaemon_wap-fota-daemon: elf(buildid) (= e5e816a0251ebac80cc00635adf32aca28eca12e)
+FILERDEPENDSFLIST_wap-fota-daemon: /etc/init.d/wapfotadaemon /usr/bin/wapfotadaemon
+FILERDEPENDS_/etc/init.d/wapfotadaemon_wap-fota-daemon: /bin/sh
+FILERDEPENDS_/usr/bin/wapfotadaemon_wap-fota-daemon: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 rtld(GNU_HASH)
+PKGSIZE_wap-fota-daemon: 13279

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-bytes-heavy: perl module bytes-heavy
+SUMMARY_perl-module-bytes-heavy: perl module bytes-heavy
+RDEPENDS_perl-module-bytes-heavy: perl
+SECTION: devel
+PKG_perl-module-bytes-heavy: perl-module-bytes-heavy
+FILES_perl-module-bytes-heavy: /usr/lib/perl/5.20.0/bytes_heavy.pl
+FILES_INFO: {"/usr/lib/perl/5.20.0/bytes_heavy.pl": 758}
+PKGSIZE_perl-module-bytes-heavy: 758

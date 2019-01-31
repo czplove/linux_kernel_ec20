@@ -1,0 +1,13 @@
+PN: lrzsz
+PV: 0.12.20
+PR: r6
+PKGV: 0.12.20
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION_lrzsz-doc: Lrzsz is a cosmetically modified zmodem/ymodem/xmodem package built from the public-domain version of Chuck Forsberg\'s rzsz package. These programs use error correcting protocols ({z,x,y}modem) to send (sz, sx, sb) and receive (rz, rx, rb) files over a dial-in serial port from a variety of programs running under various operating systems.   This package contains documentation.
+SUMMARY_lrzsz-doc: Tools for zmodem/xmodem/ymodem file transfer - Documentation files
+SECTION_lrzsz-doc: doc
+PKG_lrzsz-doc: lrzsz-doc
+FILES_lrzsz-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lrzsz-doc: 0

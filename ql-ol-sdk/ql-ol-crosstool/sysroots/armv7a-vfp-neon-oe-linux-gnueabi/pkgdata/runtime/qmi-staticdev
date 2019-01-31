@@ -1,0 +1,14 @@
+PN: qmi
+PV: git-invalidgit
+PR: r13
+PKGV: git-invalidgit
+PKGR: r13
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-staticdev: Qualcomm MSM Interface (QMI) Library  This package contains static libraries for software development.
+SUMMARY_qmi-staticdev: qmi version git-invalidgit-r13 - Development files (Static Libraries)
+RDEPENDS_qmi-staticdev: qmi-dev (= git-invalidgit-r13)
+SECTION_qmi-staticdev: devel
+PKG_qmi-staticdev: qmi-staticdev
+FILES_qmi-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qmi/*.a
+FILES_INFO: {}
+PKGSIZE_qmi-staticdev: 0

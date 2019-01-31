@@ -1,0 +1,14 @@
+PN: rtsp-alg
+PV: 3.7
+PR: r6-3.18.20
+PKGV: 3.7
+PKGR: r6-3.18.20
+LICENSE: GPLv2
+DESCRIPTION_rtsp-alg-staticdev: RSTP ALG  This package contains static libraries for software development.
+SUMMARY_rtsp-alg-staticdev: rtsp-alg version 3.7-r6-3.18.20 - Development files (Static Libraries)
+RDEPENDS_rtsp-alg-staticdev: rtsp-alg-dev (= 3.7-r6-3.18.20)
+SECTION_rtsp-alg-staticdev: devel
+PKG_rtsp-alg-staticdev: rtsp-alg-staticdev
+FILES_rtsp-alg-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/rtsp-alg/*.a
+FILES_INFO: {}
+PKGSIZE_rtsp-alg-staticdev: 0

@@ -1,0 +1,15 @@
+PN: qemuwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: QEMU wrapper script.
+SUMMARY: QEMU wrapper script
+SECTION: base
+PKG_qemuwrapper-cross: qemuwrapper-cross
+FILES_qemuwrapper-cross: /usr/bin/* /usr/sbin/* /usr/lib/qemuwrapper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/qemuwrapper /usr/lib/qemuwrapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/crossscripts/qemuwrapper": 35}
+FILERDEPENDSFLIST_qemuwrapper-cross: /usr/bin/crossscripts/qemuwrapper
+FILERDEPENDS_/usr/bin/crossscripts/qemuwrapper_qemuwrapper-cross: /bin/sh
+PKGSIZE_qemuwrapper-cross: 35

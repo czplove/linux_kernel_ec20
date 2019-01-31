@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: mcmlocserver
+Description: MCM Location Server
+Version: 1.0.0
+Libs:
+Cflags:

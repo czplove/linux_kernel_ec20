@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-embed: perl module extutils-embed
+SUMMARY_perl-module-extutils-embed: perl module extutils-embed
+RDEPENDS_perl-module-extutils-embed: perl-module-extutils-liblist perl-module-getopt-std perl-module-config perl-module-vars perl-module-file-spec perl-module-extutils-makemaker perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-embed: perl-module-extutils-embed
+FILES_perl-module-extutils-embed: /usr/lib/perl/5.20.0/ExtUtils/Embed.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/Embed.pm": 12847}
+PKGSIZE_perl-module-extutils-embed: 12847

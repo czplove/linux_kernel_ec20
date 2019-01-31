@@ -1,0 +1,15 @@
+PN: libnss-mdns
+PV: 0.10
+PR: r7
+PKGV: 0.10
+PKGR: r7
+LICENSE: LGPLv2.1+
+DESCRIPTION_libnss-mdns-dbg: Name Service Switch module for Multicast DNS (zeroconf) name resolution.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libnss-mdns-dbg: Name Service Switch module for Multicast DNS (zeroconf) name resolution - Debugging files
+RRECOMMENDS_libnss-mdns-dbg: glibc-dbg
+SECTION_libnss-mdns-dbg: devel
+PKG_libnss-mdns-dbg: libnss-mdns-dbg
+ALLOW_EMPTY_libnss-mdns-dbg: 1
+FILES_libnss-mdns-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libnss-mdns/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libnss-mdns/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libnss-mdns/libnss-mdns/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libnss_mdns4.so.2": 5180, "/lib/.debug/libnss_mdns4_minimal.so.2": 5143, "/lib/.debug/libnss_mdns6.so.2": 5180, "/lib/.debug/libnss_mdns_minimal.so.2": 5243, "/lib/.debug/libnss_mdns6_minimal.so.2": 5143, "/lib/.debug/libnss_mdns.so.2": 5280}
+PKGSIZE_libnss-mdns-dbg: 31169

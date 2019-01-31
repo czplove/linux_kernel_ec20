@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-dec-mcs: gconv module for character set dec-mcs
+SUMMARY_glibc-gconv-dec-mcs: gconv module for character set dec-mcs
+RDEPENDS_glibc-gconv-dec-mcs: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-dec-mcs: glibc-gconv-dec-mcs
+FILES_glibc-gconv-dec-mcs: /usr/lib/gconv/DEC-MCS.so
+FILES_INFO: {"/usr/lib/gconv/DEC-MCS.so": 9584}
+PKGSIZE_glibc-gconv-dec-mcs: 9584

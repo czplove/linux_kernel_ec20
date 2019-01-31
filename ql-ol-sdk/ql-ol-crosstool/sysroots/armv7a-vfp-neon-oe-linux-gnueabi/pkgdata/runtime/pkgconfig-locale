@@ -1,0 +1,13 @@
+PN: pkgconfig
+PV: 0.28
+PR: r0
+PKGV: 0.28
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: pkg-config is a helper tool used when compiling applications and libraries. It helps determined the correct compiler/link options.  It is also language-agnostic.
+SUMMARY: Helper tool used when compiling
+SECTION: console/utils
+PKG_pkgconfig-locale: pkgconfig-locale
+FILES_pkgconfig-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_pkgconfig-locale: 0

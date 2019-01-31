@@ -1,0 +1,15 @@
+PN: location-hal-tests
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-hal-tests-dbg: Location HAL Tests  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_location-hal-tests-dbg: location-hal-tests version git-r1 - Debugging files
+RRECOMMENDS_location-hal-tests-dbg: lbs-core-dbg glibc-dbg location-flp-dbg loc-hal-dbg libgcc-dbg libstdc++-dbg
+SECTION_location-hal-tests-dbg: devel
+PKG_location-hal-tests-dbg: location-hal-tests-dbg
+ALLOW_EMPTY_location-hal-tests-dbg: 1
+FILES_location-hal-tests-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/location-hal-tests/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/location-hal-tests/.debug /usr/lib/matchbox-panel/.debug /usr/lib/location-hal-tests/location-hal-tests/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/location_hal_test": 23163}
+PKGSIZE_location-hal-tests-dbg: 23163

@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-eo: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the eo locale.
+SUMMARY_gettext-locale-eo: Utilities and libraries for producing multi-lingual messages - eo translations
+RPROVIDES_gettext-locale-eo: gettext-locale eo-translation
+RRECOMMENDS_gettext-locale-eo: virtual-locale-eo
+SECTION: libs
+PKG_gettext-locale-eo: gettext-locale-eo
+FILES_gettext-locale-eo: /usr/share/locale/eo
+FILES_INFO: {"/usr/share/locale/eo/LC_MESSAGES/gettext-runtime.mo": 9144}
+PKGSIZE_gettext-locale-eo: 9144

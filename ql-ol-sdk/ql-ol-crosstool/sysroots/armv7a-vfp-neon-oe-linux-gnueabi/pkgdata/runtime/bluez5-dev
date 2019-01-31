@@ -1,0 +1,16 @@
+PN: bluez5
+PV: 5.19
+PR: r1
+PKGV: 5.19
+PKGR: r1
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_bluez5-dev: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_bluez5-dev: Linux Bluetooth Stack Userland V5 - Development files
+RDEPENDS_bluez5-dev: bluez5 (= 5.19-r1)
+RRECOMMENDS_bluez5-dev: glibc-dev libusb-dev udev-dev dbus-lib-dev dbus-glib-dev readline-dev libudev-dev alsa-lib-dev glib-2.0-dev libical-dev python-dev
+SECTION_bluez5-dev: devel
+PKG_bluez5-dev: bluez5-dev
+ALLOW_EMPTY_bluez5-dev: 1
+FILES_bluez5-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bluez5/*.la /lib/*.la   /usr/lib/alsa-lib/libasound_module_ctl_bluetooth.la   /usr/lib/alsa-lib/libasound_module_pcm_bluetooth.la 
+FILES_INFO: {}
+PKGSIZE_bluez5-dev: 0

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wap-provisioningdoc version="1.0">
+	<characteristic type="BOOTSTRAP">
+		<parm name="NAME" value="IOT Bootstrap"/>
+	</characteristic>
+	<characteristic type="APPLICATION">
+		<parm name="APPID" value="w7"/>
+		<parm name="PROVIDER-ID" value="mform"/>
+		<parm name="NAME" value="mform"/>
+		<parm name="ADDR" value="https://iotnucleon.mformation.com:443/oma/iop"/>
+		<parm name="TO-NAPID" value="Internet_GPRS"/>
+		<characteristic type="APPAUTH">
+			<parm name="AAUTHLEVEL" value="APPSRV"/>
+			<parm name="AAUTHNAME" value="mform"/>
+			<parm name="AAUTHTYPE" value="DIGEST,MD5"/>
+			<parm name="AAUTHSECRET" value="3584y51360diwgf6"/>
+			<parm name="AAUTHDATA" value="LTE5NDU2MTA4NzA="/>
+		</characteristic>
+		<characteristic type="APPAUTH">
+			<parm name="AAUTHLEVEL" value="CLIENT"/>
+			<parm name="AAUTHNAME" value="014533000000780"/>
+			<parm name="AAUTHSECRET" value="8584y5a100diwg3b"/>
+			<parm name="AAUTHDATA" value="bnVsbA=="/>
+		</characteristic>
+	</characteristic>
+</wap-provisioningdoc>

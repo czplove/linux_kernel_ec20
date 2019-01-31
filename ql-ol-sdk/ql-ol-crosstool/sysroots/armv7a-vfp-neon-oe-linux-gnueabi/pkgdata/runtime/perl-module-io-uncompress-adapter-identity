@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-uncompress-adapter-identity: perl module io-uncompress-adapter-identity
+SUMMARY_perl-module-io-uncompress-adapter-identity: perl module io-uncompress-adapter-identity
+RDEPENDS_perl-module-io-uncompress-adapter-identity: perl-module-io-compress-base-common perl-module-io-compress-zip-constants perl-module-compress-raw-zlib perl-module-warnings perl-module-bytes perl-module-strict perl
+SECTION: devel
+PKG_perl-module-io-uncompress-adapter-identity: perl-module-io-uncompress-adapter-identity
+FILES_perl-module-io-uncompress-adapter-identity: /usr/lib/perl/5.20.0/IO/Uncompress/Adapter/Identity.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Uncompress/Adapter/Identity.pm": 4583}
+PKGSIZE_perl-module-io-uncompress-adapter-identity: 4583

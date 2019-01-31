@@ -1,0 +1,14 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION_util-linux-staticdev: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.  This package contains static libraries for software development.
+SUMMARY_util-linux-staticdev: A suite of basic system administration utilities - Development files (Static Libraries)
+RDEPENDS_util-linux-staticdev: util-linux-dev (= 2.25.2-r1)
+SECTION_util-linux-staticdev: devel
+PKG_util-linux-staticdev: util-linux-staticdev
+FILES_util-linux-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/util-linux/*.a
+FILES_INFO: {"/usr/lib/libmount.a": 418410, "/usr/lib/libsmartcols.a": 197282, "/usr/lib/libuuid.a": 19772, "/usr/lib/libblkid.a": 443516}
+PKGSIZE_util-linux-staticdev: 1078980

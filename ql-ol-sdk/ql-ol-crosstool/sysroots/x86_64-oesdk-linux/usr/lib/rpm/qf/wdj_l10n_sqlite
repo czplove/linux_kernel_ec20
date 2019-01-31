@@ -1,0 +1,14 @@
+"\
+REPLACE into l10n values (\
+'%{GROUP:uuid}'\
+,'%{GROUP:sqlescape}'\
+);\n\
+REPLACE into l10n values (\
+'%{SUMMARY:uuid}'\
+,'%{SUMMARY:sqlescape}'\
+);\n\
+REPLACE into l10n values (\
+'%{DESCRIPTION:uuid}'\
+,'%{DESCRIPTION:sqlescape}'\
+);\n\
+"

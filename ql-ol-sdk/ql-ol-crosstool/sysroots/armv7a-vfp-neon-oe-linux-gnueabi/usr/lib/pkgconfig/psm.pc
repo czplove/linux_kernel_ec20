@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: psm
+Description: psm packages
+Version: 1.0.0
+Libs: -L${libdir} -lpsm_client
+Cflags: -I${includedir}/psm

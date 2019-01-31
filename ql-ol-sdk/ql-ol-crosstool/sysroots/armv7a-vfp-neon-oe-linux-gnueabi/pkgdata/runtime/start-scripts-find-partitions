@@ -1,0 +1,20 @@
+PN: start-scripts-find-partitions
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION: Start up script for detecting partitions
+SUMMARY: start-scripts-find-partitions version 1.0-r4
+RRECOMMENDS_start-scripts-find-partitions:  update-rc.d
+SECTION: base
+PKG_start-scripts-find-partitions: start-scripts-find-partitions
+FILES_start-scripts-find-partitions: /usr/bin/* /usr/sbin/* /usr/lib/start-scripts-find-partitions/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/start-scripts-find-partitions /usr/lib/start-scripts-find-partitions/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_start-scripts-find-partitions: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT find_partitions.sh start 36 S .\nfi\n
+pkg_postrm_start-scripts-find-partitions: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT find_partitions.sh remove\nfi\n
+pkg_preinst_start-scripts-find-partitions: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/find_partitions.sh" ]; then\n\t/etc/init.d/find_partitions.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT find_partitions.sh remove\nfi\n
+pkg_prerm_start-scripts-find-partitions: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/find_partitions.sh stop\nfi\n
+FILES_INFO: {"/etc/init.d/find_partitions.sh": 5346}
+FILERDEPENDSFLIST_start-scripts-find-partitions: /etc/init.d/find@underscore@partitions.sh
+FILERDEPENDS_/etc/init.d/find@underscore@partitions.sh_start-scripts-find-partitions: /bin/sh
+PKGSIZE_start-scripts-find-partitions: 5346

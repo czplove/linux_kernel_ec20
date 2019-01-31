@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-parsexs-countlines: perl module extutils-parsexs-countlines
+SUMMARY_perl-module-extutils-parsexs-countlines: perl module extutils-parsexs-countlines
+RDEPENDS_perl-module-extutils-parsexs-countlines: perl-module-strict perl
+SECTION: devel
+PKG_perl-module-extutils-parsexs-countlines: perl-module-extutils-parsexs-countlines
+FILES_perl-module-extutils-parsexs-countlines: /usr/lib/perl/5.20.0/ExtUtils/ParseXS/CountLines.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/ParseXS/CountLines.pm": 971}
+PKGSIZE_perl-module-extutils-parsexs-countlines: 971

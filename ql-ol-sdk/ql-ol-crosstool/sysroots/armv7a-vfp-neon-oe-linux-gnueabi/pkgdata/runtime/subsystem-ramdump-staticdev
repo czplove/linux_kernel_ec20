@@ -1,0 +1,14 @@
+PN: subsystem-ramdump
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_subsystem-ramdump-staticdev: subsystem ramdump  This package contains static libraries for software development.
+SUMMARY_subsystem-ramdump-staticdev: subsystem-ramdump version git-r3 - Development files (Static Libraries)
+RDEPENDS_subsystem-ramdump-staticdev: subsystem-ramdump-dev (= git-r3)
+SECTION_subsystem-ramdump-staticdev: devel
+PKG_subsystem-ramdump-staticdev: subsystem-ramdump-staticdev
+FILES_subsystem-ramdump-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/subsystem-ramdump/*.a
+FILES_INFO: {}
+PKGSIZE_subsystem-ramdump-staticdev: 0

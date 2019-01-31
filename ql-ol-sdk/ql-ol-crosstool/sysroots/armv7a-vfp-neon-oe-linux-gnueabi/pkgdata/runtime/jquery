@@ -1,0 +1,13 @@
+PN: jquery
+PV: 1.9.1
+PR: r0
+PKGV: 1.9.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: JQUERY
+SUMMARY: jquery version 1.9.1-r0
+SECTION: base
+PKG_jquery: jquery
+FILES_jquery: /usr/bin/* /usr/sbin/* /usr/lib/jquery/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/jquery /usr/lib/jquery/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /WEBSERVER/www/js/jquery.js
+FILES_INFO: {"/WEBSERVER/www/js/jquery.js": 92629}
+PKGSIZE_jquery: 92629

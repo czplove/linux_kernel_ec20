@@ -1,0 +1,14 @@
+PN: system-core
+PV: git
+PR: r16
+PKGV: git
+PKGR: r16
+LICENSE: Apache-2.0
+DESCRIPTION_system-core-staticdev: Android system/core components  This package contains static libraries for software development.
+SUMMARY_system-core-staticdev: system-core version git-r16 - Development files (Static Libraries)
+RDEPENDS_system-core-staticdev: system-core-dev (= git-r16)
+SECTION_system-core-staticdev: devel
+PKG_system-core-staticdev: system-core-staticdev
+FILES_system-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/system-core/*.a
+FILES_INFO: {"/usr/lib/libmincrypt.a": 16994}
+PKGSIZE_system-core-staticdev: 16994

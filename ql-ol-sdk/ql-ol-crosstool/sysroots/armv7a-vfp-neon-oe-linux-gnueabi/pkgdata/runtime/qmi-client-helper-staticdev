@@ -1,0 +1,15 @@
+PN: qmi-client-helper
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-client-helper-staticdev: QMI Client Helper Module  This package contains static libraries for software development.
+SUMMARY_qmi-client-helper-staticdev: qmi-client-helper version git-invalidgit-r0 - Development files (Static Libraries)
+RDEPENDS_qmi-client-helper-staticdev: qmi-client-helper-dev (= git-invalidgit-r0)
+RPROVIDES_qmi-client-helper-staticdev:  qmi-client-helper-staticdev
+SECTION_qmi-client-helper-staticdev: devel
+PKG_qmi-client-helper-staticdev: libqmi-client-helper-staticdev
+FILES_qmi-client-helper-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qmi-client-helper/*.a
+FILES_INFO: {}
+PKGSIZE_qmi-client-helper-staticdev: 0

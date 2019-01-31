@@ -1,0 +1,2 @@
+/sbin/setlogcons
+/bin/busybox 50

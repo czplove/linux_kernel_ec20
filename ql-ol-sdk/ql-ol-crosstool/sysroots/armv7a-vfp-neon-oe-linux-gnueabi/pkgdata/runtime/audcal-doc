@@ -1,0 +1,14 @@
+PN: audcal
+PV: git-invalidgit
+PR: r11
+PKGV: git-invalidgit
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audcal-doc: Audio Calibration Library  This package contains documentation.
+SUMMARY_audcal-doc: audcal version git-invalidgit-r11 - Documentation files
+RPROVIDES_audcal-doc:  audcal-doc
+SECTION_audcal-doc: doc
+PKG_audcal-doc: libaudcal-doc
+FILES_audcal-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_audcal-doc: 0

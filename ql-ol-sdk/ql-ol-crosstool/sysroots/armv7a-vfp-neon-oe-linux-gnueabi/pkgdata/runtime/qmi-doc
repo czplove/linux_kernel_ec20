@@ -1,0 +1,13 @@
+PN: qmi
+PV: git-invalidgit
+PR: r13
+PKGV: git-invalidgit
+PKGR: r13
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-doc: Qualcomm MSM Interface (QMI) Library  This package contains documentation.
+SUMMARY_qmi-doc: qmi version git-invalidgit-r13 - Documentation files
+SECTION_qmi-doc: doc
+PKG_qmi-doc: qmi-doc
+FILES_qmi-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qmi-doc: 0

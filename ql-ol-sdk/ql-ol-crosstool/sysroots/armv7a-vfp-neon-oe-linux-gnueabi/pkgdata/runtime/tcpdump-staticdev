@@ -1,0 +1,14 @@
+PN: tcpdump
+PV: 4.1.1
+PR: r2
+PKGV: 4.1.1
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_tcpdump-staticdev: A sophisticated network protocol analyzer  This package contains static libraries for software development.
+SUMMARY_tcpdump-staticdev: tcpdump version 4.1.1-r2 - Development files (Static Libraries)
+RDEPENDS_tcpdump-staticdev: tcpdump-dev (= 4.1.1-r2)
+SECTION_tcpdump-staticdev: devel
+PKG_tcpdump-staticdev: tcpdump-staticdev
+FILES_tcpdump-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tcpdump/*.a
+FILES_INFO: {}
+PKGSIZE_tcpdump-staticdev: 0

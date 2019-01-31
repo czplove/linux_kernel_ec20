@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: ath6kl-utils
+Description: Ath6kl Utils
+Version: 1.0.0
+Libs: -L${libdir} -ltcmd
+Cflags: -I${includedir}/ath6kl-utils

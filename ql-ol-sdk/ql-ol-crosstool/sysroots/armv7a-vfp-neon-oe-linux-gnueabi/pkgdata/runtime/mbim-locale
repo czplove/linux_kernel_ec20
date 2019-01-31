@@ -1,0 +1,13 @@
+PN: mbim
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: USB Mobile Broadband Interface Model (MBIM) Command Processor
+SUMMARY: mbim version git-invalidgit-r2
+SECTION: base
+PKG_mbim-locale: mbim-locale
+FILES_mbim-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mbim-locale: 0

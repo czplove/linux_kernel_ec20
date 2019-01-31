@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-zh-tw: locale definition for zh-tw
+SUMMARY_glibc-localedata-zh-tw: locale definition for zh-tw
+RDEPENDS_glibc-localedata-zh-tw: glibc-localedata-iso14651-t1 glibc-localedata-zh-cn
+SECTION: base
+PKG_glibc-localedata-zh-tw: glibc-localedata-zh-tw
+FILES_glibc-localedata-zh-tw: /usr/share/i18n/locales/zh_TW
+FILES_INFO: {"/usr/share/i18n/locales/zh_TW": 5673}
+PKGSIZE_glibc-localedata-zh-tw: 5673

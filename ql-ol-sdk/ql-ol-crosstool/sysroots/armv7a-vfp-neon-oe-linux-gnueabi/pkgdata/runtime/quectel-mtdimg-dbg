@@ -1,0 +1,15 @@
+PN: quectel-mtdimg
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-mtdimg-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-mtdimg-dbg: quectel-mtdimg version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-mtdimg-dbg: glibc-dbg
+SECTION_quectel-mtdimg-dbg: devel
+PKG_quectel-mtdimg-dbg: quectel-mtdimg-dbg
+ALLOW_EMPTY_quectel-mtdimg-dbg: 1
+FILES_quectel-mtdimg-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-mtdimg/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-mtdimg/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-mtdimg/quectel-mtdimg/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/mtdimg": 38893}
+PKGSIZE_quectel-mtdimg-dbg: 38893

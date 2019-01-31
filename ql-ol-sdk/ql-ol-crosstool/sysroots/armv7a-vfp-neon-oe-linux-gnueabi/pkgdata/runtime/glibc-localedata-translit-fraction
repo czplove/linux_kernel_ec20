@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-fraction: locale definition for translit-fraction
+SUMMARY_glibc-localedata-translit-fraction: locale definition for translit-fraction
+SECTION: base
+PKG_glibc-localedata-translit-fraction: glibc-localedata-translit-fraction
+FILES_glibc-localedata-translit-fraction: /usr/share/i18n/locales/translit_fraction
+FILES_INFO: {"/usr/share/i18n/locales/translit_fraction": 2380}
+PKGSIZE_glibc-localedata-translit-fraction: 2380

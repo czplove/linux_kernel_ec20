@@ -1,0 +1,24 @@
+PN: busybox
+PV: 1.23.1
+PR: r0
+PKGV: 1.23.1
+PKGR: r0
+LICENSE: GPLv2 & bzip2
+DESCRIPTION: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+SUMMARY: Tiny versions of many common UNIX utilities in a single small executable
+RDEPENDS_busybox-syslog: update-alternatives-opkg
+SECTION: base
+PKG_busybox-syslog: busybox-syslog
+FILES_busybox-syslog: /etc/init.d/syslog* /etc/syslog-startup.conf* /etc/syslog.conf* /lib/systemd/system/syslog.service /etc/default/busybox-syslog
+pkg_postinst_busybox-syslog: #!/bin/sh\n\tupdate-alternatives --install /etc/syslog.conf syslog-conf /etc/syslog.conf.busybox 50\n\tupdate-alternatives --install /etc/init.d/syslog syslog-init /etc/init.d/syslog.busybox 50\n\tupdate-alternatives --install /etc/syslog-startup.conf syslog-startup-conf /etc/syslog-startup.conf.busybox 50\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT syslog defaults\nfi\n
+pkg_postrm_busybox-syslog: #!/bin/sh\n\tupdate-alternatives --remove  syslog-conf /etc/syslog.conf.busybox\n\tupdate-alternatives --remove  syslog-init /etc/init.d/syslog.busybox\n\tupdate-alternatives --remove  syslog-startup-conf /etc/syslog-startup.conf.busybox\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT syslog remove\nfi\n
+pkg_preinst_busybox-syslog: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/syslog" ]; then\n\t/etc/init.d/syslog stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT syslog remove\nfi\n
+pkg_prerm_busybox-syslog: \t# remove syslog\n\tif test "x$D" = "x"; then\n\t\tif test "$1" = "upgrade" -o "$1" = "remove"; then\n\t\t\t/etc/init.d/syslog stop\n\t\tfi\n\tfi\nif [ -z "$D" ]; then\n\t/etc/init.d/syslog stop\nfi\n
+FILERPROVIDESFLIST_busybox-syslog:  /etc/syslog.conf.busybox /etc/init.d/syslog.busybox /etc/syslog-startup.conf.busybox
+FILES_INFO: {"/etc/init.d/syslog.busybox": 1703, "/etc/syslog.conf.busybox": 69, "/etc/syslog-startup.conf.busybox": 654}
+FILERPROVIDES_/etc/syslog.conf.busybox_busybox-syslog:  /etc/syslog.conf
+FILERPROVIDES_/etc/init.d/syslog.busybox_busybox-syslog:  /etc/init.d/syslog
+FILERPROVIDES_/etc/syslog-startup.conf.busybox_busybox-syslog:  /etc/syslog-startup.conf
+FILERDEPENDSFLIST_busybox-syslog: /etc/init.d/syslog.busybox
+FILERDEPENDS_/etc/init.d/syslog.busybox_busybox-syslog: /bin/sh
+PKGSIZE_busybox-syslog: 2426

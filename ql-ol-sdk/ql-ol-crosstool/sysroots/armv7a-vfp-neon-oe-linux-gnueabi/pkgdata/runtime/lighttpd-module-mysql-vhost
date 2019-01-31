@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-mysql-vhost: Lighttpd module for mysql-vhost
+SUMMARY_lighttpd-module-mysql-vhost: Lighttpd module for mysql-vhost
+RDEPENDS_lighttpd-module-mysql-vhost: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-mysql-vhost: lighttpd-module-mysql-vhost
+FILES_lighttpd-module-mysql-vhost: /usr/lib/mod_mysql_vhost.so
+FILERPROVIDESFLIST_lighttpd-module-mysql-vhost: /usr/lib/mod@underscore@mysql@underscore@vhost.so
+FILES_INFO: {"/usr/lib/mod_mysql_vhost.so": 3520}
+FILERPROVIDES_/usr/lib/mod@underscore@mysql@underscore@vhost.so_lighttpd-module-mysql-vhost: elf(buildid) (= 1bb5d372a75f8178a5952116da79f2a8c00b1a32) mod_mysql_vhost.so
+FILERDEPENDSFLIST_lighttpd-module-mysql-vhost: /usr/lib/mod@underscore@mysql@underscore@vhost.so
+FILERDEPENDS_/usr/lib/mod@underscore@mysql@underscore@vhost.so_lighttpd-module-mysql-vhost: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-mysql-vhost: 3520

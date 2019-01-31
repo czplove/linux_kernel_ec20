@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-math-bigint-calcemu: perl module math-bigint-calcemu
+SUMMARY_perl-module-math-bigint-calcemu: perl module math-bigint-calcemu
+RDEPENDS_perl-module-math-bigint-calcemu: perl-module-strict perl-module-vars perl
+SECTION: devel
+PKG_perl-module-math-bigint-calcemu: perl-module-math-bigint-calcemu
+FILES_perl-module-math-bigint-calcemu: /usr/lib/perl/5.20.0/Math/BigInt/CalcEmu.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Math/BigInt/CalcEmu.pm": 8861}
+PKGSIZE_perl-module-math-bigint-calcemu: 8861

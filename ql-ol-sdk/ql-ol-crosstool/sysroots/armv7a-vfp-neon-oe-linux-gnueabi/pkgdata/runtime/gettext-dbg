@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-dbg: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gettext-dbg: Utilities and libraries for producing multi-lingual messages - Debugging files
+RRECOMMENDS_gettext-dbg: libgettextlib-dbg glibc-dbg libgettextsrc-dbg
+SECTION_gettext-dbg: devel
+PKG_gettext-dbg: gettext-dbg
+ALLOW_EMPTY_gettext-dbg: 1
+FILES_gettext-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gettext/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gettext/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gettext/gettext/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libgettextpo.so.0.5.3": 43933, "/usr/bin/.debug/msggrep": 13336, "/usr/bin/.debug/envsubst": 12235, "/usr/bin/.debug/ngettext": 12025, "/usr/lib/gettext/.debug/hostname": 5929, "/usr/lib/.debug/libgettextlib-0.19.4.so": 146002, "/usr/bin/.debug/msgcmp": 7550, "/usr/lib/.debug/libgettextsrc-0.19.4.so": 35990, "/usr/bin/.debug/msgconv": 6723, "/usr/bin/.debug/msgen": 6716, "/usr/bin/.debug/msgunfmt": 8417, "/usr/bin/.debug/xgettext": 37428, "/usr/bin/.debug/msgcat": 6997, "/usr/bin/.debug/gettext": 11969, "/usr/bin/.debug/msgexec": 6550, "/usr/bin/.debug/recode-sr-latin": 6138, "/usr/lib/gettext/.debug/urlget": 6126, "/usr/bin/.debug/msgmerge": 10472, "/usr/bin/.debug/msgcomm": 7007, "/usr/bin/.debug/msguniq": 6874, "/usr/bin/.debug/msgattrib": 6963, "/usr/bin/.debug/msgfilter": 7678, "/usr/bin/.debug/msgfmt": 16176, "/usr/bin/.debug/msginit": 9678}
+PKGSIZE_gettext-dbg: 438912

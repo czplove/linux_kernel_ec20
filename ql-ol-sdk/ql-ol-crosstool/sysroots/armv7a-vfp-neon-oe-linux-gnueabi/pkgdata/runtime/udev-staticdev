@@ -1,0 +1,14 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE: GPLv2.0+ & LGPLv2.1+
+DESCRIPTION_udev-staticdev: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.  This package contains static libraries for software development.
+SUMMARY_udev-staticdev: /dev/ and hotplug management daemon - Development files (Static Libraries)
+RDEPENDS_udev-staticdev: udev-dev (= 182-r21)
+SECTION_udev-staticdev: devel
+PKG_udev-staticdev: udev-staticdev
+FILES_udev-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/udev/*.a
+FILES_INFO: {}
+PKGSIZE_udev-staticdev: 0

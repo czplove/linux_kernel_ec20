@@ -1,0 +1,13 @@
+PN: embms-kernel
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_embms-kernel-doc: Embms Kernel Module  This package contains documentation.
+SUMMARY_embms-kernel-doc: embms-kernel version git-r0 - Documentation files
+SECTION_embms-kernel-doc: doc
+PKG_embms-kernel-doc: embms-kernel-doc
+FILES_embms-kernel-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_embms-kernel-doc: 0

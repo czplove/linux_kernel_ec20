@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-cy: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the cy locale.
+SUMMARY_glib-2.0-locale-cy: A general-purpose utility library - cy translations
+RPROVIDES_glib-2.0-locale-cy: glib-2.0-locale cy-translation glib-2.0-locale-cy
+RRECOMMENDS_glib-2.0-locale-cy: virtual-locale-cy
+SECTION: libs
+PKG_glib-2.0-locale-cy: libglib-2.0-locale-cy
+FILES_glib-2.0-locale-cy: /usr/share/locale/cy
+FILES_INFO: {"/usr/share/locale/cy/LC_MESSAGES/glib20.mo": 27429}
+PKGSIZE_glib-2.0-locale-cy: 27429

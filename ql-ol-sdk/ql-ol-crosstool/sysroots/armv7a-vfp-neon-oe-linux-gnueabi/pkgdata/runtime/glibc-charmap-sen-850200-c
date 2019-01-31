@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-sen-850200-c: character map for sen-850200-c encoding
+SUMMARY_glibc-charmap-sen-850200-c: character map for sen-850200-c encoding
+SECTION: base
+PKG_glibc-charmap-sen-850200-c: glibc-charmap-sen-850200-c
+FILES_glibc-charmap-sen-850200-c: /usr/share/i18n/charmaps/SEN_850200_C.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/SEN_850200_C.gz": 1559}
+PKGSIZE_glibc-charmap-sen-850200-c: 1559

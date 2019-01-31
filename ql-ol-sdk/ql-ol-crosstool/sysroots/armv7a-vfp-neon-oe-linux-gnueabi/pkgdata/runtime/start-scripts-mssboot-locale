@@ -1,0 +1,13 @@
+PN: start-scripts-mssboot
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Start up script for mssboot
+SUMMARY: start-scripts-mssboot version git-invalidgit-r2
+SECTION: base
+PKG_start-scripts-mssboot-locale: start-scripts-mssboot-locale
+FILES_start-scripts-mssboot-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_start-scripts-mssboot-locale: 0

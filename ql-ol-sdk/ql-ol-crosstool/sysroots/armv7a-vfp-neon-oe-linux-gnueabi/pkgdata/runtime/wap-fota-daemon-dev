@@ -1,0 +1,16 @@
+PN: wap-fota-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wap-fota-daemon-dev: WAP FOTA DAEMON  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_wap-fota-daemon-dev: wap-fota-daemon version git-invalidgit-r3 - Development files
+RDEPENDS_wap-fota-daemon-dev: wap-fota-daemon (= git-invalidgit-r3)
+RRECOMMENDS_wap-fota-daemon-dev: glib-2.0-dev glibc-dev qmi-framework-dev
+SECTION_wap-fota-daemon-dev: devel
+PKG_wap-fota-daemon-dev: wap-fota-daemon-dev
+ALLOW_EMPTY_wap-fota-daemon-dev: 1
+FILES_wap-fota-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wap-fota-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_wap-fota-daemon-dev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ml-in: locale definition for ml-in
+SUMMARY_glibc-localedata-ml-in: locale definition for ml-in
+RDEPENDS_glibc-localedata-ml-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-ml-in: glibc-localedata-ml-in
+FILES_glibc-localedata-ml-in: /usr/share/i18n/locales/ml_IN
+FILES_INFO: {"/usr/share/i18n/locales/ml_IN": 6986}
+PKGSIZE_glibc-localedata-ml-in: 6986

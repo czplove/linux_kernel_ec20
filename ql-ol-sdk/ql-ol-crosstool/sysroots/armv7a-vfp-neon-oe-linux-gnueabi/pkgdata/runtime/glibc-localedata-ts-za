@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ts-za: locale definition for ts-za
+SUMMARY_glibc-localedata-ts-za: locale definition for ts-za
+RDEPENDS_glibc-localedata-ts-za: glibc-localedata-iso14651-t1 glibc-localedata-en-za glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ts-za: glibc-localedata-ts-za
+FILES_glibc-localedata-ts-za: /usr/share/i18n/locales/ts_ZA
+FILES_INFO: {"/usr/share/i18n/locales/ts_ZA": 9547}
+PKGSIZE_glibc-localedata-ts-za: 9547

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-bigint: perl module bigint
+SUMMARY_perl-module-bigint: perl module bigint
+RDEPENDS_perl-module-bigint: perl-module-carp perl-module-math-bigint perl-module-overload perl-module-math-bigint-trace perl-module-vars perl-module-exporter perl-module-strict perl-module-constant perl
+SECTION: devel
+PKG_perl-module-bigint: perl-module-bigint
+FILES_perl-module-bigint: /usr/lib/perl/5.20.0/bigint.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/bigint.pm": 18728}
+PKGSIZE_perl-module-bigint: 18728

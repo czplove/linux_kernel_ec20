@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-ebcdic: perl module encode-ebcdic
+SUMMARY_perl-module-encode-ebcdic: perl module encode-ebcdic
+RDEPENDS_perl-module-encode-ebcdic: perl-module-encode glibc (>= 2.21) perl perl-module-warnings perl-module-strict perl-module-xsloader
+SECTION: devel
+PKG_perl-module-encode-ebcdic: perl-module-encode-ebcdic
+FILES_perl-module-encode-ebcdic: /usr/lib/perl/5.20.0/auto/Encode/EBCDIC/EBCDIC.so /usr/lib/perl/5.20.0/Encode/EBCDIC.pm
+FILERPROVIDESFLIST_perl-module-encode-ebcdic: /usr/lib/perl/5.20.0/auto/Encode/EBCDIC/EBCDIC.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/EBCDIC.pm": 865, "/usr/lib/perl/5.20.0/auto/Encode/EBCDIC/EBCDIC.so": 19860}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Encode/EBCDIC/EBCDIC.so_perl-module-encode-ebcdic: EBCDIC.so elf(buildid) (= 1a661fbcb39dbd73f2b0bbbee1cd4310714cc0e7)
+FILERDEPENDSFLIST_perl-module-encode-ebcdic: /usr/lib/perl/5.20.0/auto/Encode/EBCDIC/EBCDIC.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Encode/EBCDIC/EBCDIC.so_perl-module-encode-ebcdic: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-encode-ebcdic: 20725

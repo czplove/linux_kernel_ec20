@@ -1,0 +1,15 @@
+PN: btrs-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_btrs-daemon-dbg: Bluetooth Remote Start DAEMON  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_btrs-daemon-dbg: btrs-daemon version git-invalidgit-r2 - Debugging files
+RRECOMMENDS_btrs-daemon-dbg: libstdc++-dbg glibc-dbg libgcc-dbg data-dbg
+SECTION_btrs-daemon-dbg: devel
+PKG_btrs-daemon-dbg: btrs-daemon-dbg
+ALLOW_EMPTY_btrs-daemon-dbg: 1
+FILES_btrs-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/btrs-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/btrs-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/btrs-daemon/btrs-daemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/btrsdaemon": 6278}
+PKGSIZE_btrs-daemon-dbg: 6278

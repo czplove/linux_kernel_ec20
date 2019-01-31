@@ -1,0 +1,16 @@
+PN: alx
+PV: git
+PR: r4-3.18.20
+PKGV: git
+PKGR: r4-3.18.20
+LICENSE: ISC
+DESCRIPTION_alx-dev: Qualcomm Atheros Gigabit Ethernet Driver  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_alx-dev: alx version git-r4-3.18.20 - Development files
+RDEPENDS_alx-dev: alx (= git-r4-3.18.20)
+RRECOMMENDS_alx-dev: initscripts-dev
+SECTION_alx-dev: devel
+PKG_alx-dev: alx-dev
+ALLOW_EMPTY_alx-dev: 1
+FILES_alx-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/alx/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_alx-dev: 0

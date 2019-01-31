@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser-multiplexer: perl module tap-parser-multiplexer
+SUMMARY_perl-module-tap-parser-multiplexer: perl module tap-parser-multiplexer
+RDEPENDS_perl-module-tap-parser-multiplexer: perl perl-module-warnings perl-module-io-select perl-module-strict perl-module-constant perl-module-base
+SECTION: devel
+PKG_perl-module-tap-parser-multiplexer: perl-module-tap-parser-multiplexer
+FILES_perl-module-tap-parser-multiplexer: /usr/lib/perl/5.20.0/TAP/Parser/Multiplexer.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Parser/Multiplexer.pm": 4265}
+PKGSIZE_perl-module-tap-parser-multiplexer: 4265

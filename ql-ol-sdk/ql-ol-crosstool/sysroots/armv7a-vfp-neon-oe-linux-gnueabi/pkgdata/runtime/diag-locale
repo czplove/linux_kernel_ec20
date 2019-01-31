@@ -1,0 +1,13 @@
+PN: diag
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Library and routing applications for diagnostic traffic
+SUMMARY: diag version git-invalidgit-r9
+SECTION: base
+PKG_diag-locale: diag-locale
+FILES_diag-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_diag-locale: 0

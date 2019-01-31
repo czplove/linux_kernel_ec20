@@ -1,0 +1,13 @@
+PN: libxml2
+PV: 2.9.2
+PR: r0
+PKGV: 2.9.2
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: The XML Parser Library allows for manipulation of XML files.  Libxml2 exports Push and Pull type parser interfaces for both XML and HTML.  It can do DTD validation at parse time, on a parsed document instance or with an arbitrary DTD.  Libxml2 includes complete XPath, XPointer and Xinclude implementations.  It also has a SAX like interface, which is designed to be compatible with Expat.
+SUMMARY: XML C Parser Library and Toolkit
+SECTION: libs
+PKG_libxml2-python: libxml2-python
+FILES_libxml2-python:  /usr/lib/python2.7/site-packages
+FILES_INFO: {}
+PKGSIZE_libxml2-python: 0

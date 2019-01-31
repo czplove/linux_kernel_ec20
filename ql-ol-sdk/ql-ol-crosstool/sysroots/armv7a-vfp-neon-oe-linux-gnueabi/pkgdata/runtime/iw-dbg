@@ -1,0 +1,15 @@
+PN: iw
+PV: 3.6
+PR: r1
+PKGV: 3.6
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_iw-dbg: iw is a new nl80211 based CLI configuration utility for                wireless devices. It supports almost all new drivers that have been added                to the kernel recently.   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_iw-dbg: nl80211 based CLI configuration utility for wireless devices - Debugging files
+RRECOMMENDS_iw-dbg: glibc-dbg libnl-genl-dbg libnl-dbg
+SECTION_iw-dbg: devel
+PKG_iw-dbg: iw-dbg
+ALLOW_EMPTY_iw-dbg: 1
+FILES_iw-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iw/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iw/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iw/iw/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/iw": 30415}
+PKGSIZE_iw-dbg: 30415

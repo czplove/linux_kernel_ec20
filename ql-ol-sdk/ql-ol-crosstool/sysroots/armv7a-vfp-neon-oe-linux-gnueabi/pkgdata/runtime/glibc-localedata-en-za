@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-za: locale definition for en-za
+SUMMARY_glibc-localedata-en-za: locale definition for en-za
+RDEPENDS_glibc-localedata-en-za: glibc-localedata-iso14651-t1 glibc-localedata-en-gb
+SECTION: base
+PKG_glibc-localedata-en-za: glibc-localedata-en-za
+FILES_glibc-localedata-en-za: /usr/share/i18n/locales/en_ZA
+FILES_INFO: {"/usr/share/i18n/locales/en_ZA": 11068}
+PKGSIZE_glibc-localedata-en-za: 11068

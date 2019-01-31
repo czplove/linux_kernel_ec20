@@ -1,0 +1,13 @@
+PN: quectel-audio-lib
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel audio lib
+SUMMARY: quectel-audio-lib version git-invalidgit-r1
+SECTION: base
+PKG_quectel-audio-lib-locale: quectel-audio-lib-locale
+FILES_quectel-audio-lib-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-audio-lib-locale: 0

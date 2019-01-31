@@ -1,0 +1,21 @@
+PN: pkgconfig
+PV: 0.28
+PR: r0
+PKGV: 0.28
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: pkg-config is a helper tool used when compiling applications and libraries. It helps determined the correct compiler/link options.  It is also language-agnostic.
+SUMMARY: Helper tool used when compiling
+RDEPENDS_pkgconfig: glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RPROVIDES_pkgconfig:  pkgconfig(pkg-config)
+SECTION: console/utils
+PKG_pkgconfig: pkgconfig
+FILES_pkgconfig: /usr/bin/* /usr/sbin/* /usr/lib/pkgconfig/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pkgconfig /usr/lib/pkgconfig/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/aclocal/pkg.m4
+FILERPROVIDESFLIST_pkgconfig: /usr/bin/arm-oe-linux-gnueabi-pkg-config /usr/bin/pkg-config
+FILES_INFO: {"/usr/share/aclocal/pkg.m4": 7799, "/usr/bin/arm-oe-linux-gnueabi-pkg-config": 34244, "/usr/bin/pkg-config": 42825}
+FILERPROVIDES_/usr/bin/arm-oe-linux-gnueabi-pkg-config_pkgconfig: elf(buildid) (= 94b867d13361e6a12a3b106cf07dad0216a6e28a)
+FILERPROVIDES_/usr/bin/pkg-config_pkgconfig: elf(buildid) (= 94b867d13361e6a12a3b106cf07dad0216a6e28a)
+FILERDEPENDSFLIST_pkgconfig: /usr/bin/arm-oe-linux-gnueabi-pkg-config /usr/bin/pkg-config
+FILERDEPENDS_/usr/bin/arm-oe-linux-gnueabi-pkg-config_pkgconfig: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pkg-config_pkgconfig: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_pkgconfig: 84868

@@ -1,0 +1,2 @@
+/sbin/mkfs.vfat
+/bin/busybox 50

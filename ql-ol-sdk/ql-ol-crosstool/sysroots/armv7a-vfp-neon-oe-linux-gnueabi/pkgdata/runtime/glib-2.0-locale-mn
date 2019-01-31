@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-mn: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the mn locale.
+SUMMARY_glib-2.0-locale-mn: A general-purpose utility library - mn translations
+RPROVIDES_glib-2.0-locale-mn: glib-2.0-locale mn-translation glib-2.0-locale-mn
+RRECOMMENDS_glib-2.0-locale-mn: virtual-locale-mn
+SECTION: libs
+PKG_glib-2.0-locale-mn: libglib-2.0-locale-mn
+FILES_glib-2.0-locale-mn: /usr/share/locale/mn
+FILES_INFO: {"/usr/share/locale/mn/LC_MESSAGES/glib20.mo": 19212}
+PKGSIZE_glib-2.0-locale-mn: 19212

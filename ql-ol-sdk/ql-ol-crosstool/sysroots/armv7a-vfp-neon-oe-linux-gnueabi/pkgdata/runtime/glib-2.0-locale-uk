@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-uk: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the uk locale.
+SUMMARY_glib-2.0-locale-uk: A general-purpose utility library - uk translations
+RPROVIDES_glib-2.0-locale-uk: glib-2.0-locale uk-translation glib-2.0-locale-uk
+RRECOMMENDS_glib-2.0-locale-uk: virtual-locale-uk
+SECTION: libs
+PKG_glib-2.0-locale-uk: libglib-2.0-locale-uk
+FILES_glib-2.0-locale-uk: /usr/share/locale/uk
+FILES_INFO: {"/usr/share/locale/uk/LC_MESSAGES/glib20.mo": 128539}
+PKGSIZE_glib-2.0-locale-uk: 128539

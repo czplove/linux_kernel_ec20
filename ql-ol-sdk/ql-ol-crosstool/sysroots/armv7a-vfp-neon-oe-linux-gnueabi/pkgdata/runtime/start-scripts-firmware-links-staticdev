@@ -1,0 +1,14 @@
+PN: start-scripts-firmware-links
+PV: 1.0
+PR: r5
+PKGV: 1.0
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_start-scripts-firmware-links-staticdev: Start up script for firmware links  This package contains static libraries for software development.
+SUMMARY_start-scripts-firmware-links-staticdev: start-scripts-firmware-links version 1.0-r5 - Development files (Static Libraries)
+RDEPENDS_start-scripts-firmware-links-staticdev: start-scripts-firmware-links-dev (= 1.0-r5)
+SECTION_start-scripts-firmware-links-staticdev: devel
+PKG_start-scripts-firmware-links-staticdev: start-scripts-firmware-links-staticdev
+FILES_start-scripts-firmware-links-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/start-scripts-firmware-links/*.a
+FILES_INFO: {}
+PKGSIZE_start-scripts-firmware-links-staticdev: 0

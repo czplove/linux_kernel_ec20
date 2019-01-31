@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-kr: perl module encode-kr
+SUMMARY_perl-module-encode-kr: perl module encode-kr
+RDEPENDS_perl-module-encode-kr: perl-module-encode-kr-2022-kr perl-module-encode glibc (>= 2.21) perl-module-xsloader perl-module-warnings perl-module-strict perl
+SECTION: devel
+PKG_perl-module-encode-kr: perl-module-encode-kr
+FILES_perl-module-encode-kr: /usr/lib/perl/5.20.0/auto/Encode/KR/KR.so /usr/lib/perl/5.20.0/Encode/KR.pm
+FILERPROVIDESFLIST_perl-module-encode-kr: /usr/lib/perl/5.20.0/auto/Encode/KR/KR.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/KR.pm": 1960, "/usr/lib/perl/5.20.0/auto/Encode/KR/KR.so": 1107412}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Encode/KR/KR.so_perl-module-encode-kr: KR.so elf(buildid) (= 54c416a89519362ac143ff4987a5dad9ad3296b6)
+FILERDEPENDSFLIST_perl-module-encode-kr: /usr/lib/perl/5.20.0/auto/Encode/KR/KR.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Encode/KR/KR.so_perl-module-encode-kr: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-encode-kr: 1109372

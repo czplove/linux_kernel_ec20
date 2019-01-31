@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-test-builder-tester-color: perl module test-builder-tester-color
+SUMMARY_perl-module-test-builder-tester-color: perl module test-builder-tester-color
+RDEPENDS_perl-module-test-builder-tester-color: perl-module-strict perl-module-test-builder-tester perl
+SECTION: devel
+PKG_perl-module-test-builder-tester-color: perl-module-test-builder-tester-color
+FILES_perl-module-test-builder-tester-color: /usr/lib/perl/5.20.0/Test/Builder/Tester/Color.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Test/Builder/Tester/Color.pm": 973}
+PKGSIZE_perl-module-test-builder-tester-color: 973

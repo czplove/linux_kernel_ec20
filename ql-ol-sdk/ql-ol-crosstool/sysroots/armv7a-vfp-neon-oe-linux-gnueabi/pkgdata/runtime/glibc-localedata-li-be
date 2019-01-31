@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-li-be: locale definition for li-be
+SUMMARY_glibc-localedata-li-be: locale definition for li-be
+RDEPENDS_glibc-localedata-li-be: glibc-localedata-iso14651-t1 glibc-localedata-en-dk glibc-localedata-nl-be
+SECTION: base
+PKG_glibc-localedata-li-be: glibc-localedata-li-be
+FILES_glibc-localedata-li-be: /usr/share/i18n/locales/li_BE
+FILES_INFO: {"/usr/share/i18n/locales/li_BE": 4082}
+PKGSIZE_glibc-localedata-li-be: 4082

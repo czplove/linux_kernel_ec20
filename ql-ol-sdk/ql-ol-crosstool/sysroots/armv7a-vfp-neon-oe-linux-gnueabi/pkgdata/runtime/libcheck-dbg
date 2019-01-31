@@ -1,0 +1,15 @@
+PN: libcheck
+PV: 0.9.14
+PR: r0
+PKGV: 0.9.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libcheck-dbg: Check - unit testing framework for C code.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libcheck-dbg: Check - unit testing framework for C code - Debugging files
+RRECOMMENDS_libcheck-dbg: glibc-dbg
+SECTION_libcheck-dbg: devel
+PKG_libcheck-dbg: libcheck-dbg
+ALLOW_EMPTY_libcheck-dbg: 1
+FILES_libcheck-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libcheck/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libcheck/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libcheck/libcheck/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libcheck.so.0.0.0": 25043}
+PKGSIZE_libcheck-dbg: 25043

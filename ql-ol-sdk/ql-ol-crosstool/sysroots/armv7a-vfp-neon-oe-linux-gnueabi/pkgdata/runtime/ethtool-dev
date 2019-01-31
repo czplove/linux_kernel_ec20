@@ -1,0 +1,16 @@
+PN: ethtool
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_ethtool-dev: ethtool is the standard Linux utility for controlling networkdrivers and hardware, particularly for wired Ethernet devices  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ethtool-dev: ethtool is the standard Linux utility for managing Ethernet Drivers - Development files
+RDEPENDS_ethtool-dev: ethtool (= git-r2)
+RRECOMMENDS_ethtool-dev: glibc-dev
+SECTION_ethtool-dev: devel
+PKG_ethtool-dev: ethtool-dev
+ALLOW_EMPTY_ethtool-dev: 1
+FILES_ethtool-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ethtool/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ethtool-dev: 0

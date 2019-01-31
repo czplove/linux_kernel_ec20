@@ -1,0 +1,14 @@
+PN: kernel-tests
+PV: git-invalidgit
+PR: r18
+PKGV: git-invalidgit
+PKGR: r18
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_kernel-tests-staticdev: Qualcomm Technologies Proprietary kernel test  This package contains static libraries for software development.
+SUMMARY_kernel-tests-staticdev: kernel-tests version git-invalidgit-r18 - Development files (Static Libraries)
+RDEPENDS_kernel-tests-staticdev: kernel-tests-dev (= git-invalidgit-r18)
+SECTION_kernel-tests-staticdev: devel
+PKG_kernel-tests-staticdev: kernel-tests-staticdev
+FILES_kernel-tests-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/kernel-tests/*.a
+FILES_INFO: {}
+PKGSIZE_kernel-tests-staticdev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ak-gh: locale definition for ak-gh
+SUMMARY_glibc-localedata-ak-gh: locale definition for ak-gh
+RDEPENDS_glibc-localedata-ak-gh: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ak-gh: glibc-localedata-ak-gh
+FILES_glibc-localedata-ak-gh: /usr/share/i18n/locales/ak_GH
+FILES_INFO: {"/usr/share/i18n/locales/ak_GH": 7245}
+PKGSIZE_glibc-localedata-ak-gh: 7245

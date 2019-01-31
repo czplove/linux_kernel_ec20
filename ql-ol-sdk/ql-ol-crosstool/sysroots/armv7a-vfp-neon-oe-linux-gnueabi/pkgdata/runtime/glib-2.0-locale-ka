@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ka: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ka locale.
+SUMMARY_glib-2.0-locale-ka: A general-purpose utility library - ka translations
+RPROVIDES_glib-2.0-locale-ka: glib-2.0-locale ka-translation glib-2.0-locale-ka
+RRECOMMENDS_glib-2.0-locale-ka: virtual-locale-ka
+SECTION: libs
+PKG_glib-2.0-locale-ka: libglib-2.0-locale-ka
+FILES_glib-2.0-locale-ka: /usr/share/locale/ka
+FILES_INFO: {"/usr/share/locale/ka/LC_MESSAGES/glib20.mo": 34272}
+PKGSIZE_glib-2.0-locale-ka: 34272

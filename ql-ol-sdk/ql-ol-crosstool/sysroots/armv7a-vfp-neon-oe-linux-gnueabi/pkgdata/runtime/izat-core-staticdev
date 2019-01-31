@@ -1,0 +1,15 @@
+PN: izat-core
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-core-staticdev: Izat Core  This package contains static libraries for software development.
+SUMMARY_izat-core-staticdev: izat-core version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_izat-core-staticdev: izat-core-dev (= git-invalidgit-r1)
+RPROVIDES_izat-core-staticdev:  izat-core-staticdev
+SECTION_izat-core-staticdev: devel
+PKG_izat-core-staticdev: libizat-core-staticdev
+FILES_izat-core-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/izat-core/*.a
+FILES_INFO: {}
+PKGSIZE_izat-core-staticdev: 0

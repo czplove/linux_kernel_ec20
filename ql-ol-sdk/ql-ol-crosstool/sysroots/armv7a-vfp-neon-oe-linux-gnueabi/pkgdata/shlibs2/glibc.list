@@ -1,0 +1,15 @@
+libpthread.so.0:/lib:2.21
+libnsl.so.1:/lib:2.21
+libresolv.so.2:/lib:2.21
+libBrokenLocale.so.1:/lib:2.21
+libnss_compat.so.2:/lib:2.21
+libc.so.6:/lib:2.21
+ld-linux.so.3:/lib:2.21
+libanl.so.1:/lib:2.21
+libcrypt.so.1:/lib:2.21
+libnss_dns.so.2:/lib:2.21
+libutil.so.1:/lib:2.21
+libnss_files.so.2:/lib:2.21
+libm.so.6:/lib:2.21
+librt.so.1:/lib:2.21
+libdl.so.2:/lib:2.21

@@ -1,0 +1,16 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_nscd: nscd, name service cache daemon, caches name service lookups for the passwd, group and hosts information.  It can damatically improvide performance with remote, such as NIS or NIS+, name services.
+SUMMARY_nscd: Name service cache daemon
+RDEPENDS_nscd: glibc (>= 2.21)
+SECTION: libs
+PKG_nscd: nscd
+FILES_nscd: /usr/sbin/nscd*
+FILES_INFO: {"/usr/sbin/nscd": 125776}
+FILERDEPENDSFLIST_nscd: /usr/sbin/nscd
+FILERDEPENDS_/usr/sbin/nscd_nscd: ld-linux.so.3 ld-linux.so.3(GLIBC_PRIVATE) libc.so.6 libc.so.6(GLIBC_2.10) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.8) libc.so.6(GLIBC_2.9) libc.so.6(GLIBC_PRIVATE) libnsl.so.1 libnsl.so.1(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4)
+PKGSIZE_nscd: 125776

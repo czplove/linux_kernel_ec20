@@ -1,0 +1,23 @@
+Subsystem: kernel-tests/bam_dmux_loopback
+
+Test: bam_dmux_loopback_ktest.sh
+Parameters:
+  -n: Nominal test case (Basic data connectivity test)
+  -a: Adversarial test case (Currently holds no tests)
+  -r: Repeatability test case (Multiple iterations of the nominal test)
+  -s: Stress test case (Performs a basic throughput test)
+  -h: Help text.
+
+Description:
+This test isolates the bam_dmux driver from the hardware and establishes a
+loopback path by simulating the hardware for the purposes of unit testing and
+validation of the driver in isolation.
+
+Target support:
+This test is applicable to any target which has a bam_dmux based data path,
+including but not limited to 8960, 8974, and 8916.
+
+Notes:
+Unloading the kernel module to return the bam_dmux driver to normal mode is
+disabled due to design limitations.  The current workaround to restore the data
+path is to restart the device.

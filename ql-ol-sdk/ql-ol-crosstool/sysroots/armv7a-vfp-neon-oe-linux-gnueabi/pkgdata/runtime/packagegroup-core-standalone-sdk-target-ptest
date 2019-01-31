@@ -1,0 +1,12 @@
+PN: packagegroup-core-standalone-sdk-target
+PV: 1.0
+PR: r8
+PKGV: 1.0
+PKGR: r8
+LICENSE: MIT
+DESCRIPTION: Target packages for the standalone SDK.
+SUMMARY: Target packages for the standalone SDK
+SECTION: base
+PKG_packagegroup-core-standalone-sdk-target-ptest: packagegroup-core-standalone-sdk-target-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-standalone-sdk-target-ptest: 0

@@ -1,0 +1,13 @@
+PN: quectel-audio-lib
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-audio-lib-doc: Quectel audio lib  This package contains documentation.
+SUMMARY_quectel-audio-lib-doc: quectel-audio-lib version git-invalidgit-r1 - Documentation files
+SECTION_quectel-audio-lib-doc: doc
+PKG_quectel-audio-lib-doc: quectel-audio-lib-doc
+FILES_quectel-audio-lib-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-audio-lib-doc: 0

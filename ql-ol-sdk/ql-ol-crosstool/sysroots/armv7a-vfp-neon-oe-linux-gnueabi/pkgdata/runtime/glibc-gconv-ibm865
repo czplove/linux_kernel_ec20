@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm865: gconv module for character set ibm865
+SUMMARY_glibc-gconv-ibm865: gconv module for character set ibm865
+RDEPENDS_glibc-gconv-ibm865: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm865: glibc-gconv-ibm865
+FILES_glibc-gconv-ibm865: /usr/lib/gconv/IBM865.so
+FILES_INFO: {"/usr/lib/gconv/IBM865.so": 9584}
+PKGSIZE_glibc-gconv-ibm865: 9584

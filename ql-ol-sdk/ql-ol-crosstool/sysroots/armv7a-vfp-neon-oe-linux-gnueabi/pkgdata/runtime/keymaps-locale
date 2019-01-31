@@ -1,0 +1,13 @@
+PN: keymaps
+PV: 1.0
+PR: r31
+PKGV: 1.0
+PKGR: r31
+LICENSE: GPLv2
+DESCRIPTION: Keymaps and initscript to set the keymap on bootup.
+SUMMARY: Keyboard maps
+SECTION: base
+PKG_keymaps-locale: keymaps-locale
+FILES_keymaps-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_keymaps-locale: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-kw-gb: locale definition for kw-gb
+SUMMARY_glibc-localedata-kw-gb: locale definition for kw-gb
+RDEPENDS_glibc-localedata-kw-gb: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-kw-gb: glibc-localedata-kw-gb
+FILES_glibc-localedata-kw-gb: /usr/share/i18n/locales/kw_GB
+FILES_INFO: {"/usr/share/i18n/locales/kw_GB": 5901}
+PKGSIZE_glibc-localedata-kw-gb: 5901

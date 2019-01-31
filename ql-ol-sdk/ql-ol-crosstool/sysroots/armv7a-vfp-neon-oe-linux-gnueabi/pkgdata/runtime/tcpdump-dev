@@ -1,0 +1,16 @@
+PN: tcpdump
+PV: 4.1.1
+PR: r2
+PKGV: 4.1.1
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_tcpdump-dev: A sophisticated network protocol analyzer  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_tcpdump-dev: tcpdump version 4.1.1-r2 - Development files
+RDEPENDS_tcpdump-dev: tcpdump (= 4.1.1-r2)
+RRECOMMENDS_tcpdump-dev: libpcap-dev glibc-dev
+SECTION_tcpdump-dev: devel
+PKG_tcpdump-dev: tcpdump-dev
+ALLOW_EMPTY_tcpdump-dev: 1
+FILES_tcpdump-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/tcpdump/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_tcpdump-dev: 0

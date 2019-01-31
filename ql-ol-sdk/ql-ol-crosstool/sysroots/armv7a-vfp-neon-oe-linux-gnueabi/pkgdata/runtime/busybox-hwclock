@@ -1,0 +1,19 @@
+PN: busybox
+PV: 1.23.1
+PR: r0
+PKGV: 1.23.1
+PKGR: r0
+LICENSE: GPLv2 & bzip2
+DESCRIPTION: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+SUMMARY: Tiny versions of many common UNIX utilities in a single small executable
+SECTION: base
+PKG_busybox-hwclock: busybox-hwclock
+FILES_busybox-hwclock: /etc/init.d/hwclock.sh
+pkg_postinst_busybox-hwclock: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT hwclock.sh defaults\nfi\n
+pkg_postrm_busybox-hwclock: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT hwclock.sh remove\nfi\n
+pkg_preinst_busybox-hwclock: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/hwclock.sh" ]; then\n\t/etc/init.d/hwclock.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT hwclock.sh remove\nfi\n
+pkg_prerm_busybox-hwclock: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/hwclock.sh stop\nfi\n
+FILES_INFO: {"/etc/init.d/hwclock.sh": 2541}
+FILERDEPENDSFLIST_busybox-hwclock: /etc/init.d/hwclock.sh
+FILERDEPENDS_/etc/init.d/hwclock.sh_busybox-hwclock: /bin/sh
+PKGSIZE_busybox-hwclock: 2541

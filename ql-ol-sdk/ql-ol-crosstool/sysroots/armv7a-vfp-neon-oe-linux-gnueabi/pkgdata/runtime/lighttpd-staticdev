@@ -1,0 +1,14 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-staticdev: Lightweight high-performance web server.  This package contains static libraries for software development.
+SUMMARY_lighttpd-staticdev: Lightweight high-performance web server - Development files (Static Libraries)
+RDEPENDS_lighttpd-staticdev: lighttpd-dev (= 1.4.35-r1)
+SECTION_lighttpd-staticdev: devel
+PKG_lighttpd-staticdev: lighttpd-staticdev
+FILES_lighttpd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lighttpd/*.a
+FILES_INFO: {}
+PKGSIZE_lighttpd-staticdev: 0

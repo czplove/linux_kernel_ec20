@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-mac-is: gconv module for character set mac-is
+SUMMARY_glibc-gconv-mac-is: gconv module for character set mac-is
+RDEPENDS_glibc-gconv-mac-is: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-mac-is: glibc-gconv-mac-is
+FILES_glibc-gconv-mac-is: /usr/lib/gconv/MAC-IS.so
+FILES_INFO: {"/usr/lib/gconv/MAC-IS.so": 9584}
+PKGSIZE_glibc-gconv-mac-is: 9584

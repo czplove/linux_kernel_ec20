@@ -1,0 +1,14 @@
+PN: loc-mcm-qmi-test-shim
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-qmi-test-shim-doc: MCM Location Type Conversion Library  This package contains documentation.
+SUMMARY_loc-mcm-qmi-test-shim-doc: loc-mcm-qmi-test-shim version git-invalidgit-r4 - Documentation files
+RPROVIDES_loc-mcm-qmi-test-shim-doc:  loc-mcm-qmi-test-shim-doc
+SECTION_loc-mcm-qmi-test-shim-doc: doc
+PKG_loc-mcm-qmi-test-shim-doc: libloc-mcm-qmi-test-shim-doc
+FILES_loc-mcm-qmi-test-shim-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-mcm-qmi-test-shim-doc: 0

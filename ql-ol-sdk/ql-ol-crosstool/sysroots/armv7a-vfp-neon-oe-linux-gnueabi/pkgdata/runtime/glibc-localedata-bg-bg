@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-bg-bg: locale definition for bg-bg
+SUMMARY_glibc-localedata-bg-bg: locale definition for bg-bg
+RDEPENDS_glibc-localedata-bg-bg: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-bg-bg: glibc-localedata-bg-bg
+FILES_glibc-localedata-bg-bg: /usr/share/i18n/locales/bg_BG
+FILES_INFO: {"/usr/share/i18n/locales/bg_BG": 8759}
+PKGSIZE_glibc-localedata-bg-bg: 8759

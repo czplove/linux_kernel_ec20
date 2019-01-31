@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-cjk-variants: locale definition for translit-cjk-variants
+SUMMARY_glibc-localedata-translit-cjk-variants: locale definition for translit-cjk-variants
+SECTION: base
+PKG_glibc-localedata-translit-cjk-variants: glibc-localedata-translit-cjk-variants
+FILES_glibc-localedata-translit-cjk-variants: /usr/share/i18n/locales/translit_cjk_variants
+FILES_INFO: {"/usr/share/i18n/locales/translit_cjk_variants": 162441}
+PKGSIZE_glibc-localedata-translit-cjk-variants: 162441

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sw-ke: locale definition for sw-ke
+SUMMARY_glibc-localedata-sw-ke: locale definition for sw-ke
+RDEPENDS_glibc-localedata-sw-ke: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-om-ke glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-sw-ke: glibc-localedata-sw-ke
+FILES_glibc-localedata-sw-ke: /usr/share/i18n/locales/sw_KE
+FILES_INFO: {"/usr/share/i18n/locales/sw_KE": 5311}
+PKGSIZE_glibc-localedata-sw-ke: 5311

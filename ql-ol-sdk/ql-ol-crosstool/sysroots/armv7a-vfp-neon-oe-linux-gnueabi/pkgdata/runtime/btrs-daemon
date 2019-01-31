@@ -1,0 +1,19 @@
+PN: btrs-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Bluetooth Remote Start DAEMON
+SUMMARY: btrs-daemon version git-invalidgit-r2
+RDEPENDS_btrs-daemon: libstdc++ (>= 4.9.2) data (>= git-invalidgit) glibc (>= 2.21) libgcc (>= 4.9.2)
+SECTION: base
+PKG_btrs-daemon: btrs-daemon
+FILES_btrs-daemon: /usr/bin/* /usr/sbin/* /usr/lib/btrs-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/btrs-daemon /usr/lib/btrs-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_btrs-daemon: /usr/bin/btrsdaemon
+FILES_INFO: {"/usr/bin/btrsdaemon": 9136, "/etc/init.d/btrsdaemon": 396}
+FILERPROVIDES_/usr/bin/btrsdaemon_btrs-daemon: elf(buildid) (= ad05c2cec236a1c6624fdcd4316c4212c9b582bc)
+FILERDEPENDSFLIST_btrs-daemon: /etc/init.d/btrsdaemon /usr/bin/btrsdaemon
+FILERDEPENDS_/etc/init.d/btrsdaemon_btrs-daemon: /bin/sh
+FILERDEPENDS_/usr/bin/btrsdaemon_btrs-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_btrs-daemon: 9532

@@ -1,0 +1,15 @@
+PN: pciutils
+PV: 3.3.0
+PR: r0
+PKGV: 3.3.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pciutils-dbg: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_pciutils-dbg: PCI utilities - Debugging files
+RRECOMMENDS_pciutils-dbg: libpci-dbg glibc-dbg zlib-dbg libkmod-dbg
+SECTION_pciutils-dbg: devel
+PKG_pciutils-dbg: pciutils-dbg
+ALLOW_EMPTY_pciutils-dbg: 1
+FILES_pciutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pciutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pciutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pciutils/pciutils/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/lspci": 10212, "/usr/sbin/.debug/setpci": 6617}
+PKGSIZE_pciutils-dbg: 16829

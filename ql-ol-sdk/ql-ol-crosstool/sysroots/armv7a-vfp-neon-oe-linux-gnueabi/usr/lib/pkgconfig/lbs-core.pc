@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: lbs-core
+Description: QTI GPS Location Core
+Version: @VERSION
+Libs: -L${libdir} -llbs_core
+Cflags: -I${includedir}/lbs-core

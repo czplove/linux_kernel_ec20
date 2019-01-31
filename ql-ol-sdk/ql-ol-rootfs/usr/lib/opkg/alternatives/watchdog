@@ -1,0 +1,2 @@
+/sbin/watchdog
+/bin/busybox 50

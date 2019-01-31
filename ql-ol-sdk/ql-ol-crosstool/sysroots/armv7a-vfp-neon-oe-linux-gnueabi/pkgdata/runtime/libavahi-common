@@ -1,0 +1,19 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.
+SUMMARY: Avahi IPv4LL network address configuration daemon
+RDEPENDS_libavahi-common: glibc (>= 2.21)
+RPROVIDES_libavahi-common:  libavahi-common
+SECTION: network
+PKG_libavahi-common: libavahi-common3
+FILES_libavahi-common: /usr/lib/libavahi-common.so.*
+FILERPROVIDESFLIST_libavahi-common: /usr/lib/libavahi-common.so.3.5.3
+FILES_INFO: {"/usr/lib/libavahi-common.so.3": 41440}
+FILERPROVIDES_/usr/lib/libavahi-common.so.3.5.3_libavahi-common: elf(buildid) (= 781adf1a562198cba356d2fef4bcec76c0be8b8b) libavahi-common.so.3
+FILERDEPENDSFLIST_libavahi-common: /usr/lib/libavahi-common.so.3.5.3
+FILERDEPENDS_/usr/lib/libavahi-common.so.3.5.3_libavahi-common: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libavahi-common: 41440

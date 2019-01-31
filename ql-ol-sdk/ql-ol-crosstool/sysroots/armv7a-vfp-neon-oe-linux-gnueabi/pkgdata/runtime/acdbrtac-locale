@@ -1,0 +1,14 @@
+PN: acdbrtac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb rtac Library
+SUMMARY: acdbrtac version git-invalidgit-r3
+RPROVIDES_acdbrtac-locale:  acdbrtac-locale
+SECTION: base
+PKG_acdbrtac-locale: libacdbrtac-locale
+FILES_acdbrtac-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_acdbrtac-locale: 0

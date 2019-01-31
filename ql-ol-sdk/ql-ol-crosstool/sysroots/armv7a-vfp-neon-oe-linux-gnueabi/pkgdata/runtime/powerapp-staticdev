@@ -1,0 +1,14 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION_powerapp-staticdev: Powerapp tools  This package contains static libraries for software development.
+SUMMARY_powerapp-staticdev: powerapp version git-r9 - Development files (Static Libraries)
+RDEPENDS_powerapp-staticdev: powerapp-dev (= git-r9)
+SECTION_powerapp-staticdev: devel
+PKG_powerapp-staticdev: powerapp-staticdev
+FILES_powerapp-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/powerapp/*.a
+FILES_INFO: {}
+PKGSIZE_powerapp-staticdev: 0

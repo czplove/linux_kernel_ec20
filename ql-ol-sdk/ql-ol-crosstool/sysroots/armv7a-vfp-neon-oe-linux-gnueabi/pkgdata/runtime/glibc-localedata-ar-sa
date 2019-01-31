@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-sa: locale definition for ar-sa
+SUMMARY_glibc-localedata-ar-sa: locale definition for ar-sa
+RDEPENDS_glibc-localedata-ar-sa: glibc-localedata-ar-eg
+SECTION: base
+PKG_glibc-localedata-ar-sa: glibc-localedata-ar-sa
+FILES_glibc-localedata-ar-sa: /usr/share/i18n/locales/ar_SA
+FILES_INFO: {"/usr/share/i18n/locales/ar_SA": 8797}
+PKGSIZE_glibc-localedata-ar-sa: 8797

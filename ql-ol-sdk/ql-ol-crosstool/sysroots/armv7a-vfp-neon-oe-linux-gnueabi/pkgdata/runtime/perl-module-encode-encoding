@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-encoding: perl module encode-encoding
+SUMMARY_perl-module-encode-encoding: perl module encode-encoding
+RDEPENDS_perl-module-encode-encoding: perl-module-carp perl-module-encode-mime-name perl-module-encode perl perl-module-warnings perl-module-strict
+RPROVIDES_perl-module-encode-encoding: perl-module-arm-oe-linux-gnueabi-encode-encoding
+SECTION: devel
+PKG_perl-module-encode-encoding: perl-module-encode-encoding
+FILES_perl-module-encode-encoding: /usr/lib/perl/5.20.0/Encode/Encoding.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/Encoding.pm": 9097}
+PKGSIZE_perl-module-encode-encoding: 9097

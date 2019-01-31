@@ -1,0 +1,13 @@
+PN: portal-gateway
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: portal-gateway version git-invalidgit-r1
+SECTION: base
+PKG_portal-gateway-locale: portal-gateway-locale
+FILES_portal-gateway-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_portal-gateway-locale: 0

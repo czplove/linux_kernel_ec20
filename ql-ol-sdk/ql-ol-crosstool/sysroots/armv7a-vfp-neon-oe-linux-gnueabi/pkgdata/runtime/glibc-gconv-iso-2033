@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-2033: gconv module for character set iso-2033
+SUMMARY_glibc-gconv-iso-2033: gconv module for character set iso-2033
+RDEPENDS_glibc-gconv-iso-2033: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso-2033: glibc-gconv-iso-2033
+FILES_glibc-gconv-iso-2033: /usr/lib/gconv/ISO_2033.so
+FILES_INFO: {"/usr/lib/gconv/ISO_2033.so": 9584}
+PKGSIZE_glibc-gconv-iso-2033: 9584

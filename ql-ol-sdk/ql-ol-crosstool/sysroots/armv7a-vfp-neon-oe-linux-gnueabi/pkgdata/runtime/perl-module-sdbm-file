@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-sdbm-file: perl module sdbm-file
+SUMMARY_perl-module-sdbm-file: perl module sdbm-file
+RDEPENDS_perl-module-sdbm-file: glibc (>= 2.21) perl-module-warnings perl perl-module-exporter perl-module-strict perl-module-xsloader perl-module-tie-hash
+SECTION: devel
+PKG_perl-module-sdbm-file: perl-module-sdbm-file
+FILES_perl-module-sdbm-file: /usr/lib/perl/5.20.0/auto/SDBM_File/SDBM_File.so /usr/lib/perl/5.20.0/SDBM_File.pm
+FILERPROVIDESFLIST_perl-module-sdbm-file: /usr/lib/perl/5.20.0/auto/SDBM@underscore@File/SDBM@underscore@File.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/SDBM_File/SDBM_File.so": 21556, "/usr/lib/perl/5.20.0/SDBM_File.pm": 3541}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/SDBM@underscore@File/SDBM@underscore@File.so_perl-module-sdbm-file: SDBM_File.so elf(buildid) (= 3b3ff1e644ec30c5086b112bfe92e6fe4da52222)
+FILERDEPENDSFLIST_perl-module-sdbm-file: /usr/lib/perl/5.20.0/auto/SDBM@underscore@File/SDBM@underscore@File.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/SDBM@underscore@File/SDBM@underscore@File.so_perl-module-sdbm-file: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-sdbm-file: 25097

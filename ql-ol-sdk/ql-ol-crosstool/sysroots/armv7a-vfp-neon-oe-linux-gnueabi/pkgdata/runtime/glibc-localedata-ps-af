@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ps-af: locale definition for ps-af
+SUMMARY_glibc-localedata-ps-af: locale definition for ps-af
+RDEPENDS_glibc-localedata-ps-af: glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ps-af: glibc-localedata-ps-af
+FILES_glibc-localedata-ps-af: /usr/share/i18n/locales/ps_AF
+FILES_INFO: {"/usr/share/i18n/locales/ps_AF": 7635}
+PKGSIZE_glibc-localedata-ps-af: 7635

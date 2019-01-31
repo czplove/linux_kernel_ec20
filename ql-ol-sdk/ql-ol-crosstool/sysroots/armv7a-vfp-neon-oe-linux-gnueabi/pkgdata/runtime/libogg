@@ -1,0 +1,19 @@
+PN: libogg
+PV: 1.3.0
+PR: r2
+PKGV: 1.3.0
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION: Multimedia container format..
+SUMMARY: Multimedia container format.
+RDEPENDS_libogg: glibc (>= 2.21)
+RPROVIDES_libogg:  libogg
+SECTION: base
+PKG_libogg: libogg0
+FILES_libogg: /usr/bin/* /usr/sbin/* /usr/lib/libogg/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libogg /usr/lib/libogg/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/*
+FILERPROVIDESFLIST_libogg: /lib/libogg.so.0.8.0
+FILES_INFO: {"/lib/libogg.so.0.8.0": 17192, "/lib/pkgconfig/ogg.pc": 245, "/lib/libogg.so.0": 15, "/lib/libogg.la": 899, "/lib/libogg.so": 15}
+FILERPROVIDES_/lib/libogg.so.0.8.0_libogg: elf(buildid) (= cec075779f0db494fe3abb48f8f94ed4f66e49f5) libogg.so.0
+FILERDEPENDSFLIST_libogg: /lib/libogg.so.0.8.0
+FILERDEPENDS_/lib/libogg.so.0.8.0_libogg: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libogg: 18366

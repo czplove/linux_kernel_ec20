@@ -1,0 +1,15 @@
+PN: ath6kl-utils
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ath6kl-utils-dbg: Qualcomm Atheros ath6kl utils.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ath6kl-utils-dbg: ath6kl-utils version git-invalidgit-r2 - Debugging files
+RRECOMMENDS_ath6kl-utils-dbg: glibc-dbg libnl-genl-dbg libnl-dbg glib-2.0-dbg
+SECTION_ath6kl-utils-dbg: devel
+PKG_ath6kl-utils-dbg: ath6kl-utils-dbg
+ALLOW_EMPTY_ath6kl-utils-dbg: 1
+FILES_ath6kl-utils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ath6kl-utils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ath6kl-utils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ath6kl-utils/ath6kl-utils/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/myftm": 185318}
+PKGSIZE_ath6kl-utils-dbg: 185318

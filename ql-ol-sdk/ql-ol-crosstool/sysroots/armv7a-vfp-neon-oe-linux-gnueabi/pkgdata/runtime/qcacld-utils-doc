@@ -1,0 +1,13 @@
+PN: qcacld-utils
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qcacld-utils-doc: Qualcomm Atheros WLAN CLD utils  This package contains documentation.
+SUMMARY_qcacld-utils-doc: qcacld-utils version git-invalidgit-r0 - Documentation files
+SECTION_qcacld-utils-doc: doc
+PKG_qcacld-utils-doc: qcacld-utils-doc
+FILES_qcacld-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qcacld-utils-doc: 0

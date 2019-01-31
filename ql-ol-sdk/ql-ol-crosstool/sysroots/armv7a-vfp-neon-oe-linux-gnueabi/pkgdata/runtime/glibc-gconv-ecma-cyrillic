@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ecma-cyrillic: gconv module for character set ecma-cyrillic
+SUMMARY_glibc-gconv-ecma-cyrillic: gconv module for character set ecma-cyrillic
+RDEPENDS_glibc-gconv-ecma-cyrillic: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ecma-cyrillic: glibc-gconv-ecma-cyrillic
+FILES_glibc-gconv-ecma-cyrillic: /usr/lib/gconv/ECMA-CYRILLIC.so
+FILES_INFO: {"/usr/lib/gconv/ECMA-CYRILLIC.so": 9592}
+PKGSIZE_glibc-gconv-ecma-cyrillic: 9592

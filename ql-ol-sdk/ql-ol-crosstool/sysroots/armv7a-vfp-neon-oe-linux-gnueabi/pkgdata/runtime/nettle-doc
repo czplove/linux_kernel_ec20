@@ -1,0 +1,13 @@
+PN: nettle
+PV: 2.7.1
+PR: r0
+PKGV: 2.7.1
+PKGR: r0
+LICENSE: LGPLv2.1 & GPLv2
+DESCRIPTION_nettle-doc: A low level cryptographic library.  This package contains documentation.
+SUMMARY_nettle-doc: A low level cryptographic library - Documentation files
+SECTION_nettle-doc: doc
+PKG_nettle-doc: nettle-doc
+FILES_nettle-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/nettle.info": 180153}
+PKGSIZE_nettle-doc: 180153

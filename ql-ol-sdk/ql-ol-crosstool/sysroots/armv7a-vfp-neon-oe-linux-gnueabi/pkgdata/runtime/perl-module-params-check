@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-params-check: perl module params-check
+SUMMARY_perl-module-params-check: perl module params-check
+RDEPENDS_perl-module-params-check: perl-module-carp perl-module-locale-maketext-simple perl-module-vars perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-params-check: perl-module-params-check
+FILES_perl-module-params-check: /usr/lib/perl/5.20.0/Params/Check.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Params/Check.pm": 19330}
+PKGSIZE_perl-module-params-check: 19330

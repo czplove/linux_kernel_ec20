@@ -1,0 +1,15 @@
+PN: loc-mcm-type-conv
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-type-conv-staticdev: MCM Location Type Conversion Library  This package contains static libraries for software development.
+SUMMARY_loc-mcm-type-conv-staticdev: loc-mcm-type-conv version git-invalidgit-r4 - Development files (Static Libraries)
+RDEPENDS_loc-mcm-type-conv-staticdev: loc-mcm-type-conv-dev (= git-invalidgit-r4)
+RPROVIDES_loc-mcm-type-conv-staticdev:  loc-mcm-type-conv-staticdev
+SECTION_loc-mcm-type-conv-staticdev: devel
+PKG_loc-mcm-type-conv-staticdev: libloc-mcm-type-conv-staticdev
+FILES_loc-mcm-type-conv-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-mcm-type-conv/*.a
+FILES_INFO: {}
+PKGSIZE_loc-mcm-type-conv-staticdev: 0

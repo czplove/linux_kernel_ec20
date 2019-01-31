@@ -1,0 +1,21 @@
+PN: run-postinsts
+PV: 1.0
+PR: r9
+PKGV: 1.0
+PKGR: r9
+LICENSE: MIT
+DESCRIPTION: Runs postinstall scripts on first boot of the target device.
+SUMMARY: Runs postinstall scripts on first boot of the target device
+RRECOMMENDS_run-postinsts:  update-rc.d
+SECTION: devel
+PKG_run-postinsts: run-postinsts
+FILES_run-postinsts: /usr/bin/* /usr/sbin/* /usr/lib/run-postinsts/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/run-postinsts /usr/lib/run-postinsts/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_run-postinsts: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT run-postinsts start 99 S .\nfi\n
+pkg_postrm_run-postinsts: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT run-postinsts remove\nfi\n
+pkg_preinst_run-postinsts: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/run-postinsts" ]; then\n\t/etc/init.d/run-postinsts stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT run-postinsts remove\nfi\n
+pkg_prerm_run-postinsts: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/run-postinsts stop\nfi\n
+FILES_INFO: {"/etc/init.d/run-postinsts": 25, "/usr/sbin/run-postinsts": 1657}
+FILERDEPENDSFLIST_run-postinsts: /etc/init.d/run-postinsts /usr/sbin/run-postinsts
+FILERDEPENDS_/etc/init.d/run-postinsts_run-postinsts: /bin/sh
+FILERDEPENDS_/usr/sbin/run-postinsts_run-postinsts: /bin/sh
+PKGSIZE_run-postinsts: 1682

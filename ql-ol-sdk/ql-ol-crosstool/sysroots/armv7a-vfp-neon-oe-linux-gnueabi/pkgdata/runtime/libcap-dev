@@ -1,0 +1,16 @@
+PN: libcap
+PV: 2.24
+PR: r0
+PKGV: 2.24
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION_libcap-dev: Library for getting/setting POSIX.1e capabilities.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libcap-dev: Library for getting/setting POSIX.1e capabilities - Development files
+RDEPENDS_libcap-dev: libcap (= 2.24-r0)
+RRECOMMENDS_libcap-dev: libattr-dev attr-dev glibc-dev
+SECTION_libcap-dev: devel
+PKG_libcap-dev: libcap-dev
+ALLOW_EMPTY_libcap-dev: 1
+FILES_libcap-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libcap/*.la /lib/*.la /lib/*.so
+FILES_INFO: {"/lib/libcap.so": 11, "/usr/lib/pkgconfig/libcap.pc": 186, "/usr/include/sys/capability.h": 3322}
+PKGSIZE_libcap-dev: 3519

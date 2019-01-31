@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-zlib: Python zlib compression support
+RDEPENDS_python-zlib: python-core glibc (>= 2.21) zlib (>= 1.2.8) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-zlib: python-zlib
+FILES_python-zlib: /usr/lib/python2.7/lib-dynload/zlib.so 
+FILERPROVIDESFLIST_python-zlib: /usr/lib/python2.7/lib-dynload/zlib.so
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/zlib.so": 21896}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/zlib.so_python-zlib: elf(buildid) (= 469b3ec13363b220fbe3ba0223a63f4f38a83150) zlib.so
+FILERDEPENDSFLIST_python-zlib: /usr/lib/python2.7/lib-dynload/zlib.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/zlib.so_python-zlib: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 libz.so.1 libz.so.1(ZLIB_1.2.0) rtld(GNU_HASH)
+PKGSIZE_python-zlib: 21896

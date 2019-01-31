@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-cwd: perl module cwd
+SUMMARY_perl-module-cwd: perl module cwd
+RDEPENDS_perl-module-cwd: perl-module-dynaloader glibc (>= 2.21) perl-module-vars perl-module-file-spec perl-module-xsloader perl-module-exporter perl-module-strict perl
+SECTION: devel
+PKG_perl-module-cwd: perl-module-cwd
+FILES_perl-module-cwd: /usr/lib/perl/5.20.0/auto/Cwd/Cwd.so /usr/lib/perl/5.20.0/Cwd.pm
+FILERPROVIDESFLIST_perl-module-cwd: /usr/lib/perl/5.20.0/auto/Cwd/Cwd.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Cwd.pm": 22398, "/usr/lib/perl/5.20.0/auto/Cwd/Cwd.so": 11752}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Cwd/Cwd.so_perl-module-cwd: Cwd.so elf(buildid) (= 18f478b8685cd8b207f77f404d13f55502e7c545)
+FILERDEPENDSFLIST_perl-module-cwd: /usr/lib/perl/5.20.0/auto/Cwd/Cwd.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Cwd/Cwd.so_perl-module-cwd: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-cwd: 34150

@@ -1,0 +1,13 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION_powerapp-doc: Powerapp tools  This package contains documentation.
+SUMMARY_powerapp-doc: powerapp version git-r9 - Documentation files
+SECTION_powerapp-doc: doc
+PKG_powerapp-doc: powerapp-doc
+FILES_powerapp-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_powerapp-doc: 0

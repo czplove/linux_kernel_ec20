@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-iso-6937: character map for iso-6937 encoding
+SUMMARY_glibc-charmap-iso-6937: character map for iso-6937 encoding
+SECTION: base
+PKG_glibc-charmap-iso-6937: glibc-charmap-iso-6937
+FILES_glibc-charmap-iso-6937: /usr/share/i18n/charmaps/ISO_6937.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ISO_6937.gz": 4638}
+PKGSIZE_glibc-charmap-iso-6937: 4638

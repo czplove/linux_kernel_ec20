@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-libphy: libphy kernel module; PHY library
+SUMMARY_kernel-module-libphy: libphy kernel module
+RDEPENDS_kernel-module-libphy: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-libphy: kernel-module-libphy
+FILES_kernel-module-libphy: /lib/modules/3.18.20/kernel/drivers/net/phy/libphy.ko /etc/modules-load.d/libphy.conf /etc/modprobe.d/libphy.conf
+pkg_postinst_kernel-module-libphy: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-libphy: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/net/phy/libphy.ko": 38932}
+PKGSIZE_kernel-module-libphy: 38932

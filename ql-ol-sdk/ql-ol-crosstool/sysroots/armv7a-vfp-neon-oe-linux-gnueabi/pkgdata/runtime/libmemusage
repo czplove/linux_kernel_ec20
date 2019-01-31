@@ -1,0 +1,18 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_libmemusage: glibc (>= 2.21)
+SECTION: libs
+PKG_libmemusage: libmemusage
+FILES_libmemusage: /lib/libmemusage.so
+FILERPROVIDESFLIST_libmemusage: /lib/libmemusage.so
+FILES_INFO: {"/lib/libmemusage.so": 17916}
+FILERPROVIDES_/lib/libmemusage.so_libmemusage: libmemusage.so
+FILERDEPENDSFLIST_libmemusage: /lib/libmemusage.so
+FILERDEPENDS_/lib/libmemusage.so_libmemusage: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4)
+PKGSIZE_libmemusage: 17916

@@ -1,0 +1,31 @@
+#! /bin/sh
+#
+#Copyright (c) 2011-2013 Qualcomm Technologies, Inc.  All Rights Reserved.
+#Qualcomm Technologies Proprietary and Confidential.
+
+# MCM Data Service  init.d script to start the Data Software's mcm_data_srv daemon
+
+set -e
+
+case "$1" in
+  start)
+        echo -n "Starting MCM Data Services: "
+        start-stop-daemon -S -b -a mcm_data_srv
+        echo "done"
+        ;;
+  stop)
+        echo -n "Stopping MCM Data Services: "
+        start-stop-daemon -K -n mcm_data_srv
+        echo "done"
+        ;;
+  restart)
+        $0 stop
+        $0 start
+        ;;
+  *)
+        echo "Usage mcm_data_srv { start | stop | restart}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

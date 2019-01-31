@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-archive-tar: perl module archive-tar
+SUMMARY_perl-module-archive-tar: perl module archive-tar
+RDEPENDS_perl-module-archive-tar: perl-module-carp perl-module-io-zlib perl-module-file-path perl-module-config perl-module-archive-tar-file perl-module-vars perl-module-file-spec perl perl-module-archive-tar-constant perl-module-exporter perl-module-io-file perl-module-strict perl-module-file-spec-unix perl-module-cwd
+SECTION: devel
+PKG_perl-module-archive-tar: perl-module-archive-tar
+FILES_perl-module-archive-tar: /usr/lib/perl/5.20.0/Archive/Tar.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Archive/Tar.pm": 74776}
+PKGSIZE_perl-module-archive-tar: 74776

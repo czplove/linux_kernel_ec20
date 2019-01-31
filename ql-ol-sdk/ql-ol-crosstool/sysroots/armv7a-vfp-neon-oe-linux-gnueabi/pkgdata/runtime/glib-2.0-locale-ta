@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ta: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ta locale.
+SUMMARY_glib-2.0-locale-ta: A general-purpose utility library - ta translations
+RPROVIDES_glib-2.0-locale-ta: glib-2.0-locale ta-translation glib-2.0-locale-ta
+RRECOMMENDS_glib-2.0-locale-ta: virtual-locale-ta
+SECTION: libs
+PKG_glib-2.0-locale-ta: libglib-2.0-locale-ta
+FILES_glib-2.0-locale-ta: /usr/share/locale/ta
+FILES_INFO: {"/usr/share/locale/ta/LC_MESSAGES/glib20.mo": 159502}
+PKGSIZE_glib-2.0-locale-ta: 159502

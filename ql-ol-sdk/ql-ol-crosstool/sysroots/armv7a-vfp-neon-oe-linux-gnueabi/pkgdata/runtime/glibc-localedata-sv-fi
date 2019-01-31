@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sv-fi: locale definition for sv-fi
+SUMMARY_glibc-localedata-sv-fi: locale definition for sv-fi
+RDEPENDS_glibc-localedata-sv-fi: glibc-localedata-sv-se glibc-localedata-fi-fi
+SECTION: base
+PKG_glibc-localedata-sv-fi: glibc-localedata-sv-fi
+FILES_glibc-localedata-sv-fi: /usr/share/i18n/locales/sv_FI
+FILES_INFO: {"/usr/share/i18n/locales/sv_FI": 4553}
+PKGSIZE_glibc-localedata-sv-fi: 4553

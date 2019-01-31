@@ -1,0 +1,16 @@
+PN: libnl
+PE: 1
+PV: 3.2.25
+PR: r1
+PKGE: 1
+PKGV: 3.2.25
+PKGR: r1
+LICENSE: LGPLv2.1
+DESCRIPTION: A library for applications dealing with netlink sockets.
+SUMMARY: A library for applications dealing with netlink sockets
+RPROVIDES_libnl-locale:  libnl-locale
+SECTION: libs/network
+PKG_libnl-locale: libnl-3-locale
+FILES_libnl-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libnl-locale: 0

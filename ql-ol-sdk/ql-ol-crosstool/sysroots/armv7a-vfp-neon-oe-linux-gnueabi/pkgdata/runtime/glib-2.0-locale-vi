@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-vi: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the vi locale.
+SUMMARY_glib-2.0-locale-vi: A general-purpose utility library - vi translations
+RPROVIDES_glib-2.0-locale-vi: glib-2.0-locale vi-translation glib-2.0-locale-vi
+RRECOMMENDS_glib-2.0-locale-vi: virtual-locale-vi
+SECTION: libs
+PKG_glib-2.0-locale-vi: libglib-2.0-locale-vi
+FILES_glib-2.0-locale-vi: /usr/share/locale/vi
+FILES_INFO: {"/usr/share/locale/vi/LC_MESSAGES/glib20.mo": 100123}
+PKGSIZE_glib-2.0-locale-vi: 100123

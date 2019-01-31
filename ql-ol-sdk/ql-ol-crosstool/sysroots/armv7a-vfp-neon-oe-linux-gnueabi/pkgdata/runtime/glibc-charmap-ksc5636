@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ksc5636: character map for ksc5636 encoding
+SUMMARY_glibc-charmap-ksc5636: character map for ksc5636 encoding
+SECTION: base
+PKG_glibc-charmap-ksc5636: glibc-charmap-ksc5636
+FILES_glibc-charmap-ksc5636: /usr/share/i18n/charmaps/KSC5636.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/KSC5636.gz": 1524}
+PKGSIZE_glibc-charmap-ksc5636: 1524

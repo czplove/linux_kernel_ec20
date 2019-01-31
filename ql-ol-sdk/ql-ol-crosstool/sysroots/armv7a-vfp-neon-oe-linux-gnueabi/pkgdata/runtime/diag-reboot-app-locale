@@ -1,0 +1,13 @@
+PN: diag-reboot-app
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Reboot Diag
+SUMMARY: diag-reboot-app version git-invalidgit-r5
+SECTION: base
+PKG_diag-reboot-app-locale: diag-reboot-app-locale
+FILES_diag-reboot-app-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_diag-reboot-app-locale: 0

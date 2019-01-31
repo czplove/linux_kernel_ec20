@@ -1,0 +1,14 @@
+PN: emac
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_emac-dbg: emac init.d script  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_emac-dbg: emac version git-r0 - Debugging files
+SECTION_emac-dbg: devel
+PKG_emac-dbg: emac-dbg
+ALLOW_EMPTY_emac-dbg: 1
+FILES_emac-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/emac/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/emac/.debug /usr/lib/matchbox-panel/.debug /usr/lib/emac/emac/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_emac-dbg: 0

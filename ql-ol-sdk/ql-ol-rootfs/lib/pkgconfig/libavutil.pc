@@ -1,0 +1,14 @@
+prefix=/lib
+exec_prefix=${prefix}
+libdir=/lib
+includedir=/usr/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 52.92.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm
+Cflags: -I${includedir}

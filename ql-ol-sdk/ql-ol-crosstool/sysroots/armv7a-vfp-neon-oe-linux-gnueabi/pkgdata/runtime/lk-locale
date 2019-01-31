@@ -1,0 +1,13 @@
+PN: lk
+PV: git
+PR: r15
+PKGV: git
+PKGR: r15
+LICENSE: MIT
+DESCRIPTION: Little Kernel bootloader
+SUMMARY: lk version git-r15
+SECTION: base
+PKG_lk-locale: lk-locale
+FILES_lk-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lk-locale: 0

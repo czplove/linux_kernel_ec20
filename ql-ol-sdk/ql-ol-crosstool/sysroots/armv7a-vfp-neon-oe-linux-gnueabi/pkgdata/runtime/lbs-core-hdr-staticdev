@@ -1,0 +1,14 @@
+PN: lbs-core-hdr
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-hdr-staticdev: LBS Core hdr  This package contains static libraries for software development.
+SUMMARY_lbs-core-hdr-staticdev: lbs-core-hdr version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_lbs-core-hdr-staticdev: lbs-core-hdr-dev (= git-invalidgit-r1)
+SECTION_lbs-core-hdr-staticdev: devel
+PKG_lbs-core-hdr-staticdev: lbs-core-hdr-staticdev
+FILES_lbs-core-hdr-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lbs-core-hdr/*.a
+FILES_INFO: {}
+PKGSIZE_lbs-core-hdr-staticdev: 0

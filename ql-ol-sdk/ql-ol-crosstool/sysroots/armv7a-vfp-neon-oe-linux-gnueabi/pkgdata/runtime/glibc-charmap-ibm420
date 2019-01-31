@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm420: character map for ibm420 encoding
+SUMMARY_glibc-charmap-ibm420: character map for ibm420 encoding
+SECTION: base
+PKG_glibc-charmap-ibm420: glibc-charmap-ibm420
+FILES_glibc-charmap-ibm420: /usr/share/i18n/charmaps/IBM420.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM420.gz": 2982}
+PKGSIZE_glibc-charmap-ibm420: 2982

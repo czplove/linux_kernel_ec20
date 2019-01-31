@@ -1,0 +1,13 @@
+PN: mcmlocserver
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcmlocserver-doc: MCM Location Server  This package contains documentation.
+SUMMARY_mcmlocserver-doc: mcmlocserver version git-invalidgit-r5 - Documentation files
+SECTION_mcmlocserver-doc: doc
+PKG_mcmlocserver-doc: mcmlocserver-doc
+FILES_mcmlocserver-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_mcmlocserver-doc: 0

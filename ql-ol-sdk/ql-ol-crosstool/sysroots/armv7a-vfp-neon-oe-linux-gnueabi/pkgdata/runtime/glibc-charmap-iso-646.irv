@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-iso-646.irv: character map for iso-646.irv encoding
+SUMMARY_glibc-charmap-iso-646.irv: character map for iso-646.irv encoding
+SECTION: base
+PKG_glibc-charmap-iso-646.irv: glibc-charmap-iso-646.irv
+FILES_glibc-charmap-iso-646.irv: /usr/share/i18n/charmaps/ISO_646.IRV.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ISO_646.IRV.gz": 1571}
+PKGSIZE_glibc-charmap-iso-646.irv: 1571

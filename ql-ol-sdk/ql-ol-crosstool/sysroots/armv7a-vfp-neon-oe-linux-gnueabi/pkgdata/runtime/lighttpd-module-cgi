@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-cgi: Lighttpd module for cgi
+SUMMARY_lighttpd-module-cgi: Lighttpd module for cgi
+RDEPENDS_lighttpd-module-cgi: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-cgi: lighttpd-module-cgi
+FILES_lighttpd-module-cgi: /usr/lib/mod_cgi.so
+FILERPROVIDESFLIST_lighttpd-module-cgi: /usr/lib/mod@underscore@cgi.so
+FILES_INFO: {"/usr/lib/mod_cgi.so": 18628}
+FILERPROVIDES_/usr/lib/mod@underscore@cgi.so_lighttpd-module-cgi: elf(buildid) (= 545f5c1cdca2a86909aac73e757d8ed367b3a0d5) mod_cgi.so
+FILERDEPENDSFLIST_lighttpd-module-cgi: /usr/lib/mod@underscore@cgi.so
+FILERDEPENDS_/usr/lib/mod@underscore@cgi.so_lighttpd-module-cgi: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-cgi: 18628

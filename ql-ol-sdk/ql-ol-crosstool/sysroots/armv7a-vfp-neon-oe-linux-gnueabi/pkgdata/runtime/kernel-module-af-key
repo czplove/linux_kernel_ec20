@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-af-key: af-key kernel module
+SUMMARY_kernel-module-af-key: af-key kernel module
+RDEPENDS_kernel-module-af-key: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-af-key: kernel-module-af-key
+FILES_kernel-module-af-key: /lib/modules/3.18.20/kernel/net/key/af_key.ko /etc/modules-load.d/af_key.conf /etc/modprobe.d/af_key.conf
+pkg_postinst_kernel-module-af-key: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-af-key: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/net/key/af_key.ko": 44976}
+PKGSIZE_kernel-module-af-key: 44976

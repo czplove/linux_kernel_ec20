@@ -1,0 +1,13 @@
+PN: time-services
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_time-services-doc: Time Services Daemon  This package contains documentation.
+SUMMARY_time-services-doc: time-services version git-invalidgit-r9 - Documentation files
+SECTION_time-services-doc: doc
+PKG_time-services-doc: time-services-doc
+FILES_time-services-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_time-services-doc: 0

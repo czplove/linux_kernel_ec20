@@ -1,0 +1,19 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libticw: ncurses ticw library
+SUMMARY_ncurses-libticw: ncurses ticw library
+RDEPENDS_ncurses-libticw: glibc (>= 2.21) ncurses-libtinfo (>= 5.9)
+RPROVIDES_ncurses-libticw:  ncurses-libticw
+SECTION: libs
+PKG_ncurses-libticw: libticw5
+FILES_ncurses-libticw: /usr/lib/libticw.so.5 /usr/lib/libticw.so.5.9
+FILERPROVIDESFLIST_ncurses-libticw: /usr/lib/libticw.so.5.9
+FILES_INFO: {"/usr/lib/libticw.so.5": 48004}
+FILERPROVIDES_/usr/lib/libticw.so.5.9_ncurses-libticw: elf(buildid) (= 481b4fda7e9113d657ed2d0085b74a158196ad4e) libticw.so.5
+FILERDEPENDSFLIST_ncurses-libticw: /usr/lib/libticw.so.5.9
+FILERDEPENDS_/usr/lib/libticw.so.5.9_ncurses-libticw: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libticw: 48004

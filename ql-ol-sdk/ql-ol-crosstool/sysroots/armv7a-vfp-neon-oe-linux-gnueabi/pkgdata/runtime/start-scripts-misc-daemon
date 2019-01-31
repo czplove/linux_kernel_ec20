@@ -1,0 +1,20 @@
+PN: start-scripts-misc-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Start up script for misc daemons
+SUMMARY: start-scripts-misc-daemon version git-invalidgit-r2
+RRECOMMENDS_start-scripts-misc-daemon:  update-rc.d
+SECTION: base
+PKG_start-scripts-misc-daemon: start-scripts-misc-daemon
+FILES_start-scripts-misc-daemon: /usr/bin/* /usr/sbin/* /usr/lib/start-scripts-misc-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/start-scripts-misc-daemon /usr/lib/start-scripts-misc-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_start-scripts-misc-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT misc-daemon start 98 5 . stop 2 0 1 6 .\nfi\n
+pkg_postrm_start-scripts-misc-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT misc-daemon remove\nfi\n
+pkg_preinst_start-scripts-misc-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/misc-daemon" ]; then\n\t/etc/init.d/misc-daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT misc-daemon remove\nfi\n
+pkg_prerm_start-scripts-misc-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/misc-daemon stop\nfi\n
+FILES_INFO: {"/etc/init.d/misc-daemon": 2006}
+FILERDEPENDSFLIST_start-scripts-misc-daemon: /etc/init.d/misc-daemon
+FILERDEPENDS_/etc/init.d/misc-daemon_start-scripts-misc-daemon: /bin/sh
+PKGSIZE_start-scripts-misc-daemon: 2006

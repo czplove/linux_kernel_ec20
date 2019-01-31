@@ -1,0 +1,19 @@
+PN: loc-mcm-type-conv
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Type Conversion Library
+SUMMARY: loc-mcm-type-conv version git-invalidgit-r4
+RDEPENDS_loc-mcm-type-conv: libstdc++ (>= 4.9.2) mcm-core (>= git-invalidgit) diag (>= git-invalidgit) glibc (>= 2.21) ql-syslog (>= git-invalidgit) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) time-genoff (>= git-invalidgit)
+RPROVIDES_loc-mcm-type-conv:  loc-mcm-type-conv
+SECTION: base
+PKG_loc-mcm-type-conv: libloc-mcm-type-conv1
+FILES_loc-mcm-type-conv: /usr/bin/* /usr/sbin/* /usr/lib/loc-mcm-type-conv/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-mcm-type-conv /usr/lib/loc-mcm-type-conv/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-mcm-type-conv: /usr/lib/libloc@underscore@mcm@underscore@type@underscore@conv.so.1.0.0
+FILES_INFO: {"/usr/lib/libloc_mcm_type_conv.so.1": 8528}
+FILERPROVIDES_/usr/lib/libloc@underscore@mcm@underscore@type@underscore@conv.so.1.0.0_loc-mcm-type-conv: elf(buildid) (= 0086c0ee20c44ede636d29504a40d682cab164ab) libloc_mcm_type_conv.so.1
+FILERDEPENDSFLIST_loc-mcm-type-conv: /usr/lib/libloc@underscore@mcm@underscore@type@underscore@conv.so.1.0.0
+FILERDEPENDS_/usr/lib/libloc@underscore@mcm@underscore@type@underscore@conv.so.1.0.0_loc-mcm-type-conv: libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libmcm.so.0 libmcm_log_util.so.0 libmcmipc.so.0 libpthread.so.0 libql_sys_log.so.1 libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 libstdc++.so.6 libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_loc-mcm-type-conv: 8528

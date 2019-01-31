@@ -1,0 +1,16 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.
+SUMMARY: A general-purpose utility library
+RPROVIDES_glib-2.0-codegen:  glib-2.0-codegen
+SECTION: libs
+PKG_glib-2.0-codegen: libglib-2.0-codegen
+FILES_glib-2.0-codegen: /usr/share/glib-2.0/codegen/*.py
+FILES_INFO: {"/usr/share/glib-2.0/codegen/parser.py": 12540, "/usr/share/glib-2.0/codegen/codegen.py": 190241, "/usr/share/glib-2.0/codegen/dbustypes.py": 17493, "/usr/share/glib-2.0/codegen/config.py": 897, "/usr/share/glib-2.0/codegen/__init__.py": 982, "/usr/share/glib-2.0/codegen/utils.py": 2749, "/usr/share/glib-2.0/codegen/codegen_docbook.py": 16240, "/usr/share/glib-2.0/codegen/codegen_main.py": 7371}
+PKGSIZE_glib-2.0-codegen: 248513

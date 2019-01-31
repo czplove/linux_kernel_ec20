@@ -1,0 +1,13 @@
+PN: iw
+PV: 3.6
+PR: r1
+PKGV: 3.6
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_iw-doc: iw is a new nl80211 based CLI configuration utility for                wireless devices. It supports almost all new drivers that have been added                to the kernel recently.   This package contains documentation.
+SUMMARY_iw-doc: nl80211 based CLI configuration utility for wireless devices - Documentation files
+SECTION_iw-doc: doc
+PKG_iw-doc: iw-doc
+FILES_iw-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/iw.8.gz": 608}
+PKGSIZE_iw-doc: 608

@@ -1,0 +1,13 @@
+PN: open-source-kernel-tests
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: BSD
+DESCRIPTION_open-source-kernel-tests-doc: Open Source kernel tests  This package contains documentation.
+SUMMARY_open-source-kernel-tests-doc: open-source-kernel-tests version git-r6 - Documentation files
+SECTION_open-source-kernel-tests-doc: doc
+PKG_open-source-kernel-tests-doc: open-source-kernel-tests-doc
+FILES_open-source-kernel-tests-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_open-source-kernel-tests-doc: 0

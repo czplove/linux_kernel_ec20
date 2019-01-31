@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-es: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the es locale.
+SUMMARY_attr-locale-es: Utilities for manipulating filesystem extended attributes - es translations
+RPROVIDES_attr-locale-es: attr-locale es-translation
+RRECOMMENDS_attr-locale-es: virtual-locale-es
+SECTION: libs
+PKG_attr-locale-es: attr-locale-es
+FILES_attr-locale-es: /usr/share/locale/es
+FILES_INFO: {"/usr/share/locale/es/LC_MESSAGES/attr.mo": 6170}
+PKGSIZE_attr-locale-es: 6170

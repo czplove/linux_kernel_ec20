@@ -1,0 +1,13 @@
+PN: ath6kl-utils
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ath6kl-utils-doc: Qualcomm Atheros ath6kl utils.  This package contains documentation.
+SUMMARY_ath6kl-utils-doc: ath6kl-utils version git-invalidgit-r2 - Documentation files
+SECTION_ath6kl-utils-doc: doc
+PKG_ath6kl-utils-doc: ath6kl-utils-doc
+FILES_ath6kl-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ath6kl-utils-doc: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-euc-jp: character map for euc-jp encoding
+SUMMARY_glibc-charmap-euc-jp: character map for euc-jp encoding
+SECTION: base
+PKG_glibc-charmap-euc-jp: glibc-charmap-euc-jp
+FILES_glibc-charmap-euc-jp: /usr/share/i18n/charmaps/EUC-JP.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EUC-JP.gz": 73802}
+PKGSIZE_glibc-charmap-euc-jp: 73802

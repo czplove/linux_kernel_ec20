@@ -1,0 +1,15 @@
+PN: zlib
+PV: 1.2.8
+PR: r0
+PKGV: 1.2.8
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION_zlib-staticdev: Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.  This package contains static libraries for software development.
+SUMMARY_zlib-staticdev: Zlib Compression Library - Development files (Static Libraries)
+RDEPENDS_zlib-staticdev: zlib-dev (= 1.2.8-r0)
+RPROVIDES_zlib-staticdev:  zlib-staticdev
+SECTION_zlib-staticdev: devel
+PKG_zlib-staticdev: libz-staticdev
+FILES_zlib-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/zlib/*.a
+FILES_INFO: {"/usr/lib/libz.a": 91534}
+PKGSIZE_zlib-staticdev: 91534

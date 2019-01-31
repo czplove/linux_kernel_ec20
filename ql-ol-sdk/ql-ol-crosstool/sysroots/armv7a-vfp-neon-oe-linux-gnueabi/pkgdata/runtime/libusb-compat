@@ -1,0 +1,21 @@
+PN: libusb-compat
+PE: 1
+PV: 0.1.5
+PR: r0
+PKGE: 1
+PKGV: 0.1.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1
+SUMMARY: libusb-0.1 compatibility layer for libusb1
+RDEPENDS_libusb-compat: libusb1 (>= 1.0.19) glibc (>= 2.21)
+RPROVIDES_libusb-compat:  libusb-compat
+SECTION: libs
+PKG_libusb-compat: libusb-0.1-4
+FILES_libusb-compat: /usr/bin/* /usr/sbin/* /usr/lib/libusb-compat/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libusb-compat /usr/lib/libusb-compat/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libusb-compat: /lib/libusb-0.1.so.4.4.4
+FILES_INFO: {"/lib/libusb-0.1.so.4": 14392}
+FILERPROVIDES_/lib/libusb-0.1.so.4.4.4_libusb-compat: elf(buildid) (= 3b5f4ded96cc29839b47590eb505c807fdb31165) libusb-0.1.so.4
+FILERDEPENDSFLIST_libusb-compat: /lib/libusb-0.1.so.4.4.4
+FILERDEPENDS_/lib/libusb-0.1.so.4.4.4_libusb-compat: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libusb-1.0.so.0 rtld(GNU_HASH)
+PKGSIZE_libusb-compat: 14392

@@ -1,0 +1,13 @@
+PN: update-rc.d
+PV: 0.7
+PR: r6
+PKGV: 0.7
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION: update-rc.d is a utilities that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.
+SUMMARY: manage symlinks in /etc/rcN.d
+SECTION: base
+PKG_update-rc.d-locale: update-rc.d-locale
+FILES_update-rc.d-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_update-rc.d-locale: 0

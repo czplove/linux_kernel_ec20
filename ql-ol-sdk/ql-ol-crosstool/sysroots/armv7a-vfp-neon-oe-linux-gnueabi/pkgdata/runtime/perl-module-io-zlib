@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-zlib: perl module io-zlib
+SUMMARY_perl-module-io-zlib: perl module io-zlib
+RDEPENDS_perl-module-io-zlib: perl-module-carp perl-module-io-handle perl-module-vars perl perl-module-symbol perl-module-fcntl perl-module-strict perl-module-tie-handle
+SECTION: devel
+PKG_perl-module-io-zlib: perl-module-io-zlib
+FILES_perl-module-io-zlib: /usr/lib/perl/5.20.0/IO/Zlib.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Zlib.pm": 15015}
+PKGSIZE_perl-module-io-zlib: 15015

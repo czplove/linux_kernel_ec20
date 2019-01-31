@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-iso-8859-9: character map for iso-8859-9 encoding
+SUMMARY_glibc-charmap-iso-8859-9: character map for iso-8859-9 encoding
+SECTION: base
+PKG_glibc-charmap-iso-8859-9: glibc-charmap-iso-8859-9
+FILES_glibc-charmap-iso-8859-9: /usr/share/i18n/charmaps/ISO-8859-9.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ISO-8859-9.gz": 3103}
+PKGSIZE_glibc-charmap-iso-8859-9: 3103

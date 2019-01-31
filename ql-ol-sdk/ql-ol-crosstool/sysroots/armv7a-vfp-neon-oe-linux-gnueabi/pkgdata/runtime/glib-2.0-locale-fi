@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-fi: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the fi locale.
+SUMMARY_glib-2.0-locale-fi: A general-purpose utility library - fi translations
+RPROVIDES_glib-2.0-locale-fi: glib-2.0-locale fi-translation glib-2.0-locale-fi
+RRECOMMENDS_glib-2.0-locale-fi: virtual-locale-fi
+SECTION: libs
+PKG_glib-2.0-locale-fi: libglib-2.0-locale-fi
+FILES_glib-2.0-locale-fi: /usr/share/locale/fi
+FILES_INFO: {"/usr/share/locale/fi/LC_MESSAGES/glib20.mo": 79456}
+PKGSIZE_glib-2.0-locale-fi: 79456

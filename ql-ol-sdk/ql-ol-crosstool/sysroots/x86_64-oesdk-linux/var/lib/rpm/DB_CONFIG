@@ -1,0 +1,41 @@
+# ================ Environment
+#add_data_dir .
+set_data_dir .
+set_create_dir .
+set_lg_dir ./log
+set_tmp_dir ./tmp
+set_flags db_log_autoremove on
+
+# -- thread_count must be >= 8
+set_thread_count 64
+
+#set_verbose DB_VERB_DEADLOCK
+#set_verbose DB_VERB_FILEOPS
+#set_verbose DB_VERB_FILEOPS_ALL
+#set_verbose DB_VERB_RECOVERY
+#set_verbose DB_VERB_REGISTER
+#set_verbose DB_VERB_REPLICATION
+#set_verbose DB_VERB_REP_ELECT
+#set_verbose DB_VERB_REP_LEASE
+#set_verbose DB_VERB_REP_MISC
+#set_verbose DB_VERB_REP_MSGS
+#set_verbose DB_VERB_REP_SYNC
+#set_verbose DB_VERB_REP_TEST
+#set_verbose DB_VERB_REPMGR_CONNFAIL
+#set_verbose DB_VERB_REPMGR_MISC
+#set_verbose DB_VERB_WAITSFOR
+
+# ================ Logging
+
+# ================ Memory Pool
+#XXX initializing dbenv with set_cachesize has unimplemented prerequsites
+set_cachesize 0 1048576 0 
+set_mp_mmapsize 268435456
+
+# ================ Locking
+set_lk_max_locks 16384
+set_lk_max_lockers 16384
+set_lk_max_objects 16384
+mutex_set_max 163840
+
+# ================ Replication

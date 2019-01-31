@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-gl: Locale data from glibc.  This package contains language translation files for the gl locale.
+SUMMARY_glibc-locale-gl: Locale data from glibc - gl translations
+RPROVIDES_glibc-locale-gl: glibc-locale gl-translation
+RRECOMMENDS_glibc-locale-gl: virtual-locale-gl
+SECTION: base
+PKG_glibc-locale-gl: glibc-locale-gl
+FILES_glibc-locale-gl: /usr/share/locale/gl
+FILES_INFO: {"/usr/share/locale/gl/LC_MESSAGES/libc.mo": 98898}
+PKGSIZE_glibc-locale-gl: 98898

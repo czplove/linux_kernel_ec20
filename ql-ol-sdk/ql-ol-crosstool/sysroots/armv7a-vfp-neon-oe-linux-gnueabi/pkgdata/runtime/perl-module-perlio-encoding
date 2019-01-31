@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-perlio-encoding: perl module perlio-encoding
+SUMMARY_perl-module-perlio-encoding: perl module perlio-encoding
+RDEPENDS_perl-module-perlio-encoding: perl-module-strict glibc (>= 2.21) perl perl-module-xsloader
+SECTION: devel
+PKG_perl-module-perlio-encoding: perl-module-perlio-encoding
+FILES_perl-module-perlio-encoding: /usr/lib/perl/5.20.0/auto/PerlIO/encoding/encoding.so /usr/lib/perl/5.20.0/PerlIO/encoding.pm
+FILERPROVIDESFLIST_perl-module-perlio-encoding: /usr/lib/perl/5.20.0/auto/PerlIO/encoding/encoding.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/PerlIO/encoding.pm": 1219, "/usr/lib/perl/5.20.0/auto/PerlIO/encoding/encoding.so": 19636}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/PerlIO/encoding/encoding.so_perl-module-perlio-encoding: elf(buildid) (= 38fa4e0bf3bddd334ba538d19ea35ce44156fb63) encoding.so
+FILERDEPENDSFLIST_perl-module-perlio-encoding: /usr/lib/perl/5.20.0/auto/PerlIO/encoding/encoding.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/PerlIO/encoding/encoding.so_perl-module-perlio-encoding: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-perlio-encoding: 20855

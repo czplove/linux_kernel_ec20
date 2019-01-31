@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: data-oss
+Description: Data Opensource Components
+Version: 1.0.0
+Libs: -L${libdir} -lrmnetctl
+Cflags: -I${includedir}/data-oss

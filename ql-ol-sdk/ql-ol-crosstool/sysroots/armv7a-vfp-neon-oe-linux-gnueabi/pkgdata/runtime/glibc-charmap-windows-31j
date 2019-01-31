@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-windows-31j: character map for windows-31j encoding
+SUMMARY_glibc-charmap-windows-31j: character map for windows-31j encoding
+SECTION: base
+PKG_glibc-charmap-windows-31j: glibc-charmap-windows-31j
+FILES_glibc-charmap-windows-31j: /usr/share/i18n/charmaps/WINDOWS-31J.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/WINDOWS-31J.gz": 58773}
+PKGSIZE_glibc-charmap-windows-31j: 58773

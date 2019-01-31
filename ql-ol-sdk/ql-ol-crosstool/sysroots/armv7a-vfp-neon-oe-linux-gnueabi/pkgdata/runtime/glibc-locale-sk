@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-sk: Locale data from glibc.  This package contains language translation files for the sk locale.
+SUMMARY_glibc-locale-sk: Locale data from glibc - sk translations
+RPROVIDES_glibc-locale-sk: glibc-locale sk-translation
+RRECOMMENDS_glibc-locale-sk: virtual-locale-sk
+SECTION: base
+PKG_glibc-locale-sk: glibc-locale-sk
+FILES_glibc-locale-sk: /usr/share/locale/sk
+FILES_INFO: {"/usr/share/locale/sk/LC_MESSAGES/libc.mo": 99850}
+PKGSIZE_glibc-locale-sk: 99850

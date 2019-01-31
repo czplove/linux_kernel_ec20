@@ -1,0 +1,13 @@
+PN: system-core
+PV: git
+PR: r16
+PKGV: git
+PKGR: r16
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r16
+SECTION: base
+PKG_system-core-locale: system-core-locale
+FILES_system-core-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_system-core-locale: 0

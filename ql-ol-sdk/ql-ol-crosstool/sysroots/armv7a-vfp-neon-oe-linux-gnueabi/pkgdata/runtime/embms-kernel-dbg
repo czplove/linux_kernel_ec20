@@ -1,0 +1,14 @@
+PN: embms-kernel
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_embms-kernel-dbg: Embms Kernel Module  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_embms-kernel-dbg: embms-kernel version git-r0 - Debugging files
+SECTION_embms-kernel-dbg: devel
+PKG_embms-kernel-dbg: embms-kernel-dbg
+ALLOW_EMPTY_embms-kernel-dbg: 1
+FILES_embms-kernel-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/embms-kernel/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/embms-kernel/.debug /usr/lib/matchbox-panel/.debug /usr/lib/embms-kernel/embms-kernel/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_embms-kernel-dbg: 0

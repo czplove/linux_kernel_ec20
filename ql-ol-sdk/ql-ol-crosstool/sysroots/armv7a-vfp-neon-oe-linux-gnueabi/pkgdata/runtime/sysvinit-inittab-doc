@@ -1,0 +1,13 @@
+PN: sysvinit-inittab
+PV: 2.88dsf
+PR: r10
+PKGV: 2.88dsf
+PKGR: r10
+LICENSE: GPLv2
+DESCRIPTION_sysvinit-inittab-doc: Inittab configuration for SysVinit.  This package contains documentation.
+SUMMARY_sysvinit-inittab-doc: Inittab configuration for SysVinit - Documentation files
+SECTION_sysvinit-inittab-doc: doc
+PKG_sysvinit-inittab-doc: sysvinit-inittab-doc
+FILES_sysvinit-inittab-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_sysvinit-inittab-doc: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tn-za: locale definition for tn-za
+SUMMARY_glibc-localedata-tn-za: locale definition for tn-za
+RDEPENDS_glibc-localedata-tn-za: glibc-localedata-iso14651-t1 glibc-localedata-en-za glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-tn-za: glibc-localedata-tn-za
+FILES_glibc-localedata-tn-za: /usr/share/i18n/locales/tn_ZA
+FILES_INFO: {"/usr/share/i18n/locales/tn_ZA": 9735}
+PKGSIZE_glibc-localedata-tn-za: 9735

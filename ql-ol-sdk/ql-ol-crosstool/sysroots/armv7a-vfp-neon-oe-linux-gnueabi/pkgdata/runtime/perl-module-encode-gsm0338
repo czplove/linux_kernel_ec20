@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-gsm0338: perl module encode-gsm0338
+SUMMARY_perl-module-encode-gsm0338: perl module encode-gsm0338
+RDEPENDS_perl-module-encode-gsm0338: perl-module-carp perl-module-encode perl-module-vars perl perl-module-warnings perl-module-utf8 perl-module-strict perl-module-parent
+SECTION: devel
+PKG_perl-module-encode-gsm0338: perl-module-encode-gsm0338
+FILES_perl-module-encode-gsm0338: /usr/lib/perl/5.20.0/Encode/GSM0338.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/GSM0338.pm": 11804}
+PKGSIZE_perl-module-encode-gsm0338: 11804

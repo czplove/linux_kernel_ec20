@@ -1,0 +1,14 @@
+PN: json-c
+PV: 0.12
+PR: r0
+PKGV: 0.12
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_json-c-doc: JSON-C implements a reference counting object model that allows you to easily construct JSON objects in C.  This package contains documentation.
+SUMMARY_json-c-doc: C bindings for apps which will manipulate JSON data - Documentation files
+RPROVIDES_json-c-doc:  json-c-doc
+SECTION_json-c-doc: doc
+PKG_json-c-doc: libjson-c-doc
+FILES_json-c-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_json-c-doc: 0

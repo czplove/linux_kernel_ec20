@@ -1,0 +1,14 @@
+PN: common
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_common-staticdev: Common headers  This package contains static libraries for software development.
+SUMMARY_common-staticdev: common version git-r7 - Development files (Static Libraries)
+RDEPENDS_common-staticdev: common-dev (= git-r7)
+SECTION_common-staticdev: devel
+PKG_common-staticdev: common-staticdev
+FILES_common-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/common/*.a
+FILES_INFO: {}
+PKGSIZE_common-staticdev: 0

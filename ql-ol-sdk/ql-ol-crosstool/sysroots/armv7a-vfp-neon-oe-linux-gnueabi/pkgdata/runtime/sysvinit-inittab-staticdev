@@ -1,0 +1,14 @@
+PN: sysvinit-inittab
+PV: 2.88dsf
+PR: r10
+PKGV: 2.88dsf
+PKGR: r10
+LICENSE: GPLv2
+DESCRIPTION_sysvinit-inittab-staticdev: Inittab configuration for SysVinit.  This package contains static libraries for software development.
+SUMMARY_sysvinit-inittab-staticdev: Inittab configuration for SysVinit - Development files (Static Libraries)
+RDEPENDS_sysvinit-inittab-staticdev: sysvinit-inittab-dev (= 2.88dsf-r10)
+SECTION_sysvinit-inittab-staticdev: devel
+PKG_sysvinit-inittab-staticdev: sysvinit-inittab-staticdev
+FILES_sysvinit-inittab-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/sysvinit-inittab/*.a
+FILES_INFO: {}
+PKGSIZE_sysvinit-inittab-staticdev: 0

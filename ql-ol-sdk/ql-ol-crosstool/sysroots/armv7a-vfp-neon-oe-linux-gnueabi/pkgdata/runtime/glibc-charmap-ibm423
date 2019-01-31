@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm423: character map for ibm423 encoding
+SUMMARY_glibc-charmap-ibm423: character map for ibm423 encoding
+SECTION: base
+PKG_glibc-charmap-ibm423: glibc-charmap-ibm423
+FILES_glibc-charmap-ibm423: /usr/share/i18n/charmaps/IBM423.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM423.gz": 2947}
+PKGSIZE_glibc-charmap-ibm423: 2947

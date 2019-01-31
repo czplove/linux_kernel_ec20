@@ -1,0 +1,13 @@
+PN: start-scripts-dynamic-console
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION: Start up script for  dynamic console
+SUMMARY: start-scripts-dynamic-console version 1.0-r4
+SECTION: base
+PKG_start-scripts-dynamic-console-locale: start-scripts-dynamic-console-locale
+FILES_start-scripts-dynamic-console-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_start-scripts-dynamic-console-locale: 0

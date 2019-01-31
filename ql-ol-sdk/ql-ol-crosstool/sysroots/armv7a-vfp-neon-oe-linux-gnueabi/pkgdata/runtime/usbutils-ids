@@ -1,0 +1,13 @@
+PN: usbutils
+PV: 007
+PR: r0
+PKGV: 007
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Contains the lsusb utility for inspecting the devices connected to the USB bus.
+SUMMARY: Host side USB console utilities
+SECTION: base
+PKG_usbutils-ids: usbutils-ids
+FILES_usbutils-ids: /usr/share/usb*
+FILES_INFO: {"/usr/share/usb.ids.gz": 172607}
+PKGSIZE_usbutils-ids: 172607

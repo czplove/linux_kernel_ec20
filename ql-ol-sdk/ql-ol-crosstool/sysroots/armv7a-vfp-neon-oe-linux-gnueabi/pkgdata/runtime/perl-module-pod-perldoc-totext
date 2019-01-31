@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-perldoc-totext: perl module pod-perldoc-totext
+SUMMARY_perl-module-pod-perldoc-totext: perl module pod-perldoc-totext
+RDEPENDS_perl-module-pod-perldoc-totext: perl-module-vars perl perl-module-warnings perl-module-pod-text perl-module-strict perl-module-parent
+SECTION: devel
+PKG_perl-module-pod-perldoc-totext: perl-module-pod-perldoc-totext
+FILES_perl-module-pod-perldoc-totext: /usr/lib/perl/5.20.0/Pod/Perldoc/ToText.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Perldoc/ToText.pm": 2266}
+PKGSIZE_perl-module-pod-perldoc-totext: 2266

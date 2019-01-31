@@ -1,0 +1,15 @@
+PN: dbus
+PV: 1.8.10
+PR: r0
+PKGV: 1.8.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-dbg: D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\"single instance\\" application or daemon, and to launch applications and daemons on demand when their services are needed.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_dbus-dbg: D-Bus message bus - Debugging files
+RRECOMMENDS_dbus-dbg: glibc-dbg expat-dbg dbus-lib-dbg
+SECTION_dbus-dbg: devel
+PKG_dbus-dbg: dbus-dbg
+ALLOW_EMPTY_dbus-dbg: 1
+FILES_dbus-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dbus/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dbus/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dbus/dbus/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/dbus-run-session": 5549, "/usr/lib/.debug/libdbus-1.so.3.8.8": 78065, "/usr/bin/.debug/dbus-monitor": 9026, "/usr/bin/.debug/dbus-send": 9599, "/usr/bin/.debug/dbus-daemon": 103641, "/usr/bin/.debug/dbus-uuidgen": 5479, "/usr/lib/dbus/.debug/dbus-daemon-launch-helper": 83019, "/usr/bin/.debug/dbus-launch": 6442, "/usr/bin/.debug/dbus-cleanup-sockets": 5742}
+PKGSIZE_dbus-dbg: 306562

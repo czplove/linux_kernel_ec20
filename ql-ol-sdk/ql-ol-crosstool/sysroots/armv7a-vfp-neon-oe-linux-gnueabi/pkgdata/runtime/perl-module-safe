@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-safe: perl module safe
+SUMMARY_perl-module-safe: perl module safe
+RDEPENDS_perl-module-safe: perl-module-carp perl-module-scalar-util perl perl-module-opcode perl-module-utf8 perl-module-carp-heavy perl-module-strict perl-module-b
+RPROVIDES_perl-module-safe: perl-module-arm-oe-linux-gnueabi-safe
+SECTION: devel
+PKG_perl-module-safe: perl-module-safe
+FILES_perl-module-safe: /usr/lib/perl/5.20.0/Safe.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Safe.pm": 24857}
+PKGSIZE_perl-module-safe: 24857

@@ -1,0 +1,13 @@
+PN: ethtool
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION: ethtool is the standard Linux utility for controlling networkdrivers and hardware, particularly for wired Ethernet devices
+SUMMARY: ethtool is the standard Linux utility for managing Ethernet Drivers
+SECTION: base
+PKG_ethtool-locale: ethtool-locale
+FILES_ethtool-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ethtool-locale: 0

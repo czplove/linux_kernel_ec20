@@ -1,0 +1,13 @@
+PN: gdb
+PV: 7.8.1
+PR: r0
+PKGV: 7.8.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION_gdb-doc: GNU debugger.  This package contains documentation.
+SUMMARY_gdb-doc: GNU debugger - Documentation files
+SECTION_gdb-doc: doc
+PKG_gdb-doc: gdb-doc
+FILES_gdb-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/annotate.info": 48631, "/usr/share/info/configure.info": 116309, "/usr/share/man/man1/gdb.1": 13480, "/usr/share/info/bfd.info": 593393, "/usr/share/info/standards.info": 223915, "/usr/share/man/man1/gcore.1": 6042, "/usr/share/man/man1/gdbserver.1": 13827, "/usr/share/info/gdb.info": 2063114, "/usr/share/info/stabs.info": 184603, "/usr/share/man/man5/gdbinit.5": 7095}
+PKGSIZE_gdb-doc: 3270409

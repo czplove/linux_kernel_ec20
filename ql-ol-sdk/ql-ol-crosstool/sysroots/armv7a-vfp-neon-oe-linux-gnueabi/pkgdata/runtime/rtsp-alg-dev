@@ -1,0 +1,16 @@
+PN: rtsp-alg
+PV: 3.7
+PR: r6-3.18.20
+PKGV: 3.7
+PKGR: r6-3.18.20
+LICENSE: GPLv2
+DESCRIPTION_rtsp-alg-dev: RSTP ALG  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_rtsp-alg-dev: rtsp-alg version 3.7-r6-3.18.20 - Development files
+RDEPENDS_rtsp-alg-dev: rtsp-alg (= 3.7-r6-3.18.20)
+RRECOMMENDS_rtsp-alg-dev: alx-dev kernel-module-nf-nat-rtsp-dev kernel-module-nf-conntrack-rtsp-dev kernel-3.18.20-dev
+SECTION_rtsp-alg-dev: devel
+PKG_rtsp-alg-dev: rtsp-alg-dev
+ALLOW_EMPTY_rtsp-alg-dev: 1
+FILES_rtsp-alg-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/rtsp-alg/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_rtsp-alg-dev: 0

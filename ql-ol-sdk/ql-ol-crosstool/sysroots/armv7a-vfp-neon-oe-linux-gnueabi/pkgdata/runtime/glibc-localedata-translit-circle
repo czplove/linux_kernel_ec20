@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-circle: locale definition for translit-circle
+SUMMARY_glibc-localedata-translit-circle: locale definition for translit-circle
+SECTION: base
+PKG_glibc-localedata-translit-circle: glibc-localedata-translit-circle
+FILES_glibc-localedata-translit-circle: /usr/share/i18n/locales/translit_circle
+FILES_INFO: {"/usr/share/i18n/locales/translit_circle": 14116}
+PKGSIZE_glibc-localedata-translit-circle: 14116

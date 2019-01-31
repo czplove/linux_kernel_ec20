@@ -1,0 +1,16 @@
+PN: bzip2
+PV: 1.0.6
+PR: r5
+PKGV: 1.0.6
+PKGR: r5
+LICENSE: bzip2
+DESCRIPTION_bzip2-dev: bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_bzip2-dev: Very high-quality data compression program - Development files
+RDEPENDS_bzip2-dev: bzip2 (= 1.0.6-r5)
+RRECOMMENDS_bzip2-dev: glibc-dev update-alternatives-opkg-dev libbz2-dev
+SECTION_bzip2-dev: devel
+PKG_bzip2-dev: bzip2-dev
+ALLOW_EMPTY_bzip2-dev: 1
+FILES_bzip2-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bzip2/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libbz2.la": 903}
+PKGSIZE_bzip2-dev: 903

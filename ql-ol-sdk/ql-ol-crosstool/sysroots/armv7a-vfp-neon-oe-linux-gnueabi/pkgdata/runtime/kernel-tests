@@ -1,0 +1,56 @@
+PN: kernel-tests
+PV: git-invalidgit
+PR: r18
+PKGV: git-invalidgit
+PKGR: r18
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Technologies Proprietary kernel test
+SUMMARY: kernel-tests version git-invalidgit-r18
+RDEPENDS_kernel-tests: glibc (>= 2.21)
+SECTION: base
+PKG_kernel-tests: kernel-tests
+FILES_kernel-tests: /usr/kernel-tests/* /usr/src/*
+FILERPROVIDESFLIST_kernel-tests: /usr/kernel-tests/i2c-msm/i2c-msm-test /usr/kernel-tests/dmov/dmov /usr/kernel-tests/smd/smd@underscore@tty@underscore@loopback@underscore@test /usr/kernel-tests/smd/smd@underscore@pkt@underscore@loopback@underscore@test /usr/kernel-tests/cacheflush/cacheflush /usr/kernel-tests/mtd/geoinfo@underscore@flash /usr/kernel-tests/pctest/pctest /usr/kernel-tests/smd/smem@underscore@log@underscore@test /usr/kernel-tests/vfp/vfptest /usr/kernel-tests/spi/spidevtest /usr/kernel-tests/qcedev/qcedev@underscore@test /usr/kernel-tests/msm@underscore@uart/msm@underscore@uart@underscore@test
+FILES_INFO: {"/usr/kernel-tests/qcedev/qcedev_test": 58424, "/usr/kernel-tests/vfp/test_env_setup.sh": 6916, "/usr/kernel-tests/mtd/mtd_yaffs2_test.sh": 2858, "/usr/kernel-tests/cacheflush/_cacheflush.sh": 231, "/usr/kernel-tests/mtd/mtd_test.sh": 2816, "/usr/kernel-tests/socinfo/README.txt": 838, "/usr/kernel-tests/smd/README": 2239, "/usr/kernel-tests/pctest/run.sh": 107, "/usr/kernel-tests/timer/timertest.sh": 441, "/usr/kernel-tests/qcedev/qcedev_test.sh": 2877, "/usr/kernel-tests/clocksource/README.txt": 948, "/usr/kernel-tests/clocksource/run.sh": 106, "/usr/kernel-tests/msm_uart_hs/run.sh": 102, "/usr/kernel-tests/gpio_tlmm/test_env_setup.sh": 6916, "/usr/kernel-tests/cacheflush/README.txt": 830, "/usr/kernel-tests/gpio_tlmm/gpio_tlmm.sh": 7532, "/usr/kernel-tests/pctest/test_env_setup.sh": 6916, "/usr/kernel-tests/clk/run.sh": 117, "/usr/kernel-tests/cpu/test_env_setup.sh": 6916, "/usr/kernel-tests/i2c-msm/README.txt": 2180, "/usr/kernel-tests/cpu/run.sh": 123, "/usr/kernel-tests/vreg/run.sh": 108, "/usr/kernel-tests/spi/README.txt": 2086, "/usr/kernel-tests/qcedev/README.txt": 2994, "/usr/kernel-tests/cacheflush/cacheflush.sh": 663, "/usr/kernel-tests/sdcc/run.sh": 100, "/usr/kernel-tests/i2c-msm/run.sh": 388, "/usr/kernel-tests/cpu/README.txt": 1975, "/usr/kernel-tests/i2c-msm/test_env_setup.sh": 6916, "/usr/kernel-tests/qcedev/test_env_setup.sh": 6916, "/usr/kernel-tests/dmov/dmov": 5400, "/usr/kernel-tests/smd/smd_pkt_loopback_test": 12796, "/usr/kernel-tests/cpu/cputest.sh": 1855, "/usr/kernel-tests/i2c-msm/i2c-msm-test": 20800, "/usr/kernel-tests/dmov/msm_dma.sh": 1264, "/usr/kernel-tests/vreg/README": 390, "/usr/kernel-tests/clk/clk_test.sh": 75380, "/usr/kernel-tests/msm_uart/run.sh": 104, "/usr/kernel-tests/spi/spiethernettest.sh": 1102, "/usr/kernel-tests/clk/README": 3143, "/usr/kernel-tests/qcedev/run.sh": 539, "/usr/kernel-tests/msm_uart_hs/README.txt": 1632, "/usr/kernel-tests/sdcc/sd_test.sh": 5423, "/usr/kernel-tests/gpio_tlmm/run.sh": 104, "/usr/kernel-tests/timer/README.txt": 1168, "/usr/kernel-tests/vreg/test_env_setup.sh": 6916, "/usr/kernel-tests/clk/test_env_setup.sh": 6916, "/usr/kernel-tests/vfp/vfp.sh": 1226, "/usr/kernel-tests/mtd/README.txt": 3028, "/usr/kernel-tests/gpio_tlmm/gpio_tlmm.conf": 1220, "/usr/kernel-tests/cacheflush/loop.sh": 58, "/usr/kernel-tests/dmov/test_env_setup.sh": 6916, "/usr/kernel-tests/vfp/vfptest": 6120, "/usr/kernel-tests/timer/run.sh": 103, "/usr/kernel-tests/dmov/README.txt": 871, "/usr/kernel-tests/i2c-msm/i2c-msm-test.sh": 1767, "/usr/kernel-tests/socinfo/socinfotest.sh": 949, "/usr/kernel-tests/test_env_setup.sh": 6916, "/usr/kernel-tests/smd/smd_tty_loopback_test": 11932, "/usr/kernel-tests/mpp/run.sh": 102, "/usr/kernel-tests/gpio_tlmm/README.txt": 5041, "/usr/kernel-tests/mtd/geoinfo_flash": 4100, "/usr/kernel-tests/vreg/vreg_test.sh": 8980, "/usr/kernel-tests/vfp/run.sh": 57, "/usr/kernel-tests/msm_uart/msm_uart_test.sh": 1029, "/usr/kernel-tests/mtd/mtd_driver_test.sh": 2146, "/usr/kernel-tests/msm_uart/msm_uart_test": 10452, "/usr/kernel-tests/msm_uart/README.txt": 3167, "/usr/kernel-tests/mpp/README": 954, "/usr/kernel-tests/cpufreq/cpufreq_test.sh": 4347, "/usr/kernel-tests/cacheflush/cacheflush": 496568, "/usr/kernel-tests/irq/irq_test.sh": 672, "/usr/kernel-tests/pctest/pc-compound-test.sh": 24089, "/usr/kernel-tests/pctest/pctest": 29356, "/usr/kernel-tests/vfp/README.txt": 839, "/usr/kernel-tests/spi/spidevtest": 16640, "/usr/kernel-tests/gpio_tlmm/gpio_lib.sh": 11379, "/usr/kernel-tests/mpp/test_env_setup.sh": 6916, "/usr/kernel-tests/sdcc/README.txt": 1531, "/usr/kernel-tests/msm_uart/probe_test.sh": 240, "/usr/kernel-tests/msm_uart/test_env_setup.sh": 6916, "/usr/kernel-tests/cacheflush/run.sh": 64, "/usr/kernel-tests/mpp/mpp_test.sh": 3686, "/usr/kernel-tests/clocksource/clocksourcetest.sh": 990, "/usr/kernel-tests/msm_uart_hs/test_env_setup.sh": 6916, "/usr/kernel-tests/cpu/cpuhotplug_test.sh": 7492, "/usr/kernel-tests/gpio_tlmm/gpio_lib.conf": 3080, "/usr/kernel-tests/spi/spidevtest.sh": 2465, "/usr/kernel-tests/pctest/README": 1154, "/usr/kernel-tests/smd/smem_log_test": 9696, "/usr/kernel-tests/msm_uart_hs/uarttest.sh": 3196, "/usr/kernel-tests/sdcc/test_env_setup.sh": 6916}
+FILERPROVIDES_/usr/kernel-tests/i2c-msm/i2c-msm-test_kernel-tests: elf(buildid) (= d8faf734379479d35772e6fa0f1429554635420c)
+FILERPROVIDES_/usr/kernel-tests/dmov/dmov_kernel-tests: elf(buildid) (= d73ef8ec6cd8af9343139b1ff3ccd000ced6799c)
+FILERPROVIDES_/usr/kernel-tests/smd/smd@underscore@tty@underscore@loopback@underscore@test_kernel-tests: elf(buildid) (= 3377a2b09d68f2464e971575ba9264011a9c7437)
+FILERPROVIDES_/usr/kernel-tests/smd/smd@underscore@pkt@underscore@loopback@underscore@test_kernel-tests: elf(buildid) (= 90d4fe22d7ccda5228d0b82780cc5e76db01b656)
+FILERPROVIDES_/usr/kernel-tests/cacheflush/cacheflush_kernel-tests: elf(buildid) (= a4b4c5db6658192a2dfceb64802ddbb93fbc8f24)
+FILERPROVIDES_/usr/kernel-tests/mtd/geoinfo@underscore@flash_kernel-tests: elf(buildid) (= eefd185b8920221c51ea45f82f2af2aa168589d7)
+FILERPROVIDES_/usr/kernel-tests/pctest/pctest_kernel-tests: elf(buildid) (= 5bb59d78880cd9982bb45b851a6dc0b6e1b5c6da)
+FILERPROVIDES_/usr/kernel-tests/smd/smem@underscore@log@underscore@test_kernel-tests: elf(buildid) (= 2da112180ee9bc3a0baa9b9dc29ec9f8b1b3d354)
+FILERPROVIDES_/usr/kernel-tests/vfp/vfptest_kernel-tests: elf(buildid) (= 41052eca45999a06ad75e5d8a30aad9bc0bb98e2)
+FILERPROVIDES_/usr/kernel-tests/spi/spidevtest_kernel-tests: elf(buildid) (= f7884ada06508c38875d9b137b3fda33c5b53201)
+FILERPROVIDES_/usr/kernel-tests/qcedev/qcedev@underscore@test_kernel-tests: elf(buildid) (= 40b4fcb4e635f109dbfa7d138b479cf9d01dbad6)
+FILERPROVIDES_/usr/kernel-tests/msm@underscore@uart/msm@underscore@uart@underscore@test_kernel-tests: elf(buildid) (= f1005b389b658463c90919fa22ebb9592f3c40e4)
+FILERDEPENDSFLIST_kernel-tests: /usr/kernel-tests/cpu/run.sh /usr/kernel-tests/vreg/run.sh /usr/kernel-tests/gpio@underscore@tlmm/run.sh /usr/kernel-tests/smd/smem@underscore@log@underscore@test /usr/kernel-tests/sdcc/run.sh /usr/kernel-tests/mpp/run.sh /usr/kernel-tests/i2c-msm/run.sh /usr/kernel-tests/clk/run.sh /usr/kernel-tests/clocksource/clocksourcetest.sh /usr/kernel-tests/dmov/dmov /usr/kernel-tests/mtd/geoinfo@underscore@flash /usr/kernel-tests/pctest/pctest /usr/kernel-tests/vfp/vfptest /usr/kernel-tests/msm@underscore@uart@underscore@hs/run.sh /usr/kernel-tests/msm@underscore@uart/run.sh /usr/kernel-tests/pctest/run.sh /usr/kernel-tests/socinfo/socinfotest.sh /usr/kernel-tests/spi/spidevtest /usr/kernel-tests/i2c-msm/i2c-msm-test /usr/kernel-tests/clocksource/run.sh /usr/kernel-tests/smd/smd@underscore@pkt@underscore@loopback@underscore@test /usr/kernel-tests/smd/smd@underscore@tty@underscore@loopback@underscore@test /usr/kernel-tests/cacheflush/run.sh /usr/kernel-tests/vfp/run.sh /usr/kernel-tests/msm@underscore@uart/probe@underscore@test.sh /usr/kernel-tests/qcedev/qcedev@underscore@test /usr/kernel-tests/msm@underscore@uart/msm@underscore@uart@underscore@test /usr/kernel-tests/timer/run.sh
+FILERDEPENDS_/usr/kernel-tests/cpu/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/vreg/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/gpio@underscore@tlmm/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/smd/smem@underscore@log@underscore@test_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/sdcc/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/mpp/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/i2c-msm/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/clk/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/clocksource/clocksourcetest.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/dmov/dmov_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) librt.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/mtd/geoinfo@underscore@flash_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/pctest/pctest_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/vfp/vfptest_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/msm@underscore@uart@underscore@hs/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/msm@underscore@uart/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/pctest/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/socinfo/socinfotest.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/spi/spidevtest_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/i2c-msm/i2c-msm-test_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/clocksource/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/smd/smd@underscore@pkt@underscore@loopback@underscore@test_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/smd/smd@underscore@tty@underscore@loopback@underscore@test_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/cacheflush/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/vfp/run.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/msm@underscore@uart/probe@underscore@test.sh_kernel-tests: /bin/sh
+FILERDEPENDS_/usr/kernel-tests/qcedev/qcedev@underscore@test_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/msm@underscore@uart/msm@underscore@uart@underscore@test_kernel-tests: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/kernel-tests/timer/run.sh_kernel-tests: /bin/sh
+PKGSIZE_kernel-tests: 999793

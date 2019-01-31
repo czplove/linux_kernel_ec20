@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-logging: Python logging support
+RDEPENDS_python-logging: python-core python-io python-lang python-pickle python-stringold
+SECTION: devel/python
+PKG_python-logging: python-logging
+FILES_python-logging: /usr/lib/python2.7/logging 
+FILES_INFO: {"/usr/lib/python2.7/logging/handlers.pyc": 39127, "/usr/lib/python2.7/logging/__init__.pyc": 57302, "/usr/lib/python2.7/logging/handlers.py": 47616, "/usr/lib/python2.7/logging/config.pyc": 25842, "/usr/lib/python2.7/logging/config.py": 34773, "/usr/lib/python2.7/logging/__init__.py": 60973}
+PKGSIZE_python-logging: 265633

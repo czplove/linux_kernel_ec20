@@ -1,0 +1,15 @@
+PN: system-core
+PV: git
+PR: r16
+PKGV: git
+PKGR: r16
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r16
+RDEPENDS_system-core-liblog-dev: system-core-liblog
+RRECOMMENDS_system-core-liblog-dev: glibc-dev zlib-dev openssl-dev libstdc++-dev libgcc-dev libcap-dev glib-2.0-dev initscripts-dev
+SECTION: base
+PKG_system-core-liblog-dev: system-core-liblog-dev
+FILES_system-core-liblog-dev: /usr/lib/liblog.so /usr/lib/liblog.la
+FILES_INFO: {"/usr/lib/liblog.so": 15, "/usr/lib/liblog.la": 903}
+PKGSIZE_system-core-liblog-dev: 918

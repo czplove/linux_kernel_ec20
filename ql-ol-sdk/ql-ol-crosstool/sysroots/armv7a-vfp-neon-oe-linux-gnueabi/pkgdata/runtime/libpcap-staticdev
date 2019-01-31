@@ -1,0 +1,14 @@
+PN: libpcap
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libpcap-staticdev: Libpcap provides a portable framework for low-level network monitoring.  Libpcap can provide network statistics collection, security monitoring and network debugging.  This package contains static libraries for software development.
+SUMMARY_libpcap-staticdev: Interface for user-level network packet capture - Development files (Static Libraries)
+RDEPENDS_libpcap-staticdev: libpcap-dev (= 1.6.2-r0)
+SECTION_libpcap-staticdev: devel
+PKG_libpcap-staticdev: libpcap-staticdev
+FILES_libpcap-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libpcap/*.a
+FILES_INFO: {"/usr/lib/libpcap.a": 293524}
+PKGSIZE_libpcap-staticdev: 293524

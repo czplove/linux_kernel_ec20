@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-pa-pk: locale definition for pa-pk
+SUMMARY_glibc-localedata-pa-pk: locale definition for pa-pk
+RDEPENDS_glibc-localedata-pa-pk: glibc-localedata-translit-combining glibc-localedata-en-dk glibc-localedata-i18n glibc-localedata-ur-pk
+SECTION: base
+PKG_glibc-localedata-pa-pk: glibc-localedata-pa-pk
+FILES_glibc-localedata-pa-pk: /usr/share/i18n/locales/pa_PK
+FILES_INFO: {"/usr/share/i18n/locales/pa_PK": 5511}
+PKGSIZE_glibc-localedata-pa-pk: 5511

@@ -1,0 +1,16 @@
+PN: thermal-engine
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_thermal-engine-dev: Thermal Engine  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_thermal-engine-dev: thermal-engine version git-invalidgit-r9 - Development files
+RDEPENDS_thermal-engine-dev: thermal-engine (= git-invalidgit-r9)
+RRECOMMENDS_thermal-engine-dev: glib-2.0-dev qmi-framework-dev glibc-dev initscripts-dev
+SECTION_thermal-engine-dev: devel
+PKG_thermal-engine-dev: thermal-engine-dev
+ALLOW_EMPTY_thermal-engine-dev: 1
+FILES_thermal-engine-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/thermal-engine/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_thermal-engine-dev: 0

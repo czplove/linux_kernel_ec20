@@ -1,0 +1,13 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY: Point-to-Point Protocol (PPP) support
+SECTION: console/network
+PKG_ppp-locale: ppp-locale
+FILES_ppp-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ppp-locale: 0

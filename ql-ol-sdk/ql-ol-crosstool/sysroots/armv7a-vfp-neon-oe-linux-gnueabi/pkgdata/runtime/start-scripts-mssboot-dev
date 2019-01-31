@@ -1,0 +1,16 @@
+PN: start-scripts-mssboot
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-mssboot-dev: Start up script for mssboot  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_start-scripts-mssboot-dev: start-scripts-mssboot version git-invalidgit-r2 - Development files
+RDEPENDS_start-scripts-mssboot-dev: start-scripts-mssboot (= git-invalidgit-r2)
+RRECOMMENDS_start-scripts-mssboot-dev: initscripts-dev
+SECTION_start-scripts-mssboot-dev: devel
+PKG_start-scripts-mssboot-dev: start-scripts-mssboot-dev
+ALLOW_EMPTY_start-scripts-mssboot-dev: 1
+FILES_start-scripts-mssboot-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/start-scripts-mssboot/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_start-scripts-mssboot-dev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-de-de: locale definition for de-de
+SUMMARY_glibc-localedata-de-de: locale definition for de-de
+RDEPENDS_glibc-localedata-de-de: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-de-de: glibc-localedata-de-de
+FILES_glibc-localedata-de-de: /usr/share/i18n/locales/de_DE
+FILES_INFO: {"/usr/share/i18n/locales/de_DE": 6551}
+PKGSIZE_glibc-localedata-de-de: 6551

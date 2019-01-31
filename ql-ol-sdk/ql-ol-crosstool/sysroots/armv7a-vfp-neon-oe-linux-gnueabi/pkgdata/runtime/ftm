@@ -1,0 +1,20 @@
+PN: ftm
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Technologies ftmdaemon
+SUMMARY: ftm version git-invalidgit-r1
+RDEPENDS_ftm: diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) libgcc (>= 4.9.2) libnl-genl (>= 3.2.25) libnl (>= 3.2.25)
+SECTION: base
+PKG_ftm: ftm
+FILES_ftm: /usr/bin/* /usr/sbin/* /usr/lib/ftm/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ftm /usr/lib/ftm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ftm: /usr/bin/btnvtool /usr/bin/ftmdaemon
+FILES_INFO: {"/usr/bin/btnvtool": 11908, "/usr/bin/ftmdaemon": 35320}
+FILERPROVIDES_/usr/bin/btnvtool_ftm: elf(buildid) (= d4e9d2f5579907f0575751ade14e4c603ebd3d55)
+FILERPROVIDES_/usr/bin/ftmdaemon_ftm: elf(buildid) (= dc98dbf7f72032600704c38b7307488c98f5ea55)
+FILERDEPENDSFLIST_ftm: /usr/bin/btnvtool /usr/bin/ftmdaemon
+FILERDEPENDS_/usr/bin/btnvtool_ftm: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ftmdaemon_ftm: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ftm: 47228

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-nf-z-62-010-1973: character map for nf-z-62-010-1973 encoding
+SUMMARY_glibc-charmap-nf-z-62-010-1973: character map for nf-z-62-010-1973 encoding
+SECTION: base
+PKG_glibc-charmap-nf-z-62-010-1973: glibc-charmap-nf-z-62-010-1973
+FILES_glibc-charmap-nf-z-62-010-1973: /usr/share/i18n/charmaps/NF_Z_62-010_1973.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/NF_Z_62-010_1973.gz": 1568}
+PKGSIZE_glibc-charmap-nf-z-62-010-1973: 1568

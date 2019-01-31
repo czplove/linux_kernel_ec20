@@ -1,0 +1,16 @@
+PN: embms-kernel
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_embms-kernel-dev: Embms Kernel Module  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_embms-kernel-dev: embms-kernel version git-r0 - Development files
+RDEPENDS_embms-kernel-dev: embms-kernel (= git-r0)
+RRECOMMENDS_embms-kernel-dev: kernel-module-embms-kernel-dev kernel-3.18.20-dev initscripts-dev
+SECTION_embms-kernel-dev: devel
+PKG_embms-kernel-dev: embms-kernel-dev
+ALLOW_EMPTY_embms-kernel-dev: 1
+FILES_embms-kernel-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/embms-kernel/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_embms-kernel-dev: 0

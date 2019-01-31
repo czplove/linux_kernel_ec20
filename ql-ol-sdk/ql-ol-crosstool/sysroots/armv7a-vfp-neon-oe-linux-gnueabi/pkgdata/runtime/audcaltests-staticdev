@@ -1,0 +1,14 @@
+PN: audcaltests
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audcaltests-staticdev: Audio Calibration Library  This package contains static libraries for software development.
+SUMMARY_audcaltests-staticdev: audcaltests version git-invalidgit-r7 - Development files (Static Libraries)
+RDEPENDS_audcaltests-staticdev: audcaltests-dev (= git-invalidgit-r7)
+SECTION_audcaltests-staticdev: devel
+PKG_audcaltests-staticdev: audcaltests-staticdev
+FILES_audcaltests-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/audcaltests/*.a
+FILES_INFO: {}
+PKGSIZE_audcaltests-staticdev: 0

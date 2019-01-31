@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-mx: locale definition for es-mx
+SUMMARY_glibc-localedata-es-mx: locale definition for es-mx
+RDEPENDS_glibc-localedata-es-mx: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-mx: glibc-localedata-es-mx
+FILES_glibc-localedata-es-mx: /usr/share/i18n/locales/es_MX
+FILES_INFO: {"/usr/share/i18n/locales/es_MX": 4875}
+PKGSIZE_glibc-localedata-es-mx: 4875

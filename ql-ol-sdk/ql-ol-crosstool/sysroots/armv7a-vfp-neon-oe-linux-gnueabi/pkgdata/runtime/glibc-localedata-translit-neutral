@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-neutral: locale definition for translit-neutral
+SUMMARY_glibc-localedata-translit-neutral: locale definition for translit-neutral
+RDEPENDS_glibc-localedata-translit-neutral: glibc-localedata-translit-fraction glibc-localedata-translit-compat glibc-localedata-translit-cjk-compat glibc-localedata-translit-small glibc-localedata-translit-wide glibc-localedata-translit-circle glibc-localedata-translit-font glibc-localedata-translit-narrow
+SECTION: base
+PKG_glibc-localedata-translit-neutral: glibc-localedata-translit-neutral
+FILES_glibc-localedata-translit-neutral: /usr/share/i18n/locales/translit_neutral
+FILES_INFO: {"/usr/share/i18n/locales/translit_neutral": 7576}
+PKGSIZE_glibc-localedata-translit-neutral: 7576

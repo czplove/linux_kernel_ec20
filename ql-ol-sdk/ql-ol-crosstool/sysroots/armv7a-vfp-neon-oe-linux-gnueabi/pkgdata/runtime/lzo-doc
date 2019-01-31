@@ -1,0 +1,14 @@
+PN: lzo
+PV: 2.09
+PR: r0
+PKGV: 2.09
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_lzo-doc: Lossless data compression library.  This package contains documentation.
+SUMMARY_lzo-doc: Lossless data compression library - Documentation files
+RPROVIDES_lzo-doc:  lzo-doc
+SECTION_lzo-doc: doc
+PKG_lzo-doc: liblzo2-doc
+FILES_lzo-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/lzo/LZO.TXT": 13009, "/usr/share/doc/lzo/AUTHORS": 112, "/usr/share/doc/lzo/LZO.FAQ": 7616, "/usr/share/doc/lzo/THANKS": 690, "/usr/share/doc/lzo/LZOAPI.TXT": 6228, "/usr/share/doc/lzo/NEWS": 12406, "/usr/share/doc/lzo/COPYING": 18092}
+PKGSIZE_lzo-doc: 58153

@@ -1,0 +1,13 @@
+PN: sfe
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_sfe-doc: Shortcut Forward Engine Driver  This package contains documentation.
+SUMMARY_sfe-doc: sfe version git-r0 - Documentation files
+SECTION_sfe-doc: doc
+PKG_sfe-doc: sfe-doc
+FILES_sfe-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_sfe-doc: 0

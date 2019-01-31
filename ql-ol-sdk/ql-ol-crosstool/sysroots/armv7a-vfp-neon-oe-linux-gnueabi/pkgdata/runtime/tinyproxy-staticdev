@@ -1,0 +1,14 @@
+PN: tinyproxy
+PV: 1.8.3
+PR: r0
+PKGV: 1.8.3
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_tinyproxy-staticdev: TinyProxy  This package contains static libraries for software development.
+SUMMARY_tinyproxy-staticdev: tinyproxy version 1.8.3-r0 - Development files (Static Libraries)
+RDEPENDS_tinyproxy-staticdev: tinyproxy-dev (= 1.8.3-r0)
+SECTION_tinyproxy-staticdev: devel
+PKG_tinyproxy-staticdev: tinyproxy-staticdev
+FILES_tinyproxy-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tinyproxy/*.a
+FILES_INFO: {}
+PKGSIZE_tinyproxy-staticdev: 0

@@ -1,0 +1,16 @@
+PN: busybox
+PV: 1.23.1
+PR: r0
+PKGV: 1.23.1
+PKGR: r0
+LICENSE: GPLv2 & bzip2
+DESCRIPTION: BusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides minimalist replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete POSIX environment for any small or embedded system.
+SUMMARY: Tiny versions of many common UNIX utilities in a single small executable
+SECTION: base
+PKG_busybox-udhcpc: busybox-udhcpc
+FILES_busybox-udhcpc: /etc/udhcpc.d /share/udhcpc
+FILES_INFO: {"/share/udhcpc/default.script": 49, "/etc/udhcpc.d/50default": 2592}
+FILERDEPENDSFLIST_busybox-udhcpc: /share/udhcpc/default.script /etc/udhcpc.d/50default
+FILERDEPENDS_/share/udhcpc/default.script_busybox-udhcpc: /bin/sh
+FILERDEPENDS_/etc/udhcpc.d/50default_busybox-udhcpc: /bin/sh
+PKGSIZE_busybox-udhcpc: 2641

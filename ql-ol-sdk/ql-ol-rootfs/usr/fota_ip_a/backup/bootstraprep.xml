@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><wap-provisioningdoc version="1.0">
+	<characteristic type="BOOTSTRAP">
+		<parm name="NAME" value="IOT Bootstrap"/>
+		<parm name="CONTEXT-ALLOW" value="255"/>
+	</characteristic>
+	<characteristic type="APPLICATION"><parm name="APPID" value="w7"/>
+		<parm name="PROVIDER-ID" value="mform"/><parm name="NAME" value="mform"/>
+		<parm name="ADDR" value="DM_SERVERURL"/>
+		<parm name="TO-NAPID" value="Internet_GPRS"/>
+		<characteristic type="APPAUTH">
+			<parm name="AAUTHLEVEL" value="APPSRV"/>
+			<parm name="AAUTHTYPE" value="DM_SERVERAUTHPREF"/>
+			<parm name="AAUTHNAME" value="DM_SERVERNAME"/>
+			<parm name="AAUTHSECRET" value="DM_SERVERPASSWD"/>
+			<parm name="AAUTHDATA" value="DM_SERVERNONCE"/>
+		</characteristic>
+		<characteristic type="APPAUTH">
+			<parm name="AAUTHLEVEL" value="CLIENT"/>
+			<parm name="AAUTHNAME" value="DM_CLIENTNAME"/>
+			<parm name="AAUTHSECRET" value="DM_CLIENTPASSWD"/>
+			<parm name="AAUTHDATA" value="DM_CLIENTNONCE"/>
+		</characteristic>
+	</characteristic>
+</wap-provisioningdoc>

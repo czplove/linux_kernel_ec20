@@ -1,0 +1,13 @@
+PN: jquery-ui
+PV: 1.10.1
+PR: r0
+PKGV: 1.10.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-ui-doc: JQUERY UI  This package contains documentation.
+SUMMARY_jquery-ui-doc: jquery-ui version 1.10.1-r0 - Documentation files
+SECTION_jquery-ui-doc: doc
+PKG_jquery-ui-doc: jquery-ui-doc
+FILES_jquery-ui-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_jquery-ui-doc: 0

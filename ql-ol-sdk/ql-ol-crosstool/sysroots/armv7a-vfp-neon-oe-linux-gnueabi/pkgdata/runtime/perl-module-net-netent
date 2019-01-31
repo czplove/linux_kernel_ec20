@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-net-netent: perl module net-netent
+SUMMARY_perl-module-net-netent: perl module net-netent
+RDEPENDS_perl-module-net-netent: perl-module-vars perl perl-module-exporter perl-module-class-struct perl-module-socket perl-module-strict
+SECTION: devel
+PKG_perl-module-net-netent: perl-module-net-netent
+FILES_perl-module-net-netent: /usr/lib/perl/5.20.0/Net/netent.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Net/netent.pm": 4481}
+PKGSIZE_perl-module-net-netent: 4481

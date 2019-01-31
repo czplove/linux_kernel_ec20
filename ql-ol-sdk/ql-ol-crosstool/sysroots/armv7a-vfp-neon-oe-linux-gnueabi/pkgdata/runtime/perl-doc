@@ -1,0 +1,13 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-doc: Perl scripting language.  This package contains documentation.
+SUMMARY_perl-doc: Perl scripting language - Documentation files
+SECTION_perl-doc: doc
+PKG_perl-doc: perl-doc
+FILES_perl-doc: /usr/lib/perl/5.20.0/*/*.txt                    /usr/lib/perl/5.20.0/*/*/*.txt                    /usr/lib/perl/5.20.0/auto/XS/Typemap                    /usr/lib/perl/5.20.0/B/assemble                    /usr/lib/perl/5.20.0/B/cc_harness                    /usr/lib/perl/5.20.0/B/disassemble                    /usr/lib/perl/5.20.0/B/makeliblinks                    /usr/lib/perl/5.20.0/CGI/eg                    /usr/lib/perl/5.20.0/CPAN/PAUSE2003.pub                    /usr/lib/perl/5.20.0/CPAN/SIGNATURE \t\t   /usr/lib/perl/5.20.0/CPANPLUS/Shell/Default/Plugins/HOWTO.pod                    /usr/lib/perl/5.20.0/Encode/encode.h                    /usr/lib/perl/5.20.0/ExtUtils/MANIFEST.SKIP                    /usr/lib/perl/5.20.0/ExtUtils/NOTES                    /usr/lib/perl/5.20.0/ExtUtils/PATCHING                    /usr/lib/perl/5.20.0/ExtUtils/typemap                    /usr/lib/perl/5.20.0/ExtUtils/xsubpp \t\t   /usr/lib/perl/5.20.0/ExtUtils/Changes_EU-Install                    /usr/lib/perl/5.20.0/Net/*.eg                    /usr/lib/perl/5.20.0/unicore/mktables                    /usr/lib/perl/5.20.0/unicore/mktables.lst                    /usr/lib/perl/5.20.0/unicore/version 
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MANIFEST.SKIP": 823, "/usr/lib/perl/5.20.0/Unicode/Collate/allkeys.txt": 1492794, "/usr/lib/perl/5.20.0/unicore/version": 6, "/usr/lib/perl/5.20.0/unicore/SpecialCasing.txt": 16349, "/usr/lib/perl/5.20.0/ExtUtils/xsubpp": 5033, "/usr/lib/perl/5.20.0/ExtUtils/typemap": 9815, "/usr/lib/perl/5.20.0/unicore/NamedSequences.txt": 17625, "/usr/lib/perl/5.20.0/Encode/encode.h": 3967, "/usr/lib/perl/5.20.0/Unicode/Collate/keys.txt": 52838, "/usr/lib/perl/5.20.0/unicore/Blocks.txt": 7451}
+PKGSIZE_perl-doc: 1606701

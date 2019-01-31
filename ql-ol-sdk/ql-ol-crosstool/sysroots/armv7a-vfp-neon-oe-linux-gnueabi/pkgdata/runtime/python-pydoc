@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-pydoc: Python interactive help support
+RDEPENDS_python-pydoc: python-core python-re python-lang python-stringold
+SECTION: devel/python
+PKG_python-pydoc: python-pydoc
+FILES_python-pydoc: /usr/bin/pydoc /usr/lib/python2.7/pydoc.* /usr/lib/python2.7/pydoc_data 
+FILES_INFO: {"/usr/lib/python2.7/pydoc.py": 95095, "/usr/bin/pydoc": 78, "/usr/lib/python2.7/pydoc_data/topics.py": 410589, "/usr/lib/python2.7/pydoc.pyc": 91492, "/usr/lib/python2.7/pydoc_data/topics.pyc": 395117, "/usr/lib/python2.7/pydoc_data/__init__.py": 0, "/usr/lib/python2.7/pydoc_data/__init__.pyc": 128}
+FILERDEPENDSFLIST_python-pydoc: /usr/lib/python2.7/pydoc.py /usr/bin/pydoc
+FILERDEPENDS_/usr/lib/python2.7/pydoc.py_python-pydoc: /usr/bin/env
+FILERDEPENDS_/usr/bin/pydoc_python-pydoc: /usr/bin/python2.7
+PKGSIZE_python-pydoc: 992499

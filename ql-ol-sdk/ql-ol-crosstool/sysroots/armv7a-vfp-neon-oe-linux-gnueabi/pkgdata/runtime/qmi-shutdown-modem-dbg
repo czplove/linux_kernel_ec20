@@ -1,0 +1,15 @@
+PN: qmi-shutdown-modem
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-shutdown-modem-dbg: QMI shutdown modem Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qmi-shutdown-modem-dbg: qmi-shutdown-modem version git-invalidgit-r4 - Debugging files
+RRECOMMENDS_qmi-shutdown-modem-dbg: qmi-framework-dbg glibc-dbg qmi-dbg
+SECTION_qmi-shutdown-modem-dbg: devel
+PKG_qmi-shutdown-modem-dbg: qmi-shutdown-modem-dbg
+ALLOW_EMPTY_qmi-shutdown-modem-dbg: 1
+FILES_qmi-shutdown-modem-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi-shutdown-modem/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi-shutdown-modem/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi-shutdown-modem/qmi-shutdown-modem/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qmi_shutdown_modem": 28994}
+PKGSIZE_qmi-shutdown-modem-dbg: 28994

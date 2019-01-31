@@ -1,0 +1,13 @@
+PN: time-services
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Time Services Daemon
+SUMMARY: time-services version git-invalidgit-r9
+SECTION: base
+PKG_time-services-locale: time-services-locale
+FILES_time-services-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_time-services-locale: 0

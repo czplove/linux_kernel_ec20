@@ -1,0 +1,15 @@
+PN: sysvinit-inittab
+PV: 2.88dsf
+PR: r10
+PKGV: 2.88dsf
+PKGR: r10
+LICENSE: GPLv2
+DESCRIPTION_sysvinit-inittab-dev: Inittab configuration for SysVinit.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_sysvinit-inittab-dev: Inittab configuration for SysVinit - Development files
+RDEPENDS_sysvinit-inittab-dev: sysvinit-inittab (= 2.88dsf-r10)
+SECTION_sysvinit-inittab-dev: devel
+PKG_sysvinit-inittab-dev: sysvinit-inittab-dev
+ALLOW_EMPTY_sysvinit-inittab-dev: 1
+FILES_sysvinit-inittab-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sysvinit-inittab/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_sysvinit-inittab-dev: 0

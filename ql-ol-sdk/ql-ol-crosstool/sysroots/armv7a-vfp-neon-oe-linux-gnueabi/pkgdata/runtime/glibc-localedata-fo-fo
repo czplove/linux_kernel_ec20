@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-fo-fo: locale definition for fo-fo
+SUMMARY_glibc-localedata-fo-fo: locale definition for fo-fo
+RDEPENDS_glibc-localedata-fo-fo: glibc-localedata-da-dk
+SECTION: base
+PKG_glibc-localedata-fo-fo: glibc-localedata-fo-fo
+FILES_glibc-localedata-fo-fo: /usr/share/i18n/locales/fo_FO
+FILES_INFO: {"/usr/share/i18n/locales/fo_FO": 4890}
+PKGSIZE_glibc-localedata-fo-fo: 4890

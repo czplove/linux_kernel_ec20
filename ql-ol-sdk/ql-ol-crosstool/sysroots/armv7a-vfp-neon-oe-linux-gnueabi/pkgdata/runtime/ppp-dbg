@@ -1,0 +1,15 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION_ppp-dbg: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ppp-dbg: Point-to-Point Protocol (PPP) support - Debugging files
+RRECOMMENDS_ppp-dbg: libpcap-dbg glibc-dbg
+SECTION_ppp-dbg: devel
+PKG_ppp-dbg: ppp-dbg
+ALLOW_EMPTY_ppp-dbg: 1
+FILES_ppp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ppp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ppp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ppp/ppp/.debug /usr/src/debug /usr/lib/pppd/2.4.7/.debug
+FILES_INFO: {"/usr/sbin/.debug/pppstats": 6110, "/usr/lib/pppd/2.4.7/.debug/rp-pppoe.so": 7271, "/usr/lib/pppd/2.4.7/.debug/passprompt.so": 4546, "/usr/lib/pppd/2.4.7/.debug/minconn.so": 4127, "/usr/sbin/.debug/pppdump": 11264, "/usr/lib/pppd/2.4.7/.debug/radattr.so": 4322, "/usr/lib/pppd/2.4.7/.debug/pppol2tp.so": 6508, "/usr/sbin/.debug/chat": 10369, "/usr/lib/pppd/2.4.7/.debug/radius.so": 11578, "/usr/lib/pppd/2.4.7/.debug/passwordfd.so": 4312, "/usr/lib/pppd/2.4.7/.debug/winbind.so": 5638, "/usr/lib/pppd/2.4.7/.debug/openl2tp.so": 4720, "/usr/lib/pppd/2.4.7/.debug/radrealms.so": 4351, "/usr/lib/pppd/2.4.7/.debug/pppoatm.so": 6353, "/usr/sbin/.debug/pppoe-discovery": 6550, "/usr/sbin/.debug/pppd": 44924}
+PKGSIZE_ppp-dbg: 142943

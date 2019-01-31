@@ -1,0 +1,19 @@
+PN: libid3tag
+PV: 0.15.1b
+PR: r7
+PKGV: 0.15.1b
+PKGR: r7
+LICENSE: GPLv2+
+DESCRIPTION: Library for interacting with ID3 tags in MP3 files.
+SUMMARY: Library for interacting with ID3 tags in MP3 files
+RDEPENDS_libid3tag: glibc (>= 2.21) zlib (>= 1.2.8)
+RPROVIDES_libid3tag:  libid3tag
+SECTION: libs
+PKG_libid3tag: libid3tag0
+FILES_libid3tag: /usr/bin/* /usr/sbin/* /usr/lib/libid3tag/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libid3tag /usr/lib/libid3tag/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libid3tag: /usr/lib/libid3tag.so.0.3.0
+FILES_INFO: {"/usr/lib/libid3tag.so.0": 83572}
+FILERPROVIDES_/usr/lib/libid3tag.so.0.3.0_libid3tag: elf(buildid) (= 7aff3706d5cadb6543d62bd5bf7d50b6083a3711) libid3tag.so.0
+FILERDEPENDSFLIST_libid3tag: /usr/lib/libid3tag.so.0.3.0
+FILERDEPENDS_/usr/lib/libid3tag.so.0.3.0_libid3tag: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_libid3tag: 83572

@@ -1,0 +1,16 @@
+PN: audcaltests
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audcaltests-dev: Audio Calibration Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_audcaltests-dev: audcaltests version git-invalidgit-r7 - Development files
+RDEPENDS_audcaltests-dev: audcaltests (= git-invalidgit-r7)
+RRECOMMENDS_audcaltests-dev: glib-2.0-dev audioalsa-dev acdbloader-dev glibc-dev acdbmapper-dev
+SECTION_audcaltests-dev: devel
+PKG_audcaltests-dev: audcaltests-dev
+ALLOW_EMPTY_audcaltests-dev: 1
+FILES_audcaltests-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/audcaltests/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_audcaltests-dev: 0

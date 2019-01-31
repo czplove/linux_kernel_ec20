@@ -1,0 +1,113 @@
+#!/bin/sh
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+DAEMON=/usr/sbin/lighttpd
+WEBSERVER_FOLDER_PERM="chmod -R 770 /WEBSERVER"
+WEBSERVER_OWNER_PERM="chown -R www-data:www-data /WEBSERVER "
+WWW_FOLDER_PERM="chmod -R 770 /www "
+WWW_OWNER_PERM="chown -R www-data:www-data /www "
+RM_RESOURCE_FILES="rm -rf /www/session_token.txt /www/login_attempt /www/qcmap_session /www/qcmap_cgi_webclient_file "
+PRIVATE_KEY_PATH="/etc/mdm9625.com.key"
+NO_PSWD_PRIVATE_KEY_PATH="/etc/nopwd.mdm9625.com.key"
+CHNG_PERM_PRIVATE_KEY_PATH="chmod 755 /etc/mdm9625.com.key"
+SELF_SIGN_CA_PATH="/etc/mdm9625.com.crt"
+NO_PASWD_SELF_SIGN_CA_PATH="/etc/mdm9625.com.pem"
+CHNG_PERM_SELF_SIGN_CA_PATH="chmod 755 /etc/mdm9625.com.pem"
+OPEN_SSL_PATH="/etc/openssl.cnf"
+NAME=lighttpd
+DESC="Lighttpd Web Server"
+OPTS="-f /etc/lighttpd.conf"
+
+case "$1" in
+  start)
+	echo -n "Starting $DESC: "
+	$RM_RESOURCE_FILES
+	#SSL Certificate Generation starts
+	if [ -f $PRIVATE_KEY_PATH -a -f $NO_PASWD_SELF_SIGN_CA_PATH ]
+	then
+		echo -n "self-signing certificates already exist for webserver: "
+	else
+		rm -rf $PRIVATE_KEY_PATH $NO_PSWD_PRIVATE_KEY_PATH
+		echo -n "generating self-signing certificate for webserver: "
+		RANDOM_NO=`echo $RANDOM`
+		#generate a private key using openssl API command
+		echo -n "generating private key for webserver: "
+		openssl genrsa -des3 -out $PRIVATE_KEY_PATH -passout pass:$RANDOM_NO 1024
+		#generate a self-signed CA certificate using openssl API command
+		echo -n "generating self-signed CA for webserver: "
+		$CHNG_PERM_PRIVATE_KEY_PATH
+		openssl req -new -config $OPEN_SSL_PATH -x509 -key $PRIVATE_KEY_PATH -passin pass:$RANDOM_NO -out $SELF_SIGN_CA_PATH -days 1095
+		echo -n "generating no password for private key webserver: "
+		openssl rsa -in $PRIVATE_KEY_PATH -out $NO_PSWD_PRIVATE_KEY_PATH -passin pass:$RANDOM_NO
+		echo -n "generating no password for self-sign CA for webserver: "
+		cat $NO_PSWD_PRIVATE_KEY_PATH $SELF_SIGN_CA_PATH > $NO_PASWD_SELF_SIGN_CA_PATH
+	    rm -rf $SELF_SIGN_CA_PATH
+		rm -rf $PRIVATE_KEY_PATH
+		mv $NO_PSWD_PRIVATE_KEY_PATH $PRIVATE_KEY_PATH
+		$CHNG_PERM_PRIVATE_KEY_PATH
+		$CHNG_PERM_SELF_SIGN_CA_PATH
+		echo -n "changing permissions for WEBSERVER: "
+		$WEBSERVER_FOLDER_PERM
+		$WEBSERVER_OWNER_PERM
+		echo -n "changing permissions for www: "
+		$WWW_FOLDER_PERM
+		$WWW_OWNER_PERM
+	fi
+	#SSL Certificate Generation ends
+	start-stop-daemon --start -x "$DAEMON" -- $OPTS
+	echo "$NAME."
+	;;
+  stop)
+	echo -n "Stopping $DESC: "
+	$RM_RESOURCE_FILES
+	start-stop-daemon --stop -x "$DAEMON"
+	echo "$NAME."
+	;;
+  restart|force-reload)
+	echo -n "Restarting $DESC: "
+	$RM_RESOURCE_FILES
+	#SSL Certificate Generation starts
+	if [ -f $PRIVATE_KEY_PATH -a -f $NO_PASWD_SELF_SIGN_CA_PATH ]
+	then
+		echo -n "self-signing certificates already exist for webserver: "
+	else
+		rm -rf $PRIVATE_KEY_PATH $NO_PSWD_PRIVATE_KEY_PATH
+		echo -n "generating self-signing certificate for webserver: "
+		RANDOM_NO=`echo $RANDOM`
+		#generate a private key using openssl API command
+		echo -n "generating private key for webserver: "
+		openssl genrsa -des3 -out $PRIVATE_KEY_PATH -passout pass:$RANDOM_NO 1024
+		#generate a self-signed CA certificate using openssl API command
+		echo -n "generating self-signed CA for webserver: "
+		$CHNG_PERM_PRIVATE_KEY_PATH
+		openssl req -new -config $OPEN_SSL_PATH -x509 -key $PRIVATE_KEY_PATH -passin pass:$RANDOM_NO -out $SELF_SIGN_CA_PATH -days 1095
+		echo -n "generating no password for private key webserver: "
+		openssl rsa -in $PRIVATE_KEY_PATH -out $NO_PSWD_PRIVATE_KEY_PATH -passin pass:$RANDOM_NO
+		echo -n "generating no password for self-sign CA for webserver: "
+		cat $NO_PSWD_PRIVATE_KEY_PATH $SELF_SIGN_CA_PATH > $NO_PASWD_SELF_SIGN_CA_PATH
+	    rm -rf $SELF_SIGN_CA_PATH
+		rm -rf $PRIVATE_KEY_PATH
+		mv $NO_PSWD_PRIVATE_KEY_PATH $PRIVATE_KEY_PATH
+		$CHNG_PERM_PRIVATE_KEY_PATH
+		$CHNG_PERM_SELF_SIGN_CA_PATH
+		echo -n "changing permissions for WEBSERVER: "
+		$WEBSERVER_FOLDER_PERM
+		$WEBSERVER_OWNER_PERM
+		echo -n "changing permissions for www: "
+		$WWW_FOLDER_PERM
+		$WWW_OWNER_PERM
+	fi
+	#SSL Certificate Generation ends
+	start-stop-daemon --stop -x "$DAEMON"
+	sleep 1
+	start-stop-daemon --start -x "$DAEMON" -- $OPTS
+	echo "$NAME."
+	;;
+  *)
+	N=/etc/init.d/$NAME
+	echo "Usage: $N {start|stop|restart|force-reload}" >&2
+	exit 1
+	;;
+esac
+
+exit 0

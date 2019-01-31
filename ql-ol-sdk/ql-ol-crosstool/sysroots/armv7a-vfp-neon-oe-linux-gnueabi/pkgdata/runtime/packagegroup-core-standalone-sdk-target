@@ -1,0 +1,15 @@
+PN: packagegroup-core-standalone-sdk-target
+PV: 1.0
+PR: r8
+PKGV: 1.0
+PKGR: r8
+LICENSE: MIT
+DESCRIPTION: Target packages for the standalone SDK.
+SUMMARY: Target packages for the standalone SDK
+RDEPENDS_packagegroup-core-standalone-sdk-target: glibc-utils glibc-dbg glibc-thread-db glibc glibc-gconv-ibm850 libstdc++-dev glibc-gconv-cp1252 libstdc++ libgcc-dev libsegfault libgcc libgcov-dev glibc-gconv-iso8859-15 glibc-dev qemuwrapper-cross glibc-gconv-iso8859-1 glibc-localedata-i18n
+SECTION: base
+PKG_packagegroup-core-standalone-sdk-target: packagegroup-core-standalone-sdk-target
+ALLOW_EMPTY_packagegroup-core-standalone-sdk-target: 1
+FILES_packagegroup-core-standalone-sdk-target: /usr/bin/* /usr/sbin/* /usr/lib/packagegroup-core-standalone-sdk-target/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/packagegroup-core-standalone-sdk-target /usr/lib/packagegroup-core-standalone-sdk-target/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-standalone-sdk-target: 0

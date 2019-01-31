@@ -1,0 +1,14 @@
+PN: ath6kl-utils
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ath6kl-utils-staticdev: Qualcomm Atheros ath6kl utils.  This package contains static libraries for software development.
+SUMMARY_ath6kl-utils-staticdev: ath6kl-utils version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_ath6kl-utils-staticdev: ath6kl-utils-dev (= git-invalidgit-r2)
+SECTION_ath6kl-utils-staticdev: devel
+PKG_ath6kl-utils-staticdev: ath6kl-utils-staticdev
+FILES_ath6kl-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ath6kl-utils/*.a
+FILES_INFO: {"/usr/lib/libtestcmd6174.a": 88200, "/usr/lib/libtcmd.a": 59280, "/usr/lib/libtlvutil.a": 218192}
+PKGSIZE_ath6kl-utils-staticdev: 365672

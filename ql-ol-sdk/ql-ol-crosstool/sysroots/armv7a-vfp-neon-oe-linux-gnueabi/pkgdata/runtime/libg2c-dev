@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libg2c-dev: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RRECOMMENDS_libg2c-dev: libgcc-dev
+SECTION: devel
+PKG_libg2c-dev: libg2c-dev
+FILES_libg2c-dev:     /usr/lib/libg2c.so     /usr/lib/libg2c.a     /usr/lib/libfrtbegin.a 
+FILES_INFO: {}
+PKGSIZE_libg2c-dev: 0

@@ -1,0 +1,14 @@
+PN: dbus-glib
+PV: 0.102
+PR: r0
+PKGV: 0.102
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-glib-doc: GLib bindings for the D-Bus message bus that integrate the D-Bus library with the GLib thread abstraction and main loop.  This package contains documentation.
+SUMMARY_dbus-glib-doc: High level language (GLib) binding for D-Bus - Documentation files
+RPROVIDES_dbus-glib-doc:  dbus-glib-doc
+SECTION_dbus-glib-doc: doc
+PKG_dbus-glib-doc: libdbus-glib-1-doc
+FILES_dbus-glib-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/dbus-binding-tool.1": 7910}
+PKGSIZE_dbus-glib-doc: 7910

@@ -1,0 +1,21 @@
+PN: alx
+PV: git
+PR: r4-3.18.20
+PKGV: git
+PKGR: r4-3.18.20
+LICENSE: ISC
+DESCRIPTION: Qualcomm Atheros Gigabit Ethernet Driver
+SUMMARY: alx version git-r4-3.18.20
+RRECOMMENDS_alx:  update-rc.d
+SECTION: base
+PKG_alx: alx
+ALLOW_EMPTY_alx: 1
+FILES_alx: /etc/init.d/start_alx_le
+pkg_postinst_alx: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_alx_le start 91 5 . stop 15 0 1 6 .\nfi\n
+pkg_postrm_alx: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_alx_le remove\nfi\n
+pkg_preinst_alx: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_alx_le" ]; then\n\t/etc/init.d/start_alx_le stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_alx_le remove\nfi\n
+pkg_prerm_alx: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_alx_le stop\nfi\n
+FILES_INFO: {"/etc/init.d/start_alx_le": 2187}
+FILERDEPENDSFLIST_alx: /etc/init.d/start@underscore@alx@underscore@le
+FILERDEPENDS_/etc/init.d/start@underscore@alx@underscore@le_alx: /bin/sh
+PKGSIZE_alx: 2187

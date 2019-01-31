@@ -1,0 +1,15 @@
+PN: loc-mcm-qmi-test-shim
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-qmi-test-shim-staticdev: MCM Location Type Conversion Library  This package contains static libraries for software development.
+SUMMARY_loc-mcm-qmi-test-shim-staticdev: loc-mcm-qmi-test-shim version git-invalidgit-r4 - Development files (Static Libraries)
+RDEPENDS_loc-mcm-qmi-test-shim-staticdev: loc-mcm-qmi-test-shim-dev (= git-invalidgit-r4)
+RPROVIDES_loc-mcm-qmi-test-shim-staticdev:  loc-mcm-qmi-test-shim-staticdev
+SECTION_loc-mcm-qmi-test-shim-staticdev: devel
+PKG_loc-mcm-qmi-test-shim-staticdev: libloc-mcm-qmi-test-shim-staticdev
+FILES_loc-mcm-qmi-test-shim-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-mcm-qmi-test-shim/*.a
+FILES_INFO: {}
+PKGSIZE_loc-mcm-qmi-test-shim-staticdev: 0

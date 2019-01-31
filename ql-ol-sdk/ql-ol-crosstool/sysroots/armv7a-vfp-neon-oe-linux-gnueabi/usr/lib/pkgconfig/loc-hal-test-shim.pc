@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-hal-test-shim
+Description: Qualcomm GPS HAL API Test shim
+Version: 1.0.0
+Libs: -L${libdir} -lloc_hal_test_shim -lloc_hal_test_shim_extended
+Cflags: -I${includedir}/loc-hal-test-shim

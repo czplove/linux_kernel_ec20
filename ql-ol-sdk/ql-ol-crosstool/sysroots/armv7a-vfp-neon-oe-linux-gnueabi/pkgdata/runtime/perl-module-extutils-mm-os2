@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-os2: perl module extutils-mm-os2
+SUMMARY_perl-module-extutils-mm-os2: perl module extutils-mm-os2
+RDEPENDS_perl-module-extutils-mm-os2: perl-module-extutils-mm-unix perl-module-file-spec perl-module-extutils-makemaker perl perl-module-extutils-mm-any perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-mm-os2: perl-module-extutils-mm-os2
+FILES_perl-module-extutils-mm-os2: /usr/lib/perl/5.20.0/ExtUtils/MM_OS2.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MM_OS2.pm": 3833}
+PKGSIZE_perl-module-extutils-mm-os2: 3833

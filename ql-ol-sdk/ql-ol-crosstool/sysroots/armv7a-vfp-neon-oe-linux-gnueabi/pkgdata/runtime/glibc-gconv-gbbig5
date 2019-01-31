@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-gbbig5: gconv module for character set gbbig5
+SUMMARY_glibc-gconv-gbbig5: gconv module for character set gbbig5
+RDEPENDS_glibc-gconv-gbbig5: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-gbbig5: glibc-gconv-gbbig5
+FILES_glibc-gconv-gbbig5: /usr/lib/gconv/GBBIG5.so
+FILES_INFO: {"/usr/lib/gconv/GBBIG5.so": 54640}
+PKGSIZE_glibc-gconv-gbbig5: 54640

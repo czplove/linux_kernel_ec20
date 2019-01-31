@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-vms: perl module extutils-mm-vms
+SUMMARY_perl-module-extutils-mm-vms: perl module extutils-mm-vms
+RDEPENDS_perl-module-extutils-mm-vms: perl-module-extutils-makemaker-config perl-module-extutils-mm-unix perl-module-file-find perl-module-extutils-liblist-kid perl-module-extutils-makemaker perl perl-module-exporter perl-module-extutils-mm-any perl-module-strict perl-module-file-basename
+SECTION: devel
+PKG_perl-module-extutils-mm-vms: perl-module-extutils-mm-vms
+FILES_perl-module-extutils-mm-vms: /usr/lib/perl/5.20.0/ExtUtils/MM_VMS.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MM_VMS.pm": 61483}
+PKGSIZE_perl-module-extutils-mm-vms: 61483

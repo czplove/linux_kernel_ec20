@@ -1,0 +1,17 @@
+PN: libusb-compat
+PE: 1
+PV: 0.1.5
+PR: r0
+PKGE: 1
+PKGV: 0.1.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb-compat-staticdev: libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1  This package contains static libraries for software development.
+SUMMARY_libusb-compat-staticdev: libusb-0.1 compatibility layer for libusb1 - Development files (Static Libraries)
+RDEPENDS_libusb-compat-staticdev: libusb-compat-dev (= 1:0.1.5-r0)
+RPROVIDES_libusb-compat-staticdev:  libusb-compat-staticdev
+SECTION_libusb-compat-staticdev: devel
+PKG_libusb-compat-staticdev: libusb-0.1-staticdev
+FILES_libusb-compat-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libusb-compat/*.a
+FILES_INFO: {"/lib/libusb.a": 14018}
+PKGSIZE_libusb-compat-staticdev: 14018

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ru-ua: locale definition for ru-ua
+SUMMARY_glibc-localedata-ru-ua: locale definition for ru-ua
+RDEPENDS_glibc-localedata-ru-ua: glibc-localedata-iso14651-t1 glibc-localedata-ru-ru
+SECTION: base
+PKG_glibc-localedata-ru-ua: glibc-localedata-ru-ua
+FILES_glibc-localedata-ru-ua: /usr/share/i18n/locales/ru_UA
+FILES_INFO: {"/usr/share/i18n/locales/ru_UA": 5374}
+PKGSIZE_glibc-localedata-ru-ua: 5374

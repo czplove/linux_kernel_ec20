@@ -1,0 +1,17 @@
+PN: netbase
+PE: 1
+PV: 5.3
+PR: r1
+PKGE: 1
+PKGV: 5.3
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION_netbase-dev: This package provides the necessary infrastructure for basic TCP/IP based networking  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_netbase-dev: Basic TCP/IP networking support - Development files
+RDEPENDS_netbase-dev: netbase (= 1:5.3-r1)
+SECTION_netbase-dev: devel
+PKG_netbase-dev: netbase-dev
+ALLOW_EMPTY_netbase-dev: 1
+FILES_netbase-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/netbase/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_netbase-dev: 0

@@ -1,0 +1,14 @@
+PN: usbutils
+PV: 007
+PR: r0
+PKGV: 007
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_usbutils-staticdev: Contains the lsusb utility for inspecting the devices connected to the USB bus.  This package contains static libraries for software development.
+SUMMARY_usbutils-staticdev: Host side USB console utilities - Development files (Static Libraries)
+RDEPENDS_usbutils-staticdev: usbutils-dev (= 007-r0)
+SECTION_usbutils-staticdev: devel
+PKG_usbutils-staticdev: usbutils-staticdev
+FILES_usbutils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/usbutils/*.a
+FILES_INFO: {}
+PKGSIZE_usbutils-staticdev: 0

@@ -1,0 +1,14 @@
+PN: start-scripts-mssboot
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-mssboot-dbg: Start up script for mssboot  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_start-scripts-mssboot-dbg: start-scripts-mssboot version git-invalidgit-r2 - Debugging files
+SECTION_start-scripts-mssboot-dbg: devel
+PKG_start-scripts-mssboot-dbg: start-scripts-mssboot-dbg
+ALLOW_EMPTY_start-scripts-mssboot-dbg: 1
+FILES_start-scripts-mssboot-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/start-scripts-mssboot/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/start-scripts-mssboot/.debug /usr/lib/matchbox-panel/.debug /usr/lib/start-scripts-mssboot/start-scripts-mssboot/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_start-scripts-mssboot-dbg: 0

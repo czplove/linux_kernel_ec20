@@ -1,0 +1,13 @@
+PN: qemuwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: QEMU wrapper script.
+SUMMARY: QEMU wrapper script
+SECTION: base
+PKG_qemuwrapper-cross-locale: qemuwrapper-cross-locale
+FILES_qemuwrapper-cross-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qemuwrapper-cross-locale: 0

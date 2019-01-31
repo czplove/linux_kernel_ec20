@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-inc-latest: perl module inc-latest
+SUMMARY_perl-module-inc-latest: perl module inc-latest
+RDEPENDS_perl-module-inc-latest: perl-module-carp perl-module-if perl-module-file-path perl-module-file-copy perl-module-vars perl-module-file-spec perl perl-module-inc-latest-private perl-module-extutils-installed perl-module-strict perl-module-file-basename
+SECTION: devel
+PKG_perl-module-inc-latest: perl-module-inc-latest
+FILES_perl-module-inc-latest: /usr/lib/perl/5.20.0/inc/latest.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/inc/latest.pm": 7527}
+PKGSIZE_perl-module-inc-latest: 7527

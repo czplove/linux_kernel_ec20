@@ -1,0 +1,13 @@
+PN: cryptodev-linux
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_cryptodev-linux-doc: A /dev/crypto device driver header file.  This package contains documentation.
+SUMMARY_cryptodev-linux-doc: A /dev/crypto device driver header file - Documentation files
+SECTION_cryptodev-linux-doc: doc
+PKG_cryptodev-linux-doc: cryptodev-linux-doc
+FILES_cryptodev-linux-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_cryptodev-linux-doc: 0

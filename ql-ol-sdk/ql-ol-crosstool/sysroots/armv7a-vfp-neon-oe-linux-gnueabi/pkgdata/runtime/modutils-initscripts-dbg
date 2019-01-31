@@ -1,0 +1,14 @@
+PN: modutils-initscripts
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: PD
+DESCRIPTION_modutils-initscripts-dbg: Initscript for auto-loading kernel modules on boot.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_modutils-initscripts-dbg: Initscript for auto-loading kernel modules on boot - Debugging files
+SECTION_modutils-initscripts-dbg: devel
+PKG_modutils-initscripts-dbg: modutils-initscripts-dbg
+ALLOW_EMPTY_modutils-initscripts-dbg: 1
+FILES_modutils-initscripts-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/modutils-initscripts/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/modutils-initscripts/.debug /usr/lib/matchbox-panel/.debug /usr/lib/modutils-initscripts/modutils-initscripts/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_modutils-initscripts-dbg: 0

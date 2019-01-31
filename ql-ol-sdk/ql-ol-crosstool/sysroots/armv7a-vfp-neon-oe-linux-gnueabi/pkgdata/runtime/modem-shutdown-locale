@@ -1,0 +1,13 @@
+PN: modem-shutdown
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Automatically shuts the modem down on halt and reboot
+SUMMARY: modem-shutdown version git-invalidgit-r2
+SECTION: base
+PKG_modem-shutdown-locale: modem-shutdown-locale
+FILES_modem-shutdown-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_modem-shutdown-locale: 0

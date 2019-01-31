@@ -1,0 +1,13 @@
+PN: qmi-framework
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI Framework Library
+SUMMARY: qmi-framework version git-invalidgit-r7
+SECTION: base
+PKG_qmi-framework-locale: qmi-framework-locale
+FILES_qmi-framework-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-framework-locale: 0

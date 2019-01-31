@@ -1,0 +1,15 @@
+PN: loc-pla
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-pla-staticdev: GPS Loc Platform Library Abstraction  This package contains static libraries for software development.
+SUMMARY_loc-pla-staticdev: loc-pla version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-pla-staticdev: loc-pla-dev (= git-r1)
+RPROVIDES_loc-pla-staticdev:  loc-pla-staticdev
+SECTION_loc-pla-staticdev: devel
+PKG_loc-pla-staticdev: libloc-pla-staticdev
+FILES_loc-pla-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-pla/*.a
+FILES_INFO: {}
+PKGSIZE_loc-pla-staticdev: 0

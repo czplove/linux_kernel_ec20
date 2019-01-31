@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-fr-ch: locale definition for fr-ch
+SUMMARY_glibc-localedata-fr-ch: locale definition for fr-ch
+RDEPENDS_glibc-localedata-fr-ch: glibc-localedata-iso14651-t1 glibc-localedata-fr-fr glibc-localedata-de-ch
+SECTION: base
+PKG_glibc-localedata-fr-ch: glibc-localedata-fr-ch
+FILES_glibc-localedata-fr-ch: /usr/share/i18n/locales/fr_CH
+FILES_INFO: {"/usr/share/i18n/locales/fr_CH": 4539}
+PKGSIZE_glibc-localedata-fr-ch: 4539

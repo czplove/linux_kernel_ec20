@@ -1,0 +1,14 @@
+PN: iw
+PV: 3.6
+PR: r1
+PKGV: 3.6
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_iw-staticdev: iw is a new nl80211 based CLI configuration utility for                wireless devices. It supports almost all new drivers that have been added                to the kernel recently.   This package contains static libraries for software development.
+SUMMARY_iw-staticdev: nl80211 based CLI configuration utility for wireless devices - Development files (Static Libraries)
+RDEPENDS_iw-staticdev: iw-dev (= 3.6-r1)
+SECTION_iw-staticdev: devel
+PKG_iw-staticdev: iw-staticdev
+FILES_iw-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/iw/*.a
+FILES_INFO: {}
+PKGSIZE_iw-staticdev: 0

@@ -1,0 +1,15 @@
+PN: kbd
+PV: 2.0.2
+PR: r0
+PKGV: 2.0.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_kbd-dbg: Keytable files and keyboard utilities.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_kbd-dbg: Keytable files and keyboard utilities - Debugging files
+RRECOMMENDS_kbd-dbg: glibc-dbg
+SECTION_kbd-dbg: devel
+PKG_kbd-dbg: kbd-dbg
+ALLOW_EMPTY_kbd-dbg: 1
+FILES_kbd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/kbd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/kbd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/kbd/kbd/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/showconsolefont": 8712, "/usr/bin/.debug/setfont": 11154, "/usr/bin/.debug/setleds": 5320, "/usr/bin/.debug/setvtrgb": 5858, "/usr/bin/.debug/loadkeys": 15775, "/usr/bin/.debug/showkey": 5945, "/usr/bin/.debug/dumpkeys": 11764, "/usr/bin/.debug/fgconsole.kbd": 5545, "/usr/bin/.debug/deallocvt.kbd": 5495, "/usr/bin/.debug/setkeycodes": 5505, "/usr/bin/.debug/kbdrate": 5678, "/usr/bin/.debug/openvt.kbd": 6680, "/usr/bin/.debug/kbd_mode": 5610, "/usr/bin/.debug/loadunimap": 7850, "/usr/bin/.debug/getkeycodes": 5522, "/usr/bin/.debug/kbdinfo": 5743, "/usr/bin/.debug/chvt.kbd": 5460, "/usr/bin/.debug/setmetamode": 5299, "/usr/bin/.debug/psfxtable": 8564, "/usr/bin/.debug/mapscrn": 7024}
+PKGSIZE_kbd-dbg: 144503

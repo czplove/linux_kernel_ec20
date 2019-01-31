@@ -1,0 +1,14 @@
+PN: init-ifupdown
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: GPLv2
+DESCRIPTION_init-ifupdown-staticdev: This package provides high level tools to configure network interfaces  This package contains static libraries for software development.
+SUMMARY_init-ifupdown-staticdev: Basic TCP/IP networking init scripts and configuration files - Development files (Static Libraries)
+RDEPENDS_init-ifupdown-staticdev: init-ifupdown-dev (= 1.0-r7)
+SECTION_init-ifupdown-staticdev: devel
+PKG_init-ifupdown-staticdev: init-ifupdown-staticdev
+FILES_init-ifupdown-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/init-ifupdown/*.a
+FILES_INFO: {}
+PKGSIZE_init-ifupdown-staticdev: 0

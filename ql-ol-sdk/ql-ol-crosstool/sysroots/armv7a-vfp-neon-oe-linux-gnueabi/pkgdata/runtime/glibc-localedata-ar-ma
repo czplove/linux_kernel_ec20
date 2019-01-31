@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-ma: locale definition for ar-ma
+SUMMARY_glibc-localedata-ar-ma: locale definition for ar-ma
+RDEPENDS_glibc-localedata-ar-ma: glibc-localedata-ar-eg glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ar-ma: glibc-localedata-ar-ma
+FILES_glibc-localedata-ar-ma: /usr/share/i18n/locales/ar_MA
+FILES_INFO: {"/usr/share/i18n/locales/ar_MA": 6180}
+PKGSIZE_glibc-localedata-ar-ma: 6180

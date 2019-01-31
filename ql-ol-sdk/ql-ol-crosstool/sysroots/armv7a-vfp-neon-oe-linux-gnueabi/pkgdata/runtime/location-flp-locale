@@ -1,0 +1,14 @@
+PN: location-flp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS FLP
+SUMMARY: location-flp version git-invalidgit-r1
+RPROVIDES_location-flp-locale:  location-flp-locale
+SECTION: base
+PKG_location-flp-locale: libflp-default-locale
+FILES_location-flp-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_location-flp-locale: 0

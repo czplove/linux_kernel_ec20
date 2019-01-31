@@ -1,0 +1,19 @@
+PN: loc-pla
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: GPS Loc Platform Library Abstraction
+SUMMARY: loc-pla version git-r1
+RDEPENDS_loc-pla: glibc (>= 2.21) glib-2.0 (>= 2.42.1) libstdc++ (>= 4.9.2) loc-stub (>= git) libgcc (>= 4.9.2) system-core-liblog (>= git)
+RPROVIDES_loc-pla:  loc-pla
+SECTION: base
+PKG_loc-pla: libloc-pla1
+FILES_loc-pla: /usr/bin/* /usr/sbin/* /usr/lib/loc-pla/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-pla /usr/lib/loc-pla/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-pla: /usr/lib/libloc@underscore@pla.so.1.0.0
+FILES_INFO: {"/usr/lib/libloc_pla.so.1": 4836}
+FILERPROVIDES_/usr/lib/libloc@underscore@pla.so.1.0.0_loc-pla: elf(buildid) (= 60086af09d5d8fef8695807546f85aff041c8ea3) libloc_pla.so.1
+FILERDEPENDSFLIST_loc-pla: /usr/lib/libloc@underscore@pla.so.1.0.0
+FILERDEPENDS_/usr/lib/libloc@underscore@pla.so.1.0.0_loc-pla: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libgcc_s.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libloc_stub.so.1 liblog.so.0 libm.so.6 libpthread.so.0 libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_loc-pla: 4836

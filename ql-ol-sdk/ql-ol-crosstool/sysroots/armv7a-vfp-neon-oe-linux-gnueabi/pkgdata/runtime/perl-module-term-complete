@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-term-complete: perl module term-complete
+SUMMARY_perl-module-term-complete: perl module term-complete
+RDEPENDS_perl-module-term-complete: perl-module-strict perl-module-exporter perl
+SECTION: devel
+PKG_perl-module-term-complete: perl-module-term-complete
+FILES_perl-module-term-complete: /usr/lib/perl/5.20.0/Term/Complete.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Term/Complete.pm": 4546}
+PKGSIZE_perl-module-term-complete: 4546

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-mime-header: perl module encode-mime-header
+SUMMARY_perl-module-encode-mime-header: perl module encode-mime-header
+RDEPENDS_perl-module-encode-mime-header: perl-module-carp perl-module-mime-base64 perl-module-encode perl perl-module-warnings perl-module-bytes perl-module-utf8 perl-module-strict perl-module-constant perl-module-parent
+SECTION: devel
+PKG_perl-module-encode-mime-header: perl-module-encode-mime-header
+FILES_perl-module-encode-mime-header: /usr/lib/perl/5.20.0/Encode/MIME/Header.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/MIME/Header.pm": 6971}
+PKGSIZE_perl-module-encode-mime-header: 6971

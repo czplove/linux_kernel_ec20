@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ku: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ku locale.
+SUMMARY_glib-2.0-locale-ku: A general-purpose utility library - ku translations
+RPROVIDES_glib-2.0-locale-ku: glib-2.0-locale ku-translation glib-2.0-locale-ku
+RRECOMMENDS_glib-2.0-locale-ku: virtual-locale-ku
+SECTION: libs
+PKG_glib-2.0-locale-ku: libglib-2.0-locale-ku
+FILES_glib-2.0-locale-ku: /usr/share/locale/ku
+FILES_INFO: {"/usr/share/locale/ku/LC_MESSAGES/glib20.mo": 2868}
+PKGSIZE_glib-2.0-locale-ku: 2868

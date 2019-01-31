@@ -1,0 +1,15 @@
+PN: ql-ol-extsdk
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-ol-extsdk-dbg: Quectel High Data Open API  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-ol-extsdk-dbg: ql-ol-extsdk version git-invalidgit-r01 - Debugging files
+RRECOMMENDS_ql-ol-extsdk-dbg: mcm-core-dbg dsutils-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg ql-common-tools-dbg libstdc++-dbg diag-dbg data-dbg time-genoff-dbg data-oss-dbg ql-syslog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg qmi-dbg ql-manager-dbg
+SECTION_ql-ol-extsdk-dbg: devel
+PKG_ql-ol-extsdk-dbg: ql-ol-extsdk-dbg
+ALLOW_EMPTY_ql-ol-extsdk-dbg: 1
+FILES_ql-ol-extsdk-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-ol-extsdk/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-ol-extsdk/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-ol-extsdk/ql-ol-extsdk/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libql_peripheral.so.0.0.0": 60352, "/usr/lib/.debug/libql_common_api.so.0.0.0": 988644}
+PKGSIZE_ql-ol-extsdk-dbg: 1048996

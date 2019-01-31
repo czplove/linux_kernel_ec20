@@ -1,0 +1,19 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libformw: ncurses formw library
+SUMMARY_ncurses-libformw: ncurses formw library
+RDEPENDS_ncurses-libformw: glibc (>= 2.21) ncurses-libtinfo (>= 5.9) ncurses-libncursesw (>= 5.9)
+RPROVIDES_ncurses-libformw:  ncurses-libformw
+SECTION: libs
+PKG_ncurses-libformw: libformw5
+FILES_ncurses-libformw: /usr/lib/libformw.so.5 /usr/lib/libformw.so.5.9
+FILERPROVIDESFLIST_ncurses-libformw: /usr/lib/libformw.so.5.9
+FILES_INFO: {"/usr/lib/libformw.so.5": 49684}
+FILERPROVIDES_/usr/lib/libformw.so.5.9_ncurses-libformw: elf(buildid) (= 0569b3484d49be1d704f795ba8c3ca29fe686676) libformw.so.5
+FILERDEPENDSFLIST_ncurses-libformw: /usr/lib/libformw.so.5.9
+FILERDEPENDS_/usr/lib/libformw.so.5.9_ncurses-libformw: libc.so.6 libc.so.6(GLIBC_2.4) libncursesw.so.5 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libformw: 49684

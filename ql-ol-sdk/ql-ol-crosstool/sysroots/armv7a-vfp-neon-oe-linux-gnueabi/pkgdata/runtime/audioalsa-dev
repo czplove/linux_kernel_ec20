@@ -1,0 +1,17 @@
+PN: audioalsa
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audioalsa-dev: libaudioalsa Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_audioalsa-dev: audioalsa version git-r4 - Development files
+RDEPENDS_audioalsa-dev: audioalsa (= git-r4)
+RPROVIDES_audioalsa-dev:  audioalsa-dev
+RRECOMMENDS_audioalsa-dev: glib-2.0-dev glibc-dev
+SECTION_audioalsa-dev: devel
+PKG_audioalsa-dev: libaudioalsa-dev
+ALLOW_EMPTY_audioalsa-dev: 1
+FILES_audioalsa-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/audioalsa/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/audioalsa.pc": 196, "/usr/include/audioalsa/control.h": 1667, "/usr/lib/libaudioalsa.la": 1028, "/usr/lib/libaudioalsa.so": 21}
+PKGSIZE_audioalsa-dev: 2912

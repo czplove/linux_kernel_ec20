@@ -1,0 +1,17 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+RDEPENDS_locale-base-he-il.iso-8859-8: localedef glibc-localedata-he-il glibc-charmap-iso-8859-8
+RPROVIDES_locale-base-he-il.iso-8859-8:  virtual-locale-he-il.iso-8859-8 virtual-locale-he
+SECTION: base
+PKG_locale-base-he-il.iso-8859-8: locale-base-he-il.iso-8859-8
+ALLOW_EMPTY_locale-base-he-il.iso-8859-8: 1
+pkg_postinst_locale-base-he-il.iso-8859-8: #!/bin/sh\n\nif [ "x$D" != "x" ]; then\n\texit 1\nfi\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n        cp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --inputfile=/usr/share/i18n/locales/he_IL --charmap=ISO-8859-8 --prefix=/tmp/locale he_IL\nmkdir -p /usr/lib/locale/\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+pkg_postrm_locale-base-he-il.iso-8859-8: #!/bin/sh\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n\tcp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --delete-from-archive --inputfile=/usr/share/locales/he_IL --charmap=ISO-8859-8 --prefix=/tmp/locale he_IL\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+FILES_INFO: {}
+PKGSIZE_locale-base-he-il.iso-8859-8: 0

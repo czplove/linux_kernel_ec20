@@ -1,0 +1,13 @@
+PN: miniupnpd
+PV: 1.9.20150307
+PR: r7
+PKGV: 1.9.20150307
+PKGR: r7
+LICENSE: BSD
+DESCRIPTION: MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling seamless detection of other UPnP devices/control points.
+SUMMARY: Lightweight implementation of a UPnP IGD daemon.
+SECTION: base
+PKG_miniupnpd-locale: miniupnpd-locale
+FILES_miniupnpd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_miniupnpd-locale: 0

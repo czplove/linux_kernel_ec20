@@ -1,0 +1,14 @@
+PN: open-source-kernel-tests
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: BSD
+DESCRIPTION_open-source-kernel-tests-staticdev: Open Source kernel tests  This package contains static libraries for software development.
+SUMMARY_open-source-kernel-tests-staticdev: open-source-kernel-tests version git-r6 - Development files (Static Libraries)
+RDEPENDS_open-source-kernel-tests-staticdev: open-source-kernel-tests-dev (= git-r6)
+SECTION_open-source-kernel-tests-staticdev: devel
+PKG_open-source-kernel-tests-staticdev: open-source-kernel-tests-staticdev
+FILES_open-source-kernel-tests-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/open-source-kernel-tests/*.a
+FILES_INFO: {}
+PKGSIZE_open-source-kernel-tests-staticdev: 0

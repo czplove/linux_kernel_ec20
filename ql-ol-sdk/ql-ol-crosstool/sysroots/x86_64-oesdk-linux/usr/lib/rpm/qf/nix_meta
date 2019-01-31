@@ -1,0 +1,11 @@
+"\
+meta = \{\
+\n  description = \"%{SUMMARY}\";\
+\n  longDescription = ''\
+\n%{DESCRIPTION}\
+\n'';\
+\n%|URL?{  homepage = %{URL};}:{}|\
+\n  license = \"%|license?{%{LICENSE}\";}:{}|\
+\n%|PACKAGER?{  maintainers = \[ \"%{PACKAGER}\" \];}:{}|\
+\n\};\
+\n"

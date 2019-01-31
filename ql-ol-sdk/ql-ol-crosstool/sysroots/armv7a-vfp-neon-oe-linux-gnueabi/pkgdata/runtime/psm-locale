@@ -1,0 +1,13 @@
+PN: psm
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QTI Power Saving Mode Framework
+SUMMARY: psm version git-invalidgit-r0
+SECTION: base
+PKG_psm-locale: psm-locale
+FILES_psm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_psm-locale: 0

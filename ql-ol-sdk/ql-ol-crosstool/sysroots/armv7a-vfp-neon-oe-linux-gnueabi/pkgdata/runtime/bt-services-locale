@@ -1,0 +1,13 @@
+PN: bt-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Bluetooth services required for MDM platforms
+SUMMARY: bt-services version git-invalidgit-r1
+SECTION: base
+PKG_bt-services-locale: bt-services-locale
+FILES_bt-services-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_bt-services-locale: 0

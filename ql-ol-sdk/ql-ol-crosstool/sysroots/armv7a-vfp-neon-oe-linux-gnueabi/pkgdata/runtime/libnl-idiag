@@ -1,0 +1,21 @@
+PN: libnl
+PE: 1
+PV: 3.2.25
+PR: r1
+PKGE: 1
+PKGV: 3.2.25
+PKGR: r1
+LICENSE: LGPLv2.1
+DESCRIPTION: A library for applications dealing with netlink sockets.
+SUMMARY: A library for applications dealing with netlink sockets
+RDEPENDS_libnl-idiag: libnl (>= 3.2.25) glibc (>= 2.21)
+RPROVIDES_libnl-idiag:  libnl-idiag
+SECTION: libs/network
+PKG_libnl-idiag: libnl-idiag-3-200
+FILES_libnl-idiag: /usr/lib/libnl-idiag-3.so.*
+FILERPROVIDESFLIST_libnl-idiag: /usr/lib/libnl-idiag-3.so.200.20.0
+FILES_INFO: {"/usr/lib/libnl-idiag-3.so.200": 20360}
+FILERPROVIDES_/usr/lib/libnl-idiag-3.so.200.20.0_libnl-idiag: elf(buildid) (= 6609a3a5cd9c2103de60746bf7754b8f86ca209b) libnl-idiag-3.so.200 libnl-idiag-3.so.200(libnl_3)
+FILERDEPENDSFLIST_libnl-idiag: /usr/lib/libnl-idiag-3.so.200.20.0
+FILERDEPENDS_/usr/lib/libnl-idiag-3.so.200.20.0_libnl-idiag: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libnl-3.so.200 libnl-3.so.200(libnl_3) libpthread.so.0 rtld(GNU_HASH)
+PKGSIZE_libnl-idiag: 20360

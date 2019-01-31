@@ -1,0 +1,41 @@
+"\
+Package: %{NAME}\
+\nBinary: XXX\
+\nVersion: %|EPOCH?{%{EPOCH}:}|%{VERSION}-%{RELEASE}\
+%|PACKAGER?{\
+\nMaintainer: %{PACKAGER}\
+}|\
+%|REQUIRENAME?{\
+\nBuild-Depends:[ %{needswhat}]\
+}|\
+\nBuild-Depends-Indep: XXX\
+\nArchitecture: %{ARCH:strsub(noarch,all,src,source)}\
+\nStandards-Version: XXX\
+\nFormat: XXX\
+\nDirectory: XXX\
+%|FILENAMES?{\
+\nFiles: <== needs MD5 SIZE BASENAME\
+[\
+\n %{Debmd5sums}\
+]\
+}|\
+\nUploaders: XXX\
+%|URL?{\
+\nHomepage: %{URL}\
+}|\
+\nVcs-Browser: XXX\
+\nVcs-Git: XXX\
+%|FILENAMES?{\
+\nChecksums-Sha1: <== needs SHA1 SIZE BASENAME\
+[\
+\n %{Debmd5sums}\
+]\
+}|\
+%|FILENAMES?{\
+\nChecksums-Sha256: <== needs SHA256 SIZE BASENAME\
+[\
+\n %{Debmd5sums}\
+]\
+}|\
+\nPython-Version: XXX\
+\n"

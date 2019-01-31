@@ -1,0 +1,17 @@
+PN: lttng-ust
+PE: 2
+PV: 2.6.0
+PR: r2
+PKGE: 2
+PKGV: 2.6.0
+PKGR: r2
+LICENSE: LGPLv2.1+ & MIT & GPLv2
+DESCRIPTION_lttng-ust-dbg: The LTTng UST 2.x package contains the userspace tracer library to trace userspace codes.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lttng-ust-dbg: Linux Trace Toolkit Userspace Tracer 2.x - Debugging files
+RRECOMMENDS_lttng-ust-dbg: glibc-dbg liburcu-dbg
+SECTION_lttng-ust-dbg: devel
+PKG_lttng-ust-dbg: lttng-ust-dbg
+ALLOW_EMPTY_lttng-ust-dbg: 1
+FILES_lttng-ust-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lttng-ust/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lttng-ust/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lttng-ust/lttng-ust/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/liblttng-ust-libc-wrapper.so.0.0.0": 9611, "/usr/lib/.debug/liblttng-ust.so.0.0.0": 54338, "/usr/lib/.debug/liblttng-ust-pthread-wrapper.so.0.0.0": 8547, "/usr/lib/.debug/liblttng-ust-tracepoint.so.0.0.0": 17040, "/usr/lib/.debug/liblttng-ust-cyg-profile-fast.so.0.0.0": 7188, "/usr/lib/.debug/liblttng-ust-fork.so.0.0.0": 4294, "/usr/lib/.debug/liblttng-ust-dl.so.0.0.0": 6991, "/usr/lib/.debug/liblttng-ust-cyg-profile.so.0.0.0": 7053, "/usr/lib/.debug/liblttng-ust-ctl.so.2.0.0": 38164}
+PKGSIZE_lttng-ust-dbg: 153226

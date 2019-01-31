@@ -1,0 +1,13 @@
+PN: mcm
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcm-doc: mcm headers  This package contains documentation.
+SUMMARY_mcm-doc: mcm version git-invalidgit-r3 - Documentation files
+SECTION_mcm-doc: doc
+PKG_mcm-doc: mcm-doc
+FILES_mcm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_mcm-doc: 0

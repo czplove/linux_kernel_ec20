@@ -1,0 +1,14 @@
+PN: cryptodev-linux
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_cryptodev-linux-staticdev: A /dev/crypto device driver header file.  This package contains static libraries for software development.
+SUMMARY_cryptodev-linux-staticdev: A /dev/crypto device driver header file - Development files (Static Libraries)
+RDEPENDS_cryptodev-linux-staticdev: cryptodev-linux-dev (= 1.6-r0)
+SECTION_cryptodev-linux-staticdev: devel
+PKG_cryptodev-linux-staticdev: cryptodev-linux-staticdev
+FILES_cryptodev-linux-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/cryptodev-linux/*.a
+FILES_INFO: {}
+PKGSIZE_cryptodev-linux-staticdev: 0

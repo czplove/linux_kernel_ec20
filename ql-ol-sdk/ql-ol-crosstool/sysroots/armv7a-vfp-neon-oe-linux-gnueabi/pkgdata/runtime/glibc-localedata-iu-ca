@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-iu-ca: locale definition for iu-ca
+SUMMARY_glibc-localedata-iu-ca: locale definition for iu-ca
+RDEPENDS_glibc-localedata-iu-ca: glibc-localedata-en-ca
+SECTION: base
+PKG_glibc-localedata-iu-ca: glibc-localedata-iu-ca
+FILES_glibc-localedata-iu-ca: /usr/share/i18n/locales/iu_CA
+FILES_INFO: {"/usr/share/i18n/locales/iu_CA": 3851}
+PKGSIZE_glibc-localedata-iu-ca: 3851

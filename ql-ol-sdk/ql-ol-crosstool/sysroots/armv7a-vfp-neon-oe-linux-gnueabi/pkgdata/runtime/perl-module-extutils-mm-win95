@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-win95: perl module extutils-mm-win95
+SUMMARY_perl-module-extutils-mm-win95: perl module extutils-mm-win95
+RDEPENDS_perl-module-extutils-mm-win95: perl-module-strict perl-module-extutils-makemaker-config perl-module-extutils-mm-win32 perl
+SECTION: devel
+PKG_perl-module-extutils-mm-win95: perl-module-extutils-mm-win95
+FILES_perl-module-extutils-mm-win95: /usr/lib/perl/5.20.0/ExtUtils/MM_Win95.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MM_Win95.pm": 1914}
+PKGSIZE_perl-module-extutils-mm-win95: 1914

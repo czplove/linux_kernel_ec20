@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser: perl module tap-parser
+SUMMARY_perl-module-tap-parser: perl module tap-parser
+RDEPENDS_perl-module-tap-parser: perl-module-carp perl-module-tap-parser-iterator perl-module-tap-parser-iteratorfactory perl-module-tap-parser-sourcehandler-handle perl perl-module-tap-parser-sourcehandler-file perl-module-tap-parser-sourcehandler-perl perl-module-tap-parser-sourcehandler-rawtap perl-module-tap-parser-resultfactory perl-module-warnings perl-module-tap-parser-source perl-module-strict perl-module-tap-parser-sourcehandler-executable perl-module-base perl-module-tap-parser-result perl-module-tap-parser-grammar
+SECTION: devel
+PKG_perl-module-tap-parser: perl-module-tap-parser
+FILES_perl-module-tap-parser: /usr/lib/perl/5.20.0/TAP/Parser.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Parser.pm": 51780}
+PKGSIZE_perl-module-tap-parser: 51780

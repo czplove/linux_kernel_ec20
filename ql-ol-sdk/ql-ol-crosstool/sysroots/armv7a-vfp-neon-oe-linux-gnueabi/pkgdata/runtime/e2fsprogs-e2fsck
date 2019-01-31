@@ -1,0 +1,26 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0
+LICENSE_e2fsprogs-e2fsck: GPLv2
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_e2fsprogs-e2fsck: libext2fs (>= 1.42.9) glibc (>= 2.21) libcomerr (>= 1.42.9) util-linux-libblkid (>= 2.25.2) util-linux-libuuid (>= 2.25.2) libe2p (>= 1.42.9)
+SECTION: base
+PKG_e2fsprogs-e2fsck: e2fsprogs-e2fsck
+FILES_e2fsprogs-e2fsck: /sbin/e2fsck /sbin/fsck.ext*
+FILERPROVIDESFLIST_e2fsprogs-e2fsck: /sbin/fsck.ext3 /sbin/fsck.ext2 /sbin/fsck.ext4 /sbin/e2fsck /sbin/fsck.ext4dev
+FILES_INFO: {"/sbin/fsck.ext3": 252930, "/sbin/fsck.ext2": 252930, "/sbin/fsck.ext4dev": 209580, "/sbin/e2fsck": 252930, "/sbin/fsck.ext4": 252930}
+FILERPROVIDES_/sbin/fsck.ext3_e2fsprogs-e2fsck: elf(buildid) (= 9c6966c09e09e4ba6b15d82185207c3964918824)
+FILERPROVIDES_/sbin/fsck.ext2_e2fsprogs-e2fsck: elf(buildid) (= 9c6966c09e09e4ba6b15d82185207c3964918824)
+FILERPROVIDES_/sbin/fsck.ext4_e2fsprogs-e2fsck: elf(buildid) (= 9c6966c09e09e4ba6b15d82185207c3964918824)
+FILERPROVIDES_/sbin/e2fsck_e2fsprogs-e2fsck: elf(buildid) (= 9c6966c09e09e4ba6b15d82185207c3964918824)
+FILERPROVIDES_/sbin/fsck.ext4dev_e2fsprogs-e2fsck: elf(buildid) (= 9c6966c09e09e4ba6b15d82185207c3964918824)
+FILERDEPENDSFLIST_e2fsprogs-e2fsck: /sbin/fsck.ext3 /sbin/fsck.ext2 /sbin/fsck.ext4 /sbin/e2fsck /sbin/fsck.ext4dev
+FILERDEPENDS_/sbin/fsck.ext3_e2fsprogs-e2fsck: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fsck.ext2_e2fsprogs-e2fsck: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fsck.ext4_e2fsprogs-e2fsck: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/e2fsck_e2fsprogs-e2fsck: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fsck.ext4dev_e2fsprogs-e2fsck: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+PKGSIZE_e2fsprogs-e2fsck: 1221300

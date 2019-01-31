@@ -1,0 +1,15 @@
+PN: loc-vzw
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-vzw-staticdev: GPS Location vzw  This package contains static libraries for software development.
+SUMMARY_loc-vzw-staticdev: loc-vzw version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_loc-vzw-staticdev: loc-vzw-dev (= git-invalidgit-r1)
+RPROVIDES_loc-vzw-staticdev:  loc-vzw-staticdev
+SECTION_loc-vzw-staticdev: devel
+PKG_loc-vzw-staticdev: libloc-ext-staticdev
+FILES_loc-vzw-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-vzw/*.a
+FILES_INFO: {}
+PKGSIZE_loc-vzw-staticdev: 0

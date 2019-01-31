@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-greek-ccitt: gconv module for character set greek-ccitt
+SUMMARY_glibc-gconv-greek-ccitt: gconv module for character set greek-ccitt
+RDEPENDS_glibc-gconv-greek-ccitt: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-greek-ccitt: glibc-gconv-greek-ccitt
+FILES_glibc-gconv-greek-ccitt: /usr/lib/gconv/GREEK-CCITT.so
+FILES_INFO: {"/usr/lib/gconv/GREEK-CCITT.so": 9588}
+PKGSIZE_glibc-gconv-greek-ccitt: 9588

@@ -1,0 +1,16 @@
+PN: kbd
+PV: 2.0.2
+PR: r0
+PKGV: 2.0.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_kbd-dev: Keytable files and keyboard utilities.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_kbd-dev: Keytable files and keyboard utilities - Development files
+RDEPENDS_kbd-dev: kbd (= 2.0.2-r0)
+RRECOMMENDS_kbd-dev: glibc-dev update-alternatives-opkg-dev libcheck-dev
+SECTION_kbd-dev: devel
+PKG_kbd-dev: kbd-dev
+ALLOW_EMPTY_kbd-dev: 1
+FILES_kbd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kbd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_kbd-dev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-de-at: locale definition for de-at
+SUMMARY_glibc-localedata-de-at: locale definition for de-at
+RDEPENDS_glibc-localedata-de-at: glibc-localedata-de-de glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-de-at: glibc-localedata-de-at
+FILES_glibc-localedata-de-at: /usr/share/i18n/locales/de_AT
+FILES_INFO: {"/usr/share/i18n/locales/de_AT": 5117}
+PKGSIZE_glibc-localedata-de-at: 5117

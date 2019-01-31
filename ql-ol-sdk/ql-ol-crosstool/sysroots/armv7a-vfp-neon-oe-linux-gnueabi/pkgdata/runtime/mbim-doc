@@ -1,0 +1,13 @@
+PN: mbim
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mbim-doc: USB Mobile Broadband Interface Model (MBIM) Command Processor  This package contains documentation.
+SUMMARY_mbim-doc: mbim version git-invalidgit-r2 - Documentation files
+SECTION_mbim-doc: doc
+PKG_mbim-doc: mbim-doc
+FILES_mbim-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_mbim-doc: 0

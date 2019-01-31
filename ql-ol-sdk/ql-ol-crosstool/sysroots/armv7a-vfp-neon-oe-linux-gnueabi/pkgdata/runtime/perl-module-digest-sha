@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-digest-sha: perl module digest-sha
+SUMMARY_perl-module-digest-sha: perl module digest-sha
+RDEPENDS_perl-module-digest-sha: perl-module-integer perl-module-carp perl-module-dynaloader perl-module-digest-base perl-module-vars perl perl-module-exporter perl-module-fcntl perl-module-strict glibc (>= 2.21)
+SECTION: devel
+PKG_perl-module-digest-sha: perl-module-digest-sha
+FILES_perl-module-digest-sha: /usr/lib/perl/5.20.0/auto/Digest/SHA/SHA.so /usr/lib/perl/5.20.0/Digest/SHA.pm
+FILERPROVIDESFLIST_perl-module-digest-sha: /usr/lib/perl/5.20.0/auto/Digest/SHA/SHA.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Digest/SHA/SHA.so": 37852, "/usr/lib/perl/5.20.0/Digest/SHA.pm": 22637}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Digest/SHA/SHA.so_perl-module-digest-sha: SHA.so elf(buildid) (= 0679dd9fe4e1ca9139415e3480c8212422c9f4c6)
+FILERDEPENDSFLIST_perl-module-digest-sha: /usr/lib/perl/5.20.0/auto/Digest/SHA/SHA.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Digest/SHA/SHA.so_perl-module-digest-sha: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-digest-sha: 60489

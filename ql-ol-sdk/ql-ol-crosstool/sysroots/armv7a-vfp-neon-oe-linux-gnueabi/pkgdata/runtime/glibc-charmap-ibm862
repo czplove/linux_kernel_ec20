@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm862: character map for ibm862 encoding
+SUMMARY_glibc-charmap-ibm862: character map for ibm862 encoding
+SECTION: base
+PKG_glibc-charmap-ibm862: glibc-charmap-ibm862
+FILES_glibc-charmap-ibm862: /usr/share/i18n/charmaps/IBM862.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM862.gz": 2986}
+PKGSIZE_glibc-charmap-ibm862: 2986

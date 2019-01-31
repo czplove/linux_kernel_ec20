@@ -1,0 +1,20 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-losetup: update-alternatives-opkg util-linux (>= 2.25.2) glibc (>= 2.21)
+SECTION: base
+PKG_util-linux-losetup: util-linux-losetup
+FILES_util-linux-losetup: /sbin/losetup.util-linux
+pkg_postinst_util-linux-losetup: #!/bin/sh\n\tupdate-alternatives --install /sbin/losetup losetup /sbin/losetup.util-linux 100\n
+pkg_postrm_util-linux-losetup: #!/bin/sh\n\tupdate-alternatives --remove  losetup /sbin/losetup.util-linux\n
+FILERPROVIDESFLIST_util-linux-losetup: /sbin/losetup.util-linux
+FILES_INFO: {"/sbin/losetup.util-linux": 48828}
+FILERPROVIDES_/sbin/losetup.util-linux_util-linux-losetup: elf(buildid) (= 837143a1bfc2723795d2d06d42eddbdb94e92109) /sbin/losetup
+FILERDEPENDSFLIST_util-linux-losetup: /sbin/losetup.util-linux
+FILERDEPENDS_/sbin/losetup.util-linux_util-linux-losetup: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) rtld(GNU_HASH)
+PKGSIZE_util-linux-losetup: 48828

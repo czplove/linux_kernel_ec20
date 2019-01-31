@@ -1,0 +1,14 @@
+PN: kbd
+PV: 2.0.2
+PR: r0
+PKGV: 2.0.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_kbd-staticdev: Keytable files and keyboard utilities.  This package contains static libraries for software development.
+SUMMARY_kbd-staticdev: Keytable files and keyboard utilities - Development files (Static Libraries)
+RDEPENDS_kbd-staticdev: kbd-dev (= 2.0.2-r0)
+SECTION_kbd-staticdev: devel
+PKG_kbd-staticdev: kbd-staticdev
+FILES_kbd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/kbd/*.a
+FILES_INFO: {}
+PKGSIZE_kbd-staticdev: 0

@@ -1,0 +1,13 @@
+PN: modutils-initscripts
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: PD
+DESCRIPTION: Initscript for auto-loading kernel modules on boot.
+SUMMARY: Initscript for auto-loading kernel modules on boot
+SECTION: base
+PKG_modutils-initscripts-locale: modutils-initscripts-locale
+FILES_modutils-initscripts-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_modutils-initscripts-locale: 0

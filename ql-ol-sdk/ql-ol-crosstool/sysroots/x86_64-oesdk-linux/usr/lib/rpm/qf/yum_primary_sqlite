@@ -1,0 +1,55 @@
+"\
+INSERT into packages values (\
+'%{DBINSTANCE}'\
+, '%|PACKAGEDIGEST?{%{PACKAGEDIGEST}}|'\
+,\n '%{NAME:sqlescape}'\
+, '%{ARCH:sqlescape}'\
+, '%{VERSION:sqlescape}'\
+, '%|EPOCH?{%{EPOCH}}:{0}|'\
+, '%{RELEASE:sqlescape}'\
+,\n '%{SUMMARY:sqlescape}'\
+,\n '%{DESCRIPTION:sqlescape}'\
+,\n '%|URL?{%{URL:sqlescape}}|'\
+, '%{PACKAGETIME}'\
+, '%{BUILDTIME}'\
+, '%|license?{%{LICENSE:sqlescape}}|'\
+,\n '%|vendor?{%{VENDOR:sqlescape}}|'\
+, '%|group?{%{GROUP:sqlescape}}|'\
+,\n '%|buildhost?{%{BUILDHOST:sqlescape}}|'\
+, '%|sourcerpm?{%{SOURCERPM:sqlescape}}|'\
+,\n '%{HEADERSTARTOFF}'\
+, '%{HEADERENDOFF}'\
+, '%|PACKAGER?{%{PACKAGER:sqlescape}}|'\
+, '%{PACKAGESIZE}'\
+, '%{SIZE}'\
+, '%{ARCHIVESIZE}'\
+,\n '%{PACKAGEORIGIN:bncdata}'\
+,\n '%{PACKAGEBASEURL:sqlescape}'\
+, 'sha'\
+);\
+%|obsoletename?{[\
+\nINSERT into obsoletes values (\
+%{obsoletesqlentry}\
+);\
+]}|\
+%|providename?{[\
+\nINSERT into provides values (\
+%{providesqlentry}\
+);\
+]}|\
+%|conflictname?{[\
+\nINSERT into conflicts values (\
+%{conflictsqlentry}\
+);\
+]}|\
+%|requirename?{[\
+\nINSERT into requires values (\
+%{requiresqlentry}\
+);\
+]}|\
+%|basenames?{[\
+\nINSERT into files values (\
+%{filessqlentry1}\
+);\
+]}|\
+\n"

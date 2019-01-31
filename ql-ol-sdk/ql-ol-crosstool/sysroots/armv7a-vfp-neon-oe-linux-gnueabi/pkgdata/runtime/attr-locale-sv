@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-sv: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the sv locale.
+SUMMARY_attr-locale-sv: Utilities for manipulating filesystem extended attributes - sv translations
+RPROVIDES_attr-locale-sv: attr-locale sv-translation
+RRECOMMENDS_attr-locale-sv: virtual-locale-sv
+SECTION: libs
+PKG_attr-locale-sv: attr-locale-sv
+FILES_attr-locale-sv: /usr/share/locale/sv
+FILES_INFO: {"/usr/share/locale/sv/LC_MESSAGES/attr.mo": 5320}
+PKGSIZE_attr-locale-sv: 5320

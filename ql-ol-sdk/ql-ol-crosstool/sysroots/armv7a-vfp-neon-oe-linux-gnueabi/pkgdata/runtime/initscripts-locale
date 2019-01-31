@@ -1,0 +1,13 @@
+PN: initscripts
+PV: 1.0
+PR: r157
+PKGV: 1.0
+PKGR: r157
+LICENSE: GPLv2
+DESCRIPTION: Initscripts provide the basic system startup initialization scripts for the system.  These scripts include actions such as filesystem mounting, fsck, RTC manipulation and other actions routinely performed at system startup.  In addition, the scripts are also used during system shutdown to reverse the actions performed at startup.
+SUMMARY: SysV init scripts
+SECTION: base
+PKG_initscripts-locale: initscripts-locale
+FILES_initscripts-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_initscripts-locale: 0

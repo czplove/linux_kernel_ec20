@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm866nav: gconv module for character set ibm866nav
+SUMMARY_glibc-gconv-ibm866nav: gconv module for character set ibm866nav
+RDEPENDS_glibc-gconv-ibm866nav: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm866nav: glibc-gconv-ibm866nav
+FILES_glibc-gconv-ibm866nav: /usr/lib/gconv/IBM866NAV.so
+FILES_INFO: {"/usr/lib/gconv/IBM866NAV.so": 9588}
+PKGSIZE_glibc-gconv-ibm866nav: 9588

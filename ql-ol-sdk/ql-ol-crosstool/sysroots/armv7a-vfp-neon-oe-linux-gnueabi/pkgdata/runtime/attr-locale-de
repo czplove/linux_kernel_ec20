@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-de: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the de locale.
+SUMMARY_attr-locale-de: Utilities for manipulating filesystem extended attributes - de translations
+RPROVIDES_attr-locale-de: attr-locale de-translation
+RRECOMMENDS_attr-locale-de: virtual-locale-de
+SECTION: libs
+PKG_attr-locale-de: attr-locale-de
+FILES_attr-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/attr.mo": 5459}
+PKGSIZE_attr-locale-de: 5459

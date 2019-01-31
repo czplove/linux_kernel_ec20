@@ -1,0 +1,14 @@
+PN: zlib
+PV: 1.2.8
+PR: r0
+PKGV: 1.2.8
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION: Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.
+SUMMARY: Zlib Compression Library
+RPROVIDES_zlib-locale:  zlib-locale
+SECTION: libs
+PKG_zlib-locale: libz-locale
+FILES_zlib-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_zlib-locale: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tr-tr: locale definition for tr-tr
+SUMMARY_glibc-localedata-tr-tr: locale definition for tr-tr
+RDEPENDS_glibc-localedata-tr-tr: glibc-localedata-translit-combining
+SECTION: base
+PKG_glibc-localedata-tr-tr: glibc-localedata-tr-tr
+FILES_glibc-localedata-tr-tr: /usr/share/i18n/locales/tr_TR
+FILES_INFO: {"/usr/share/i18n/locales/tr_TR": 163780}
+PKGSIZE_glibc-localedata-tr-tr: 163780

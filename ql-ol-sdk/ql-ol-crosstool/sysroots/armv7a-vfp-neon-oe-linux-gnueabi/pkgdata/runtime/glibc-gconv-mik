@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-mik: gconv module for character set mik
+SUMMARY_glibc-gconv-mik: gconv module for character set mik
+RDEPENDS_glibc-gconv-mik: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-mik: glibc-gconv-mik
+FILES_glibc-gconv-mik: /usr/lib/gconv/MIK.so
+FILES_INFO: {"/usr/lib/gconv/MIK.so": 9580}
+PKGSIZE_glibc-gconv-mik: 9580

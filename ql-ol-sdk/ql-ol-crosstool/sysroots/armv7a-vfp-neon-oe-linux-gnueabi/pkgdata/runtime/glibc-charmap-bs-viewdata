@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-bs-viewdata: character map for bs-viewdata encoding
+SUMMARY_glibc-charmap-bs-viewdata: character map for bs-viewdata encoding
+SECTION: base
+PKG_glibc-charmap-bs-viewdata: glibc-charmap-bs-viewdata
+FILES_glibc-charmap-bs-viewdata: /usr/share/i18n/charmaps/BS_VIEWDATA.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/BS_VIEWDATA.gz": 1601}
+PKGSIZE_glibc-charmap-bs-viewdata: 1601

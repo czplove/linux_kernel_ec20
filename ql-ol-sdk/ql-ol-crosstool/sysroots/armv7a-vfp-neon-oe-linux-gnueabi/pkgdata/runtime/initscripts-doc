@@ -1,0 +1,13 @@
+PN: initscripts
+PV: 1.0
+PR: r157
+PKGV: 1.0
+PKGR: r157
+LICENSE: GPLv2
+DESCRIPTION_initscripts-doc: Initscripts provide the basic system startup initialization scripts for the system.  These scripts include actions such as filesystem mounting, fsck, RTC manipulation and other actions routinely performed at system startup.  In addition, the scripts are also used during system shutdown to reverse the actions performed at startup.  This package contains documentation.
+SUMMARY_initscripts-doc: SysV init scripts - Documentation files
+SECTION_initscripts-doc: doc
+PKG_initscripts-doc: initscripts-doc
+FILES_initscripts-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_initscripts-doc: 0

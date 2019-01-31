@@ -1,0 +1,14 @@
+PN: update-rc.d
+PV: 0.7
+PR: r6
+PKGV: 0.7
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION_update-rc.d-dbg: update-rc.d is a utilities that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_update-rc.d-dbg: manage symlinks in /etc/rcN.d - Debugging files
+SECTION_update-rc.d-dbg: devel
+PKG_update-rc.d-dbg: update-rc.d-dbg
+ALLOW_EMPTY_update-rc.d-dbg: 1
+FILES_update-rc.d-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/update-rc.d/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/update-rc.d/.debug /usr/lib/matchbox-panel/.debug /usr/lib/update-rc.d/update-rc.d/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_update-rc.d-dbg: 0

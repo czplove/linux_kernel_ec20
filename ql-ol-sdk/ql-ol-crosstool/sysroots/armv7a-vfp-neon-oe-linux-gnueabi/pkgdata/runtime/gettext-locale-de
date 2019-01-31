@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-de: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the de locale.
+SUMMARY_gettext-locale-de: Utilities and libraries for producing multi-lingual messages - de translations
+RPROVIDES_gettext-locale-de: gettext-locale de-translation
+RRECOMMENDS_gettext-locale-de: virtual-locale-de
+SECTION: libs
+PKG_gettext-locale-de: gettext-locale-de
+FILES_gettext-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/gettext-tools.mo": 116406, "/usr/share/locale/de/LC_MESSAGES/gettext-runtime.mo": 9828}
+PKGSIZE_gettext-locale-de: 126234

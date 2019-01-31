@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+SECTION: base
+PKG_glibc-gconv: glibc-gconv
+FILES_glibc-gconv: /usr/lib/gconv/*
+FILES_INFO: {"/usr/lib/gconv/gconv-modules": 56095}
+PKGSIZE_glibc-gconv: 56095

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ug-cn: locale definition for ug-cn
+SUMMARY_glibc-localedata-ug-cn: locale definition for ug-cn
+RDEPENDS_glibc-localedata-ug-cn: glibc-localedata-iso14651-t1 glibc-localedata-i18n glibc-localedata-zh-cn
+SECTION: base
+PKG_glibc-localedata-ug-cn: glibc-localedata-ug-cn
+FILES_glibc-localedata-ug-cn: /usr/share/i18n/locales/ug_CN
+FILES_INFO: {"/usr/share/i18n/locales/ug_CN": 8982}
+PKGSIZE_glibc-localedata-ug-cn: 8982

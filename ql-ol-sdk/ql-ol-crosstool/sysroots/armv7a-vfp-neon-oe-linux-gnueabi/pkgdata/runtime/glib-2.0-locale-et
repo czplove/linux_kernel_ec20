@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-et: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the et locale.
+SUMMARY_glib-2.0-locale-et: A general-purpose utility library - et translations
+RPROVIDES_glib-2.0-locale-et: glib-2.0-locale et-translation glib-2.0-locale-et
+RRECOMMENDS_glib-2.0-locale-et: virtual-locale-et
+SECTION: libs
+PKG_glib-2.0-locale-et: libglib-2.0-locale-et
+FILES_glib-2.0-locale-et: /usr/share/locale/et
+FILES_INFO: {"/usr/share/locale/et/LC_MESSAGES/glib20.mo": 51517}
+PKGSIZE_glib-2.0-locale-et: 51517

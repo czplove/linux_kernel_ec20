@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ga: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ga locale.
+SUMMARY_glib-2.0-locale-ga: A general-purpose utility library - ga translations
+RPROVIDES_glib-2.0-locale-ga: glib-2.0-locale ga-translation glib-2.0-locale-ga
+RRECOMMENDS_glib-2.0-locale-ga: virtual-locale-ga
+SECTION: libs
+PKG_glib-2.0-locale-ga: libglib-2.0-locale-ga
+FILES_glib-2.0-locale-ga: /usr/share/locale/ga
+FILES_INFO: {"/usr/share/locale/ga/LC_MESSAGES/glib20.mo": 13248}
+PKGSIZE_glib-2.0-locale-ga: 13248

@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-config: perl module encode-config
+SUMMARY_perl-module-encode-config: perl module encode-config
+RDEPENDS_perl-module-encode-config: perl-module-strict perl-module-warnings perl
+RPROVIDES_perl-module-encode-config: perl-module-arm-oe-linux-gnueabi-encode-config
+SECTION: devel
+PKG_perl-module-encode-config: perl-module-encode-config
+FILES_perl-module-encode-config: /usr/lib/perl/5.20.0/Encode/Config.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/Config.pm": 6065}
+PKGSIZE_perl-module-encode-config: 6065

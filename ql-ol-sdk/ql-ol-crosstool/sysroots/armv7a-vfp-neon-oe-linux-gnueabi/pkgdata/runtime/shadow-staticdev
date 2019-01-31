@@ -1,0 +1,14 @@
+PN: shadow
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: BSD | Artistic-1.0
+DESCRIPTION_shadow-staticdev: Tools to change and administer password and group data.  This package contains static libraries for software development.
+SUMMARY_shadow-staticdev: Tools to change and administer password and group data - Development files (Static Libraries)
+RDEPENDS_shadow-staticdev: shadow-dev (= 4.2.1-r0)
+SECTION_shadow-staticdev: devel
+PKG_shadow-staticdev: shadow-staticdev
+FILES_shadow-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/shadow/*.a
+FILES_INFO: {}
+PKGSIZE_shadow-staticdev: 0

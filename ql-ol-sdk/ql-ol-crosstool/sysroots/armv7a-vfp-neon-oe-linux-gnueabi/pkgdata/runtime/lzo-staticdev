@@ -1,0 +1,15 @@
+PN: lzo
+PV: 2.09
+PR: r0
+PKGV: 2.09
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_lzo-staticdev: Lossless data compression library.  This package contains static libraries for software development.
+SUMMARY_lzo-staticdev: Lossless data compression library - Development files (Static Libraries)
+RDEPENDS_lzo-staticdev: lzo-dev (= 2.09-r0)
+RPROVIDES_lzo-staticdev:  lzo-staticdev
+SECTION_lzo-staticdev: devel
+PKG_lzo-staticdev: liblzo2-staticdev
+FILES_lzo-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lzo/*.a
+FILES_INFO: {"/usr/lib/liblzo2.a": 176934}
+PKGSIZE_lzo-staticdev: 176934

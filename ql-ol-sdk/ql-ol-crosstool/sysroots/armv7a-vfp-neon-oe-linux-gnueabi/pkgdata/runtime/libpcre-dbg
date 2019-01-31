@@ -1,0 +1,15 @@
+PN: libpcre
+PV: 8.36
+PR: r0
+PKGV: 8.36
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libpcre-dbg: The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libpcre-dbg: Perl Compatible Regular Expressions - Debugging files
+RRECOMMENDS_libpcre-dbg: libpcreposix-dbg libstdc++-dbg glibc-dbg libgcc-dbg
+SECTION_libpcre-dbg: devel
+PKG_libpcre-dbg: libpcre-dbg
+ALLOW_EMPTY_libpcre-dbg: 1
+FILES_libpcre-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libpcre/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libpcre/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libpcre/libpcre/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libpcre.so.1.2.4": 9450, "/usr/lib/.debug/libpcrecpp.so.0.0.1": 12951, "/usr/bin/.debug/pcretest": 9018, "/usr/lib/.debug/libpcreposix.so.0.0.3": 4395, "/usr/bin/.debug/pcregrep": 11480}
+PKGSIZE_libpcre-dbg: 47294

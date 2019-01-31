@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-exporter-heavy: perl module exporter-heavy
+SUMMARY_perl-module-exporter-heavy: perl module exporter-heavy
+RDEPENDS_perl-module-exporter-heavy: perl-module-strict perl-module-exporter perl-module-carp perl
+SECTION: devel
+PKG_perl-module-exporter-heavy: perl-module-exporter-heavy
+FILES_perl-module-exporter-heavy: /usr/lib/perl/5.20.0/Exporter/Heavy.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Exporter/Heavy.pm": 6551}
+PKGSIZE_perl-module-exporter-heavy: 6551

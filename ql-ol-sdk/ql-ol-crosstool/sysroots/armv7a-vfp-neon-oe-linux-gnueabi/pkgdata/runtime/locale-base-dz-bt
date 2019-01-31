@@ -1,0 +1,17 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+RDEPENDS_locale-base-dz-bt: glibc-charmap-utf-8 localedef glibc-localedata-dz-bt
+RPROVIDES_locale-base-dz-bt:  virtual-locale-dz-bt virtual-locale-dz
+SECTION: base
+PKG_locale-base-dz-bt: locale-base-dz-bt
+ALLOW_EMPTY_locale-base-dz-bt: 1
+pkg_postinst_locale-base-dz-bt: #!/bin/sh\n\nif [ "x$D" != "x" ]; then\n\texit 1\nfi\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n        cp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --inputfile=/usr/share/i18n/locales/dz_BT --charmap=UTF-8 --prefix=/tmp/locale dz_BT\nmkdir -p /usr/lib/locale/\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+pkg_postrm_locale-base-dz-bt: #!/bin/sh\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n\tcp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --delete-from-archive --inputfile=/usr/share/locales/dz_BT --charmap=UTF-8 --prefix=/tmp/locale dz_BT\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+FILES_INFO: {}
+PKGSIZE_locale-base-dz-bt: 0

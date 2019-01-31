@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-nextstep: character map for nextstep encoding
+SUMMARY_glibc-charmap-nextstep: character map for nextstep encoding
+SECTION: base
+PKG_glibc-charmap-nextstep: glibc-charmap-nextstep
+FILES_glibc-charmap-nextstep: /usr/share/i18n/charmaps/NEXTSTEP.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/NEXTSTEP.gz": 2972}
+PKGSIZE_glibc-charmap-nextstep: 2972

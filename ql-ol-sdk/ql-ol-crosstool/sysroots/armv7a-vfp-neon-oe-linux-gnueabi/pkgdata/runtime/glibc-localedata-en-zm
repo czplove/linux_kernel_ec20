@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-zm: locale definition for en-zm
+SUMMARY_glibc-localedata-en-zm: locale definition for en-zm
+RDEPENDS_glibc-localedata-en-zm: glibc-localedata-iso14651-t1 glibc-localedata-en-gb glibc-localedata-translit-combining glibc-localedata-bem-zm glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-en-zm: glibc-localedata-en-zm
+FILES_glibc-localedata-en-zm: /usr/share/i18n/locales/en_ZM
+FILES_INFO: {"/usr/share/i18n/locales/en_ZM": 2087}
+PKGSIZE_glibc-localedata-en-zm: 2087

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-plaintext: perl module pod-plaintext
+SUMMARY_perl-module-pod-plaintext: perl module pod-plaintext
+RDEPENDS_perl-module-pod-plaintext: perl-module-pod-select perl-module-carp perl-module-vars perl perl-module-symbol perl-module-strict
+SECTION: devel
+PKG_perl-module-pod-plaintext: perl-module-pod-plaintext
+FILES_perl-module-pod-plaintext: /usr/lib/perl/5.20.0/Pod/PlainText.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/PlainText.pm": 25584}
+PKGSIZE_perl-module-pod-plaintext: 25584

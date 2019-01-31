@@ -1,0 +1,16 @@
+PN: sigma-dut
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_sigma-dut-dev: WFA certification testing tool for QCA devices  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_sigma-dut-dev: sigma-dut version git-invalidgit-r0 - Development files
+RDEPENDS_sigma-dut-dev: sigma-dut (= git-invalidgit-r0)
+RRECOMMENDS_sigma-dut-dev: glibc-dev
+SECTION_sigma-dut-dev: devel
+PKG_sigma-dut-dev: sigma-dut-dev
+ALLOW_EMPTY_sigma-dut-dev: 1
+FILES_sigma-dut-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/sigma-dut/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_sigma-dut-dev: 0

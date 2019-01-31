@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-locale-maketext-gutsloader: perl module locale-maketext-gutsloader
+SUMMARY_perl-module-locale-maketext-gutsloader: perl module locale-maketext-gutsloader
+RDEPENDS_perl-module-locale-maketext-gutsloader: perl-module-locale-maketext perl
+SECTION: devel
+PKG_perl-module-locale-maketext-gutsloader: perl-module-locale-maketext-gutsloader
+FILES_perl-module-locale-maketext-gutsloader: /usr/lib/perl/5.20.0/Locale/Maketext/GutsLoader.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Locale/Maketext/GutsLoader.pm": 490}
+PKGSIZE_perl-module-locale-maketext-gutsloader: 490

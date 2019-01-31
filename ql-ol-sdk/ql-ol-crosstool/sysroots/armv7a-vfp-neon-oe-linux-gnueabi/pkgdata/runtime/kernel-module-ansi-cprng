@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-ansi-cprng: ansi-cprng kernel module; Software Pseudo Random Number Generator
+SUMMARY_kernel-module-ansi-cprng: ansi-cprng kernel module
+RDEPENDS_kernel-module-ansi-cprng: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-ansi-cprng: kernel-module-ansi-cprng
+FILES_kernel-module-ansi-cprng: /lib/modules/3.18.20/kernel/crypto/ansi_cprng.ko /etc/modules-load.d/ansi_cprng.conf /etc/modprobe.d/ansi_cprng.conf
+pkg_postinst_kernel-module-ansi-cprng: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-ansi-cprng: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/crypto/ansi_cprng.ko": 7676}
+PKGSIZE_kernel-module-ansi-cprng: 7676

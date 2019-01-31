@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-compile: Python bytecode compilation support
+RDEPENDS_python-compile: python-core
+SECTION: devel/python
+PKG_python-compile: python-compile
+FILES_python-compile: /usr/lib/python2.7/py_compile.* /usr/lib/python2.7/compileall.* 
+FILES_INFO: {"/usr/lib/python2.7/py_compile.py": 5927, "/usr/lib/python2.7/compileall.py": 7763, "/usr/lib/python2.7/py_compile.pyc": 6410, "/usr/lib/python2.7/compileall.pyc": 7004}
+PKGSIZE_python-compile: 27104

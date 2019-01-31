@@ -1,0 +1,14 @@
+PN: loc-mcm-type-conv
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-type-conv-doc: MCM Location Type Conversion Library  This package contains documentation.
+SUMMARY_loc-mcm-type-conv-doc: loc-mcm-type-conv version git-invalidgit-r4 - Documentation files
+RPROVIDES_loc-mcm-type-conv-doc:  loc-mcm-type-conv-doc
+SECTION_loc-mcm-type-conv-doc: doc
+PKG_loc-mcm-type-conv-doc: libloc-mcm-type-conv-doc
+FILES_loc-mcm-type-conv-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-mcm-type-conv-doc: 0

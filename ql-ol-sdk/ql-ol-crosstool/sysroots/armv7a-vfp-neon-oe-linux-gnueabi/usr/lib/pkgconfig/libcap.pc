@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libcap
+Description: libcap
+Version: 2.24
+Libs: -L${libdir} -lcap
+Libs.private: -lattr
+Cflags: -I${includedir}

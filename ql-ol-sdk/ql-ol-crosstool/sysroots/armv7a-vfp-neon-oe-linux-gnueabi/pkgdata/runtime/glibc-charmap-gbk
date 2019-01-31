@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-gbk: character map for gbk encoding
+SUMMARY_glibc-charmap-gbk: character map for gbk encoding
+SECTION: base
+PKG_glibc-charmap-gbk: glibc-charmap-gbk
+FILES_glibc-charmap-gbk: /usr/share/i18n/charmaps/GBK.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/GBK.gz": 119109}
+PKGSIZE_glibc-charmap-gbk: 119109

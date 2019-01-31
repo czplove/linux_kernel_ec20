@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-open: perl module open
+SUMMARY_perl-module-open: perl module open
+RDEPENDS_perl-module-open: perl-module-encode perl-module-encoding perl-module-carp perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-open: perl-module-open
+FILES_perl-module-open: /usr/lib/perl/5.20.0/open.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/open.pm": 8016}
+PKGSIZE_perl-module-open: 8016

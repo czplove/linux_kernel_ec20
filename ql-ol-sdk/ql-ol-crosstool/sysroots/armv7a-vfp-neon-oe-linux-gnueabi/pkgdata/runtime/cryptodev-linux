@@ -1,0 +1,14 @@
+PN: cryptodev-linux
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: A /dev/crypto device driver header file.
+SUMMARY: A /dev/crypto device driver header file
+SECTION: base
+PKG_cryptodev-linux: cryptodev-linux
+ALLOW_EMPTY_cryptodev-linux: 1
+FILES_cryptodev-linux: /usr/bin/* /usr/sbin/* /usr/lib/cryptodev-linux/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/cryptodev-linux /usr/lib/cryptodev-linux/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_cryptodev-linux: 0

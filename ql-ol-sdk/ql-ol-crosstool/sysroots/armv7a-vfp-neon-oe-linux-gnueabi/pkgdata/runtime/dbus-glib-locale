@@ -1,0 +1,14 @@
+PN: dbus-glib
+PV: 0.102
+PR: r0
+PKGV: 0.102
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: GLib bindings for the D-Bus message bus that integrate the D-Bus library with the GLib thread abstraction and main loop.
+SUMMARY: High level language (GLib) binding for D-Bus
+RPROVIDES_dbus-glib-locale:  dbus-glib-locale
+SECTION: base
+PKG_dbus-glib-locale: libdbus-glib-1-locale
+FILES_dbus-glib-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dbus-glib-locale: 0

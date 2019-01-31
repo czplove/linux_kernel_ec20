@@ -1,0 +1,16 @@
+PN: izat-core
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-core-dbg: Izat Core  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_izat-core-dbg: izat-core version git-invalidgit-r1 - Debugging files
+RPROVIDES_izat-core-dbg:  izat-core-dbg
+RRECOMMENDS_izat-core-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+SECTION_izat-core-dbg: devel
+PKG_izat-core-dbg: libizat-core-dbg
+ALLOW_EMPTY_izat-core-dbg: 1
+FILES_izat-core-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/izat-core/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/izat-core/.debug /usr/lib/matchbox-panel/.debug /usr/lib/izat-core/izat-core/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libizat_core.so.1.0.0": 17225}
+PKGSIZE_izat-core-dbg: 17225

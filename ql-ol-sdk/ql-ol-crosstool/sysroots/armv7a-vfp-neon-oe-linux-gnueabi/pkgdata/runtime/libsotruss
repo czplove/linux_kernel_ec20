@@ -1,0 +1,18 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_libsotruss: Library to support sotruss which traces calls through PLTs
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_libsotruss: glibc (>= 2.21)
+SECTION: libs
+PKG_libsotruss: libsotruss
+FILES_libsotruss: /usr/lib/audit/sotruss-lib.so
+FILERPROVIDESFLIST_libsotruss: /usr/lib/audit/sotruss-lib.so
+FILES_INFO: {"/usr/lib/audit/sotruss-lib.so": 9640}
+FILERPROVIDES_/usr/lib/audit/sotruss-lib.so_libsotruss: sotruss-lib.so
+FILERDEPENDSFLIST_libsotruss: /usr/lib/audit/sotruss-lib.so
+FILERDEPENDS_/usr/lib/audit/sotruss-lib.so_libsotruss: libc.so.6 libc.so.6(GLIBC_2.4)
+PKGSIZE_libsotruss: 9640

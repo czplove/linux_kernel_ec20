@@ -1,0 +1,13 @@
+PN: quectel-fotainfo
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: quectel-fotainfo version git-invalidgit-r1
+SECTION: base
+PKG_quectel-fotainfo-locale: quectel-fotainfo-locale
+FILES_quectel-fotainfo-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-fotainfo-locale: 0

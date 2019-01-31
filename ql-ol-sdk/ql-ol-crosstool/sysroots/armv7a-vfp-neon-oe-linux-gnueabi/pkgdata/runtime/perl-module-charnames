@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-charnames: perl module charnames
+SUMMARY_perl-module-charnames: perl module charnames
+RDEPENDS_perl-module-charnames: perl-module-re perl perl-module-strict perl-module-warnings perl-module-bytes perl-module-unicore perl-module--charnames
+SECTION: devel
+PKG_perl-module-charnames: perl-module-charnames
+FILES_perl-module-charnames: /usr/lib/perl/5.20.0/charnames.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/charnames.pm": 20880}
+PKGSIZE_perl-module-charnames: 20880

@@ -1,0 +1,13 @@
+PN: gdb
+PV: 7.8.1
+PR: r0
+PKGV: 7.8.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION: GNU debugger.
+SUMMARY: GNU debugger
+SECTION: devel
+PKG_gdb-locale: gdb-locale
+FILES_gdb-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gdb-locale: 0

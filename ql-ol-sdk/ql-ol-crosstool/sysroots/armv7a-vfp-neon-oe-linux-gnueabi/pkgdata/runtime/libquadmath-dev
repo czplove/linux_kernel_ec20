@@ -1,0 +1,14 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libquadmath-dev: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RRECOMMENDS_libquadmath-dev: libgcc-dev
+SECTION: devel
+PKG_libquadmath-dev: libquadmath-dev
+FILES_libquadmath-dev:     /usr/lib/gcc/arm-oe-linux-gnueabi/4.9.2/include/quadmath*     /usr/lib/libquadmath*.so     /usr/lib/libquadmath.la 
+FILES_INFO: {}
+PKGSIZE_libquadmath-dev: 0

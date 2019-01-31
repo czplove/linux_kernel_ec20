@@ -1,0 +1,14 @@
+PN: loc-xtra
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-xtra-doc: GPS Location Xtra library  This package contains documentation.
+SUMMARY_loc-xtra-doc: loc-xtra version git-invalidgit-r3 - Documentation files
+RPROVIDES_loc-xtra-doc:  loc-xtra-doc
+SECTION_loc-xtra-doc: doc
+PKG_loc-xtra-doc: libloc-xtra-doc
+FILES_loc-xtra-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-xtra-doc: 0

@@ -1,0 +1,17 @@
+PN: loc-xtra
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-xtra-dev: GPS Location Xtra library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-xtra-dev: loc-xtra version git-invalidgit-r3 - Development files
+RDEPENDS_loc-xtra-dev: loc-xtra (= git-invalidgit-r3)
+RPROVIDES_loc-xtra-dev:  loc-xtra-dev
+RRECOMMENDS_loc-xtra-dev: configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev system-core-liblog-dev data-oss-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev data-dev dsutils-dev time-genoff-dev qmi-dev ql-syslog-dev glib-2.0-dev qmi-framework-dev diag-dev
+SECTION_loc-xtra-dev: devel
+PKG_loc-xtra-dev: libloc-xtra-dev
+ALLOW_EMPTY_loc-xtra-dev: 1
+FILES_loc-xtra-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-xtra/*.la /lib/*.la
+FILES_INFO: {"/usr/include/loc-xtra/xtra_defines.h": 5077, "/usr/include/loc-xtra/xtra_config_api.h": 740, "/usr/include/loc-xtra/xtra.h": 1065, "/usr/lib/pkgconfig/loc-xtra.pc": 202, "/usr/include/loc-xtra/xtra_log_api.h": 752, "/usr/lib/libloc_xtra.la": 2549, "/usr/include/loc-xtra/xtra_linux.h": 1148, "/usr/include/loc-xtra/xtra_server_api.h": 1241, "/usr/include/loc-xtra/xtra_system_interface.h": 2664, "/usr/lib/libloc_xtra.so": 20}
+PKGSIZE_loc-xtra-dev: 15458

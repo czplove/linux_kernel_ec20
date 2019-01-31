@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tie-substrhash: perl module tie-substrhash
+SUMMARY_perl-module-tie-substrhash: perl module tie-substrhash
+RDEPENDS_perl-module-tie-substrhash: perl-module-integer perl-module-carp perl
+SECTION: devel
+PKG_perl-module-tie-substrhash: perl-module-tie-substrhash
+FILES_perl-module-tie-substrhash: /usr/lib/perl/5.20.0/Tie/SubstrHash.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Tie/SubstrHash.pm": 5404}
+PKGSIZE_perl-module-tie-substrhash: 5404

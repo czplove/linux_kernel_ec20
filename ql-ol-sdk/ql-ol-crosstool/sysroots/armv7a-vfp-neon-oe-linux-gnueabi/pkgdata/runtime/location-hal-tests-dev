@@ -1,0 +1,16 @@
+PN: location-hal-tests
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-hal-tests-dev: Location HAL Tests  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_location-hal-tests-dev: location-hal-tests version git-r1 - Development files
+RDEPENDS_location-hal-tests-dev: location-hal-tests (= git-r1)
+RRECOMMENDS_location-hal-tests-dev: libhardware-dev lbs-core-dev loc-hal-dev glibc-dev loc-pla-dev location-flp-dev libgcc-dev libstdc++-dev glib-2.0-dev location-geofence-dev
+SECTION_location-hal-tests-dev: devel
+PKG_location-hal-tests-dev: location-hal-tests-dev
+ALLOW_EMPTY_location-hal-tests-dev: 1
+FILES_location-hal-tests-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/location-hal-tests/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_location-hal-tests-dev: 0

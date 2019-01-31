@@ -1,0 +1,255 @@
+#!/bin/sh
+#
+# Copyright (c) 2013, The Linux Foundation. All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are
+# met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above
+#       copyright notice, this list of conditions and the following
+#       disclaimer in the documentation and/or other materials provided
+#       with the distribution.
+#     * Neither the name of The Linux Foundation nor the names of its
+#       contributors may be used to endorse or promote products derived
+#       from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+# WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+# ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+# BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+# BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+# WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+# OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+# IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+export CHIP_TYPE=FC20
+
+export MODULE_BASE=/lib/modules/`uname -r`
+export BCMDHD_PATH=/usr/lib/modules/`uname -r`/kernel/drivers/net/wireless/bcmdhd
+export BCMDHD_FW_PATH="/etc/firmware/cm256/bcm43455-7.45.100.9.bin"
+export BCMDHD_NVRAM_PATH="/etc/firmware/cm256/bcm_170607_nvram.txt"
+export RETRY_LIMIT=3
+
+HELP="Usage $0 {start | stop | restart} <ap | sta,ap>"
+DUMP_TO_KMSG=/dev/kmsg
+
+do_insmod_driver () {
+
+	# default insmod FC20 wlan
+	if [ $CHIP_TYPE == "FC20" ]; then
+	    echo "#### insmod FC20 ####" > $DUMP_TO_KMSG
+		set -e
+		insmod $MODULE_BASE/extra/wlan.ko $@
+		set +e
+	elif [ $CHIP_TYPE == "CM256" ]; then
+	    echo "#### insmod CM256 ####" > $DUMP_TO_KMSG
+		set -e
+		insmod $BCMDHD_PATH/cywdhd.ko firmware_path=$BCMDHD_FW_PATH nvram_path=$BCMDHD_NVRAM_PATH
+		set +e
+	else
+		echo "#### insmod $chip_code failed! ####" > $DUMP_TO_KMSG
+		exit 1
+	fi
+}
+
+do_rmmod_driver () {
+	
+	# default rmmod FC20 wlan
+	if [ $CHIP_TYPE == "FC20" ]; then
+	    echo "#### rmmod FC20 ####" > $DUMP_TO_KMSG
+		rmmod wlan
+	elif [ $CHIP_TYPE == "CM256" ]; then
+	    echo "#### rmmod CM256 ####" > $DUMP_TO_KMSG
+		rmmod cywdhd
+	else
+		echo "#### rmmod $chip_code failed! ####" > $DUMP_TO_KMSG
+		exit 1
+	fi
+}
+
+
+do_turn_on_wifi () {
+	if [ ! -d /sys/class/gpio/gpio38 ]; then
+		echo 38 > /sys/class/gpio/export
+		echo out > /sys/class/gpio/gpio38/direction
+		echo 0 > /sys/class/gpio/gpio38/value
+	fi
+
+	vdd3v3=`cat /sys/kernel/debug/regulator/rome_vreg/enable`
+	if [ $vdd3v3 == "0" ]; then
+		echo 1 > /sys/kernel/debug/regulator/rome_vreg/enable
+		sleep 0.1
+	fi
+																										
+	echo 1 > /sys/class/gpio/gpio38/value
+	sleep 0.1
+
+	echo 1 > /sys/devices/7824900.sdhci/polling
+	sleep 0.1
+
+	timeout=0
+	while [ $timeout -lt 10 ]; do
+		if [  -d /sys/devices/7824900.sdhci/mmc_host/mmc0/mmc0:0001 ]; then
+			break
+		fi
+		sleep 0.1
+		timeout=`expr $timeout + 1 `	
+	done
+
+	echo 0 > /sys/devices/7824900.sdhci/polling
+
+	if [ ! -d /sys/devices/7824900.sdhci/mmc_host/mmc0/mmc0:0001 ]; then
+		echo "SDIO bring-up failed!" > $DUMP_TO_KMSG
+	fi
+
+	sleep 0.1
+	do_insmod_driver
+
+	return 0
+}
+
+do_turn_off_wifi () {
+
+	do_rmmod_driver
+	sleep 0.1
+
+	echo 1 > /sys/devices/7824900.sdhci/polling
+
+	echo 0 > /sys/class/gpio/gpio38/value
+	sleep 0.1
+
+	#whether bluetooth is power on
+	count=`ps -ef | grep bsa_server | grep -v "grep" | wc -l`
+	
+	vdd3v3=`cat /sys/kernel/debug/regulator/rome_vreg/enable`
+	
+	if [ $CHIP_TYPE == "FC20" ]; then
+		if [ $vdd3v3 == "1" ]; then
+			echo 0 > /sys/kernel/debug/regulator/rome_vreg/enable
+			sleep 0.1
+		fi
+	elif [ $CHIP_TYPE == "CM256" ]; then
+		if [ $count == "0"]; then
+			if [ $vdd3v3 == "1" ]; then
+				echo 0 > /sys/kernel/debug/regulator/rome_vreg/enable
+				sleep 0.1
+			fi
+		fi
+	else
+		echo "$chip_code do not need to pull down vdd3v3" > $DUMP_TO_KMSG
+	fi
+	
+	timeout=0
+	while [ $timeout -lt 10 ]; do
+		if [ ! -d /sys/devices/7824900.sdhci/mmc_host/mmc0/mmc0:0001 ]; then
+			break
+		fi
+		sleep 0.1
+		timeout=`expr $timeout + 1 `	
+	done
+
+	echo 0 > /sys/devices/7824900.sdhci/polling
+		
+	if [ -d /sys/devices/7824900.sdhci/mmc_host/mmc0/mmc0:0001 ]; then
+		echo "SDIO bring-down failed!" > $DUMP_TO_KMSG
+		exit 1
+	fi
+
+	return 0
+}
+
+do_ctrl_cld_ll () {
+    case "$1" in
+    start)
+        echo "Starting WLAN... $@" > $DUMP_TO_KMSG
+	shift
+	start_ap1=0
+	if [ "$1" == "ap,ap" ] || [ "$1" == "sta,ap" ]; then
+	    start_ap1=1
+    	    shift
+	elif [ "$1" == "ap" ]; then
+    	    shift
+	elif [ "$1" == "ap,sta" ]; then
+    	    return 1
+	fi
+		do_turn_on_wifi
+	c=1
+	ifconfig wlan0 up 2> /dev/null
+ 	rc=$?
+	while [ $rc -ne 0 -a $c -le $RETRY_LIMIT ]; do
+		sleep 1
+		ifconfig wlan0 up 2> /dev/null
+		rc=$?
+		c=`expr $c + 1`
+	done
+
+	if [ $c -gt $RETRY_LIMIT ]; then
+		echo "WLAN bring-up failed!" > $DUMP_TO_KMSG
+		exit 1
+	fi
+
+	if [ $start_ap1 -eq 1 ]; then
+		echo "Adding second AP interface(wlan1)" > $DUMP_TO_KMSG
+		iw dev wlan0 interface add wlan1 type __ap
+		ifconfig wlan1 up 2> /dev/null
+	fi	
+ 	;;
+
+    stop)
+        echo "Stopping WLAN..." > $DUMP_TO_KMSG		
+		do_turn_off_wifi
+        ;;
+
+    restart)
+        do_ctrl_cld_ll stop
+        shift
+        do_ctrl_cld_ll start $@
+
+        return $?
+        ;;
+
+    *)
+        return 1
+        ;;
+    esac
+
+    return 0
+}
+
+do_ctrl_cld_ll $@
+if [ $? -ne 0 ]; then
+    echo $HELP >&2
+    exit 1
+fi
+
+exit 0
+        ;;
+
+    restart)
+        do_ctrl_cld_ll stop
+        shift
+        do_ctrl_cld_ll start $@
+
+        return $?
+        ;;
+
+    *)
+        return 1
+        ;;
+    esac
+
+    return 0
+}
+
+do_ctrl_cld_ll $@
+if [ $? -ne 0 ]; then
+    echo $HELP >&2
+    exit 1
+fi
+
+exit 0

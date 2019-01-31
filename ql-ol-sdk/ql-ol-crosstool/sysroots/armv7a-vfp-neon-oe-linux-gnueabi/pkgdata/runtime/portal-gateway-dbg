@@ -1,0 +1,15 @@
+PN: portal-gateway
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_portal-gateway-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_portal-gateway-dbg: portal-gateway version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_portal-gateway-dbg: glibc-dbg
+SECTION_portal-gateway-dbg: devel
+PKG_portal-gateway-dbg: portal-gateway-dbg
+ALLOW_EMPTY_portal-gateway-dbg: 1
+FILES_portal-gateway-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/portal-gateway/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/portal-gateway/.debug /usr/lib/matchbox-panel/.debug /usr/lib/portal-gateway/portal-gateway/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/portal_ctl": 17907, "/usr/bin/.debug/portal_gateway": 245310}
+PKGSIZE_portal-gateway-dbg: 263217

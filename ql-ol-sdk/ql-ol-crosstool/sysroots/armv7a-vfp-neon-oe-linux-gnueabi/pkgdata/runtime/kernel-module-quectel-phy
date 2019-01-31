@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-quectel-phy: quectel-phy kernel module
+SUMMARY_kernel-module-quectel-phy: quectel-phy kernel module
+RDEPENDS_kernel-module-quectel-phy: kernel-3.18.20 kernel-module-libphy
+SECTION: base
+PKG_kernel-module-quectel-phy: kernel-module-quectel-phy
+FILES_kernel-module-quectel-phy: /lib/modules/3.18.20/kernel/drivers/net/phy/quectel_phy.ko /etc/modules-load.d/quectel_phy.conf /etc/modprobe.d/quectel_phy.conf
+pkg_postinst_kernel-module-quectel-phy: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-quectel-phy: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/net/phy/quectel_phy.ko": 6372}
+PKGSIZE_kernel-module-quectel-phy: 6372

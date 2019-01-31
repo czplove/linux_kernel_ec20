@@ -1,0 +1,16 @@
+PN: loc-mcm-type-conv
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-type-conv-dbg: MCM Location Type Conversion Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-mcm-type-conv-dbg: loc-mcm-type-conv version git-invalidgit-r4 - Debugging files
+RPROVIDES_loc-mcm-type-conv-dbg:  loc-mcm-type-conv-dbg
+RRECOMMENDS_loc-mcm-type-conv-dbg: mcm-core-dbg dsutils-dbg glibc-dbg configdb-dbg libstdc++-dbg diag-dbg time-genoff-dbg ql-syslog-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
+SECTION_loc-mcm-type-conv-dbg: devel
+PKG_loc-mcm-type-conv-dbg: libloc-mcm-type-conv-dbg
+ALLOW_EMPTY_loc-mcm-type-conv-dbg: 1
+FILES_loc-mcm-type-conv-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-mcm-type-conv/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-mcm-type-conv/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-mcm-type-conv/loc-mcm-type-conv/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_mcm_type_conv.so.1.0.0": 5712}
+PKGSIZE_loc-mcm-type-conv-dbg: 5712

@@ -1,0 +1,14 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-doc: The GNU C Library is used as the system C library in most systems with the Linux kernel.  This package contains documentation.
+SUMMARY_glibc-doc: GLIBC (GNU C Library) - Documentation files
+RPROVIDES_glibc-doc: eglibc-doc glibc-doc
+SECTION_glibc-doc: doc
+PKG_glibc-doc: libc6-doc
+FILES_glibc-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/libc.info-11": 402566, "/usr/share/info/libc.info-10": 301434, "/usr/share/info/libc.info-13": 214230, "/usr/share/info/libc.info-12": 292799, "/usr/share/info/libc.info-14": 199882, "/usr/share/info/libc.info-5": 301162, "/usr/share/info/libc.info-4": 292194, "/usr/share/info/libc.info-7": 298566, "/usr/share/info/libc.info-6": 299966, "/usr/share/info/libc.info-1": 300301, "/usr/share/info/libc.info-3": 307205, "/usr/share/info/libc.info-2": 301003, "/usr/share/info/libc.info": 88412, "/usr/share/info/libc.info-9": 299354, "/usr/share/info/libc.info-8": 301075}
+PKGSIZE_glibc-doc: 4200149

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+threadslib=-lpthread
+          
+Name: libical
+Description: An implementation of basic iCAL protocols
+Version: 1.00
+Libs: -L${libdir} -lical -licalss -licalvcal ${threadslib}
+Cflags: -I${includedir}

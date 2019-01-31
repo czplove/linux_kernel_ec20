@@ -1,0 +1,17 @@
+PN: acdbrtac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbrtac-dev: acdb rtac Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_acdbrtac-dev: acdbrtac version git-invalidgit-r3 - Development files
+RDEPENDS_acdbrtac-dev: acdbrtac (= git-invalidgit-r3)
+RPROVIDES_acdbrtac-dev:  acdbrtac-dev
+RRECOMMENDS_acdbrtac-dev: glibc-dev acdbmapper-dev time-genoff-dev glib-2.0-dev audioalsa-dev audcal-dev diag-dev
+SECTION_acdbrtac-dev: devel
+PKG_acdbrtac-dev: libacdbrtac-dev
+ALLOW_EMPTY_acdbrtac-dev: 1
+FILES_acdbrtac-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acdbrtac/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/acdbrtac.pc": 192, "/usr/lib/libacdbrtac.so": 20, "/usr/lib/libacdbrtac.la": 1277, "/usr/include/acdbrtac/acdb-rtac.h": 702}
+PKGSIZE_acdbrtac-dev: 2191

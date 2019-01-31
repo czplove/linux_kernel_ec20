@@ -1,0 +1,40 @@
+PN: bluez5
+PV: 5.19
+PR: r1
+PKGV: 5.19
+PKGR: r1
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.
+SUMMARY: Linux Bluetooth Stack Userland V5
+RDEPENDS_bluez5-test: python
+SECTION: libs
+PKG_bluez5-test: bluez5-test
+FILES_bluez5-test:    /usr/lib/bluez/ 
+FILES_INFO: {"/usr/lib/bluez/test/monitor-bluetooth": 1606, "/usr/lib/bluez/test/map-client": 6924, "/usr/lib/bluez/test/test-adapter": 3613, "/usr/lib/bluez/test/service-opp.xml": 1050, "/usr/lib/bluez/test/test-profile": 3243, "/usr/lib/bluez/test/test-hfp": 5755, "/usr/lib/bluez/test/test-thermometer": 2772, "/usr/lib/bluez/test/service-spp.xml": 488, "/usr/lib/bluez/test/simple-endpoint": 4408, "/usr/lib/bluez/test/list-devices": 1935, "/usr/lib/bluez/test/sap_client.py": 30639, "/usr/lib/bluez/test/test-cyclingspeed": 5633, "/usr/lib/bluez/test/test-manager": 1116, "/usr/lib/bluez/test/test-health-sink": 2241, "/usr/lib/bluez/test/test-nap": 889, "/usr/lib/bluez/test/test-network": 1156, "/usr/lib/bluez/test/test-heartrate": 2791, "/usr/lib/bluez/test/test-health": 5026, "/usr/lib/bluez/test/bluezutils.py": 1567, "/usr/lib/bluez/test/service-ftp.xml": 755, "/usr/lib/bluez/test/test-alert": 4182, "/usr/lib/bluez/test/test-device": 5359, "/usr/lib/bluez/test/service-record.dtd": 1762, "/usr/lib/bluez/test/simple-agent": 4885, "/usr/lib/bluez/test/test-discovery": 3670, "/usr/lib/bluez/test/ftp-client": 4947, "/usr/lib/bluez/test/opp-client": 3244, "/usr/lib/bluez/test/test-sap-server": 3440, "/usr/lib/bluez/test/pbap-client": 4275, "/usr/lib/bluez/test/simple-player": 4148, "/usr/lib/bluez/test/test-proximity": 1891, "/usr/lib/bluez/test/service-did.xml": 654, "/usr/lib/bluez/test/dbusdef.py": 237}
+FILERDEPENDSFLIST_bluez5-test: /usr/lib/bluez/test/monitor-bluetooth /usr/lib/bluez/test/map-client /usr/lib/bluez/test/test-adapter /usr/lib/bluez/test/test-profile /usr/lib/bluez/test/test-hfp /usr/lib/bluez/test/test-thermometer /usr/lib/bluez/test/simple-endpoint /usr/lib/bluez/test/list-devices /usr/lib/bluez/test/test-cyclingspeed /usr/lib/bluez/test/test-manager /usr/lib/bluez/test/test-health-sink /usr/lib/bluez/test/test-nap /usr/lib/bluez/test/test-network /usr/lib/bluez/test/test-heartrate /usr/lib/bluez/test/test-health /usr/lib/bluez/test/test-alert /usr/lib/bluez/test/test-device /usr/lib/bluez/test/simple-agent /usr/lib/bluez/test/test-discovery /usr/lib/bluez/test/ftp-client /usr/lib/bluez/test/opp-client /usr/lib/bluez/test/test-sap-server /usr/lib/bluez/test/pbap-client /usr/lib/bluez/test/simple-player /usr/lib/bluez/test/test-proximity
+FILERDEPENDS_/usr/lib/bluez/test/monitor-bluetooth_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/map-client_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-adapter_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-profile_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-hfp_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-thermometer_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/simple-endpoint_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/list-devices_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-cyclingspeed_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-manager_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-health-sink_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-nap_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-network_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-heartrate_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-health_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-alert_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-device_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/simple-agent_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-discovery_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/ftp-client_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/opp-client_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-sap-server_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/pbap-client_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/simple-player_bluez5-test: /usr/bin/python
+FILERDEPENDS_/usr/lib/bluez/test/test-proximity_bluez5-test: /usr/bin/python
+PKGSIZE_bluez5-test: 126301

@@ -1,0 +1,13 @@
+PN: quectel-tts-sdk
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-tts-sdk-doc: Quectel TTS SDK  This package contains documentation.
+SUMMARY_quectel-tts-sdk-doc: quectel-tts-sdk version git-r1 - Documentation files
+SECTION_quectel-tts-sdk-doc: doc
+PKG_quectel-tts-sdk-doc: quectel-tts-sdk-doc
+FILES_quectel-tts-sdk-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-tts-sdk-doc: 0

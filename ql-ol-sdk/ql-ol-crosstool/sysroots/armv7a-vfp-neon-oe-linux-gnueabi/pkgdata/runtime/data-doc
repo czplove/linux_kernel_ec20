@@ -1,0 +1,13 @@
+PN: data
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-doc: Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This package contains documentation.
+SUMMARY_data-doc: data version git-invalidgit-r21 - Documentation files
+SECTION_data-doc: doc
+PKG_data-doc: data-doc
+FILES_data-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_data-doc: 0

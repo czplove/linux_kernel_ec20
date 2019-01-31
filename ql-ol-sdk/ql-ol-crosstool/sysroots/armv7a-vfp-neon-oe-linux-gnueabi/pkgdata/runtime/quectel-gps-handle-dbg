@@ -1,0 +1,15 @@
+PN: quectel-gps-handle
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-gps-handle-dbg: Quectel uart data dispatch  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-gps-handle-dbg: quectel-gps-handle version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-gps-handle-dbg: glibc-dbg
+SECTION_quectel-gps-handle-dbg: devel
+PKG_quectel-gps-handle-dbg: quectel-gps-handle-dbg
+ALLOW_EMPTY_quectel-gps-handle-dbg: 1
+FILES_quectel-gps-handle-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-gps-handle/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-gps-handle/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-gps-handle/quectel-gps-handle/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/quectel-gps-handle": 35033, "/usr/bin/.debug/quectel-uart-ddp": 35033}
+PKGSIZE_quectel-gps-handle-dbg: 70066

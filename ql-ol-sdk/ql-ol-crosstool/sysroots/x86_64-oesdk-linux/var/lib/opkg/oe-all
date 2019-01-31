@@ -1,0 +1,362 @@
+Package: packagegroup-core-standalone-sdk-target-dbg
+Version: 1.0-r8
+Recommends: libsegfault-dbg, glibc-utils-dbg, glibc-gconv-cp1252-dbg, glibc-dbg, qemuwrapper-cross-dbg, glibc-localedata-i18n-dbg, libstdc++-dbg, glibc-gconv-ibm850-dbg, glibc-gconv-iso8859-15-dbg, libgcov-dbg, glibc-thread-db-dbg, glibc-gconv-iso8859-1-dbg, libgcc-dbg
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f1938907be61a015360a66a521fdd7d7
+Size: 814
+Filename: packagegroup-core-standalone-sdk-target-dbg_1.0-r8_all.ipk
+Source: None
+Description:  Target packages for the standalone SDK - Debugging files  Target packages
+ for the standalone SDK.  This package contains ELF   symbols and related
+ sources for debugging purposes.
+OE: packagegroup-core-standalone-sdk-target
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target-dev
+Version: 1.0-r8
+Depends: packagegroup-core-standalone-sdk-target (= 1.0-r8)
+Recommends: qemuwrapper-cross-dev, glibc-utils-dev, glibc-gconv-cp1252-dev, glibc-dev, glibc-thread-db-dev, glibc-gconv-ibm850-dev, libstdc++-dev, glibc-localedata-i18n-dev, libgcc-dev, libsegfault-dev, glibc-gconv-iso8859-15-dev, glibc-gconv-iso8859-1-dev, libgcov-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 98fca34c90daab919092763fbc82a433
+Size: 840
+Filename: packagegroup-core-standalone-sdk-target-dev_1.0-r8_all.ipk
+Source: None
+Description:  Target packages for the standalone SDK - Development files  Target
+ packages for the standalone SDK.  This package contains symbolic   links,
+ header files, and related items necessary for software   development.
+OE: packagegroup-core-standalone-sdk-target
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-standalone-sdk-target
+Version: 1.0-r8
+Depends: glibc-dbg, glibc-thread-db, glibc, glibc-gconv-ibm850, libstdc++-dev, glibc-gconv-cp1252, libstdc++, libgcc-dev, libsegfault, libgcc, libgcov-dev, glibc-gconv-iso8859-15, glibc-utils, glibc-dev, glibc-gconv-iso8859-1, glibc-localedata-i18n, qemuwrapper-cross
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8a6e149ea9b0c2a876aece2404037f3e
+Size: 762
+Filename: packagegroup-core-standalone-sdk-target_1.0-r8_all.ipk
+Source: None
+Description:  Target packages for the standalone SDK  Target packages for the
+ standalone SDK.
+OE: packagegroup-core-standalone-sdk-target
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r9
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4953ae2d73ff34f4ca11813841f9a53d
+Size: 720
+Filename: run-postinsts-dbg_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device - Debugging
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains ELF symbols and related sources for debugging purposes.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r9
+Depends: run-postinsts (= 1.0-r9)
+Recommends: initscripts-dev
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 03300da80af5388b645a6905ad59fd5a
+Size: 764
+Filename: run-postinsts-dev_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device - Development
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r9
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1cd35107188c5853712855187df4aaae
+Size: 1808
+Filename: run-postinsts_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device  Runs
+ postinstall scripts on first boot of the target device.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: tzdata-africa
+Version: 2015a-r0
+Provides: tzdata-africa
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ba6163f5605a515c22f1eda18e139ba0
+Size: 7388
+Filename: tzdata-africa_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-americas
+Version: 2015a-r0
+Provides: tzdata-americas
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce2d5ba5f257b77561290969fd64d777
+Size: 78768
+Filename: tzdata-americas_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-antarctica
+Version: 2015a-r0
+Provides: tzdata-antarctica
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b138e78814efd844b73dc07f2be156be
+Size: 4616
+Filename: tzdata-antarctica_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-arctic
+Version: 2015a-r0
+Provides: tzdata-arctic
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 3e2a97593a96406218bdc52789e9db98
+Size: 1900
+Filename: tzdata-arctic_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-asia
+Version: 2015a-r0
+Provides: tzdata-asia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b42fef1c166b2ecc1840420b671b6038
+Size: 28518
+Filename: tzdata-asia_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-atlantic
+Version: 2015a-r0
+Provides: tzdata-atlantic
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5492a55a1dd2241fd80a7287d50b92d5
+Size: 6696
+Filename: tzdata-atlantic_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-australia
+Version: 2015a-r0
+Provides: tzdata-australia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e048f5eb0f4e89b3ef3422bc9cbdfe3e
+Size: 5694
+Filename: tzdata-australia_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-europe
+Version: 2015a-r0
+Provides: tzdata-europe
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0fca3ecb0bf03414e0b6685a7124bf10
+Size: 22052
+Filename: tzdata-europe_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-misc
+Version: 2015a-r0
+Provides: tzdata-misc
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b6eb8f2f281706aae1259159ad5dadbb
+Size: 13352
+Filename: tzdata-misc_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-pacific
+Version: 2015a-r0
+Provides: tzdata-pacific
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8b2c83dfaa0ffcbaa6399de7a879fd4b
+Size: 6742
+Filename: tzdata-pacific_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-posix
+Version: 2015a-r0
+Provides: tzdata-posix
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 15e906c5509ea64a7dce3320d1f73cf2
+Size: 194558
+Filename: tzdata-posix_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-right
+Version: 2015a-r0
+Provides: tzdata-right
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 02f38dd06968e9a57c91d8072a14bf99
+Size: 211286
+Filename: tzdata-right_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata
+Version: 2015a-r0
+Conflicts: timezone-asia, timezone-europe, timezone-iso3166.tab, timezone-america, timezones, timezone-zone.tab, timezone-pacific, timezone-atlantic, timezone-antarctica, timezone-arctic, timezone-africa, timezone-indian, timezone-australia
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1b23500d76a334fe08d57ab8a44a0c34
+Size: 41702
+Filename: tzdata_2015a-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2015a.tar.gz;name=tzdata
+Description:  tzdata version 2015a-r0  Timezone data
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r6
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 42747b10729af332382828824848d011
+Size: 838
+Filename: update-rc.d-dbg_0.7-r6_all.ipk
+Source: git://codeaurora.org/quic/le/platform/external/update-rc.d;protocol=git;branch=github/master file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d - Debugging files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   ELF symbols
+ and related sources for debugging purposes.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r6
+Depends: update-rc.d (= 0.7-r6)
+Section: devel
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b867624274a299b47d51cfedd5c52d57
+Size: 862
+Filename: update-rc.d-dev_0.7-r6_all.ipk
+Source: git://codeaurora.org/quic/le/platform/external/update-rc.d;protocol=git;branch=github/master file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d - Development files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r6
+Section: base
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 47a39687e732508fbed4cc9609839460
+Size: 2848
+Filename: update-rc.d_0.7-r6_all.ipk
+Source: git://codeaurora.org/quic/le/platform/external/update-rc.d;protocol=git;branch=github/master file://add-verbose.patch file://check-if-symlinks-are-valid.patch
+Description:  manage symlinks in /etc/rcN.d  update-rc.d is a utilities that allows the
+ management of symlinks to the   initscripts in the /etc/rcN.d directory
+ structure.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+

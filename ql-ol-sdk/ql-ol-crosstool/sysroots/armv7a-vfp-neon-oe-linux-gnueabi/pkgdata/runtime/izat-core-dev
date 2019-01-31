@@ -1,0 +1,17 @@
+PN: izat-core
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-core-dev: Izat Core  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_izat-core-dev: izat-core version git-invalidgit-r1 - Development files
+RDEPENDS_izat-core-dev: izat-core (= git-invalidgit-r1)
+RPROVIDES_izat-core-dev:  izat-core-dev
+RRECOMMENDS_izat-core-dev: configdb-dev loc-hal-dev glibc-dev loc-pla-dev xmllib-dev data-oss-dev system-core-liblog-dev lbs-core-hdr-dev qmi-client-helper-dev libstdc++-dev loc-stub-dev libgcc-dev dsutils-dev time-genoff-dev qmi-dev glib-2.0-dev diag-dev data-dev qmi-framework-dev
+SECTION_izat-core-dev: devel
+PKG_izat-core-dev: libizat-core-dev
+ALLOW_EMPTY_izat-core-dev: 1
+FILES_izat-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/izat-core/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libizat_core.la": 2497, "/usr/include/izat-core/IzatApiRpc.h": 982, "/usr/include/izat-core/IzatAdapterBase.h": 1951, "/usr/include/IzatAdapterBase.h": 1951, "/usr/include/config.h": 1862, "/usr/include/IzatApiRpc.h": 982, "/usr/include/IzatApiBase.h": 2426, "/usr/lib/libizat_core.so": 21, "/usr/include/izat-core/IzatApiV02.h": 2415, "/usr/lib/pkgconfig/izat-core.pc": 195, "/usr/include/IzatApiV02.h": 2415, "/usr/include/izat-core/IzatApiBase.h": 2426}
+PKGSIZE_izat-core-dev: 20123

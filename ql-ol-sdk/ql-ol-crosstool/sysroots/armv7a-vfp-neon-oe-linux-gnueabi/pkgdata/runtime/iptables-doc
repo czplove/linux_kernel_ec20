@@ -1,0 +1,13 @@
+PN: iptables
+PV: 1.4.12.1
+PR: r3
+PKGV: 1.4.12.1
+PKGR: r3
+LICENSE: GPLv2+
+DESCRIPTION_iptables-doc: iptables is the userspace command line program used to configure  and control network packet filtering code in Linux.  This package contains documentation.
+SUMMARY_iptables-doc: Tools for managing kernel packet filtering capabilities - Documentation files
+SECTION_iptables-doc: doc
+PKG_iptables-doc: iptables-doc
+FILES_iptables-doc: /usr/share/xtables/ /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/iptables.8": 101959, "/usr/share/man/man8/iptables-restore.8": 1725, "/usr/share/xtables/pf.os": 28362, "/usr/share/man/man8/ip6tables-restore.8": 1783, "/usr/share/man/man8/ip6tables-save.8": 1988, "/usr/share/man/man1/iptables-xml.1": 2945, "/usr/share/man/man8/iptables-save.8": 1940, "/usr/share/man/man8/ip6tables.8": 92587}
+PKGSIZE_iptables-doc: 233289

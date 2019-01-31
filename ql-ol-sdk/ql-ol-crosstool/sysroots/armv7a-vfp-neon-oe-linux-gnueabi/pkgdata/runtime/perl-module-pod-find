@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-find: perl module pod-find
+SUMMARY_perl-module-pod-find: perl module pod-find
+RDEPENDS_perl-module-pod-find: perl-module-carp perl-module-config perl-module-vars perl-module-file-spec perl-module-file-find perl perl-module-exporter perl-module-symbol perl-module-strict perl-module-cwd
+SECTION: devel
+PKG_perl-module-pod-find: perl-module-pod-find
+FILES_perl-module-pod-find: /usr/lib/perl/5.20.0/Pod/Find.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Find.pm": 15786}
+PKGSIZE_perl-module-pod-find: 15786

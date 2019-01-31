@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-memoize-ndbm-file: perl module memoize-ndbm-file
+SUMMARY_perl-module-memoize-ndbm-file: perl module memoize-ndbm-file
+RDEPENDS_perl-module-memoize-ndbm-file: perl
+SECTION: devel
+PKG_perl-module-memoize-ndbm-file: perl-module-memoize-ndbm-file
+FILES_perl-module-memoize-ndbm-file: /usr/lib/perl/5.20.0/Memoize/NDBM_File.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Memoize/NDBM_File.pm": 1488}
+PKGSIZE_perl-module-memoize-ndbm-file: 1488

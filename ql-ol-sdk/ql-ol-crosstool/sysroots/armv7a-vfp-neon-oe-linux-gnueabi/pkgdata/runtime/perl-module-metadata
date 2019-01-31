@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-metadata: perl module metadata
+SUMMARY_perl-module-metadata: perl module metadata
+RDEPENDS_perl-module-metadata: perl
+SECTION: devel
+PKG_perl-module-metadata: perl-module-metadata
+FILES_perl-module-metadata: /usr/lib/perl/5.20.0/Module/Metadata.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Module/Metadata.pm": 28672}
+PKGSIZE_perl-module-metadata: 28672

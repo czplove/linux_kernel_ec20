@@ -1,0 +1,13 @@
+PN: shadow-securetty
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION: Provider of the machine specific securetty file.
+SUMMARY: Provider of the machine specific securetty file
+SECTION: base utils
+PKG_shadow-securetty-locale: shadow-securetty-locale
+FILES_shadow-securetty-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_shadow-securetty-locale: 0

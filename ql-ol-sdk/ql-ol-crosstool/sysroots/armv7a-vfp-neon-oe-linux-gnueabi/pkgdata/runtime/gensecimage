@@ -1,0 +1,13 @@
+PN: gensecimage
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: gensecimage signed appsbootloader image creation 
+SUMMARY: gensecimage version git-invalidgit-r2
+SECTION: base
+PKG_gensecimage: gensecimage
+FILES_gensecimage: /usr/bin/* /usr/sbin/* /usr/lib/gensecimage/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gensecimage /usr/lib/gensecimage/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/etc/usr/sectools.py": 4646, "/etc/usr/gensecimage_builder.py": 27775}
+PKGSIZE_gensecimage: 32421

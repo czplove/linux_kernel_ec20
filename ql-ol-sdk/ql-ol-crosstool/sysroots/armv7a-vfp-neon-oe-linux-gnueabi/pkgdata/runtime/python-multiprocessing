@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-multiprocessing: Python multiprocessing support
+RDEPENDS_python-multiprocessing: libpython2 (>= 2.7.9) python-pickle python-threading python-mmap glibc (>= 2.21) python-ctypes python-core python-io python-lang
+SECTION: devel/python
+PKG_python-multiprocessing: python-multiprocessing
+FILES_python-multiprocessing: /usr/lib/python2.7/lib-dynload/_multiprocessing.so /usr/lib/python2.7/multiprocessing 
+FILERPROVIDESFLIST_python-multiprocessing: /usr/lib/python2.7/lib-dynload/@underscore@multiprocessing.so
+FILES_INFO: {"/usr/lib/python2.7/multiprocessing/synchronize.pyc": 10996, "/usr/lib/python2.7/multiprocessing/reduction.pyc": 5979, "/usr/lib/python2.7/multiprocessing/queues.pyc": 11525, "/usr/lib/python2.7/multiprocessing/connection.py": 14640, "/usr/lib/python2.7/multiprocessing/sharedctypes.pyc": 8540, "/usr/lib/python2.7/multiprocessing/heap.pyc": 6869, "/usr/lib/python2.7/multiprocessing/reduction.py": 6582, "/usr/lib/python2.7/multiprocessing/util.pyc": 10074, "/usr/lib/python2.7/multiprocessing/sharedctypes.py": 7697, "/usr/lib/python2.7/multiprocessing/connection.pyc": 14370, "/usr/lib/python2.7/multiprocessing/managers.pyc": 38286, "/usr/lib/python2.7/multiprocessing/forking.py": 16315, "/usr/lib/python2.7/multiprocessing/queues.py": 12318, "/usr/lib/python2.7/multiprocessing/dummy/connection.pyc": 2740, "/usr/lib/python2.7/multiprocessing/process.pyc": 9443, "/usr/lib/python2.7/multiprocessing/process.py": 9370, "/usr/lib/python2.7/multiprocessing/managers.py": 36634, "/usr/lib/python2.7/multiprocessing/__init__.py": 7805, "/usr/lib/python2.7/multiprocessing/dummy/__init__.pyc": 5420, "/usr/lib/python2.7/multiprocessing/heap.py": 8581, "/usr/lib/python2.7/multiprocessing/pool.pyc": 22190, "/usr/lib/python2.7/multiprocessing/forking.pyc": 14295, "/usr/lib/python2.7/multiprocessing/__init__.pyc": 8413, "/usr/lib/python2.7/lib-dynload/_multiprocessing.so": 20768, "/usr/lib/python2.7/multiprocessing/util.py": 10867, "/usr/lib/python2.7/multiprocessing/dummy/connection.py": 2807, "/usr/lib/python2.7/multiprocessing/synchronize.py": 10654, "/usr/lib/python2.7/multiprocessing/pool.py": 23589, "/usr/lib/python2.7/multiprocessing/dummy/__init__.py": 4481}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@multiprocessing.so_python-multiprocessing: _multiprocessing.so elf(buildid) (= ed2c7a1a58c9310dfa85814ccabf255f5583e8df)
+FILERDEPENDSFLIST_python-multiprocessing: /usr/lib/python2.7/lib-dynload/@underscore@multiprocessing.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@multiprocessing.so_python-multiprocessing: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-multiprocessing: 362248

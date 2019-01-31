@@ -1,0 +1,2 @@
+/sbin/adjtimex
+/bin/busybox 50

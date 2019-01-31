@@ -1,0 +1,19 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libform: ncurses form library
+SUMMARY_ncurses-libform: ncurses form library
+RDEPENDS_ncurses-libform: glibc (>= 2.21) ncurses-libtinfo (>= 5.9) ncurses-libncurses (>= 5.9)
+RPROVIDES_ncurses-libform:  ncurses-libform
+SECTION: libs
+PKG_ncurses-libform: libform5
+FILES_ncurses-libform: /usr/lib/libform.so.5 /usr/lib/libform.so.5.9
+FILERPROVIDESFLIST_ncurses-libform: /usr/lib/libform.so.5.9
+FILES_INFO: {"/usr/lib/libform.so.5": 45256}
+FILERPROVIDES_/usr/lib/libform.so.5.9_ncurses-libform: elf(buildid) (= bfd3eb537627f218f24ebc23133df819e0ddd421) libform.so.5
+FILERDEPENDSFLIST_ncurses-libform: /usr/lib/libform.so.5.9
+FILERDEPENDS_/usr/lib/libform.so.5.9_ncurses-libform: libc.so.6 libc.so.6(GLIBC_2.4) libncurses.so.5 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libform: 45256

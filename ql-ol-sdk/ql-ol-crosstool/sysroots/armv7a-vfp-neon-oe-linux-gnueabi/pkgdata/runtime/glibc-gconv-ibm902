@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm902: gconv module for character set ibm902
+SUMMARY_glibc-gconv-ibm902: gconv module for character set ibm902
+RDEPENDS_glibc-gconv-ibm902: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm902: glibc-gconv-ibm902
+FILES_glibc-gconv-ibm902: /usr/lib/gconv/IBM902.so
+FILES_INFO: {"/usr/lib/gconv/IBM902.so": 9584}
+PKGSIZE_glibc-gconv-ibm902: 9584

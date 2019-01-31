@@ -1,0 +1,14 @@
+PN: loc-hal-test-shim
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-hal-test-shim-staticdev: GPS HAL API Test shim Library  This package contains static libraries for software development.
+SUMMARY_loc-hal-test-shim-staticdev: loc-hal-test-shim version git-invalidgit-r3 - Development files (Static Libraries)
+RDEPENDS_loc-hal-test-shim-staticdev: loc-hal-test-shim-dev (= git-invalidgit-r3)
+SECTION_loc-hal-test-shim-staticdev: devel
+PKG_loc-hal-test-shim-staticdev: loc-hal-test-shim-staticdev
+FILES_loc-hal-test-shim-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-hal-test-shim/*.a
+FILES_INFO: {}
+PKGSIZE_loc-hal-test-shim-staticdev: 0

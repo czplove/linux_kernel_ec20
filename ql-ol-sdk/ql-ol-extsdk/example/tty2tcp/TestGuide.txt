@@ -1,0 +1,8 @@
+1，抓取SDK代码 //depot/MDM9x07/OpenLinux/SDK/
+2，//depot/MDM9x07/OpenLinux/SDK/OpenLinux_SDK_V1.0/  底下执行：
+   sudo ./build.sh new example/tty2tcp
+3，将生成的文件SDK/OpenLinux_SDK_V1.0/build/AppImageBinV01 push到板子里
+4，板子启动后，先执行  Quectel_QCMAP_CLI &  以启动网络
+5，./AppImageBinV01 -c "220.180.239.212:8399" -c 1     //220.180.239.212:8399 这个是要测试的server Addr/Port
+6, 让系统进入休眠
+7，QServer 发送任意字符串可以唤醒平台

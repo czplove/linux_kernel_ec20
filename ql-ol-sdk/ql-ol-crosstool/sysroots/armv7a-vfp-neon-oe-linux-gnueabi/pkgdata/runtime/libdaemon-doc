@@ -1,0 +1,13 @@
+PN: libdaemon
+PV: 0.14
+PR: r0
+PKGV: 0.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libdaemon-doc: Lightweight C library which eases the writing of UNIX daemons.  This package contains documentation.
+SUMMARY_libdaemon-doc: Lightweight C library which eases the writing of UNIX daemons - Documentation files
+SECTION_libdaemon-doc: doc
+PKG_libdaemon-doc: libdaemon-doc
+FILES_libdaemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/libdaemon/README.html": 8892, "/usr/share/doc/libdaemon/style.css": 976}
+PKGSIZE_libdaemon-doc: 9868

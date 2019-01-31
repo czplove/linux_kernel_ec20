@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-cs: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the cs locale.
+SUMMARY_gettext-locale-cs: Utilities and libraries for producing multi-lingual messages - cs translations
+RPROVIDES_gettext-locale-cs: gettext-locale cs-translation
+RRECOMMENDS_gettext-locale-cs: virtual-locale-cs
+SECTION: libs
+PKG_gettext-locale-cs: gettext-locale-cs
+FILES_gettext-locale-cs: /usr/share/locale/cs
+FILES_INFO: {"/usr/share/locale/cs/LC_MESSAGES/gettext-runtime.mo": 9840, "/usr/share/locale/cs/LC_MESSAGES/gettext-tools.mo": 6358}
+PKGSIZE_gettext-locale-cs: 16198

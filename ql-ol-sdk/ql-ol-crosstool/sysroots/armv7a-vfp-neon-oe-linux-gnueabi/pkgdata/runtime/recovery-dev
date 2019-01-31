@@ -1,0 +1,16 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION_recovery-dev: Recovery bootloader  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_recovery-dev: recovery version git-r7 - Development files
+RDEPENDS_recovery-dev: recovery (= git-r7)
+RRECOMMENDS_recovery-dev: system-core-dev zlib-dev libbz2-dev glibc-dev system-core-libcutils-dev bzip2-dev initscripts-dev
+SECTION_recovery-dev: devel
+PKG_recovery-dev: recovery-dev
+ALLOW_EMPTY_recovery-dev: 1
+FILES_recovery-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/recovery/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libmtdutils.la": 884, "/usr/include/recovery/Bits.h": 7919, "/usr/include/recovery/Zip.h": 5885, "/usr/lib/libminzip.la": 878, "/usr/include/recovery/Log.h": 4766, "/usr/include/recovery/mounts.h": 1124, "/usr/include/recovery/Retouch.h": 2619, "/usr/include/recovery/mtdutils.h": 2339, "/usr/lib/libminelf.la": 878, "/usr/lib/pkgconfig/recovery.pc": 200, "/usr/lib/libedify.la": 875, "/usr/include/recovery/DirUtil.h": 1721, "/usr/lib/libapplypatch.la": 1095, "/usr/include/recovery/inline_magic.h": 812, "/usr/include/recovery/SysUtil.h": 1500, "/usr/include/recovery/applypatch.h": 3027, "/usr/include/recovery/Hash.h": 5662}
+PKGSIZE_recovery-dev: 42184

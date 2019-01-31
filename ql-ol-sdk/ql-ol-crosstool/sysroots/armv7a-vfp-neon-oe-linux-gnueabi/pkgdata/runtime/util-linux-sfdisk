@@ -1,0 +1,18 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-sfdisk: glibc (>= 2.21)
+SECTION: base
+PKG_util-linux-sfdisk: util-linux-sfdisk
+FILES_util-linux-sfdisk: /usr/sbin/sfdisk
+FILERPROVIDESFLIST_util-linux-sfdisk: /usr/sbin/sfdisk
+FILES_INFO: {"/usr/sbin/sfdisk": 64700}
+FILERPROVIDES_/usr/sbin/sfdisk_util-linux-sfdisk: elf(buildid) (= d1fd839624fc263c06a4e3d4ac06a3e9df63248a)
+FILERDEPENDSFLIST_util-linux-sfdisk: /usr/sbin/sfdisk
+FILERDEPENDS_/usr/sbin/sfdisk_util-linux-sfdisk: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+PKGSIZE_util-linux-sfdisk: 64700

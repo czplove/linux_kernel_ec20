@@ -1,0 +1,18 @@
+PN: lttng-ust
+PE: 2
+PV: 2.6.0
+PR: r2
+PKGE: 2
+PKGV: 2.6.0
+PKGR: r2
+LICENSE: LGPLv2.1+ & MIT & GPLv2
+DESCRIPTION_lttng-ust-dev: The LTTng UST 2.x package contains the userspace tracer library to trace userspace codes.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lttng-ust-dev: Linux Trace Toolkit Userspace Tracer 2.x - Development files
+RDEPENDS_lttng-ust-dev: lttng-ust (= 2:2.6.0-r2)
+RRECOMMENDS_lttng-ust-dev: liburcu-dev glibc-dev util-linux-dev python-core-dev
+SECTION_lttng-ust-dev: devel
+PKG_lttng-ust-dev: lttng-ust-dev
+ALLOW_EMPTY_lttng-ust-dev: 1
+FILES_lttng-ust-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lttng-ust/*.la /lib/*.la
+FILES_INFO: {"/usr/include/lttng/ust.h": 1497, "/usr/include/lttng/ust-ctl.h": 13500, "/usr/lib/liblttng-ust-pthread-wrapper.la": 1269, "/usr/include/lttng/ust-error.h": 2157, "/usr/include/lttng/tracepoint-rcu.h": 1899, "/usr/include/lttng/ust-tracer.h": 1816, "/usr/lib/liblttng-ust-pthread-wrapper.so": 37, "/usr/include/lttng/ust-compiler.h": 1437, "/usr/include/lttng/align.h": 2908, "/usr/include/lttng/ust-tracepoint-event-write.h": 2496, "/usr/lib/pkgconfig/lttng-ust.pc": 329, "/usr/lib/liblttng-ust-dl.so": 24, "/usr/include/lttng/ringbuffer-config.h": 13104, "/usr/include/lttng/tracepoint.h": 22103, "/usr/include/lttng/ust-config.h": 434, "/usr/lib/liblttng-ust-cyg-profile-fast.la": 1276, "/usr/include/lttng/tracepoint-types.h": 1590, "/usr/include/lttng/ust-endian.h": 2028, "/usr/include/lttng/ust-tracepoint-event.h": 27663, "/usr/lib/liblttng-ust-fork.so": 26, "/usr/include/lttng/ringbuffer-abi.h": 3713, "/usr/include/lttng/ust-abi.h": 9265, "/usr/lib/liblttng-ust-cyg-profile.so": 33, "/usr/lib/liblttng-ust.la": 1107, "/usr/include/lttng/tracef.h": 1655, "/usr/lib/liblttng-ust.so": 21, "/usr/lib/liblttng-ust-cyg-profile.la": 1241, "/usr/include/lttng/ust-version.h": 1456, "/usr/lib/liblttng-ust-fork.la": 1168, "/usr/include/lttng/lttng-ust-tracef.h": 1433, "/usr/include/lttng/ust-events.h": 20062, "/usr/lib/liblttng-ust-ctl.la": 1093, "/usr/lib/liblttng-ust-cyg-profile-fast.so": 38, "/usr/include/lttng/tracepoint-event.h": 3217, "/usr/include/lttng/ust-tracepoint-event-reset.h": 3578, "/usr/lib/liblttng-ust-tracepoint.so": 32, "/usr/include/lttng/ust-tracepoint-event-nowrite.h": 2193, "/usr/lib/liblttng-ust-libc-wrapper.so": 34, "/usr/lib/liblttng-ust-dl.la": 1154, "/usr/lib/liblttng-ust-ctl.so": 25, "/usr/include/lttng/bug.h": 2226, "/usr/lib/liblttng-ust-libc-wrapper.la": 1248, "/usr/lib/liblttng-ust-tracepoint.la": 1137}
+PKGSIZE_lttng-ust-dev: 154722

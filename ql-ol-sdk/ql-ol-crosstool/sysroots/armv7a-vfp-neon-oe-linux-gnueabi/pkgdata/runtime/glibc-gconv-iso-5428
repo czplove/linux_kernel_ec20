@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-5428: gconv module for character set iso-5428
+SUMMARY_glibc-gconv-iso-5428: gconv module for character set iso-5428
+RDEPENDS_glibc-gconv-iso-5428: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso-5428: glibc-gconv-iso-5428
+FILES_glibc-gconv-iso-5428: /usr/lib/gconv/ISO_5428.so
+FILES_INFO: {"/usr/lib/gconv/ISO_5428.so": 9584}
+PKGSIZE_glibc-gconv-iso-5428: 9584

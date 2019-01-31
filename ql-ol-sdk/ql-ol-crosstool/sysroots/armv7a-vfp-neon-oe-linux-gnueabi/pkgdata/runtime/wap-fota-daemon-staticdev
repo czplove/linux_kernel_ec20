@@ -1,0 +1,14 @@
+PN: wap-fota-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wap-fota-daemon-staticdev: WAP FOTA DAEMON  This package contains static libraries for software development.
+SUMMARY_wap-fota-daemon-staticdev: wap-fota-daemon version git-invalidgit-r3 - Development files (Static Libraries)
+RDEPENDS_wap-fota-daemon-staticdev: wap-fota-daemon-dev (= git-invalidgit-r3)
+SECTION_wap-fota-daemon-staticdev: devel
+PKG_wap-fota-daemon-staticdev: wap-fota-daemon-staticdev
+FILES_wap-fota-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/wap-fota-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_wap-fota-daemon-staticdev: 0

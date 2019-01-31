@@ -1,0 +1,14 @@
+PN: miniupnpd
+PV: 1.9.20150307
+PR: r7
+PKGV: 1.9.20150307
+PKGR: r7
+LICENSE: BSD
+DESCRIPTION_miniupnpd-staticdev: MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling seamless detection of other UPnP devices/control points.  This package contains static libraries for software development.
+SUMMARY_miniupnpd-staticdev: Lightweight implementation of a UPnP IGD daemon. - Development files (Static Libraries)
+RDEPENDS_miniupnpd-staticdev: miniupnpd-dev (= 1.9.20150307-r7)
+SECTION_miniupnpd-staticdev: devel
+PKG_miniupnpd-staticdev: miniupnpd-staticdev
+FILES_miniupnpd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/miniupnpd/*.a
+FILES_INFO: {}
+PKGSIZE_miniupnpd-staticdev: 0

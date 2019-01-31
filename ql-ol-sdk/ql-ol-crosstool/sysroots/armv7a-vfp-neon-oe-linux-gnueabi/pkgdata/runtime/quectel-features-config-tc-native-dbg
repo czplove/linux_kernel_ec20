@@ -1,0 +1,14 @@
+PN: quectel-features-config-tc-native
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-features-config-tc-native-dbg: Quectel Features Config  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-features-config-tc-native-dbg: quectel-features-config-tc-native version 1.0-r1 - Debugging files
+SECTION_quectel-features-config-tc-native-dbg: devel
+PKG_quectel-features-config-tc-native-dbg: quectel-features-config-tc-native-dbg
+ALLOW_EMPTY_quectel-features-config-tc-native-dbg: 1
+FILES_quectel-features-config-tc-native-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-features-config-tc/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-features-config-tc/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-features-config-tc/quectel-features-config-tc/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-tc-native-dbg: 0

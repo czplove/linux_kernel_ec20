@@ -1,0 +1,17 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-netclient: Python Internet Protocol clients
+RDEPENDS_python-netclient: python-mime python-datetime python-core python-io python-logging python-crypt python-lang
+SECTION: devel/python
+PKG_python-netclient: python-netclient
+FILES_python-netclient: /usr/lib/python2.7/*Cookie*.* /usr/lib/python2.7/base64.* /usr/lib/python2.7/cookielib.* /usr/lib/python2.7/ftplib.* /usr/lib/python2.7/gopherlib.* /usr/lib/python2.7/hmac.* /usr/lib/python2.7/httplib.* /usr/lib/python2.7/mimetypes.* /usr/lib/python2.7/nntplib.* /usr/lib/python2.7/poplib.* /usr/lib/python2.7/smtplib.* /usr/lib/python2.7/telnetlib.* /usr/lib/python2.7/urllib.* /usr/lib/python2.7/urllib2.* /usr/lib/python2.7/urlparse.* /usr/lib/python2.7/uuid.* /usr/lib/python2.7/rfc822.* /usr/lib/python2.7/mimetools.* 
+FILES_INFO: {"/usr/lib/python2.7/urllib2.pyc": 46992, "/usr/lib/python2.7/Cookie.pyc": 22538, "/usr/lib/python2.7/poplib.py": 12822, "/usr/lib/python2.7/hmac.py": 4588, "/usr/lib/python2.7/urlparse.pyc": 14464, "/usr/lib/python2.7/uuid.py": 23209, "/usr/lib/python2.7/urllib.py": 58498, "/usr/lib/python2.7/httplib.pyc": 36009, "/usr/lib/python2.7/urllib.pyc": 50208, "/usr/lib/python2.7/mimetypes.py": 20709, "/usr/lib/python2.7/urllib2.py": 52407, "/usr/lib/python2.7/Cookie.py": 26492, "/usr/lib/python2.7/_LWPCookieJar.py": 6555, "/usr/lib/python2.7/cookielib.py": 64467, "/usr/lib/python2.7/nntplib.pyc": 20953, "/usr/lib/python2.7/_MozillaCookieJar.py": 5797, "/usr/lib/python2.7/hmac.pyc": 4522, "/usr/lib/python2.7/ftplib.pyc": 34044, "/usr/lib/python2.7/telnetlib.py": 27027, "/usr/lib/python2.7/smtplib.py": 31808, "/usr/lib/python2.7/telnetlib.pyc": 23067, "/usr/lib/python2.7/_MozillaCookieJar.pyc": 4452, "/usr/lib/python2.7/mimetypes.pyc": 18219, "/usr/lib/python2.7/httplib.py": 48442, "/usr/lib/python2.7/_LWPCookieJar.pyc": 5522, "/usr/lib/python2.7/urlparse.py": 15164, "/usr/lib/python2.7/ftplib.py": 36966, "/usr/lib/python2.7/base64.pyc": 10852, "/usr/lib/python2.7/uuid.pyc": 22726, "/usr/lib/python2.7/base64.py": 11357, "/usr/lib/python2.7/cookielib.pyc": 54538, "/usr/lib/python2.7/nntplib.py": 21470, "/usr/lib/python2.7/smtplib.pyc": 30123, "/usr/lib/python2.7/poplib.pyc": 13278}
+FILERDEPENDSFLIST_python-netclient: /usr/lib/python2.7/base64.py /usr/lib/python2.7/smtplib.py
+FILERDEPENDS_/usr/lib/python2.7/base64.py_python-netclient: /usr/bin/env
+FILERDEPENDS_/usr/lib/python2.7/smtplib.py_python-netclient: /usr/bin/env
+PKGSIZE_python-netclient: 880285

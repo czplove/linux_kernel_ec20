@@ -1,0 +1,13 @@
+PN: quectel-smd-atcmd
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-smd-atcmd-doc: Quectel Function Daemon  This package contains documentation.
+SUMMARY_quectel-smd-atcmd-doc: quectel-smd-atcmd version git-invalidgit-r1 - Documentation files
+SECTION_quectel-smd-atcmd-doc: doc
+PKG_quectel-smd-atcmd-doc: quectel-smd-atcmd-doc
+FILES_quectel-smd-atcmd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-smd-atcmd-doc: 0

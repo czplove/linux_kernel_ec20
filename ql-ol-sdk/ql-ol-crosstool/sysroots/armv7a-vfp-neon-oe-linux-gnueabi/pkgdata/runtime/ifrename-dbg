@@ -1,0 +1,16 @@
+PN: wireless-tools
+PE: 1
+PV: 30.pre9
+PR: r0
+PKGE: 1
+PKGV: 30.pre9
+PKGR: r0
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+DESCRIPTION: Tools for the Linux Standard Wireless Extension Subsystem.
+SUMMARY: Tools for the Linux Standard Wireless Extension Subsystem
+RRECOMMENDS_ifrename-dbg: glibc-dbg
+SECTION: base
+PKG_ifrename-dbg: ifrename-dbg
+FILES_ifrename-dbg: /usr/sbin/.debug/ifrename
+FILES_INFO: {"/usr/sbin/.debug/ifrename": 14210}
+PKGSIZE_ifrename-dbg: 14210

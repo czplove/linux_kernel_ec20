@@ -1,0 +1,13 @@
+PN: pkgconfig
+PV: 0.28
+PR: r0
+PKGV: 0.28
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pkgconfig-doc: pkg-config is a helper tool used when compiling applications and libraries. It helps determined the correct compiler/link options.  It is also language-agnostic.  This package contains documentation.
+SUMMARY_pkgconfig-doc: Helper tool used when compiling - Documentation files
+SECTION_pkgconfig-doc: doc
+PKG_pkgconfig-doc: pkgconfig-doc
+FILES_pkgconfig-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/pkg-config.1": 19178, "/usr/share/doc/pkg-config/pkg-config-guide.html": 17635}
+PKGSIZE_pkgconfig-doc: 36813

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tr-cy: locale definition for tr-cy
+SUMMARY_glibc-localedata-tr-cy: locale definition for tr-cy
+RDEPENDS_glibc-localedata-tr-cy: glibc-localedata-tr-tr
+SECTION: base
+PKG_glibc-localedata-tr-cy: glibc-localedata-tr-cy
+FILES_glibc-localedata-tr-cy: /usr/share/i18n/locales/tr_CY
+FILES_INFO: {"/usr/share/i18n/locales/tr_CY": 2353}
+PKGSIZE_glibc-localedata-tr-cy: 2353

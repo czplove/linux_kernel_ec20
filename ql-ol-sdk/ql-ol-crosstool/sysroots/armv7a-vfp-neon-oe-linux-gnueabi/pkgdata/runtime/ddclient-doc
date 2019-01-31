@@ -1,0 +1,13 @@
+PN: ddclient
+PV: 3.8.1
+PR: r5
+PKGV: 3.8.1
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_ddclient-doc: DDClient is a perl based dynamic DNS Utility  This package contains documentation.
+SUMMARY_ddclient-doc: ddclient version 3.8.1-r5 - Documentation files
+SECTION_ddclient-doc: doc
+PKG_ddclient-doc: ddclient-doc
+FILES_ddclient-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ddclient-doc: 0

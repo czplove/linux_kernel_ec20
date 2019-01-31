@@ -1,0 +1,36 @@
+PN: diag
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Library and routing applications for diagnostic traffic
+SUMMARY: diag version git-invalidgit-r9
+RDEPENDS_diag: glibc (>= 2.21) time-genoff (>= git-invalidgit) glib-2.0 (>= 2.42.1)
+SECTION: base
+PKG_diag: diag
+FILES_diag: /usr/bin/* /usr/sbin/* /usr/lib/diag/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/diag /usr/lib/diag/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_diag:         [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n        update-rc.d $OPT -f start_diag_qshrink4_daemon remove\n        update-rc.d $OPT start_diag_qshrink4_daemon start 15 2 3 4 5 . stop 15 0 6 .\n\n        update-rc.d $OPT -f chgrp-diag remove\n        update-rc.d $OPT chgrp-diag start 15 2 3 4 5 .\n
+FILERPROVIDESFLIST_diag: /usr/bin/diag@underscore@callback@underscore@sample /usr/bin/diag@underscore@mdlog /usr/bin/diag@underscore@dci@underscore@sample /usr/bin/diag@underscore@socket@underscore@log /usr/bin/diag@underscore@uart@underscore@log /usr/bin/test@underscore@diag /usr/bin/PktRspTest /usr/lib/libdiag.so.1.0.0 /usr/bin/diag@underscore@klog
+FILES_INFO: {"/usr/bin/diag_dci_sample": 10488, "/usr/lib/libdiag.so.1": 97976, "/usr/bin/diag_uart_log": 9420, "/usr/bin/diag_socket_log": 15496, "/usr/bin/test_diag": 12312, "/usr/bin/diag_mdlog": 17036, "/etc/init.d/chgrp-diag": 203, "/usr/bin/PktRspTest": 4536, "/usr/bin/diag_klog": 4772, "/usr/bin/diag_callback_sample": 6400}
+FILERPROVIDES_/usr/bin/diag@underscore@callback@underscore@sample_diag: elf(buildid) (= 56079218cf51da2ebeb0fbb72469253cb47c2eea)
+FILERPROVIDES_/usr/bin/diag@underscore@mdlog_diag: elf(buildid) (= 4c5b325556d37fa89cc6b6e234b9148ea67eec75)
+FILERPROVIDES_/usr/bin/diag@underscore@dci@underscore@sample_diag: elf(buildid) (= 33fa4e9f8d78afb07b4160ce0e6bddc21689ecc7)
+FILERPROVIDES_/usr/bin/diag@underscore@socket@underscore@log_diag: elf(buildid) (= 45b84e327822c36f9c43a39de5bfd96803cb0a54)
+FILERPROVIDES_/usr/bin/diag@underscore@uart@underscore@log_diag: elf(buildid) (= f596529cb0bf19d8cea59151ce674b3206731e85)
+FILERPROVIDES_/usr/bin/test@underscore@diag_diag: elf(buildid) (= e1079157531605604258bfd60974b0001cd030bf)
+FILERPROVIDES_/usr/bin/PktRspTest_diag: elf(buildid) (= e185da32ba54abfdb0af55b338920936eeead0fe)
+FILERPROVIDES_/usr/lib/libdiag.so.1.0.0_diag: elf(buildid) (= a11dca9dad959be31128813b595d738419fef75e) libdiag.so.1
+FILERPROVIDES_/usr/bin/diag@underscore@klog_diag: elf(buildid) (= ef7806959f86ea52f88f6c105aacf35c1da9ff52)
+FILERDEPENDSFLIST_diag: /usr/bin/diag@underscore@callback@underscore@sample /usr/bin/diag@underscore@mdlog /usr/bin/diag@underscore@dci@underscore@sample /usr/bin/diag@underscore@socket@underscore@log /etc/init.d/chgrp-diag /usr/bin/diag@underscore@uart@underscore@log /usr/bin/test@underscore@diag /usr/bin/PktRspTest /usr/lib/libdiag.so.1.0.0 /usr/bin/diag@underscore@klog
+FILERDEPENDS_/usr/bin/diag@underscore@callback@underscore@sample_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/diag@underscore@mdlog_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/diag@underscore@dci@underscore@sample_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/diag@underscore@socket@underscore@log_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/chgrp-diag_diag: /bin/sh
+FILERDEPENDS_/usr/bin/diag@underscore@uart@underscore@log_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/test@underscore@diag_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/PktRspTest_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libdiag.so.1.0.0_diag: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/diag@underscore@klog_diag: libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 rtld(GNU_HASH)
+PKGSIZE_diag: 178639

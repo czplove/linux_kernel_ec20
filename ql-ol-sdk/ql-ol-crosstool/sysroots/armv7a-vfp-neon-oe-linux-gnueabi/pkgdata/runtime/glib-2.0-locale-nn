@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-nn: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the nn locale.
+SUMMARY_glib-2.0-locale-nn: A general-purpose utility library - nn translations
+RPROVIDES_glib-2.0-locale-nn: glib-2.0-locale nn-translation glib-2.0-locale-nn
+RRECOMMENDS_glib-2.0-locale-nn: virtual-locale-nn
+SECTION: libs
+PKG_glib-2.0-locale-nn: libglib-2.0-locale-nn
+FILES_glib-2.0-locale-nn: /usr/share/locale/nn
+FILES_INFO: {"/usr/share/locale/nn/LC_MESSAGES/glib20.mo": 36300}
+PKGSIZE_glib-2.0-locale-nn: 36300

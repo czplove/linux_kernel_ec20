@@ -1,0 +1,14 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb1-doc: Userspace library to access USB (version 1.0).  This package contains documentation.
+SUMMARY_libusb1-doc: Userspace library to access USB (version 1.0) - Documentation files
+RPROVIDES_libusb1-doc:  libusb1-doc
+SECTION_libusb1-doc: doc
+PKG_libusb1-doc: libusb-1.0-doc
+FILES_libusb1-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libusb1-doc: 0

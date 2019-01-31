@@ -1,0 +1,16 @@
+PN: garden-app
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-app-dev: GPS Garden test shippable app for LOC API HAL  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_garden-app-dev: garden-app version git-invalidgit-r4 - Development files
+RDEPENDS_garden-app-dev: garden-app (= git-invalidgit-r4)
+RRECOMMENDS_garden-app-dev: location-service-dev loc-hal-dev glibc-dev loc-pla-dev lbs-core-dev loc-vzw-dev garden-test-interfaces-dev libgcc-dev loc-xtra-dev loc-hal-test-shim-dev glib-2.0-dev qmi-framework-dev
+SECTION_garden-app-dev: devel
+PKG_garden-app-dev: garden-app-dev
+ALLOW_EMPTY_garden-app-dev: 1
+FILES_garden-app-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/garden-app/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/garden-app.pc": 171}
+PKGSIZE_garden-app-dev: 171

@@ -1,0 +1,17 @@
+PN: configdb
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_configdb-dev: Qualcomm Data Configdb Module  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_configdb-dev: configdb version git-invalidgit-r5 - Development files
+RDEPENDS_configdb-dev: configdb (= git-invalidgit-r5)
+RPROVIDES_configdb-dev:  configdb-dev
+RRECOMMENDS_configdb-dev: glibc-dev xmllib-dev dsutils-dev time-genoff-dev glib-2.0-dev common-dev diag-dev
+SECTION_configdb-dev: devel
+PKG_configdb-dev: libconfigdb-dev
+ALLOW_EMPTY_configdb-dev: 1
+FILES_configdb-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/configdb/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libconfigdb.la": 1229, "/usr/include/configdb/configdb.h": 8390, "/usr/lib/pkgconfig/configdb.pc": 205, "/usr/lib/libconfigdb.so": 20}
+PKGSIZE_configdb-dev: 9844

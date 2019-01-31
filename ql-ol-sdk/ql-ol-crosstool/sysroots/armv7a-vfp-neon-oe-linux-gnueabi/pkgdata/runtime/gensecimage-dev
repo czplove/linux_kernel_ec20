@@ -1,0 +1,15 @@
+PN: gensecimage
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gensecimage-dev: gensecimage signed appsbootloader image creation   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gensecimage-dev: gensecimage version git-invalidgit-r2 - Development files
+RDEPENDS_gensecimage-dev: gensecimage (= git-invalidgit-r2)
+SECTION_gensecimage-dev: devel
+PKG_gensecimage-dev: gensecimage-dev
+ALLOW_EMPTY_gensecimage-dev: 1
+FILES_gensecimage-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gensecimage/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_gensecimage-dev: 0

@@ -1,0 +1,20 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-curses: Python curses support
+RDEPENDS_python-curses: ncurses-libpanelw (>= 5.9) ncurses-libtinfo (>= 5.9) libpython2 (>= 2.7.9) glibc (>= 2.21) ncurses-libncursesw (>= 5.9) python-core
+SECTION: devel/python
+PKG_python-curses: python-curses
+FILES_python-curses: /usr/lib/python2.7/curses /usr/lib/python2.7/lib-dynload/_curses.so /usr/lib/python2.7/lib-dynload/_curses_panel.so 
+FILERPROVIDESFLIST_python-curses: /usr/lib/python2.7/lib-dynload/@underscore@curses@underscore@panel.so /usr/lib/python2.7/lib-dynload/@underscore@curses.so
+FILES_INFO: {"/usr/lib/python2.7/curses/panel.py": 110, "/usr/lib/python2.7/curses/has_key.py": 5627, "/usr/lib/python2.7/lib-dynload/_curses_panel.so": 10752, "/usr/lib/python2.7/curses/panel.pyc": 275, "/usr/lib/python2.7/curses/wrapper.py": 1681, "/usr/lib/python2.7/curses/wrapper.pyc": 1214, "/usr/lib/python2.7/curses/ascii.pyc": 5048, "/usr/lib/python2.7/curses/textpad.pyc": 6849, "/usr/lib/python2.7/curses/__init__.py": 1817, "/usr/lib/python2.7/curses/textpad.py": 7338, "/usr/lib/python2.7/curses/ascii.py": 2607, "/usr/lib/python2.7/curses/has_key.pyc": 5933, "/usr/lib/python2.7/lib-dynload/_curses.so": 70776, "/usr/lib/python2.7/curses/__init__.pyc": 1547}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@curses@underscore@panel.so_python-curses: _curses_panel.so elf(buildid) (= c847525c06ec65db2276fdd3933e10cea3c430a0)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@curses.so_python-curses: _curses.so elf(buildid) (= ede917c61fc6dfaaeb9afd7647ee3d54d2eeec3c)
+FILERDEPENDSFLIST_python-curses: /usr/lib/python2.7/lib-dynload/@underscore@curses@underscore@panel.so /usr/lib/python2.7/lib-dynload/@underscore@curses.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@curses@underscore@panel.so_python-curses: libc.so.6 libc.so.6(GLIBC_2.4) libpanelw.so.5 libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@curses.so_python-curses: libc.so.6 libc.so.6(GLIBC_2.4) libncursesw.so.5 libpython2.7.so.1.0 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_python-curses: 121574

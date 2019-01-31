@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-parseutils: perl module pod-parseutils
+SUMMARY_perl-module-pod-parseutils: perl module pod-parseutils
+RDEPENDS_perl-module-pod-parseutils: perl-module-strict perl perl-module-carp perl-module-vars
+SECTION: devel
+PKG_perl-module-pod-parseutils: perl-module-pod-parseutils
+FILES_perl-module-pod-parseutils: /usr/lib/perl/5.20.0/Pod/ParseUtils.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/ParseUtils.pm": 21174}
+PKGSIZE_perl-module-pod-parseutils: 21174

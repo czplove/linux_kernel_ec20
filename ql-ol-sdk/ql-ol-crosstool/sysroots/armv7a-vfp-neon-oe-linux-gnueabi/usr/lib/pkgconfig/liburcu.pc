@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: Userspace RCU 
+Description: A userspace RCU (read-copy-update) library, standard version
+Version: 0.8.6
+Requires:
+Libs: -L${libdir} -lurcu
+Cflags: -I${includedir} 

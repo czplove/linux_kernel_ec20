@@ -1,0 +1,14 @@
+PN: shadow-securetty
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION_shadow-securetty-dbg: Provider of the machine specific securetty file.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_shadow-securetty-dbg: Provider of the machine specific securetty file - Debugging files
+SECTION_shadow-securetty-dbg: devel
+PKG_shadow-securetty-dbg: shadow-securetty-dbg
+ALLOW_EMPTY_shadow-securetty-dbg: 1
+FILES_shadow-securetty-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/shadow-securetty/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/shadow-securetty/.debug /usr/lib/matchbox-panel/.debug /usr/lib/shadow-securetty/shadow-securetty/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_shadow-securetty-dbg: 0

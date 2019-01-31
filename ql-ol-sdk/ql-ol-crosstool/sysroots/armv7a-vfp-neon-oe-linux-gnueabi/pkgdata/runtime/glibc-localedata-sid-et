@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sid-et: locale definition for sid-et
+SUMMARY_glibc-localedata-sid-et: locale definition for sid-et
+RDEPENDS_glibc-localedata-sid-et: glibc-localedata-ti-et glibc-localedata-am-et
+SECTION: base
+PKG_glibc-localedata-sid-et: glibc-localedata-sid-et
+FILES_glibc-localedata-sid-et: /usr/share/i18n/locales/sid_ET
+FILES_INFO: {"/usr/share/i18n/locales/sid_ET": 6324}
+PKGSIZE_glibc-localedata-sid-et: 6324

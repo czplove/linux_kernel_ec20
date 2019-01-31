@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sl-si: locale definition for sl-si
+SUMMARY_glibc-localedata-sl-si: locale definition for sl-si
+RDEPENDS_glibc-localedata-sl-si: glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-sl-si: glibc-localedata-sl-si
+FILES_glibc-localedata-sl-si: /usr/share/i18n/locales/sl_SI
+FILES_INFO: {"/usr/share/i18n/locales/sl_SI": 82482}
+PKGSIZE_glibc-localedata-sl-si: 82482

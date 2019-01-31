@@ -1,0 +1,30 @@
+PN: ql-manager
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Manager Modules
+SUMMARY: ql-manager version git-invalidgit-r21
+RDEPENDS_ql-manager: libiw (>= 30.pre9) libstdc++ (>= 4.9.2) glibc (>= 2.21) ql-syslog (>= git-invalidgit) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) libgcc (>= 4.9.2) ql-common-tools (>= git-invalidgit) data (>= git-invalidgit)
+RRECOMMENDS_ql-manager:  update-rc.d
+SECTION: base
+PKG_ql-manager: ql-manager
+FILES_ql-manager: /usr/bin/* /usr/sbin/* /usr/lib/ql-manager/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-manager /usr/lib/ql-manager/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_ql-manager: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_ql_manager_server_le start 99 2 3 4 5 .\nfi\n
+pkg_postrm_ql-manager: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_ql_manager_server_le remove\nfi\n
+pkg_preinst_ql-manager: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_ql_manager_server_le" ]; then\n\t/etc/init.d/start_ql_manager_server_le stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_ql_manager_server_le remove\nfi\n
+pkg_prerm_ql-manager: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_ql_manager_server_le stop\nfi\n
+FILERPROVIDESFLIST_ql-manager: /usr/lib/libql@underscore@mgmt@underscore@client.so.1.0.0 /usr/bin/ql@underscore@manager@underscore@server /usr/bin/ql@underscore@manager@underscore@cli /usr/lib/libql@underscore@ipc.so.1.0.0
+FILES_INFO: {"/usr/bin/ql_manager_server": 210476, "/usr/lib/libql_mgmt_client.so.1": 83300, "/etc/init.d/start_ql_manager_server_le": 914, "/usr/lib/libql_ipc.so.1": 35284, "/usr/bin/ql_manager_cli": 20940}
+FILERPROVIDES_/usr/lib/libql@underscore@mgmt@underscore@client.so.1.0.0_ql-manager: elf(buildid) (= 500239004663d321a36bab0073ee39dd663679b4) libql_mgmt_client.so.1
+FILERPROVIDES_/usr/bin/ql@underscore@manager@underscore@server_ql-manager: elf(buildid) (= d7d0047b770ad6453e099d014f6a770791543f5b)
+FILERPROVIDES_/usr/bin/ql@underscore@manager@underscore@cli_ql-manager: elf(buildid) (= d1de40f27aea2afc70b688546f8a55d4e5835b69)
+FILERPROVIDES_/usr/lib/libql@underscore@ipc.so.1.0.0_ql-manager: elf(buildid) (= dda709f578346c337175024dba13e725bf77b2a4) libql_ipc.so.1
+FILERDEPENDSFLIST_ql-manager: /etc/init.d/start@underscore@ql@underscore@manager@underscore@server@underscore@le /usr/bin/ql@underscore@manager@underscore@server /usr/bin/ql@underscore@manager@underscore@cli /usr/lib/libql@underscore@ipc.so.1.0.0 /usr/lib/libql@underscore@mgmt@underscore@client.so.1.0.0
+FILERDEPENDS_/etc/init.d/start@underscore@ql@underscore@manager@underscore@server@underscore@le_ql-manager: /bin/sh
+FILERDEPENDS_/usr/bin/ql@underscore@manager@underscore@server_ql-manager: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdsi_netctrl.so.0 libeloop.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libiw.so.30 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libql_ipc.so.1 libql_log.so.1 libql_sys_log.so.1 libql_utils.so.1 libqmi_cci.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ql@underscore@manager@underscore@cli_ql-manager: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libql_log.so.1 libql_mgmt_client.so.1 libql_utils.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libql@underscore@ipc.so.1.0.0_ql-manager: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libeloop.so.1 libql_log.so.1 libql_utils.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libql@underscore@mgmt@underscore@client.so.1.0.0_ql-manager: libc.so.6 libc.so.6(GLIBC_2.4) libeloop.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_ipc.so.1 libql_log.so.1 libql_sys_log.so.1 libql_utils.so.1 rtld(GNU_HASH)
+PKGSIZE_ql-manager: 350914

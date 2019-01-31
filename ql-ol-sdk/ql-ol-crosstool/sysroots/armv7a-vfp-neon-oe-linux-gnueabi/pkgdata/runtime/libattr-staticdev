@@ -1,0 +1,13 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION: Utilities for manipulating filesystem extended attributes.
+SUMMARY: Utilities for manipulating filesystem extended attributes
+SECTION: libs
+PKG_libattr-staticdev: libattr-staticdev
+FILES_libattr-staticdev: /usr/lib/*.a /lib/*.a
+FILES_INFO: {"/lib/libattr.a": 20, "/usr/lib/libattr.a": 74414}
+PKGSIZE_libattr-staticdev: 74434

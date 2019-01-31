@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-mac-centraleurope: character map for mac-centraleurope encoding
+SUMMARY_glibc-charmap-mac-centraleurope: character map for mac-centraleurope encoding
+SECTION: base
+PKG_glibc-charmap-mac-centraleurope: glibc-charmap-mac-centraleurope
+FILES_glibc-charmap-mac-centraleurope: /usr/share/i18n/charmaps/MAC-CENTRALEUROPE.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/MAC-CENTRALEUROPE.gz": 2719}
+PKGSIZE_glibc-charmap-mac-centraleurope: 2719

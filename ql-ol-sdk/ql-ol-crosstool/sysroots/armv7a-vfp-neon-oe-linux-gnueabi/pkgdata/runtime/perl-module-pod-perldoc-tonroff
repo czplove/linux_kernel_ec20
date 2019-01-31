@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-perldoc-tonroff: perl module pod-perldoc-tonroff
+SUMMARY_perl-module-pod-perldoc-tonroff: perl module pod-perldoc-tonroff
+RDEPENDS_perl-module-pod-perldoc-tonroff: perl-module-vars perl perl-module-warnings perl-module-strict perl-module-parent perl-module-pod-man
+SECTION: devel
+PKG_perl-module-pod-perldoc-tonroff: perl-module-pod-perldoc-tonroff
+FILES_perl-module-pod-perldoc-tonroff: /usr/lib/perl/5.20.0/Pod/Perldoc/ToNroff.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Perldoc/ToNroff.pm": 2782}
+PKGSIZE_perl-module-pod-perldoc-tonroff: 2782

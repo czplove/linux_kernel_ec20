@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-koi8-t: character map for koi8-t encoding
+SUMMARY_glibc-charmap-koi8-t: character map for koi8-t encoding
+SECTION: base
+PKG_glibc-charmap-koi8-t: glibc-charmap-koi8-t
+FILES_glibc-charmap-koi8-t: /usr/share/i18n/charmaps/KOI8-T.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/KOI8-T.gz": 2571}
+PKGSIZE_glibc-charmap-koi8-t: 2571

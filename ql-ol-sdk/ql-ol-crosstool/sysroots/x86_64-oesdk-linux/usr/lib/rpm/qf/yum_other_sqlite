@@ -1,0 +1,16 @@
+"\
+INSERT into packages values (\
+'%{DBINSTANCE}'\
+, '%|PACKAGEDIGEST?{%{PACKAGEDIGEST}}|'\
+);\
+%|changelogname?{[\
+\nINSERT into changelog values (\
+'XXX'\
+, '%{CHANGELOGNAME:sqlescape}'\
+, '%{CHANGELOGTIME}'\
+, '%{CHANGELOGTEXT:sqlescape}'\
+);\
+]}:{\
+\nINSERT into changelog ('%{DBINSTANCE}', '', '', '');\
+}|\
+\n"

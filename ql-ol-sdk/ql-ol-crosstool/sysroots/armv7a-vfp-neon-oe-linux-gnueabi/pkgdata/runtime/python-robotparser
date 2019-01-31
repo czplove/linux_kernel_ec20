@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-robotparser: Python robots.txt parser
+RDEPENDS_python-robotparser: python-core python-netclient
+SECTION: devel/python
+PKG_python-robotparser: python-robotparser
+FILES_python-robotparser: /usr/lib/python2.7/robotparser.* 
+FILES_INFO: {"/usr/lib/python2.7/robotparser.pyc": 7912, "/usr/lib/python2.7/robotparser.py": 7588}
+PKGSIZE_python-robotparser: 15500

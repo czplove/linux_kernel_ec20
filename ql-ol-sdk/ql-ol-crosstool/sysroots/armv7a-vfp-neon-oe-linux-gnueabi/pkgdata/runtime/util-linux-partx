@@ -1,0 +1,18 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-partx: util-linux-libblkid (>= 2.25.2) glibc (>= 2.21) util-linux (>= 2.25.2)
+SECTION: base
+PKG_util-linux-partx: util-linux-partx
+FILES_util-linux-partx: /usr/sbin/partx
+FILERPROVIDESFLIST_util-linux-partx: /usr/sbin/partx
+FILES_INFO: {"/usr/sbin/partx": 52336}
+FILERPROVIDES_/usr/sbin/partx_util-linux-partx: elf(buildid) (= 47b83070b8e5cd13ef3f75388eb1cd73445b1b2e)
+FILERDEPENDSFLIST_util-linux-partx: /usr/sbin/partx
+FILERDEPENDS_/usr/sbin/partx_util-linux-partx: libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.15) libblkid.so.1(BLKID_2.17) libblkid.so.1(BLKID_2.18) libblkid.so.1(BLKID_2.25) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libsmartcols.so.1 libsmartcols.so.1(SMARTCOLS_2.25) rtld(GNU_HASH)
+PKGSIZE_util-linux-partx: 52336

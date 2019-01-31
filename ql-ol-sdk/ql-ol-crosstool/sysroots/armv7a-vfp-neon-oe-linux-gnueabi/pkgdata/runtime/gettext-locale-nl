@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-nl: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the nl locale.
+SUMMARY_gettext-locale-nl: Utilities and libraries for producing multi-lingual messages - nl translations
+RPROVIDES_gettext-locale-nl: gettext-locale nl-translation
+RRECOMMENDS_gettext-locale-nl: virtual-locale-nl
+SECTION: libs
+PKG_gettext-locale-nl: gettext-locale-nl
+FILES_gettext-locale-nl: /usr/share/locale/nl
+FILES_INFO: {"/usr/share/locale/nl/LC_MESSAGES/gettext-tools.mo": 47589, "/usr/share/locale/nl/LC_MESSAGES/gettext-runtime.mo": 9376}
+PKGSIZE_gettext-locale-nl: 56965

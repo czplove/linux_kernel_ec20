@@ -1,0 +1,16 @@
+PN: sfe
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_kernel-module-shortcut-fe-cm: shortcut-fe-cm kernel module; Shortcut Forwarding Engine - Connection Manager
+SUMMARY_kernel-module-shortcut-fe-cm: shortcut-fe-cm kernel module
+RDEPENDS_kernel-module-shortcut-fe-cm: kernel-3.18.20 kernel-module-shortcut-fe-ipv6 kernel-module-shortcut-fe
+SECTION: base
+PKG_kernel-module-shortcut-fe-cm: kernel-module-shortcut-fe-cm
+FILES_kernel-module-shortcut-fe-cm: /lib/modules/3.18.20/extra/shortcut-fe-cm.ko /etc/modules-load.d/shortcut-fe-cm.conf /etc/modprobe.d/shortcut-fe-cm.conf
+pkg_postinst_kernel-module-shortcut-fe-cm: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-shortcut-fe-cm: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/extra/shortcut-fe-cm.ko": 12840}
+PKGSIZE_kernel-module-shortcut-fe-cm: 12840

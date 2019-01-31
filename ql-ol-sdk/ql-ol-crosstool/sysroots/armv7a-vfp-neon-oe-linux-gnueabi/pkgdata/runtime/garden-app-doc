@@ -1,0 +1,13 @@
+PN: garden-app
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-app-doc: GPS Garden test shippable app for LOC API HAL  This package contains documentation.
+SUMMARY_garden-app-doc: garden-app version git-invalidgit-r4 - Documentation files
+SECTION_garden-app-doc: doc
+PKG_garden-app-doc: garden-app-doc
+FILES_garden-app-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_garden-app-doc: 0

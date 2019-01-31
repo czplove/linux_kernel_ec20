@@ -1,0 +1,14 @@
+PN: start-scripts-mssboot
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-mssboot-staticdev: Start up script for mssboot  This package contains static libraries for software development.
+SUMMARY_start-scripts-mssboot-staticdev: start-scripts-mssboot version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_start-scripts-mssboot-staticdev: start-scripts-mssboot-dev (= git-invalidgit-r2)
+SECTION_start-scripts-mssboot-staticdev: devel
+PKG_start-scripts-mssboot-staticdev: start-scripts-mssboot-staticdev
+FILES_start-scripts-mssboot-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/start-scripts-mssboot/*.a
+FILES_INFO: {}
+PKGSIZE_start-scripts-mssboot-staticdev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-vi-vn: locale definition for vi-vn
+SUMMARY_glibc-localedata-vi-vn: locale definition for vi-vn
+RDEPENDS_glibc-localedata-vi-vn: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-vi-vn: glibc-localedata-vi-vn
+FILES_glibc-localedata-vi-vn: /usr/share/i18n/locales/vi_VN
+FILES_INFO: {"/usr/share/i18n/locales/vi_VN": 10497}
+PKGSIZE_glibc-localedata-vi-vn: 10497

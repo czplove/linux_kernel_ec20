@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-argparse: Python command line argument parser
+RDEPENDS_python-argparse: python-core python-codecs python-textutils
+SECTION: devel/python
+PKG_python-argparse: python-argparse
+FILES_python-argparse: /usr/lib/python2.7/argparse.* 
+FILES_INFO: {"/usr/lib/python2.7/argparse.pyc": 64041, "/usr/lib/python2.7/argparse.py": 89124}
+PKGSIZE_python-argparse: 153165

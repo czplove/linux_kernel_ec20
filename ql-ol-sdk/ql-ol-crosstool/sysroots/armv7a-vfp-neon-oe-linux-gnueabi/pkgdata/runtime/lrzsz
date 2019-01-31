@@ -1,0 +1,22 @@
+PN: lrzsz
+PV: 0.12.20
+PR: r6
+PKGV: 0.12.20
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION: Lrzsz is a cosmetically modified zmodem/ymodem/xmodem package built from the public-domain version of Chuck Forsberg\'s rzsz package. These programs use error correcting protocols ({z,x,y}modem) to send (sz, sx, sb) and receive (rz, rx, rb) files over a dial-in serial port from a variety of programs running under various operating systems. 
+SUMMARY: Tools for zmodem/xmodem/ymodem file transfer
+RDEPENDS_lrzsz: update-alternatives-opkg glibc (>= 2.21)
+SECTION: console/network
+PKG_lrzsz: lrzsz
+FILES_lrzsz: /usr/bin/* /usr/sbin/* /usr/lib/lrzsz/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lrzsz /usr/lib/lrzsz/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_lrzsz: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/rz rz /usr/bin/lrz 100\n\tupdate-alternatives --install /usr/bin/rx rx /usr/bin/lrz 100\n\tupdate-alternatives --install /usr/bin/rb rb /usr/bin/lrz 100\n\tupdate-alternatives --install /usr/bin/sz sz /usr/bin/lsz 100\n\tupdate-alternatives --install /usr/bin/sx sx /usr/bin/lsz 100\n\tupdate-alternatives --install /usr/bin/sb sb /usr/bin/lsz 100\n
+pkg_postrm_lrzsz: #!/bin/sh\n\tupdate-alternatives --remove  rz /usr/bin/lrz\n\tupdate-alternatives --remove  rx /usr/bin/lrz\n\tupdate-alternatives --remove  rb /usr/bin/lrz\n\tupdate-alternatives --remove  sz /usr/bin/lsz\n\tupdate-alternatives --remove  sx /usr/bin/lsz\n\tupdate-alternatives --remove  sb /usr/bin/lsz\n
+FILERPROVIDESFLIST_lrzsz: /usr/bin/lsz /usr/bin/lrz
+FILES_INFO: {"/usr/bin/lsz": 65396, "/usr/bin/lrz": 61284}
+FILERPROVIDES_/usr/bin/lsz_lrzsz: elf(buildid) (= f7c63b44cae7dde736222aadd5ad322fd3e20c22) /usr/bin/sz /usr/bin/sx /usr/bin/sb
+FILERPROVIDES_/usr/bin/lrz_lrzsz: elf(buildid) (= db88af9000f371cb0f2dec040606e3b7d2cca14e) /usr/bin/rz /usr/bin/rx /usr/bin/rb
+FILERDEPENDSFLIST_lrzsz: /usr/bin/lsz /usr/bin/lrz
+FILERDEPENDS_/usr/bin/lsz_lrzsz: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/lrz_lrzsz: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lrzsz: 126680

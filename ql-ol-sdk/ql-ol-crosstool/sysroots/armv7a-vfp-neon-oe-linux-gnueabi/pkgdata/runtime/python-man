@@ -1,0 +1,13 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY: The Python Programming Language
+SECTION: devel/python
+PKG_python-man: python-man
+FILES_python-man: /usr/share/man
+FILES_INFO: {"/usr/share/man/man1/python.1": 9, "/usr/share/man/man1/python2.1": 11, "/usr/share/man/man1/python2.7.1": 14582}
+PKGSIZE_python-man: 14602

@@ -1,0 +1,18 @@
+PN: libpcap
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libpcap-dev: Libpcap provides a portable framework for low-level network monitoring.  Libpcap can provide network statistics collection, security monitoring and network debugging.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libpcap-dev: Interface for user-level network packet capture - Development files
+RDEPENDS_libpcap-dev: libpcap (= 1.6.2-r0)
+RRECOMMENDS_libpcap-dev: glibc-dev
+SECTION_libpcap-dev: devel
+PKG_libpcap-dev: libpcap-dev
+ALLOW_EMPTY_libpcap-dev: 1
+FILES_libpcap-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libpcap/*.la /lib/*.la /usr/bin/*-config
+FILES_INFO: {"/usr/include/pcap-namedb.h": 2024, "/usr/include/pcap-bpf.h": 2295, "/usr/include/pcap/nflog.h": 4001, "/usr/include/pcap/sll.h": 5466, "/usr/bin/pcap-config": 68, "/usr/include/pcap/vlan.h": 2059, "/usr/lib/pkgconfig/libpcap.pc": 221, "/usr/include/pcap/usb.h": 4568, "/usr/include/pcap.h": 2226, "/usr/include/pcap/bluetooth.h": 2164, "/usr/lib/libpcap.so": 12, "/usr/include/pcap/ipnet.h": 2272, "/usr/include/pcap/bpf.h": 46890, "/usr/include/pcap/pcap.h": 18158, "/usr/include/pcap/namedb.h": 3321}
+FILERDEPENDSFLIST_libpcap-dev: /usr/bin/pcap-config
+FILERDEPENDS_/usr/bin/pcap-config_libpcap-dev: /bin/sh
+PKGSIZE_libpcap-dev: 95745

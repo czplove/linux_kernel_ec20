@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-formatter-base: perl module tap-formatter-base
+SUMMARY_perl-module-tap-formatter-base: perl module tap-formatter-base
+RDEPENDS_perl-module-tap-formatter-base: perl-module-tap-formatter-color perl perl-module-warnings perl-module-posix perl-module-strict perl-module-base
+SECTION: devel
+PKG_perl-module-tap-formatter-base: perl-module-tap-formatter-base
+FILES_perl-module-tap-formatter-base: /usr/lib/perl/5.20.0/TAP/Formatter/Base.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Formatter/Base.pm": 11870}
+PKGSIZE_perl-module-tap-formatter-base: 11870

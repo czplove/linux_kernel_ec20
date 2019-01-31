@@ -1,0 +1,15 @@
+PN: packagegroup-core-standalone-sdk-target
+PV: 1.0
+PR: r8
+PKGV: 1.0
+PKGR: r8
+LICENSE: MIT
+DESCRIPTION_packagegroup-core-standalone-sdk-target-dbg: Target packages for the standalone SDK.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_packagegroup-core-standalone-sdk-target-dbg: Target packages for the standalone SDK - Debugging files
+RRECOMMENDS_packagegroup-core-standalone-sdk-target-dbg: libsegfault-dbg glibc-utils-dbg glibc-gconv-ibm850-dbg glibc-dbg qemuwrapper-cross-dbg glibc-localedata-i18n-dbg libstdc++-dbg glibc-gconv-cp1252-dbg glibc-gconv-iso8859-15-dbg libgcov-dbg glibc-thread-db-dbg glibc-gconv-iso8859-1-dbg libgcc-dbg
+SECTION_packagegroup-core-standalone-sdk-target-dbg: devel
+PKG_packagegroup-core-standalone-sdk-target-dbg: packagegroup-core-standalone-sdk-target-dbg
+ALLOW_EMPTY_packagegroup-core-standalone-sdk-target-dbg: 1
+FILES_packagegroup-core-standalone-sdk-target-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/packagegroup-core-standalone-sdk-target/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/packagegroup-core-standalone-sdk-target/.debug /usr/lib/matchbox-panel/.debug /usr/lib/packagegroup-core-standalone-sdk-target/packagegroup-core-standalone-sdk-target/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-standalone-sdk-target-dbg: 0

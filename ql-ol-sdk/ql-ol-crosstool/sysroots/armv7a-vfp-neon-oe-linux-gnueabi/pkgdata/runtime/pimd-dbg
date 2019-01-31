@@ -1,0 +1,15 @@
+PN: pimd
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_pimd-dbg: PIMD - Multicast Routing Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_pimd-dbg: pimd version git-r5 - Debugging files
+RRECOMMENDS_pimd-dbg: glibc-dbg
+SECTION_pimd-dbg: devel
+PKG_pimd-dbg: pimd-dbg
+ALLOW_EMPTY_pimd-dbg: 1
+FILES_pimd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pimd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pimd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pimd/pimd/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/pimd": 19575}
+PKGSIZE_pimd-dbg: 19575

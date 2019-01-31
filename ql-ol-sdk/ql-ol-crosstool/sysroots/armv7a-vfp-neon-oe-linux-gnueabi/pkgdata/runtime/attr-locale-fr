@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-fr: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the fr locale.
+SUMMARY_attr-locale-fr: Utilities for manipulating filesystem extended attributes - fr translations
+RPROVIDES_attr-locale-fr: attr-locale fr-translation
+RRECOMMENDS_attr-locale-fr: virtual-locale-fr
+SECTION: libs
+PKG_attr-locale-fr: attr-locale-fr
+FILES_attr-locale-fr: /usr/share/locale/fr
+FILES_INFO: {"/usr/share/locale/fr/LC_MESSAGES/attr.mo": 5804}
+PKGSIZE_attr-locale-fr: 5804

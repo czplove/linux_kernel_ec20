@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-din-66003: character map for din-66003 encoding
+SUMMARY_glibc-charmap-din-66003: character map for din-66003 encoding
+SECTION: base
+PKG_glibc-charmap-din-66003: glibc-charmap-din-66003
+FILES_glibc-charmap-din-66003: /usr/share/i18n/charmaps/DIN_66003.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/DIN_66003.gz": 1560}
+PKGSIZE_glibc-charmap-din-66003: 1560

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-jis-c6220-1969-ro: character map for jis-c6220-1969-ro encoding
+SUMMARY_glibc-charmap-jis-c6220-1969-ro: character map for jis-c6220-1969-ro encoding
+SECTION: base
+PKG_glibc-charmap-jis-c6220-1969-ro: glibc-charmap-jis-c6220-1969-ro
+FILES_glibc-charmap-jis-c6220-1969-ro: /usr/share/i18n/charmaps/JIS_C6220-1969-RO.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/JIS_C6220-1969-RO.gz": 1569}
+PKGSIZE_glibc-charmap-jis-c6220-1969-ro: 1569

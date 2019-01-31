@@ -1,0 +1,14 @@
+PN: loc-xtra
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location Xtra library
+SUMMARY: loc-xtra version git-invalidgit-r3
+RPROVIDES_loc-xtra-locale:  loc-xtra-locale
+SECTION: base
+PKG_loc-xtra-locale: libloc-xtra-locale
+FILES_loc-xtra-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-xtra-locale: 0

@@ -1,0 +1,14 @@
+PN: lbs-core-hdr
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-hdr-dbg: LBS Core hdr  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lbs-core-hdr-dbg: lbs-core-hdr version git-invalidgit-r1 - Debugging files
+SECTION_lbs-core-hdr-dbg: devel
+PKG_lbs-core-hdr-dbg: lbs-core-hdr-dbg
+ALLOW_EMPTY_lbs-core-hdr-dbg: 1
+FILES_lbs-core-hdr-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lbs-core-hdr/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lbs-core-hdr/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lbs-core-hdr/lbs-core-hdr/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_lbs-core-hdr-dbg: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ig-ng: locale definition for ig-ng
+SUMMARY_glibc-localedata-ig-ng: locale definition for ig-ng
+RDEPENDS_glibc-localedata-ig-ng: glibc-localedata-en-ng glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ig-ng: glibc-localedata-ig-ng
+FILES_glibc-localedata-ig-ng: /usr/share/i18n/locales/ig_NG
+FILES_INFO: {"/usr/share/i18n/locales/ig_NG": 16249}
+PKGSIZE_glibc-localedata-ig-ng: 16249

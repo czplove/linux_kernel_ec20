@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ansi-x3.4-1968: character map for ansi-x3.4-1968 encoding
+SUMMARY_glibc-charmap-ansi-x3.4-1968: character map for ansi-x3.4-1968 encoding
+SECTION: base
+PKG_glibc-charmap-ansi-x3.4-1968: glibc-charmap-ansi-x3.4-1968
+FILES_glibc-charmap-ansi-x3.4-1968: /usr/share/i18n/charmaps/ANSI_X3.4-1968.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ANSI_X3.4-1968.gz": 1626}
+PKGSIZE_glibc-charmap-ansi-x3.4-1968: 1626

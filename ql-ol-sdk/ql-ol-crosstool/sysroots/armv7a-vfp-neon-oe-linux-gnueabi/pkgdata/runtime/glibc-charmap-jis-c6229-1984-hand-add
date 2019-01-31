@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-jis-c6229-1984-hand-add: character map for jis-c6229-1984-hand-add encoding
+SUMMARY_glibc-charmap-jis-c6229-1984-hand-add: character map for jis-c6229-1984-hand-add encoding
+SECTION: base
+PKG_glibc-charmap-jis-c6229-1984-hand-add: glibc-charmap-jis-c6229-1984-hand-add
+FILES_glibc-charmap-jis-c6229-1984-hand-add: /usr/share/i18n/charmaps/JIS_C6229-1984-HAND-ADD.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/JIS_C6229-1984-HAND-ADD.gz": 1810}
+PKGSIZE_glibc-charmap-jis-c6229-1984-hand-add: 1810

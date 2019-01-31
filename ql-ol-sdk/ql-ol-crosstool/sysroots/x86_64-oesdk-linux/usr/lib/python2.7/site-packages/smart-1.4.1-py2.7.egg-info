@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: smart
+Version: 1.4.1
+Summary: Smart Package Manager is a next generation package handling tool
+Home-page: http://smartpm.org
+Author: Gustavo Niemeyer
+Author-email: gustavo@niemeyer.net
+License: GPL
+Description: Smart Package Manager is a next generation package handling tool.
+        
+Platform: UNKNOWN

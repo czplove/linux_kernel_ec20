@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-mac-centraleurope: gconv module for character set mac-centraleurope
+SUMMARY_glibc-gconv-mac-centraleurope: gconv module for character set mac-centraleurope
+RDEPENDS_glibc-gconv-mac-centraleurope: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-mac-centraleurope: glibc-gconv-mac-centraleurope
+FILES_glibc-gconv-mac-centraleurope: /usr/lib/gconv/MAC-CENTRALEUROPE.so
+FILES_INFO: {"/usr/lib/gconv/MAC-CENTRALEUROPE.so": 9596}
+PKGSIZE_glibc-gconv-mac-centraleurope: 9596

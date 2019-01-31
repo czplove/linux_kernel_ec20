@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-dv-mv: locale definition for dv-mv
+SUMMARY_glibc-localedata-dv-mv: locale definition for dv-mv
+RDEPENDS_glibc-localedata-dv-mv: glibc-localedata-translit-combining glibc-localedata-en-dk glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-dv-mv: glibc-localedata-dv-mv
+FILES_glibc-localedata-dv-mv: /usr/share/i18n/locales/dv_MV
+FILES_INFO: {"/usr/share/i18n/locales/dv_MV": 6016}
+PKGSIZE_glibc-localedata-dv-mv: 6016

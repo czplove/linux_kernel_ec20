@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-hr-hr: locale definition for hr-hr
+SUMMARY_glibc-localedata-hr-hr: locale definition for hr-hr
+RDEPENDS_glibc-localedata-hr-hr: glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-hr-hr: glibc-localedata-hr-hr
+FILES_glibc-localedata-hr-hr: /usr/share/i18n/locales/hr_HR
+FILES_INFO: {"/usr/share/i18n/locales/hr_HR": 83502}
+PKGSIZE_glibc-localedata-hr-hr: 83502

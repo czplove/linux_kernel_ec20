@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-nan-tw: locale definition for nan-tw
+SUMMARY_glibc-localedata-nan-tw: locale definition for nan-tw
+RDEPENDS_glibc-localedata-nan-tw: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-nan-tw: glibc-localedata-nan-tw
+FILES_glibc-localedata-nan-tw: /usr/share/i18n/locales/nan_TW
+FILES_INFO: {"/usr/share/i18n/locales/nan_TW": 6172}
+PKGSIZE_glibc-localedata-nan-tw: 6172

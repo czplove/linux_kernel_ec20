@@ -1,0 +1,16 @@
+PN: loc-pla
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-pla-dbg: GPS Loc Platform Library Abstraction  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-pla-dbg: loc-pla version git-r1 - Debugging files
+RPROVIDES_loc-pla-dbg:  loc-pla-dbg
+RRECOMMENDS_loc-pla-dbg: system-core-liblog-dbg glibc-dbg libstdc++-dbg glib-2.0-dbg libgcc-dbg loc-stub-dbg
+SECTION_loc-pla-dbg: devel
+PKG_loc-pla-dbg: libloc-pla-dbg
+ALLOW_EMPTY_loc-pla-dbg: 1
+FILES_loc-pla-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-pla/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-pla/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-pla/loc-pla/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_pla.so.1.0.0": 4963}
+PKGSIZE_loc-pla-dbg: 4963

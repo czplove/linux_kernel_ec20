@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-ph: locale definition for en-ph
+SUMMARY_glibc-localedata-en-ph: locale definition for en-ph
+RDEPENDS_glibc-localedata-en-ph: glibc-localedata-iso14651-t1 glibc-localedata-en-gb glibc-localedata-tl-ph
+SECTION: base
+PKG_glibc-localedata-en-ph: glibc-localedata-en-ph
+FILES_glibc-localedata-en-ph: /usr/share/i18n/locales/en_PH
+FILES_INFO: {"/usr/share/i18n/locales/en_PH": 6994}
+PKGSIZE_glibc-localedata-en-ph: 6994

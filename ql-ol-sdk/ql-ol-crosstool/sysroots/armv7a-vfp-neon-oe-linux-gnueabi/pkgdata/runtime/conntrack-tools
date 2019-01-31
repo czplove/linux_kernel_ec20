@@ -1,0 +1,20 @@
+PN: conntrack-tools
+PV: 1.0.1
+PR: r1
+PKGV: 1.0.1
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION: The conntrack-tools are a set of free software tools for GNU/Linux that allow system administrators interact, from user-space, with the in-kernel Connection Tracking System.
+SUMMARY: Tools for managing kernel packet filtering capabilities
+RDEPENDS_conntrack-tools: libnetfilter-conntrack (>= 0.9.1) libnfnetlink (>= 1.0.0) glibc (>= 2.21)
+SECTION: base
+PKG_conntrack-tools: conntrack-tools
+FILES_conntrack-tools: /usr/bin/* /usr/sbin/* /usr/lib/conntrack-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/conntrack-tools /usr/lib/conntrack-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_conntrack-tools: /usr/sbin/conntrack /usr/sbin/conntrackd
+FILES_INFO: {"/usr/sbin/conntrack": 45012, "/usr/sbin/conntrackd": 167028}
+FILERPROVIDES_/usr/sbin/conntrack_conntrack-tools: elf(buildid) (= 5c3e680d0b8d82a29f39e8fe5d81a3724465e07d)
+FILERPROVIDES_/usr/sbin/conntrackd_conntrack-tools: elf(buildid) (= 7ad48941fa5a8c54fc8f5bf5521654d34e85e9dc)
+FILERDEPENDSFLIST_conntrack-tools: /usr/sbin/conntrack /usr/sbin/conntrackd
+FILERDEPENDS_/usr/sbin/conntrack_conntrack-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnetfilter_conntrack.so.3 libnfnetlink.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/conntrackd_conntrack-tools: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnetfilter_conntrack.so.3 libnfnetlink.so.0 rtld(GNU_HASH)
+PKGSIZE_conntrack-tools: 212040

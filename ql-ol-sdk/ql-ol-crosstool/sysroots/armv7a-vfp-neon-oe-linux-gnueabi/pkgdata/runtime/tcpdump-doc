@@ -1,0 +1,13 @@
+PN: tcpdump
+PV: 4.1.1
+PR: r2
+PKGV: 4.1.1
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_tcpdump-doc: A sophisticated network protocol analyzer  This package contains documentation.
+SUMMARY_tcpdump-doc: tcpdump version 4.1.1-r2 - Documentation files
+SECTION_tcpdump-doc: doc
+PKG_tcpdump-doc: tcpdump-doc
+FILES_tcpdump-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/tcpdump.1": 54270}
+PKGSIZE_tcpdump-doc: 54270

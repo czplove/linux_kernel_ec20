@@ -1,0 +1,13 @@
+PN: wlan-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wlan-services-doc: WLAN Services required for QCACLD  This package contains documentation.
+SUMMARY_wlan-services-doc: wlan-services version git-invalidgit-r1 - Documentation files
+SECTION_wlan-services-doc: doc
+PKG_wlan-services-doc: wlan-services-doc
+FILES_wlan-services-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_wlan-services-doc: 0

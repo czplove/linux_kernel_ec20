@@ -1,0 +1,2 @@
+/bin/setuidgid
+/bin/busybox 50

@@ -1,0 +1,14 @@
+PN: keymaps
+PV: 1.0
+PR: r31
+PKGV: 1.0
+PKGR: r31
+LICENSE: GPLv2
+DESCRIPTION_keymaps-staticdev: Keymaps and initscript to set the keymap on bootup.  This package contains static libraries for software development.
+SUMMARY_keymaps-staticdev: Keyboard maps - Development files (Static Libraries)
+RDEPENDS_keymaps-staticdev: keymaps-dev (= 1.0-r31)
+SECTION_keymaps-staticdev: devel
+PKG_keymaps-staticdev: keymaps-staticdev
+FILES_keymaps-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/keymaps/*.a
+FILES_INFO: {}
+PKGSIZE_keymaps-staticdev: 0

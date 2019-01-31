@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cp1257: gconv module for character set cp1257
+SUMMARY_glibc-gconv-cp1257: gconv module for character set cp1257
+RDEPENDS_glibc-gconv-cp1257: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cp1257: glibc-gconv-cp1257
+FILES_glibc-gconv-cp1257: /usr/lib/gconv/CP1257.so
+FILES_INFO: {"/usr/lib/gconv/CP1257.so": 9584}
+PKGSIZE_glibc-gconv-cp1257: 9584

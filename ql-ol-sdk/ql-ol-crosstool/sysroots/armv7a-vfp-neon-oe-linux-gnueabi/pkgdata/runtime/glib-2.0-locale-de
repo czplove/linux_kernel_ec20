@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-de: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the de locale.
+SUMMARY_glib-2.0-locale-de: A general-purpose utility library - de translations
+RPROVIDES_glib-2.0-locale-de: glib-2.0-locale de-translation glib-2.0-locale-de
+RRECOMMENDS_glib-2.0-locale-de: virtual-locale-de
+SECTION: libs
+PKG_glib-2.0-locale-de: libglib-2.0-locale-de
+FILES_glib-2.0-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/glib20.mo": 103394}
+PKGSIZE_glib-2.0-locale-de: 103394

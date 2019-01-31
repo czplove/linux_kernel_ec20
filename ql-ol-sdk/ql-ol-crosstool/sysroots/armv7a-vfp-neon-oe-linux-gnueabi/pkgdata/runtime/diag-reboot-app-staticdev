@@ -1,0 +1,14 @@
+PN: diag-reboot-app
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-reboot-app-staticdev: Reboot Diag  This package contains static libraries for software development.
+SUMMARY_diag-reboot-app-staticdev: diag-reboot-app version git-invalidgit-r5 - Development files (Static Libraries)
+RDEPENDS_diag-reboot-app-staticdev: diag-reboot-app-dev (= git-invalidgit-r5)
+SECTION_diag-reboot-app-staticdev: devel
+PKG_diag-reboot-app-staticdev: diag-reboot-app-staticdev
+FILES_diag-reboot-app-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/diag-reboot-app/*.a
+FILES_INFO: {}
+PKGSIZE_diag-reboot-app-staticdev: 0

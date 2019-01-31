@@ -1,0 +1,15 @@
+PN: diag-reboot-app
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-reboot-app-dbg: Reboot Diag  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_diag-reboot-app-dbg: diag-reboot-app version git-invalidgit-r5 - Debugging files
+RRECOMMENDS_diag-reboot-app-dbg: ql-syslog-dbg glib-2.0-dbg diag-dbg glibc-dbg
+SECTION_diag-reboot-app-dbg: devel
+PKG_diag-reboot-app-dbg: diag-reboot-app-dbg
+ALLOW_EMPTY_diag-reboot-app-dbg: 1
+FILES_diag-reboot-app-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/diag-reboot-app/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/diag-reboot-app/.debug /usr/lib/matchbox-panel/.debug /usr/lib/diag-reboot-app/diag-reboot-app/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/diagrebootapp": 6614}
+PKGSIZE_diag-reboot-app-dbg: 6614

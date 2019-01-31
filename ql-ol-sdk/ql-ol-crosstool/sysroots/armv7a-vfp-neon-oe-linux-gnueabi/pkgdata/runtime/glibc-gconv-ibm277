@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm277: gconv module for character set ibm277
+SUMMARY_glibc-gconv-ibm277: gconv module for character set ibm277
+RDEPENDS_glibc-gconv-ibm277: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm277: glibc-gconv-ibm277
+FILES_glibc-gconv-ibm277: /usr/lib/gconv/IBM277.so
+FILES_INFO: {"/usr/lib/gconv/IBM277.so": 9584}
+PKGSIZE_glibc-gconv-ibm277: 9584

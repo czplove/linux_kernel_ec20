@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-pe: locale definition for es-pe
+SUMMARY_glibc-localedata-es-pe: locale definition for es-pe
+RDEPENDS_glibc-localedata-es-pe: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-pe: glibc-localedata-es-pe
+FILES_glibc-localedata-es-pe: /usr/share/i18n/locales/es_PE
+FILES_INFO: {"/usr/share/i18n/locales/es_PE": 4915}
+PKGSIZE_glibc-localedata-es-pe: 4915

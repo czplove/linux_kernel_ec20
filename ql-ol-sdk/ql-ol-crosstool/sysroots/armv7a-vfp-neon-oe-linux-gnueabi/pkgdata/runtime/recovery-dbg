@@ -1,0 +1,15 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION_recovery-dbg: Recovery bootloader  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_recovery-dbg: recovery version git-r7 - Debugging files
+RRECOMMENDS_recovery-dbg: libbz2-dbg glibc-dbg zlib-dbg system-core-libcutils-dbg
+SECTION_recovery-dbg: devel
+PKG_recovery-dbg: recovery-dbg
+ALLOW_EMPTY_recovery-dbg: 1
+FILES_recovery-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/recovery/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/recovery/.debug /usr/lib/matchbox-panel/.debug /usr/lib/recovery/recovery/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/updater": 270110, "/usr/bin/.debug/recovery": 188055, "/usr/bin/.debug/applypatch": 248493, "/usr/bin/.debug/verifier_test": 25739}
+PKGSIZE_recovery-dbg: 732397

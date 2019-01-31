@@ -1,0 +1,15 @@
+PN: libhardware
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Apache-2.0
+DESCRIPTION_libhardware-dbg: hardware libhardware headers  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libhardware-dbg: libhardware version git-r5 - Debugging files
+RRECOMMENDS_libhardware-dbg: system-core-liblog-dbg glibc-dbg system-core-libcutils-dbg
+SECTION_libhardware-dbg: devel
+PKG_libhardware-dbg: libhardware-dbg
+ALLOW_EMPTY_libhardware-dbg: 1
+FILES_libhardware-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libhardware/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libhardware/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libhardware/libhardware/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libhardware.so.0.0.0": 4365}
+PKGSIZE_libhardware-dbg: 4365

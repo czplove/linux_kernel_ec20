@@ -1,0 +1,52 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION: Perl scripting language.
+SUMMARY: Perl scripting language
+RDEPENDS_perl-misc: glibc (>= 2.21) perl
+SECTION: devel
+PKG_perl-misc: perl-misc
+FILES_perl-misc: /usr/bin/*
+FILERPROVIDESFLIST_perl-misc: /usr/bin/a2p
+FILES_INFO: {"/usr/bin/podchecker": 3784, "/usr/bin/libnetcfg": 15719, "/usr/bin/prove": 13506, "/usr/bin/h2ph": 28310, "/usr/bin/xsubpp": 5126, "/usr/bin/pstruct": 36607, "/usr/bin/json_pp": 3918, "/usr/bin/s2p": 53329, "/usr/bin/instmodsh": 4332, "/usr/bin/ptargrep": 4239, "/usr/bin/pl2pm": 4531, "/usr/bin/c2ph": 36607, "/usr/bin/perlthanks": 45355, "/usr/bin/perlivp": 10823, "/usr/bin/h2xs": 60775, "/usr/bin/zipdetails": 48459, "/usr/bin/a2p": 98832, "/usr/bin/pod2text": 11088, "/usr/bin/enc2xs": 39477, "/usr/bin/piconv": 8265, "/usr/bin/cpan": 5861, "/usr/bin/perlbug": 45355, "/usr/bin/pod2man": 13665, "/usr/bin/podselect": 2612, "/usr/bin/shasum": 9027, "/usr/bin/splain": 18768, "/usr/bin/find2perl": 23614, "/usr/bin/corelist": 12792, "/usr/bin/pod2html": 4096, "/usr/bin/pod2usage": 3755, "/usr/bin/psed": 53329, "/usr/bin/ptardiff": 2472, "/usr/bin/perldoc": 224, "/usr/bin/ptar": 3524, "/usr/bin/config_data": 7230}
+FILERPROVIDES_/usr/bin/a2p_perl-misc: elf(buildid) (= ff45146d98adb03f23913ba4e6642e19a0d7382a)
+FILERDEPENDSFLIST_perl-misc: /usr/bin/podchecker /usr/bin/libnetcfg /usr/bin/prove /usr/bin/h2ph /usr/bin/xsubpp /usr/bin/pod2html /usr/bin/s2p /usr/bin/instmodsh /usr/bin/ptargrep /usr/bin/pl2pm /usr/bin/c2ph /usr/bin/perlthanks /usr/bin/config@underscore@data /usr/bin/perlivp /usr/bin/h2xs /usr/bin/zipdetails /usr/bin/a2p /usr/bin/pod2text /usr/bin/enc2xs /usr/bin/piconv /usr/bin/cpan /usr/bin/perlbug /usr/bin/pod2man /usr/bin/podselect /usr/bin/shasum /usr/bin/splain /usr/bin/find2perl /usr/bin/pstruct /usr/bin/corelist /usr/bin/pod2usage /usr/bin/psed /usr/bin/ptardiff /usr/bin/perldoc /usr/bin/json@underscore@pp /usr/bin/ptar
+FILERDEPENDS_/usr/bin/podchecker_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/libnetcfg_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/prove_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/h2ph_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/xsubpp_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/pod2html_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/s2p_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/instmodsh_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/ptargrep_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/pl2pm_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/c2ph_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/perlthanks_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/config@underscore@data_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/perlivp_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/h2xs_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/zipdetails_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/a2p_perl-misc: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/pod2text_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/enc2xs_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/piconv_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/cpan_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/perlbug_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/pod2man_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/podselect_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/shasum_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/splain_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/find2perl_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/pstruct_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/corelist_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/pod2usage_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/psed_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/ptardiff_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/perldoc_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/json@underscore@pp_perl-misc: /usr/bin/perl
+FILERDEPENDS_/usr/bin/ptar_perl-misc: /usr/bin/perl
+PKGSIZE_perl-misc: 739406

@@ -1,0 +1,15 @@
+PN: base-files
+PV: 3.0.14
+PR: r89
+PKGV: 3.0.14
+PKGR: r89
+LICENSE: GPLv2
+DESCRIPTION_base-files-dev: The base-files package creates the basic system directory structure and provides a small set of key configuration files for the system.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_base-files-dev: Miscellaneous files for the base system - Development files
+RDEPENDS_base-files-dev: base-files (= 3.0.14-r89)
+SECTION_base-files-dev: devel
+PKG_base-files-dev: base-files-dev
+ALLOW_EMPTY_base-files-dev: 1
+FILES_base-files-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/base-files/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_base-files-dev: 0

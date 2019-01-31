@@ -1,0 +1,36 @@
+#!/bin/sh
+
+check_enable=0
+
+if [ x$check_enable = x0 ]
+then
+    echo "MBIM check disabled" >/dev/kmsg
+    exit
+fi
+
+i=0
+
+echo "MBIM check start" >/dev/kmsg
+if pidof mbimd >/dev/null
+then
+    if cat /sys/devices/virtual/android_usb/android0/functions | grep usb_mbim >/dev/null
+    then
+	while [[ $i -lt 20 ]];
+	do
+	    if cat /sbin/usb/mbim_ready_state | grep -v 0 >/dev/null
+	    then
+		echo 0 > /sys/devices/virtual/android_usb/android0/enable
+		sleep 0.1
+		echo 1 > /sys/devices/virtual/android_usb/android0/enable
+		echo "MBIM restart usb" >/dev/kmsg
+		exit
+	    fi
+	    let i=i+1
+	    sleep 1
+	done
+	echo 0 > /sys/devices/virtual/android_usb/android0/enable
+	sleep 0.1
+	echo 1 > /sys/devices/virtual/android_usb/android0/enable
+	echo "MBIM check timeout, restart usb" >/dev/kmsg
+    fi
+fi

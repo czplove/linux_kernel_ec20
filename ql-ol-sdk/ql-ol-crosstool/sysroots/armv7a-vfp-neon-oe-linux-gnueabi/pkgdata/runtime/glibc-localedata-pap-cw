@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-pap-cw: locale definition for pap-cw
+SUMMARY_glibc-localedata-pap-cw: locale definition for pap-cw
+RDEPENDS_glibc-localedata-pap-cw: glibc-localedata-en-dk
+SECTION: base
+PKG_glibc-localedata-pap-cw: glibc-localedata-pap-cw
+FILES_glibc-localedata-pap-cw: /usr/share/i18n/locales/pap_CW
+FILES_INFO: {"/usr/share/i18n/locales/pap_CW": 5411}
+PKGSIZE_glibc-localedata-pap-cw: 5411

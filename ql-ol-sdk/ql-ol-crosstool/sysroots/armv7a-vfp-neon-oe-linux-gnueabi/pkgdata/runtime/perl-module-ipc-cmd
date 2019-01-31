@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-ipc-cmd: perl module ipc-cmd
+SUMMARY_perl-module-ipc-cmd: perl module ipc-cmd
+RDEPENDS_perl-module-ipc-cmd: perl-module-text-parsewords perl-module-carp perl-module-params-check perl-module-locale-maketext-simple perl-module-io-handle perl-module-vars perl-module-file-spec perl-module-time-hires perl-module-extutils-makemaker perl-module-filehandle perl-module-symbol perl-module-load perl-module-exporter perl-module-io-select perl-module-socket perl-module-posix perl-module-strict perl-module-constant perl perl-module-ipc-open3
+SECTION: devel
+PKG_perl-module-ipc-cmd: perl-module-ipc-cmd
+FILES_perl-module-ipc-cmd: /usr/lib/perl/5.20.0/IPC/Cmd.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IPC/Cmd.pm": 65831}
+PKGSIZE_perl-module-ipc-cmd: 65831

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cp1254: gconv module for character set cp1254
+SUMMARY_glibc-gconv-cp1254: gconv module for character set cp1254
+RDEPENDS_glibc-gconv-cp1254: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cp1254: glibc-gconv-cp1254
+FILES_glibc-gconv-cp1254: /usr/lib/gconv/CP1254.so
+FILES_INFO: {"/usr/lib/gconv/CP1254.so": 9584}
+PKGSIZE_glibc-gconv-cp1254: 9584

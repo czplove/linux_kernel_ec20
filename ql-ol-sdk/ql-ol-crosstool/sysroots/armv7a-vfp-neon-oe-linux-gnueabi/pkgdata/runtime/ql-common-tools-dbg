@@ -1,0 +1,15 @@
+PN: ql-common-tools
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-common-tools-dbg: Quectel Common Tools  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-common-tools-dbg: ql-common-tools version git-invalidgit-r01 - Debugging files
+RRECOMMENDS_ql-common-tools-dbg: glibc-dbg
+SECTION_ql-common-tools-dbg: devel
+PKG_ql-common-tools-dbg: ql-common-tools-dbg
+ALLOW_EMPTY_ql-common-tools-dbg: 1
+FILES_ql-common-tools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-common-tools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-common-tools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-common-tools/ql-common-tools/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libeloop.so.1.0.0": 89245, "/usr/lib/.debug/libql_log.so.1.0.0": 18336, "/usr/lib/.debug/libql_utils.so.1.0.0": 43561}
+PKGSIZE_ql-common-tools-dbg: 151142

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-uy: locale definition for es-uy
+SUMMARY_glibc-localedata-es-uy: locale definition for es-uy
+RDEPENDS_glibc-localedata-es-uy: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-uy: glibc-localedata-es-uy
+FILES_glibc-localedata-es-uy: /usr/share/i18n/locales/es_UY
+FILES_INFO: {"/usr/share/i18n/locales/es_UY": 4819}
+PKGSIZE_glibc-localedata-es-uy: 4819

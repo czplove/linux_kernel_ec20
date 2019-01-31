@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-fi-fi: locale definition for fi-fi
+SUMMARY_glibc-localedata-fi-fi: locale definition for fi-fi
+RDEPENDS_glibc-localedata-fi-fi: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-fi-fi: glibc-localedata-fi-fi
+FILES_glibc-localedata-fi-fi: /usr/share/i18n/locales/fi_FI
+FILES_INFO: {"/usr/share/i18n/locales/fi_FI": 8472}
+PKGSIZE_glibc-localedata-fi-fi: 8472

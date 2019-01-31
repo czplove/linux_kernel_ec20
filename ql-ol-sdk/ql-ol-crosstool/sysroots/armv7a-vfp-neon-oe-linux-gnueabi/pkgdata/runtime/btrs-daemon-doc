@@ -1,0 +1,13 @@
+PN: btrs-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_btrs-daemon-doc: Bluetooth Remote Start DAEMON  This package contains documentation.
+SUMMARY_btrs-daemon-doc: btrs-daemon version git-invalidgit-r2 - Documentation files
+SECTION_btrs-daemon-doc: doc
+PKG_btrs-daemon-doc: btrs-daemon-doc
+FILES_btrs-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_btrs-daemon-doc: 0

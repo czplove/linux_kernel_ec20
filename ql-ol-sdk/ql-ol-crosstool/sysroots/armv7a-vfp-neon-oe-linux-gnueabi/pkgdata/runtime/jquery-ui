@@ -1,0 +1,13 @@
+PN: jquery-ui
+PV: 1.10.1
+PR: r0
+PKGV: 1.10.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: JQUERY UI
+SUMMARY: jquery-ui version 1.10.1-r0
+SECTION: base
+PKG_jquery-ui: jquery-ui
+FILES_jquery-ui: /usr/bin/* /usr/sbin/* /usr/lib/jquery-ui/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/jquery-ui /usr/lib/jquery-ui/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /WEBSERVER/www/js/jquery-ui.js /WEBSERVER/www/js/jquery-ui.css /WEBSERVER/www/js/images/ui-icons_888888_256x240.png
+FILES_INFO: {"/WEBSERVER/www/js/jquery-ui.css": 30622, "/WEBSERVER/www/js/jquery-ui.js": 228147, "/WEBSERVER/www/js/images/ui-icons_888888_256x240.png": 6897}
+PKGSIZE_jquery-ui: 265666

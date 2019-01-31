@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-command: perl module extutils-command
+SUMMARY_perl-module-extutils-command: perl module extutils-command
+RDEPENDS_perl-module-extutils-command: perl-module-carp perl-module-file-path perl-module-file-copy perl-module-vars perl-module-file-find perl perl-module-exporter perl-module-strict perl-module-file-basename perl-module-file-compare
+SECTION: devel
+PKG_perl-module-extutils-command: perl-module-extutils-command
+FILES_perl-module-extutils-command: /usr/lib/perl/5.20.0/ExtUtils/Command.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/Command.pm": 7467}
+PKGSIZE_perl-module-extutils-command: 7467

@@ -1,0 +1,16 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-dev: Lightweight high-performance web server.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lighttpd-dev: Lightweight high-performance web server - Development files
+RDEPENDS_lighttpd-dev: lighttpd (= 1.4.35-r1)
+RRECOMMENDS_lighttpd-dev: lighttpd-module-accesslog-dev lighttpd-module-staticfile-dev glibc-dev zlib-dev lighttpd-module-access-dev libpcre-dev lighttpd-module-evasive-dev openssl-dev lighttpd-module-compress-dev libcrypto-dev lighttpd-module-cgi-dev lighttpd-module-alias-dev libssl-dev lighttpd-module-redirect-dev lighttpd-module-dirlisting-dev lighttpd-module-indexfile-dev lighttpd-module-auth-dev initscripts-dev
+SECTION_lighttpd-dev: devel
+PKG_lighttpd-dev: lighttpd-dev
+ALLOW_EMPTY_lighttpd-dev: 1
+FILES_lighttpd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lighttpd/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/mod_trigger_b4_dl.la": 985, "/usr/lib/mod_access.la": 922, "/usr/lib/mod_evhost.la": 922, "/usr/lib/mod_mysql_vhost.la": 952, "/usr/lib/mod_cml.la": 908, "/usr/lib/mod_rrdtool.la": 928, "/usr/lib/mod_secdownload.la": 952, "/usr/lib/mod_setenv.la": 922, "/usr/lib/mod_redirect.la": 955, "/usr/lib/mod_proxy.la": 916, "/usr/lib/mod_magnet.la": 926, "/usr/lib/mod_webdav.la": 922, "/usr/lib/mod_compress.la": 938, "/usr/lib/mod_scgi.la": 910, "/usr/lib/mod_accesslog.la": 940, "/usr/lib/mod_simple_vhost.la": 958, "/usr/lib/mod_cgi.la": 904, "/usr/lib/mod_evasive.la": 928, "/usr/lib/mod_expire.la": 922, "/usr/lib/mod_ssi.la": 925, "/usr/lib/mod_dirlisting.la": 967, "/usr/lib/mod_fastcgi.la": 928, "/usr/lib/mod_alias.la": 916, "/usr/lib/mod_status.la": 922, "/usr/lib/mod_userdir.la": 928, "/usr/lib/mod_flv_streaming.la": 964, "/usr/lib/mod_auth.la": 933, "/usr/lib/mod_indexfile.la": 940, "/usr/lib/mod_staticfile.la": 946, "/usr/lib/mod_rewrite.la": 949, "/usr/lib/mod_extforward.la": 946, "/usr/lib/mod_usertrack.la": 940}
+PKGSIZE_lighttpd-dev: 29914

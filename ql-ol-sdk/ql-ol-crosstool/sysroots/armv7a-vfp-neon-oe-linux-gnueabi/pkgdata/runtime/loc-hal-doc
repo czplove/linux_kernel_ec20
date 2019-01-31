@@ -1,0 +1,13 @@
+PN: loc-hal
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_loc-hal-doc: GPS Loc HAL  This package contains documentation.
+SUMMARY_loc-hal-doc: loc-hal version git-r5 - Documentation files
+SECTION_loc-hal-doc: doc
+PKG_loc-hal-doc: loc-hal-doc
+FILES_loc-hal-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-hal-doc: 0

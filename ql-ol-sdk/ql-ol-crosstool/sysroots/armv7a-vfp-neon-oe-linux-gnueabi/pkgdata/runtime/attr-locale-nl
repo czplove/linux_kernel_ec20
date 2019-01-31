@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-nl: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the nl locale.
+SUMMARY_attr-locale-nl: Utilities for manipulating filesystem extended attributes - nl translations
+RPROVIDES_attr-locale-nl: attr-locale nl-translation
+RRECOMMENDS_attr-locale-nl: virtual-locale-nl
+SECTION: libs
+PKG_attr-locale-nl: attr-locale-nl
+FILES_attr-locale-nl: /usr/share/locale/nl
+FILES_INFO: {"/usr/share/locale/nl/LC_MESSAGES/attr.mo": 5498}
+PKGSIZE_attr-locale-nl: 5498

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-bo: locale definition for es-bo
+SUMMARY_glibc-localedata-es-bo: locale definition for es-bo
+RDEPENDS_glibc-localedata-es-bo: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-bo: glibc-localedata-es-bo
+FILES_glibc-localedata-es-bo: /usr/share/i18n/locales/es_BO
+FILES_INFO: {"/usr/share/i18n/locales/es_BO": 4866}
+PKGSIZE_glibc-localedata-es-bo: 4866

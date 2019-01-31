@@ -1,0 +1,13 @@
+PN: hostap-daemon-qcacld
+PV: git
+PR: r4.2
+PKGV: git
+PKGR: r4.2
+LICENSE: BSD
+DESCRIPTION_hostap-daemon-qcacld-doc: Hostap Daemon  This package contains documentation.
+SUMMARY_hostap-daemon-qcacld-doc: hostap-daemon-qcacld version git-r4.2 - Documentation files
+SECTION_hostap-daemon-qcacld-doc: doc
+PKG_hostap-daemon-qcacld-doc: hostap-daemon-qcacld-doc
+FILES_hostap-daemon-qcacld-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_hostap-daemon-qcacld-doc: 0

@@ -1,0 +1,13 @@
+PN: dnsmasq
+PV: 2.73
+PR: r2
+PKGV: 2.73
+PKGR: r2
+LICENSE: GPL
+DESCRIPTION_dnsmasq-doc: Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.  This package contains documentation.
+SUMMARY_dnsmasq-doc: dnsmasq version 2.73-r2 - Documentation files
+SECTION_dnsmasq-doc: doc
+PKG_dnsmasq-doc: dnsmasq-doc
+FILES_dnsmasq-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/dnsmasq.8": 103789}
+PKGSIZE_dnsmasq-doc: 103789

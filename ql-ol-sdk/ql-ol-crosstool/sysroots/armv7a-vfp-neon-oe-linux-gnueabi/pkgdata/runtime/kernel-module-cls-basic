@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-cls-basic: cls-basic kernel module
+SUMMARY_kernel-module-cls-basic: cls-basic kernel module
+RDEPENDS_kernel-module-cls-basic: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-cls-basic: kernel-module-cls-basic
+FILES_kernel-module-cls-basic: /lib/modules/3.18.20/kernel/net/sched/cls_basic.ko /etc/modules-load.d/cls_basic.conf /etc/modprobe.d/cls_basic.conf
+pkg_postinst_kernel-module-cls-basic: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-cls-basic: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/net/sched/cls_basic.ko": 6876}
+PKGSIZE_kernel-module-cls-basic: 6876

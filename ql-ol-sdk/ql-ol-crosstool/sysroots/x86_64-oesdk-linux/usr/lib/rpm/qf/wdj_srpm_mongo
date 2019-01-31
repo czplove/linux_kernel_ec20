@@ -1,0 +1,25 @@
+"\
+db.srpm.save(\{
+  NVRA:		'%{NVRA}',
+  License:	'%{LICENSE}',
+  Distribution:	'%{DISTRIBUTION}',
+  Vendor:	'%{VENDOR}',
+  Packager:	'%{PACKAGER}',
+  Group:	'%{GROUP}',
+  Url:		'%{URL}',
+  Size:		%{SIZE},
+  Archivesize:	%{ARCHIVESIZE},
+  Rpmversion:	'%{RPMVERSION}',
+  Buildtime:	%{BUILDTIME},
+  Buildhost:	'%{BUILDHOST}',
+  Sourcerpm:	'%{SOURCERPM}',
+  Hdrid:	'%{HDRID}',
+  Optflags:	'%{OPTFLAGS}',
+  Payloadformat:	'%{PAYLOADFORMAT}',
+  Payloadcompressor:	'%{PAYLOADCOMPRESSOR}',
+  Filedigestalgo:	%{FILEDIGESTALGO},
+  Packagecolor:		%{PACKAGECOLOR},
+  InstallTID:		%{INSTALLTID},
+  Installcolor:		%{INSTALLCOLOR}
+\})
+"

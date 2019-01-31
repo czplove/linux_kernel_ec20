@@ -1,0 +1,13 @@
+PN: ql-ol-extsdk
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-ol-extsdk-doc: Quectel High Data Open API  This package contains documentation.
+SUMMARY_ql-ol-extsdk-doc: ql-ol-extsdk version git-invalidgit-r01 - Documentation files
+SECTION_ql-ol-extsdk-doc: doc
+PKG_ql-ol-extsdk-doc: ql-ol-extsdk-doc
+FILES_ql-ol-extsdk-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-ol-extsdk-doc: 0

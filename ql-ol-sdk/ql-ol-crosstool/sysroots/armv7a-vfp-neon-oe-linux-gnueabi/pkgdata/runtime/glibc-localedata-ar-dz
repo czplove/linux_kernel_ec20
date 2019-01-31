@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-dz: locale definition for ar-dz
+SUMMARY_glibc-localedata-ar-dz: locale definition for ar-dz
+RDEPENDS_glibc-localedata-ar-dz: glibc-localedata-ar-eg glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ar-dz: glibc-localedata-ar-dz
+FILES_glibc-localedata-ar-dz: /usr/share/i18n/locales/ar_DZ
+FILES_INFO: {"/usr/share/i18n/locales/ar_DZ": 6209}
+PKGSIZE_glibc-localedata-ar-dz: 6209

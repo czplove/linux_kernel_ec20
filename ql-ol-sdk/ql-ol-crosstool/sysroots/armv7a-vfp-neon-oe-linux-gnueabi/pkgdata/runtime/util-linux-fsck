@@ -1,0 +1,22 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-fsck: util-linux-libblkid (>= 2.25.2) util-linux-libmount (>= 2.25.2) update-alternatives-opkg glibc (>= 2.21)
+SECTION: base
+PKG_util-linux-fsck: util-linux-fsck
+FILES_util-linux-fsck: /sbin/fsck*
+pkg_postinst_util-linux-fsck: #!/bin/sh\n\tupdate-alternatives --install /sbin/fsck.minix fsck.minix /sbin/fsck.minix.util-linux 100\n\tupdate-alternatives --install /sbin/fsck fsck /sbin/fsck.util-linux 100\n
+pkg_postrm_util-linux-fsck: #!/bin/sh\n\tupdate-alternatives --remove  fsck.minix /sbin/fsck.minix.util-linux\n\tupdate-alternatives --remove  fsck /sbin/fsck.util-linux\n
+FILERPROVIDESFLIST_util-linux-fsck: /sbin/fsck.minix.util-linux /sbin/fsck.util-linux
+FILES_INFO: {"/sbin/fsck.minix.util-linux": 52964, "/sbin/fsck.util-linux": 23956}
+FILERPROVIDES_/sbin/fsck.minix.util-linux_util-linux-fsck: elf(buildid) (= 9f5cb813b90759d55dd5c8ce1a9f3e82983a8807) /sbin/fsck.minix
+FILERPROVIDES_/sbin/fsck.util-linux_util-linux-fsck: elf(buildid) (= 70bfaedbcc2005f53e15b980b2a35f48b2388f45) /sbin/fsck
+FILERDEPENDSFLIST_util-linux-fsck: /sbin/fsck.minix.util-linux /sbin/fsck.util-linux
+FILERDEPENDS_/sbin/fsck.minix.util-linux_util-linux-fsck: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/fsck.util-linux_util-linux-fsck: libblkid.so.1 libblkid.so.1(BLKID_1.0) libblkid.so.1(BLKID_2.17) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libmount.so.1 libmount.so.1(MOUNT_2.19) libmount.so.1(MOUNT_2.20) libmount.so.1(MOUNT_2.21) libmount.so.1(MOUNT_2.24) rtld(GNU_HASH)
+PKGSIZE_util-linux-fsck: 76920

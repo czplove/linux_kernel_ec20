@@ -1,0 +1,15 @@
+PN: loc-xtra
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-xtra-staticdev: GPS Location Xtra library  This package contains static libraries for software development.
+SUMMARY_loc-xtra-staticdev: loc-xtra version git-invalidgit-r3 - Development files (Static Libraries)
+RDEPENDS_loc-xtra-staticdev: loc-xtra-dev (= git-invalidgit-r3)
+RPROVIDES_loc-xtra-staticdev:  loc-xtra-staticdev
+SECTION_loc-xtra-staticdev: devel
+PKG_loc-xtra-staticdev: libloc-xtra-staticdev
+FILES_loc-xtra-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-xtra/*.a
+FILES_INFO: {}
+PKGSIZE_loc-xtra-staticdev: 0

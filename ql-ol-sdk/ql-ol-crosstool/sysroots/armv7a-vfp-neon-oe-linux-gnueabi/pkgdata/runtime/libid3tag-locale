@@ -1,0 +1,13 @@
+PN: libid3tag
+PV: 0.15.1b
+PR: r7
+PKGV: 0.15.1b
+PKGR: r7
+LICENSE: GPLv2+
+DESCRIPTION: Library for interacting with ID3 tags in MP3 files.
+SUMMARY: Library for interacting with ID3 tags in MP3 files
+SECTION: libs
+PKG_libid3tag-locale: libid3tag-locale
+FILES_libid3tag-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libid3tag-locale: 0

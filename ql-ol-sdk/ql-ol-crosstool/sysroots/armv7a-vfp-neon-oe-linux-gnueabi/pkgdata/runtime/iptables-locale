@@ -1,0 +1,13 @@
+PN: iptables
+PV: 1.4.12.1
+PR: r3
+PKGV: 1.4.12.1
+PKGR: r3
+LICENSE: GPLv2+
+DESCRIPTION: iptables is the userspace command line program used to configure  and control network packet filtering code in Linux.
+SUMMARY: Tools for managing kernel packet filtering capabilities
+SECTION: base
+PKG_iptables-locale: iptables-locale
+FILES_iptables-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_iptables-locale: 0

@@ -1,0 +1,17 @@
+PN: libnl
+PE: 1
+PV: 3.2.25
+PR: r1
+PKGE: 1
+PKGV: 3.2.25
+PKGR: r1
+LICENSE: LGPLv2.1
+DESCRIPTION_libnl-staticdev: A library for applications dealing with netlink sockets.  This package contains static libraries for software development.
+SUMMARY_libnl-staticdev: A library for applications dealing with netlink sockets - Development files (Static Libraries)
+RDEPENDS_libnl-staticdev: libnl-dev (= 1:3.2.25-r1)
+RPROVIDES_libnl-staticdev:  libnl-staticdev
+SECTION_libnl-staticdev: devel
+PKG_libnl-staticdev: libnl-3-staticdev
+FILES_libnl-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libnl/*.a /usr/lib/libnl/cli/*/*.a
+FILES_INFO: {"/usr/lib/libnl/cli/qdisc/plug.a": 4332, "/usr/lib/libnl/cli/qdisc/ingress.a": 2516, "/usr/lib/libnl-route-3.a": 550676, "/usr/lib/libnl/cli/cls/basic.a": 3324, "/usr/lib/libnl-nf-3.a": 104684, "/usr/lib/libnl-idiag-3.a": 30126, "/usr/lib/libnl/cli/cls/cgroup.a": 2768, "/usr/lib/libnl/cli/qdisc/htb.a": 5552, "/usr/lib/libnl/cli/qdisc/blackhole.a": 2556, "/usr/lib/libnl/cli/qdisc/fq_codel.a": 3580, "/usr/lib/libnl-3.a": 140102, "/usr/lib/libnl-genl-3.a": 21024, "/usr/lib/libnl/cli/qdisc/pfifo.a": 2816, "/usr/lib/libnl-cli-3.a": 43194, "/usr/lib/libnl/cli/qdisc/bfifo.a": 2964}
+PKGSIZE_libnl-staticdev: 920214

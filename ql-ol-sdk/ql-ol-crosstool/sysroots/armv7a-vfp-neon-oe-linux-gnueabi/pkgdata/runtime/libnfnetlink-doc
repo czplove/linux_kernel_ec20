@@ -1,0 +1,13 @@
+PN: libnfnetlink
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnfnetlink-doc: libnfnetlink is the low-level library for netfilter related kernel/userspace communication  This package contains documentation.
+SUMMARY_libnfnetlink-doc: libnfnetlink version 1.0.0-r0 - Documentation files
+SECTION_libnfnetlink-doc: doc
+PKG_libnfnetlink-doc: libnfnetlink-doc
+FILES_libnfnetlink-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libnfnetlink-doc: 0

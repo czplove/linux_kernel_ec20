@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-i18n-langtags-list: perl module i18n-langtags-list
+SUMMARY_perl-module-i18n-langtags-list: perl module i18n-langtags-list
+RDEPENDS_perl-module-i18n-langtags-list: perl-module-strict perl-module-vars perl
+SECTION: devel
+PKG_perl-module-i18n-langtags-list: perl-module-i18n-langtags-list
+FILES_perl-module-i18n-langtags-list: /usr/lib/perl/5.20.0/I18N/LangTags/List.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/I18N/LangTags/List.pm": 28826}
+PKGSIZE_perl-module-i18n-langtags-list: 28826

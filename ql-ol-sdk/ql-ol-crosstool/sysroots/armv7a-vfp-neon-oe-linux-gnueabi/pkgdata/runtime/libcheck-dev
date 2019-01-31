@@ -1,0 +1,16 @@
+PN: libcheck
+PV: 0.9.14
+PR: r0
+PKGV: 0.9.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libcheck-dev: Check - unit testing framework for C code.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libcheck-dev: Check - unit testing framework for C code - Development files
+RDEPENDS_libcheck-dev: libcheck (= 0.9.14-r0)
+RRECOMMENDS_libcheck-dev: gawk-dev glibc-dev
+SECTION_libcheck-dev: devel
+PKG_libcheck-dev: libcheck-dev
+ALLOW_EMPTY_libcheck-dev: 1
+FILES_libcheck-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libcheck/*.la /lib/*.la
+FILES_INFO: {"/usr/share/aclocal/check.m4": 4395, "/usr/lib/libcheck.la": 935, "/usr/lib/pkgconfig/check.pc": 277, "/usr/include/check_stdint.h": 271, "/usr/include/check.h": 36727, "/usr/lib/libcheck.so": 17}
+PKGSIZE_libcheck-dev: 42622

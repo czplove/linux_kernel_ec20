@@ -1,0 +1,13 @@
+PN: hostap-daemon-qcacld
+PV: git
+PR: r4.2
+PKGV: git
+PKGR: r4.2
+LICENSE: BSD
+DESCRIPTION: Hostap Daemon
+SUMMARY: hostap-daemon-qcacld version git-r4.2
+SECTION: base
+PKG_hostap-daemon-qcacld-locale: hostap-daemon-qcacld-locale
+FILES_hostap-daemon-qcacld-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_hostap-daemon-qcacld-locale: 0

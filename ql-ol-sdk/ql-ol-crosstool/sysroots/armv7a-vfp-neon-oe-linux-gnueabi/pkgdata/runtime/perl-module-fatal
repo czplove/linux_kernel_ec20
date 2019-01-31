@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-fatal: perl module fatal
+SUMMARY_perl-module-fatal: perl module fatal
+RDEPENDS_perl-module-fatal: perl-module-strict perl-module-carp perl-module-config perl perl-module-scalar-util perl-module-warnings perl-module-fcntl perl-module-tie-refhash perl-module-posix perl-module-autodie-exception-system perl-module-constant perl-module-fatal perl-module-autodie-hints
+SECTION: devel
+PKG_perl-module-fatal: perl-module-fatal
+FILES_perl-module-fatal: /usr/lib/perl/5.20.0/Fatal.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Fatal.pm": 60806}
+PKGSIZE_perl-module-fatal: 60806

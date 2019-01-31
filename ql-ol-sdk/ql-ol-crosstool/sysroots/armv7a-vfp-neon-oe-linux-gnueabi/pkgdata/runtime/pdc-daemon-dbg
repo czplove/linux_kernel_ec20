@@ -1,0 +1,15 @@
+PN: pdc-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_pdc-daemon-dbg: Persistent device config Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_pdc-daemon-dbg: pdc-daemon version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_pdc-daemon-dbg: glib-2.0-dbg qmi-framework-dbg glibc-dbg
+SECTION_pdc-daemon-dbg: devel
+PKG_pdc-daemon-dbg: pdc-daemon-dbg
+ALLOW_EMPTY_pdc-daemon-dbg: 1
+FILES_pdc-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pdc-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pdc-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pdc-daemon/pdc-daemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/pdc_daemon": 40754}
+PKGSIZE_pdc-daemon-dbg: 40754

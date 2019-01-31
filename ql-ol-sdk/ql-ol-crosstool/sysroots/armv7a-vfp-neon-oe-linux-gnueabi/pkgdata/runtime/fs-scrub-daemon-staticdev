@@ -1,0 +1,14 @@
+PN: fs-scrub-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_fs-scrub-daemon-staticdev: Daemon to perform scrubbing  This package contains static libraries for software development.
+SUMMARY_fs-scrub-daemon-staticdev: fs-scrub-daemon version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_fs-scrub-daemon-staticdev: fs-scrub-daemon-dev (= git-invalidgit-r1)
+SECTION_fs-scrub-daemon-staticdev: devel
+PKG_fs-scrub-daemon-staticdev: fs-scrub-daemon-staticdev
+FILES_fs-scrub-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/fs-scrub-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_fs-scrub-daemon-staticdev: 0

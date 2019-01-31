@@ -1,0 +1,16 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION: Powerapp tools
+SUMMARY: powerapp version git-r9
+SECTION: base
+PKG_powerapp-powerconfig: powerapp-powerconfig
+FILES_powerapp-powerconfig: /etc/init.d/power_config
+pkg_postinst_powerapp-powerconfig:         [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n        update-rc.d $OPT -f power_config remove\n        update-rc.d $OPT power_config start 99 2 3 4 5 . stop 50 0 1 6 .\n
+FILES_INFO: {"/etc/init.d/power_config": 24260}
+FILERDEPENDSFLIST_powerapp-powerconfig: /etc/init.d/power@underscore@config
+FILERDEPENDS_/etc/init.d/power@underscore@config_powerapp-powerconfig: /bin/sh
+PKGSIZE_powerapp-powerconfig: 24260

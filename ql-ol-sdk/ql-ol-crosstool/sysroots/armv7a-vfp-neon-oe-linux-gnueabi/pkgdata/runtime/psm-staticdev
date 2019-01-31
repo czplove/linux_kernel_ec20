@@ -1,0 +1,14 @@
+PN: psm
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_psm-staticdev: QTI Power Saving Mode Framework  This package contains static libraries for software development.
+SUMMARY_psm-staticdev: psm version git-invalidgit-r0 - Development files (Static Libraries)
+RDEPENDS_psm-staticdev: psm-dev (= git-invalidgit-r0)
+SECTION_psm-staticdev: devel
+PKG_psm-staticdev: psm-staticdev
+FILES_psm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/psm/*.a
+FILES_INFO: {"/usr/lib/libpsm_client.a": 59280, "/usr/lib/libutils.a": 85078}
+PKGSIZE_psm-staticdev: 144358

@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-xh: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the xh locale.
+SUMMARY_glib-2.0-locale-xh: A general-purpose utility library - xh translations
+RPROVIDES_glib-2.0-locale-xh: glib-2.0-locale xh-translation glib-2.0-locale-xh
+RRECOMMENDS_glib-2.0-locale-xh: virtual-locale-xh
+SECTION: libs
+PKG_glib-2.0-locale-xh: libglib-2.0-locale-xh
+FILES_glib-2.0-locale-xh: /usr/share/locale/xh
+FILES_INFO: {"/usr/share/locale/xh/LC_MESSAGES/glib20.mo": 15991}
+PKGSIZE_glib-2.0-locale-xh: 15991

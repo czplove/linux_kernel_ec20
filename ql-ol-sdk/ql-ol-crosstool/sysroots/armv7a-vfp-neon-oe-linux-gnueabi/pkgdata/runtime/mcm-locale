@@ -1,0 +1,13 @@
+PN: mcm
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: mcm headers
+SUMMARY: mcm version git-invalidgit-r3
+SECTION: base
+PKG_mcm-locale: mcm-locale
+FILES_mcm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mcm-locale: 0

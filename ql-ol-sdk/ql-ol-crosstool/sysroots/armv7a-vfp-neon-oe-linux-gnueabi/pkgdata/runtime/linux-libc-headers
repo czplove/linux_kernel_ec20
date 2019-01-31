@@ -1,0 +1,13 @@
+PN: linux-libc-headers
+PV: 3.19
+PR: r0
+PKGV: 3.19
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Sanitized set of kernel headers for the C library\'s use.
+SUMMARY: Sanitized set of kernel headers for the C library\'s use
+SECTION: devel
+PKG_linux-libc-headers: linux-libc-headers
+FILES_linux-libc-headers: /usr/bin/* /usr/sbin/* /usr/lib/linux-libc-headers/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/linux-libc-headers /usr/lib/linux-libc-headers/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_linux-libc-headers: 0

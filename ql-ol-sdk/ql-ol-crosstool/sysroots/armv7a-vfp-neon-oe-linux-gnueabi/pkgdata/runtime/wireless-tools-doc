@@ -1,0 +1,15 @@
+PN: wireless-tools
+PE: 1
+PV: 30.pre9
+PR: r0
+PKGE: 1
+PKGV: 30.pre9
+PKGR: r0
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+DESCRIPTION_wireless-tools-doc: Tools for the Linux Standard Wireless Extension Subsystem.  This package contains documentation.
+SUMMARY_wireless-tools-doc: Tools for the Linux Standard Wireless Extension Subsystem - Documentation files
+SECTION_wireless-tools-doc: doc
+PKG_wireless-tools-doc: wireless-tools-doc
+FILES_wireless-tools-doc: /usr/share/man
+FILES_INFO: {"/usr/share/man/fr.UTF-8/man8/iwspy.8": 2911, "/usr/share/man/fr.ISO8859-1/man8/iwgetid.8": 2724, "/usr/share/man/cs/man8/iwgetid.8": 2724, "/usr/share/man/man8/iwspy.8": 2911, "/usr/share/man/fr.UTF-8/man8/iwconfig.8": 22365, "/usr/share/man/fr.UTF-8/man8/iwgetid.8": 2724, "/usr/share/man/fr.ISO8859-1/man8/iwspy.8": 2911, "/usr/share/man/fr.ISO8859-1/man8/iwlist.8": 3940, "/usr/share/man/fr.ISO8859-1/man7/wireless.7": 3364, "/usr/share/man/fr.UTF-8/man8/iwevent.8": 3087, "/usr/share/man/cs/man8/iwconfig.8": 16167, "/usr/share/man/cs/man8/iwevent.8": 3087, "/usr/share/man/fr.ISO8859-1/man5/iftab.5": 11596, "/usr/share/man/man8/iwpriv.8": 3060, "/usr/share/man/fr.UTF-8/man7/wireless.7": 3390, "/usr/share/man/fr.ISO8859-1/man8/iwpriv.8": 3060, "/usr/share/man/fr.UTF-8/man8/ifrename.8": 5302, "/usr/share/man/cs/man7/wireless.7": 2580, "/usr/share/man/man8/iwgetid.8": 2724, "/usr/share/man/man8/iwevent.8": 3087, "/usr/share/man/cs/man5/iftab.5": 5425, "/usr/share/man/fr.ISO8859-1/man8/iwevent.8": 3087, "/usr/share/man/fr.ISO8859-1/man8/ifrename.8": 5302, "/usr/share/man/fr.UTF-8/man5/iftab.5": 11827, "/usr/share/man/man8/iwconfig.8": 18406, "/usr/share/man/cs/man8/iwlist.8": 3940, "/usr/share/man/fr.UTF-8/man8/iwlist.8": 3940, "/usr/share/man/fr.ISO8859-1/man8/iwconfig.8": 21870, "/usr/share/man/cs/man8/ifrename.8": 5302, "/usr/share/man/man8/iwlist.8": 3940, "/usr/share/man/fr.UTF-8/man8/iwpriv.8": 3060, "/usr/share/man/cs/man8/iwspy.8": 2911, "/usr/share/man/cs/man8/iwpriv.8": 3060}
+PKGSIZE_wireless-tools-doc: 195784

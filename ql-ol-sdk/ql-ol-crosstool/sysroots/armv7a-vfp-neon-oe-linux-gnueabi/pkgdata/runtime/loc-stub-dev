@@ -1,0 +1,17 @@
+PN: loc-stub
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-stub-dev: GPS Loc Stub  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-stub-dev: loc-stub version git-r1 - Development files
+RDEPENDS_loc-stub-dev: loc-stub (= git-r1)
+RPROVIDES_loc-stub-dev:  loc-stub-dev
+RRECOMMENDS_loc-stub-dev: libhardware-dev system-core-liblog-dev glibc-dev libstdc++-dev libgcc-dev glib-2.0-dev
+SECTION_loc-stub-dev: devel
+PKG_loc-stub-dev: libloc-stub-dev
+ALLOW_EMPTY_loc-stub-dev: 1
+FILES_loc-stub-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-stub/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/loc-stub.pc": 200, "/usr/include/loc-stub/loc_stub_gettid.h": 1799, "/usr/lib/libloc_stub.la": 1070, "/usr/include/loc-stub/loc_stub_android_runtime.h": 1950, "/usr/include/loc-stub/loc_stub_sched_policy.h": 2251, "/usr/lib/libloc_stub.so": 20, "/usr/include/loc-stub/loc_stub_property_service.h": 1880, "/usr/include/loc-stub/loc_stub_time.h": 1855}
+PKGSIZE_loc-stub-dev: 11025

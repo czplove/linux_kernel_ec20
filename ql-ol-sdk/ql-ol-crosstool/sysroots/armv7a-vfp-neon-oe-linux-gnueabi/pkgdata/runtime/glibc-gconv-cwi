@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cwi: gconv module for character set cwi
+SUMMARY_glibc-gconv-cwi: gconv module for character set cwi
+RDEPENDS_glibc-gconv-cwi: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cwi: glibc-gconv-cwi
+FILES_glibc-gconv-cwi: /usr/lib/gconv/CWI.so
+FILES_INFO: {"/usr/lib/gconv/CWI.so": 9580}
+PKGSIZE_glibc-gconv-cwi: 9580

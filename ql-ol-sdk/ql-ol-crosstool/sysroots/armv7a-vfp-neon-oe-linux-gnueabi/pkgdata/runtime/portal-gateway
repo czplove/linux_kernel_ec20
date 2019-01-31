@@ -1,0 +1,27 @@
+PN: portal-gateway
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: portal-gateway version git-invalidgit-r1
+RDEPENDS_portal-gateway: glibc (>= 2.21)
+RRECOMMENDS_portal-gateway:  update-rc.d
+SECTION: base
+PKG_portal-gateway: portal-gateway
+FILES_portal-gateway: /usr/bin/* /usr/sbin/* /usr/lib/portal-gateway/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/portal-gateway /usr/lib/portal-gateway/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_portal-gateway: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT portal-gateway start 45 2 3 4 5 .\nfi\n
+pkg_postrm_portal-gateway: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT portal-gateway remove\nfi\n
+pkg_preinst_portal-gateway: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/portal-gateway" ]; then\n\t/etc/init.d/portal-gateway stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT portal-gateway remove\nfi\n
+pkg_prerm_portal-gateway: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/portal-gateway stop\nfi\n
+FILERPROVIDESFLIST_portal-gateway: /usr/bin/portal@underscore@gateway /usr/bin/portal@underscore@ctl
+FILES_INFO: {"/etc/portal-gateway.conf": 628, "/etc/init.d/portal_gateway": 5422, "/usr/bin/portal_ctl": 8808, "/usr/bin/portal_demon.sh": 759, "/etc/portal-msg.html": 1428, "/usr/bin/portal_gateway": 93076}
+FILERPROVIDES_/usr/bin/portal@underscore@gateway_portal-gateway: elf(buildid) (= 883d44e1f8fbe428d65aaf85b3254e2c5e7b1e67)
+FILERPROVIDES_/usr/bin/portal@underscore@ctl_portal-gateway: elf(buildid) (= 7ca0cfde1000a9abcca35e4b14c97d5f35748296)
+FILERDEPENDSFLIST_portal-gateway: /usr/bin/portal@underscore@demon.sh /etc/init.d/portal@underscore@gateway /usr/bin/portal@underscore@gateway /usr/bin/portal@underscore@ctl
+FILERDEPENDS_/usr/bin/portal@underscore@demon.sh_portal-gateway: /bin/sh
+FILERDEPENDS_/etc/init.d/portal@underscore@gateway_portal-gateway: /bin/sh
+FILERDEPENDS_/usr/bin/portal@underscore@gateway_portal-gateway: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/portal@underscore@ctl_portal-gateway: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_portal-gateway: 110121

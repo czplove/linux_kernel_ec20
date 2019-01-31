@@ -1,0 +1,13 @@
+PN: alx
+PV: git
+PR: r4-3.18.20
+PKGV: git
+PKGR: r4-3.18.20
+LICENSE: ISC
+DESCRIPTION_alx-doc: Qualcomm Atheros Gigabit Ethernet Driver  This package contains documentation.
+SUMMARY_alx-doc: alx version git-r4-3.18.20 - Documentation files
+SECTION_alx-doc: doc
+PKG_alx-doc: alx-doc
+FILES_alx-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_alx-doc: 0

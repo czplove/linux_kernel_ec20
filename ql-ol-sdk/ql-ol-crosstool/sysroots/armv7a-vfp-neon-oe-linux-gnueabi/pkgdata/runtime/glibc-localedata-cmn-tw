@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-cmn-tw: locale definition for cmn-tw
+SUMMARY_glibc-localedata-cmn-tw: locale definition for cmn-tw
+RDEPENDS_glibc-localedata-cmn-tw: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-cmn-tw: glibc-localedata-cmn-tw
+FILES_glibc-localedata-cmn-tw: /usr/share/i18n/locales/cmn_TW
+FILES_INFO: {"/usr/share/i18n/locales/cmn_TW": 6175}
+PKGSIZE_glibc-localedata-cmn-tw: 6175

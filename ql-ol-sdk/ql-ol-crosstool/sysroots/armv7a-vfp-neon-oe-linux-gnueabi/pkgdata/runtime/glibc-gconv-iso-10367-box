@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-10367-box: gconv module for character set iso-10367-box
+SUMMARY_glibc-gconv-iso-10367-box: gconv module for character set iso-10367-box
+RDEPENDS_glibc-gconv-iso-10367-box: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso-10367-box: glibc-gconv-iso-10367-box
+FILES_glibc-gconv-iso-10367-box: /usr/lib/gconv/ISO_10367-BOX.so
+FILES_INFO: {"/usr/lib/gconv/ISO_10367-BOX.so": 9592}
+PKGSIZE_glibc-gconv-iso-10367-box: 9592

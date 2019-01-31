@@ -1,0 +1,14 @@
+PN: pciutils
+PV: 3.3.0
+PR: r0
+PKGV: 3.3.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.
+SUMMARY: PCI utilities
+RRECOMMENDS_libpci-dbg: glibc-dbg zlib-dbg libkmod-dbg
+SECTION: console/utils
+PKG_libpci-dbg: libpci-dbg
+FILES_libpci-dbg: /usr/lib/.debug
+FILES_INFO: {"/usr/lib/.debug/libpci.so.3.3.0": 11590}
+PKGSIZE_libpci-dbg: 11590

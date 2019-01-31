@@ -1,0 +1,14 @@
+PN: kmod
+PV: 19+gitAUTOINC+fd56638aed
+PR: r0
+PKGV: 19+git0+fd56638aed
+PKGR: r0
+LICENSE: GPL-2.0+ & LGPL-2.1+
+DESCRIPTION_kmod-staticdev: kmod is a set of tools to handle common tasks with Linux kernel modules like                insert, remove, list, check properties, resolve dependencies and aliases.  This package contains static libraries for software development.
+SUMMARY_kmod-staticdev: Tools for managing Linux kernel modules - Development files (Static Libraries)
+RDEPENDS_kmod-staticdev: kmod-dev (= 19+git0+fd56638aed-r0)
+SECTION_kmod-staticdev: devel
+PKG_kmod-staticdev: kmod-staticdev
+FILES_kmod-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/kmod/*.a
+FILES_INFO: {}
+PKGSIZE_kmod-staticdev: 0

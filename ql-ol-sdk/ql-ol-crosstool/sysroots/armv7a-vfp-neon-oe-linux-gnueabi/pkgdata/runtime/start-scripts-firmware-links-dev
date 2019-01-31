@@ -1,0 +1,16 @@
+PN: start-scripts-firmware-links
+PV: 1.0
+PR: r5
+PKGV: 1.0
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_start-scripts-firmware-links-dev: Start up script for firmware links  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_start-scripts-firmware-links-dev: start-scripts-firmware-links version 1.0-r5 - Development files
+RDEPENDS_start-scripts-firmware-links-dev: start-scripts-firmware-links (= 1.0-r5)
+RRECOMMENDS_start-scripts-firmware-links-dev: initscripts-dev
+SECTION_start-scripts-firmware-links-dev: devel
+PKG_start-scripts-firmware-links-dev: start-scripts-firmware-links-dev
+ALLOW_EMPTY_start-scripts-firmware-links-dev: 1
+FILES_start-scripts-firmware-links-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/start-scripts-firmware-links/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_start-scripts-firmware-links-dev: 0

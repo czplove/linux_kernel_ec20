@@ -1,0 +1,16 @@
+PN: atfwd-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_atfwd-daemon-dev: Daemon to handle AT commands  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_atfwd-daemon-dev: atfwd-daemon version git-invalidgit-r3 - Development files
+RDEPENDS_atfwd-daemon-dev: atfwd-daemon (= git-invalidgit-r3)
+RRECOMMENDS_atfwd-daemon-dev: quectel-audio-lib-dev system-core-liblog-dev alsa-intf-dev zlib-dev libssl-dev libcrypto-dev libgcc-dev dsutils-dev glibc-dev qmi-dev glib-2.0-dev quectel-libfotainfo-dev quectel-tts-sdk-dev ql-common-tools-dev qmi-framework-dev
+SECTION_atfwd-daemon-dev: devel
+PKG_atfwd-daemon-dev: atfwd-daemon-dev
+ALLOW_EMPTY_atfwd-daemon-dev: 1
+FILES_atfwd-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/atfwd-daemon/*.la /lib/*.la
+FILES_INFO: {"/usr/include/quectel_nand_at_handler.h": 484, "/usr/include/quectel_iic_interface.h": 435, "/usr/include/mad.h": 27511, "/usr/include/quectel_cust_at_handler.h": 371, "/usr/include/quectel_record_play.h": 1496, "/usr/include/quectel_common_at_handler.h": 4434, "/usr/include/quectel_wifi_at_handler.h": 4078, "/usr/include/quectel_psm_aware_at_handler.h": 1529, "/usr/include/quectel_at_cmd_defs.h": 6276, "/usr/include/tonedect.h": 2755, "/usr/include/quectel_wifi_defs.h": 5933, "/usr/include/quectel_audio_at_handler.h": 5841, "/usr/include/kt_detect.h": 742, "/usr/include/quectel_ftcmd_at_handler.h": 1526}
+PKGSIZE_atfwd-daemon-dev: 63411

@@ -1,0 +1,13 @@
+PN: iputils
+PV: s20101006
+PR: r6
+PKGV: s20101006
+PKGR: r6
+LICENSE: BSD & GPLv2+
+DESCRIPTION_iputils-doc: Utilities for the IP protocol, including traceroute6, tracepath, tracepath6, ping, ping6 and arping.  This package contains documentation.
+SUMMARY_iputils-doc: Network monitoring tools - Documentation files
+SECTION_iputils-doc: doc
+PKG_iputils-doc: iputils-doc
+FILES_iputils-doc: /usr/share/man/man8
+FILES_INFO: {"/usr/share/man/man8/ping.8": 14568}
+PKGSIZE_iputils-doc: 14568

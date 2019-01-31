@@ -1,0 +1,38 @@
+#! /bin/sh
+#
+#  Copyright (c) 2015 Qualcomm Technologies, Inc.
+#  All Rights Reserved.
+#  Confidential and Proprietary - Qualcomm Technologies, Inc.
+#
+# psm init.d script to start the psm daemon
+
+set -e
+
+case "$1" in
+  start)
+        echo -n "Starting psmd: "
+        start-stop-daemon -S -b -a psmd
+        if [ -e "/data/psm/enable_auto_test" ]; then
+            start-stop-daemon -S -b -a psm_test
+        fi
+        echo "done"
+        ;;
+  stop)
+        echo -n "Stopping psmd: "
+        start-stop-daemon -K -n psmd
+        if [ -e "/data/psm/enable_auto_test" ]; then
+            start-stop-daemon -K -n psm_test
+        fi
+        echo "done"
+        ;;
+  restart)
+        $0 stop
+        $0 start
+        ;;
+  *)
+        echo "Usage start_psmd { start | stop | restart}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

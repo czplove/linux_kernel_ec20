@@ -1,0 +1,30 @@
+#
+# Add Quectel global configurations here.
+#
+# Add by scott.hu at 2014-10-23.
+#
+menu "Quectel global configurations"
+
+# 2014-10-23 add by scott.hu
+config QUECTEL_AUDIO_DRIVER
+    bool "quectel audio driver"
+    default y
+
+config QUECTEL_POWER_DRIVER
+    bool "quectel power driver"
+    default y
+
+config QUECTEL_MODEM_RESTART_LEVEL
+    bool "quectel modem restart level"
+    default y 
+
+config QUECTEL_MODEM_BOOT_TIME
+    bool "quectel modem boot time"
+    default y
+
+config QUECTEL_PCM16K_SUPPORT
+    bool "quectel pcm 16k"
+    default y
+
+# end jun.wu
+endmenu

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-hp-roman9: character map for hp-roman9 encoding
+SUMMARY_glibc-charmap-hp-roman9: character map for hp-roman9 encoding
+SECTION: base
+PKG_glibc-charmap-hp-roman9: glibc-charmap-hp-roman9
+FILES_glibc-charmap-hp-roman9: /usr/share/i18n/charmaps/HP-ROMAN9.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/HP-ROMAN9.gz": 3091}
+PKGSIZE_glibc-charmap-hp-roman9: 3091

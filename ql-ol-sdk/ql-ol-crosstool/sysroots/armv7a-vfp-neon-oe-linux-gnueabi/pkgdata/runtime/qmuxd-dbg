@@ -1,0 +1,15 @@
+PN: qmuxd
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmuxd-dbg: QMUXD Module  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qmuxd-dbg: qmuxd version git-invalidgit-r0 - Debugging files
+RRECOMMENDS_qmuxd-dbg: dsutils-dbg glibc-dbg configdb-dbg diag-dbg glib-2.0-dbg qmi-framework-dbg qmi-dbg
+SECTION_qmuxd-dbg: devel
+PKG_qmuxd-dbg: qmuxd-dbg
+ALLOW_EMPTY_qmuxd-dbg: 1
+FILES_qmuxd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmuxd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmuxd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmuxd/qmuxd/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qmuxd": 23122}
+PKGSIZE_qmuxd-dbg: 23122

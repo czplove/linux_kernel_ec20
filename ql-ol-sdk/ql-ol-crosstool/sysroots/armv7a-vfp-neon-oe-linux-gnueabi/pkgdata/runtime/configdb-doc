@@ -1,0 +1,14 @@
+PN: configdb
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_configdb-doc: Qualcomm Data Configdb Module  This package contains documentation.
+SUMMARY_configdb-doc: configdb version git-invalidgit-r5 - Documentation files
+RPROVIDES_configdb-doc:  configdb-doc
+SECTION_configdb-doc: doc
+PKG_configdb-doc: libconfigdb-doc
+FILES_configdb-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_configdb-doc: 0

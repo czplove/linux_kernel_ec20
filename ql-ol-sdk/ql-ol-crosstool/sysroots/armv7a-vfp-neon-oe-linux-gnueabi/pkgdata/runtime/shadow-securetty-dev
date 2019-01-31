@@ -1,0 +1,15 @@
+PN: shadow-securetty
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION_shadow-securetty-dev: Provider of the machine specific securetty file.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_shadow-securetty-dev: Provider of the machine specific securetty file - Development files
+RDEPENDS_shadow-securetty-dev: shadow-securetty (= 4.2.1-r3)
+SECTION_shadow-securetty-dev: devel
+PKG_shadow-securetty-dev: shadow-securetty-dev
+ALLOW_EMPTY_shadow-securetty-dev: 1
+FILES_shadow-securetty-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/shadow-securetty/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_shadow-securetty-dev: 0

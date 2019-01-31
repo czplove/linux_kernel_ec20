@@ -1,0 +1,14 @@
+PN: common
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_common-dev: Common headers  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_common-dev: common version git-r7 - Development files
+RDEPENDS_common-dev: common (= git-r7)
+SECTION_common-dev: devel
+PKG_common-dev: common-dev
+ALLOW_EMPTY_common-dev: 1
+FILES_INFO: {}
+PKGSIZE_common-dev: 0

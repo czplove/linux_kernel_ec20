@@ -1,0 +1,15 @@
+PN: pkgconfig
+PV: 0.28
+PR: r0
+PKGV: 0.28
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pkgconfig-dev: pkg-config is a helper tool used when compiling applications and libraries. It helps determined the correct compiler/link options.  It is also language-agnostic.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_pkgconfig-dev: Helper tool used when compiling - Development files
+RDEPENDS_pkgconfig-dev: pkgconfig (= 0.28-r0)
+RRECOMMENDS_pkgconfig-dev: glib-2.0-dev glibc-dev
+SECTION_pkgconfig-dev: devel
+PKG_pkgconfig-dev: pkgconfig-dev
+ALLOW_EMPTY_pkgconfig-dev: 1
+FILES_INFO: {}
+PKGSIZE_pkgconfig-dev: 0

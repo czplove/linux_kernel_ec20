@@ -1,0 +1,17 @@
+PN: location-flp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-flp-dev: GPS FLP  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_location-flp-dev: location-flp version git-invalidgit-r1 - Development files
+RDEPENDS_location-flp-dev: location-flp (= git-invalidgit-r1)
+RPROVIDES_location-flp-dev:  location-flp-dev
+RRECOMMENDS_location-flp-dev: system-core-liblog-dev location-geofence-dev libgcc-dev time-genoff-dev glib-2.0-dev libhardware-dev location-service-dev loc-hal-dev data-dev qmi-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libstdc++-dev dsutils-dev lbs-core-dev loc-stub-dev data-oss-dev qmi-client-helper-dev diag-dev qmi-framework-dev
+SECTION_location-flp-dev: devel
+PKG_location-flp-dev: libflp-default-dev
+ALLOW_EMPTY_location-flp-dev: 1
+FILES_location-flp-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/location-flp/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/location-flp.pc": 172, "/usr/lib/libflp_default.so": 23, "/usr/lib/libflp_default.la": 2727}
+PKGSIZE_location-flp-dev: 2922

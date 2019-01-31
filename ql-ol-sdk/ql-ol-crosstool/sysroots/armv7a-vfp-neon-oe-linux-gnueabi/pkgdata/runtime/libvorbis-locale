@@ -1,0 +1,13 @@
+PN: libvorbis
+PV: 1.3.3
+PR: r1
+PKGV: 1.3.3
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: General purpose compressed audio format for mid to high quality at fixed variable bitrates..
+SUMMARY: General purpose compressed audio format for mid to high quality at fixed variable bitrates.
+SECTION: base
+PKG_libvorbis-locale: libvorbis-locale
+FILES_libvorbis-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libvorbis-locale: 0

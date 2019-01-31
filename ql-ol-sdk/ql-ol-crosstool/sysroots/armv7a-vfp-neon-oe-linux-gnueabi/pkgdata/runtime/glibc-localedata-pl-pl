@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-pl-pl: locale definition for pl-pl
+SUMMARY_glibc-localedata-pl-pl: locale definition for pl-pl
+RDEPENDS_glibc-localedata-pl-pl: glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-pl-pl: glibc-localedata-pl-pl
+FILES_glibc-localedata-pl-pl: /usr/share/i18n/locales/pl_PL
+FILES_INFO: {"/usr/share/i18n/locales/pl_PL": 82868}
+PKGSIZE_glibc-localedata-pl-pl: 82868

@@ -1,0 +1,13 @@
+PN: keymaps
+PV: 1.0
+PR: r31
+PKGV: 1.0
+PKGR: r31
+LICENSE: GPLv2
+DESCRIPTION_keymaps-doc: Keymaps and initscript to set the keymap on bootup.  This package contains documentation.
+SUMMARY_keymaps-doc: Keyboard maps - Documentation files
+SECTION_keymaps-doc: doc
+PKG_keymaps-doc: keymaps-doc
+FILES_keymaps-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_keymaps-doc: 0

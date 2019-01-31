@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-unicode: gconv module for character set unicode
+SUMMARY_glibc-gconv-unicode: gconv module for character set unicode
+RDEPENDS_glibc-gconv-unicode: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-unicode: glibc-gconv-unicode
+FILES_glibc-gconv-unicode: /usr/lib/gconv/UNICODE.so
+FILES_INFO: {"/usr/lib/gconv/UNICODE.so": 9592}
+PKGSIZE_glibc-gconv-unicode: 9592

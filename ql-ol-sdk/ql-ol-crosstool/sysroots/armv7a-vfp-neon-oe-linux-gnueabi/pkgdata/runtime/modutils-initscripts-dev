@@ -1,0 +1,16 @@
+PN: modutils-initscripts
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: PD
+DESCRIPTION_modutils-initscripts-dev: Initscript for auto-loading kernel modules on boot.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_modutils-initscripts-dev: Initscript for auto-loading kernel modules on boot - Development files
+RDEPENDS_modutils-initscripts-dev: modutils-initscripts (= 1.0-r7)
+RRECOMMENDS_modutils-initscripts-dev: initscripts-dev
+SECTION_modutils-initscripts-dev: devel
+PKG_modutils-initscripts-dev: modutils-initscripts-dev
+ALLOW_EMPTY_modutils-initscripts-dev: 1
+FILES_modutils-initscripts-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/modutils-initscripts/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_modutils-initscripts-dev: 0

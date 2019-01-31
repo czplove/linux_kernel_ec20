@@ -1,0 +1,16 @@
+PN: libnl
+PE: 1
+PV: 3.2.25
+PR: r1
+PKGE: 1
+PKGV: 3.2.25
+PKGR: r1
+LICENSE: LGPLv2.1
+DESCRIPTION_libnl-doc: A library for applications dealing with netlink sockets.  This package contains documentation.
+SUMMARY_libnl-doc: A library for applications dealing with netlink sockets - Documentation files
+RPROVIDES_libnl-doc:  libnl-doc
+SECTION_libnl-doc: doc
+PKG_libnl-doc: libnl-3-doc
+FILES_libnl-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/nl-qdisc-add.8": 3147, "/usr/share/man/man8/nl-classid-lookup.8": 1058, "/usr/share/man/man8/genl-ctrl-list.8": 1979, "/usr/share/man/man8/nl-pktloc-lookup.8": 1348, "/usr/share/man/man8/nl-qdisc-list.8": 24, "/usr/share/man/man8/nl-qdisc-delete.8": 24}
+PKGSIZE_libnl-doc: 7580

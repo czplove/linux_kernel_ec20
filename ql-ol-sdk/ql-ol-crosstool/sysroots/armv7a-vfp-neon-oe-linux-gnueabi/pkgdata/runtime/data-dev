@@ -1,0 +1,16 @@
+PN: data
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-dev: Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_data-dev: data version git-invalidgit-r21 - Development files
+RDEPENDS_data-dev: data (= git-invalidgit-r21)
+RRECOMMENDS_data-dev: pugixml-dev configdb-dev glibc-dev xmllib-dev openssl-dev data-oss-dev qmi-client-helper-dev libstdc++-dev libgcc-dev dsutils-dev time-genoff-dev qmi-dev ql-syslog-dev glib-2.0-dev qmi-framework-dev diag-dev
+SECTION_data-dev: devel
+PKG_data-dev: data-dev
+ALLOW_EMPTY_data-dev: 1
+FILES_data-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/data/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libqcmapipc.la": 937, "/usr/lib/libqmi_ip.so": 18, "/usr/lib/libqcmaputils.so": 22, "/usr/lib/libqcmap_cm.la": 2046, "/usr/lib/libqcmaputils.la": 949, "/usr/include/data/qcmap_utils.h": 11466, "/usr/lib/pkgconfig/data.pc": 269, "/usr/lib/libqcmapipc.so": 20, "/usr/lib/libnetmgr.la": 1341, "/usr/lib/libqdi.so": 15, "/usr/include/data/dsi_netctrl_qos.h": 33133, "/usr/include/data/qcmap_client_util.h": 4639, "/usr/lib/libqdi.la": 1786, "/usr/lib/libqcmap_client.la": 1517, "/usr/include/data/dsi_netctrl.h": 48541, "/usr/lib/libqmi_ip.la": 925, "/usr/lib/libqdp.so": 15, "/usr/lib/libqcmap_cm.so": 20, "/usr/lib/libqdp.la": 1410, "/usr/lib/libqcmap_client.so": 24, "/usr/include/data/qmi_ip_service_v01.h": 6708, "/usr/lib/libdsi_netctrl.so": 23, "/usr/include/data/qcmap_firewall_util.h": 9027, "/usr/lib/libnetmgr.so": 18, "/usr/lib/libdsi_netctrl.la": 1942, "/usr/include/data/qualcomm_mobile_access_point_msgr_v01.h": 215948, "/usr/include/data/QCMAP_Client.h": 98067}
+PKGSIZE_data-dev: 440826

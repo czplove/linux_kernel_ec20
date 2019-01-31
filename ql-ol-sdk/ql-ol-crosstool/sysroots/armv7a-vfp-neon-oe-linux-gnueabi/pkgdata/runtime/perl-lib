@@ -1,0 +1,19 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION: Perl scripting language.
+SUMMARY: Perl scripting language
+RDEPENDS_perl-lib: glibc (>= 2.21)
+RPROVIDES_perl-lib: perl-lib      perl-module-config     perl-module-config-heavy     perl-module-arm-oe-linux-gnueabi-config     perl-module-arm-oe-linux-gnueabi-config-heavy
+SECTION: devel
+PKG_perl-lib: libperl5
+FILES_perl-lib: /usr/lib/libperl.so*                    /usr/lib/perl5                    /usr/lib/perl/config.sh                    /usr/lib/perl/5.20.0/Config_heavy.pl                    /usr/lib/perl/5.20.0/Config_heavy-target.pl
+FILERPROVIDESFLIST_perl-lib: /usr/lib/libperl.so.5.20.0
+FILES_INFO: {"/usr/lib/perl/5.20.0/Config_heavy.pl": 45777, "/usr/lib/libperl.so.5": 1475244, "/usr/lib/perl/5.20.0/Config_heavy-target.pl": 15, "/usr/lib/perl/config.sh": 38038}
+FILERPROVIDES_/usr/lib/libperl.so.5.20.0_perl-lib: elf(buildid) (= 90ed3153cb5038387221740fdd642dc190b0576a) libperl.so.5
+FILERDEPENDSFLIST_perl-lib: /usr/lib/libperl.so.5.20.0
+FILERDEPENDS_/usr/lib/libperl.so.5.20.0_perl-lib: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-lib: 1559074

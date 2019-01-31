@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-miniperl: perl module extutils-miniperl
+SUMMARY_perl-module-extutils-miniperl: perl module extutils-miniperl
+RDEPENDS_perl-module-extutils-miniperl: perl-module-strict perl perl-module-exporter perl-module-vars perl-module-extutils-embed
+SECTION: devel
+PKG_perl-module-extutils-miniperl: perl-module-extutils-miniperl
+FILES_perl-module-extutils-miniperl: /usr/lib/perl/5.20.0/ExtUtils/Miniperl.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/Miniperl.pm": 7069}
+PKGSIZE_perl-module-extutils-miniperl: 7069

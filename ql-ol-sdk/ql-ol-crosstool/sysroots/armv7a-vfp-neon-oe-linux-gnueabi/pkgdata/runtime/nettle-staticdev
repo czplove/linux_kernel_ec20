@@ -1,0 +1,14 @@
+PN: nettle
+PV: 2.7.1
+PR: r0
+PKGV: 2.7.1
+PKGR: r0
+LICENSE: LGPLv2.1 & GPLv2
+DESCRIPTION_nettle-staticdev: A low level cryptographic library.  This package contains static libraries for software development.
+SUMMARY_nettle-staticdev: A low level cryptographic library - Development files (Static Libraries)
+RDEPENDS_nettle-staticdev: nettle-dev (= 2.7.1-r0)
+SECTION_nettle-staticdev: devel
+PKG_nettle-staticdev: nettle-staticdev
+FILES_nettle-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/nettle/*.a
+FILES_INFO: {"/usr/lib/libhogweed.a": 6932358, "/usr/lib/libnettle.a": 6013698}
+PKGSIZE_nettle-staticdev: 12946056

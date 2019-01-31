@@ -1,0 +1,14 @@
+PN: lbs-core
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-doc: GPS LBS Core  This package contains documentation.
+SUMMARY_lbs-core-doc: lbs-core version git-r1 - Documentation files
+RPROVIDES_lbs-core-doc:  lbs-core-doc
+SECTION_lbs-core-doc: doc
+PKG_lbs-core-doc: liblbs-core-doc
+FILES_lbs-core-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lbs-core-doc: 0

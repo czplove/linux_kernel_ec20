@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-base: perl module base
+SUMMARY_perl-module-base: perl module base
+RDEPENDS_perl-module-base: perl-module-strict perl perl-module-carp perl-module-vars
+SECTION: devel
+PKG_perl-module-base: perl-module-base
+FILES_perl-module-base: /usr/lib/perl/5.20.0/base.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/base.pm": 7384}
+PKGSIZE_perl-module-base: 7384

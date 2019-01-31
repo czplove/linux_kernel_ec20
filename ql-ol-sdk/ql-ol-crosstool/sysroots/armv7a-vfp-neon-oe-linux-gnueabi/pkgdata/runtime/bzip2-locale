@@ -1,0 +1,13 @@
+PN: bzip2
+PV: 1.0.6
+PR: r5
+PKGV: 1.0.6
+PKGR: r5
+LICENSE: bzip2
+DESCRIPTION: bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.
+SUMMARY: Very high-quality data compression program
+SECTION: console/utils
+PKG_bzip2-locale: bzip2-locale
+FILES_bzip2-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_bzip2-locale: 0

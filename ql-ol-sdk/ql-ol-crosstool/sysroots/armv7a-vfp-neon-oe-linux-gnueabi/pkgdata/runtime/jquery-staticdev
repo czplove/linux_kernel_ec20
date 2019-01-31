@@ -1,0 +1,14 @@
+PN: jquery
+PV: 1.9.1
+PR: r0
+PKGV: 1.9.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-staticdev: JQUERY  This package contains static libraries for software development.
+SUMMARY_jquery-staticdev: jquery version 1.9.1-r0 - Development files (Static Libraries)
+RDEPENDS_jquery-staticdev: jquery-dev (= 1.9.1-r0)
+SECTION_jquery-staticdev: devel
+PKG_jquery-staticdev: jquery-staticdev
+FILES_jquery-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/jquery/*.a
+FILES_INFO: {}
+PKGSIZE_jquery-staticdev: 0

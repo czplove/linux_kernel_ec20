@@ -1,0 +1,13 @@
+PN: subsystem-ramdump
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_subsystem-ramdump-doc: subsystem ramdump  This package contains documentation.
+SUMMARY_subsystem-ramdump-doc: subsystem-ramdump version git-r3 - Documentation files
+SECTION_subsystem-ramdump-doc: doc
+PKG_subsystem-ramdump-doc: subsystem-ramdump-doc
+FILES_subsystem-ramdump-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_subsystem-ramdump-doc: 0

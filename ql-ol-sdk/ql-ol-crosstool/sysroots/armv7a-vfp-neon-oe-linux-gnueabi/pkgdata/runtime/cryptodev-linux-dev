@@ -1,0 +1,15 @@
+PN: cryptodev-linux
+PV: 1.6
+PR: r0
+PKGV: 1.6
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_cryptodev-linux-dev: A /dev/crypto device driver header file.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_cryptodev-linux-dev: A /dev/crypto device driver header file - Development files
+RDEPENDS_cryptodev-linux-dev: cryptodev-linux (= 1.6-r0)
+SECTION_cryptodev-linux-dev: devel
+PKG_cryptodev-linux-dev: cryptodev-linux-dev
+ALLOW_EMPTY_cryptodev-linux-dev: 1
+FILES_cryptodev-linux-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/cryptodev-linux/*.la /lib/*.la
+FILES_INFO: {"/usr/include/crypto/cryptodev.h": 9109}
+PKGSIZE_cryptodev-linux-dev: 9109

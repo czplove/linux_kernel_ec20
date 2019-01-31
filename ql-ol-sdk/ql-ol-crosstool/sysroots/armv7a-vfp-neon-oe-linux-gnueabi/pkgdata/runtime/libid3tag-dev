@@ -1,0 +1,16 @@
+PN: libid3tag
+PV: 0.15.1b
+PR: r7
+PKGV: 0.15.1b
+PKGR: r7
+LICENSE: GPLv2+
+DESCRIPTION_libid3tag-dev: Library for interacting with ID3 tags in MP3 files.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libid3tag-dev: Library for interacting with ID3 tags in MP3 files - Development files
+RDEPENDS_libid3tag-dev: libid3tag (= 0.15.1b-r7)
+RRECOMMENDS_libid3tag-dev: glibc-dev zlib-dev
+SECTION_libid3tag-dev: devel
+PKG_libid3tag-dev: libid3tag-dev
+ALLOW_EMPTY_libid3tag-dev: 1
+FILES_libid3tag-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libid3tag/*.la /lib/*.la
+FILES_INFO: {"/usr/include/id3tag.h": 10647, "/usr/lib/pkgconfig/id3tag.pc": 202, "/usr/lib/libid3tag.la": 928, "/usr/lib/libid3tag.so": 18}
+PKGSIZE_libid3tag-dev: 11795

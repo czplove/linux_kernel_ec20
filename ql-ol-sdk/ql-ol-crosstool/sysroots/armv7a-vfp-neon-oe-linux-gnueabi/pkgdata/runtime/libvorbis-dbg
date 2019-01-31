@@ -1,0 +1,15 @@
+PN: libvorbis
+PV: 1.3.3
+PR: r1
+PKGV: 1.3.3
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_libvorbis-dbg: General purpose compressed audio format for mid to high quality at fixed variable bitrates..  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libvorbis-dbg: General purpose compressed audio format for mid to high quality at fixed variable bitrates. - Debugging files
+RRECOMMENDS_libvorbis-dbg: libogg-dbg glibc-dbg
+SECTION_libvorbis-dbg: devel
+PKG_libvorbis-dbg: libvorbis-dbg
+ALLOW_EMPTY_libvorbis-dbg: 1
+FILES_libvorbis-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libvorbis/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libvorbis/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libvorbis/libvorbis/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libvorbis.so.0.4.6": 17433, "/usr/lib/.debug/libvorbisenc.so.2.0.9": 101628, "/usr/lib/.debug/libvorbisfile.so.3.3.5": 14470}
+PKGSIZE_libvorbis-dbg: 133531

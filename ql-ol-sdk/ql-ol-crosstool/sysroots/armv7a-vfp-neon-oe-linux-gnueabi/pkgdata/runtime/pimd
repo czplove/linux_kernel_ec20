@@ -1,0 +1,18 @@
+PN: pimd
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION: PIMD - Multicast Routing Daemon
+SUMMARY: pimd version git-r5
+RDEPENDS_pimd: glibc (>= 2.21)
+SECTION: base
+PKG_pimd: pimd
+FILES_pimd: /usr/bin/* /usr/sbin/* /usr/lib/pimd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/pimd /usr/lib/pimd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_pimd: /usr/sbin/pimd
+FILES_INFO: {"/etc/pimd.conf": 5108, "/usr/sbin/pimd": 105784}
+FILERPROVIDES_/usr/sbin/pimd_pimd: elf(buildid) (= 148c8849df08da3f26a1f9e7a6055a412b5e4c13)
+FILERDEPENDSFLIST_pimd: /usr/sbin/pimd
+FILERDEPENDS_/usr/sbin/pimd_pimd: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_pimd: 110892

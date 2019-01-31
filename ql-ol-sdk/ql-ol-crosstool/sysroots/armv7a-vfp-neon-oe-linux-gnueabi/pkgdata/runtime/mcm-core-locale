@@ -1,0 +1,13 @@
+PN: mcm-core
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QTI Mobile Connection Manager Core libraries and Service
+SUMMARY: mcm-core version git-invalidgit-r5
+SECTION: base
+PKG_mcm-core-locale: mcm-core-locale
+FILES_mcm-core-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mcm-core-locale: 0

@@ -1,0 +1,15 @@
+PN: libical
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: LGPLv2.1 | MPL-1
+DESCRIPTION_libical-dbg: iCal and scheduling (RFC 2445, 2446, 2447) library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libical-dbg: iCal and scheduling (RFC 2445, 2446, 2447) library - Debugging files
+RRECOMMENDS_libical-dbg: glibc-dbg
+SECTION_libical-dbg: devel
+PKG_libical-dbg: libical-dbg
+ALLOW_EMPTY_libical-dbg: 1
+FILES_libical-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libical/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libical/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libical/libical/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libicalss.so.0.48.0": 25817, "/usr/lib/.debug/libicalvcal.so.0.48.0": 13402, "/usr/lib/.debug/libical.so.0.48.0": 63646}
+PKGSIZE_libical-dbg: 102865

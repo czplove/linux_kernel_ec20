@@ -1,0 +1,18 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.
+SUMMARY: Utilities and libraries for producing multi-lingual messages
+RDEPENDS_libgettextlib: glibc (>= 2.21)
+SECTION: libs
+PKG_libgettextlib: libgettextlib
+FILES_libgettextlib: /usr/lib/libgettextlib-*.so*
+FILERPROVIDESFLIST_libgettextlib: /usr/lib/libgettextlib-0.19.4.so
+FILES_INFO: {"/usr/lib/libgettextlib-0.19.4.so": 1129812}
+FILERPROVIDES_/usr/lib/libgettextlib-0.19.4.so_libgettextlib: elf(buildid) (= 67a7cb1427aa04a50c46439d9c37973088f4cb3e) libgettextlib-0.19.4.so
+FILERDEPENDSFLIST_libgettextlib: /usr/lib/libgettextlib-0.19.4.so
+FILERDEPENDS_/usr/lib/libgettextlib-0.19.4.so_libgettextlib: libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.9) rtld(GNU_HASH)
+PKGSIZE_libgettextlib: 1129812

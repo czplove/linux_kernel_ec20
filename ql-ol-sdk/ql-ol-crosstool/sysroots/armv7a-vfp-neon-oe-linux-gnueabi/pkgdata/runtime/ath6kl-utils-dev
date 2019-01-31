@@ -1,0 +1,16 @@
+PN: ath6kl-utils
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ath6kl-utils-dev: Qualcomm Atheros ath6kl utils.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ath6kl-utils-dev: ath6kl-utils version git-invalidgit-r2 - Development files
+RDEPENDS_ath6kl-utils-dev: ath6kl-utils (= git-invalidgit-r2)
+RRECOMMENDS_ath6kl-utils-dev: glib-2.0-dev libnl-genl-dev libnl-dev glibc-dev diag-dev
+SECTION_ath6kl-utils-dev: devel
+PKG_ath6kl-utils-dev: ath6kl-utils-dev
+ALLOW_EMPTY_ath6kl-utils-dev: 1
+FILES_ath6kl-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ath6kl-utils/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ath6kl-utils/libtcmd.h": 1717, "/usr/include/ath6kl-utils/testcmd.h": 7498, "/usr/include/ath6kl-utils/tcmdHostInternal.h": 4500, "/usr/include/ath6kl-utils/art_utf_common.h": 1848, "/usr/lib/pkgconfig/ath6kl-utils.pc": 192, "/usr/include/ath6kl-utils/testcmd6174.h": 3137}
+PKGSIZE_ath6kl-utils-dev: 18892

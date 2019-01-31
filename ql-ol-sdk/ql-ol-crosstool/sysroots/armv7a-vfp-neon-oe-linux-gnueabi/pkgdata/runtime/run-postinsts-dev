@@ -1,0 +1,16 @@
+PN: run-postinsts
+PV: 1.0
+PR: r9
+PKGV: 1.0
+PKGR: r9
+LICENSE: MIT
+DESCRIPTION_run-postinsts-dev: Runs postinstall scripts on first boot of the target device.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_run-postinsts-dev: Runs postinstall scripts on first boot of the target device - Development files
+RDEPENDS_run-postinsts-dev: run-postinsts (= 1.0-r9)
+RRECOMMENDS_run-postinsts-dev: initscripts-dev
+SECTION_run-postinsts-dev: devel
+PKG_run-postinsts-dev: run-postinsts-dev
+ALLOW_EMPTY_run-postinsts-dev: 1
+FILES_run-postinsts-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/run-postinsts/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_run-postinsts-dev: 0

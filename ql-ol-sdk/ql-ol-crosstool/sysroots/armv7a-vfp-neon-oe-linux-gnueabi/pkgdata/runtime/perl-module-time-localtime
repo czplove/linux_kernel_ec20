@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-time-localtime: perl module time-localtime
+SUMMARY_perl-module-time-localtime: perl module time-localtime
+RDEPENDS_perl-module-time-localtime: perl-module-strict perl-module-exporter perl-module-vars perl-module-time-tm perl
+SECTION: devel
+PKG_perl-module-time-localtime: perl-module-time-localtime
+FILES_perl-module-time-localtime: /usr/lib/perl/5.20.0/Time/localtime.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Time/localtime.pm": 2350}
+PKGSIZE_perl-module-time-localtime: 2350

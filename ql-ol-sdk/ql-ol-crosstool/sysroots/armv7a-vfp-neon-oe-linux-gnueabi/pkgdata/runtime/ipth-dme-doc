@@ -1,0 +1,13 @@
+PN: ipth-dme
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ipth-dme-doc: IPTH DME tool for FOTA  This package contains documentation.
+SUMMARY_ipth-dme-doc: ipth-dme version git-r1 - Documentation files
+SECTION_ipth-dme-doc: doc
+PKG_ipth-dme-doc: ipth-dme-doc
+FILES_ipth-dme-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ipth-dme-doc: 0

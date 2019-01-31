@@ -1,0 +1,14 @@
+PN: xmllib
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_xmllib-doc: Qualcomm XML Library  This package contains documentation.
+SUMMARY_xmllib-doc: xmllib version git-invalidgit-r9 - Documentation files
+RPROVIDES_xmllib-doc:  xmllib-doc
+SECTION_xmllib-doc: doc
+PKG_xmllib-doc: libxml-doc
+FILES_xmllib-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_xmllib-doc: 0

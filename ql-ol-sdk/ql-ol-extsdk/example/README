@@ -1,0 +1,16 @@
+#--------------------------------------------------------------
+#               Quectel OpenLinux
+#               VER: AG35CEVBMR08A01T4G_OCPU_DSV_BETA0728  
+#				Compiler: belle
+#				Customer: 
+#--------------------------------------------------------------
+
+1. init build environment
+   source xxx/tools/ql_env_init
+
+2. build all projects
+   make
+
+3. build single projects
+   cd xxx
+   make

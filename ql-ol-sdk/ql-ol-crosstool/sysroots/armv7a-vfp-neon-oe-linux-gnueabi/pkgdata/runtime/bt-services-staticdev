@@ -1,0 +1,14 @@
+PN: bt-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_bt-services-staticdev: Bluetooth services required for MDM platforms  This package contains static libraries for software development.
+SUMMARY_bt-services-staticdev: bt-services version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_bt-services-staticdev: bt-services-dev (= git-invalidgit-r1)
+SECTION_bt-services-staticdev: devel
+PKG_bt-services-staticdev: bt-services-staticdev
+FILES_bt-services-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bt-services/*.a
+FILES_INFO: {}
+PKGSIZE_bt-services-staticdev: 0

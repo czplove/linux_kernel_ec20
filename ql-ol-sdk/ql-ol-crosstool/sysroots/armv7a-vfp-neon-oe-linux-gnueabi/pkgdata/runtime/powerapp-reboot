@@ -1,0 +1,16 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION: Powerapp tools
+SUMMARY: powerapp version git-r9
+SECTION: base
+PKG_powerapp-reboot: powerapp-reboot
+FILES_powerapp-reboot: /etc/init.d/reboot
+pkg_postinst_powerapp-reboot:         [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n        update-rc.d $OPT -f reboot remove\n        update-rc.d $OPT reboot start 99 6 .\n
+FILES_INFO: {"/etc/init.d/reboot": 2015}
+FILERDEPENDSFLIST_powerapp-reboot: /etc/init.d/reboot
+FILERDEPENDS_/etc/init.d/reboot_powerapp-reboot: /bin/sh
+PKGSIZE_powerapp-reboot: 2015

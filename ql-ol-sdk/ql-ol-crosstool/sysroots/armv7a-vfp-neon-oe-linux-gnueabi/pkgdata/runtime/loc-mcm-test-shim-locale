@@ -1,0 +1,14 @@
+PN: loc-mcm-test-shim
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Test Library
+SUMMARY: loc-mcm-test-shim version git-invalidgit-r4
+RPROVIDES_loc-mcm-test-shim-locale:  loc-mcm-test-shim-locale
+SECTION: base
+PKG_loc-mcm-test-shim-locale: libloc-mcm-test-shim-locale
+FILES_loc-mcm-test-shim-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-mcm-test-shim-locale: 0

@@ -1,0 +1,13 @@
+PN: gensecimage
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: gensecimage signed appsbootloader image creation 
+SUMMARY: gensecimage version git-invalidgit-r2
+SECTION: base
+PKG_gensecimage-locale: gensecimage-locale
+FILES_gensecimage-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gensecimage-locale: 0

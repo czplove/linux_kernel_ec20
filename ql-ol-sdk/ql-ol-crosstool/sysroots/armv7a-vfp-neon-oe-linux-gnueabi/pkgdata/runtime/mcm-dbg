@@ -1,0 +1,14 @@
+PN: mcm
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcm-dbg: mcm headers  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_mcm-dbg: mcm version git-invalidgit-r3 - Debugging files
+SECTION_mcm-dbg: devel
+PKG_mcm-dbg: mcm-dbg
+ALLOW_EMPTY_mcm-dbg: 1
+FILES_mcm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/mcm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/mcm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/mcm/mcm/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_mcm-dbg: 0

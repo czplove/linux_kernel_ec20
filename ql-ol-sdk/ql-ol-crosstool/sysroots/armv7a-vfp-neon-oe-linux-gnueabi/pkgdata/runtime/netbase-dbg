@@ -1,0 +1,16 @@
+PN: netbase
+PE: 1
+PV: 5.3
+PR: r1
+PKGE: 1
+PKGV: 5.3
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION_netbase-dbg: This package provides the necessary infrastructure for basic TCP/IP based networking  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_netbase-dbg: Basic TCP/IP networking support - Debugging files
+SECTION_netbase-dbg: devel
+PKG_netbase-dbg: netbase-dbg
+ALLOW_EMPTY_netbase-dbg: 1
+FILES_netbase-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/netbase/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/netbase/.debug /usr/lib/matchbox-panel/.debug /usr/lib/netbase/netbase/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_netbase-dbg: 0

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-compress-zlib-extra: perl module io-compress-zlib-extra
+SUMMARY_perl-module-io-compress-zlib-extra: perl module io-compress-zlib-extra
+RDEPENDS_perl-module-io-compress-zlib-extra: perl-module-strict perl-module-io-compress-gzip-constants perl-module-warnings perl-module-bytes perl
+SECTION: devel
+PKG_perl-module-io-compress-zlib-extra: perl-module-io-compress-zlib-extra
+FILES_perl-module-io-compress-zlib-extra: /usr/lib/perl/5.20.0/IO/Compress/Zlib/Extra.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Compress/Zlib/Extra.pm": 5711}
+PKGSIZE_perl-module-io-compress-zlib-extra: 5711

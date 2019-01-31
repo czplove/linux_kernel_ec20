@@ -1,0 +1,21 @@
+PN: dbus-glib
+PV: 0.102
+PR: r0
+PKGV: 0.102
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-glib-dev: GLib bindings for the D-Bus message bus that integrate the D-Bus library with the GLib thread abstraction and main loop.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dbus-glib-dev: High level language (GLib) binding for D-Bus - Development files
+RDEPENDS_dbus-glib-dev: glibc (>= 2.21) expat (>= 2.1.0) dbus-lib (>= 1.8.10) dbus-glib (= 0.102-r0) dbus-glib (>= 0.102) glib-2.0 (>= 2.42.1)
+RPROVIDES_dbus-glib-dev:  dbus-glib-dev
+RRECOMMENDS_dbus-glib-dev: glibc-dev zlib-dev dbus-lib-dev libffi-dev dbus-x11-dev glib-2.0-dev dbus-dev expat-dev
+SECTION_dbus-glib-dev: devel
+PKG_dbus-glib-dev: libdbus-glib-1-dev
+ALLOW_EMPTY_dbus-glib-dev: 1
+FILES_dbus-glib-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dbus-glib/*.la /lib/*.la /usr/lib/dbus-1.0/include /usr/bin/dbus-glib-tool /usr/bin/dbus-binding-tool
+FILERPROVIDESFLIST_dbus-glib-dev: /usr/bin/dbus-binding-tool
+FILES_INFO: {"/usr/include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h": 1384, "/usr/include/dbus-1.0/dbus/dbus-glib-bindings.h": 23000, "/usr/include/dbus-1.0/dbus/dbus-glib-lowlevel.h": 2516, "/usr/lib/libdbus-glib-1.la": 1248, "/usr/lib/pkgconfig/dbus-glib-1.pc": 269, "/usr/lib/libdbus-glib-1.so": 23, "/usr/include/dbus-1.0/dbus/dbus-glib.h": 14707, "/usr/include/dbus-1.0/dbus/dbus-gtype-specialized.h": 8910, "/usr/bin/dbus-binding-tool": 69556}
+FILERPROVIDES_/usr/bin/dbus-binding-tool_dbus-glib-dev: elf(buildid) (= db9d283d000967ee09df52763ee2cbf35709ddd7)
+FILERDEPENDSFLIST_dbus-glib-dev: /usr/bin/dbus-binding-tool
+FILERDEPENDS_/usr/bin/dbus-binding-tool_dbus-glib-dev: libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libdbus-glib-1.so.2 libexpat.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_dbus-glib-dev: 121613

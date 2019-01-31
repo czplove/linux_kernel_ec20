@@ -1,0 +1,14 @@
+PN: ddclient
+PV: 3.8.1
+PR: r5
+PKGV: 3.8.1
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_ddclient-staticdev: DDClient is a perl based dynamic DNS Utility  This package contains static libraries for software development.
+SUMMARY_ddclient-staticdev: ddclient version 3.8.1-r5 - Development files (Static Libraries)
+RDEPENDS_ddclient-staticdev: ddclient-dev (= 3.8.1-r5)
+SECTION_ddclient-staticdev: devel
+PKG_ddclient-staticdev: ddclient-staticdev
+FILES_ddclient-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ddclient/*.a
+FILES_INFO: {}
+PKGSIZE_ddclient-staticdev: 0

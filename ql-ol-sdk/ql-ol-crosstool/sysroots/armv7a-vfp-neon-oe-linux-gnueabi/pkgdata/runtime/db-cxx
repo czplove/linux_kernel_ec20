@@ -1,0 +1,18 @@
+PN: db
+PV: 6.0.30
+PR: r0
+PKGV: 6.0.30
+PKGR: r0
+LICENSE: AGPL-3.0
+DESCRIPTION: Berkeley Database v6.
+SUMMARY: Berkeley Database v6
+RDEPENDS_db-cxx: libstdc++ (>= 4.9.2) glibc (>= 2.21) libgcc (>= 4.9.2)
+SECTION: libs
+PKG_db-cxx: db-cxx
+FILES_db-cxx: /usr/lib/*cxx*so
+FILERPROVIDESFLIST_db-cxx: /usr/lib/libdb@underscore@cxx-6.0.so
+FILES_INFO: {"/usr/lib/libdb_cxx.so": 16, "/usr/lib/libdb_cxx-6.so": 16, "/usr/lib/libdb_cxx-6.0.so": 1208812}
+FILERPROVIDES_/usr/lib/libdb@underscore@cxx-6.0.so_db-cxx: elf(buildid) (= cbf0ba2da58b7b9a967af662aaca58e1b86b476c) libdb_cxx-6.0.so
+FILERDEPENDSFLIST_db-cxx: /usr/lib/libdb@underscore@cxx-6.0.so
+FILERDEPENDS_/usr/lib/libdb@underscore@cxx-6.0.so_db-cxx: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.9) rtld(GNU_HASH)
+PKGSIZE_db-cxx: 1208844

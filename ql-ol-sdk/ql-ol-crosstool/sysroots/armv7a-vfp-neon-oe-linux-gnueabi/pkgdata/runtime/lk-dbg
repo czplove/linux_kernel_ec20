@@ -1,0 +1,14 @@
+PN: lk
+PV: git
+PR: r15
+PKGV: git
+PKGR: r15
+LICENSE: MIT
+DESCRIPTION_lk-dbg: Little Kernel bootloader  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lk-dbg: lk version git-r15 - Debugging files
+SECTION_lk-dbg: devel
+PKG_lk-dbg: lk-dbg
+ALLOW_EMPTY_lk-dbg: 1
+FILES_lk-dbg: /boot/.debug
+FILES_INFO: {"/boot/.debug/appsboot.mbn": 74959}
+PKGSIZE_lk-dbg: 74959

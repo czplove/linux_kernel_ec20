@@ -1,0 +1,14 @@
+PN: pdc-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_pdc-daemon-staticdev: Persistent device config Daemon  This package contains static libraries for software development.
+SUMMARY_pdc-daemon-staticdev: pdc-daemon version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_pdc-daemon-staticdev: pdc-daemon-dev (= git-invalidgit-r1)
+SECTION_pdc-daemon-staticdev: devel
+PKG_pdc-daemon-staticdev: pdc-daemon-staticdev
+FILES_pdc-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/pdc-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_pdc-daemon-staticdev: 0

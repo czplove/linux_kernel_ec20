@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-cp1251: character map for cp1251 encoding
+SUMMARY_glibc-charmap-cp1251: character map for cp1251 encoding
+SECTION: base
+PKG_glibc-charmap-cp1251: glibc-charmap-cp1251
+FILES_glibc-charmap-cp1251: /usr/share/i18n/charmaps/CP1251.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/CP1251.gz": 2866}
+PKGSIZE_glibc-charmap-cp1251: 2866

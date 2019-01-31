@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-lb-lu: locale definition for lb-lu
+SUMMARY_glibc-localedata-lb-lu: locale definition for lb-lu
+RDEPENDS_glibc-localedata-lb-lu: glibc-localedata-de-de glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-lb-lu: glibc-localedata-lb-lu
+FILES_glibc-localedata-lb-lu: /usr/share/i18n/locales/lb_LU
+FILES_INFO: {"/usr/share/i18n/locales/lb_LU": 6049}
+PKGSIZE_glibc-localedata-lb-lu: 6049

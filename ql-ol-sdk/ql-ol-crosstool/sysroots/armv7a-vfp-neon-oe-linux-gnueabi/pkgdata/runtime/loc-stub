@@ -1,0 +1,19 @@
+PN: loc-stub
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: GPS Loc Stub
+SUMMARY: loc-stub version git-r1
+RDEPENDS_loc-stub: libstdc++ (>= 4.9.2) glibc (>= 2.21) libgcc (>= 4.9.2) system-core-liblog (>= git) glib-2.0 (>= 2.42.1)
+RPROVIDES_loc-stub:  loc-stub
+SECTION: base
+PKG_loc-stub: libloc-stub1
+FILES_loc-stub: /usr/bin/* /usr/sbin/* /usr/lib/loc-stub/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/loc-stub /usr/lib/loc-stub/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_loc-stub: /usr/lib/libloc@underscore@stub.so.1.0.0
+FILES_INFO: {"/usr/lib/libloc_stub.so.1": 4596}
+FILERPROVIDES_/usr/lib/libloc@underscore@stub.so.1.0.0_loc-stub: elf(buildid) (= b72b46c41efb04fbb982133ef67003dd36e08464) libloc_stub.so.1
+FILERDEPENDSFLIST_loc-stub: /usr/lib/libloc@underscore@stub.so.1.0.0
+FILERDEPENDS_/usr/lib/libloc@underscore@stub.so.1.0.0_loc-stub: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_loc-stub: 4596

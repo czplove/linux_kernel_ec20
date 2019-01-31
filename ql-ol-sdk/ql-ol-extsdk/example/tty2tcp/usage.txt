@@ -1,0 +1,16 @@
+1, Use following cmd to build:
+/MDM9x07/OpenLinux/SDK/OpenLinux_SDK_V1.0$ sudo ./build.sh new example/tty2tcp
+
+2, Output:
+/MDM9x07/OpenLinux/SDK/OpenLinux_SDK_V1.0/build/
+AppImageBinV01
+
+3, usage:
+//s:9000			create tcp socket server, and wait client connect
+//s:rild-dtmf        		create local socket server, and wait client connect
+//s:/dev/ttyUSB0		create virtual device file /dev/ttyUSB0, and wait client open
+//c:192.168.10.138:9000        	connect tcp socket server 192.168.10.138:9000
+//c:rild-dtmf          		connect local socket server rild-dtmf
+//c:/dev/ttyUSB0         	open device file /dev/ttyUSB0
+//c:fd                         	open fd, like 0 ~ stdin, 1 ~ stdout
+./AppImageBinV01 -c "220.180.239.212:8557" -c 1

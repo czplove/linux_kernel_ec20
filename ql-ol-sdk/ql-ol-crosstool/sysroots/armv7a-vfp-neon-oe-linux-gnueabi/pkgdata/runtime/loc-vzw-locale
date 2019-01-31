@@ -1,0 +1,14 @@
+PN: loc-vzw
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location vzw
+SUMMARY: loc-vzw version git-invalidgit-r1
+RPROVIDES_loc-vzw-locale:  loc-vzw-locale
+SECTION: base
+PKG_loc-vzw-locale: libloc-ext-locale
+FILES_loc-vzw-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-vzw-locale: 0

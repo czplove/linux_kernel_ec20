@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm12712: gconv module for character set ibm12712
+SUMMARY_glibc-gconv-ibm12712: gconv module for character set ibm12712
+RDEPENDS_glibc-gconv-ibm12712: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm12712: glibc-gconv-ibm12712
+FILES_glibc-gconv-ibm12712: /usr/lib/gconv/IBM12712.so
+FILES_INFO: {"/usr/lib/gconv/IBM12712.so": 9584}
+PKGSIZE_glibc-gconv-ibm12712: 9584

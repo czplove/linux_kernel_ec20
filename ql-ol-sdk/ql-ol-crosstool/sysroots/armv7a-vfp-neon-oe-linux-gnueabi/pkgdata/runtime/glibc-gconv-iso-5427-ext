@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-5427-ext: gconv module for character set iso-5427-ext
+SUMMARY_glibc-gconv-iso-5427-ext: gconv module for character set iso-5427-ext
+RDEPENDS_glibc-gconv-iso-5427-ext: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso-5427-ext: glibc-gconv-iso-5427-ext
+FILES_glibc-gconv-iso-5427-ext: /usr/lib/gconv/ISO_5427-EXT.so
+FILES_INFO: {"/usr/lib/gconv/ISO_5427-EXT.so": 9588}
+PKGSIZE_glibc-gconv-iso-5427-ext: 9588

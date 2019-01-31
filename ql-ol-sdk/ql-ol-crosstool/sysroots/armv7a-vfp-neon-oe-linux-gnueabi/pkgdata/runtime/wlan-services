@@ -1,0 +1,24 @@
+PN: wlan-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: WLAN Services required for QCACLD
+SUMMARY: wlan-services version git-invalidgit-r1
+RDEPENDS_wlan-services: libstdc++ (>= 4.9.2) libgcc (>= 4.9.2) glibc (>= 2.21) data (>= git-invalidgit)
+RRECOMMENDS_wlan-services:  update-rc.d
+SECTION: base
+PKG_wlan-services: wlan-services
+FILES_wlan-services: /usr/bin/* /usr/sbin/* /usr/lib/wlan-services/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/wlan-services /usr/lib/wlan-services/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_wlan-services: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_wlan_services start 90 2 3 4 5 . stop 10 0 1 6 .\nfi\n
+pkg_postrm_wlan-services: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_wlan_services remove\nfi\n
+pkg_preinst_wlan-services: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_wlan_services" ]; then\n\t/etc/init.d/start_wlan_services stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_wlan_services remove\nfi\n
+pkg_prerm_wlan-services: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_wlan_services stop\nfi\n
+FILERPROVIDESFLIST_wlan-services: /usr/sbin/wlan@underscore@services
+FILES_INFO: {"/usr/sbin/wlan_services": 13048, "/etc/init.d/start_wlan_services": 1432}
+FILERPROVIDES_/usr/sbin/wlan@underscore@services_wlan-services: elf(buildid) (= c9885dfaa48e195a984f6ab6f2d103dff821ea1b)
+FILERDEPENDSFLIST_wlan-services: /usr/sbin/wlan@underscore@services /etc/init.d/start@underscore@wlan@underscore@services
+FILERDEPENDS_/usr/sbin/wlan@underscore@services_wlan-services: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqcmap_client.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/start@underscore@wlan@underscore@services_wlan-services: /bin/sh
+PKGSIZE_wlan-services: 14480

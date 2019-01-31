@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-cgi: perl module cgi
+SUMMARY_perl-module-cgi: perl module cgi
+RDEPENDS_perl-module-cgi: perl-module-cgi-cookie perl-module-text-parsewords perl-module-carp perl-module-if perl-module-cgi-util perl-module-config perl-module-overload perl perl-module-fcntl perl-module-constant
+SECTION: devel
+PKG_perl-module-cgi: perl-module-cgi
+FILES_perl-module-cgi: /usr/lib/perl/5.20.0/CGI.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/CGI.pm": 261357}
+PKGSIZE_perl-module-cgi: 261357

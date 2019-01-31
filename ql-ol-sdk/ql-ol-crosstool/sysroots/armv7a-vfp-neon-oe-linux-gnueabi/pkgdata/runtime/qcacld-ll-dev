@@ -1,0 +1,16 @@
+PN: qcacld-ll
+PV: git
+PR: r7-3.18.20
+PKGV: git
+PKGR: r7-3.18.20
+LICENSE: ISC
+DESCRIPTION_qcacld-ll-dev: Qualcomm Atheros WLAN CLD driver  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qcacld-ll-dev: qcacld-ll version git-r7-3.18.20 - Development files
+RDEPENDS_qcacld-ll-dev: qcacld-ll (= git-r7-3.18.20)
+RRECOMMENDS_qcacld-ll-dev: kernel-3.18.20-dev rtsp-alg-dev kernel-module-wlan-dev
+SECTION_qcacld-ll-dev: devel
+PKG_qcacld-ll-dev: qcacld-ll-dev
+ALLOW_EMPTY_qcacld-ll-dev: 1
+FILES_qcacld-ll-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qcacld-ll/*.la /lib/*.la
+FILES_INFO: {"/usr/include/qcacld/wlan_nlink_common.h": 7742}
+PKGSIZE_qcacld-ll-dev: 7742

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-lg-ug: locale definition for lg-ug
+SUMMARY_glibc-localedata-lg-ug: locale definition for lg-ug
+RDEPENDS_glibc-localedata-lg-ug: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-lg-ug: glibc-localedata-lg-ug
+FILES_glibc-localedata-lg-ug: /usr/share/i18n/locales/lg_UG
+FILES_INFO: {"/usr/share/i18n/locales/lg_UG": 10852}
+PKGSIZE_glibc-localedata-lg-ug: 10852

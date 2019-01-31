@@ -1,0 +1,13 @@
+PN: minidlna
+PV: 1.1.3
+PR: r5
+PKGV: 1.1.3
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients..
+SUMMARY: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients.
+SECTION: base
+PKG_minidlna-locale: minidlna-locale
+FILES_minidlna-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_minidlna-locale: 0

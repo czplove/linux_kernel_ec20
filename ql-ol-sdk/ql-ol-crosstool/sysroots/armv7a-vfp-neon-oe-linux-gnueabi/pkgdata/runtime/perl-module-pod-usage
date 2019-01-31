@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-usage: perl module pod-usage
+SUMMARY_perl-module-pod-usage: perl module pod-usage
+RDEPENDS_perl-module-pod-usage: perl-module-carp perl-module-config perl-module-vars perl-module-file-spec perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-pod-usage: perl-module-pod-usage
+FILES_perl-module-pod-usage: /usr/lib/perl/5.20.0/Pod/Usage.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Usage.pm": 26527}
+PKGSIZE_perl-module-pod-usage: 26527

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-uncompress-anyuncompress: perl module io-uncompress-anyuncompress
+SUMMARY_perl-module-io-uncompress-anyuncompress: perl module io-uncompress-anyuncompress
+RDEPENDS_perl-module-io-uncompress-anyuncompress: perl-module-io-compress-base-common perl-module-warnings perl perl-module-exporter perl-module-bytes perl-module-strict perl-module-io-uncompress-base
+SECTION: devel
+PKG_perl-module-io-uncompress-anyuncompress: perl-module-io-uncompress-anyuncompress
+FILES_perl-module-io-uncompress-anyuncompress: /usr/lib/perl/5.20.0/IO/Uncompress/AnyUncompress.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Uncompress/AnyUncompress.pm": 29429}
+PKGSIZE_perl-module-io-uncompress-anyuncompress: 29429

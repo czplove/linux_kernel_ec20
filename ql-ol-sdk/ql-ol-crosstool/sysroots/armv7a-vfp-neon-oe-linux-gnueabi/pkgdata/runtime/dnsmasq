@@ -1,0 +1,20 @@
+PN: dnsmasq
+PV: 2.73
+PR: r2
+PKGV: 2.73
+PKGR: r2
+LICENSE_dnsmasq: GPL
+DESCRIPTION: Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.
+SUMMARY: dnsmasq version 2.73-r2
+RDEPENDS_dnsmasq: glibc (>= 2.21)
+SECTION: console/network
+PKG_dnsmasq: dnsmasq
+FILES_dnsmasq: /usr/bin/* /usr/sbin/* /usr/lib/dnsmasq/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/dnsmasq /usr/lib/dnsmasq/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_dnsmasq: /usr/bin/dnsmasq
+FILES_INFO: {"/usr/bin/dnsmasq": 245132, "/etc/init.d/dnsmasq": 933, "/bin/dnsmasq_script.sh": 1777, "/etc/dnsmasq.conf": 11496}
+FILERPROVIDES_/usr/bin/dnsmasq_dnsmasq: elf(buildid) (= 90ee774f12cf706e8c1c56470b14faeaf8643027)
+FILERDEPENDSFLIST_dnsmasq: /bin/dnsmasq@underscore@script.sh /etc/init.d/dnsmasq /usr/bin/dnsmasq
+FILERDEPENDS_/bin/dnsmasq@underscore@script.sh_dnsmasq: /bin/sh
+FILERDEPENDS_/etc/init.d/dnsmasq_dnsmasq: /bin/sh
+FILERDEPENDS_/usr/bin/dnsmasq_dnsmasq: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.9) rtld(GNU_HASH)
+PKGSIZE_dnsmasq: 259338

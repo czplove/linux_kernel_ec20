@@ -1,0 +1,19 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE_libgudev: LGPLv2.1+
+DESCRIPTION: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.
+SUMMARY: /dev/ and hotplug management daemon
+RDEPENDS_libgudev: libudev (>= 182) libffi (>= 3.2.1) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RPROVIDES_libgudev:  libgudev
+SECTION: base
+PKG_libgudev: libgudev-1.0-0
+FILES_libgudev: /lib/libgudev*.so.* /usr/lib/libgudev*.so.*
+FILERPROVIDESFLIST_libgudev: /lib/libgudev-1.0.so.0.1.1
+FILES_INFO: {"/lib/libgudev-1.0.so.0": 31220}
+FILERPROVIDES_/lib/libgudev-1.0.so.0.1.1_libgudev: elf(buildid) (= ce6d4929ae29abd4137f37a9a167a7bd849bcaa5) libgudev-1.0.so.0
+FILERDEPENDSFLIST_libgudev: /lib/libgudev-1.0.so.0.1.1
+FILERDEPENDS_/lib/libgudev-1.0.so.0.1.1_libgudev: libc.so.6 libc.so.6(GLIBC_2.4) libffi.so.6 libglib-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 librt.so.1 libudev.so.0 rtld(GNU_HASH)
+PKGSIZE_libgudev: 31220

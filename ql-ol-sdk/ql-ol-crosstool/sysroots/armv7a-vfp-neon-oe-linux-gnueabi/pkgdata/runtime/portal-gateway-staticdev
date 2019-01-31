@@ -1,0 +1,14 @@
+PN: portal-gateway
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_portal-gateway-staticdev: Quectel Function Daemon  This package contains static libraries for software development.
+SUMMARY_portal-gateway-staticdev: portal-gateway version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_portal-gateway-staticdev: portal-gateway-dev (= git-invalidgit-r1)
+SECTION_portal-gateway-staticdev: devel
+PKG_portal-gateway-staticdev: portal-gateway-staticdev
+FILES_portal-gateway-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/portal-gateway/*.a
+FILES_INFO: {}
+PKGSIZE_portal-gateway-staticdev: 0

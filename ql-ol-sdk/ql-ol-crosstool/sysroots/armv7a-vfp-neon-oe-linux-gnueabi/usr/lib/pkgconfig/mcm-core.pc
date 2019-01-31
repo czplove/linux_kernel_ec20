@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: mcm-core
+Description: mcm-core packages
+Version: 1.0.0
+Libs: -L${libdir} -lmcm -lmcmipc
+Cflags: -I${includedir}/mcm-core

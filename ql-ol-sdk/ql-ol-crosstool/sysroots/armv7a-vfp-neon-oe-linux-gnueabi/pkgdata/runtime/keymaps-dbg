@@ -1,0 +1,14 @@
+PN: keymaps
+PV: 1.0
+PR: r31
+PKGV: 1.0
+PKGR: r31
+LICENSE: GPLv2
+DESCRIPTION_keymaps-dbg: Keymaps and initscript to set the keymap on bootup.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_keymaps-dbg: Keyboard maps - Debugging files
+SECTION_keymaps-dbg: devel
+PKG_keymaps-dbg: keymaps-dbg
+ALLOW_EMPTY_keymaps-dbg: 1
+FILES_keymaps-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/keymaps/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/keymaps/.debug /usr/lib/matchbox-panel/.debug /usr/lib/keymaps/keymaps/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_keymaps-dbg: 0

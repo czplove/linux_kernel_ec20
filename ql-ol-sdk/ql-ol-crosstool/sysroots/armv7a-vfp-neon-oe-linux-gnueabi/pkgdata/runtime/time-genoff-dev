@@ -1,0 +1,17 @@
+PN: time-genoff
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_time-genoff-dev: Time Genoff Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_time-genoff-dev: time-genoff version git-invalidgit-r0 - Development files
+RDEPENDS_time-genoff-dev: time-genoff (= git-invalidgit-r0)
+RPROVIDES_time-genoff-dev:  time-genoff-dev
+RRECOMMENDS_time-genoff-dev: glibc-dev
+SECTION_time-genoff-dev: devel
+PKG_time-genoff-dev: libtime-genoff-dev
+ALLOW_EMPTY_time-genoff-dev: 1
+FILES_time-genoff-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/time-genoff/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libtime_genoff.so": 23, "/usr/lib/libtime_genoff.la": 943, "/usr/lib/pkgconfig/time-genoff.pc": 204}
+PKGSIZE_time-genoff-dev: 1170

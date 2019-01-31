@@ -1,0 +1,14 @@
+PN: ftm
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ftm-staticdev: Qualcomm Technologies ftmdaemon  This package contains static libraries for software development.
+SUMMARY_ftm-staticdev: ftm version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_ftm-staticdev: ftm-dev (= git-invalidgit-r1)
+SECTION_ftm-staticdev: devel
+PKG_ftm-staticdev: ftm-staticdev
+FILES_ftm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ftm/*.a
+FILES_INFO: {}
+PKGSIZE_ftm-staticdev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ha-ng: locale definition for ha-ng
+SUMMARY_glibc-localedata-ha-ng: locale definition for ha-ng
+RDEPENDS_glibc-localedata-ha-ng: glibc-localedata-en-ng glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ha-ng: glibc-localedata-ha-ng
+FILES_glibc-localedata-ha-ng: /usr/share/i18n/locales/ha_NG
+FILES_INFO: {"/usr/share/i18n/locales/ha_NG": 8783}
+PKGSIZE_glibc-localedata-ha-ng: 8783

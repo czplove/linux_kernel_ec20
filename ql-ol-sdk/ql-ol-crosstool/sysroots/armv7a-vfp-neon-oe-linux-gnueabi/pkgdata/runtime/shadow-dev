@@ -1,0 +1,16 @@
+PN: shadow
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: BSD | Artistic-1.0
+DESCRIPTION_shadow-dev: Tools to change and administer password and group data.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_shadow-dev: Tools to change and administer password and group data - Development files
+RDEPENDS_shadow-dev: shadow (= 4.2.1-r0)
+RRECOMMENDS_shadow-dev: glibc-dev base-passwd-dev update-alternatives-opkg-dev shadow-securetty-dev
+SECTION_shadow-dev: devel
+PKG_shadow-dev: shadow-dev
+ALLOW_EMPTY_shadow-dev: 1
+FILES_shadow-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/shadow/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_shadow-dev: 0

@@ -1,0 +1,13 @@
+PN: shadow-securetty
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION_shadow-securetty-doc: Provider of the machine specific securetty file.  This package contains documentation.
+SUMMARY_shadow-securetty-doc: Provider of the machine specific securetty file - Documentation files
+SECTION_shadow-securetty-doc: doc
+PKG_shadow-securetty-doc: shadow-securetty-doc
+FILES_shadow-securetty-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_shadow-securetty-doc: 0

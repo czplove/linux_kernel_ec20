@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm1124: character map for ibm1124 encoding
+SUMMARY_glibc-charmap-ibm1124: character map for ibm1124 encoding
+SECTION: base
+PKG_glibc-charmap-ibm1124: glibc-charmap-ibm1124
+FILES_glibc-charmap-ibm1124: /usr/share/i18n/charmaps/IBM1124.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM1124.gz": 2227}
+PKGSIZE_glibc-charmap-ibm1124: 2227

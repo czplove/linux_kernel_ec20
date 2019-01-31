@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-dz-bt: locale definition for dz-bt
+SUMMARY_glibc-localedata-dz-bt: locale definition for dz-bt
+RDEPENDS_glibc-localedata-dz-bt: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-dz-bt: glibc-localedata-dz-bt
+FILES_glibc-localedata-dz-bt: /usr/share/i18n/locales/dz_BT
+FILES_INFO: {"/usr/share/i18n/locales/dz_BT": 33329}
+PKGSIZE_glibc-localedata-dz-bt: 33329

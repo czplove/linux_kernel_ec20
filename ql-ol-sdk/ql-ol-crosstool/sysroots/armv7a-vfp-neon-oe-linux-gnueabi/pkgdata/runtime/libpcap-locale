@@ -1,0 +1,13 @@
+PN: libpcap
+PV: 1.6.2
+PR: r0
+PKGV: 1.6.2
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: Libpcap provides a portable framework for low-level network monitoring.  Libpcap can provide network statistics collection, security monitoring and network debugging.
+SUMMARY: Interface for user-level network packet capture
+SECTION: libs/network
+PKG_libpcap-locale: libpcap-locale
+FILES_libpcap-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libpcap-locale: 0

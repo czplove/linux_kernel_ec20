@@ -1,0 +1,14 @@
+PN: conntrack-tools
+PV: 1.0.1
+PR: r1
+PKGV: 1.0.1
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION_conntrack-tools-staticdev: The conntrack-tools are a set of free software tools for GNU/Linux that allow system administrators interact, from user-space, with the in-kernel Connection Tracking System.  This package contains static libraries for software development.
+SUMMARY_conntrack-tools-staticdev: Tools for managing kernel packet filtering capabilities - Development files (Static Libraries)
+RDEPENDS_conntrack-tools-staticdev: conntrack-tools-dev (= 1.0.1-r1)
+SECTION_conntrack-tools-staticdev: devel
+PKG_conntrack-tools-staticdev: conntrack-tools-staticdev
+FILES_conntrack-tools-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/conntrack-tools/*.a
+FILES_INFO: {}
+PKGSIZE_conntrack-tools-staticdev: 0

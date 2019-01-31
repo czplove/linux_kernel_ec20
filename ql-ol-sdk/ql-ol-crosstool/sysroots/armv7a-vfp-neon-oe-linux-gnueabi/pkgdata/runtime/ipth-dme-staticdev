@@ -1,0 +1,14 @@
+PN: ipth-dme
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ipth-dme-staticdev: IPTH DME tool for FOTA  This package contains static libraries for software development.
+SUMMARY_ipth-dme-staticdev: ipth-dme version git-r1 - Development files (Static Libraries)
+RDEPENDS_ipth-dme-staticdev: ipth-dme-dev (= git-r1)
+SECTION_ipth-dme-staticdev: devel
+PKG_ipth-dme-staticdev: ipth-dme-staticdev
+FILES_ipth-dme-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ipth-dme/*.a
+FILES_INFO: {}
+PKGSIZE_ipth-dme-staticdev: 0

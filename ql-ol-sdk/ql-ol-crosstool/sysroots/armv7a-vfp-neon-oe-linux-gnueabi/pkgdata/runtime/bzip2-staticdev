@@ -1,0 +1,14 @@
+PN: bzip2
+PV: 1.0.6
+PR: r5
+PKGV: 1.0.6
+PKGR: r5
+LICENSE: bzip2
+DESCRIPTION_bzip2-staticdev: bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.  This package contains static libraries for software development.
+SUMMARY_bzip2-staticdev: Very high-quality data compression program - Development files (Static Libraries)
+RDEPENDS_bzip2-staticdev: bzip2-dev (= 1.0.6-r5)
+SECTION_bzip2-staticdev: devel
+PKG_bzip2-staticdev: bzip2-staticdev
+FILES_bzip2-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/bzip2/*.a
+FILES_INFO: {}
+PKGSIZE_bzip2-staticdev: 0

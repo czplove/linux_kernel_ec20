@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-time-gmtime: perl module time-gmtime
+SUMMARY_perl-module-time-gmtime: perl module time-gmtime
+RDEPENDS_perl-module-time-gmtime: perl-module-strict perl-module-exporter perl-module-vars perl-module-time-tm perl
+SECTION: devel
+PKG_perl-module-time-gmtime: perl-module-time-gmtime
+FILES_perl-module-time-gmtime: /usr/lib/perl/5.20.0/Time/gmtime.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Time/gmtime.pm": 2533}
+PKGSIZE_perl-module-time-gmtime: 2533

@@ -1,0 +1,13 @@
+PN: start-scripts-firmware-links
+PV: 1.0
+PR: r5
+PKGV: 1.0
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_start-scripts-firmware-links-doc: Start up script for firmware links  This package contains documentation.
+SUMMARY_start-scripts-firmware-links-doc: start-scripts-firmware-links version 1.0-r5 - Documentation files
+SECTION_start-scripts-firmware-links-doc: doc
+PKG_start-scripts-firmware-links-doc: start-scripts-firmware-links-doc
+FILES_start-scripts-firmware-links-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-firmware-links-doc: 0

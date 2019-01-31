@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ks-in+devanagari: locale definition for ks-in+devanagari
+SUMMARY_glibc-localedata-ks-in+devanagari: locale definition for ks-in+devanagari
+RDEPENDS_glibc-localedata-ks-in+devanagari: glibc-localedata-ks-in glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-ks-in+devanagari: glibc-localedata-ks-in+devanagari
+FILES_glibc-localedata-ks-in+devanagari: /usr/share/i18n/locales/ks_IN@devanagari
+FILES_INFO: {"/usr/share/i18n/locales/ks_IN@devanagari": 5910}
+PKGSIZE_glibc-localedata-ks-in+devanagari: 5910

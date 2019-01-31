@@ -1,0 +1,13 @@
+PN: tinyproxy
+PV: 1.8.3
+PR: r0
+PKGV: 1.8.3
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_tinyproxy-doc: TinyProxy  This package contains documentation.
+SUMMARY_tinyproxy-doc: tinyproxy version 1.8.3-r0 - Documentation files
+SECTION_tinyproxy-doc: doc
+PKG_tinyproxy-doc: tinyproxy-doc
+FILES_tinyproxy-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_tinyproxy-doc: 0

@@ -1,0 +1,14 @@
+PN: init-ifupdown
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: GPLv2
+DESCRIPTION_init-ifupdown-dbg: This package provides high level tools to configure network interfaces  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_init-ifupdown-dbg: Basic TCP/IP networking init scripts and configuration files - Debugging files
+SECTION_init-ifupdown-dbg: devel
+PKG_init-ifupdown-dbg: init-ifupdown-dbg
+ALLOW_EMPTY_init-ifupdown-dbg: 1
+FILES_init-ifupdown-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/init-ifupdown/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/init-ifupdown/.debug /usr/lib/matchbox-panel/.debug /usr/lib/init-ifupdown/init-ifupdown/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_init-ifupdown-dbg: 0

@@ -1,0 +1,13 @@
+PN: ql-common-tools
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Common Tools
+SUMMARY: ql-common-tools version git-invalidgit-r01
+SECTION: base
+PKG_ql-common-tools-locale: ql-common-tools-locale
+FILES_ql-common-tools-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ql-common-tools-locale: 0

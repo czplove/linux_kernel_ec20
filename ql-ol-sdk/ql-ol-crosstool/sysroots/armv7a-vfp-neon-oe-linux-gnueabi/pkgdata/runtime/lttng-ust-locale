@@ -1,0 +1,15 @@
+PN: lttng-ust
+PE: 2
+PV: 2.6.0
+PR: r2
+PKGE: 2
+PKGV: 2.6.0
+PKGR: r2
+LICENSE: LGPLv2.1+ & MIT & GPLv2
+DESCRIPTION: The LTTng UST 2.x package contains the userspace tracer library to trace userspace codes.
+SUMMARY: Linux Trace Toolkit Userspace Tracer 2.x
+SECTION: base
+PKG_lttng-ust-locale: lttng-ust-locale
+FILES_lttng-ust-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lttng-ust-locale: 0

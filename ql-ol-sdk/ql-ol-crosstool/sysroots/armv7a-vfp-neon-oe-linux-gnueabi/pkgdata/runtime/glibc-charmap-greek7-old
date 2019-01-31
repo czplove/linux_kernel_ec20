@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-greek7-old: character map for greek7-old encoding
+SUMMARY_glibc-charmap-greek7-old: character map for greek7-old encoding
+SECTION: base
+PKG_glibc-charmap-greek7-old: glibc-charmap-greek7-old
+FILES_glibc-charmap-greek7-old: /usr/share/i18n/charmaps/GREEK7-OLD.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/GREEK7-OLD.gz": 1617}
+PKGSIZE_glibc-charmap-greek7-old: 1617

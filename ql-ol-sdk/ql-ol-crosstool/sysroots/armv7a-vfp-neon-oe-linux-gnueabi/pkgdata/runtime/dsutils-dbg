@@ -1,0 +1,16 @@
+PN: dsutils
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dsutils-dbg: Qualcomm Data DSutils Module  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_dsutils-dbg: dsutils version git-invalidgit-r7 - Debugging files
+RPROVIDES_dsutils-dbg:  dsutils-dbg
+RRECOMMENDS_dsutils-dbg: time-genoff-dbg glib-2.0-dbg diag-dbg glibc-dbg
+SECTION_dsutils-dbg: devel
+PKG_dsutils-dbg: libdsutils-dbg
+ALLOW_EMPTY_dsutils-dbg: 1
+FILES_dsutils-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dsutils/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dsutils/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dsutils/dsutils/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libdsutils.so.1.0.0": 127440}
+PKGSIZE_dsutils-dbg: 127440

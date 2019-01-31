@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-or: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the or locale.
+SUMMARY_glib-2.0-locale-or: A general-purpose utility library - or translations
+RPROVIDES_glib-2.0-locale-or: glib-2.0-locale or-translation glib-2.0-locale-or
+RRECOMMENDS_glib-2.0-locale-or: virtual-locale-or
+SECTION: libs
+PKG_glib-2.0-locale-or: libglib-2.0-locale-or
+FILES_glib-2.0-locale-or: /usr/share/locale/or
+FILES_INFO: {"/usr/share/locale/or/LC_MESSAGES/glib20.mo": 152122}
+PKGSIZE_glib-2.0-locale-or: 152122

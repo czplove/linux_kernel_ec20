@@ -1,0 +1,13 @@
+PN: fs-scrub-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Daemon to perform scrubbing
+SUMMARY: fs-scrub-daemon version git-invalidgit-r1
+SECTION: base
+PKG_fs-scrub-daemon-locale: fs-scrub-daemon-locale
+FILES_fs-scrub-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_fs-scrub-daemon-locale: 0

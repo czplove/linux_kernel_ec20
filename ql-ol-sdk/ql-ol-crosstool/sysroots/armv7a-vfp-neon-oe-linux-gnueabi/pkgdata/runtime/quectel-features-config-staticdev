@@ -1,0 +1,14 @@
+PN: quectel-features-config
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-features-config-staticdev: Quectel Features Config  This package contains static libraries for software development.
+SUMMARY_quectel-features-config-staticdev: quectel-features-config version git-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-features-config-staticdev: quectel-features-config-dev (= git-r1)
+SECTION_quectel-features-config-staticdev: devel
+PKG_quectel-features-config-staticdev: quectel-features-config-staticdev
+FILES_quectel-features-config-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-features-config/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-staticdev: 0

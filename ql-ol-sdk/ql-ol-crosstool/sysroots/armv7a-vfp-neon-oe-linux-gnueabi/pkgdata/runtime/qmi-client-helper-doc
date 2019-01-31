@@ -1,0 +1,14 @@
+PN: qmi-client-helper
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-client-helper-doc: QMI Client Helper Module  This package contains documentation.
+SUMMARY_qmi-client-helper-doc: qmi-client-helper version git-invalidgit-r0 - Documentation files
+RPROVIDES_qmi-client-helper-doc:  qmi-client-helper-doc
+SECTION_qmi-client-helper-doc: doc
+PKG_qmi-client-helper-doc: libqmi-client-helper-doc
+FILES_qmi-client-helper-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qmi-client-helper-doc: 0

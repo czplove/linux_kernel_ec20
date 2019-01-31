@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-so-so: locale definition for so-so
+SUMMARY_glibc-localedata-so-so: locale definition for so-so
+RDEPENDS_glibc-localedata-so-so: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-so-so: glibc-localedata-so-so
+FILES_glibc-localedata-so-so: /usr/share/i18n/locales/so_SO
+FILES_INFO: {"/usr/share/i18n/locales/so_SO": 8160}
+PKGSIZE_glibc-localedata-so-so: 8160

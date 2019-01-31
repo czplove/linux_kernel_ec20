@@ -1,0 +1,13 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION_system-conf-doc: Device specific config  This package contains documentation.
+SUMMARY_system-conf-doc: system-conf version git-r3 - Documentation files
+SECTION_system-conf-doc: doc
+PKG_system-conf-doc: system-conf-doc
+FILES_system-conf-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_system-conf-doc: 0

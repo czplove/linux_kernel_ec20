@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ns-4551-2: character map for ns-4551-2 encoding
+SUMMARY_glibc-charmap-ns-4551-2: character map for ns-4551-2 encoding
+SECTION: base
+PKG_glibc-charmap-ns-4551-2: glibc-charmap-ns-4551-2
+FILES_glibc-charmap-ns-4551-2: /usr/share/i18n/charmaps/NS_4551-2.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/NS_4551-2.gz": 1561}
+PKGSIZE_glibc-charmap-ns-4551-2: 1561

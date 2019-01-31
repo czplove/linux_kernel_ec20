@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-uncompress-unzip: perl module io-uncompress-unzip
+SUMMARY_perl-module-io-uncompress-unzip: perl module io-uncompress-unzip
+RDEPENDS_perl-module-io-uncompress-unzip: perl-module-io-compress-base-common perl-module-io-uncompress-rawinflate perl-module-io-uncompress-adapter-inflate perl-module-io-compress-zip-constants perl-module-io-uncompress-adapter-identity perl-module-posix perl-module-warnings perl-module-compress-raw-zlib perl perl-module-exporter perl-module-fcntl perl-module-io-file perl-module-strict perl-module-constant perl-module-io-compress-zlib-extra
+SECTION: devel
+PKG_perl-module-io-uncompress-unzip: perl-module-io-uncompress-unzip
+FILES_perl-module-io-uncompress-unzip: /usr/lib/perl/5.20.0/IO/Uncompress/Unzip.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Uncompress/Unzip.pm": 53420}
+PKGSIZE_perl-module-io-uncompress-unzip: 53420

@@ -1,0 +1,16 @@
+PN: qmi-client-helper
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-client-helper-dbg: QMI Client Helper Module  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qmi-client-helper-dbg: qmi-client-helper version git-invalidgit-r0 - Debugging files
+RPROVIDES_qmi-client-helper-dbg:  qmi-client-helper-dbg
+RRECOMMENDS_qmi-client-helper-dbg: dsutils-dbg glibc-dbg configdb-dbg diag-dbg time-genoff-dbg glib-2.0-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
+SECTION_qmi-client-helper-dbg: devel
+PKG_qmi-client-helper-dbg: libqmi-client-helper-dbg
+ALLOW_EMPTY_qmi-client-helper-dbg: 1
+FILES_qmi-client-helper-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi-client-helper/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi-client-helper/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi-client-helper/qmi-client-helper/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libqmi_client_helper.so.1.0.0": 5703}
+PKGSIZE_qmi-client-helper-dbg: 5703

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-iso14651-t1: locale definition for iso14651-t1
+SUMMARY_glibc-localedata-iso14651-t1: locale definition for iso14651-t1
+RDEPENDS_glibc-localedata-iso14651-t1: glibc-localedata-iso14651-t1-common
+SECTION: base
+PKG_glibc-localedata-iso14651-t1: glibc-localedata-iso14651-t1
+FILES_glibc-localedata-iso14651-t1: /usr/share/i18n/locales/iso14651_t1
+FILES_INFO: {"/usr/share/i18n/locales/iso14651_t1": 242}
+PKGSIZE_glibc-localedata-iso14651-t1: 242

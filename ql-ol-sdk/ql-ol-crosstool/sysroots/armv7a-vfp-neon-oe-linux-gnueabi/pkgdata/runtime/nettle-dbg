@@ -1,0 +1,15 @@
+PN: nettle
+PV: 2.7.1
+PR: r0
+PKGV: 2.7.1
+PKGR: r0
+LICENSE: LGPLv2.1 & GPLv2
+DESCRIPTION_nettle-dbg: A low level cryptographic library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_nettle-dbg: A low level cryptographic library - Debugging files
+RRECOMMENDS_nettle-dbg: gmp-dbg glibc-dbg
+SECTION_nettle-dbg: devel
+PKG_nettle-dbg: nettle-dbg
+ALLOW_EMPTY_nettle-dbg: 1
+FILES_nettle-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/nettle/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/nettle/.debug /usr/lib/matchbox-panel/.debug /usr/lib/nettle/nettle/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/sexp-conv": 144947, "/usr/lib/.debug/libhogweed.so.2.5": 553541, "/usr/bin/.debug/nettle-lfib-stream": 54868, "/usr/lib/.debug/libnettle.so.4.7": 708792, "/usr/bin/.debug/pkcs1-conv": 112271, "/usr/bin/.debug/nettle-hash": 77867}
+PKGSIZE_nettle-dbg: 1652286

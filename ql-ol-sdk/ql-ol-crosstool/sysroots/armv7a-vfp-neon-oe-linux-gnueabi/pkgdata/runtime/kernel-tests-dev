@@ -1,0 +1,16 @@
+PN: kernel-tests
+PV: git-invalidgit
+PR: r18
+PKGV: git-invalidgit
+PKGR: r18
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_kernel-tests-dev: Qualcomm Technologies Proprietary kernel test  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_kernel-tests-dev: kernel-tests version git-invalidgit-r18 - Development files
+RDEPENDS_kernel-tests-dev: kernel-tests (= git-invalidgit-r18)
+RRECOMMENDS_kernel-tests-dev: glib-2.0-dev glibc-dev open-source-kernel-tests-dev
+SECTION_kernel-tests-dev: devel
+PKG_kernel-tests-dev: kernel-tests-dev
+ALLOW_EMPTY_kernel-tests-dev: 1
+FILES_kernel-tests-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kernel-tests/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_kernel-tests-dev: 0

@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-fa: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the fa locale.
+SUMMARY_glib-2.0-locale-fa: A general-purpose utility library - fa translations
+RPROVIDES_glib-2.0-locale-fa: glib-2.0-locale fa-translation glib-2.0-locale-fa
+RRECOMMENDS_glib-2.0-locale-fa: virtual-locale-fa
+SECTION: libs
+PKG_glib-2.0-locale-fa: libglib-2.0-locale-fa
+FILES_glib-2.0-locale-fa: /usr/share/locale/fa
+FILES_INFO: {"/usr/share/locale/fa/LC_MESSAGES/glib20.mo": 56429}
+PKGSIZE_glib-2.0-locale-fa: 56429

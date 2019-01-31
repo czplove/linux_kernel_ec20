@@ -1,0 +1,19 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_libcidn: glibc (>= 2.21)
+RPROVIDES_libcidn:  libcidn
+SECTION: libs
+PKG_libcidn: libcidn1
+FILES_libcidn: /lib/libcidn-*.so /lib/libcidn.so.*
+FILERPROVIDESFLIST_libcidn: /lib/libcidn-2.21.so
+FILES_INFO: {"/lib/libcidn.so.1": 181784}
+FILERPROVIDES_/lib/libcidn-2.21.so_libcidn: libcidn.so.1 libcidn.so.1(GLIBC_PRIVATE)
+FILERDEPENDSFLIST_libcidn: /lib/libcidn-2.21.so
+FILERDEPENDS_/lib/libcidn-2.21.so_libcidn: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_PRIVATE)
+PKGSIZE_libcidn: 181784

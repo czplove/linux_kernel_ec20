@@ -1,0 +1,13 @@
+PN: garden-test-interfaces
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-test-interfaces-doc: Garden Test Interfaces  This package contains documentation.
+SUMMARY_garden-test-interfaces-doc: garden-test-interfaces version git-r3 - Documentation files
+SECTION_garden-test-interfaces-doc: doc
+PKG_garden-test-interfaces-doc: garden-test-interfaces-doc
+FILES_garden-test-interfaces-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_garden-test-interfaces-doc: 0

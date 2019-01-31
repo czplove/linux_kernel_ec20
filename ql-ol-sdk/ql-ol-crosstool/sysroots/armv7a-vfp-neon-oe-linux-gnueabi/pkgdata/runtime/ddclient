@@ -1,0 +1,16 @@
+PN: ddclient
+PV: 3.8.1
+PR: r5
+PKGV: 3.8.1
+PKGR: r5
+LICENSE_ddclient: GPLv2
+DESCRIPTION: DDClient is a perl based dynamic DNS Utility
+SUMMARY: ddclient version 3.8.1-r5
+RDEPENDS_ddclient: perl-module-io-socket-unix perl-module-warnings-register perl-module-errno perl-module-io-handle perl-module-overload perl-module-io perl-module-socket perl-module-warnings perl-module-symbol perl-module-io-socket perl-module-config perl-module-exporter perl perl-module-constant perl-module-carp perl-module-sys-hostname perl-module-xsloader perl-module-io-socket-inet perl-module-autoloader perl-module-strict perl-module-selectsaver perl-module-getopt-long perl-module-integer perl-module-dynaloader perl-module-vars perl-module-exporter-heavy perl-module-io-select
+SECTION: console/network
+PKG_ddclient: ddclient
+FILES_ddclient: /usr/bin/* /usr/sbin/* /usr/lib/ddclient/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ddclient /usr/lib/ddclient/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/sbin/ddclient": 133527, "/etc/ddclient.conf": 6004}
+FILERDEPENDSFLIST_ddclient: /usr/sbin/ddclient
+FILERDEPENDS_/usr/sbin/ddclient_ddclient: /usr/bin/perl
+PKGSIZE_ddclient: 139531

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-file-compare: perl module file-compare
+SUMMARY_perl-module-file-compare: perl module file-compare
+RDEPENDS_perl-module-file-compare: perl-module-strict perl-module-exporter perl-module-carp perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-file-compare: perl-module-file-compare
+FILES_perl-module-file-compare: /usr/lib/perl/5.20.0/File/Compare.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/File/Compare.pm": 4332}
+PKGSIZE_perl-module-file-compare: 4332

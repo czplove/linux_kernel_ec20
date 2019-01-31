@@ -1,0 +1,13 @@
+PN: start-scripts-find-recovery-partitions
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: BSD
+DESCRIPTION_start-scripts-find-recovery-partitions-doc: Start up script for finding partitions used in recovery  This package contains documentation.
+SUMMARY_start-scripts-find-recovery-partitions-doc: start-scripts-find-recovery-partitions version 1.0-r3 - Documentation files
+SECTION_start-scripts-find-recovery-partitions-doc: doc
+PKG_start-scripts-find-recovery-partitions-doc: start-scripts-find-recovery-partitions-doc
+FILES_start-scripts-find-recovery-partitions-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-recovery-partitions-doc: 0

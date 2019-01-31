@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-net-ping: perl module net-ping
+SUMMARY_perl-module-net-ping: perl module net-ping
+RDEPENDS_perl-module-net-ping: perl-module-carp perl-module-vars perl-module-time-hires perl-module-filehandle perl-module-exporter perl-module-fcntl perl-module-socket perl-module-posix perl-module-strict perl-module-constant perl
+SECTION: devel
+PKG_perl-module-net-ping: perl-module-net-ping
+FILES_perl-module-net-ping: /usr/lib/perl/5.20.0/Net/Ping.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Net/Ping.pm": 60441}
+PKGSIZE_perl-module-net-ping: 60441

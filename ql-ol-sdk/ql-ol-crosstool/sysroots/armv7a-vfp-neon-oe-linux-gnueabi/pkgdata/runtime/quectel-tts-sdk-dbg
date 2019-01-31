@@ -1,0 +1,15 @@
+PN: quectel-tts-sdk
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-tts-sdk-dbg: Quectel TTS SDK  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-tts-sdk-dbg: quectel-tts-sdk version git-r1 - Debugging files
+RRECOMMENDS_quectel-tts-sdk-dbg: alsa-intf-dbg system-core-liblog-dbg glibc-dbg quectel-audio-lib-dbg
+SECTION_quectel-tts-sdk-dbg: devel
+PKG_quectel-tts-sdk-dbg: quectel-tts-sdk-dbg
+ALLOW_EMPTY_quectel-tts-sdk-dbg: 1
+FILES_quectel-tts-sdk-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-tts-sdk/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-tts-sdk/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-tts-sdk/quectel-tts-sdk/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/quectel_tts_demo": 33288, "/usr/lib/.debug/libql_tts_eng.so.1": 132603, "/usr/lib/.debug/libql_tts_ch.so.1": 132607, "/usr/bin/.debug/quectel_tts_service": 23457}
+PKGSIZE_quectel-tts-sdk-dbg: 321955

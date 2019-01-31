@@ -1,0 +1,18 @@
+PN: initscripts
+PV: 1.0
+PR: r157
+PKGV: 1.0
+PKGR: r157
+LICENSE: GPLv2
+DESCRIPTION: Initscripts provide the basic system startup initialization scripts for the system.  These scripts include actions such as filesystem mounting, fsck, RTC manipulation and other actions routinely performed at system startup.  In addition, the scripts are also used during system shutdown to reverse the actions performed at startup.
+SUMMARY: SysV init scripts
+RDEPENDS_initscripts-functions: update-alternatives-opkg
+SECTION: base
+PKG_initscripts-functions: initscripts-functions
+FILES_initscripts-functions: /etc/init.d/functions*
+pkg_postinst_initscripts-functions: #!/bin/sh\n\tupdate-alternatives --install /etc/init.d/functions functions /etc/init.d/functions.initscripts 90\n
+pkg_postrm_initscripts-functions: #!/bin/sh\n\tupdate-alternatives --remove  functions /etc/init.d/functions.initscripts\n
+FILERPROVIDESFLIST_initscripts-functions:  /etc/init.d/functions.initscripts
+FILES_INFO: {"/etc/init.d/functions.initscripts": 2141}
+FILERPROVIDES_/etc/init.d/functions.initscripts_initscripts-functions:  /etc/init.d/functions
+PKGSIZE_initscripts-functions: 2141

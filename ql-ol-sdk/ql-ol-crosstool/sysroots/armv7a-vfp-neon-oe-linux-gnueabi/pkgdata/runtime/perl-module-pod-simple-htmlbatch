@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-htmlbatch: perl module pod-simple-htmlbatch
+SUMMARY_perl-module-pod-simple-htmlbatch: perl module pod-simple-htmlbatch
+RDEPENDS_perl-module-pod-simple-htmlbatch: perl
+SECTION: devel
+PKG_perl-module-pod-simple-htmlbatch: perl-module-pod-simple-htmlbatch
+FILES_perl-module-pod-simple-htmlbatch: /usr/lib/perl/5.20.0/Pod/Simple/HTMLBatch.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Simple/HTMLBatch.pm": 40496}
+PKGSIZE_perl-module-pod-simple-htmlbatch: 40496

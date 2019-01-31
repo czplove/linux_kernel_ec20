@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-gez-er+abegede: locale definition for gez-er+abegede
+SUMMARY_glibc-localedata-gez-er+abegede: locale definition for gez-er+abegede
+RDEPENDS_glibc-localedata-gez-er+abegede: glibc-localedata-ti-er glibc-localedata-gez-er
+SECTION: base
+PKG_glibc-localedata-gez-er+abegede: glibc-localedata-gez-er+abegede
+FILES_glibc-localedata-gez-er+abegede: /usr/share/i18n/locales/gez_ER@abegede
+FILES_INFO: {"/usr/share/i18n/locales/gez_ER@abegede": 2697}
+PKGSIZE_glibc-localedata-gez-er+abegede: 2697

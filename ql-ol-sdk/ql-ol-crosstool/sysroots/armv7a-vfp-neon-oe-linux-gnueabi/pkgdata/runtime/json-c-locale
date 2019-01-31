@@ -1,0 +1,14 @@
+PN: json-c
+PV: 0.12
+PR: r0
+PKGV: 0.12
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: JSON-C implements a reference counting object model that allows you to easily construct JSON objects in C.
+SUMMARY: C bindings for apps which will manipulate JSON data
+RPROVIDES_json-c-locale:  json-c-locale
+SECTION: base
+PKG_json-c-locale: libjson-c-locale
+FILES_json-c-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_json-c-locale: 0

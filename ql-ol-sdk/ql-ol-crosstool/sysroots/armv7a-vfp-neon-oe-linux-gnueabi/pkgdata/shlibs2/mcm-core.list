@@ -1,0 +1,4 @@
+libmcmipc.so.0:/usr/lib:git-invalidgit
+libmcm_log_util.so.0:/usr/lib:git-invalidgit
+libmcm.so.0:/usr/lib:git-invalidgit
+libmcm_srv_audio.so.0:/usr/lib:git-invalidgit

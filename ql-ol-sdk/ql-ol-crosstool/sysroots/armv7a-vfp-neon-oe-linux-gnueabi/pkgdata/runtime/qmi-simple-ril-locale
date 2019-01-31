@@ -1,0 +1,13 @@
+PN: qmi-simple-ril
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI Test application
+SUMMARY: qmi-simple-ril version git-invalidgit-r1
+SECTION: base
+PKG_qmi-simple-ril-locale: qmi-simple-ril-locale
+FILES_qmi-simple-ril-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-simple-ril-locale: 0

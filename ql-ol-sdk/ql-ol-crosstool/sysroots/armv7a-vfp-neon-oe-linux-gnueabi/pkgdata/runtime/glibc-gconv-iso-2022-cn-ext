@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-2022-cn-ext: gconv module for character set iso-2022-cn-ext
+SUMMARY_glibc-gconv-iso-2022-cn-ext: gconv module for character set iso-2022-cn-ext
+RDEPENDS_glibc-gconv-iso-2022-cn-ext: glibc (>= 2.21) glibc-gconv-libisoir165 (>= 2.21) glibc-gconv-libgb (>= 2.21) glibc-gconv glibc-gconv-libcns (>= 2.21)
+SECTION: base
+PKG_glibc-gconv-iso-2022-cn-ext: glibc-gconv-iso-2022-cn-ext
+FILES_glibc-gconv-iso-2022-cn-ext: /usr/lib/gconv/ISO-2022-CN-EXT.so
+FILES_INFO: {"/usr/lib/gconv/ISO-2022-CN-EXT.so": 42512}
+PKGSIZE_glibc-gconv-iso-2022-cn-ext: 42512

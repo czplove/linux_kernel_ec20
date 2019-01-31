@@ -1,0 +1,14 @@
+PN: lk
+PV: git
+PR: r15
+PKGV: git
+PKGR: r15
+LICENSE: MIT
+DESCRIPTION_lk-staticdev: Little Kernel bootloader  This package contains static libraries for software development.
+SUMMARY_lk-staticdev: lk version git-r15 - Development files (Static Libraries)
+RDEPENDS_lk-staticdev: lk-dev (= git-r15)
+SECTION_lk-staticdev: devel
+PKG_lk-staticdev: lk-staticdev
+FILES_lk-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lk/*.a
+FILES_INFO: {}
+PKGSIZE_lk-staticdev: 0

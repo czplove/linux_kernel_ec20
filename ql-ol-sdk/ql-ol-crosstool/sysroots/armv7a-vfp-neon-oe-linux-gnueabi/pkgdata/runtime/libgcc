@@ -1,0 +1,19 @@
+PN: libgcc
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libgcc: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RDEPENDS_libgcc: glibc (>= 2.21)
+RPROVIDES_libgcc:  libgcc
+SECTION: devel
+PKG_libgcc: libgcc1
+FILES_libgcc: /lib/libgcc*.so.*
+FILERPROVIDESFLIST_libgcc: /lib/libgcc@underscore@s.so.1
+FILES_INFO: {"/lib/libgcc_s.so.1": 116912}
+FILERPROVIDES_/lib/libgcc@underscore@s.so.1_libgcc: elf(buildid) (= f680cb8c3bfee3ceb99088b681ca9b89ad991778) libgcc_s.so.1 libgcc_s.so.1(GCC_3.0) libgcc_s.so.1(GCC_3.3) libgcc_s.so.1(GCC_3.3.1) libgcc_s.so.1(GCC_3.3.4) libgcc_s.so.1(GCC_3.4) libgcc_s.so.1(GCC_3.4.2) libgcc_s.so.1(GCC_3.5) libgcc_s.so.1(GCC_4.0.0) libgcc_s.so.1(GCC_4.2.0) libgcc_s.so.1(GCC_4.3.0) libgcc_s.so.1(GCC_4.7.0) libgcc_s.so.1(GLIBC_2.0)
+FILERDEPENDSFLIST_libgcc: /lib/libgcc@underscore@s.so.1
+FILERDEPENDS_/lib/libgcc@underscore@s.so.1_libgcc: rtld(GNU_HASH)
+PKGSIZE_libgcc: 116912

@@ -1,0 +1,15 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb1-staticdev: Userspace library to access USB (version 1.0).  This package contains static libraries for software development.
+SUMMARY_libusb1-staticdev: Userspace library to access USB (version 1.0) - Development files (Static Libraries)
+RDEPENDS_libusb1-staticdev: libusb1-dev (= 1.0.19-r0)
+RPROVIDES_libusb1-staticdev:  libusb1-staticdev
+SECTION_libusb1-staticdev: devel
+PKG_libusb1-staticdev: libusb-1.0-staticdev
+FILES_libusb1-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libusb1/*.a
+FILES_INFO: {"/lib/libusb-1.0.a": 119654}
+PKGSIZE_libusb1-staticdev: 119654

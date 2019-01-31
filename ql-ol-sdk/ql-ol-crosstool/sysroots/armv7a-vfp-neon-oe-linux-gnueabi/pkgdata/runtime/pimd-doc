@@ -1,0 +1,13 @@
+PN: pimd
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_pimd-doc: PIMD - Multicast Routing Daemon  This package contains documentation.
+SUMMARY_pimd-doc: pimd version git-r5 - Documentation files
+SECTION_pimd-doc: doc
+PKG_pimd-doc: pimd-doc
+FILES_pimd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/pimd/LICENSE.mrouted": 1700, "/usr/share/doc/pimd/ChangeLog": 35013, "/usr/share/man/man8/pimd.8": 10775, "/usr/share/doc/pimd/LICENSE": 1953, "/usr/share/doc/pimd/FAQ": 3103, "/usr/share/doc/pimd/TODO": 5890, "/usr/share/doc/pimd/README": 7001, "/usr/share/doc/pimd/README.config.jp": 5389, "/usr/share/doc/pimd/README.debug": 1946, "/usr/share/doc/pimd/INSTALL": 1356, "/usr/share/doc/pimd/AUTHORS": 228, "/usr/share/doc/pimd/CREDITS": 3250, "/usr/share/doc/pimd/README.config": 4520}
+PKGSIZE_pimd-doc: 82124

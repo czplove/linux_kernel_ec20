@@ -1,0 +1,17 @@
+PN: gmp
+PV: 6.0.0
+PR: r0
+PKGV: 6.0.0
+PKGR: r0
+LICENSE: GPLv2 | LGPLv3
+DESCRIPTION_gmp-dev: GMP is a free library for arbitrary precision arithmetic, operating on signed integers, rational numbers, and floating point numbers  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gmp-dev: GNU multiprecision arithmetic library - Development files
+RDEPENDS_gmp-dev: gmp (= 6.0.0-r0) libgmpxx
+RPROVIDES_gmp-dev:  gmp-dev
+RRECOMMENDS_gmp-dev: libgmpxx-dev libgcc-dev glibc-dev libstdc++-dev
+SECTION_gmp-dev: devel
+PKG_gmp-dev: libgmp-dev
+ALLOW_EMPTY_gmp-dev: 1
+FILES_gmp-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gmp/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libgmpxx.la": 960, "/usr/include/gmpxx.h": 113143, "/usr/include/gmp.h": 83414, "/usr/lib/libgmp.so": 16, "/usr/lib/libgmpxx.so": 17, "/usr/lib/libgmp.la": 907}
+PKGSIZE_gmp-dev: 198457

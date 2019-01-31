@@ -1,0 +1,15 @@
+PN: conntrack-tools
+PV: 1.0.1
+PR: r1
+PKGV: 1.0.1
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION_conntrack-tools-dbg: The conntrack-tools are a set of free software tools for GNU/Linux that allow system administrators interact, from user-space, with the in-kernel Connection Tracking System.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_conntrack-tools-dbg: Tools for managing kernel packet filtering capabilities - Debugging files
+RRECOMMENDS_conntrack-tools-dbg: libnetfilter-conntrack-dbg glibc-dbg libnfnetlink-dbg
+SECTION_conntrack-tools-dbg: devel
+PKG_conntrack-tools-dbg: conntrack-tools-dbg
+ALLOW_EMPTY_conntrack-tools-dbg: 1
+FILES_conntrack-tools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/conntrack-tools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/conntrack-tools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/conntrack-tools/conntrack-tools/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/conntrack": 12511, "/usr/sbin/.debug/conntrackd": 31041}
+PKGSIZE_conntrack-tools-dbg: 43552

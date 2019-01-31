@@ -1,0 +1,13 @@
+PN: mtd-utils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION_mtd-utils-doc: Tools for managing memory technology devices.  This package contains documentation.
+SUMMARY_mtd-utils-doc: mtd-utils version 1.0-r1 - Documentation files
+SECTION_mtd-utils-doc: doc
+PKG_mtd-utils-doc: mtd-utils-doc
+FILES_mtd-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/mkfs.jffs2.1.gz": 2648}
+PKGSIZE_mtd-utils-doc: 2648

@@ -1,0 +1,15 @@
+PN: curl
+PV: 7.40.0
+PR: r0
+PKGV: 7.40.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_curl-dbg: Command line tool and library for client-side URL transfers.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_curl-dbg: Command line tool and library for client-side URL transfers - Debugging files
+RRECOMMENDS_curl-dbg: glibc-dbg zlib-dbg libcurl-dbg gmp-dbg nettle-dbg gnutls-dbg
+SECTION_curl-dbg: devel
+PKG_curl-dbg: curl-dbg
+ALLOW_EMPTY_curl-dbg: 1
+FILES_curl-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/curl/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/curl/.debug /usr/lib/matchbox-panel/.debug /usr/lib/curl/curl/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libcurl.so.5.3.0": 66631, "/usr/bin/.debug/curl": 19734}
+PKGSIZE_curl-dbg: 86365

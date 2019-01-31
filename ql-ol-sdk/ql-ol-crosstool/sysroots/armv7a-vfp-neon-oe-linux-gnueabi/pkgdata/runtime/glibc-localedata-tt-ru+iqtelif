@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tt-ru+iqtelif: locale definition for tt-ru+iqtelif
+SUMMARY_glibc-localedata-tt-ru+iqtelif: locale definition for tt-ru+iqtelif
+RDEPENDS_glibc-localedata-tt-ru+iqtelif: glibc-localedata-crh-ua glibc-localedata-tr-tr
+SECTION: base
+PKG_glibc-localedata-tt-ru+iqtelif: glibc-localedata-tt-ru+iqtelif
+FILES_glibc-localedata-tt-ru+iqtelif: /usr/share/i18n/locales/tt_RU@iqtelif
+FILES_INFO: {"/usr/share/i18n/locales/tt_RU@iqtelif": 5962}
+PKGSIZE_glibc-localedata-tt-ru+iqtelif: 5962

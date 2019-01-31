@@ -1,0 +1,13 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION: Device specific config
+SUMMARY: system-conf version git-r3
+SECTION: base
+PKG_system-conf-locale: system-conf-locale
+FILES_system-conf-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_system-conf-locale: 0

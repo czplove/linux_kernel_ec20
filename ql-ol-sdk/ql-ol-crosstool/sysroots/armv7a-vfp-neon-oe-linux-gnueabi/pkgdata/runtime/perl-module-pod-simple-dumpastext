@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-dumpastext: perl module pod-simple-dumpastext
+SUMMARY_perl-module-pod-simple-dumpastext: perl module pod-simple-dumpastext
+RDEPENDS_perl-module-pod-simple-dumpastext: perl-module-strict perl-module-pod-simple perl-module-carp perl
+SECTION: devel
+PKG_perl-module-pod-simple-dumpastext: perl-module-pod-simple-dumpastext
+FILES_perl-module-pod-simple-dumpastext: /usr/lib/perl/5.20.0/Pod/Simple/DumpAsText.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Simple/DumpAsText.pm": 4010}
+PKGSIZE_perl-module-pod-simple-dumpastext: 4010

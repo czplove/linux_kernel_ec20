@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tg-tj: locale definition for tg-tj
+SUMMARY_glibc-localedata-tg-tj: locale definition for tg-tj
+RDEPENDS_glibc-localedata-tg-tj: glibc-localedata-iso14651-t1 glibc-localedata-en-dk glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-tg-tj: glibc-localedata-tg-tj
+FILES_glibc-localedata-tg-tj: /usr/share/i18n/locales/tg_TJ
+FILES_INFO: {"/usr/share/i18n/locales/tg_TJ": 6543}
+PKGSIZE_glibc-localedata-tg-tj: 6543

@@ -1,0 +1,13 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libatomic-staticdev: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+SECTION: devel
+PKG_libatomic-staticdev: libatomic-staticdev
+FILES_libatomic-staticdev: /usr/lib/libatomic.a
+FILES_INFO: {"/usr/lib/libatomic.a": 62268}
+PKGSIZE_libatomic-staticdev: 62268

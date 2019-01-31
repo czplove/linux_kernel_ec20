@@ -1,0 +1,14 @@
+PN: tzdata
+PV: 2015a
+PR: r0
+PKGV: 2015a
+PKGR: r0
+LICENSE: PD & BSD
+DESCRIPTION: Timezone data
+SUMMARY: tzdata version 2015a-r0
+RPROVIDES_tzdata-antarctica: tzdata-antarctica
+SECTION: base
+PKG_tzdata-antarctica: tzdata-antarctica
+FILES_tzdata-antarctica:  /usr/share/zoneinfo/Antarctica/*
+FILES_INFO: {"/usr/share/zoneinfo/Antarctica/Vostok": 174, "/usr/share/zoneinfo/Antarctica/Davis": 290, "/usr/share/zoneinfo/Antarctica/Rothera": 173, "/usr/share/zoneinfo/Antarctica/Casey": 272, "/usr/share/zoneinfo/Antarctica/Palmer": 1416, "/usr/share/zoneinfo/Antarctica/McMurdo": 2460, "/usr/share/zoneinfo/Antarctica/Syowa": 174, "/usr/share/zoneinfo/Antarctica/Macquarie": 1530, "/usr/share/zoneinfo/Antarctica/Troll": 1161, "/usr/share/zoneinfo/Antarctica/South_Pole": 2460, "/usr/share/zoneinfo/Antarctica/Mawson": 204, "/usr/share/zoneinfo/Antarctica/DumontDUrville": 227}
+PKGSIZE_tzdata-antarctica: 10541

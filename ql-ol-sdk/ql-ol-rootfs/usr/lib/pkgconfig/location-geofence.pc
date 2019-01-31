@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: location-geofence
+Description: QTI GPS Geofence
+Version: @VERSION
+Libs: -L${libdir} -lgeofence
+Cflags: -I${includedir}/location-geofence

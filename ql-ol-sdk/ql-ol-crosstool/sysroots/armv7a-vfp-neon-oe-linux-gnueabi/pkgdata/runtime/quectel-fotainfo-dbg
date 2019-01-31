@@ -1,0 +1,15 @@
+PN: quectel-fotainfo
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-fotainfo-dbg: Quectel Function Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-fotainfo-dbg: quectel-fotainfo version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-fotainfo-dbg: quectel-libfotainfo-dbg glibc-dbg
+SECTION_quectel-fotainfo-dbg: devel
+PKG_quectel-fotainfo-dbg: quectel-fotainfo-dbg
+ALLOW_EMPTY_quectel-fotainfo-dbg: 1
+FILES_quectel-fotainfo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-fotainfo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-fotainfo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-fotainfo/quectel-fotainfo/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/fotainfo": 13710}
+PKGSIZE_quectel-fotainfo-dbg: 13710

@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-bn-in: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the bn_IN locale.
+SUMMARY_glib-2.0-locale-bn-in: A general-purpose utility library - bn_IN translations
+RPROVIDES_glib-2.0-locale-bn-in: glib-2.0-locale bn-in-translation glib-2.0-locale-bn-in
+RRECOMMENDS_glib-2.0-locale-bn-in: virtual-locale-bn-in
+SECTION: libs
+PKG_glib-2.0-locale-bn-in: libglib-2.0-locale-bn-in
+FILES_glib-2.0-locale-bn-in: /usr/share/locale/bn_IN
+FILES_INFO: {"/usr/share/locale/bn_IN/LC_MESSAGES/glib20.mo": 151174}
+PKGSIZE_glib-2.0-locale-bn-in: 151174

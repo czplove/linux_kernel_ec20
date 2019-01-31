@@ -1,0 +1,14 @@
+PN: sfe
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_sfe-staticdev: Shortcut Forward Engine Driver  This package contains static libraries for software development.
+SUMMARY_sfe-staticdev: sfe version git-r0 - Development files (Static Libraries)
+RDEPENDS_sfe-staticdev: sfe-dev (= git-r0)
+SECTION_sfe-staticdev: devel
+PKG_sfe-staticdev: sfe-staticdev
+FILES_sfe-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/sfe/*.a
+FILES_INFO: {}
+PKGSIZE_sfe-staticdev: 0

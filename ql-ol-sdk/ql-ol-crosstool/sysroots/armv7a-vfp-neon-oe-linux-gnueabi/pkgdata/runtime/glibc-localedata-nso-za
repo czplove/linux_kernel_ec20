@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-nso-za: locale definition for nso-za
+SUMMARY_glibc-localedata-nso-za: locale definition for nso-za
+RDEPENDS_glibc-localedata-nso-za: glibc-localedata-iso14651-t1 glibc-localedata-en-za glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-nso-za: glibc-localedata-nso-za
+FILES_glibc-localedata-nso-za: /usr/share/i18n/locales/nso_ZA
+FILES_INFO: {"/usr/share/i18n/locales/nso_ZA": 9189}
+PKGSIZE_glibc-localedata-nso-za: 9189

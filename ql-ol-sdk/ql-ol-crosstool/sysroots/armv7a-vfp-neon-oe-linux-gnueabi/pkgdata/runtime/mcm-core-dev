@@ -1,0 +1,16 @@
+PN: mcm-core
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcm-core-dev: QTI Mobile Connection Manager Core libraries and Service  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_mcm-core-dev: mcm-core version git-invalidgit-r5 - Development files
+RDEPENDS_mcm-core-dev: mcm-core (= git-invalidgit-r5)
+RRECOMMENDS_mcm-core-dev: system-core-liblog-dev alsa-intf-dev acdbmapper-dev libgcc-dev time-genoff-dev glib-2.0-dev common-dev data-dev qmi-dev ql-syslog-dev audcal-dev mcm-dev adiertac-dev configdb-dev glibc-dev xmllib-dev acdbloader-dev libstdc++-dev dsutils-dev acdbrtac-dev qmi-client-helper-dev audioalsa-dev qmi-framework-dev diag-dev
+SECTION_mcm-core-dev: devel
+PKG_mcm-core-dev: mcm-core-dev
+ALLOW_EMPTY_mcm-core-dev: 1
+FILES_mcm-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/mcm-core/*.la /lib/*.la
+FILES_INFO: {"/usr/include/mcm_service_object_v01.h": 11569, "/usr/lib/libmcm.la": 1702, "/usr/lib/libmcm_srv_audio.la": 1572, "/usr/lib/libmcm_log_util.la": 1007, "/usr/include/mcm_ipc.h": 1096, "/usr/lib/libmcmipc.la": 1545, "/usr/include/mcm_loc_srv_mgr_v01.h": 4737, "/usr/lib/pkgconfig/mcm-core.pc": 197, "/usr/include/mcm_mobileap_srv_mgr_v01.h": 4889, "/usr/include/mcm_data_srv_mgr_v01.h": 4765, "/usr/include/mcm_constants.h": 2681, "/usr/lib/libmcm.so": 15, "/usr/lib/libmcm_srv_audio.so": 25, "/usr/include/mcm_atcop_srv_mgr_v01.h": 4800, "/usr/lib/libmcmipc.so": 18, "/usr/lib/libmcm_log_util.so": 24}
+PKGSIZE_mcm-core-dev: 40642

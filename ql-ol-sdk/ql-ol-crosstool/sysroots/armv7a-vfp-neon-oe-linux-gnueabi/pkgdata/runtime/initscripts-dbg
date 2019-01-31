@@ -1,0 +1,14 @@
+PN: initscripts
+PV: 1.0
+PR: r157
+PKGV: 1.0
+PKGR: r157
+LICENSE: GPLv2
+DESCRIPTION_initscripts-dbg: Initscripts provide the basic system startup initialization scripts for the system.  These scripts include actions such as filesystem mounting, fsck, RTC manipulation and other actions routinely performed at system startup.  In addition, the scripts are also used during system shutdown to reverse the actions performed at startup.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_initscripts-dbg: SysV init scripts - Debugging files
+SECTION_initscripts-dbg: devel
+PKG_initscripts-dbg: initscripts-dbg
+ALLOW_EMPTY_initscripts-dbg: 1
+FILES_initscripts-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/initscripts/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/initscripts/.debug /usr/lib/matchbox-panel/.debug /usr/lib/initscripts/initscripts/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_initscripts-dbg: 0

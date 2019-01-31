@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-az-az: locale definition for az-az
+SUMMARY_glibc-localedata-az-az: locale definition for az-az
+RDEPENDS_glibc-localedata-az-az: glibc-localedata-iso14651-t1 glibc-localedata-tr-tr
+SECTION: base
+PKG_glibc-localedata-az-az: glibc-localedata-az-az
+FILES_glibc-localedata-az-az: /usr/share/i18n/locales/az_AZ
+FILES_INFO: {"/usr/share/i18n/locales/az_AZ": 7692}
+PKGSIZE_glibc-localedata-az-az: 7692

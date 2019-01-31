@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ko: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ko locale.
+SUMMARY_glib-2.0-locale-ko: A general-purpose utility library - ko translations
+RPROVIDES_glib-2.0-locale-ko: glib-2.0-locale ko-translation glib-2.0-locale-ko
+RRECOMMENDS_glib-2.0-locale-ko: virtual-locale-ko
+SECTION: libs
+PKG_glib-2.0-locale-ko: libglib-2.0-locale-ko
+FILES_glib-2.0-locale-ko: /usr/share/locale/ko
+FILES_INFO: {"/usr/share/locale/ko/LC_MESSAGES/glib20.mo": 106078}
+PKGSIZE_glib-2.0-locale-ko: 106078

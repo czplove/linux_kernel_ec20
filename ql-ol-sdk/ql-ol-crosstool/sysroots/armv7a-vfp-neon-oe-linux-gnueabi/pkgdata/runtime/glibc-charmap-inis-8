@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-inis-8: character map for inis-8 encoding
+SUMMARY_glibc-charmap-inis-8: character map for inis-8 encoding
+SECTION: base
+PKG_glibc-charmap-inis-8: glibc-charmap-inis-8
+FILES_glibc-charmap-inis-8: /usr/share/i18n/charmaps/INIS-8.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/INIS-8.gz": 1096}
+PKGSIZE_glibc-charmap-inis-8: 1096

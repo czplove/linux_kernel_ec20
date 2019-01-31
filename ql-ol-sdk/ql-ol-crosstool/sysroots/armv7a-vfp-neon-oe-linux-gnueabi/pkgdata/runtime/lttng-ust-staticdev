@@ -1,0 +1,16 @@
+PN: lttng-ust
+PE: 2
+PV: 2.6.0
+PR: r2
+PKGE: 2
+PKGV: 2.6.0
+PKGR: r2
+LICENSE: LGPLv2.1+ & MIT & GPLv2
+DESCRIPTION_lttng-ust-staticdev: The LTTng UST 2.x package contains the userspace tracer library to trace userspace codes.  This package contains static libraries for software development.
+SUMMARY_lttng-ust-staticdev: Linux Trace Toolkit Userspace Tracer 2.x - Development files (Static Libraries)
+RDEPENDS_lttng-ust-staticdev: lttng-ust-dev (= 2:2.6.0-r2)
+SECTION_lttng-ust-staticdev: devel
+PKG_lttng-ust-staticdev: lttng-ust-staticdev
+FILES_lttng-ust-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/lttng-ust/*.a
+FILES_INFO: {"/usr/lib/liblttng-ust-libc-wrapper.a": 25856, "/usr/lib/liblttng-ust.a": 504730, "/usr/lib/liblttng-ust-pthread-wrapper.a": 16240, "/usr/lib/liblttng-ust-cyg-profile-fast.a": 9370, "/usr/lib/liblttng-ust-fork.a": 2962, "/usr/lib/liblttng-ust-dl.a": 14718, "/usr/lib/liblttng-ust-cyg-profile.a": 10448, "/usr/lib/liblttng-ust-tracepoint.a": 44694, "/usr/lib/liblttng-ust-ctl.a": 321404}
+PKGSIZE_lttng-ust-staticdev: 950422

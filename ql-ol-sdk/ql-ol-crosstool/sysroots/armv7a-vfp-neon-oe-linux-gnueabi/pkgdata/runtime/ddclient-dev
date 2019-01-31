@@ -1,0 +1,16 @@
+PN: ddclient
+PV: 3.8.1
+PR: r5
+PKGV: 3.8.1
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_ddclient-dev: DDClient is a perl based dynamic DNS Utility  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ddclient-dev: ddclient version 3.8.1-r5 - Development files
+RDEPENDS_ddclient-dev: ddclient (= 3.8.1-r5)
+RRECOMMENDS_ddclient-dev: perl-module-warnings-dev perl-module-overload-dev perl-module-io-socket-inet-dev perl-module-io-socket-dev perl-module-strict-dev perl-module-exporter-dev perl-module-symbol-dev perl-module-io-select-dev perl-module-autoloader-dev perl-module-socket-dev perl-module-errno-dev perl-dev perl-module-exporter-heavy-dev perl-module-io-handle-dev perl-module-dynaloader-dev perl-module-config-dev perl-module-xsloader-dev perl-module-warnings-register-dev perl-module-integer-dev perl-module-getopt-long-dev perl-module-selectsaver-dev perl-module-io-socket-unix-dev perl-module-carp-dev perl-module-io-dev perl-module-constant-dev perl-module-sys-hostname-dev perl-module-vars-dev
+SECTION_ddclient-dev: devel
+PKG_ddclient-dev: ddclient-dev
+ALLOW_EMPTY_ddclient-dev: 1
+FILES_ddclient-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ddclient/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ddclient-dev: 0

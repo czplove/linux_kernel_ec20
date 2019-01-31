@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-en-ca: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the en_CA locale.
+SUMMARY_glib-2.0-locale-en-ca: A general-purpose utility library - en_CA translations
+RPROVIDES_glib-2.0-locale-en-ca: glib-2.0-locale en-ca-translation glib-2.0-locale-en-ca
+RRECOMMENDS_glib-2.0-locale-en-ca: virtual-locale-en-ca
+SECTION: libs
+PKG_glib-2.0-locale-en-ca: libglib-2.0-locale-en-ca
+FILES_glib-2.0-locale-en-ca: /usr/share/locale/en_CA
+FILES_INFO: {"/usr/share/locale/en_CA/LC_MESSAGES/glib20.mo": 78635}
+PKGSIZE_glib-2.0-locale-en-ca: 78635

@@ -1,0 +1,16 @@
+PN: embms-kernel
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_kernel-module-embms-kernel: embms-kernel kernel module
+SUMMARY_kernel-module-embms-kernel: embms-kernel kernel module
+RDEPENDS_kernel-module-embms-kernel: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-embms-kernel: kernel-module-embms-kernel
+FILES_kernel-module-embms-kernel: /lib/modules/3.18.20/extra/embms_kernel.ko /etc/modules-load.d/embms_kernel.conf /etc/modprobe.d/embms_kernel.conf
+pkg_postinst_kernel-module-embms-kernel: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-embms-kernel: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/extra/embms_kernel.ko": 9744}
+PKGSIZE_kernel-module-embms-kernel: 9744

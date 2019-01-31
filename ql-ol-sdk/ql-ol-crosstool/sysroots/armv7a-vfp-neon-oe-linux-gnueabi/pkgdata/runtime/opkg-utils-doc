@@ -1,0 +1,13 @@
+PN: opkg-utils
+PV: 0.1.8+gitAUTOINC+53274f0875
+PR: r0
+PKGV: 0.1.8+git0+53274f0875
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_opkg-utils-doc: Additional utilities for the opkg package manager.  This package contains documentation.
+SUMMARY_opkg-utils-doc: Additional utilities for the opkg package manager - Documentation files
+SECTION_opkg-utils-doc: doc
+PKG_opkg-utils-doc: opkg-utils-doc
+FILES_opkg-utils-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_opkg-utils-doc: 0

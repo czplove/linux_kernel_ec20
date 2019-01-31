@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-csa-z243.4-1985-gr: character map for csa-z243.4-1985-gr encoding
+SUMMARY_glibc-charmap-csa-z243.4-1985-gr: character map for csa-z243.4-1985-gr encoding
+SECTION: base
+PKG_glibc-charmap-csa-z243.4-1985-gr: glibc-charmap-csa-z243.4-1985-gr
+FILES_glibc-charmap-csa-z243.4-1985-gr: /usr/share/i18n/charmaps/CSA_Z243.4-1985-GR.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/CSA_Z243.4-1985-GR.gz": 3129}
+PKGSIZE_glibc-charmap-csa-z243.4-1985-gr: 3129

@@ -1,0 +1,13 @@
+PN: gensecimage
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gensecimage-doc: gensecimage signed appsbootloader image creation   This package contains documentation.
+SUMMARY_gensecimage-doc: gensecimage version git-invalidgit-r2 - Documentation files
+SECTION_gensecimage-doc: doc
+PKG_gensecimage-doc: gensecimage-doc
+FILES_gensecimage-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_gensecimage-doc: 0

@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-en-gb: Locale data from glibc.  This package contains language translation files for the en_GB locale.
+SUMMARY_glibc-locale-en-gb: Locale data from glibc - en_GB translations
+RPROVIDES_glibc-locale-en-gb: glibc-locale en-gb-translation
+RRECOMMENDS_glibc-locale-en-gb: virtual-locale-en-gb
+SECTION: base
+PKG_glibc-locale-en-gb: glibc-locale-en-gb
+FILES_glibc-locale-en-gb: /usr/share/locale/en_GB
+FILES_INFO: {"/usr/share/locale/en_GB/LC_MESSAGES/libc.mo": 1474}
+PKGSIZE_glibc-locale-en-gb: 1474

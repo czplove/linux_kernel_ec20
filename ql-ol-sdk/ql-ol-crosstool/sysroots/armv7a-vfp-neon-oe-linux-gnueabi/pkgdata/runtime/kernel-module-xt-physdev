@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-xt-physdev: xt-physdev kernel module; Xtables: Bridge physical device match
+SUMMARY_kernel-module-xt-physdev: xt-physdev kernel module
+RDEPENDS_kernel-module-xt-physdev: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-xt-physdev: kernel-module-xt-physdev
+FILES_kernel-module-xt-physdev: /lib/modules/3.18.20/kernel/net/netfilter/xt_physdev.ko /etc/modules-load.d/xt_physdev.conf /etc/modprobe.d/xt_physdev.conf
+pkg_postinst_kernel-module-xt-physdev: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-xt-physdev: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/net/netfilter/xt_physdev.ko": 4644}
+PKGSIZE_kernel-module-xt-physdev: 4644

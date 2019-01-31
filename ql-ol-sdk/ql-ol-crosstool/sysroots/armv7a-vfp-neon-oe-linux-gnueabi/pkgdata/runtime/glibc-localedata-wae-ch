@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-wae-ch: locale definition for wae-ch
+SUMMARY_glibc-localedata-wae-ch: locale definition for wae-ch
+RDEPENDS_glibc-localedata-wae-ch: glibc-localedata-iso14651-t1 glibc-localedata-de-ch
+SECTION: base
+PKG_glibc-localedata-wae-ch: glibc-localedata-wae-ch
+FILES_glibc-localedata-wae-ch: /usr/share/i18n/locales/wae_CH
+FILES_INFO: {"/usr/share/i18n/locales/wae_CH": 7654}
+PKGSIZE_glibc-localedata-wae-ch: 7654

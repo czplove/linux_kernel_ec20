@@ -1,0 +1,19 @@
+PN: pciutils
+PV: 3.3.0
+PR: r0
+PKGV: 3.3.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: The PCI Utilities package contains a library for portable access to PCI bus configuration space and several utilities based on this library.
+SUMMARY: PCI utilities
+RDEPENDS_libpci: glibc (>= 2.21) zlib (>= 1.2.8)
+RPROVIDES_libpci:  libpci
+SECTION: console/utils
+PKG_libpci: libpci3
+FILES_libpci: /usr/lib/libpci.so.*
+FILERPROVIDESFLIST_libpci: /usr/lib/libpci.so.3.3.0
+FILES_INFO: {"/usr/lib/libpci.so.3": 33920}
+FILERPROVIDES_/usr/lib/libpci.so.3.3.0_libpci: elf(buildid) (= 069f7aaae25c0d6a38497b3abc42c3cebc8a7c3d) libpci.so.3 libpci.so.3(LIBPCI_3.0) libpci.so.3(LIBPCI_3.1) libpci.so.3(LIBPCI_3.2) libpci.so.3(LIBPCI_3.3)
+FILERDEPENDSFLIST_libpci: /usr/lib/libpci.so.3.3.0
+FILERDEPENDS_/usr/lib/libpci.so.3.3.0_libpci: rtld(GNU_HASH)
+PKGSIZE_libpci: 33920

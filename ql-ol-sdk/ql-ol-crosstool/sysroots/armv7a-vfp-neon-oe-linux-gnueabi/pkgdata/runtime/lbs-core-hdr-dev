@@ -1,0 +1,15 @@
+PN: lbs-core-hdr
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-hdr-dev: LBS Core hdr  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lbs-core-hdr-dev: lbs-core-hdr version git-invalidgit-r1 - Development files
+RDEPENDS_lbs-core-hdr-dev: lbs-core-hdr (= git-invalidgit-r1)
+SECTION_lbs-core-hdr-dev: devel
+PKG_lbs-core-hdr-dev: lbs-core-hdr-dev
+ALLOW_EMPTY_lbs-core-hdr-dev: 1
+FILES_lbs-core-hdr-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lbs-core-hdr/*.la /lib/*.la
+FILES_INFO: {"/usr/include/Wiper.h": 1812, "/usr/include/LBSProxy.h": 1371, "/usr/include/LBSApiBase.h": 1448, "/usr/include/LBSApiV02.h": 1972, "/usr/include/LocApiProxy.h": 1392, "/usr/include/geofence.h": 1459, "/usr/include/LBSApiRpc.h": 1201, "/usr/include/LBSAdapterBase.h": 899}
+PKGSIZE_lbs-core-hdr-dev: 11554

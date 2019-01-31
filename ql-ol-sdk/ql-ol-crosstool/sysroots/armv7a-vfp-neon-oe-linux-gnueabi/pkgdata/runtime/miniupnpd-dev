@@ -1,0 +1,16 @@
+PN: miniupnpd
+PV: 1.9.20150307
+PR: r7
+PKGV: 1.9.20150307
+PKGR: r7
+LICENSE: BSD
+DESCRIPTION_miniupnpd-dev: MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling seamless detection of other UPnP devices/control points.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_miniupnpd-dev: Lightweight implementation of a UPnP IGD daemon. - Development files
+RDEPENDS_miniupnpd-dev: miniupnpd (= 1.9.20150307-r7)
+RRECOMMENDS_miniupnpd-dev: glibc-dev libgcc-dev libssl-dev libcrypto-dev libstdc++-dev data-dev libnfnetlink-dev
+SECTION_miniupnpd-dev: devel
+PKG_miniupnpd-dev: miniupnpd-dev
+ALLOW_EMPTY_miniupnpd-dev: 1
+FILES_miniupnpd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/miniupnpd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_miniupnpd-dev: 0

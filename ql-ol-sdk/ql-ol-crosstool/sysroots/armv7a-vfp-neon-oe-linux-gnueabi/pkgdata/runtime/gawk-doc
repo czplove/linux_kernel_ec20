@@ -1,0 +1,13 @@
+PN: gawk
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gawk-doc: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.  This package contains documentation.
+SUMMARY_gawk-doc: GNU awk text processing utility - Documentation files
+SECTION_gawk-doc: doc
+PKG_gawk-doc: gawk-doc
+FILES_gawk-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man3/inplace.3am": 2579, "/usr/share/info/gawk.info": 1458800, "/usr/share/man/man3/fork.3am": 2613, "/usr/share/man/man3/time.3am": 2434, "/usr/share/man/man1/gawk.1": 88404, "/usr/share/man/man3/revtwoway.3am": 1951, "/usr/share/man/man3/readdir.3am": 2715, "/usr/share/man/man3/rwarray.3am": 3144, "/usr/share/man/man3/readfile.3am": 2403, "/usr/share/man/man3/revoutput.3am": 1996, "/usr/share/man/man1/igawk.1": 1160, "/usr/share/man/man3/fnmatch.3am": 3074, "/usr/share/man/man3/ordchr.3am": 2168, "/usr/share/info/gawkinet.info": 207194, "/usr/share/man/man3/filefuncs.3am": 8847}
+PKGSIZE_gawk-doc: 1789482

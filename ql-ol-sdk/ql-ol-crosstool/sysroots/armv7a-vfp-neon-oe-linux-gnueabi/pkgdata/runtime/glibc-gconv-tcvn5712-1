@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-tcvn5712-1: gconv module for character set tcvn5712-1
+SUMMARY_glibc-gconv-tcvn5712-1: gconv module for character set tcvn5712-1
+RDEPENDS_glibc-gconv-tcvn5712-1: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-tcvn5712-1: glibc-gconv-tcvn5712-1
+FILES_glibc-gconv-tcvn5712-1: /usr/lib/gconv/TCVN5712-1.so
+FILES_INFO: {"/usr/lib/gconv/TCVN5712-1.so": 13688}
+PKGSIZE_glibc-gconv-tcvn5712-1: 13688

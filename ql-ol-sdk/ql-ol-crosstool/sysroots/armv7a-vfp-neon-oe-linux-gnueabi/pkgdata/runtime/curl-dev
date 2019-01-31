@@ -1,0 +1,16 @@
+PN: curl
+PV: 7.40.0
+PR: r0
+PKGV: 7.40.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_curl-dev: Command line tool and library for client-side URL transfers.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_curl-dev: Command line tool and library for client-side URL transfers - Development files
+RDEPENDS_curl-dev: curl (= 7.40.0-r0)
+RRECOMMENDS_curl-dev: glibc-dev zlib-dev libcurl-dev gnutls-dev
+SECTION_curl-dev: devel
+PKG_curl-dev: curl-dev
+ALLOW_EMPTY_curl-dev: 1
+FILES_curl-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/curl/*.la /lib/*.la /usr/bin/*-config
+FILES_INFO: {}
+PKGSIZE_curl-dev: 0

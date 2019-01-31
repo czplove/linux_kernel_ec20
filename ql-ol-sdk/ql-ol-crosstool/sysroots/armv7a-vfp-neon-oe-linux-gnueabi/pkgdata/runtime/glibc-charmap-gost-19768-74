@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-gost-19768-74: character map for gost-19768-74 encoding
+SUMMARY_glibc-charmap-gost-19768-74: character map for gost-19768-74 encoding
+SECTION: base
+PKG_glibc-charmap-gost-19768-74: glibc-charmap-gost-19768-74
+FILES_glibc-charmap-gost-19768-74: /usr/share/i18n/charmaps/GOST_19768-74.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/GOST_19768-74.gz": 2695}
+PKGSIZE_glibc-charmap-gost-19768-74: 2695

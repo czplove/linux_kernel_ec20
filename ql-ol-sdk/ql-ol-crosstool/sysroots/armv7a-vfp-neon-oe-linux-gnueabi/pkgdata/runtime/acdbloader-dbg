@@ -1,0 +1,16 @@
+PN: acdbloader
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbloader-dbg: acdb loader Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_acdbloader-dbg: acdbloader version git-invalidgit-r7 - Debugging files
+RPROVIDES_acdbloader-dbg:  acdbloader-dbg
+RRECOMMENDS_acdbloader-dbg: adiertac-dbg audcal-dbg system-core-liblog-dbg glibc-dbg acdbrtac-dbg acdbmapper-dbg diag-dbg audioalsa-dbg time-genoff-dbg glib-2.0-dbg
+SECTION_acdbloader-dbg: devel
+PKG_acdbloader-dbg: libacdbloader-dbg
+ALLOW_EMPTY_acdbloader-dbg: 1
+FILES_acdbloader-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/acdbloader/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/acdbloader/.debug /usr/lib/matchbox-panel/.debug /usr/lib/acdbloader/acdbloader/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libacdbloader.so.1.0.0": 186313}
+PKGSIZE_acdbloader-dbg: 186313

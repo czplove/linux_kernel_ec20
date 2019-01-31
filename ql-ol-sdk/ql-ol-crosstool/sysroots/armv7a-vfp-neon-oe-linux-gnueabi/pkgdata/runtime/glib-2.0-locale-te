@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-te: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the te locale.
+SUMMARY_glib-2.0-locale-te: A general-purpose utility library - te translations
+RPROVIDES_glib-2.0-locale-te: glib-2.0-locale te-translation glib-2.0-locale-te
+RRECOMMENDS_glib-2.0-locale-te: virtual-locale-te
+SECTION: libs
+PKG_glib-2.0-locale-te: libglib-2.0-locale-te
+FILES_glib-2.0-locale-te: /usr/share/locale/te
+FILES_INFO: {"/usr/share/locale/te/LC_MESSAGES/glib20.mo": 150827}
+PKGSIZE_glib-2.0-locale-te: 150827

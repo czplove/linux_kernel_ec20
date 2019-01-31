@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-getopt-long: perl module getopt-long
+SUMMARY_perl-module-getopt-long: perl module getopt-long
+RDEPENDS_perl-module-getopt-long: perl-module-text-parsewords perl-module-vars perl-module-overload perl perl-module-exporter perl-module-pod-usage perl-module-strict perl-module-constant
+SECTION: devel
+PKG_perl-module-getopt-long: perl-module-getopt-long
+FILES_perl-module-getopt-long: /usr/lib/perl/5.20.0/Getopt/Long.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Getopt/Long.pm": 80654}
+PKGSIZE_perl-module-getopt-long: 80654

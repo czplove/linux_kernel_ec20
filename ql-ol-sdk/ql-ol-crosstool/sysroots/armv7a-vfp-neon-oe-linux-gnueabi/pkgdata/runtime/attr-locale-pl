@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-pl: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the pl locale.
+SUMMARY_attr-locale-pl: Utilities for manipulating filesystem extended attributes - pl translations
+RPROVIDES_attr-locale-pl: attr-locale pl-translation
+RRECOMMENDS_attr-locale-pl: virtual-locale-pl
+SECTION: libs
+PKG_attr-locale-pl: attr-locale-pl
+FILES_attr-locale-pl: /usr/share/locale/pl
+FILES_INFO: {"/usr/share/locale/pl/LC_MESSAGES/attr.mo": 6290}
+PKGSIZE_attr-locale-pl: 6290

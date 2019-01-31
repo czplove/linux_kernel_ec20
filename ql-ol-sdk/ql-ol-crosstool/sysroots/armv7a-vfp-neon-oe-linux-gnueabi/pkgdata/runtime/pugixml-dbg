@@ -1,0 +1,16 @@
+PN: pugixml
+PV: 1.4
+PR: r0
+PKGV: 1.4
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_pugixml-dbg: XML Parser library .  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_pugixml-dbg: XML Parser library  - Debugging files
+RPROVIDES_pugixml-dbg:  pugixml-dbg
+RRECOMMENDS_pugixml-dbg: libstdc++-dbg glibc-dbg libgcc-dbg
+SECTION_pugixml-dbg: devel
+PKG_pugixml-dbg: libpugixml-dbg
+ALLOW_EMPTY_pugixml-dbg: 1
+FILES_pugixml-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pugixml/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pugixml/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pugixml/pugixml/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libpugixml.so.1.0.0": 497219}
+PKGSIZE_pugixml-dbg: 497219

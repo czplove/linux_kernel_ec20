@@ -1,0 +1,13 @@
+PN: iputils
+PV: s20101006
+PR: r6
+PKGV: s20101006
+PKGR: r6
+LICENSE: BSD & GPLv2+
+DESCRIPTION: Utilities for the IP protocol, including traceroute6, tracepath, tracepath6, ping, ping6 and arping.
+SUMMARY: Network monitoring tools
+SECTION: console/network
+PKG_iputils-locale: iputils-locale
+FILES_iputils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_iputils-locale: 0

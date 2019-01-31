@@ -1,0 +1,16 @@
+PN: gdb
+PV: 7.8.1
+PR: r0
+PKGV: 7.8.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION_gdb-dev: GNU debugger.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gdb-dev: GNU debugger - Development files
+RDEPENDS_gdb-dev: gdb (= 7.8.1-r0)
+RRECOMMENDS_gdb-dev: glibc-dev zlib-dev ncurses-dev lttng-ust-dev readline-dev expat-dev ncurses-libtinfo-dev
+SECTION_gdb-dev: devel
+PKG_gdb-dev: gdb-dev
+ALLOW_EMPTY_gdb-dev: 1
+FILES_gdb-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gdb/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_gdb-dev: 0

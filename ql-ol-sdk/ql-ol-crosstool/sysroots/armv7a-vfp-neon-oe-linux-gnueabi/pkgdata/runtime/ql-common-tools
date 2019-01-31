@@ -1,0 +1,22 @@
+PN: ql-common-tools
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Common Tools
+SUMMARY: ql-common-tools version git-invalidgit-r01
+RDEPENDS_ql-common-tools: glibc (>= 2.21)
+SECTION: base
+PKG_ql-common-tools: ql-common-tools
+FILES_ql-common-tools: /usr/bin/* /usr/sbin/* /usr/lib/ql-common-tools/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ql-common-tools /usr/lib/ql-common-tools/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ql-common-tools: /usr/lib/libeloop.so.1.0.0 /usr/lib/libql@underscore@utils.so.1.0.0 /usr/lib/libql@underscore@log.so.1.0.0
+FILES_INFO: {"/usr/lib/libql_utils.so.1": 12200, "/usr/lib/libql_log.so.1": 7456, "/usr/lib/libeloop.so.1": 28112}
+FILERPROVIDES_/usr/lib/libeloop.so.1.0.0_ql-common-tools: elf(buildid) (= 1caacc039ed76ec824c2122ac9f2578236da66e3) libeloop.so.1
+FILERPROVIDES_/usr/lib/libql@underscore@utils.so.1.0.0_ql-common-tools: elf(buildid) (= 7c70949e1a1d172cf92a8c66e3b074d02766b908) libql_utils.so.1
+FILERPROVIDES_/usr/lib/libql@underscore@log.so.1.0.0_ql-common-tools: elf(buildid) (= 24efa0f6b8733400b7c7b13d638b9f177382b159) libql_log.so.1
+FILERDEPENDSFLIST_ql-common-tools: /usr/lib/libeloop.so.1.0.0 /usr/lib/libql@underscore@utils.so.1.0.0 /usr/lib/libql@underscore@log.so.1.0.0
+FILERDEPENDS_/usr/lib/libeloop.so.1.0.0_ql-common-tools: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libql@underscore@utils.so.1.0.0_ql-common-tools: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libql@underscore@log.so.1.0.0_ql-common-tools: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ql-common-tools: 47768

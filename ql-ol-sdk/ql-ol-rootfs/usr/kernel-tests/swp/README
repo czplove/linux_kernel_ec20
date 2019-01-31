@@ -1,0 +1,17 @@
+SWP Kernel Test
+
+usage: ./swp_test
+
+Description:
+The use of SWP is deprecated in ARMv6 and above. Since there are a number of existing Android
+apps that use this instruction, we need to make sure that the SWP emulation feature is present
+and enabled in our kernels. This kernel test is to emulate the deprecated ‘swp’ instruction
+
+
+SWP Rt, Rt2, [Rn]
+
+Rt : is the destination register.
+Rt2 : is the source register. Rt2 can be the same register as Rt.
+Rn : contains the address in memory. Rn must be a different register from both Rt and Rt2.
+
+

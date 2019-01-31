@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-cy-gb: locale definition for cy-gb
+SUMMARY_glibc-localedata-cy-gb: locale definition for cy-gb
+RDEPENDS_glibc-localedata-cy-gb: glibc-localedata-iso14651-t1 glibc-localedata-en-gb glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-cy-gb: glibc-localedata-cy-gb
+FILES_glibc-localedata-cy-gb: /usr/share/i18n/locales/cy_GB
+FILES_INFO: {"/usr/share/i18n/locales/cy_GB": 8212}
+PKGSIZE_glibc-localedata-cy-gb: 8212

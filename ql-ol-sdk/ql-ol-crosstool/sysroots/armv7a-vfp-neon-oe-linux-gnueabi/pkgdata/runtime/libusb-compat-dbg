@@ -1,0 +1,18 @@
+PN: libusb-compat
+PE: 1
+PV: 0.1.5
+PR: r0
+PKGE: 1
+PKGV: 0.1.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb-compat-dbg: libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libusb-compat-dbg: libusb-0.1 compatibility layer for libusb1 - Debugging files
+RPROVIDES_libusb-compat-dbg:  libusb-compat-dbg
+RRECOMMENDS_libusb-compat-dbg: glibc-dbg libusb1-dbg
+SECTION_libusb-compat-dbg: devel
+PKG_libusb-compat-dbg: libusb-0.1-dbg
+ALLOW_EMPTY_libusb-compat-dbg: 1
+FILES_libusb-compat-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libusb-compat/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libusb-compat/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libusb-compat/libusb-compat/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libusb-0.1.so.4.4.4": 7690}
+PKGSIZE_libusb-compat-dbg: 7690

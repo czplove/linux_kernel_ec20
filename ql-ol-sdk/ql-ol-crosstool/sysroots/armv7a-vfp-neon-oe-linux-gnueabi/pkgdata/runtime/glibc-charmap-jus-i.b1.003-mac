@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-jus-i.b1.003-mac: character map for jus-i.b1.003-mac encoding
+SUMMARY_glibc-charmap-jus-i.b1.003-mac: character map for jus-i.b1.003-mac encoding
+SECTION: base
+PKG_glibc-charmap-jus-i.b1.003-mac: glibc-charmap-jus-i.b1.003-mac
+FILES_glibc-charmap-jus-i.b1.003-mac: /usr/share/i18n/charmaps/JUS_I.B1.003-MAC.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/JUS_I.B1.003-MAC.gz": 1553}
+PKGSIZE_glibc-charmap-jus-i.b1.003-mac: 1553

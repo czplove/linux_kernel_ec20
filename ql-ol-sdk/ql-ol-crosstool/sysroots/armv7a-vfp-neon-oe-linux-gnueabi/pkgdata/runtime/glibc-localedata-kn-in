@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-kn-in: locale definition for kn-in
+SUMMARY_glibc-localedata-kn-in: locale definition for kn-in
+RDEPENDS_glibc-localedata-kn-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-kn-in: glibc-localedata-kn-in
+FILES_glibc-localedata-kn-in: /usr/share/i18n/locales/kn_IN
+FILES_INFO: {"/usr/share/i18n/locales/kn_IN": 6572}
+PKGSIZE_glibc-localedata-kn-in: 6572

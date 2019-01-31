@@ -1,0 +1,14 @@
+PN: loc-hal
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_loc-hal-staticdev: GPS Loc HAL  This package contains static libraries for software development.
+SUMMARY_loc-hal-staticdev: loc-hal version git-r5 - Development files (Static Libraries)
+RDEPENDS_loc-hal-staticdev: loc-hal-dev (= git-r5)
+SECTION_loc-hal-staticdev: devel
+PKG_loc-hal-staticdev: loc-hal-staticdev
+FILES_loc-hal-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-hal/*.a
+FILES_INFO: {}
+PKGSIZE_loc-hal-staticdev: 0

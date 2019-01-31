@@ -1,0 +1,13 @@
+PN: start-scripts-misc-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Start up script for misc daemons
+SUMMARY: start-scripts-misc-daemon version git-invalidgit-r2
+SECTION: base
+PKG_start-scripts-misc-daemon-locale: start-scripts-misc-daemon-locale
+FILES_start-scripts-misc-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_start-scripts-misc-daemon-locale: 0

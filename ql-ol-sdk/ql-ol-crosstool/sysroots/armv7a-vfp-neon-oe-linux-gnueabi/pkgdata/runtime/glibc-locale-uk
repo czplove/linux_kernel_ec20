@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-uk: Locale data from glibc.  This package contains language translation files for the uk locale.
+SUMMARY_glibc-locale-uk: Locale data from glibc - uk translations
+RPROVIDES_glibc-locale-uk: glibc-locale uk-translation
+RRECOMMENDS_glibc-locale-uk: virtual-locale-uk
+SECTION: base
+PKG_glibc-locale-uk: glibc-locale-uk
+FILES_glibc-locale-uk: /usr/share/locale/uk
+FILES_INFO: {"/usr/share/locale/uk/LC_MESSAGES/libc.mo": 196799}
+PKGSIZE_glibc-locale-uk: 196799

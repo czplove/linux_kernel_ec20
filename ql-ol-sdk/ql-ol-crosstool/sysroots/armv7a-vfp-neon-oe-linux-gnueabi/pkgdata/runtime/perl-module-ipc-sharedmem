@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-ipc-sharedmem: perl module ipc-sharedmem
+SUMMARY_perl-module-ipc-sharedmem: perl module ipc-sharedmem
+RDEPENDS_perl-module-ipc-sharedmem: perl-module-carp perl-module-vars perl perl-module-class-struct perl-module-ipc-sysv perl-module-strict
+SECTION: devel
+PKG_perl-module-ipc-sharedmem: perl-module-ipc-sharedmem
+FILES_perl-module-ipc-sharedmem: /usr/lib/perl/5.20.0/IPC/SharedMem.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IPC/SharedMem.pm": 5597}
+PKGSIZE_perl-module-ipc-sharedmem: 5597

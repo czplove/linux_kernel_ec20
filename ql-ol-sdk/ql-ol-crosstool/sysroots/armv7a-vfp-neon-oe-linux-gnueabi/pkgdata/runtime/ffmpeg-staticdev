@@ -1,0 +1,14 @@
+PN: ffmpeg
+PV: 2.3
+PR: r0
+PKGV: 2.3
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_ffmpeg-staticdev: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video..  This package contains static libraries for software development.
+SUMMARY_ffmpeg-staticdev: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. - Development files (Static Libraries)
+RDEPENDS_ffmpeg-staticdev: ffmpeg-dev (= 2.3-r0)
+SECTION_ffmpeg-staticdev: devel
+PKG_ffmpeg-staticdev: ffmpeg-staticdev
+FILES_ffmpeg-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ffmpeg/*.a
+FILES_INFO: {"/lib/libavformat.a": 1079242, "/lib/libavcodec.a": 2059108, "/lib/libavutil.a": 270912}
+PKGSIZE_ffmpeg-staticdev: 3409262

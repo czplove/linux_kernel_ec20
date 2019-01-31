@@ -1,0 +1,14 @@
+PN: depmodwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_depmodwrapper-cross-staticdev: Wrapper script for the Linux kernel module dependency indexer.  This package contains static libraries for software development.
+SUMMARY_depmodwrapper-cross-staticdev: Wrapper script for the Linux kernel module dependency indexer - Development files (Static Libraries)
+RDEPENDS_depmodwrapper-cross-staticdev: depmodwrapper-cross-dev (= 1.0-r0)
+SECTION_depmodwrapper-cross-staticdev: devel
+PKG_depmodwrapper-cross-staticdev: depmodwrapper-cross-staticdev
+FILES_depmodwrapper-cross-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/depmodwrapper/*.a
+FILES_INFO: {}
+PKGSIZE_depmodwrapper-cross-staticdev: 0

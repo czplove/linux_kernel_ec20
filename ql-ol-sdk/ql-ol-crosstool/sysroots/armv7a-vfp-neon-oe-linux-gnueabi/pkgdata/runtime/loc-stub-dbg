@@ -1,0 +1,16 @@
+PN: loc-stub
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-stub-dbg: GPS Loc Stub  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-stub-dbg: loc-stub version git-r1 - Debugging files
+RPROVIDES_loc-stub-dbg:  loc-stub-dbg
+RRECOMMENDS_loc-stub-dbg: glib-2.0-dbg libstdc++-dbg system-core-liblog-dbg glibc-dbg libgcc-dbg
+SECTION_loc-stub-dbg: devel
+PKG_loc-stub-dbg: libloc-stub-dbg
+ALLOW_EMPTY_loc-stub-dbg: 1
+FILES_loc-stub-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-stub/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-stub/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-stub/loc-stub/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_stub.so.1.0.0": 4641}
+PKGSIZE_loc-stub-dbg: 4641

@@ -1,0 +1,15 @@
+PN: linux-libc-headers
+PV: 3.19
+PR: r0
+PKGV: 3.19
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_linux-libc-headers-dbg: Sanitized set of kernel headers for the C library\'s use.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_linux-libc-headers-dbg: Sanitized set of kernel headers for the C library\'s use - Debugging files
+RRECOMMENDS_linux-libc-headers-dbg: linux-libc-headers-dev (= 3.19-r0)
+SECTION_linux-libc-headers-dbg: devel
+PKG_linux-libc-headers-dbg: linux-libc-headers-dbg
+ALLOW_EMPTY_linux-libc-headers-dbg: 1
+FILES_linux-libc-headers-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/linux-libc-headers/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/linux-libc-headers/.debug /usr/lib/matchbox-panel/.debug /usr/lib/linux-libc-headers/linux-libc-headers/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_linux-libc-headers-dbg: 0

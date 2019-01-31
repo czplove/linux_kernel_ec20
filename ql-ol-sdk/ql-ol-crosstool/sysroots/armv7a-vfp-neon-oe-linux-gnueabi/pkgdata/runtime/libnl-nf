@@ -1,0 +1,21 @@
+PN: libnl
+PE: 1
+PV: 3.2.25
+PR: r1
+PKGE: 1
+PKGV: 3.2.25
+PKGR: r1
+LICENSE: LGPLv2.1
+DESCRIPTION: A library for applications dealing with netlink sockets.
+SUMMARY: A library for applications dealing with netlink sockets
+RDEPENDS_libnl-nf: libnl (>= 3.2.25) libnl-route (>= 3.2.25) glibc (>= 2.21)
+RPROVIDES_libnl-nf:  libnl-nf
+SECTION: libs/network
+PKG_libnl-nf: libnl-nf-3-200
+FILES_libnl-nf: /usr/lib/libnl-nf-3.so.*
+FILERPROVIDESFLIST_libnl-nf: /usr/lib/libnl-nf-3.so.200.20.0
+FILES_INFO: {"/usr/lib/libnl-nf-3.so.200": 67064}
+FILERPROVIDES_/usr/lib/libnl-nf-3.so.200.20.0_libnl-nf: elf(buildid) (= 6745cc4fe8c446b55ebe098fb79b5a9662ab53a4) libnl-nf-3.so.200 libnl-nf-3.so.200(libnl_3)
+FILERDEPENDSFLIST_libnl-nf: /usr/lib/libnl-nf-3.so.200.20.0
+FILERDEPENDS_/usr/lib/libnl-nf-3.so.200.20.0_libnl-nf: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-route-3.so.200 libnl-route-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libnl-nf: 67064

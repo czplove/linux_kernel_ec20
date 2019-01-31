@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-i18n: locale definition for i18n
+SUMMARY_glibc-localedata-i18n: locale definition for i18n
+RDEPENDS_glibc-localedata-i18n: glibc-localedata-translit-neutral glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-i18n: glibc-localedata-i18n
+FILES_glibc-localedata-i18n: /usr/share/i18n/locales/i18n
+FILES_INFO: {"/usr/share/i18n/locales/i18n": 115232}
+PKGSIZE_glibc-localedata-i18n: 115232

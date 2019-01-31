@@ -1,0 +1,18 @@
+PN: ath6kl-utils
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Atheros ath6kl utils.
+SUMMARY: ath6kl-utils version git-invalidgit-r2
+RDEPENDS_ath6kl-utils: libnl (>= 3.2.25) libnl-genl (>= 3.2.25) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+SECTION: base
+PKG_ath6kl-utils: ath6kl-utils
+FILES_ath6kl-utils: /usr/bin/* /usr/sbin/* /usr/lib/ath6kl-utils/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ath6kl-utils /usr/lib/ath6kl-utils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_ath6kl-utils: /usr/bin/myftm
+FILES_INFO: {"/usr/bin/myftm": 85992}
+FILERPROVIDES_/usr/bin/myftm_ath6kl-utils: elf(buildid) (= 34160754f35f30a040d6dae89835a91180bca4aa)
+FILERDEPENDSFLIST_ath6kl-utils: /usr/bin/myftm
+FILERDEPENDS_/usr/bin/myftm_ath6kl-utils: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libglib-2.0.so.0 libnl-3.so.200 libnl-3.so.200(libnl_3) libnl-genl-3.so.200 libnl-genl-3.so.200(libnl_3) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ath6kl-utils: 85992

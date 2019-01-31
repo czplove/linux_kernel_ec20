@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-libksc: gconv module for character set libksc
+SUMMARY_glibc-gconv-libksc: gconv module for character set libksc
+RDEPENDS_glibc-gconv-libksc: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-libksc: glibc-gconv-libksc
+FILES_glibc-gconv-libksc: /usr/lib/gconv/libKSC.so
+FILES_INFO: {"/usr/lib/gconv/libKSC.so": 46428}
+PKGSIZE_glibc-gconv-libksc: 46428

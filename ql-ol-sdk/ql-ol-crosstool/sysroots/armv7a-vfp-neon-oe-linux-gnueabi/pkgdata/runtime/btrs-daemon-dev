@@ -1,0 +1,16 @@
+PN: btrs-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_btrs-daemon-dev: Bluetooth Remote Start DAEMON  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_btrs-daemon-dev: btrs-daemon version git-invalidgit-r2 - Development files
+RDEPENDS_btrs-daemon-dev: btrs-daemon (= git-invalidgit-r2)
+RRECOMMENDS_btrs-daemon-dev: data-dev glibc-dev libgcc-dev libstdc++-dev
+SECTION_btrs-daemon-dev: devel
+PKG_btrs-daemon-dev: btrs-daemon-dev
+ALLOW_EMPTY_btrs-daemon-dev: 1
+FILES_btrs-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/btrs-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_btrs-daemon-dev: 0

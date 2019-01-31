@@ -1,0 +1,21 @@
+PN: wireless-tools
+PE: 1
+PV: 30.pre9
+PR: r0
+PKGE: 1
+PKGV: 30.pre9
+PKGR: r0
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+DESCRIPTION: Tools for the Linux Standard Wireless Extension Subsystem.
+SUMMARY: Tools for the Linux Standard Wireless Extension Subsystem
+RDEPENDS_libiw: glibc (>= 2.21)
+RPROVIDES_libiw:  libiw
+SECTION: base
+PKG_libiw: libiw30
+FILES_libiw: /usr/lib/*.so.*
+FILERPROVIDESFLIST_libiw: /usr/lib/libiw.so.30
+FILES_INFO: {"/usr/lib/libiw.so.30": 27084}
+FILERPROVIDES_/usr/lib/libiw.so.30_libiw: elf(buildid) (= 2925c1014bb6a77c84bc7becead3046cd527c2e8) libiw.so.30
+FILERDEPENDSFLIST_libiw: /usr/lib/libiw.so.30
+FILERDEPENDS_/usr/lib/libiw.so.30_libiw: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libiw: 27084

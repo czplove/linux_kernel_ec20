@@ -1,0 +1,19 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Userspace library to access USB (version 1.0).
+SUMMARY: Userspace library to access USB (version 1.0)
+RDEPENDS_libusb1: glibc (>= 2.21)
+RPROVIDES_libusb1:  libusb1
+SECTION: libs
+PKG_libusb1: libusb-1.0-0
+FILES_libusb1: /usr/bin/* /usr/sbin/* /usr/lib/libusb1/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libusb1 /usr/lib/libusb1/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/*.so.*
+FILERPROVIDESFLIST_libusb1: /lib/libusb-1.0.so.0.1.0
+FILES_INFO: {"/lib/libusb-1.0.so.0": 77196}
+FILERPROVIDES_/lib/libusb-1.0.so.0.1.0_libusb1: elf(buildid) (= 662aa9b4095bd97c2367769cc46bc677d791ba90) libusb-1.0.so.0
+FILERDEPENDSFLIST_libusb1: /lib/libusb-1.0.so.0.1.0
+FILERDEPENDS_/lib/libusb-1.0.so.0.1.0_libusb1: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libusb1: 77196

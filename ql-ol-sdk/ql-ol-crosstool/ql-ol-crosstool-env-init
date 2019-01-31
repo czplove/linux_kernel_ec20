@@ -1,0 +1,68 @@
+if [ "$CROSSTOOL_FLAG" == "1" ];then
+    echo -e "\033[32m Crosstool have inited, donot init twice, exit \033[0m"
+    return
+fi
+
+########Relocate Current Crosstool PATH########
+QUECTEL_PROJECT_NAME=EC20CE_FAG
+QUECTEL_PROJECT_REV=EC20CEFAGR06A04M4G_OCPU
+QUECTEL_FEATURE_OPENLINUX=OL
+echo -e "\033[33;1mQUECTEL_PROJECT_NAME      =EC20CE_FAG\033[0m"
+echo -e "\033[33;1mQUECTEL_PROJECT_REV       =EC20CEFAGR06A04M4G_OCPU\033[0m"
+echo -e "\033[33;1mQUECTEL_FEATURE_OPENLINUX =OL\033[0m"
+
+DIR=$(cd $(dirname ${BASH_SOURCE[0]}) && pwd)
+newprefix=$(echo ${DIR} | sed -n 's/\//\\\//gp')
+oldprefix=$(awk -F " " 'NR==2 {print $2}' ${DIR}/relocate_sdk.sh | sed -n 's/\/relocate_sdk.py//p' | sed -n 's/\//\\\//gp')
+eval sed -i 's/${oldprefix}/${newprefix}/g' ${DIR}/relocate_sdk.sh
+${DIR}/relocate_sdk.sh
+
+export QUECTEL_PROJECT_NAME
+export CROSSTOOL_FLAG=1
+export QL_OL_CROSSTOOL_PATH=${DIR}
+export SDKTARGETSYSROOT=${QL_OL_CROSSTOOL_PATH}/sysroots/armv7a-vfp-neon-oe-linux-gnueabi
+export PATH=${QL_OL_CROSSTOOL_PATH}/sysroots/x86_64-oesdk-linux/usr/bin:${QL_OL_CROSSTOOL_PATH}/sysroots/x86_64-oesdk-linux/usr/bin/arm-oe-linux-gnueabi:$PATH
+export CCACHE_PATH=$sdkpathnative$bindir:$sdkpathnative$bindir/arm-oe-linux-gnueabi:$CCACHE_PATH
+#export PKG_CONFIG_SYSROOT_DIR=$SDKTARGETSYSROOT
+#export PKG_CONFIG_PATH=$SDKTARGETSYSROOT/usr/lib/pkgconfig
+export CONFIG_SITE=${QL_OL_CROSSTOOL_PATH}/site-config-armv7a-vfp-neon-oe-linux-gnueabi
+export OECORE_NATIVE_SYSROOT="${QL_OL_CROSSTOOL_PATH}/sysroots/x86_64-oesdk-linux"
+export OECORE_TARGET_SYSROOT="$SDKTARGETSYSROOT"
+export OECORE_ACLOCAL_OPTS="-I ${QL_OL_CROSSTOOL_PATH}/sysroots/x86_64-oesdk-linux/usr/share/aclocal"
+export PYTHONHOME=${QL_OL_CROSSTOOL_PATH}/sysroots/x86_64-oesdk-linux/usr
+export CC="arm-oe-linux-gnueabi-gcc  -march=armv7-a -mfloat-abi=softfp -mfpu=neon"
+export CXX="arm-oe-linux-gnueabi-g++  -march=armv7-a -mfloat-abi=softfp -mfpu=neon"
+export CPP="arm-oe-linux-gnueabi-gcc -E  -march=armv7-a -mfloat-abi=softfp -mfpu=neon"
+export AS="arm-oe-linux-gnueabi-as "
+export LD="arm-oe-linux-gnueabi-ld "
+export GDB=arm-oe-linux-gnueabi-gdb
+export STRIP=arm-oe-linux-gnueabi-strip
+export RANLIB=arm-oe-linux-gnueabi-ranlib
+export OBJCOPY=arm-oe-linux-gnueabi-objcopy
+export OBJDUMP=arm-oe-linux-gnueabi-objdump
+export AR=arm-oe-linux-gnueabi-ar
+export NM=arm-oe-linux-gnueabi-nm
+export M4=m4
+export TARGET_PREFIX=arm-oe-linux-gnueabi-
+export CONFIGURE_FLAGS="--target=arm-oe-linux-gnueabi --host=arm-oe-linux-gnueabi --build=x86_64-linux --with-libtool-sysroot=$SDKTARGETSYSROOT"
+export CFLAGS=" -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h"
+export CXXFLAGS=" -O2 -fexpensive-optimizations -frename-registers -fomit-frame-pointer -include quectel-features-config.h"
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export CPPFLAGS=""
+export KCFLAGS="--sysroot=$SDKTARGETSYSROOT"
+export OECORE_DISTRO_VERSION="201808241616"
+export OECORE_SDK_VERSION="nodistro.0"
+export ARCH=arm
+export CROSS_COMPILE=arm-oe-linux-gnueabi-
+
+# Append environment subscripts
+if [ -d "$OECORE_TARGET_SYSROOT/environment-setup.d" ]; then
+    for envfile in $OECORE_TARGET_SYSROOT/environment-setup.d/*.sh; do
+	    source $envfile
+    done
+fi
+if [ -d "$OECORE_NATIVE_SYSROOT/environment-setup.d" ]; then
+    for envfile in $OECORE_NATIVE_SYSROOT/environment-setup.d/*.sh; do
+	    source $envfile
+    done
+fi

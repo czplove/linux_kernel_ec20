@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-xhtml: perl module pod-simple-xhtml
+SUMMARY_perl-module-pod-simple-xhtml: perl module pod-simple-xhtml
+RDEPENDS_perl-module-pod-simple-xhtml: perl
+SECTION: devel
+PKG_perl-module-pod-simple-xhtml: perl-module-pod-simple-xhtml
+FILES_perl-module-pod-simple-xhtml: /usr/lib/perl/5.20.0/Pod/Simple/XHTML.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Simple/XHTML.pm": 25532}
+PKGSIZE_perl-module-pod-simple-xhtml: 25532

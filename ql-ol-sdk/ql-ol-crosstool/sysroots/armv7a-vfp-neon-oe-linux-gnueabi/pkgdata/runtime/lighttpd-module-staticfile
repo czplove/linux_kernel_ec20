@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-staticfile: Lighttpd module for staticfile
+SUMMARY_lighttpd-module-staticfile: Lighttpd module for staticfile
+RDEPENDS_lighttpd-module-staticfile: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-staticfile: lighttpd-module-staticfile
+FILES_lighttpd-module-staticfile: /usr/lib/mod_staticfile.so
+FILERPROVIDESFLIST_lighttpd-module-staticfile: /usr/lib/mod@underscore@staticfile.so
+FILES_INFO: {"/usr/lib/mod_staticfile.so": 10332}
+FILERPROVIDES_/usr/lib/mod@underscore@staticfile.so_lighttpd-module-staticfile: elf(buildid) (= c1afc4877e7f12e99bf482ff5f382e0039cd886a) mod_staticfile.so
+FILERDEPENDSFLIST_lighttpd-module-staticfile: /usr/lib/mod@underscore@staticfile.so
+FILERDEPENDS_/usr/lib/mod@underscore@staticfile.so_lighttpd-module-staticfile: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-staticfile: 10332

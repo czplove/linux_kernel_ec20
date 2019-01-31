@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-hsb-de: locale definition for hsb-de
+SUMMARY_glibc-localedata-hsb-de: locale definition for hsb-de
+RDEPENDS_glibc-localedata-hsb-de: glibc-localedata-de-de glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-hsb-de: glibc-localedata-hsb-de
+FILES_glibc-localedata-hsb-de: /usr/share/i18n/locales/hsb_DE
+FILES_INFO: {"/usr/share/i18n/locales/hsb_DE": 82297}
+PKGSIZE_glibc-localedata-hsb-de: 82297

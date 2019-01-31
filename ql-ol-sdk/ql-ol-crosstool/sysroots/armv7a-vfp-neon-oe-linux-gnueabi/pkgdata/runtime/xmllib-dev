@@ -1,0 +1,17 @@
+PN: xmllib
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_xmllib-dev: Qualcomm XML Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_xmllib-dev: xmllib version git-invalidgit-r9 - Development files
+RDEPENDS_xmllib-dev: xmllib (= git-invalidgit-r9)
+RPROVIDES_xmllib-dev:  xmllib-dev
+RRECOMMENDS_xmllib-dev: glib-2.0-dev glibc-dev common-dev time-genoff-dev diag-dev
+SECTION_xmllib-dev: devel
+PKG_xmllib-dev: libxml-dev
+ALLOW_EMPTY_xmllib-dev: 1
+FILES_xmllib-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/xmllib/*.la /lib/*.la
+FILES_INFO: {"/usr/include/xmllib/xmllib_parser.h": 3384, "/usr/lib/pkgconfig/xmllib.pc": 189, "/usr/lib/libxml.la": 1105, "/usr/include/xmllib/xmllib_common.h": 16123, "/usr/lib/libxml.so": 15, "/usr/include/xmllib/xmllib_tok.h": 8040}
+PKGSIZE_xmllib-dev: 28856

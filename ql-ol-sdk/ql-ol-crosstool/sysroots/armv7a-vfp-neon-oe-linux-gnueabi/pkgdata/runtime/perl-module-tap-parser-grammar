@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser-grammar: perl module tap-parser-grammar
+SUMMARY_perl-module-tap-parser-grammar: perl module tap-parser-grammar
+RDEPENDS_perl-module-tap-parser-grammar: perl-module-carp perl-module-tap-parser-yamlish-reader perl perl-module-tap-parser-resultfactory perl-module-warnings perl-module-strict perl-module-base
+SECTION: devel
+PKG_perl-module-tap-parser-grammar: perl-module-tap-parser-grammar
+FILES_perl-module-tap-parser-grammar: /usr/lib/perl/5.20.0/TAP/Parser/Grammar.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Parser/Grammar.pm": 15663}
+PKGSIZE_perl-module-tap-parser-grammar: 15663

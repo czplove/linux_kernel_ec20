@@ -1,0 +1,5 @@
+libqmi_csi.so.1:/usr/lib:git-invalidgit
+libqmi_common_so.so.1:/usr/lib:git-invalidgit
+libqmi_cci.so.1:/usr/lib:git-invalidgit
+libqmi_sap.so.1:/usr/lib:git-invalidgit
+libqmi_encdec.so.1:/usr/lib:git-invalidgit

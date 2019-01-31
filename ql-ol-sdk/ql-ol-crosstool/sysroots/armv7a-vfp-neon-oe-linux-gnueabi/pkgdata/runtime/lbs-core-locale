@@ -1,0 +1,14 @@
+PN: lbs-core
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS LBS Core
+SUMMARY: lbs-core version git-r1
+RPROVIDES_lbs-core-locale:  lbs-core-locale
+SECTION: base
+PKG_lbs-core-locale: liblbs-core-locale
+FILES_lbs-core-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lbs-core-locale: 0

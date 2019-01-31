@@ -1,0 +1,14 @@
+PN: libhardware
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Apache-2.0
+DESCRIPTION_libhardware-staticdev: hardware libhardware headers  This package contains static libraries for software development.
+SUMMARY_libhardware-staticdev: libhardware version git-r5 - Development files (Static Libraries)
+RDEPENDS_libhardware-staticdev: libhardware-dev (= git-r5)
+SECTION_libhardware-staticdev: devel
+PKG_libhardware-staticdev: libhardware-staticdev
+FILES_libhardware-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libhardware/*.a
+FILES_INFO: {"/usr/lib/libhardware.a": 3982}
+PKGSIZE_libhardware-staticdev: 3982

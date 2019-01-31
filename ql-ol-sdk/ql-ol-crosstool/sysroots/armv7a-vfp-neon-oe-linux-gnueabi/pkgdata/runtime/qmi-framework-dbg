@@ -1,0 +1,15 @@
+PN: qmi-framework
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-framework-dbg: QMI Framework Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qmi-framework-dbg: qmi-framework version git-invalidgit-r7 - Debugging files
+RRECOMMENDS_qmi-framework-dbg: glibc-dbg configdb-dbg diag-dbg time-genoff-dbg glib-2.0-dbg dsutils-dbg xmllib-dbg qmi-dbg
+SECTION_qmi-framework-dbg: devel
+PKG_qmi-framework-dbg: qmi-framework-dbg
+ALLOW_EMPTY_qmi-framework-dbg: 1
+FILES_qmi-framework-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi-framework/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi-framework/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi-framework/qmi-framework/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qmi_ping_test": 26718, "/usr/lib/.debug/libqmi_sap.so.1.0.0": 19689, "/usr/bin/.debug/qmi_test_service_clnt_test_0001": 46515, "/usr/bin/.debug/irsc_util": 18691, "/usr/bin/.debug/qmi_test_service_clnt_test_1001": 47247, "/usr/bin/.debug/qmi_ping_clnt_test_2000": 41303, "/usr/bin/.debug/qmi_test_mt_client_init_instance": 48464, "/usr/lib/.debug/libqmi_csi.so.1.0.0": 69550, "/usr/bin/.debug/qmi_test_service_clnt_test_0000": 46232, "/usr/bin/.debug/qmi_ping_clnt_test_0001": 41320, "/usr/bin/.debug/qmi_ping_clnt_test_0000": 41831, "/usr/bin/.debug/qmi_test_service_test": 33787, "/usr/bin/.debug/qmi_ping_clnt_test_1000": 41759, "/usr/bin/.debug/qmi_ping_clnt_test_1001": 41292, "/usr/bin/.debug/qmi_test_service_clnt_test_1000": 46184, "/usr/bin/.debug/qmi_ping_svc": 27459, "/usr/lib/.debug/libqmi_encdec.so.1.0.0": 32774, "/usr/lib/.debug/libqmi_common_so.so.1.0.0": 7115, "/usr/lib/.debug/libqmi_cci.so.1.0.0": 114130, "/usr/bin/.debug/qmi_test_service_clnt_test_2000": 46012}
+PKGSIZE_qmi-framework-dbg: 838072

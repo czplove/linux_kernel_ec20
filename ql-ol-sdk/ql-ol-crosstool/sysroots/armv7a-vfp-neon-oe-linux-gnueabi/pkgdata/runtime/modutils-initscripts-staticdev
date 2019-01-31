@@ -1,0 +1,14 @@
+PN: modutils-initscripts
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: PD
+DESCRIPTION_modutils-initscripts-staticdev: Initscript for auto-loading kernel modules on boot.  This package contains static libraries for software development.
+SUMMARY_modutils-initscripts-staticdev: Initscript for auto-loading kernel modules on boot - Development files (Static Libraries)
+RDEPENDS_modutils-initscripts-staticdev: modutils-initscripts-dev (= 1.0-r7)
+SECTION_modutils-initscripts-staticdev: devel
+PKG_modutils-initscripts-staticdev: modutils-initscripts-staticdev
+FILES_modutils-initscripts-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/modutils-initscripts/*.a
+FILES_INFO: {}
+PKGSIZE_modutils-initscripts-staticdev: 0

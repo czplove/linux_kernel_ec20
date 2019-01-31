@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-quz-pe: locale definition for quz-pe
+SUMMARY_glibc-localedata-quz-pe: locale definition for quz-pe
+RDEPENDS_glibc-localedata-quz-pe: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n glibc-localedata-es-pe
+SECTION: base
+PKG_glibc-localedata-quz-pe: glibc-localedata-quz-pe
+FILES_glibc-localedata-quz-pe: /usr/share/i18n/locales/quz_PE
+FILES_INFO: {"/usr/share/i18n/locales/quz_PE": 6037}
+PKGSIZE_glibc-localedata-quz-pe: 6037

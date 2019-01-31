@@ -1,0 +1,13 @@
+PN: sfe
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION: Shortcut Forward Engine Driver
+SUMMARY: sfe version git-r0
+SECTION: base
+PKG_sfe-locale: sfe-locale
+FILES_sfe-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_sfe-locale: 0

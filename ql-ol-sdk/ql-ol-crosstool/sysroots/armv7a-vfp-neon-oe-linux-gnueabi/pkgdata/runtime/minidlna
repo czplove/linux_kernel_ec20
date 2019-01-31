@@ -1,0 +1,19 @@
+PN: minidlna
+PV: 1.1.3
+PR: r5
+PKGV: 1.1.3
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients..
+SUMMARY: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients.
+RDEPENDS_minidlna: ffmpeg (>= 2.3) libflac (>= 1.3.1) libjpeg-turbo (>= 1.2.1) glibc (>= 2.21) libid3tag (>= 0.15.1b) libexif (>= 0.6.21) libsqlite3 (>= 3.8.7.4) libogg (>= 1.3.0) libvorbis (>= 1.3.3)
+SECTION: base
+PKG_minidlna: minidlna
+FILES_minidlna: /usr/bin/* /usr/sbin/* /usr/lib/minidlna/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/minidlna /usr/lib/minidlna/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_minidlna: /usr/sbin/minidlnad
+FILES_INFO: {"/usr/sbin/minidlnad": 238416, "/etc/init.d/minidlna": 1366, "/etc/minidlna.conf": 3351}
+FILERPROVIDES_/usr/sbin/minidlnad_minidlna: elf(buildid) (= fd1e037abd1f868b4c77805cebd6e62a851ca039)
+FILERDEPENDSFLIST_minidlna: /usr/sbin/minidlnad /etc/init.d/minidlna
+FILERDEPENDS_/usr/sbin/minidlnad_minidlna: libFLAC.so.8 libavformat.so.55 libavformat.so.55(LIBAVFORMAT_55) libavutil.so.52 libavutil.so.52(LIBAVUTIL_52) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libexif.so.12 libid3tag.so.0 libjpeg.so.8 libjpeg.so.8(LIBJPEG_8.0) libogg.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libsqlite3.so.0 libvorbis.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/minidlna_minidlna: /bin/sh
+PKGSIZE_minidlna: 243133

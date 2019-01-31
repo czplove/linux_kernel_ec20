@@ -1,0 +1,14 @@
+PN: garden-app
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-app-staticdev: GPS Garden test shippable app for LOC API HAL  This package contains static libraries for software development.
+SUMMARY_garden-app-staticdev: garden-app version git-invalidgit-r4 - Development files (Static Libraries)
+RDEPENDS_garden-app-staticdev: garden-app-dev (= git-invalidgit-r4)
+SECTION_garden-app-staticdev: devel
+PKG_garden-app-staticdev: garden-app-staticdev
+FILES_garden-app-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/garden-app/*.a
+FILES_INFO: {}
+PKGSIZE_garden-app-staticdev: 0

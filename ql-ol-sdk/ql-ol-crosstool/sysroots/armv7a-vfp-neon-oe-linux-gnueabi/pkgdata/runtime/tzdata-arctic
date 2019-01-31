@@ -1,0 +1,14 @@
+PN: tzdata
+PV: 2015a
+PR: r0
+PKGV: 2015a
+PKGR: r0
+LICENSE: PD & BSD
+DESCRIPTION: Timezone data
+SUMMARY: tzdata version 2015a-r0
+RPROVIDES_tzdata-arctic: tzdata-arctic
+SECTION: base
+PKG_tzdata-arctic: tzdata-arctic
+FILES_tzdata-arctic:  /usr/share/zoneinfo/Arctic/*
+FILES_INFO: {"/usr/share/zoneinfo/Arctic/Longyearbyen": 2251}
+PKGSIZE_tzdata-arctic: 2251

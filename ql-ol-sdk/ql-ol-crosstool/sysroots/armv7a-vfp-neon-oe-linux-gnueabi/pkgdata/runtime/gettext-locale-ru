@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-ru: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the ru locale.
+SUMMARY_gettext-locale-ru: Utilities and libraries for producing multi-lingual messages - ru translations
+RPROVIDES_gettext-locale-ru: gettext-locale ru-translation
+RRECOMMENDS_gettext-locale-ru: virtual-locale-ru
+SECTION: libs
+PKG_gettext-locale-ru: gettext-locale-ru
+FILES_gettext-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/gettext-tools.mo": 142656, "/usr/share/locale/ru/LC_MESSAGES/gettext-runtime.mo": 11987}
+PKGSIZE_gettext-locale-ru: 154643

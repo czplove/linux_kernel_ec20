@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-rw-rw: locale definition for rw-rw
+SUMMARY_glibc-localedata-rw-rw: locale definition for rw-rw
+RDEPENDS_glibc-localedata-rw-rw: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-rw-rw: glibc-localedata-rw-rw
+FILES_glibc-localedata-rw-rw: /usr/share/i18n/locales/rw_RW
+FILES_INFO: {"/usr/share/i18n/locales/rw_RW": 5431}
+PKGSIZE_glibc-localedata-rw-rw: 5431

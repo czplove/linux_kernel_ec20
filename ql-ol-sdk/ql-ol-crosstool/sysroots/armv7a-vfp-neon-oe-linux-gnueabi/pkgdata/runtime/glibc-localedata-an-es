@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-an-es: locale definition for an-es
+SUMMARY_glibc-localedata-an-es: locale definition for an-es
+RDEPENDS_glibc-localedata-an-es: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-an-es: glibc-localedata-an-es
+FILES_glibc-localedata-an-es: /usr/share/i18n/locales/an_ES
+FILES_INFO: {"/usr/share/i18n/locales/an_ES": 4214}
+PKGSIZE_glibc-localedata-an-es: 4214

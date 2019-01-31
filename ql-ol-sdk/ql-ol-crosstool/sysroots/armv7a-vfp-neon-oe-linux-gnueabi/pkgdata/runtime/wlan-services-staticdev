@@ -1,0 +1,14 @@
+PN: wlan-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wlan-services-staticdev: WLAN Services required for QCACLD  This package contains static libraries for software development.
+SUMMARY_wlan-services-staticdev: wlan-services version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_wlan-services-staticdev: wlan-services-dev (= git-invalidgit-r1)
+SECTION_wlan-services-staticdev: devel
+PKG_wlan-services-staticdev: wlan-services-staticdev
+FILES_wlan-services-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/wlan-services/*.a
+FILES_INFO: {}
+PKGSIZE_wlan-services-staticdev: 0

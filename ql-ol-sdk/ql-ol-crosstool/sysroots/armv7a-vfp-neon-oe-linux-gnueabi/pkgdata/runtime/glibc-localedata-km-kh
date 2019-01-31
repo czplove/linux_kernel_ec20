@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-km-kh: locale definition for km-kh
+SUMMARY_glibc-localedata-km-kh: locale definition for km-kh
+SECTION: base
+PKG_glibc-localedata-km-kh: glibc-localedata-km-kh
+FILES_glibc-localedata-km-kh: /usr/share/i18n/locales/km_KH
+FILES_INFO: {"/usr/share/i18n/locales/km_KH": 50892}
+PKGSIZE_glibc-localedata-km-kh: 50892

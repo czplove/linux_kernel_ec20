@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-bh-in: locale definition for bh-in
+SUMMARY_glibc-localedata-bh-in: locale definition for bh-in
+RDEPENDS_glibc-localedata-bh-in: glibc-localedata-ks-in glibc-localedata-hi-in glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-bh-in: glibc-localedata-bh-in
+FILES_glibc-localedata-bh-in: /usr/share/i18n/locales/bh_IN
+FILES_INFO: {"/usr/share/i18n/locales/bh_IN": 5372}
+PKGSIZE_glibc-localedata-bh-in: 5372

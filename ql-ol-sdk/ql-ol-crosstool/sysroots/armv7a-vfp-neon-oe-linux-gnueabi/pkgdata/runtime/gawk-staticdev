@@ -1,0 +1,14 @@
+PN: gawk
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gawk-staticdev: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.  This package contains static libraries for software development.
+SUMMARY_gawk-staticdev: GNU awk text processing utility - Development files (Static Libraries)
+RDEPENDS_gawk-staticdev: gawk-dev (= 4.1.1-r0)
+SECTION_gawk-staticdev: devel
+PKG_gawk-staticdev: gawk-staticdev
+FILES_gawk-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gawk/*.a
+FILES_INFO: {}
+PKGSIZE_gawk-staticdev: 0

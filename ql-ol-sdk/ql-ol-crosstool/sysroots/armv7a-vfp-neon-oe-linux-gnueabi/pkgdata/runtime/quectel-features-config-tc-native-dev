@@ -1,0 +1,15 @@
+PN: quectel-features-config-tc-native
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-features-config-tc-native-dev: Quectel Features Config  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-features-config-tc-native-dev: quectel-features-config-tc-native version 1.0-r1 - Development files
+RDEPENDS_quectel-features-config-tc-native-dev: quectel-features-config-tc-native (= 1.0-r1)
+SECTION_quectel-features-config-tc-native-dev: devel
+PKG_quectel-features-config-tc-native-dev: quectel-features-config-tc-native-dev
+ALLOW_EMPTY_quectel-features-config-tc-native-dev: 1
+FILES_quectel-features-config-tc-native-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-features-config-tc/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ql_custom_config.h": 2904, "/usr/include/ql_openlinux_config.h": 831, "/usr/include/ql_funcs_config.h": 906, "/usr/include/ql_product_config.h": 11851, "/usr/include/ql_branch_config.h": 1689, "/usr/include/quectel-features-config.h": 562, "/usr/include/quectel-buildconfig-gen.h": 622, "/usr/include/ql_leagcy_config.h": 2089}
+PKGSIZE_quectel-features-config-tc-native-dev: 21454

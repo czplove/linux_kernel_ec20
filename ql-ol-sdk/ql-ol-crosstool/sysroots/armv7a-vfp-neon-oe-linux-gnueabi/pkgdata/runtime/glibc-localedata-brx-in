@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-brx-in: locale definition for brx-in
+SUMMARY_glibc-localedata-brx-in: locale definition for brx-in
+RDEPENDS_glibc-localedata-brx-in: glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-brx-in: glibc-localedata-brx-in
+FILES_glibc-localedata-brx-in: /usr/share/i18n/locales/brx_IN
+FILES_INFO: {"/usr/share/i18n/locales/brx_IN": 6205}
+PKGSIZE_glibc-localedata-brx-in: 6205

@@ -1,0 +1,14 @@
+PN: loc-stub
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-stub-doc: GPS Loc Stub  This package contains documentation.
+SUMMARY_loc-stub-doc: loc-stub version git-r1 - Documentation files
+RPROVIDES_loc-stub-doc:  loc-stub-doc
+SECTION_loc-stub-doc: doc
+PKG_loc-stub-doc: libloc-stub-doc
+FILES_loc-stub-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-stub-doc: 0

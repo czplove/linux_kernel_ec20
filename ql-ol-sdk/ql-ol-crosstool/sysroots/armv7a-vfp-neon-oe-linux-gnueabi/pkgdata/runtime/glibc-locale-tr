@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-tr: Locale data from glibc.  This package contains language translation files for the tr locale.
+SUMMARY_glibc-locale-tr: Locale data from glibc - tr translations
+RPROVIDES_glibc-locale-tr: glibc-locale tr-translation
+RRECOMMENDS_glibc-locale-tr: virtual-locale-tr
+SECTION: base
+PKG_glibc-locale-tr: glibc-locale-tr
+FILES_glibc-locale-tr: /usr/share/locale/tr
+FILES_INFO: {"/usr/share/locale/tr/LC_MESSAGES/libc.mo": 117852}
+PKGSIZE_glibc-locale-tr: 117852

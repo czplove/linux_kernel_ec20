@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-cygwin: perl module extutils-mm-cygwin
+SUMMARY_perl-module-extutils-mm-cygwin: perl module extutils-mm-cygwin
+RDEPENDS_perl-module-extutils-mm-cygwin: perl-module-extutils-makemaker-config perl-module-extutils-mm-unix perl-module-file-spec perl perl-module-strict perl-module-extutils-mm-win32
+SECTION: devel
+PKG_perl-module-extutils-mm-cygwin: perl-module-extutils-mm-cygwin
+FILES_perl-module-extutils-mm-cygwin: /usr/lib/perl/5.20.0/ExtUtils/MM_Cygwin.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MM_Cygwin.pm": 3333}
+PKGSIZE_perl-module-extutils-mm-cygwin: 3333

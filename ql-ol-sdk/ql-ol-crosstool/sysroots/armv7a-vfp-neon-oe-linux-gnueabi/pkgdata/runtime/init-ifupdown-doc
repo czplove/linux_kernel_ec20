@@ -1,0 +1,13 @@
+PN: init-ifupdown
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: GPLv2
+DESCRIPTION_init-ifupdown-doc: This package provides high level tools to configure network interfaces  This package contains documentation.
+SUMMARY_init-ifupdown-doc: Basic TCP/IP networking init scripts and configuration files - Documentation files
+SECTION_init-ifupdown-doc: doc
+PKG_init-ifupdown-doc: init-ifupdown-doc
+FILES_init-ifupdown-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_init-ifupdown-doc: 0

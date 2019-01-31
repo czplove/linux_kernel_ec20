@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-math-bigrat: perl module math-bigrat
+SUMMARY_perl-module-math-bigrat: perl module math-bigrat
+RDEPENDS_perl-module-math-bigrat: perl-module-carp perl-module-math-bigint perl-module-overload perl-module-math-bigfloat perl-module-vars perl-module-strict perl
+SECTION: devel
+PKG_perl-module-math-bigrat: perl-module-math-bigrat
+FILES_perl-module-math-bigrat: /usr/lib/perl/5.20.0/Math/BigRat.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Math/BigRat.pm": 52772}
+PKGSIZE_perl-module-math-bigrat: 52772

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-ae: locale definition for ar-ae
+SUMMARY_glibc-localedata-ar-ae: locale definition for ar-ae
+RDEPENDS_glibc-localedata-ar-ae: glibc-localedata-ar-eg glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ar-ae: glibc-localedata-ar-ae
+FILES_glibc-localedata-ar-ae: /usr/share/i18n/locales/ar_AE
+FILES_INFO: {"/usr/share/i18n/locales/ar_AE": 6135}
+PKGSIZE_glibc-localedata-ar-ae: 6135

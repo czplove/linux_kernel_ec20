@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-carp-heavy: perl module carp-heavy
+SUMMARY_perl-module-carp-heavy: perl module carp-heavy
+RDEPENDS_perl-module-carp-heavy: perl-module-carp perl
+SECTION: devel
+PKG_perl-module-carp-heavy: perl-module-carp-heavy
+FILES_perl-module-carp-heavy: /usr/lib/perl/5.20.0/Carp/Heavy.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Carp/Heavy.pm": 604}
+PKGSIZE_perl-module-carp-heavy: 604

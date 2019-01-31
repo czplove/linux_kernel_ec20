@@ -1,0 +1,16 @@
+PN: zlib
+PV: 1.2.8
+PR: r0
+PKGV: 1.2.8
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION_zlib-dbg: Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_zlib-dbg: Zlib Compression Library - Debugging files
+RPROVIDES_zlib-dbg:  zlib-dbg
+RRECOMMENDS_zlib-dbg: glibc-dbg
+SECTION_zlib-dbg: devel
+PKG_zlib-dbg: libz-dbg
+ALLOW_EMPTY_zlib-dbg: 1
+FILES_zlib-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/zlib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/zlib/.debug /usr/lib/matchbox-panel/.debug /usr/lib/zlib/zlib/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libz.so.1.2.8": 19566}
+PKGSIZE_zlib-dbg: 19566

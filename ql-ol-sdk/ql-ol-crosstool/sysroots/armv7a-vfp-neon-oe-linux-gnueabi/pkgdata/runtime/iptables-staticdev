@@ -1,0 +1,14 @@
+PN: iptables
+PV: 1.4.12.1
+PR: r3
+PKGV: 1.4.12.1
+PKGR: r3
+LICENSE: GPLv2+
+DESCRIPTION_iptables-staticdev: iptables is the userspace command line program used to configure  and control network packet filtering code in Linux.  This package contains static libraries for software development.
+SUMMARY_iptables-staticdev: Tools for managing kernel packet filtering capabilities - Development files (Static Libraries)
+RDEPENDS_iptables-staticdev: iptables-dev (= 1.4.12.1-r3)
+SECTION_iptables-staticdev: devel
+PKG_iptables-staticdev: iptables-staticdev
+FILES_iptables-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/iptables/*.a
+FILES_INFO: {}
+PKGSIZE_iptables-staticdev: 0

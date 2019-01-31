@@ -1,0 +1,30 @@
+PN: liburcu
+PV: 0.8.6
+PR: r0
+PKGV: 0.8.6
+PKGR: r0
+LICENSE: LGPLv2.1+ & MIT-style
+DESCRIPTION: Userspace RCU (read-copy-update) library.
+SUMMARY: Userspace RCU (read-copy-update) library
+RDEPENDS_liburcu: glibc (>= 2.21)
+SECTION: base
+PKG_liburcu: liburcu
+FILES_liburcu: /usr/bin/* /usr/sbin/* /usr/lib/liburcu/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/liburcu /usr/lib/liburcu/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_liburcu: /usr/lib/liburcu-mb.so.2.0.0 /usr/lib/liburcu-qsbr.so.2.0.0 /usr/lib/liburcu-common.so.2.0.0 /usr/lib/liburcu-signal.so.2.0.0 /usr/lib/liburcu-cds.so.2.0.0 /usr/lib/liburcu.so.2.0.0 /usr/lib/liburcu-bp.so.2.0.0
+FILES_INFO: {"/usr/lib/liburcu-common.so.2": 11644, "/usr/lib/liburcu-cds.so.2": 24160, "/usr/lib/liburcu.so.2": 21548, "/usr/lib/liburcu-bp.so.2": 22992, "/usr/lib/liburcu-mb.so.2": 21156, "/usr/lib/liburcu-qsbr.so.2": 22008, "/usr/lib/liburcu-signal.so.2": 21824}
+FILERPROVIDES_/usr/lib/liburcu-mb.so.2.0.0_liburcu: elf(buildid) (= a5564514e9b4ce40b0134ddb6d36d62124d7e723) liburcu-mb.so.2
+FILERPROVIDES_/usr/lib/liburcu-qsbr.so.2.0.0_liburcu: elf(buildid) (= a22903abc1389cc0b8a1912b61db6e4d1ae60194) liburcu-qsbr.so.2
+FILERPROVIDES_/usr/lib/liburcu-common.so.2.0.0_liburcu: elf(buildid) (= b6bbb5d1eba0de1e7a54ccb06545d92174e30ec4) liburcu-common.so.2
+FILERPROVIDES_/usr/lib/liburcu-signal.so.2.0.0_liburcu: elf(buildid) (= 7edb7198b200a0a24ea1ef006410b400aeeb2b79) liburcu-signal.so.2
+FILERPROVIDES_/usr/lib/liburcu-cds.so.2.0.0_liburcu: elf(buildid) (= 0a6ec84bb1f40b50bfd9ddca950446ca32cc7c25) liburcu-cds.so.2
+FILERPROVIDES_/usr/lib/liburcu.so.2.0.0_liburcu: elf(buildid) (= a159d8548165a84191dc76e8b08f1fb2a257e602) liburcu.so.2
+FILERPROVIDES_/usr/lib/liburcu-bp.so.2.0.0_liburcu: elf(buildid) (= fe8608234730182a0f4b7fb60eac15ee1dbd25a7) liburcu-bp.so.2
+FILERDEPENDSFLIST_liburcu: /usr/lib/liburcu-mb.so.2.0.0 /usr/lib/liburcu-qsbr.so.2.0.0 /usr/lib/liburcu-common.so.2.0.0 /usr/lib/liburcu-signal.so.2.0.0 /usr/lib/liburcu-cds.so.2.0.0 /usr/lib/liburcu.so.2.0.0 /usr/lib/liburcu-bp.so.2.0.0
+FILERDEPENDS_/usr/lib/liburcu-mb.so.2.0.0_liburcu: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liburcu-qsbr.so.2.0.0_liburcu: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liburcu-common.so.2.0.0_liburcu: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liburcu-signal.so.2.0.0_liburcu: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liburcu-cds.so.2.0.0_liburcu: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liburcu.so.2.0.0_liburcu: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liburcu-bp.so.2.0.0_liburcu: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-common.so.2 rtld(GNU_HASH)
+PKGSIZE_liburcu: 145332

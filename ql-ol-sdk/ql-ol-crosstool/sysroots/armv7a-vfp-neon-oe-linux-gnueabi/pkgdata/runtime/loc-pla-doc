@@ -1,0 +1,14 @@
+PN: loc-pla
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-pla-doc: GPS Loc Platform Library Abstraction  This package contains documentation.
+SUMMARY_loc-pla-doc: loc-pla version git-r1 - Documentation files
+RPROVIDES_loc-pla-doc:  loc-pla-doc
+SECTION_loc-pla-doc: doc
+PKG_loc-pla-doc: libloc-pla-doc
+FILES_loc-pla-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_loc-pla-doc: 0

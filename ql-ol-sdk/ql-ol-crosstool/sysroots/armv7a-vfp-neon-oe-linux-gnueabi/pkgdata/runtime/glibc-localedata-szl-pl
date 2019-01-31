@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-szl-pl: locale definition for szl-pl
+SUMMARY_glibc-localedata-szl-pl: locale definition for szl-pl
+RDEPENDS_glibc-localedata-szl-pl: glibc-localedata-iso14651-t1 glibc-localedata-pl-pl
+SECTION: base
+PKG_glibc-localedata-szl-pl: glibc-localedata-szl-pl
+FILES_glibc-localedata-szl-pl: /usr/share/i18n/locales/szl_PL
+FILES_INFO: {"/usr/share/i18n/locales/szl_PL": 6053}
+PKGSIZE_glibc-localedata-szl-pl: 6053

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mn-mn: locale definition for mn-mn
+SUMMARY_glibc-localedata-mn-mn: locale definition for mn-mn
+RDEPENDS_glibc-localedata-mn-mn: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-mn-mn: glibc-localedata-mn-mn
+FILES_glibc-localedata-mn-mn: /usr/share/i18n/locales/mn_MN
+FILES_INFO: {"/usr/share/i18n/locales/mn_MN": 8297}
+PKGSIZE_glibc-localedata-mn-mn: 8297

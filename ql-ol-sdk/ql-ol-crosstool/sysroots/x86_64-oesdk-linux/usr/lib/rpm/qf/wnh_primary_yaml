@@ -1,0 +1,58 @@
+"\
+Package:\
+\n  Id:          %|HDRID?{%{HDRID}}:{-}|\
+\n  Idtype:      sha\
+\n  Name:        %{NAME:yaml}\
+\n  Arch:        %{ARCH:yaml}\
+\n  Version:     %{VERSION:yaml}\
+\n  Epoch:       %|EPOCH?{%{EPOCH}}:{0}|\
+\n  Release:     %{RELEASE:yaml}\
+\n  Summary:     %{SUMMARY:yaml}\
+\n  Description: %{DESCRIPTION:yaml}\
+\n  Packager:    %|PACKAGER?{%{PACKAGER:yaml}}:{-}|\
+\n  Url:         %|URL?{%{URL:yaml}}:{-}|\
+\n  Filetime:    %{PACKAGETIME:date}\
+\n  Buildtime:   %{BUILDTIME:date}\
+\n  Packagesize: %{PACKAGESIZE}\
+\n  Size:        %{SIZE}\
+\n  Archivesize: %{ARCHIVESIZE}\
+\n  Location:    %{PACKAGEORIGIN:yaml}\
+\n  BaseURL:     %|PACKAGEBASEURL?{%{PACKAGEBASEURL:yaml}}:{-}|\
+\n  License:     %|license?{%{LICENSE:yaml}}:{-}|\
+\n  Vendor:      %|vendor?{%{VENDOR:yaml}}:{-}|\
+\n  Group:       %|group?{%{GROUP:yaml}}:{-}|\
+\n  Buildhost:   %|buildhost?{%{BUILDHOST:yaml}}:{-}|\
+\n  Sourcerpm:   %|sourcerpm?{%{SOURCERPM:yaml}}:{-}|\
+\n  Hdrstart:    %{HEADERSTARTOFF}\
+\n  Hdrend:      %{HEADERENDOFF}\
+%|providename?{\
+\n  Provides:\
+[\
+\n    %{provideyamlentry}\
+]\
+}|\
+%|requirename?{\
+\n  Requires:\
+[\
+\n    %{requireyamlentry}\
+]\
+}|\
+%|conflictname?{\
+\n  Conflicts:\
+[\
+\n    %{conflictyamlentry}\
+]\
+}|\
+%|obsoletename?{\
+\n  Obsoletes:\
+[\
+\n    %{obsoleteyamlentry}\
+]\
+}|\
+%|filesxmlentry1?{\
+\n  Files:\
+[\
+\n    %{filesyamlentry1}\
+]\
+}|\
+\n"

@@ -1,0 +1,24 @@
+PN: thermal-engine
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Thermal Engine
+SUMMARY: thermal-engine version git-invalidgit-r9
+RDEPENDS_thermal-engine: qmi-framework (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RRECOMMENDS_thermal-engine:  update-rc.d
+SECTION: base
+PKG_thermal-engine: thermal-engine
+FILES_thermal-engine: /usr/bin/* /usr/sbin/* /usr/lib/thermal-engine/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/thermal-engine /usr/lib/thermal-engine/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_thermal-engine: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT thermal-engine start 40 2 3 4 5 . stop 60 0 1 6 .\nfi\n
+pkg_postrm_thermal-engine: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT thermal-engine remove\nfi\n
+pkg_preinst_thermal-engine: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/thermal-engine" ]; then\n\t/etc/init.d/thermal-engine stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT thermal-engine remove\nfi\n
+pkg_prerm_thermal-engine: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/thermal-engine stop\nfi\n
+FILERPROVIDESFLIST_thermal-engine: /usr/bin/thermal-engine
+FILES_INFO: {"/usr/bin/thermal-engine": 2228444, "/etc/thermal-engine.conf": 84, "/etc/init.d/thermal-engine": 659}
+FILERPROVIDES_/usr/bin/thermal-engine_thermal-engine: elf(buildid) (= 729e7b3704d86aed15337dafb9cbad9e0b44645e)
+FILERDEPENDSFLIST_thermal-engine: /usr/bin/thermal-engine /etc/init.d/thermal-engine
+FILERDEPENDS_/usr/bin/thermal-engine_thermal-engine: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/thermal-engine_thermal-engine: /bin/sh
+PKGSIZE_thermal-engine: 2229187

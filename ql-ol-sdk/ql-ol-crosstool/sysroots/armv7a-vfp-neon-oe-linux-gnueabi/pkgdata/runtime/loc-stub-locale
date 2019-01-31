@@ -1,0 +1,14 @@
+PN: loc-stub
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: GPS Loc Stub
+SUMMARY: loc-stub version git-r1
+RPROVIDES_loc-stub-locale:  loc-stub-locale
+SECTION: base
+PKG_loc-stub-locale: libloc-stub-locale
+FILES_loc-stub-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-stub-locale: 0

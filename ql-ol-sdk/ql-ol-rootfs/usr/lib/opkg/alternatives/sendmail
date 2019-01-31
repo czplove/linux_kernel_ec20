@@ -1,0 +1,2 @@
+/sbin/sendmail
+/bin/busybox 50

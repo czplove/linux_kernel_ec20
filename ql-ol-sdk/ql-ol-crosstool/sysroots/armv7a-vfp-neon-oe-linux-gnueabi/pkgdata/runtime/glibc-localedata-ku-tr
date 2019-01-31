@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ku-tr: locale definition for ku-tr
+SUMMARY_glibc-localedata-ku-tr: locale definition for ku-tr
+RDEPENDS_glibc-localedata-ku-tr: glibc-localedata-iso14651-t1 glibc-localedata-tr-tr
+SECTION: base
+PKG_glibc-localedata-ku-tr: glibc-localedata-ku-tr
+FILES_glibc-localedata-ku-tr: /usr/share/i18n/locales/ku_TR
+FILES_INFO: {"/usr/share/i18n/locales/ku_TR": 5831}
+PKGSIZE_glibc-localedata-ku-tr: 5831

@@ -1,0 +1,13 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE: GPLv2.0+ & LGPLv2.1+
+DESCRIPTION: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.
+SUMMARY: /dev/ and hotplug management daemon
+SECTION: base
+PKG_udev-locale: udev-locale
+FILES_udev-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_udev-locale: 0

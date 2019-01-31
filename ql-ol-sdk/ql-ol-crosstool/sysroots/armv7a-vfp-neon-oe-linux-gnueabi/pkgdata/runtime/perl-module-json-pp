@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-json-pp: perl module json-pp
+SUMMARY_perl-module-json-pp: perl module json-pp
+RDEPENDS_perl-module-json-pp: perl-module-carp perl-module-encode perl-module-math-bigint perl-module-overload perl-module-math-bigfloat perl perl-module-bytes perl-module-subs perl-module-strict perl-module-constant perl-module-base perl-module-b
+SECTION: devel
+PKG_perl-module-json-pp: perl-module-json-pp
+FILES_perl-module-json-pp: /usr/lib/perl/5.20.0/JSON/PP.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/JSON/PP.pm": 81997}
+PKGSIZE_perl-module-json-pp: 81997

@@ -1,0 +1,13 @@
+PN: garden-test-interfaces
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Garden Test Interfaces
+SUMMARY: garden-test-interfaces version git-r3
+SECTION: base
+PKG_garden-test-interfaces-locale: garden-test-interfaces-locale
+FILES_garden-test-interfaces-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_garden-test-interfaces-locale: 0

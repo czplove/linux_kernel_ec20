@@ -1,0 +1,17 @@
+PN: loc-pla
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-pla-dev: GPS Loc Platform Library Abstraction  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-pla-dev: loc-pla version git-r1 - Development files
+RDEPENDS_loc-pla-dev: loc-pla (= git-r1)
+RPROVIDES_loc-pla-dev:  loc-pla-dev
+RRECOMMENDS_loc-pla-dev: system-core-liblog-dev glibc-dev loc-stub-dev libstdc++-dev libgcc-dev glib-2.0-dev
+SECTION_loc-pla-dev: devel
+PKG_loc-pla-dev: libloc-pla-dev
+ALLOW_EMPTY_loc-pla-dev: 1
+FILES_loc-pla-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-pla/*.la /lib/*.la
+FILES_INFO: {"/usr/include/loc-pla/platform_lib_log_util.h": 6638, "/usr/include/loc-pla/platform_lib_gettid.h": 1849, "/usr/include/loc-pla/platform_lib_includes.h": 1962, "/usr/include/loc-pla/platform_lib_android_runtime.h": 2040, "/usr/lib/pkgconfig/loc-pla.pc": 219, "/usr/include/loc-pla/platform_lib_sched_policy.h": 1971, "/usr/include/loc-pla/platform_lib_time.h": 1777, "/usr/lib/libloc_pla.so": 19, "/usr/lib/libloc_pla.la": 1160, "/usr/include/loc-pla/platform_lib_macros.h": 3099, "/usr/include/loc-pla/platform_lib_property_service.h": 1948}
+PKGSIZE_loc-pla-dev: 22682

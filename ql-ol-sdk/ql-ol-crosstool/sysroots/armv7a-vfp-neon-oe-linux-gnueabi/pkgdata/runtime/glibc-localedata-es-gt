@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-gt: locale definition for es-gt
+SUMMARY_glibc-localedata-es-gt: locale definition for es-gt
+RDEPENDS_glibc-localedata-es-gt: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-gt: glibc-localedata-es-gt
+FILES_glibc-localedata-es-gt: /usr/share/i18n/locales/es_GT
+FILES_INFO: {"/usr/share/i18n/locales/es_GT": 4894}
+PKGSIZE_glibc-localedata-es-gt: 4894

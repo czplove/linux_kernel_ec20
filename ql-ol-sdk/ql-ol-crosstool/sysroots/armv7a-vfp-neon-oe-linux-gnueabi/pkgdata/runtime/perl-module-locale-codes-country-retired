@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-locale-codes-country-retired: perl module locale-codes-country-retired
+SUMMARY_perl-module-locale-codes-country-retired: perl module locale-codes-country-retired
+RDEPENDS_perl-module-locale-codes-country-retired: perl-module-strict perl-module-warnings perl-module-utf8 perl
+SECTION: devel
+PKG_perl-module-locale-codes-country-retired: perl-module-locale-codes-country-retired
+FILES_perl-module-locale-codes-country-retired: /usr/lib/perl/5.20.0/Locale/Codes/Country_Retired.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Locale/Codes/Country_Retired.pm": 25129}
+PKGSIZE_perl-module-locale-codes-country-retired: 25129

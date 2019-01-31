@@ -1,0 +1,15 @@
+PN: wireless-tools
+PE: 1
+PV: 30.pre9
+PR: r0
+PKGE: 1
+PKGV: 30.pre9
+PKGR: r0
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+DESCRIPTION: Tools for the Linux Standard Wireless Extension Subsystem.
+SUMMARY: Tools for the Linux Standard Wireless Extension Subsystem
+SECTION: base
+PKG_libiw-doc: libiw-doc
+FILES_libiw-doc: /usr/share/man/man7
+FILES_INFO: {"/usr/share/man/man7/wireless.7": 2512}
+PKGSIZE_libiw-doc: 2512

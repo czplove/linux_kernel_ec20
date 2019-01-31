@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ga-ie: locale definition for ga-ie
+SUMMARY_glibc-localedata-ga-ie: locale definition for ga-ie
+RDEPENDS_glibc-localedata-ga-ie: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ga-ie: glibc-localedata-ga-ie
+FILES_glibc-localedata-ga-ie: /usr/share/i18n/locales/ga_IE
+FILES_INFO: {"/usr/share/i18n/locales/ga_IE": 5812}
+PKGSIZE_glibc-localedata-ga-ie: 5812

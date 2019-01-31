@@ -1,0 +1,13 @@
+PN: ipth-dme
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: IPTH DME tool for FOTA
+SUMMARY: ipth-dme version git-r1
+SECTION: base
+PKG_ipth-dme-locale: ipth-dme-locale
+FILES_ipth-dme-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ipth-dme-locale: 0

@@ -1,0 +1,15 @@
+PN: openssl
+PV: 1.0.1k
+PR: r0
+PKGV: 1.0.1k
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION_openssl-dbg: Secure Socket Layer (SSL) binary and related cryptographic tools.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_openssl-dbg: Secure Socket Layer - Debugging files
+RRECOMMENDS_openssl-dbg: glibc-dbg libcrypto-dbg libssl-dbg
+SECTION_openssl-dbg: devel
+PKG_openssl-dbg: openssl-dbg
+ALLOW_EMPTY_openssl-dbg: 1
+FILES_openssl-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/openssl/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/openssl/.debug /usr/lib/matchbox-panel/.debug /usr/lib/openssl/openssl/.debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libcrypto.so.1.0.0": 325446, "/usr/bin/.debug/openssl": 64725, "/usr/lib/.debug/libssl.so.1.0.0": 56053}
+PKGSIZE_openssl-dbg: 446224

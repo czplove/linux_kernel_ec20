@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-so-ke: locale definition for so-ke
+SUMMARY_glibc-localedata-so-ke: locale definition for so-ke
+RDEPENDS_glibc-localedata-so-ke: glibc-localedata-om-ke glibc-localedata-so-so
+SECTION: base
+PKG_glibc-localedata-so-ke: glibc-localedata-so-ke
+FILES_glibc-localedata-so-ke: /usr/share/i18n/locales/so_KE
+FILES_INFO: {"/usr/share/i18n/locales/so_KE": 6729}
+PKGSIZE_glibc-localedata-so-ke: 6729

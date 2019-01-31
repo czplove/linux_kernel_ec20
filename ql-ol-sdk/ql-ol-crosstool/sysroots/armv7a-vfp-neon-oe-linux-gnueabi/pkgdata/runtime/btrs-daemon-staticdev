@@ -1,0 +1,14 @@
+PN: btrs-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_btrs-daemon-staticdev: Bluetooth Remote Start DAEMON  This package contains static libraries for software development.
+SUMMARY_btrs-daemon-staticdev: btrs-daemon version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_btrs-daemon-staticdev: btrs-daemon-dev (= git-invalidgit-r2)
+SECTION_btrs-daemon-staticdev: devel
+PKG_btrs-daemon-staticdev: btrs-daemon-staticdev
+FILES_btrs-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/btrs-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_btrs-daemon-staticdev: 0

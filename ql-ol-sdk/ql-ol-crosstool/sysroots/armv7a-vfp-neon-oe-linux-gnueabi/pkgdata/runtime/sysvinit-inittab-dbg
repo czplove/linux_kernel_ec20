@@ -1,0 +1,14 @@
+PN: sysvinit-inittab
+PV: 2.88dsf
+PR: r10
+PKGV: 2.88dsf
+PKGR: r10
+LICENSE: GPLv2
+DESCRIPTION_sysvinit-inittab-dbg: Inittab configuration for SysVinit.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sysvinit-inittab-dbg: Inittab configuration for SysVinit - Debugging files
+SECTION_sysvinit-inittab-dbg: devel
+PKG_sysvinit-inittab-dbg: sysvinit-inittab-dbg
+ALLOW_EMPTY_sysvinit-inittab-dbg: 1
+FILES_sysvinit-inittab-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sysvinit-inittab/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sysvinit-inittab/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sysvinit-inittab/sysvinit-inittab/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_sysvinit-inittab-dbg: 0

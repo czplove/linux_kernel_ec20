@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-gl-es: locale definition for gl-es
+SUMMARY_glibc-localedata-gl-es: locale definition for gl-es
+RDEPENDS_glibc-localedata-gl-es: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-gl-es: glibc-localedata-gl-es
+FILES_glibc-localedata-gl-es: /usr/share/i18n/locales/gl_ES
+FILES_INFO: {"/usr/share/i18n/locales/gl_ES": 5141}
+PKGSIZE_glibc-localedata-gl-es: 5141

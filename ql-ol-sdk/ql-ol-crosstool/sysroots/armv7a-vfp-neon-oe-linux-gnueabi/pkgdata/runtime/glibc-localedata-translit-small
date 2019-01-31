@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-small: locale definition for translit-small
+SUMMARY_glibc-localedata-translit-small: locale definition for translit-small
+SECTION: base
+PKG_glibc-localedata-translit-small: glibc-localedata-translit-small
+FILES_glibc-localedata-translit-small: /usr/share/i18n/locales/translit_small
+FILES_INFO: {"/usr/share/i18n/locales/translit_small": 3088}
+PKGSIZE_glibc-localedata-translit-small: 3088

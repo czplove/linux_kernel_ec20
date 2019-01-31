@@ -1,0 +1,13 @@
+PN: bt-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_bt-services-doc: Bluetooth services required for MDM platforms  This package contains documentation.
+SUMMARY_bt-services-doc: bt-services version git-invalidgit-r1 - Documentation files
+SECTION_bt-services-doc: doc
+PKG_bt-services-doc: bt-services-doc
+FILES_bt-services-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_bt-services-doc: 0

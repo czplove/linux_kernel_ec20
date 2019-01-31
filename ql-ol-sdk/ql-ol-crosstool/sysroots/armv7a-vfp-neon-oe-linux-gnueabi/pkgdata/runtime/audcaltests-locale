@@ -1,0 +1,13 @@
+PN: audcaltests
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio Calibration Library
+SUMMARY: audcaltests version git-invalidgit-r7
+SECTION: base
+PKG_audcaltests-locale: audcaltests-locale
+FILES_audcaltests-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_audcaltests-locale: 0

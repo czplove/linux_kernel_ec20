@@ -1,0 +1,21 @@
+PN: sqlite3
+PE: 3
+PV: 3.8.7.4
+PR: r0
+PKGE: 3
+PKGV: 3.8.7.4
+PKGR: r0
+LICENSE: PD
+DESCRIPTION: Embeddable SQL database engine.
+SUMMARY: Embeddable SQL database engine
+RDEPENDS_libsqlite3: glibc (>= 2.21)
+RPROVIDES_libsqlite3:  libsqlite3
+SECTION: libs
+PKG_libsqlite3: libsqlite3-0
+FILES_libsqlite3: /usr/lib/*.so.*
+FILERPROVIDESFLIST_libsqlite3: /usr/lib/libsqlite3.so.0.8.6
+FILES_INFO: {"/usr/lib/libsqlite3.so.0": 666860}
+FILERPROVIDES_/usr/lib/libsqlite3.so.0.8.6_libsqlite3: elf(buildid) (= 8867bc3691c1fe9a5752f87e930ec54c6a9ff5a3) libsqlite3.so.0
+FILERDEPENDSFLIST_libsqlite3: /usr/lib/libsqlite3.so.0.8.6
+FILERDEPENDS_/usr/lib/libsqlite3.so.0.8.6_libsqlite3: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libsqlite3: 666860

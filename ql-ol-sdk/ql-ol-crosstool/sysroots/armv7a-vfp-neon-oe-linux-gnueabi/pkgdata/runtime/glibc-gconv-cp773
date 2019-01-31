@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cp773: gconv module for character set cp773
+SUMMARY_glibc-gconv-cp773: gconv module for character set cp773
+RDEPENDS_glibc-gconv-cp773: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cp773: glibc-gconv-cp773
+FILES_glibc-gconv-cp773: /usr/lib/gconv/CP773.so
+FILES_INFO: {"/usr/lib/gconv/CP773.so": 9584}
+PKGSIZE_glibc-gconv-cp773: 9584

@@ -1,0 +1,24 @@
+PN: subsystem-ramdump
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: subsystem ramdump
+SUMMARY: subsystem-ramdump version git-r3
+RDEPENDS_subsystem-ramdump: glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RRECOMMENDS_subsystem-ramdump:  update-rc.d
+SECTION: base
+PKG_subsystem-ramdump: subsystem-ramdump
+FILES_subsystem-ramdump: /usr/bin/* /usr/sbin/* /usr/lib/subsystem-ramdump/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/subsystem-ramdump /usr/lib/subsystem-ramdump/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_subsystem-ramdump: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_subsystem_ramdump start 90 2 3 4 5 . stop 10 0 1 6 .\nfi\n
+pkg_postrm_subsystem-ramdump: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_subsystem_ramdump remove\nfi\n
+pkg_preinst_subsystem-ramdump: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_subsystem_ramdump" ]; then\n\t/etc/init.d/start_subsystem_ramdump stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_subsystem_ramdump remove\nfi\n
+pkg_prerm_subsystem-ramdump: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_subsystem_ramdump stop\nfi\n
+FILERPROVIDESFLIST_subsystem-ramdump: /usr/bin/subsystem@underscore@ramdump
+FILES_INFO: {"/etc/init.d/start_subsystem_ramdump": 392, "/usr/bin/subsystem_ramdump": 16604}
+FILERPROVIDES_/usr/bin/subsystem@underscore@ramdump_subsystem-ramdump: elf(buildid) (= 1c03f5dc1a03df46ea02f315a584c05330de3196)
+FILERDEPENDSFLIST_subsystem-ramdump: /usr/bin/subsystem@underscore@ramdump /etc/init.d/start@underscore@subsystem@underscore@ramdump
+FILERDEPENDS_/usr/bin/subsystem@underscore@ramdump_subsystem-ramdump: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/start@underscore@subsystem@underscore@ramdump_subsystem-ramdump: /bin/sh
+PKGSIZE_subsystem-ramdump: 16996

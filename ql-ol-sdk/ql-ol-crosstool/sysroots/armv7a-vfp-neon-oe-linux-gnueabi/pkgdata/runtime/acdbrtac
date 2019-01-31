@@ -1,0 +1,19 @@
+PN: acdbrtac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb rtac Library
+SUMMARY: acdbrtac version git-invalidgit-r3
+RDEPENDS_acdbrtac: audioalsa (>= git) diag (>= git-invalidgit) time-genoff (>= git-invalidgit) glib-2.0 (>= 2.42.1) acdbmapper (>= git-invalidgit) audcal (>= git-invalidgit) glibc (>= 2.21)
+RPROVIDES_acdbrtac:  acdbrtac
+SECTION: base
+PKG_acdbrtac: libacdbrtac1
+FILES_acdbrtac: /usr/bin/* /usr/sbin/* /usr/lib/acdbrtac/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/acdbrtac /usr/lib/acdbrtac/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_acdbrtac: /usr/lib/libacdbrtac.so.1.0.0
+FILES_INFO: {"/usr/lib/libacdbrtac.so.1": 14736}
+FILERPROVIDES_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: elf(buildid) (= 8311cd2d7f50e34b68bac33ac081ea7611a2c77e) libacdbrtac.so.1
+FILERDEPENDSFLIST_acdbrtac: /usr/lib/libacdbrtac.so.1.0.0
+FILERDEPENDS_/usr/lib/libacdbrtac.so.1.0.0_acdbrtac: libacdbmapper.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libtime_genoff.so.1 rtld(GNU_HASH)
+PKGSIZE_acdbrtac: 14736

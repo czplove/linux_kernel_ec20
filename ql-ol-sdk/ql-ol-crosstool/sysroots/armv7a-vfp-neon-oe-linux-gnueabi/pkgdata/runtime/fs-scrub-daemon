@@ -1,0 +1,23 @@
+PN: fs-scrub-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Daemon to perform scrubbing
+SUMMARY: fs-scrub-daemon version git-invalidgit-r1
+RDEPENDS_fs-scrub-daemon: qmi-framework (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RRECOMMENDS_fs-scrub-daemon:  update-rc.d
+SECTION: base
+PKG_fs-scrub-daemon: fs-scrub-daemon
+FILES_fs-scrub-daemon: /usr/bin/* /usr/sbin/* /usr/lib/fs-scrub-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/fs-scrub-daemon /usr/lib/fs-scrub-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_fs-scrub-daemon:         [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n        # remove all rc.d-links potentially created from alternatives\n        update-rc.d $OPT -f start_fs-scrub-daemon remove\n        update-rc.d $OPT start_fs-scrub-daemon start 99 2 3 4 5 . stop 1 0 1 6 .\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_fs-scrub-daemon start 99 2 3 4 5 . stop 1 0 1 6 .\nfi\n
+pkg_postrm_fs-scrub-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_fs-scrub-daemon remove\nfi\n
+pkg_preinst_fs-scrub-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_fs-scrub-daemon" ]; then\n\t/etc/init.d/start_fs-scrub-daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_fs-scrub-daemon remove\nfi\n
+pkg_prerm_fs-scrub-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_fs-scrub-daemon stop\nfi\n
+FILERPROVIDESFLIST_fs-scrub-daemon: /sbin/fs-scrub-daemon
+FILES_INFO: {"/etc/init.d/start_fs-scrub-daemon": 721, "/sbin/fs-scrub-daemon": 21380}
+FILERPROVIDES_/sbin/fs-scrub-daemon_fs-scrub-daemon: elf(buildid) (= 69cbf4aca9f1bc8ca26fec34976b506e7befa0fe)
+FILERDEPENDSFLIST_fs-scrub-daemon: /sbin/fs-scrub-daemon
+FILERDEPENDS_/sbin/fs-scrub-daemon_fs-scrub-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_common_so.so.1 rtld(GNU_HASH)
+PKGSIZE_fs-scrub-daemon: 22101

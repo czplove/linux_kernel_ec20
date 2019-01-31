@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-terminal: Python terminal controlling support
+RDEPENDS_python-terminal: python-core python-io
+SECTION: devel/python
+PKG_python-terminal: python-terminal
+FILES_python-terminal: /usr/lib/python2.7/pty.* /usr/lib/python2.7/tty.* 
+FILES_INFO: {"/usr/lib/python2.7/tty.pyc": 1311, "/usr/lib/python2.7/pty.py": 5058, "/usr/lib/python2.7/tty.py": 879, "/usr/lib/python2.7/pty.pyc": 4946}
+PKGSIZE_python-terminal: 12194

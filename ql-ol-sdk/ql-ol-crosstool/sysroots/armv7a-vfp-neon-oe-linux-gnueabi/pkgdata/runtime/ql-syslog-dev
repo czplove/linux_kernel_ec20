@@ -1,0 +1,16 @@
+PN: ql-syslog
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: CLOSED
+DESCRIPTION_ql-syslog-dev: Quectel log system  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-syslog-dev: ql-syslog version git-invalidgit-r1 - Development files
+RDEPENDS_ql-syslog-dev: ql-syslog (= git-invalidgit-r1)
+RRECOMMENDS_ql-syslog-dev: libgcc-dev glibc-dev initscripts-dev
+SECTION_ql-syslog-dev: devel
+PKG_ql-syslog-dev: ql-syslog-dev
+ALLOW_EMPTY_ql-syslog-dev: 1
+FILES_ql-syslog-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-syslog/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/qlsyslog.pc": 188, "/usr/include/qlsyslog/ql_sys_log.h": 4515, "/usr/include/qlsyslog/ql_sys_events.h": 2999, "/usr/lib/libql_sys_log.la": 947, "/usr/lib/libql_sys_log.so": 22}
+PKGSIZE_ql-syslog-dev: 8671

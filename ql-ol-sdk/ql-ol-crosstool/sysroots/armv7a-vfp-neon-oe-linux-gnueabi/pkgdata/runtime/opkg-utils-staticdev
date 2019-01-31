@@ -1,0 +1,14 @@
+PN: opkg-utils
+PV: 0.1.8+gitAUTOINC+53274f0875
+PR: r0
+PKGV: 0.1.8+git0+53274f0875
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_opkg-utils-staticdev: Additional utilities for the opkg package manager.  This package contains static libraries for software development.
+SUMMARY_opkg-utils-staticdev: Additional utilities for the opkg package manager - Development files (Static Libraries)
+RDEPENDS_opkg-utils-staticdev: opkg-utils-dev (= 0.1.8+git0+53274f0875-r0)
+SECTION_opkg-utils-staticdev: devel
+PKG_opkg-utils-staticdev: opkg-utils-staticdev
+FILES_opkg-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/opkg-utils/*.a
+FILES_INFO: {}
+PKGSIZE_opkg-utils-staticdev: 0

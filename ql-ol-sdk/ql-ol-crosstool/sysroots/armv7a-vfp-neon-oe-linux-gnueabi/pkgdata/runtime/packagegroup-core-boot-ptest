@@ -1,0 +1,12 @@
+PN: packagegroup-core-boot
+PV: 1.0
+PR: r17
+PKGV: 1.0
+PKGR: r17
+LICENSE: MIT
+DESCRIPTION: The minimal set of packages required to boot the system
+SUMMARY: Minimal boot requirements
+SECTION: base
+PKG_packagegroup-core-boot-ptest: packagegroup-core-boot-ptest
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-boot-ptest: 0

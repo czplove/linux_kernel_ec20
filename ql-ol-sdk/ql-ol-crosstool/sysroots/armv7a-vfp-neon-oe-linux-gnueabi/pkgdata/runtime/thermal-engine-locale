@@ -1,0 +1,13 @@
+PN: thermal-engine
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Thermal Engine
+SUMMARY: thermal-engine version git-invalidgit-r9
+SECTION: base
+PKG_thermal-engine-locale: thermal-engine-locale
+FILES_thermal-engine-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_thermal-engine-locale: 0

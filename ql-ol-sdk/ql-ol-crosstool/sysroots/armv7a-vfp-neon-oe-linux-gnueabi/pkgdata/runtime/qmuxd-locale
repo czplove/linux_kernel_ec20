@@ -1,0 +1,13 @@
+PN: qmuxd
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMUXD Module
+SUMMARY: qmuxd version git-invalidgit-r0
+SECTION: base
+PKG_qmuxd-locale: qmuxd-locale
+FILES_qmuxd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmuxd-locale: 0

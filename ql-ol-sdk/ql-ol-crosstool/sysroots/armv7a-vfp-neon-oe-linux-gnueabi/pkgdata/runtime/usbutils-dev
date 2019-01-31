@@ -1,0 +1,16 @@
+PN: usbutils
+PV: 007
+PR: r0
+PKGV: 007
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_usbutils-dev: Contains the lsusb utility for inspecting the devices connected to the USB bus.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_usbutils-dev: Host side USB console utilities - Development files
+RDEPENDS_usbutils-dev: usbutils (= 007-r0)
+RRECOMMENDS_usbutils-dev: usbutils-ids-dev libusb1-dev glibc-dev libusb-dev zlib-dev
+SECTION_usbutils-dev: devel
+PKG_usbutils-dev: usbutils-dev
+ALLOW_EMPTY_usbutils-dev: 1
+FILES_usbutils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/usbutils/*.la /lib/*.la /usr/share/pkgconfig
+FILES_INFO: {"/usr/share/pkgconfig/usbutils.pc": 88}
+PKGSIZE_usbutils-dev: 88

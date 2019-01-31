@@ -1,0 +1,13 @@
+PN: lbs-core-hdr
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: LBS Core hdr
+SUMMARY: lbs-core-hdr version git-invalidgit-r1
+SECTION: base
+PKG_lbs-core-hdr: lbs-core-hdr
+FILES_lbs-core-hdr: /usr/bin/* /usr/sbin/* /usr/lib/lbs-core-hdr/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lbs-core-hdr /usr/lib/lbs-core-hdr/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_lbs-core-hdr: 0

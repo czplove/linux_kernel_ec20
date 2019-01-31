@@ -1,0 +1,14 @@
+PN: pimd
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_pimd-staticdev: PIMD - Multicast Routing Daemon  This package contains static libraries for software development.
+SUMMARY_pimd-staticdev: pimd version git-r5 - Development files (Static Libraries)
+RDEPENDS_pimd-staticdev: pimd-dev (= git-r5)
+SECTION_pimd-staticdev: devel
+PKG_pimd-staticdev: pimd-staticdev
+FILES_pimd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/pimd/*.a
+FILES_INFO: {}
+PKGSIZE_pimd-staticdev: 0

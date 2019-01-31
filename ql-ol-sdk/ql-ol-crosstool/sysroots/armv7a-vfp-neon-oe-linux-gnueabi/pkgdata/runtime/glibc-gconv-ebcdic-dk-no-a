@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ebcdic-dk-no-a: gconv module for character set ebcdic-dk-no-a
+SUMMARY_glibc-gconv-ebcdic-dk-no-a: gconv module for character set ebcdic-dk-no-a
+RDEPENDS_glibc-gconv-ebcdic-dk-no-a: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ebcdic-dk-no-a: glibc-gconv-ebcdic-dk-no-a
+FILES_glibc-gconv-ebcdic-dk-no-a: /usr/lib/gconv/EBCDIC-DK-NO-A.so
+FILES_INFO: {"/usr/lib/gconv/EBCDIC-DK-NO-A.so": 9592}
+PKGSIZE_glibc-gconv-ebcdic-dk-no-a: 9592

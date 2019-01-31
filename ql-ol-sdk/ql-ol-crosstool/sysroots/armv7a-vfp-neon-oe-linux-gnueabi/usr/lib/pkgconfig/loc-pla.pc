@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-pla
+Description: QTI GPS Location Platform Library Abstractions
+Version: 1.0.0
+Libs: -L${libdir} -lloc_pla
+Cflags: -I${includedir}/loc-pla

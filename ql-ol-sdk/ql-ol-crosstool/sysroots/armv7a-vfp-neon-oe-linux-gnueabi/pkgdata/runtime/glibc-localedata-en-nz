@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-nz: locale definition for en-nz
+SUMMARY_glibc-localedata-en-nz: locale definition for en-nz
+RDEPENDS_glibc-localedata-en-nz: glibc-localedata-iso14651-t1 glibc-localedata-en-gb
+SECTION: base
+PKG_glibc-localedata-en-nz: glibc-localedata-en-nz
+FILES_glibc-localedata-en-nz: /usr/share/i18n/locales/en_NZ
+FILES_INFO: {"/usr/share/i18n/locales/en_NZ": 5471}
+PKGSIZE_glibc-localedata-en-nz: 5471

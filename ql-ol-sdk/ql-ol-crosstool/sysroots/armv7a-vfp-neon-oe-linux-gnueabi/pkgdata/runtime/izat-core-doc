@@ -1,0 +1,14 @@
+PN: izat-core
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_izat-core-doc: Izat Core  This package contains documentation.
+SUMMARY_izat-core-doc: izat-core version git-invalidgit-r1 - Documentation files
+RPROVIDES_izat-core-doc:  izat-core-doc
+SECTION_izat-core-doc: doc
+PKG_izat-core-doc: libizat-core-doc
+FILES_izat-core-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_izat-core-doc: 0

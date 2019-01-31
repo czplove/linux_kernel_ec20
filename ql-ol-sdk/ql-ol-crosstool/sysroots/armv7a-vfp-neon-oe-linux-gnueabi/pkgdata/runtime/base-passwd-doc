@@ -1,0 +1,13 @@
+PN: base-passwd
+PV: 3.5.29
+PR: r1
+PKGV: 3.5.29
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION_base-passwd-doc: The master copies of the user database files (/etc/passwd and /etc/group).  The update-passwd tool is also provided to keep the system databases synchronized with these master files.  This package contains documentation.
+SUMMARY_base-passwd-doc: Base system master password/group files - Documentation files
+SECTION_base-passwd-doc: doc
+PKG_base-passwd-doc: base-passwd-doc
+FILES_base-passwd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/base-passwd/copyright": 799, "/usr/share/doc/base-passwd/changelog.gz": 9478, "/usr/share/man/man8/update-passwd.8.gz": 1028, "/usr/share/doc/base-passwd/README": 3195, "/usr/share/man/pl/man8/update-passwd.8.gz": 1146}
+PKGSIZE_base-passwd-doc: 15646

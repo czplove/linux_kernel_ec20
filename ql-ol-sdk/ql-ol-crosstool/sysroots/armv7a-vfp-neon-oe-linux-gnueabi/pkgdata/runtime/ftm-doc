@@ -1,0 +1,13 @@
+PN: ftm
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ftm-doc: Qualcomm Technologies ftmdaemon  This package contains documentation.
+SUMMARY_ftm-doc: ftm version git-invalidgit-r1 - Documentation files
+SECTION_ftm-doc: doc
+PKG_ftm-doc: ftm-doc
+FILES_ftm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ftm-doc: 0

@@ -1,0 +1,14 @@
+PN: ql-syslog
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: CLOSED
+DESCRIPTION_ql-syslog-staticdev: Quectel log system  This package contains static libraries for software development.
+SUMMARY_ql-syslog-staticdev: ql-syslog version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_ql-syslog-staticdev: ql-syslog-dev (= git-invalidgit-r1)
+SECTION_ql-syslog-staticdev: devel
+PKG_ql-syslog-staticdev: ql-syslog-staticdev
+FILES_ql-syslog-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-syslog/*.a
+FILES_INFO: {}
+PKGSIZE_ql-syslog-staticdev: 0

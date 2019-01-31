@@ -1,0 +1,15 @@
+PN: jquery
+PV: 1.9.1
+PR: r0
+PKGV: 1.9.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-dev: JQUERY  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_jquery-dev: jquery version 1.9.1-r0 - Development files
+RDEPENDS_jquery-dev: jquery (= 1.9.1-r0)
+SECTION_jquery-dev: devel
+PKG_jquery-dev: jquery-dev
+ALLOW_EMPTY_jquery-dev: 1
+FILES_jquery-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/jquery/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_jquery-dev: 0

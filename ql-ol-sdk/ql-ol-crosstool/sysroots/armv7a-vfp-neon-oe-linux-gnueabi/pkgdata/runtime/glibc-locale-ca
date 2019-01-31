@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-ca: Locale data from glibc.  This package contains language translation files for the ca locale.
+SUMMARY_glibc-locale-ca: Locale data from glibc - ca translations
+RPROVIDES_glibc-locale-ca: glibc-locale ca-translation
+RRECOMMENDS_glibc-locale-ca: virtual-locale-ca
+SECTION: base
+PKG_glibc-locale-ca: glibc-locale-ca
+FILES_glibc-locale-ca: /usr/share/locale/ca
+FILES_INFO: {"/usr/share/locale/ca/LC_MESSAGES/libc.mo": 157030}
+PKGSIZE_glibc-locale-ca: 157030

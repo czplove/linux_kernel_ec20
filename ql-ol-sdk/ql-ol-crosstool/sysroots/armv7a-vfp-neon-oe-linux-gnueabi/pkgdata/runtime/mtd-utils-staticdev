@@ -1,0 +1,14 @@
+PN: mtd-utils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION_mtd-utils-staticdev: Tools for managing memory technology devices.  This package contains static libraries for software development.
+SUMMARY_mtd-utils-staticdev: mtd-utils version 1.0-r1 - Development files (Static Libraries)
+RDEPENDS_mtd-utils-staticdev: mtd-utils-dev (= 1.0-r1)
+SECTION_mtd-utils-staticdev: devel
+PKG_mtd-utils-staticdev: mtd-utils-staticdev
+FILES_mtd-utils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/mtd-utils/*.a
+FILES_INFO: {}
+PKGSIZE_mtd-utils-staticdev: 0

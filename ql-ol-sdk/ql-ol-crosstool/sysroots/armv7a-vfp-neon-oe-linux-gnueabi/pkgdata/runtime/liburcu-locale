@@ -1,0 +1,13 @@
+PN: liburcu
+PV: 0.8.6
+PR: r0
+PKGV: 0.8.6
+PKGR: r0
+LICENSE: LGPLv2.1+ & MIT-style
+DESCRIPTION: Userspace RCU (read-copy-update) library.
+SUMMARY: Userspace RCU (read-copy-update) library
+SECTION: base
+PKG_liburcu-locale: liburcu-locale
+FILES_liburcu-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_liburcu-locale: 0

@@ -1,0 +1,15 @@
+PN: expat
+PV: 2.1.0
+PR: r0
+PKGV: 2.1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_expat-staticdev: Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)  This package contains static libraries for software development.
+SUMMARY_expat-staticdev: A stream-oriented XML parser library - Development files (Static Libraries)
+RDEPENDS_expat-staticdev: expat-dev (= 2.1.0-r0)
+RPROVIDES_expat-staticdev:  expat-staticdev
+SECTION_expat-staticdev: devel
+PKG_expat-staticdev: libexpat-staticdev
+FILES_expat-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/expat/*.a
+FILES_INFO: {"/usr/lib/libexpat.a": 206336}
+PKGSIZE_expat-staticdev: 206336

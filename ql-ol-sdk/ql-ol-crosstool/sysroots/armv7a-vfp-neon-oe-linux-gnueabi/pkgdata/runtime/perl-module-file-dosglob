@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-file-dosglob: perl module file-dosglob
+SUMMARY_perl-module-file-dosglob: perl module file-dosglob
+RDEPENDS_perl-module-file-dosglob: perl-module-text-parsewords glibc (>= 2.21) perl perl-module-warnings perl-module-strict perl-module-xsloader
+SECTION: devel
+PKG_perl-module-file-dosglob: perl-module-file-dosglob
+FILES_perl-module-file-dosglob: /usr/lib/perl/5.20.0/auto/File/DosGlob/DosGlob.so /usr/lib/perl/5.20.0/File/DosGlob.pm
+FILERPROVIDESFLIST_perl-module-file-dosglob: /usr/lib/perl/5.20.0/auto/File/DosGlob/DosGlob.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/File/DosGlob.pm": 7994, "/usr/lib/perl/5.20.0/auto/File/DosGlob/DosGlob.so": 4576}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/File/DosGlob/DosGlob.so_perl-module-file-dosglob: DosGlob.so elf(buildid) (= 5c0513ceb55cd9d3d9bc00fcf18bb1cc46815e89)
+FILERDEPENDSFLIST_perl-module-file-dosglob: /usr/lib/perl/5.20.0/auto/File/DosGlob/DosGlob.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/File/DosGlob/DosGlob.so_perl-module-file-dosglob: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-file-dosglob: 12570

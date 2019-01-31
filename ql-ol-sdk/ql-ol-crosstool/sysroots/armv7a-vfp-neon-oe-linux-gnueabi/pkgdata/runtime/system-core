@@ -1,0 +1,20 @@
+PN: system-core
+PV: git
+PR: r16
+PKGV: git
+PKGR: r16
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r16
+RDEPENDS_system-core: zlib (>= 1.2.8) glibc (>= 2.21) libcrypto (>= 1.0.1k)
+RRECOMMENDS_system-core:  update-rc.d
+SECTION: base
+PKG_system-core: system-core
+FILES_system-core: /usr/bin/* /usr/sbin/* /usr/lib/system-core/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/system-core /usr/lib/system-core/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_system-core: /usr/bin/adb /usr/bin/fastboot
+FILES_INFO: {"/usr/bin/adb": 123004, "/usr/bin/fastboot": 538084}
+FILERPROVIDES_/usr/bin/adb_system-core: elf(buildid) (= 1f856ccad4084d6854c3d060a044cdb3ce53dc24)
+FILERPROVIDES_/usr/bin/fastboot_system-core: elf(buildid) (= d7386de8ea3607f3542e2497e3139a435ff31413)
+FILERDEPENDSFLIST_system-core: /usr/bin/adb
+FILERDEPENDS_/usr/bin/adb_system-core: libc.so.6 libc.so.6(GLIBC_2.4) libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libpthread.so.0 libpthread.so.0(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_system-core: 661088

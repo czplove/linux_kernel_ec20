@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-bg: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the bg locale.
+SUMMARY_gettext-locale-bg: Utilities and libraries for producing multi-lingual messages - bg translations
+RPROVIDES_gettext-locale-bg: gettext-locale bg-translation
+RRECOMMENDS_gettext-locale-bg: virtual-locale-bg
+SECTION: libs
+PKG_gettext-locale-bg: gettext-locale-bg
+FILES_gettext-locale-bg: /usr/share/locale/bg
+FILES_INFO: {"/usr/share/locale/bg/LC_MESSAGES/gettext-runtime.mo": 11929, "/usr/share/locale/bg/LC_MESSAGES/gettext-tools.mo": 139055}
+PKGSIZE_gettext-locale-bg: 150984

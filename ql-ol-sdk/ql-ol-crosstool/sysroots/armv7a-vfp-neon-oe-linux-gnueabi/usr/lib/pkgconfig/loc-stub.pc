@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-stub
+Description: QTI GPS Location Stub
+Version: @VERSION
+Libs: -L${libdir} -lloc_stub
+Cflags: -I${includedir}/loc-stub

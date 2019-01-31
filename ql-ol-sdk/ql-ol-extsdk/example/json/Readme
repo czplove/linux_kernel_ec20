@@ -1,0 +1,10 @@
+1. make
+
+2. parse json file
+   upload example_parse_json and parse_test.json file into 4G module, 
+   modify permission,and then excute cmd: ./example_parse_json parse_test.json key
+   such as: ./example_parse_json parse_test.json Name
+
+3. create json file
+   upload example_create_json file into 4G module,
+   modify permission,and then excute cmd: ./example_create_json file_name

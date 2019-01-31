@@ -1,0 +1,17 @@
+PN: quectel-libfotainfo
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-libfotainfo-dev: Quectel Function Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-libfotainfo-dev: quectel-libfotainfo version git-invalidgit-r1 - Development files
+RDEPENDS_quectel-libfotainfo-dev: quectel-libfotainfo (= git-invalidgit-r1)
+RPROVIDES_quectel-libfotainfo-dev:  quectel-libfotainfo-dev
+RRECOMMENDS_quectel-libfotainfo-dev: glibc-dev
+SECTION_quectel-libfotainfo-dev: devel
+PKG_quectel-libfotainfo-dev: libfotainfo-dev
+ALLOW_EMPTY_quectel-libfotainfo-dev: 1
+FILES_quectel-libfotainfo-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-libfotainfo/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libfotainfo.la": 925, "/usr/include/fota_info.h": 2371, "/usr/include/crc32.h": 118, "/usr/include/user.h": 567, "/usr/lib/libfotainfo.so": 20}
+PKGSIZE_quectel-libfotainfo-dev: 4001

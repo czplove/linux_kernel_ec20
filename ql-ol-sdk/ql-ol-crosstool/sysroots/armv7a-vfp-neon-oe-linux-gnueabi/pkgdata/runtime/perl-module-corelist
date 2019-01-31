@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-corelist: perl module corelist
+SUMMARY_perl-module-corelist: perl module corelist
+RDEPENDS_perl-module-corelist: perl-module-corelist perl-module-list-util perl-module-vars perl perl-module-warnings perl-module-strict perl-module-version
+SECTION: devel
+PKG_perl-module-corelist: perl-module-corelist
+FILES_perl-module-corelist: /usr/lib/perl/5.20.0/Module/CoreList.pm /usr/lib/perl/5.20.0/Module/CoreList/TieHashDelta.pm /usr/lib/perl/5.20.0/Module/CoreList/Utils.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Module/CoreList/TieHashDelta.pm": 1655, "/usr/lib/perl/5.20.0/Module/CoreList/Utils.pm": 20293, "/usr/lib/perl/5.20.0/Module/CoreList.pm": 505155}
+PKGSIZE_perl-module-corelist: 527103

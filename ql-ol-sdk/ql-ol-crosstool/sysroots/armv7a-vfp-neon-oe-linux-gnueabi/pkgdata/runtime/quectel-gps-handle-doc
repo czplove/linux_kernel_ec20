@@ -1,0 +1,13 @@
+PN: quectel-gps-handle
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-gps-handle-doc: Quectel uart data dispatch  This package contains documentation.
+SUMMARY_quectel-gps-handle-doc: quectel-gps-handle version git-invalidgit-r1 - Documentation files
+SECTION_quectel-gps-handle-doc: doc
+PKG_quectel-gps-handle-doc: quectel-gps-handle-doc
+FILES_quectel-gps-handle-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-gps-handle-doc: 0

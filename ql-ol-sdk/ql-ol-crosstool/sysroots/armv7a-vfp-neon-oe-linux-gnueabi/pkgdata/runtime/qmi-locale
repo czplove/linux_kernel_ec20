@@ -1,0 +1,13 @@
+PN: qmi
+PV: git-invalidgit
+PR: r13
+PKGV: git-invalidgit
+PKGR: r13
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm MSM Interface (QMI) Library
+SUMMARY: qmi version git-invalidgit-r13
+SECTION: base
+PKG_qmi-locale: qmi-locale
+FILES_qmi-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-locale: 0

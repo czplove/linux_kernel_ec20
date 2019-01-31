@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm274: character map for ibm274 encoding
+SUMMARY_glibc-charmap-ibm274: character map for ibm274 encoding
+SECTION: base
+PKG_glibc-charmap-ibm274: glibc-charmap-ibm274
+FILES_glibc-charmap-ibm274: /usr/share/i18n/charmaps/IBM274.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM274.gz": 2151}
+PKGSIZE_glibc-charmap-ibm274: 2151

@@ -1,0 +1,14 @@
+PN: alx
+PV: git
+PR: r4-3.18.20
+PKGV: git
+PKGR: r4-3.18.20
+LICENSE: ISC
+DESCRIPTION_alx-staticdev: Qualcomm Atheros Gigabit Ethernet Driver  This package contains static libraries for software development.
+SUMMARY_alx-staticdev: alx version git-r4-3.18.20 - Development files (Static Libraries)
+RDEPENDS_alx-staticdev: alx-dev (= git-r4-3.18.20)
+SECTION_alx-staticdev: devel
+PKG_alx-staticdev: alx-staticdev
+FILES_alx-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/alx/*.a
+FILES_INFO: {}
+PKGSIZE_alx-staticdev: 0

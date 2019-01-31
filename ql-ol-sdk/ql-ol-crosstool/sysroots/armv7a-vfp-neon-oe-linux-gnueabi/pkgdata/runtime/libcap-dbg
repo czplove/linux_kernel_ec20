@@ -1,0 +1,15 @@
+PN: libcap
+PV: 2.24
+PR: r0
+PKGV: 2.24
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION_libcap-dbg: Library for getting/setting POSIX.1e capabilities.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libcap-dbg: Library for getting/setting POSIX.1e capabilities - Debugging files
+RRECOMMENDS_libcap-dbg: glibc-dbg libattr-dbg
+SECTION_libcap-dbg: devel
+PKG_libcap-dbg: libcap-dbg
+ALLOW_EMPTY_libcap-dbg: 1
+FILES_libcap-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libcap/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libcap/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libcap/libcap/.debug /usr/src/debug /lib/security/.debug/*.so
+FILES_INFO: {"/usr/sbin/.debug/setcap": 14675, "/usr/sbin/.debug/capsh": 30753, "/usr/sbin/.debug/getcap": 13337, "/usr/sbin/.debug/getpcaps": 10691, "/lib/.debug/libcap.so.2.24": 43187}
+PKGSIZE_libcap-dbg: 112643

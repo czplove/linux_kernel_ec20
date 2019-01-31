@@ -1,0 +1,13 @@
+PN: common
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_common-doc: Common headers  This package contains documentation.
+SUMMARY_common-doc: common version git-r7 - Documentation files
+SECTION_common-doc: doc
+PKG_common-doc: common-doc
+FILES_common-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_common-doc: 0

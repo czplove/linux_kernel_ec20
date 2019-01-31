@@ -1,0 +1,15 @@
+PN: libdaemon
+PV: 0.14
+PR: r0
+PKGV: 0.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libdaemon-dbg: Lightweight C library which eases the writing of UNIX daemons.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libdaemon-dbg: Lightweight C library which eases the writing of UNIX daemons - Debugging files
+RRECOMMENDS_libdaemon-dbg: glibc-dbg
+SECTION_libdaemon-dbg: devel
+PKG_libdaemon-dbg: libdaemon-dbg
+ALLOW_EMPTY_libdaemon-dbg: 1
+FILES_libdaemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libdaemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libdaemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libdaemon/libdaemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libdaemon.so.0.5.0": 7690}
+PKGSIZE_libdaemon-dbg: 7690

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-pt-pt: locale definition for pt-pt
+SUMMARY_glibc-localedata-pt-pt: locale definition for pt-pt
+RDEPENDS_glibc-localedata-pt-pt: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-pt-pt: glibc-localedata-pt-pt
+FILES_glibc-localedata-pt-pt: /usr/share/i18n/locales/pt_PT
+FILES_INFO: {"/usr/share/i18n/locales/pt_PT": 5303}
+PKGSIZE_glibc-localedata-pt-pt: 5303

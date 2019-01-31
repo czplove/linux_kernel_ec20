@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-memoize-expirefile: perl module memoize-expirefile
+SUMMARY_perl-module-memoize-expirefile: perl module memoize-expirefile
+RDEPENDS_perl-module-memoize-expirefile: perl-module-carp perl
+SECTION: devel
+PKG_perl-module-memoize-expirefile: perl-module-memoize-expirefile
+FILES_perl-module-memoize-expirefile: /usr/lib/perl/5.20.0/Memoize/ExpireFile.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Memoize/ExpireFile.pm": 1050}
+PKGSIZE_perl-module-memoize-expirefile: 1050

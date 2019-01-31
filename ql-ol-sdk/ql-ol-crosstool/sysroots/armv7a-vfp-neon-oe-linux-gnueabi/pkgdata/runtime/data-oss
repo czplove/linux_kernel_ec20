@@ -1,0 +1,20 @@
+PN: data-oss
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION: Data Services Open Source
+SUMMARY: data-oss version git-r4
+RDEPENDS_data-oss: glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+SECTION: base
+PKG_data-oss: data-oss
+FILES_data-oss: /usr/bin/* /usr/sbin/* /usr/lib/data-oss/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/data-oss /usr/lib/data-oss/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_data-oss: /usr/bin/rmnetcli /usr/lib/librmnetctl.so.0.0.0
+FILES_INFO: {"/usr/lib/librmnetctl.so.0": 12656, "/usr/bin/rmnetcli": 17168}
+FILERPROVIDES_/usr/bin/rmnetcli_data-oss: elf(buildid) (= d5022b0de8d8652eddf1d21f5864d4b4a9421d06)
+FILERPROVIDES_/usr/lib/librmnetctl.so.0.0.0_data-oss: elf(buildid) (= 940db2dda2c503eaf09881df1f7e31012aface61) librmnetctl.so.0
+FILERDEPENDSFLIST_data-oss: /usr/bin/rmnetcli /usr/lib/librmnetctl.so.0.0.0
+FILERDEPENDS_/usr/bin/rmnetcli_data-oss: libc.so.6 libc.so.6(GLIBC_2.4) librmnetctl.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/librmnetctl.so.0.0.0_data-oss: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libgthread-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 rtld(GNU_HASH)
+PKGSIZE_data-oss: 29824

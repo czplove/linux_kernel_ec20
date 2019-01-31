@@ -1,0 +1,13 @@
+PN: wap-fota-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: WAP FOTA DAEMON
+SUMMARY: wap-fota-daemon version git-invalidgit-r3
+SECTION: base
+PKG_wap-fota-daemon-locale: wap-fota-daemon-locale
+FILES_wap-fota-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_wap-fota-daemon-locale: 0

@@ -1,0 +1,15 @@
+PN: packagegroup-core-boot
+PV: 1.0
+PR: r17
+PKGV: 1.0
+PKGR: r17
+LICENSE: MIT
+DESCRIPTION_packagegroup-core-boot-dbg: The minimal set of packages required to boot the system  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_packagegroup-core-boot-dbg: Minimal boot requirements - Debugging files
+RRECOMMENDS_packagegroup-core-boot-dbg: busybox-mdev-dbg initscripts-dbg busybox-hwclock-dbg sysvinit-dbg keymaps-dbg base-passwd-dbg modutils-initscripts-dbg busybox-dbg netbase-dbg update-alternatives-opkg-dbg base-files-dbg init-ifupdown-dbg
+SECTION_packagegroup-core-boot-dbg: devel
+PKG_packagegroup-core-boot-dbg: packagegroup-core-boot-dbg
+ALLOW_EMPTY_packagegroup-core-boot-dbg: 1
+FILES_packagegroup-core-boot-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/packagegroup-core-boot/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/packagegroup-core-boot/.debug /usr/lib/matchbox-panel/.debug /usr/lib/packagegroup-core-boot/packagegroup-core-boot/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-boot-dbg: 0

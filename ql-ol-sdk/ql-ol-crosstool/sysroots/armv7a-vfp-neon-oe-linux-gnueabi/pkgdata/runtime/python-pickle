@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-pickle: Python serialisation/persistence support
+RDEPENDS_python-pickle: libpython2 (>= 2.7.9) glibc (>= 2.21) python-codecs python-core python-io python-re
+SECTION: devel/python
+PKG_python-pickle: python-pickle
+FILES_python-pickle: /usr/lib/python2.7/pickle.* /usr/lib/python2.7/shelve.* /usr/lib/python2.7/lib-dynload/cPickle.so /usr/lib/python2.7/pickletools.* 
+FILERPROVIDESFLIST_python-pickle: /usr/lib/python2.7/lib-dynload/cPickle.so
+FILES_INFO: {"/usr/lib/python2.7/pickletools.py": 74541, "/usr/lib/python2.7/lib-dynload/cPickle.so": 79012, "/usr/lib/python2.7/shelve.pyc": 10213, "/usr/lib/python2.7/pickle.py": 45163, "/usr/lib/python2.7/pickletools.pyc": 57046, "/usr/lib/python2.7/shelve.py": 8078, "/usr/lib/python2.7/pickle.pyc": 38261}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/cPickle.so_python-pickle: cPickle.so elf(buildid) (= 78c419142b266da8ba518108b4c14401081be875)
+FILERDEPENDSFLIST_python-pickle: /usr/lib/python2.7/lib-dynload/cPickle.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/cPickle.so_python-pickle: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-pickle: 312314

@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-eo: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the eo locale.
+SUMMARY_glib-2.0-locale-eo: A general-purpose utility library - eo translations
+RPROVIDES_glib-2.0-locale-eo: glib-2.0-locale eo-translation glib-2.0-locale-eo
+RRECOMMENDS_glib-2.0-locale-eo: virtual-locale-eo
+SECTION: libs
+PKG_glib-2.0-locale-eo: libglib-2.0-locale-eo
+FILES_glib-2.0-locale-eo: /usr/share/locale/eo
+FILES_INFO: {"/usr/share/locale/eo/LC_MESSAGES/glib20.mo": 86040}
+PKGSIZE_glib-2.0-locale-eo: 86040

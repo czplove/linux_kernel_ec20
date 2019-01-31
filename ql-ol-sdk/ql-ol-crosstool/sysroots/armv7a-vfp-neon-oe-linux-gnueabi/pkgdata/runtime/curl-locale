@@ -1,0 +1,13 @@
+PN: curl
+PV: 7.40.0
+PR: r0
+PKGV: 7.40.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Command line tool and library for client-side URL transfers.
+SUMMARY: Command line tool and library for client-side URL transfers
+SECTION: console/network
+PKG_curl-locale: curl-locale
+FILES_curl-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_curl-locale: 0

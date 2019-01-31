@@ -1,0 +1,4 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+export PERL5LIB=$PERL5LIB:$OECORE_NATIVE_SYSROOT//usr/lib/perl:$OECORE_NATIVE_SYSROOT//usr/lib/perl/5.20.0:$OECORE_NATIVE_SYSROOT//usr/lib/perl/site_perl/5.20.0:$OECORE_NATIVE_SYSROOT//usr/lib/perl/vendor_perl/5.20.0
+exec -a `dirname $realpath`/perl `dirname $realpath`/perl.real "$@"

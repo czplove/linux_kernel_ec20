@@ -1,0 +1,13 @@
+PN: init-ifupdown
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: GPLv2
+DESCRIPTION: This package provides high level tools to configure network interfaces
+SUMMARY: Basic TCP/IP networking init scripts and configuration files
+SECTION: base
+PKG_init-ifupdown-locale: init-ifupdown-locale
+FILES_init-ifupdown-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_init-ifupdown-locale: 0

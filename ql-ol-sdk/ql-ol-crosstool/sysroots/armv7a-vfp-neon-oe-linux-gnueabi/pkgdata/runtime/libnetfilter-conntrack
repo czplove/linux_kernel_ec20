@@ -1,0 +1,19 @@
+PN: libnetfilter-conntrack
+PV: 0.9.1
+PR: r0
+PKGV: 0.9.1
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Userspace library providing a programming interface (API) to the in-kernel connection tracking state table
+SUMMARY: libnetfilter-conntrack version 0.9.1-r0
+RDEPENDS_libnetfilter-conntrack: glibc (>= 2.21) libnfnetlink (>= 1.0.0)
+RPROVIDES_libnetfilter-conntrack:  libnetfilter-conntrack
+SECTION: base
+PKG_libnetfilter-conntrack: libnetfilter-conntrack3
+FILES_libnetfilter-conntrack: /usr/bin/* /usr/sbin/* /usr/lib/libnetfilter-conntrack/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libnetfilter-conntrack /usr/lib/libnetfilter-conntrack/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libnetfilter-conntrack: /usr/lib/libnetfilter@underscore@conntrack.so.3.1.3
+FILES_INFO: {"/usr/lib/libnetfilter_conntrack.so.3": 61572}
+FILERPROVIDES_/usr/lib/libnetfilter@underscore@conntrack.so.3.1.3_libnetfilter-conntrack: elf(buildid) (= 4bc465a04adc64be7f1d90b2844564fccf341aa2) libnetfilter_conntrack.so.3
+FILERDEPENDSFLIST_libnetfilter-conntrack: /usr/lib/libnetfilter@underscore@conntrack.so.3.1.3
+FILERDEPENDS_/usr/lib/libnetfilter@underscore@conntrack.so.3.1.3_libnetfilter-conntrack: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libnfnetlink.so.0 rtld(GNU_HASH)
+PKGSIZE_libnetfilter-conntrack: 61572

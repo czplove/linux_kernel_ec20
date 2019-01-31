@@ -1,0 +1,15 @@
+PN: update-rc.d
+PV: 0.7
+PR: r6
+PKGV: 0.7
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION_update-rc.d-dev: update-rc.d is a utilities that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_update-rc.d-dev: manage symlinks in /etc/rcN.d - Development files
+RDEPENDS_update-rc.d-dev: update-rc.d (= 0.7-r6)
+SECTION_update-rc.d-dev: devel
+PKG_update-rc.d-dev: update-rc.d-dev
+ALLOW_EMPTY_update-rc.d-dev: 1
+FILES_update-rc.d-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/update-rc.d/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_update-rc.d-dev: 0

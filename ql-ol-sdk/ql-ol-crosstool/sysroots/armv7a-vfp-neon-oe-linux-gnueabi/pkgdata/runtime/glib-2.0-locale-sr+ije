@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-sr+ije: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the sr@ije locale.
+SUMMARY_glib-2.0-locale-sr+ije: A general-purpose utility library - sr@ije translations
+RPROVIDES_glib-2.0-locale-sr+ije: glib-2.0-locale sr+ije-translation glib-2.0-locale-sr+ije
+RRECOMMENDS_glib-2.0-locale-sr+ije: virtual-locale-sr+ije
+SECTION: libs
+PKG_glib-2.0-locale-sr+ije: libglib-2.0-locale-sr+ije
+FILES_glib-2.0-locale-sr+ije: /usr/share/locale/sr@ije
+FILES_INFO: {"/usr/share/locale/sr@ije/LC_MESSAGES/glib20.mo": 15673}
+PKGSIZE_glib-2.0-locale-sr+ije: 15673

@@ -1,0 +1,13 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: Lightweight high-performance web server.
+SUMMARY: Lightweight high-performance web server
+SECTION: net
+PKG_lighttpd-locale: lighttpd-locale
+FILES_lighttpd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_lighttpd-locale: 0

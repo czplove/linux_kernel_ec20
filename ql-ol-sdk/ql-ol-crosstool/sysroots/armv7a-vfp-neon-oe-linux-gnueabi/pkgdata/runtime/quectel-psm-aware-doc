@@ -1,0 +1,13 @@
+PN: quectel-psm-aware
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-psm-aware-doc: Quectel file data dispatch  This package contains documentation.
+SUMMARY_quectel-psm-aware-doc: quectel-psm-aware version git-invalidgit-r1 - Documentation files
+SECTION_quectel-psm-aware-doc: doc
+PKG_quectel-psm-aware-doc: quectel-psm-aware-doc
+FILES_quectel-psm-aware-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-psm-aware-doc: 0

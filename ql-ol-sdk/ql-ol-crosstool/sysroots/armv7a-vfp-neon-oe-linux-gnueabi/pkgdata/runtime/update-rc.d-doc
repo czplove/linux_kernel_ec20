@@ -1,0 +1,13 @@
+PN: update-rc.d
+PV: 0.7
+PR: r6
+PKGV: 0.7
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION_update-rc.d-doc: update-rc.d is a utilities that allows the management of symlinks to the initscripts in the /etc/rcN.d directory structure.  This package contains documentation.
+SUMMARY_update-rc.d-doc: manage symlinks in /etc/rcN.d - Documentation files
+SECTION_update-rc.d-doc: doc
+PKG_update-rc.d-doc: update-rc.d-doc
+FILES_update-rc.d-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_update-rc.d-doc: 0

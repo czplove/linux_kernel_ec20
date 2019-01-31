@@ -1,0 +1,15 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_avahi-locale-bg: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.  This package contains language translation files for the bg locale.
+SUMMARY_avahi-locale-bg: Avahi IPv4LL network address configuration daemon - bg translations
+RPROVIDES_avahi-locale-bg: avahi-locale bg-translation
+RRECOMMENDS_avahi-locale-bg: virtual-locale-bg
+SECTION: network
+PKG_avahi-locale-bg: avahi-locale-bg
+FILES_avahi-locale-bg: /usr/share/locale/bg
+FILES_INFO: {"/usr/share/locale/bg/LC_MESSAGES/avahi.mo": 20400}
+PKGSIZE_avahi-locale-bg: 20400

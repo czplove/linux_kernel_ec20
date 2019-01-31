@@ -1,0 +1,15 @@
+PN: depmodwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_depmodwrapper-cross-dev: Wrapper script for the Linux kernel module dependency indexer.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_depmodwrapper-cross-dev: Wrapper script for the Linux kernel module dependency indexer - Development files
+RDEPENDS_depmodwrapper-cross-dev: depmodwrapper-cross (= 1.0-r0)
+SECTION_depmodwrapper-cross-dev: devel
+PKG_depmodwrapper-cross-dev: depmodwrapper-cross-dev
+ALLOW_EMPTY_depmodwrapper-cross-dev: 1
+FILES_depmodwrapper-cross-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/depmodwrapper/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_depmodwrapper-cross-dev: 0

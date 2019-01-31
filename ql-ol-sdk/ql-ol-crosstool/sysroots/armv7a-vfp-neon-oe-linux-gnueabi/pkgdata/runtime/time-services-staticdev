@@ -1,0 +1,14 @@
+PN: time-services
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_time-services-staticdev: Time Services Daemon  This package contains static libraries for software development.
+SUMMARY_time-services-staticdev: time-services version git-invalidgit-r9 - Development files (Static Libraries)
+RDEPENDS_time-services-staticdev: time-services-dev (= git-invalidgit-r9)
+SECTION_time-services-staticdev: devel
+PKG_time-services-staticdev: time-services-staticdev
+FILES_time-services-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/time-services/*.a
+FILES_INFO: {}
+PKGSIZE_time-services-staticdev: 0

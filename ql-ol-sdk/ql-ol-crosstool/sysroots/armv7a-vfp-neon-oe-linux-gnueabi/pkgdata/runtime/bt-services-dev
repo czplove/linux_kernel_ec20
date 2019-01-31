@@ -1,0 +1,15 @@
+PN: bt-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_bt-services-dev: Bluetooth services required for MDM platforms  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_bt-services-dev: bt-services version git-invalidgit-r1 - Development files
+RDEPENDS_bt-services-dev: bt-services (= git-invalidgit-r1)
+SECTION_bt-services-dev: devel
+PKG_bt-services-dev: bt-services-dev
+ALLOW_EMPTY_bt-services-dev: 1
+FILES_bt-services-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/bt-services/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_bt-services-dev: 0

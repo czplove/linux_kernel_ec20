@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-cbuilder-platform-android: perl module extutils-cbuilder-platform-android
+SUMMARY_perl-module-extutils-cbuilder-platform-android: perl module extutils-cbuilder-platform-android
+RDEPENDS_perl-module-extutils-cbuilder-platform-android: perl-module-strict perl-module-extutils-cbuilder-platform-unix perl-module-vars perl-module-file-spec perl
+SECTION: devel
+PKG_perl-module-extutils-cbuilder-platform-android: perl-module-extutils-cbuilder-platform-android
+FILES_perl-module-extutils-cbuilder-platform-android: /usr/lib/perl/5.20.0/ExtUtils/CBuilder/Platform/android.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/CBuilder/Platform/android.pm": 1150}
+PKGSIZE_perl-module-extutils-cbuilder-platform-android: 1150

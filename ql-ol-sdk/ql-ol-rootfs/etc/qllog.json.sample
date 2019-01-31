@@ -1,0 +1,47 @@
+{
+	/* log output format : log type, time, pid, tid, tag, msg */
+	/* log type : k->kernel, e->events, s->system, m->main */
+	/* (mandatory) log file path */
+	"log_file":"/tmp/qllog/ql_log.txt",
+	
+	/* (optional) rotate log every kbytes, default is unlimit */
+	"rotate_file_size":  1024,
+	/* (optional) max number of rotated logs, default is 4 */
+	"rotate_file_count": 2,
+	
+	/* (optional) log format, default or csv */
+	"log_format":"default",
+	
+	/* (optional) kernel log level(printk), 'm(emerg)', 'a(alert)', 'c(crit)', 'e(err)', 'w(warn)', 'n(notice)', 'i(info)', 'd(debug)' '*(all)' */
+	"kernel_priority":"e",
+	
+	/* (mandatory) alternate ring buffer list */
+	"buffer_list" : 
+	[
+		{
+			/* (mandatory) alternate ring buffer name, 'main', 'system', 'events' */
+			"name" : "events",
+			/* (mandatory) filter */
+			"filter_list" : 
+			[
+				{
+					/* (optional) priority, 'v(VERBOSE)', 'd(DEBUG)', 'i(INFO)', 'w(WARN)',  'e(ERROR)', 'f(FATAL)', '*(all)' */
+					"priority":"*"
+				}
+			]
+		},
+		{
+			"name" : "system",
+			"filter_list" : 
+			[
+				{
+					"tag":"ql_api",
+					"priority":"*"
+				},
+				{
+					"priority":"f"
+				}
+			]
+		}
+	]
+}

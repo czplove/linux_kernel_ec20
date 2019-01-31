@@ -1,0 +1,13 @@
+PN: libcheck
+PV: 0.9.14
+PR: r0
+PKGV: 0.9.14
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Check - unit testing framework for C code.
+SUMMARY: Check - unit testing framework for C code
+SECTION: devel
+PKG_libcheck-locale: libcheck-locale
+FILES_libcheck-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libcheck-locale: 0

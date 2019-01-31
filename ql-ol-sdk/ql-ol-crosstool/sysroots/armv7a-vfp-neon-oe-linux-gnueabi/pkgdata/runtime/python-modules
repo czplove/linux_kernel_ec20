@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-modules: All Python modules
+RDEPENDS_python-modules: python-codecs python-threading python-distutils python-doctest python-stringold python-curses python-ctypes python-pickle python-textutils python-datetime python-core python-io python-compression python-re python-profile python-xmlrpc python-terminal python-email python-image python-tests python-mmap python-resource python-json python-difflib python-math python-hotshot python-xml python-unixadmin python-syslog python-tkinter python-gdbm python-elementtree python-fcntl python-netclient python-pprint python-netserver python-compiler python-smtpd python-html python-readline python-subprocess python-pydoc python-logging python-mailbox python-contextlib python-mime python-sqlite3 python-sqlite3-tests python-unittest python-multiprocessing python-importlib python-robotparser python-compile python-debugger python-pkgutil python-lang python-shell python-bsddb python-numbers python-argparse python-zlib python-db python-crypt python-idle python-2to3 python-audio
+SECTION: devel/python
+PKG_python-modules: python-modules
+ALLOW_EMPTY_python-modules: 1
+FILES_INFO: {}
+PKGSIZE_python-modules: 0

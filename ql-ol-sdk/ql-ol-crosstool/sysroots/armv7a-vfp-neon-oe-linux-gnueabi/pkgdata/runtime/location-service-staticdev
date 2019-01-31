@@ -1,0 +1,15 @@
+PN: location-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-service-staticdev: GPS Location Service library  This package contains static libraries for software development.
+SUMMARY_location-service-staticdev: location-service version git-r1 - Development files (Static Libraries)
+RDEPENDS_location-service-staticdev: location-service-dev (= git-r1)
+RPROVIDES_location-service-staticdev:  location-service-staticdev
+SECTION_location-service-staticdev: devel
+PKG_location-service-staticdev: liblocationservice-staticdev
+FILES_location-service-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/location-service/*.a
+FILES_INFO: {}
+PKGSIZE_location-service-staticdev: 0

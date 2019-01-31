@@ -1,0 +1,16 @@
+PN: loc-mcm-qmi-test-shim
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-mcm-qmi-test-shim-dbg: MCM Location Type Conversion Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-mcm-qmi-test-shim-dbg: loc-mcm-qmi-test-shim version git-invalidgit-r4 - Debugging files
+RPROVIDES_loc-mcm-qmi-test-shim-dbg:  loc-mcm-qmi-test-shim-dbg
+RRECOMMENDS_loc-mcm-qmi-test-shim-dbg: mcm-core-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg loc-pla-dbg loc-mcm-type-conv-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg ql-syslog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+SECTION_loc-mcm-qmi-test-shim-dbg: devel
+PKG_loc-mcm-qmi-test-shim-dbg: libloc-mcm-qmi-test-shim-dbg
+ALLOW_EMPTY_loc-mcm-qmi-test-shim-dbg: 1
+FILES_loc-mcm-qmi-test-shim-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-mcm-qmi-test-shim/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-mcm-qmi-test-shim/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-mcm-qmi-test-shim/loc-mcm-qmi-test-shim/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_mcm_qmi_test_shim.so.1.0.0": 9618}
+PKGSIZE_loc-mcm-qmi-test-shim-dbg: 9618

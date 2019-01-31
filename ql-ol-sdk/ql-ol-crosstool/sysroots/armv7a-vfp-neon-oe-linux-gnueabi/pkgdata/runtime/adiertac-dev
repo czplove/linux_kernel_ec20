@@ -1,0 +1,17 @@
+PN: adiertac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_adiertac-dev: adie rtac Library and calibiration files  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_adiertac-dev: adiertac version git-invalidgit-r3 - Development files
+RDEPENDS_adiertac-dev: adiertac (= git-invalidgit-r3)
+RPROVIDES_adiertac-dev:  adiertac-dev
+RRECOMMENDS_adiertac-dev: glibc-dev acdbmapper-dev time-genoff-dev glib-2.0-dev audioalsa-dev audcal-dev diag-dev
+SECTION_adiertac-dev: devel
+PKG_adiertac-dev: libadiertac-dev
+ALLOW_EMPTY_adiertac-dev: 1
+FILES_adiertac-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/adiertac/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/adiertac.pc": 192, "/usr/include/adiertac/adie-rtac.h": 1017, "/usr/lib/libadiertac.so": 20, "/usr/lib/libadiertac.la": 1277}
+PKGSIZE_adiertac-dev: 2506

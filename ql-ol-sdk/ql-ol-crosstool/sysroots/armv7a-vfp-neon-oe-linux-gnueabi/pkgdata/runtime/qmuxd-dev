@@ -1,0 +1,16 @@
+PN: qmuxd
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmuxd-dev: QMUXD Module  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qmuxd-dev: qmuxd version git-invalidgit-r0 - Development files
+RDEPENDS_qmuxd-dev: qmuxd (= git-invalidgit-r0)
+RRECOMMENDS_qmuxd-dev: configdb-dev glibc-dev diag-dev dsutils-dev qmi-dev glib-2.0-dev qmi-framework-dev common-dev initscripts-dev
+SECTION_qmuxd-dev: devel
+PKG_qmuxd-dev: qmuxd-dev
+ALLOW_EMPTY_qmuxd-dev: 1
+FILES_qmuxd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qmuxd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_qmuxd-dev: 0

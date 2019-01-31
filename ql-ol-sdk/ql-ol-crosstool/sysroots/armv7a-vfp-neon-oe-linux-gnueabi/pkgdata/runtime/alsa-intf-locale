@@ -1,0 +1,13 @@
+PN: alsa-intf
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Apache-2.0
+DESCRIPTION: ALSA Framework Library
+SUMMARY: alsa-intf version git-invalidgit-r4
+SECTION: base
+PKG_alsa-intf-locale: alsa-intf-locale
+FILES_alsa-intf-locale: /etc/share/locale
+FILES_INFO: {}
+PKGSIZE_alsa-intf-locale: 0

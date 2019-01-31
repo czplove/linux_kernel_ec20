@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sat-in: locale definition for sat-in
+SUMMARY_glibc-localedata-sat-in: locale definition for sat-in
+RDEPENDS_glibc-localedata-sat-in: glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-sat-in: glibc-localedata-sat-in
+FILES_glibc-localedata-sat-in: /usr/share/i18n/locales/sat_IN
+FILES_INFO: {"/usr/share/i18n/locales/sat_IN": 6141}
+PKGSIZE_glibc-localedata-sat-in: 6141

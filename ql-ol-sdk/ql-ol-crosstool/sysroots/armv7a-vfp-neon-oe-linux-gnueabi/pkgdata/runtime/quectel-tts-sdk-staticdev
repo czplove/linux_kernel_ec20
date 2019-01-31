@@ -1,0 +1,14 @@
+PN: quectel-tts-sdk
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-tts-sdk-staticdev: Quectel TTS SDK  This package contains static libraries for software development.
+SUMMARY_quectel-tts-sdk-staticdev: quectel-tts-sdk version git-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-tts-sdk-staticdev: quectel-tts-sdk-dev (= git-r1)
+SECTION_quectel-tts-sdk-staticdev: devel
+PKG_quectel-tts-sdk-staticdev: quectel-tts-sdk-staticdev
+FILES_quectel-tts-sdk-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-tts-sdk/*.a
+FILES_INFO: {"/usr/lib/libql_tts_client.a": 59440}
+PKGSIZE_quectel-tts-sdk-staticdev: 59440

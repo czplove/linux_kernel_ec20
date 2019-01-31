@@ -1,0 +1,14 @@
+PN: minidlna
+PV: 1.1.3
+PR: r5
+PKGV: 1.1.3
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_minidlna-staticdev: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients..  This package contains static libraries for software development.
+SUMMARY_minidlna-staticdev: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients. - Development files (Static Libraries)
+RDEPENDS_minidlna-staticdev: minidlna-dev (= 1.1.3-r5)
+SECTION_minidlna-staticdev: devel
+PKG_minidlna-staticdev: minidlna-staticdev
+FILES_minidlna-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/minidlna/*.a
+FILES_INFO: {}
+PKGSIZE_minidlna-staticdev: 0

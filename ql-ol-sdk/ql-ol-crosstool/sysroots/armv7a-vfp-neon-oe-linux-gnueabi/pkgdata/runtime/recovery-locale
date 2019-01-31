@@ -1,0 +1,13 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION: Recovery bootloader
+SUMMARY: recovery version git-r7
+SECTION: base
+PKG_recovery-locale: recovery-locale
+FILES_recovery-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_recovery-locale: 0

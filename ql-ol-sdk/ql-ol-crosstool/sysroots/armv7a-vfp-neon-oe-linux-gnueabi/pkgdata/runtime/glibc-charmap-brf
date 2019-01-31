@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-brf: character map for brf encoding
+SUMMARY_glibc-charmap-brf: character map for brf encoding
+SECTION: base
+PKG_glibc-charmap-brf: glibc-charmap-brf
+FILES_glibc-charmap-brf: /usr/share/i18n/charmaps/BRF.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/BRF.gz": 1166}
+PKGSIZE_glibc-charmap-brf: 1166

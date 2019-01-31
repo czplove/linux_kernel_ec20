@@ -1,0 +1,15 @@
+PN: minidlna
+PV: 1.1.3
+PR: r5
+PKGV: 1.1.3
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_minidlna-dbg: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients..  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_minidlna-dbg: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients. - Debugging files
+RRECOMMENDS_minidlna-dbg: libsqlite3-dbg ffmpeg-dbg glibc-dbg libflac-dbg libexif-dbg libjpeg-turbo-dbg libogg-dbg libvorbis-dbg libid3tag-dbg
+SECTION_minidlna-dbg: devel
+PKG_minidlna-dbg: minidlna-dbg
+ALLOW_EMPTY_minidlna-dbg: 1
+FILES_minidlna-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/minidlna/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/minidlna/.debug /usr/lib/matchbox-panel/.debug /usr/lib/minidlna/minidlna/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/minidlnad": 42340}
+PKGSIZE_minidlna-dbg: 42340

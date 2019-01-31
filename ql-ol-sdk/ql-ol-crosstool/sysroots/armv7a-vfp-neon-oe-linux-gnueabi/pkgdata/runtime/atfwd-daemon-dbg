@@ -1,0 +1,15 @@
+PN: atfwd-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_atfwd-daemon-dbg: Daemon to handle AT commands  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_atfwd-daemon-dbg: atfwd-daemon version git-invalidgit-r3 - Debugging files
+RRECOMMENDS_atfwd-daemon-dbg: quectel-audio-lib-dbg dsutils-dbg glibc-dbg zlib-dbg ql-common-tools-dbg libssl-dbg system-core-liblog-dbg libcrypto-dbg libgcc-dbg qmi-framework-dbg alsa-intf-dbg quectel-libfotainfo-dbg qmi-dbg
+SECTION_atfwd-daemon-dbg: devel
+PKG_atfwd-daemon-dbg: atfwd-daemon-dbg
+ALLOW_EMPTY_atfwd-daemon-dbg: 1
+FILES_atfwd-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/atfwd-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/atfwd-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/atfwd-daemon/atfwd-daemon/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/wget": 68477, "/usr/bin/.debug/atfwd_daemon": 756666}
+PKGSIZE_atfwd-daemon-dbg: 825143

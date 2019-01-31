@@ -1,0 +1,14 @@
+PN: quectel-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-daemon-staticdev: Quectel Function Daemon  This package contains static libraries for software development.
+SUMMARY_quectel-daemon-staticdev: quectel-daemon version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-daemon-staticdev: quectel-daemon-dev (= git-invalidgit-r1)
+SECTION_quectel-daemon-staticdev: devel
+PKG_quectel-daemon-staticdev: quectel-daemon-staticdev
+FILES_quectel-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-daemon-staticdev: 0

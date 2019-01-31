@@ -1,0 +1,2 @@
+/bin/tee
+/bin/busybox 50

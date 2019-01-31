@@ -1,0 +1,16 @@
+PN: subsystem-ramdump
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_subsystem-ramdump-dev: subsystem ramdump  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_subsystem-ramdump-dev: subsystem-ramdump version git-r3 - Development files
+RDEPENDS_subsystem-ramdump-dev: subsystem-ramdump (= git-r3)
+RRECOMMENDS_subsystem-ramdump-dev: glib-2.0-dev glibc-dev initscripts-dev
+SECTION_subsystem-ramdump-dev: devel
+PKG_subsystem-ramdump-dev: subsystem-ramdump-dev
+ALLOW_EMPTY_subsystem-ramdump-dev: 1
+FILES_subsystem-ramdump-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/subsystem-ramdump/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_subsystem-ramdump-dev: 0

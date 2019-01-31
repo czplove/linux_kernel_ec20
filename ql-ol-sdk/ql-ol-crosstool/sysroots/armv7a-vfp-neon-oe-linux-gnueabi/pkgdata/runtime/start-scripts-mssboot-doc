@@ -1,0 +1,13 @@
+PN: start-scripts-mssboot
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-mssboot-doc: Start up script for mssboot  This package contains documentation.
+SUMMARY_start-scripts-mssboot-doc: start-scripts-mssboot version git-invalidgit-r2 - Documentation files
+SECTION_start-scripts-mssboot-doc: doc
+PKG_start-scripts-mssboot-doc: start-scripts-mssboot-doc
+FILES_start-scripts-mssboot-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-mssboot-doc: 0

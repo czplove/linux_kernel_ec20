@@ -1,0 +1,16 @@
+PN: quectel-gps-handle
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-gps-handle-dev: Quectel uart data dispatch  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-gps-handle-dev: quectel-gps-handle version git-invalidgit-r1 - Development files
+RDEPENDS_quectel-gps-handle-dev: quectel-gps-handle (= git-invalidgit-r1)
+RRECOMMENDS_quectel-gps-handle-dev: glibc-dev initscripts-dev
+SECTION_quectel-gps-handle-dev: devel
+PKG_quectel-gps-handle-dev: quectel-gps-handle-dev
+ALLOW_EMPTY_quectel-gps-handle-dev: 1
+FILES_quectel-gps-handle-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-gps-handle/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_quectel-gps-handle-dev: 0

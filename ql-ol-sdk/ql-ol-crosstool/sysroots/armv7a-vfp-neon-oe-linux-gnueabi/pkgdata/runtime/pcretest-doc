@@ -1,0 +1,13 @@
+PN: libpcre
+PV: 8.36
+PR: r0
+PKGV: 8.36
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API.
+SUMMARY_pcretest-doc: program for testing Perl-comatible regular expressions - docs
+SECTION: devel
+PKG_pcretest-doc: pcretest-doc
+FILES_pcretest-doc: /usr/share/man/man1/pcretest.1
+FILES_INFO: {"/usr/share/man/man1/pcretest.1": 49256}
+PKGSIZE_pcretest-doc: 49256

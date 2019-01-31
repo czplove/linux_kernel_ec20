@@ -1,0 +1,14 @@
+PN: location-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS Location Service library
+SUMMARY: location-service version git-r1
+RPROVIDES_location-service-locale:  location-service-locale
+SECTION: base
+PKG_location-service-locale: liblocationservice-locale
+FILES_location-service-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_location-service-locale: 0

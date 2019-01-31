@@ -1,0 +1,13 @@
+PN: conntrack-tools
+PV: 1.0.1
+PR: r1
+PKGV: 1.0.1
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION_conntrack-tools-doc: The conntrack-tools are a set of free software tools for GNU/Linux that allow system administrators interact, from user-space, with the in-kernel Connection Tracking System.  This package contains documentation.
+SUMMARY_conntrack-tools-doc: Tools for managing kernel packet filtering capabilities - Documentation files
+SECTION_conntrack-tools-doc: doc
+PKG_conntrack-tools-doc: conntrack-tools-doc
+FILES_conntrack-tools-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/conntrack.8": 10769, "/usr/share/man/man8/conntrackd.8": 4915}
+PKGSIZE_conntrack-tools-doc: 15684

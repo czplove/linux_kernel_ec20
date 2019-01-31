@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-he-il: locale definition for he-il
+SUMMARY_glibc-localedata-he-il: locale definition for he-il
+RDEPENDS_glibc-localedata-he-il: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-he-il: glibc-localedata-he-il
+FILES_glibc-localedata-he-il: /usr/share/i18n/locales/he_IL
+FILES_INFO: {"/usr/share/i18n/locales/he_IL": 5141}
+PKGSIZE_glibc-localedata-he-il: 5141

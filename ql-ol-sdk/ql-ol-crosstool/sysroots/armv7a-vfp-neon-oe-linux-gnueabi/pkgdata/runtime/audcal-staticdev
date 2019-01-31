@@ -1,0 +1,15 @@
+PN: audcal
+PV: git-invalidgit
+PR: r11
+PKGV: git-invalidgit
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audcal-staticdev: Audio Calibration Library  This package contains static libraries for software development.
+SUMMARY_audcal-staticdev: audcal version git-invalidgit-r11 - Development files (Static Libraries)
+RDEPENDS_audcal-staticdev: audcal-dev (= git-invalidgit-r11)
+RPROVIDES_audcal-staticdev:  audcal-staticdev
+SECTION_audcal-staticdev: devel
+PKG_audcal-staticdev: libaudcal-staticdev
+FILES_audcal-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/audcal/*.a
+FILES_INFO: {}
+PKGSIZE_audcal-staticdev: 0

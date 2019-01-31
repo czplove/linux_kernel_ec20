@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tu-in: locale definition for tu-in
+SUMMARY_glibc-localedata-tu-in: locale definition for tu-in
+RDEPENDS_glibc-localedata-tu-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in glibc-localedata-kn-in
+SECTION: base
+PKG_glibc-localedata-tu-in: glibc-localedata-tu-in
+FILES_glibc-localedata-tu-in: /usr/share/i18n/locales/tu_IN
+FILES_INFO: {"/usr/share/i18n/locales/tu_IN": 5631}
+PKGSIZE_glibc-localedata-tu-in: 5631

@@ -1,0 +1,13 @@
+PN: tcpdump
+PV: 4.1.1
+PR: r2
+PKGV: 4.1.1
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION: A sophisticated network protocol analyzer
+SUMMARY: tcpdump version 4.1.1-r2
+SECTION: console/network
+PKG_tcpdump-locale: tcpdump-locale
+FILES_tcpdump-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_tcpdump-locale: 0

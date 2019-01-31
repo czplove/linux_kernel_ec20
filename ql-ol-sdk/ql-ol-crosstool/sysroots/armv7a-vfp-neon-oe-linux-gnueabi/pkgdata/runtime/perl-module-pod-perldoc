@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-perldoc: perl module pod-perldoc
+SUMMARY_perl-module-pod-perldoc: perl module pod-perldoc
+RDEPENDS_perl-module-pod-perldoc: perl-module-text-parsewords perl-module-carp perl-module-config perl-module-vars perl perl-module-symbol perl-module-warnings perl-module-fcntl perl-module-file-temp perl-module-strict perl-module-file-spec-functions perl-module-file-basename perl-module-pod-perldoc-getoptsoo
+SECTION: devel
+PKG_perl-module-pod-perldoc: perl-module-pod-perldoc
+FILES_perl-module-pod-perldoc: /usr/lib/perl/5.20.0/Pod/Perldoc.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Perldoc.pm": 63663}
+PKGSIZE_perl-module-pod-perldoc: 63663

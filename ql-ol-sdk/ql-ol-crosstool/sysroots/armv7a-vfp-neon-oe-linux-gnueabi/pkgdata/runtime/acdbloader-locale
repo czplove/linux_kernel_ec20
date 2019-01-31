@@ -1,0 +1,14 @@
+PN: acdbloader
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb loader Library
+SUMMARY: acdbloader version git-invalidgit-r7
+RPROVIDES_acdbloader-locale:  acdbloader-locale
+SECTION: base
+PKG_acdbloader-locale: libacdbloader-locale
+FILES_acdbloader-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_acdbloader-locale: 0

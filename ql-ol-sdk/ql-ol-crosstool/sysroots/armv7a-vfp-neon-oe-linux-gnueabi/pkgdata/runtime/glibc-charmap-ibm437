@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm437: character map for ibm437 encoding
+SUMMARY_glibc-charmap-ibm437: character map for ibm437 encoding
+SECTION: base
+PKG_glibc-charmap-ibm437: glibc-charmap-ibm437
+FILES_glibc-charmap-ibm437: /usr/share/i18n/charmaps/IBM437.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM437.gz": 2985}
+PKGSIZE_glibc-charmap-ibm437: 2985

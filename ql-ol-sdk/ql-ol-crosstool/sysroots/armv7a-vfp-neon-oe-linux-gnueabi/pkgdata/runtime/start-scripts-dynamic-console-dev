@@ -1,0 +1,16 @@
+PN: start-scripts-dynamic-console
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_start-scripts-dynamic-console-dev: Start up script for  dynamic console  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_start-scripts-dynamic-console-dev: start-scripts-dynamic-console version 1.0-r4 - Development files
+RDEPENDS_start-scripts-dynamic-console-dev: start-scripts-dynamic-console (= 1.0-r4)
+RRECOMMENDS_start-scripts-dynamic-console-dev: initscripts-dev
+SECTION_start-scripts-dynamic-console-dev: devel
+PKG_start-scripts-dynamic-console-dev: start-scripts-dynamic-console-dev
+ALLOW_EMPTY_start-scripts-dynamic-console-dev: 1
+FILES_start-scripts-dynamic-console-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/start-scripts-dynamic-console/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_start-scripts-dynamic-console-dev: 0

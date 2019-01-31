@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-hne-in: locale definition for hne-in
+SUMMARY_glibc-localedata-hne-in: locale definition for hne-in
+RDEPENDS_glibc-localedata-hne-in: glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-hne-in: glibc-localedata-hne-in
+FILES_glibc-localedata-hne-in: /usr/share/i18n/locales/hne_IN
+FILES_INFO: {"/usr/share/i18n/locales/hne_IN": 5543}
+PKGSIZE_glibc-localedata-hne-in: 5543

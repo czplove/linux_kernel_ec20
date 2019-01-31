@@ -1,0 +1,14 @@
+PN: izat-core
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Izat Core
+SUMMARY: izat-core version git-invalidgit-r1
+RPROVIDES_izat-core-locale:  izat-core-locale
+SECTION: base
+PKG_izat-core-locale: libizat-core-locale
+FILES_izat-core-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_izat-core-locale: 0

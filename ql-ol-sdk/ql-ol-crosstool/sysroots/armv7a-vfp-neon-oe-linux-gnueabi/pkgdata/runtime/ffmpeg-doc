@@ -1,0 +1,13 @@
+PN: ffmpeg
+PV: 2.3
+PR: r0
+PKGV: 2.3
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_ffmpeg-doc: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video..  This package contains documentation.
+SUMMARY_ffmpeg-doc: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. - Documentation files
+SECTION_ffmpeg-doc: doc
+PKG_ffmpeg-doc: ffmpeg-doc
+FILES_ffmpeg-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ffmpeg-doc: 0

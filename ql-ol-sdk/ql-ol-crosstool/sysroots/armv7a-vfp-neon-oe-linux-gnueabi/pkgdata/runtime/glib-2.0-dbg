@@ -1,0 +1,18 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-dbg: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_glib-2.0-dbg: A general-purpose utility library - Debugging files
+RPROVIDES_glib-2.0-dbg:  glib-2.0-dbg
+RRECOMMENDS_glib-2.0-dbg: glibc-dbg zlib-dbg libffi-dbg
+SECTION_glib-2.0-dbg: devel
+PKG_glib-2.0-dbg: libglib-2.0-dbg
+ALLOW_EMPTY_glib-2.0-dbg: 1
+FILES_glib-2.0-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/glib-2.0/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/glib-2.0/.debug /usr/lib/matchbox-panel/.debug /usr/lib/glib-2.0/glib-2.0/.debug /usr/src/debug /usr/share/glib-2.0/gdb /usr/share/gdb                     /usr/lib/gio/modules/.debug                     /usr/lib/glib-2.0/installed-tests/glib/.debug
+FILES_INFO: {"/usr/lib/.debug/libgmodule-2.0.so.0.4200.1": 5747, "/usr/bin/.debug/gio-querymodules": 5683, "/usr/bin/.debug/gsettings": 8215, "/usr/lib/.debug/libgobject-2.0.so.0.4200.1": 88114, "/usr/lib/.debug/libgio-2.0.so.0.4200.1": 463422, "/usr/bin/.debug/glib-compile-resources": 12314, "/usr/share/glib-2.0/gdb/gobject.py": 8969, "/usr/bin/.debug/gresource": 6118, "/usr/bin/.debug/gapplication": 6928, "/usr/lib/.debug/libgthread-2.0.so.0.4200.1": 4031, "/usr/share/glib-2.0/gdb/glib.py": 7375, "/usr/bin/.debug/gtester": 8347, "/usr/bin/.debug/glib-genmarshal": 6913, "/usr/bin/.debug/gdbus": 10323, "/usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.4200.1-gdb.py": 193, "/usr/lib/.debug/libglib-2.0.so.0.4200.1": 202252, "/usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.4200.1-gdb.py": 196, "/usr/bin/.debug/gobject-query": 5549, "/usr/bin/.debug/glib-compile-schemas": 12981}
+PKGSIZE_glib-2.0-dbg: 863670

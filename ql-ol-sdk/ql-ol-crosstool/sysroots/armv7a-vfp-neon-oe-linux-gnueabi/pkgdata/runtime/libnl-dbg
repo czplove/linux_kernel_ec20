@@ -1,0 +1,18 @@
+PN: libnl
+PE: 1
+PV: 3.2.25
+PR: r1
+PKGE: 1
+PKGV: 3.2.25
+PKGR: r1
+LICENSE: LGPLv2.1
+DESCRIPTION_libnl-dbg: A library for applications dealing with netlink sockets.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libnl-dbg: A library for applications dealing with netlink sockets - Debugging files
+RPROVIDES_libnl-dbg:  libnl-dbg
+RRECOMMENDS_libnl-dbg: libnl-cli-dbg libnl-route-dbg glibc-dbg libnl-genl-dbg libnl-nf-dbg
+SECTION_libnl-dbg: devel
+PKG_libnl-dbg: libnl-3-dbg
+ALLOW_EMPTY_libnl-dbg: 1
+FILES_libnl-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libnl/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libnl/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libnl/libnl/.debug /usr/src/debug /usr/lib/libnl/cli/*/.debug
+FILES_INFO: {"/usr/sbin/.debug/nl-classid-lookup": 5287, "/usr/sbin/.debug/nl-cls-delete": 6217, "/usr/sbin/.debug/nl-qdisc-delete": 5957, "/usr/lib/libnl/cli/qdisc/.debug/ingress.so": 4185, "/usr/lib/.debug/libnl-nf-3.so.200.20.0": 33550, "/usr/lib/.debug/libnl-genl-3.so.200.20.0": 8716, "/usr/sbin/.debug/nl-class-list": 5753, "/usr/lib/.debug/libnl-route-3.so.200.20.0": 102832, "/usr/lib/.debug/libnl-3.so.200.20.0": 37023, "/usr/lib/.debug/libnl-cli-3.so.200.20.0": 24981, "/usr/lib/libnl/cli/qdisc/.debug/htb.so": 4715, "/usr/sbin/.debug/nl-cls-list": 5929, "/usr/sbin/.debug/genl-ctrl-list": 5397, "/usr/sbin/.debug/nl-qdisc-list": 6303, "/usr/lib/libnl/cli/qdisc/.debug/bfifo.so": 4297, "/usr/lib/libnl/cli/qdisc/.debug/blackhole.so": 4195, "/usr/lib/libnl/cli/cls/.debug/cgroup.so": 4296, "/usr/lib/libnl/cli/qdisc/.debug/pfifo.so": 4273, "/usr/lib/libnl/cli/qdisc/.debug/plug.so": 4402, "/usr/sbin/.debug/nl-cls-add": 6083, "/usr/sbin/.debug/nl-link-list": 5619, "/usr/lib/libnl/cli/cls/.debug/basic.so": 4421, "/usr/sbin/.debug/nl-class-add": 5983, "/usr/lib/.debug/libnl-idiag-3.so.200.20.0": 10612, "/usr/sbin/.debug/nl-qdisc-add": 5829, "/usr/lib/libnl/cli/qdisc/.debug/fq_codel.so": 4482, "/usr/sbin/.debug/nl-class-delete": 5925, "/usr/sbin/.debug/nl-pktloc-lookup": 5605}
+PKGSIZE_libnl-dbg: 332867

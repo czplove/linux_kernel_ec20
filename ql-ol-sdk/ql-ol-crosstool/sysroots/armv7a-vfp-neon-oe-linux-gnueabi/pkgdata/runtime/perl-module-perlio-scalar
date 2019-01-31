@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-perlio-scalar: perl module perlio-scalar
+SUMMARY_perl-module-perlio-scalar: perl module perlio-scalar
+RDEPENDS_perl-module-perlio-scalar: glibc (>= 2.21) perl perl-module-xsloader
+SECTION: devel
+PKG_perl-module-perlio-scalar: perl-module-perlio-scalar
+FILES_perl-module-perlio-scalar: /usr/lib/perl/5.20.0/auto/PerlIO/scalar/scalar.so /usr/lib/perl/5.20.0/PerlIO/scalar.pm
+FILERPROVIDESFLIST_perl-module-perlio-scalar: /usr/lib/perl/5.20.0/auto/PerlIO/scalar/scalar.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/PerlIO/scalar.pm": 959, "/usr/lib/perl/5.20.0/auto/PerlIO/scalar/scalar.so": 11060}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/PerlIO/scalar/scalar.so_perl-module-perlio-scalar: elf(buildid) (= 7d09b3678237b14882675b3195be3f108ffb7aee) scalar.so
+FILERDEPENDSFLIST_perl-module-perlio-scalar: /usr/lib/perl/5.20.0/auto/PerlIO/scalar/scalar.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/PerlIO/scalar/scalar.so_perl-module-perlio-scalar: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-perlio-scalar: 12019

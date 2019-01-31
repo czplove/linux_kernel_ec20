@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-unicode-collate-cjk-stroke: perl module unicode-collate-cjk-stroke
+SUMMARY_perl-module-unicode-collate-cjk-stroke: perl module unicode-collate-cjk-stroke
+RDEPENDS_perl-module-unicode-collate-cjk-stroke: perl-module-strict perl
+SECTION: devel
+PKG_perl-module-unicode-collate-cjk-stroke: perl-module-unicode-collate-cjk-stroke
+FILES_perl-module-unicode-collate-cjk-stroke: /usr/lib/perl/5.20.0/Unicode/Collate/CJK/Stroke.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Unicode/Collate/CJK/Stroke.pm": 121607}
+PKGSIZE_perl-module-unicode-collate-cjk-stroke: 121607

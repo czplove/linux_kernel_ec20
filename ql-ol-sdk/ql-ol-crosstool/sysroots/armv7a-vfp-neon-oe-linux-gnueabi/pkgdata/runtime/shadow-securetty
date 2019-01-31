@@ -1,0 +1,13 @@
+PN: shadow-securetty
+PV: 4.2.1
+PR: r3
+PKGV: 4.2.1
+PKGR: r3
+LICENSE: MIT
+DESCRIPTION: Provider of the machine specific securetty file.
+SUMMARY: Provider of the machine specific securetty file
+SECTION: base utils
+PKG_shadow-securetty: shadow-securetty
+FILES_shadow-securetty: /usr/bin/* /usr/sbin/* /usr/lib/shadow-securetty/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/shadow-securetty /usr/lib/shadow-securetty/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/etc/securetty": 1848}
+PKGSIZE_shadow-securetty: 1848

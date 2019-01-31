@@ -1,0 +1,6 @@
+"\
+%|POSTUN?{\
+%|POSTUNPROG?{#!%{POSTUNPROG}}:{#!/bin/sh}|\
+\n%{POSTUN}\
+\n}|\
+"

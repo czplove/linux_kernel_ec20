@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-be-by: locale definition for be-by
+SUMMARY_glibc-localedata-be-by: locale definition for be-by
+RDEPENDS_glibc-localedata-be-by: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-be-by: glibc-localedata-be-by
+FILES_glibc-localedata-be-by: /usr/share/i18n/locales/be_BY
+FILES_INFO: {"/usr/share/i18n/locales/be_BY": 5711}
+PKGSIZE_glibc-localedata-be-by: 5711

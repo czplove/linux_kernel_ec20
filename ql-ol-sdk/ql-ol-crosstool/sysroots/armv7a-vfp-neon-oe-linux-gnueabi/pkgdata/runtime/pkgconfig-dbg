@@ -1,0 +1,15 @@
+PN: pkgconfig
+PV: 0.28
+PR: r0
+PKGV: 0.28
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pkgconfig-dbg: pkg-config is a helper tool used when compiling applications and libraries. It helps determined the correct compiler/link options.  It is also language-agnostic.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_pkgconfig-dbg: Helper tool used when compiling - Debugging files
+RRECOMMENDS_pkgconfig-dbg: glib-2.0-dbg glibc-dbg
+SECTION_pkgconfig-dbg: devel
+PKG_pkgconfig-dbg: pkgconfig-dbg
+ALLOW_EMPTY_pkgconfig-dbg: 1
+FILES_pkgconfig-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/pkgconfig/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/pkgconfig/.debug /usr/lib/matchbox-panel/.debug /usr/lib/pkgconfig/pkgconfig/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/arm-oe-linux-gnueabi-pkg-config": 10621, "/usr/bin/.debug/pkg-config": 10621}
+PKGSIZE_pkgconfig-dbg: 21242

@@ -1,0 +1,138 @@
+# !/bin/sh
+###############################################################################
+# Begin Bluetooth
+#
+# Description : Boot time configuration of bluetooth for bluez
+#
+# Version : 0.1
+#
+# Notes: This script starts bluetooth daemon at the bootup
+#
+# Copyright (c) 2014 Qualcomm Technologies, Inc.  All Rights Reserved.
+# Qualcomm Technologies Proprietary and Confidential.
+#
+############################################################################## 
+
+# INIT INFO
+# Provides : bluetooth-5
+# Required-Start : $local_fs $sysloh dbus
+# Required-Stop : $local_fs $syslog
+# Default-Start : 2 3 4 5
+# Default-Stop : 0 1 6
+# Short-Description : Starts bluetooth daemons
+
+set -e
+
+if [ -f "/etc/sysconfig/bluetooth" ]; then
+   . /etc/sysconfig/bluetooth
+fi
+
+
+# daemons
+# bluetoothd
+if [ -f "/usr/libexec/bluetooth/bluetoothd" ]; then
+   BLUETOOTHD=/usr/libexec/bluetooth/bluetoothd
+fi
+if [ -f "/usr/lib/bluez5/bluetooth/bluetoothd" ]; then
+   BLUETOOTHD=/usr/lib/bluez5/bluetooth/bluetoothd
+fi
+if [ -f "/usr/sbin/bluetoothd" ]; then
+   BLUETOOTHD=/usr/sbin/bluetoothd
+fi
+
+# obexd
+if [ -f "/usr/libexec/bluetooth/obexd" ]; then
+   OBEXD=/usr/libexec/bluetooth/obexd
+fi
+if [ -f "/usr/lib/bluez5/bluetooth/obexd" ]; then
+   OBEXD=/usr/lib/bluez5/bluetooth/obexd
+fi
+if [ -f "/usr/sbin/obexd" ]; then
+   OBEXD=/usr/sbin/obexd
+fi
+
+if [ -z "${BLUETOOTHD}" ]; then
+   echo "Error : bluetoothd is not present ..."
+   exit 1;
+fi
+
+# We are not using obexd as of now - so don't exit on error
+if [ -z "${OBEXD}" ]; then
+   echo "Error : obexd is not present ..."
+fi
+
+# hciattach
+if [ -f "/usr/bin/hciattach" ]; then
+   HCIATTACH=/usr/bin/hciattach
+fi
+
+if [ -z "${HCIATTACH}" ]; then
+   echo "Error : hciattach not present ..."
+   exit 1;
+fi
+
+# hciconfig
+if [ -f "/usr/bin/hciconfig" ]; then
+   HCICONFIG=/usr/bin/hciconfig
+fi
+
+if [ -z "${HCICONFIG}" ]; then
+   echo "Error : hciconfig not present ..."
+   exit 1;
+fi
+
+# configurations
+INPUT_CONF=/etc/bluetooth/init.conf
+NETWORK_CONF=/etc/bluetooth/network.conf
+
+start_bluetoothd()
+{
+    echo "starting bluetoothd ..."
+
+    PLATFORM=`cat /proc/cpuinfo | grep Hardware | cut -d ' ' -f5`
+    echo "Platform: $PLATFORM"
+
+    start-stop-daemon --start --background --exec $BLUETOOTHD
+
+    if [ $PLATFORM = "MDM9607" ]; then
+        echo 1 > /sys/class/rfkill/rfkill0/state
+        $HCIATTACH -t120 /dev/ttyHS0 qca 2000000 flow > /dev/null 2>&1
+    elif [ $PLATFORM = "APQ8009" ]; then
+        echo 1 > /sys/module/hci_smd/parameters/hcismd_set
+    else
+        echo 1 > /sys/class/rfkill/rfkill0/state
+        $HCIATTACH -t120 /dev/ttyHS0 qca 3000000 flow > /dev/null 2>&1
+    fi
+
+    $HCICONFIG hci0 up
+}
+
+stop_bluetoothd()
+{
+    echo "stopping bluetoothd ..."
+    start-stop-daemon --stop --exec $BLUETOOTHD
+    $HCICONFIG hci0 down
+    pidof hciattach | xargs kill
+    echo 0 > /sys/class/rfkill/rfkill0/state
+}
+
+case "${1}" in
+  start)
+      start_bluetoothd
+      ;;
+  stop)
+    stop_bluetoothd
+    ;;
+  restart)
+    stop_bluetoothd
+    sleep 1
+    start_bluetoothd
+    ;;
+  *)
+
+  echo "Usage: ${0} {start|stop|restart}"
+  exit 1
+  ;;
+esac
+
+exit 0

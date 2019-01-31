@@ -1,0 +1,15 @@
+PN: quectel-libfotainfo
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-libfotainfo-staticdev: Quectel Function Daemon  This package contains static libraries for software development.
+SUMMARY_quectel-libfotainfo-staticdev: quectel-libfotainfo version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-libfotainfo-staticdev: quectel-libfotainfo-dev (= git-invalidgit-r1)
+RPROVIDES_quectel-libfotainfo-staticdev:  quectel-libfotainfo-staticdev
+SECTION_quectel-libfotainfo-staticdev: devel
+PKG_quectel-libfotainfo-staticdev: libfotainfo-staticdev
+FILES_quectel-libfotainfo-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-libfotainfo/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-libfotainfo-staticdev: 0

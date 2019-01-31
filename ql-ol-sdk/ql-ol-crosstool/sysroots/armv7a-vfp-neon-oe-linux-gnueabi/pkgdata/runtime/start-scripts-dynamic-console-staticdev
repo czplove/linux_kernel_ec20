@@ -1,0 +1,14 @@
+PN: start-scripts-dynamic-console
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_start-scripts-dynamic-console-staticdev: Start up script for  dynamic console  This package contains static libraries for software development.
+SUMMARY_start-scripts-dynamic-console-staticdev: start-scripts-dynamic-console version 1.0-r4 - Development files (Static Libraries)
+RDEPENDS_start-scripts-dynamic-console-staticdev: start-scripts-dynamic-console-dev (= 1.0-r4)
+SECTION_start-scripts-dynamic-console-staticdev: devel
+PKG_start-scripts-dynamic-console-staticdev: start-scripts-dynamic-console-staticdev
+FILES_start-scripts-dynamic-console-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/start-scripts-dynamic-console/*.a
+FILES_INFO: {}
+PKGSIZE_start-scripts-dynamic-console-staticdev: 0

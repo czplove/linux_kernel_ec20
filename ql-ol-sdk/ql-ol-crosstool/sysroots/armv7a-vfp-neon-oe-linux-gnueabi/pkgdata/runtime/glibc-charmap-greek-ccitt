@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-greek-ccitt: character map for greek-ccitt encoding
+SUMMARY_glibc-charmap-greek-ccitt: character map for greek-ccitt encoding
+SECTION: base
+PKG_glibc-charmap-greek-ccitt: glibc-charmap-greek-ccitt
+FILES_glibc-charmap-greek-ccitt: /usr/share/i18n/charmaps/GREEK-CCITT.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/GREEK-CCITT.gz": 1614}
+PKGSIZE_glibc-charmap-greek-ccitt: 1614

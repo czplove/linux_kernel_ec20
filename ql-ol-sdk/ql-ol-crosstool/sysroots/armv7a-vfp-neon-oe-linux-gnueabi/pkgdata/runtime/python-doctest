@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-doctest: Python framework for running examples in docstrings
+RDEPENDS_python-doctest: python-debugger python-difflib python-core python-io python-re python-lang python-unittest
+SECTION: devel/python
+PKG_python-doctest: python-doctest
+FILES_python-doctest: /usr/lib/python2.7/doctest.* 
+FILES_INFO: {"/usr/lib/python2.7/doctest.pyc": 83448, "/usr/lib/python2.7/doctest.py": 105210}
+PKGSIZE_python-doctest: 188658

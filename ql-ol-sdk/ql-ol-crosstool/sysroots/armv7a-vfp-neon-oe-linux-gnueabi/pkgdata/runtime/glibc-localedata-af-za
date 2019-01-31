@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-af-za: locale definition for af-za
+SUMMARY_glibc-localedata-af-za: locale definition for af-za
+RDEPENDS_glibc-localedata-af-za: glibc-localedata-iso14651-t1 glibc-localedata-en-za glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-af-za: glibc-localedata-af-za
+FILES_glibc-localedata-af-za: /usr/share/i18n/locales/af_ZA
+FILES_INFO: {"/usr/share/i18n/locales/af_ZA": 9606}
+PKGSIZE_glibc-localedata-af-za: 9606

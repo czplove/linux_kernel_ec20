@@ -1,0 +1,136 @@
+#!/bin/sh
+
+### Get input parameters
+usb_pid=$(echo $1 | tr [a-z] [A-Z])
+usb_vid=$(echo $2 | tr [a-z] [A-Z])
+diag_f=$3
+nmea_f=$4
+at_f=$5  
+modem_f=$6
+rmnet_f=$7
+adb_f=$8  
+if [ "$adb_f" = "" ]                     
+then                               
+  adb_f=0                          
+fi
+
+### Get serial function & usb function
+if [ $nmea_f = 1 ]
+then
+	serial_func="tty"
+fi
+
+if [ $at_f = 1 ]                                                                                                                                                                    
+then    
+	if [ "$serial_func" != "" ]
+	then
+		serial_func="$serial_func,smd"
+	else
+		serial_func="smd"
+	fi                                                                                                                                                                              
+fi 
+
+if [ $modem_f = 1 ]                                                                                                                                                                      
+then                                                                                                                                                                                  
+        if [ "$serial_func" != "" ]                                                                                                                                                    
+        then                                                                                                                                                                          
+                serial_func="$serial_func,smd"
+	else
+		serial_func="smd"                                                                                                                                           
+        fi                                                                                                                                                                            
+fi    
+
+if [ $diag_f = 1 ]                                                       
+then                                                                     
+        usb_func="diag"                                                
+fi                                                                       
+                                                                         
+if [ "$serial_func" != "" ]                                                        
+then                                                                     
+        if [ "$usb_func" != "" ]                                      
+        then                                                             
+                usb_func="$usb_func,serial"                           
+        else                                            
+                usb_func="serial"                       
+        fi                                              
+fi                                                      
+
+#MaxTANG@20161014
+#此脚本中的usb_func变量以及quec_usb_func文件中的"rmnet"字串,它们不再仅仅表示网络设备类型是rmnet,
+#而泛指所有网络设备(rmnet,mbim,ecm),它们存在,则说明当前模块使neng USB网络设备,具体是mbim,ecm,rmnet
+#中的哪一个,由配置文件usb_net_type来决定,usb_net_type文件可由AT+QCFG="USGNET"命令修改
+#
+#注意:由于AT+QCFG="USBCFG"命令已经有客户使用,所以usb_func变量以及quec_usb_func文件中的"rmnet"字串不要进行
+#修改,因为9025脚本中会使用到!!!!!
+if [ $rmnet_f = 1 ] 									
+then													
+	if [ "$usb_func" != "" ]					 
+	then
+		usb_func="$usb_func,rmnet"
+	else
+		usb_func="rmnet"
+	fi									  
+fi					  
+
+if [ $adb_f = 1 ]									  
+then											   
+	if [ "$usb_func" != "" ]				   
+	then										   
+		usb_func="$usb_func,ffs"
+	else	  
+		usb_func="ffs"				 
+	fi						   
+fi
+
+### check usb compositions file
+usb_compositions_file=`ls -l /sbin/usb/boot_hsusb_composition | grep compositions/9025`
+if [ "$usb_compositions_file" = "" ]
+then
+ln -s  /sinb/usb/compositions/9025 /sbin/usb/boot_hsusb_composition
+fi
+
+### save usb configs
+usb_func_org=`cat /sbin/usb/compositions/quec_usb_func`
+serial_func_org=`cat /sbin/usb/compositions/quec_serial_func`
+usb_vid_org=`cat /sbin/usb/compositions/quec_usb_vid`        
+usb_pid_org=`cat /sbin/usb/compositions/quec_usb_pid`
+
+if [ "$usb_func_org" != "$usb_func" ]
+then
+	echo "update usb func: $usb_func_org ---> $usb_func"
+	echo $usb_func > /sbin/usb/compositions/quec_usb_func
+	chmod 666 /sbin/usb/compositions/quec_usb_func
+fi
+
+if [ "$serial_func_org" != "$serial_func" ]                           
+then                                                       
+	echo "update serial func: $serial_func_org ---> $serial_func"
+	echo $serial_func > /sbin/usb/compositions/quec_serial_func
+	chmod 666 /sbin/usb/compositions/quec_serial_func
+fi
+
+if [ "$usb_vid_org" != "$usb_vid" ]   
+then        
+	echo "update usb vid: $usb_vid_org ---> $usb_vid"
+	echo $usb_vid > /sbin/usb/compositions/quec_usb_vid
+	chmod 666 /sbin/usb/compositions/quec_usb_vid
+fi
+
+if [ "$usb_pid_org" != "$usb_pid" ]   
+then        
+	echo "update usb pid: $usb_pid_org ---> $usb_pid"
+	echo $usb_pid > /sbin/usb/compositions/quec_usb_pid
+	chmod 666 /sbin/usb/compositions/quec_usb_pid
+fi
+
+if [ "$usb_pid_org" != "$usb_pid" ] || [ "$usb_vid_org" != "$usb_vid" ]
+then
+	echo 0 > /sys/class/android_usb/android0/enable
+	sleep 1.5
+	echo $usb_pid > /sys/class/android_usb/android0/idProduct
+	echo $usb_vid > /sys/class/android_usb/android0/idVendor
+	echo 1 > /sys/class/android_usb/android0/enable
+fi
+
+sync
+

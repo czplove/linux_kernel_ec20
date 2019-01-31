@@ -1,0 +1,20 @@
+PN: sysvinit
+PV: 2.88dsf
+PR: r14
+PKGV: 2.88dsf
+PKGR: r14
+LICENSE: GPLv2+
+DESCRIPTION: This package is required to boot in most configurations.  It provides the /sbin/init program.  This is the first process started on boot, and the last process terminated before the system halts.
+SUMMARY: System-V like init
+RDEPENDS_sysvinit-sulogin: update-alternatives-opkg glibc (>= 2.21)
+SECTION: base
+PKG_sysvinit-sulogin: sysvinit-sulogin
+FILES_sysvinit-sulogin: /sbin/sulogin.sysvinit
+pkg_postinst_sysvinit-sulogin: #!/bin/sh\n\tupdate-alternatives --install /sbin/sulogin sulogin /sbin/sulogin.sysvinit 200\n
+pkg_postrm_sysvinit-sulogin: #!/bin/sh\n\tupdate-alternatives --remove  sulogin /sbin/sulogin.sysvinit\n
+FILERPROVIDESFLIST_sysvinit-sulogin: /sbin/sulogin.sysvinit
+FILES_INFO: {"/sbin/sulogin.sysvinit": 10388}
+FILERPROVIDES_/sbin/sulogin.sysvinit_sysvinit-sulogin: elf(buildid) (= 130640ffc8b5aab2571d95fcf67d51bea4a5e6cf) /sbin/sulogin
+FILERDEPENDSFLIST_sysvinit-sulogin: /sbin/sulogin.sysvinit
+FILERDEPENDS_/sbin/sulogin.sysvinit_sysvinit-sulogin: libc.so.6 libc.so.6(GLIBC_2.4) libcrypt.so.1 libcrypt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_sysvinit-sulogin: 10388

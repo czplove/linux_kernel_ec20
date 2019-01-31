@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-kok-in: locale definition for kok-in
+SUMMARY_glibc-localedata-kok-in: locale definition for kok-in
+RDEPENDS_glibc-localedata-kok-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-kok-in: glibc-localedata-kok-in
+FILES_glibc-localedata-kok-in: /usr/share/i18n/locales/kok_IN
+FILES_INFO: {"/usr/share/i18n/locales/kok_IN": 6977}
+PKGSIZE_glibc-localedata-kok-in: 6977

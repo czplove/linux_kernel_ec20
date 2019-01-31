@@ -1,0 +1,13 @@
+PN: tftp-server
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: tftp_server server module
+SUMMARY: tftp-server version git-invalidgit-r1
+SECTION: base
+PKG_tftp-server-locale: tftp-server-locale
+FILES_tftp-server-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_tftp-server-locale: 0

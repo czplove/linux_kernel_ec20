@@ -1,0 +1,15 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION_powerapp-dbg: Powerapp tools  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_powerapp-dbg: powerapp version git-r9 - Debugging files
+RRECOMMENDS_powerapp-dbg: glibc-dbg
+SECTION_powerapp-dbg: devel
+PKG_powerapp-dbg: powerapp-dbg
+ALLOW_EMPTY_powerapp-dbg: 1
+FILES_powerapp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/powerapp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/powerapp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/powerapp/powerapp/.debug /usr/src/debug
+FILES_INFO: {"/sbin/.debug/sys_reboot": 18889, "/sbin/.debug/sys_shutdown": 18889, "/sbin/.debug/powerapp": 18889}
+PKGSIZE_powerapp-dbg: 56667

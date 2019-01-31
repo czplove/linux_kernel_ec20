@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-spidev: spidev kernel module; User mode SPI device interface
+SUMMARY_kernel-module-spidev: spidev kernel module
+RDEPENDS_kernel-module-spidev: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-spidev: kernel-module-spidev
+FILES_kernel-module-spidev: /lib/modules/3.18.20/kernel/drivers/spi/spidev.ko /etc/modules-load.d/spidev.conf /etc/modprobe.d/spidev.conf
+pkg_postinst_kernel-module-spidev: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-spidev: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/spi/spidev.ko": 13132}
+PKGSIZE_kernel-module-spidev: 13132

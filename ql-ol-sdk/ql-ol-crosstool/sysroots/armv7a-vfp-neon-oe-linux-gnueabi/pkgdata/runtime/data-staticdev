@@ -1,0 +1,14 @@
+PN: data
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_data-staticdev: Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)  This package contains static libraries for software development.
+SUMMARY_data-staticdev: data version git-invalidgit-r21 - Development files (Static Libraries)
+RDEPENDS_data-staticdev: data-dev (= git-invalidgit-r21)
+SECTION_data-staticdev: devel
+PKG_data-staticdev: data-staticdev
+FILES_data-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/data/*.a
+FILES_INFO: {"/usr/lib/libnetmgr.a": 383698, "/usr/lib/libqdi.a": 472018, "/usr/lib/libdsi_netctrl.a": 2231884, "/usr/lib/libqdp.a": 150882}
+PKGSIZE_data-staticdev: 3238482

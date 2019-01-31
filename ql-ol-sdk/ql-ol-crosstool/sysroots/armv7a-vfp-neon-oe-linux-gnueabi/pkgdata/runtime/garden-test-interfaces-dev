@@ -1,0 +1,15 @@
+PN: garden-test-interfaces
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-test-interfaces-dev: Garden Test Interfaces  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_garden-test-interfaces-dev: garden-test-interfaces version git-r3 - Development files
+RDEPENDS_garden-test-interfaces-dev: garden-test-interfaces (= git-r3)
+SECTION_garden-test-interfaces-dev: devel
+PKG_garden-test-interfaces-dev: garden-test-interfaces-dev
+ALLOW_EMPTY_garden-test-interfaces-dev: 1
+FILES_garden-test-interfaces-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/garden-test-interfaces/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/garden-test-interfaces.pc": 213, "/usr/include/garden-test-interfaces/location_test_interface_base.h": 5168}
+PKGSIZE_garden-test-interfaces-dev: 5381

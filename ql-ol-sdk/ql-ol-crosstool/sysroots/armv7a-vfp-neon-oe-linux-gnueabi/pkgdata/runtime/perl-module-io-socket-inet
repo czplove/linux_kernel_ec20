@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-socket-inet: perl module io-socket-inet
+SUMMARY_perl-module-io-socket-inet: perl module io-socket-inet
+RDEPENDS_perl-module-io-socket-inet: perl-module-carp perl-module-io-socket perl-module-errno perl perl-module-exporter perl-module-socket perl-module-strict
+SECTION: devel
+PKG_perl-module-io-socket-inet: perl-module-io-socket-inet
+FILES_perl-module-io-socket-inet: /usr/lib/perl/5.20.0/IO/Socket/INET.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Socket/INET.pm": 12476}
+PKGSIZE_perl-module-io-socket-inet: 12476

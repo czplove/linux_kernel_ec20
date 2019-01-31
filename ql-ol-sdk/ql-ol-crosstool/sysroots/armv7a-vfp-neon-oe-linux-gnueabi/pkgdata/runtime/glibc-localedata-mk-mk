@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mk-mk: locale definition for mk-mk
+SUMMARY_glibc-localedata-mk-mk: locale definition for mk-mk
+RDEPENDS_glibc-localedata-mk-mk: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-mk-mk: glibc-localedata-mk-mk
+FILES_glibc-localedata-mk-mk: /usr/share/i18n/locales/mk_MK
+FILES_INFO: {"/usr/share/i18n/locales/mk_MK": 5493}
+PKGSIZE_glibc-localedata-mk-mk: 5493

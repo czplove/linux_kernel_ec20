@@ -1,0 +1,13 @@
+PN: data-oss
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_data-oss-doc: Data Services Open Source  This package contains documentation.
+SUMMARY_data-oss-doc: data-oss version git-r4 - Documentation files
+SECTION_data-oss-doc: doc
+PKG_data-oss-doc: data-oss-doc
+FILES_data-oss-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_data-oss-doc: 0

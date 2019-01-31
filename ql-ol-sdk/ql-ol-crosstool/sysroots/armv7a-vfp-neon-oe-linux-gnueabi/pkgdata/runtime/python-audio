@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-audio: Python Audio Handling
+RDEPENDS_python-audio: python-core glibc (>= 2.21) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-audio: python-audio
+FILES_python-audio: /usr/lib/python2.7/wave.* /usr/lib/python2.7/chunk.* /usr/lib/python2.7/sndhdr.* /usr/lib/python2.7/lib-dynload/ossaudiodev.so /usr/lib/python2.7/lib-dynload/audioop.so /usr/lib/python2.7/audiodev.* /usr/lib/python2.7/sunaudio.* /usr/lib/python2.7/sunau.* /usr/lib/python2.7/toaiff.* 
+FILERPROVIDESFLIST_python-audio: /usr/lib/python2.7/lib-dynload/audioop.so
+FILES_INFO: {"/usr/lib/python2.7/toaiff.py": 3142, "/usr/lib/python2.7/toaiff.pyc": 3098, "/usr/lib/python2.7/sndhdr.pyc": 7323, "/usr/lib/python2.7/chunk.py": 5372, "/usr/lib/python2.7/sndhdr.py": 5973, "/usr/lib/python2.7/chunk.pyc": 5569, "/usr/lib/python2.7/audiodev.pyc": 8414, "/usr/lib/python2.7/wave.pyc": 19898, "/usr/lib/python2.7/lib-dynload/audioop.so": 25316, "/usr/lib/python2.7/sunau.py": 17222, "/usr/lib/python2.7/sunaudio.py": 1399, "/usr/lib/python2.7/sunau.pyc": 18309, "/usr/lib/python2.7/audiodev.py": 7597, "/usr/lib/python2.7/wave.py": 18571, "/usr/lib/python2.7/sunaudio.pyc": 1977}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/audioop.so_python-audio: audioop.so elf(buildid) (= 3c4c7441a848a93a0ac6856635836fa2a8c31254)
+FILERDEPENDSFLIST_python-audio: /usr/lib/python2.7/lib-dynload/audioop.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/audioop.so_python-audio: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-audio: 149180

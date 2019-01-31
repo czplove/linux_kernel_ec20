@@ -1,0 +1,14 @@
+PN: gensecimage
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_gensecimage-staticdev: gensecimage signed appsbootloader image creation   This package contains static libraries for software development.
+SUMMARY_gensecimage-staticdev: gensecimage version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_gensecimage-staticdev: gensecimage-dev (= git-invalidgit-r2)
+SECTION_gensecimage-staticdev: devel
+PKG_gensecimage-staticdev: gensecimage-staticdev
+FILES_gensecimage-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gensecimage/*.a
+FILES_INFO: {}
+PKGSIZE_gensecimage-staticdev: 0

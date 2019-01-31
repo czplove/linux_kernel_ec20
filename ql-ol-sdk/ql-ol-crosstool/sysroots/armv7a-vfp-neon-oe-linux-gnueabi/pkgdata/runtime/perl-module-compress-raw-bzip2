@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-compress-raw-bzip2: perl module compress-raw-bzip2
+SUMMARY_perl-module-compress-raw-bzip2: perl module compress-raw-bzip2
+RDEPENDS_perl-module-compress-raw-bzip2: perl-module-carp perl-module-dynaloader glibc (>= 2.21) perl-module-warnings perl-module-xsloader perl-module-exporter perl-module-bytes perl-module-strict perl-module-constant perl
+SECTION: devel
+PKG_perl-module-compress-raw-bzip2: perl-module-compress-raw-bzip2
+FILES_perl-module-compress-raw-bzip2: /usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so /usr/lib/perl/5.20.0/Compress/Raw/Bzip2.pm
+FILERPROVIDESFLIST_perl-module-compress-raw-bzip2: /usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so": 78964, "/usr/lib/perl/5.20.0/Compress/Raw/Bzip2.pm": 10689}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so_perl-module-compress-raw-bzip2: Bzip2.so elf(buildid) (= ad8614c7933bc64ba1aef0b9d653e8c2acc420d5)
+FILERDEPENDSFLIST_perl-module-compress-raw-bzip2: /usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Compress/Raw/Bzip2/Bzip2.so_perl-module-compress-raw-bzip2: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-compress-raw-bzip2: 89653

@@ -1,0 +1,22 @@
+PN: keymaps
+PV: 1.0
+PR: r31
+PKGV: 1.0
+PKGR: r31
+LICENSE: GPLv2
+DESCRIPTION: Keymaps and initscript to set the keymap on bootup.
+SUMMARY: Keyboard maps
+RDEPENDS_keymaps: kbd
+RRECOMMENDS_keymaps:  update-rc.d
+SECTION: base
+PKG_keymaps: keymaps
+ALLOW_EMPTY_keymaps: 1
+FILES_keymaps: /usr/bin/* /usr/sbin/* /usr/lib/keymaps/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/keymaps /usr/lib/keymaps/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_keymaps: \tif false; then\n\t\tif [ -n "$D" ]; then\n\t\t\tOPTS="--root=$D"\n\t\tfi\n\t\tsystemctl $OPTS mask keymap.service\n\tfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT keymap.sh remove\nfi\n
+pkg_postrm_keymaps: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT keymap.sh remove\nfi\n
+pkg_preinst_keymaps: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/keymap.sh" ]; then\n\t/etc/init.d/keymap.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT keymap.sh remove\nfi\n
+pkg_prerm_keymaps: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/keymap.sh stop\nfi\n
+FILES_INFO: {"/etc/init.d/keymap.sh": 348}
+FILERDEPENDSFLIST_keymaps: /etc/init.d/keymap.sh
+FILERDEPENDS_/etc/init.d/keymap.sh_keymaps: /bin/sh
+PKGSIZE_keymaps: 348

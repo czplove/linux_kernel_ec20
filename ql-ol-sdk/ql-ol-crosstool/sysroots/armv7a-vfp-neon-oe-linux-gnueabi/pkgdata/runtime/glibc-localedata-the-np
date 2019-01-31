@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-the-np: locale definition for the-np
+SUMMARY_glibc-localedata-the-np: locale definition for the-np
+RDEPENDS_glibc-localedata-the-np: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-the-np: glibc-localedata-the-np
+FILES_glibc-localedata-the-np: /usr/share/i18n/locales/the_NP
+FILES_INFO: {"/usr/share/i18n/locales/the_NP": 7329}
+PKGSIZE_glibc-localedata-the-np: 7329

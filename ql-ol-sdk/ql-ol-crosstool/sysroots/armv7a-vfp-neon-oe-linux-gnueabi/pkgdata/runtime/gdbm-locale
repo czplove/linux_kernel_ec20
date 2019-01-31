@@ -1,0 +1,14 @@
+PN: gdbm
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION: Key/value database library with extensible hashing.
+SUMMARY: Key/value database library with extensible hashing
+RPROVIDES_gdbm-locale:  gdbm-locale
+SECTION: libs
+PKG_gdbm-locale: libgdbm-locale
+FILES_gdbm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_gdbm-locale: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+SECTION: base
+PKG_glibc-binaries: glibc-binaries
+ALLOW_EMPTY_glibc-binaries: 1
+FILES_INFO: {}
+PKGSIZE_glibc-binaries: 0

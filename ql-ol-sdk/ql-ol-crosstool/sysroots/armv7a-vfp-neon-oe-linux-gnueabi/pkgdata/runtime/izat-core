@@ -1,0 +1,19 @@
+PN: izat-core
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Izat Core
+SUMMARY: izat-core version git-invalidgit-r1
+RDEPENDS_izat-core: qmi (>= git-invalidgit) data-oss (>= git) qmi-client-helper (>= git-invalidgit) loc-hal (>= git) diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) libstdc++ (>= 4.9.2) qmi-framework (>= git-invalidgit) loc-stub (>= git) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) libgcc (>= 4.9.2) loc-pla (>= git) data (>= git-invalidgit) time-genoff (>= git-invalidgit) system-core-liblog (>= git)
+RPROVIDES_izat-core:  izat-core
+SECTION: base
+PKG_izat-core: libizat-core1
+FILES_izat-core: /usr/bin/* /usr/sbin/* /usr/lib/izat-core/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/izat-core /usr/lib/izat-core/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_izat-core: /usr/lib/libizat@underscore@core.so.1.0.0
+FILES_INFO: {"/usr/lib/libizat_core.so.1": 91956, "/etc/izat.conf": 1541}
+FILERPROVIDES_/usr/lib/libizat@underscore@core.so.1.0.0_izat-core: elf(buildid) (= fce938d1770c4f201007a6a5e08a98090131e7bf) libizat_core.so.1
+FILERDEPENDSFLIST_izat-core: /usr/lib/libizat@underscore@core.so.1.0.0
+FILERDEPENDS_/usr/lib/libizat@underscore@core.so.1.0.0_izat-core: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdl.so.2 libdsi_netctrl.so.0 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgps_default_so.so.1 libgps_utils_so.so.1 libgthread-2.0.so.0 libloc_api_v02.so.1 libloc_core.so.1 libloc_ds_api.so.1 libloc_eng_so.so.1 libloc_pla.so.1 libloc_stub.so.1 liblog.so.0 libm.so.6 libm.so.6(GLIBC_2.4) libnetmgr.so.0 libpthread.so.0 libqdi.so.0 libqmi.so.1 libqmi_cci.so.1 libqmi_client_helper.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libqmiidl.so.1 libqmiservices.so.1 librmnetctl.so.0 librt.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) libtime_genoff.so.1 libxml.so.0 rtld(GNU_HASH)
+PKGSIZE_izat-core: 93497

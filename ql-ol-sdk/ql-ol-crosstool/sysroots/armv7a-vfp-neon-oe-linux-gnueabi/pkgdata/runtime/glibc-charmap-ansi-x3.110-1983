@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ansi-x3.110-1983: character map for ansi-x3.110-1983 encoding
+SUMMARY_glibc-charmap-ansi-x3.110-1983: character map for ansi-x3.110-1983 encoding
+SECTION: base
+PKG_glibc-charmap-ansi-x3.110-1983: glibc-charmap-ansi-x3.110-1983
+FILES_glibc-charmap-ansi-x3.110-1983: /usr/share/i18n/charmaps/ANSI_X3.110-1983.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ANSI_X3.110-1983.gz": 4779}
+PKGSIZE_glibc-charmap-ansi-x3.110-1983: 4779

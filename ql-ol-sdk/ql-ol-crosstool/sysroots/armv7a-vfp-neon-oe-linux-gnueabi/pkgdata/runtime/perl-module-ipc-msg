@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-ipc-msg: perl module ipc-msg
+SUMMARY_perl-module-ipc-msg: perl module ipc-msg
+RDEPENDS_perl-module-ipc-msg: perl-module-carp perl-module-vars perl perl-module-class-struct perl-module-ipc-sysv perl-module-strict
+RPROVIDES_perl-module-ipc-msg: perl-module-arm-oe-linux-gnueabi-ipc-msg
+SECTION: devel
+PKG_perl-module-ipc-msg: perl-module-ipc-msg
+FILES_perl-module-ipc-msg: /usr/lib/perl/5.20.0/IPC/Msg.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IPC/Msg.pm": 4514}
+PKGSIZE_perl-module-ipc-msg: 4514

@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-es: Locale data from glibc.  This package contains language translation files for the es locale.
+SUMMARY_glibc-locale-es: Locale data from glibc - es translations
+RPROVIDES_glibc-locale-es: glibc-locale es-translation
+RRECOMMENDS_glibc-locale-es: virtual-locale-es
+SECTION: base
+PKG_glibc-locale-es: glibc-locale-es
+FILES_glibc-locale-es: /usr/share/locale/es
+FILES_INFO: {"/usr/share/locale/es/LC_MESSAGES/libc.mo": 152683}
+PKGSIZE_glibc-locale-es: 152683

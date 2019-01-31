@@ -1,0 +1,16 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE: GPLv2.0+ & LGPLv2.1+
+DESCRIPTION_udev-dev: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_udev-dev: /dev/ and hotplug management daemon - Development files
+RDEPENDS_udev-dev: libudev libgudev udev (= 182-r21)
+RRECOMMENDS_udev-dev: glibc-dev libusb-dev module-init-tools-dev libffi-dev pciutils-dev usbutils-dev libgudev-dev util-linux-dev util-linux-libblkid-dev libkmod-dev glib-2.0-dev libudev-dev initscripts-dev
+SECTION_udev-dev: devel
+PKG_udev-dev: udev-dev
+ALLOW_EMPTY_udev-dev: 1
+FILES_udev-dev: /usr/share/pkgconfig/udev.pc                    /usr/include/libudev.h /usr/lib/libudev.so /usr/lib/libudev.la                    /usr/lib/libudev.a /usr/lib/pkgconfig/libudev.pc                    /usr/include/gudev* /usr/lib/libgudev*.so /usr/lib/libgudev*.la                    /usr/lib/libgudev*.a /usr/lib/pkgconfig/gudev*.pc
+FILES_INFO: {"/usr/include/gudev-1.0/gudev/gudevclient.h": 3905, "/usr/include/gudev-1.0/gudev/gudevenumtypes.h": 396, "/usr/include/gudev-1.0/gudev/gudevenumerator.h": 4797, "/usr/lib/pkgconfig/gudev-1.0.pc": 237, "/usr/lib/libgudev-1.0.so": 31, "/usr/include/gudev-1.0/gudev/gudevtypes.h": 1642, "/usr/lib/libudev.la": 909, "/usr/lib/pkgconfig/libudev.pc": 220, "/usr/include/gudev-1.0/gudev/gudevenums.h": 1586, "/usr/share/pkgconfig/udev.pc": 61, "/usr/include/gudev-1.0/gudev/gudevdevice.h": 6408, "/usr/include/gudev-1.0/gudev/gudev.h": 1191, "/usr/lib/libudev.so": 27, "/usr/lib/libgudev-1.0.la": 1085, "/usr/include/libudev.h": 9240}
+PKGSIZE_udev-dev: 31735

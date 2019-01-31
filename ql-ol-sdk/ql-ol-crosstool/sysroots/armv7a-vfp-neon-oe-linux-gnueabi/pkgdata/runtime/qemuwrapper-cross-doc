@@ -1,0 +1,13 @@
+PN: qemuwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_qemuwrapper-cross-doc: QEMU wrapper script.  This package contains documentation.
+SUMMARY_qemuwrapper-cross-doc: QEMU wrapper script - Documentation files
+SECTION_qemuwrapper-cross-doc: doc
+PKG_qemuwrapper-cross-doc: qemuwrapper-cross-doc
+FILES_qemuwrapper-cross-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qemuwrapper-cross-doc: 0

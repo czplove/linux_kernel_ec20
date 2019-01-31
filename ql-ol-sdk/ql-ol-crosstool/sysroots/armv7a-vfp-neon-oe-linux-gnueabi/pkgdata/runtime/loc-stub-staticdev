@@ -1,0 +1,15 @@
+PN: loc-stub
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_loc-stub-staticdev: GPS Loc Stub  This package contains static libraries for software development.
+SUMMARY_loc-stub-staticdev: loc-stub version git-r1 - Development files (Static Libraries)
+RDEPENDS_loc-stub-staticdev: loc-stub-dev (= git-r1)
+RPROVIDES_loc-stub-staticdev:  loc-stub-staticdev
+SECTION_loc-stub-staticdev: devel
+PKG_loc-stub-staticdev: libloc-stub-staticdev
+FILES_loc-stub-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/loc-stub/*.a
+FILES_INFO: {}
+PKGSIZE_loc-stub-staticdev: 0

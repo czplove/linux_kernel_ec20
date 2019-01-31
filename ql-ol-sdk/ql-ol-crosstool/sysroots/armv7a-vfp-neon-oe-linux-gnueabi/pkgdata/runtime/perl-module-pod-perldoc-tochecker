@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-perldoc-tochecker: perl module pod-perldoc-tochecker
+SUMMARY_perl-module-pod-perldoc-tochecker: perl module pod-perldoc-tochecker
+RDEPENDS_perl-module-pod-perldoc-tochecker: perl-module-strict perl perl-module-warnings perl-module-pod-checker perl-module-vars
+SECTION: devel
+PKG_perl-module-pod-perldoc-tochecker: perl-module-pod-perldoc-tochecker
+FILES_perl-module-pod-perldoc-tochecker: /usr/lib/perl/5.20.0/Pod/Perldoc/ToChecker.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Perldoc/ToChecker.pm": 1691}
+PKGSIZE_perl-module-pod-perldoc-tochecker: 1691

@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-sk: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the sk locale.
+SUMMARY_glib-2.0-locale-sk: A general-purpose utility library - sk translations
+RPROVIDES_glib-2.0-locale-sk: glib-2.0-locale sk-translation glib-2.0-locale-sk
+RRECOMMENDS_glib-2.0-locale-sk: virtual-locale-sk
+SECTION: libs
+PKG_glib-2.0-locale-sk: libglib-2.0-locale-sk
+FILES_glib-2.0-locale-sk: /usr/share/locale/sk
+FILES_INFO: {"/usr/share/locale/sk/LC_MESSAGES/glib20.mo": 96898}
+PKGSIZE_glib-2.0-locale-sk: 96898

@@ -1,0 +1,14 @@
+PN: loc-pla
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION: GPS Loc Platform Library Abstraction
+SUMMARY: loc-pla version git-r1
+RPROVIDES_loc-pla-locale:  loc-pla-locale
+SECTION: base
+PKG_loc-pla-locale: libloc-pla-locale
+FILES_loc-pla-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-pla-locale: 0

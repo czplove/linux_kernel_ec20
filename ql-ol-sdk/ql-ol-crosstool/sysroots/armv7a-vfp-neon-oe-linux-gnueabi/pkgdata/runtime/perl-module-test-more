@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-test-more: perl module test-more
+SUMMARY_perl-module-test-more: perl module test-more
+RDEPENDS_perl-module-test-more: perl perl-module-test-more perl-module-scalar-util perl-module-warnings perl-module-strict perl-module-test-builder-module
+SECTION: devel
+PKG_perl-module-test-more: perl-module-test-more
+FILES_perl-module-test-more: /usr/lib/perl/5.20.0/Test/More.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Test/More.pm": 49849}
+PKGSIZE_perl-module-test-more: 49849

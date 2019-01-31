@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tt-ru: locale definition for tt-ru
+SUMMARY_glibc-localedata-tt-ru: locale definition for tt-ru
+RDEPENDS_glibc-localedata-tt-ru: glibc-localedata-iso14651-t1 glibc-localedata-ru-ru glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-tt-ru: glibc-localedata-tt-ru
+FILES_glibc-localedata-tt-ru: /usr/share/i18n/locales/tt_RU
+FILES_INFO: {"/usr/share/i18n/locales/tt_RU": 8058}
+PKGSIZE_glibc-localedata-tt-ru: 8058

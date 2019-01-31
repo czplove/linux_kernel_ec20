@@ -1,0 +1,14 @@
+PN: pugixml
+PV: 1.4
+PR: r0
+PKGV: 1.4
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: XML Parser library .
+SUMMARY: XML Parser library 
+RPROVIDES_pugixml-locale:  pugixml-locale
+SECTION: base
+PKG_pugixml-locale: libpugixml-locale
+FILES_pugixml-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_pugixml-locale: 0

@@ -1,0 +1,17 @@
+PN: wireless-tools
+PE: 1
+PV: 30.pre9
+PR: r0
+PKGE: 1
+PKGV: 30.pre9
+PKGR: r0
+LICENSE: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+DESCRIPTION_wireless-tools-dbg: Tools for the Linux Standard Wireless Extension Subsystem.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_wireless-tools-dbg: Tools for the Linux Standard Wireless Extension Subsystem - Debugging files
+RRECOMMENDS_wireless-tools-dbg: glibc-dbg
+SECTION_wireless-tools-dbg: devel
+PKG_wireless-tools-dbg: wireless-tools-dbg
+ALLOW_EMPTY_wireless-tools-dbg: 1
+FILES_wireless-tools-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/wireless-tools/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/wireless-tools/.debug /usr/lib/matchbox-panel/.debug /usr/lib/wireless-tools/wireless-tools/.debug /usr/src/debug
+FILES_INFO: {"/sbin/.debug/iwconfig": 13822}
+PKGSIZE_wireless-tools-dbg: 13822

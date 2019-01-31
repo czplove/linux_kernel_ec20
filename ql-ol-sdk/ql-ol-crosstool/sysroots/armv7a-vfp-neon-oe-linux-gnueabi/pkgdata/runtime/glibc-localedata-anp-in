@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-anp-in: locale definition for anp-in
+SUMMARY_glibc-localedata-anp-in: locale definition for anp-in
+RDEPENDS_glibc-localedata-anp-in: glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-anp-in: glibc-localedata-anp-in
+FILES_glibc-localedata-anp-in: /usr/share/i18n/locales/anp_IN
+FILES_INFO: {"/usr/share/i18n/locales/anp_IN": 6979}
+PKGSIZE_glibc-localedata-anp-in: 6979

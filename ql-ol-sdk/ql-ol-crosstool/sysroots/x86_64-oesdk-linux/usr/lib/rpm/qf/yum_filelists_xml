@@ -1,0 +1,10 @@
+"\
+<package pkgid=\"%|PACKAGEDIGEST?{%{PACKAGEDIGEST}}|\" name=\"%{NAME:cdata}\" arch=\"%{ARCH:cdata}\">\
+\n  <version epoch=\"%|EPOCH?{%{EPOCH}}:{0}|\" ver=\"%{VERSION:cdata}\" rel=\"%{RELEASE:cdata}\"/>\
+%|filesxmlentry2?{\
+[\
+\n  %{filesxmlentry2}\
+]\
+}|\
+\n</package>\
+\n"

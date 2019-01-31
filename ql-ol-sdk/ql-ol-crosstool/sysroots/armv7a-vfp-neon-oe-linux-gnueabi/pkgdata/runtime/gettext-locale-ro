@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-ro: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the ro locale.
+SUMMARY_gettext-locale-ro: Utilities and libraries for producing multi-lingual messages - ro translations
+RPROVIDES_gettext-locale-ro: gettext-locale ro-translation
+RRECOMMENDS_gettext-locale-ro: virtual-locale-ro
+SECTION: libs
+PKG_gettext-locale-ro: gettext-locale-ro
+FILES_gettext-locale-ro: /usr/share/locale/ro
+FILES_INFO: {"/usr/share/locale/ro/LC_MESSAGES/gettext-runtime.mo": 6539, "/usr/share/locale/ro/LC_MESSAGES/gettext-tools.mo": 66911}
+PKGSIZE_gettext-locale-ro: 73450

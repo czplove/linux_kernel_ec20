@@ -1,0 +1,14 @@
+PN: modem-shutdown
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_modem-shutdown-dbg: Automatically shuts the modem down on halt and reboot  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_modem-shutdown-dbg: modem-shutdown version git-invalidgit-r2 - Debugging files
+SECTION_modem-shutdown-dbg: devel
+PKG_modem-shutdown-dbg: modem-shutdown-dbg
+ALLOW_EMPTY_modem-shutdown-dbg: 1
+FILES_modem-shutdown-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/modem-shutdown/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/modem-shutdown/.debug /usr/lib/matchbox-panel/.debug /usr/lib/modem-shutdown/modem-shutdown/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_modem-shutdown-dbg: 0

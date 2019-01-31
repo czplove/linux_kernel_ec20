@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-zw: locale definition for en-zw
+SUMMARY_glibc-localedata-en-zw: locale definition for en-zw
+RDEPENDS_glibc-localedata-en-zw: glibc-localedata-en-za
+SECTION: base
+PKG_glibc-localedata-en-zw: glibc-localedata-en-zw
+FILES_glibc-localedata-en-zw: /usr/share/i18n/locales/en_ZW
+FILES_INFO: {"/usr/share/i18n/locales/en_ZW": 2816}
+PKGSIZE_glibc-localedata-en-zw: 2816

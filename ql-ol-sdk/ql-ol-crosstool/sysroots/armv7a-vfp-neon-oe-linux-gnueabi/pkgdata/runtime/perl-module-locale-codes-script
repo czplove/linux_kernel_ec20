@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-locale-codes-script: perl module locale-codes-script
+SUMMARY_perl-module-locale-codes-script: perl module locale-codes-script
+RDEPENDS_perl-module-locale-codes-script: perl-module-carp perl-module-locale-codes-constants perl-module-locale-codes perl-module-warnings perl-module-locale-codes-script-codes perl perl-module-exporter perl-module-locale-codes-script-retired perl-module-strict
+SECTION: devel
+PKG_perl-module-locale-codes-script: perl-module-locale-codes-script
+FILES_perl-module-locale-codes-script: /usr/lib/perl/5.20.0/Locale/Codes/Script.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Locale/Codes/Script.pm": 2230}
+PKGSIZE_perl-module-locale-codes-script: 2230

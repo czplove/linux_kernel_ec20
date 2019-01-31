@@ -1,0 +1,19 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_glibc-thread-db: glibc (>= 2.21)
+RPROVIDES_glibc-thread-db: eglibc-thread-db glibc-thread-db
+SECTION: libs
+PKG_glibc-thread-db: libc6-thread-db
+FILES_glibc-thread-db: /lib/libthread_db.so.* /lib/libthread_db-*.so
+FILERPROVIDESFLIST_glibc-thread-db: /lib/libthread@underscore@db-1.0.so
+FILES_INFO: {"/lib/libthread_db.so.1": 26308}
+FILERPROVIDES_/lib/libthread@underscore@db-1.0.so_glibc-thread-db: libthread_db.so.1 libthread_db.so.1(GLIBC_2.4)
+FILERDEPENDSFLIST_glibc-thread-db: /lib/libthread@underscore@db-1.0.so
+FILERDEPENDS_/lib/libthread@underscore@db-1.0.so_glibc-thread-db: libc.so.6 libc.so.6(GLIBC_2.4)
+PKGSIZE_glibc-thread-db: 26308

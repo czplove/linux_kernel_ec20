@@ -1,0 +1,14 @@
+PN: gdb
+PV: 7.8.1
+PR: r0
+PKGV: 7.8.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION_gdb-staticdev: GNU debugger.  This package contains static libraries for software development.
+SUMMARY_gdb-staticdev: GNU debugger - Development files (Static Libraries)
+RDEPENDS_gdb-staticdev: gdb-dev (= 7.8.1-r0)
+SECTION_gdb-staticdev: devel
+PKG_gdb-staticdev: gdb-staticdev
+FILES_gdb-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gdb/*.a
+FILES_INFO: {}
+PKGSIZE_gdb-staticdev: 0

@@ -1,0 +1,13 @@
+PN: alsa-intf
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Apache-2.0
+DESCRIPTION_alsa-intf-doc: ALSA Framework Library  This package contains documentation.
+SUMMARY_alsa-intf-doc: alsa-intf version git-invalidgit-r4 - Documentation files
+SECTION_alsa-intf-doc: doc
+PKG_alsa-intf-doc: alsa-intf-doc
+FILES_alsa-intf-doc: /etc/share/doc /etc/share/man /etc/share/info /etc/share/gtk-doc /etc/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_alsa-intf-doc: 0

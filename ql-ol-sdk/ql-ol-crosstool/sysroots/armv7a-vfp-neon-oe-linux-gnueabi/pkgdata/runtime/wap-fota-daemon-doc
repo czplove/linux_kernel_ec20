@@ -1,0 +1,13 @@
+PN: wap-fota-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wap-fota-daemon-doc: WAP FOTA DAEMON  This package contains documentation.
+SUMMARY_wap-fota-daemon-doc: wap-fota-daemon version git-invalidgit-r3 - Documentation files
+SECTION_wap-fota-daemon-doc: doc
+PKG_wap-fota-daemon-doc: wap-fota-daemon-doc
+FILES_wap-fota-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_wap-fota-daemon-doc: 0

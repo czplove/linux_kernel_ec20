@@ -1,0 +1,15 @@
+PN: lk
+PV: git
+PR: r15
+PKGV: git
+PKGR: r15
+LICENSE: MIT
+DESCRIPTION_lk-dev: Little Kernel bootloader  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_lk-dev: lk version git-r15 - Development files
+RDEPENDS_lk-dev: lk (= git-r15)
+SECTION_lk-dev: devel
+PKG_lk-dev: lk-dev
+ALLOW_EMPTY_lk-dev: 1
+FILES_lk-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/lk/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_lk-dev: 0

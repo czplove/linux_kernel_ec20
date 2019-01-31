@@ -1,0 +1,13 @@
+PN: pdc-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_pdc-daemon-doc: Persistent device config Daemon  This package contains documentation.
+SUMMARY_pdc-daemon-doc: pdc-daemon version git-invalidgit-r1 - Documentation files
+SECTION_pdc-daemon-doc: doc
+PKG_pdc-daemon-doc: pdc-daemon-doc
+FILES_pdc-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_pdc-daemon-doc: 0

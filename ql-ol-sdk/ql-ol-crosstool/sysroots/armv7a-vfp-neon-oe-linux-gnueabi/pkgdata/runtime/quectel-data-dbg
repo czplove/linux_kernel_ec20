@@ -1,0 +1,15 @@
+PN: quectel-data
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-data-dbg: Quectel RemoteFs Service  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-data-dbg: quectel-data version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_quectel-data-dbg: dsutils-dbg glibc-dbg data-dbg configdb-dbg libstdc++-dbg diag-dbg time-genoff-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg qmi-dbg
+SECTION_quectel-data-dbg: devel
+PKG_quectel-data-dbg: quectel-data-dbg
+ALLOW_EMPTY_quectel-data-dbg: 1
+FILES_quectel-data-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-data/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-data/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-data/quectel-data/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/Quectel_QCMAP_CLI": 89355, "/usr/lib/.debug/libql_qcmap_client.so.1.0.0": 76603, "/usr/bin/.debug/quec_wifi_bridge": 22818, "/usr/bin/.debug/Quec_WIFI_CLI": 86577}
+PKGSIZE_quectel-data-dbg: 275353

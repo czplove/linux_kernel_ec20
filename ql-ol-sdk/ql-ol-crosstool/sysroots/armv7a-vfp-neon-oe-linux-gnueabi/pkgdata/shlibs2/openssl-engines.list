@@ -1,0 +1,12 @@
+libcapi.so:/usr/lib/ssl/engines:1.0.1k
+libchil.so:/usr/lib/ssl/engines:1.0.1k
+lib4758cca.so:/usr/lib/ssl/engines:1.0.1k
+libatalla.so:/usr/lib/ssl/engines:1.0.1k
+libcswift.so:/usr/lib/ssl/engines:1.0.1k
+libgmp.so:/usr/lib/ssl/engines:1.0.1k
+libubsec.so:/usr/lib/ssl/engines:1.0.1k
+libaep.so:/usr/lib/ssl/engines:1.0.1k
+libgost.so:/usr/lib/ssl/engines:1.0.1k
+libpadlock.so:/usr/lib/ssl/engines:1.0.1k
+libsureware.so:/usr/lib/ssl/engines:1.0.1k
+libnuron.so:/usr/lib/ssl/engines:1.0.1k

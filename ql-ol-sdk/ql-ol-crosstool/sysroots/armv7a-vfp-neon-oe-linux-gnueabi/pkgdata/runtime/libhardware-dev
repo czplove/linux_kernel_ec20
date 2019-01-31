@@ -1,0 +1,16 @@
+PN: libhardware
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Apache-2.0
+DESCRIPTION_libhardware-dev: hardware libhardware headers  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libhardware-dev: libhardware version git-r5 - Development files
+RDEPENDS_libhardware-dev: libhardware (= git-r5)
+RRECOMMENDS_libhardware-dev: glibc-dev system-core-libcutils-dev system-core-liblog-dev system-core-dev
+SECTION_libhardware-dev: devel
+PKG_libhardware-dev: libhardware-dev
+ALLOW_EMPTY_libhardware-dev: 1
+FILES_libhardware-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libhardware/*.la /lib/*.la
+FILES_INFO: {"/usr/include/hardware/hardware.h": 7612, "/usr/include/hardware/fused_location.h": 26920, "/usr/include/hardware/gralloc.h": 9733, "/usr/lib/libhardware.so": 20, "/usr/lib/libhardware.la": 1001, "/usr/include/hardware/gps.h": 32924}
+PKGSIZE_libhardware-dev: 78210

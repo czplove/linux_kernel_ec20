@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-bo-cn: locale definition for bo-cn
+SUMMARY_glibc-localedata-bo-cn: locale definition for bo-cn
+RDEPENDS_glibc-localedata-bo-cn: glibc-localedata-dz-bt glibc-localedata-translit-combining glibc-localedata-i18n glibc-localedata-zh-cn
+SECTION: base
+PKG_glibc-localedata-bo-cn: glibc-localedata-bo-cn
+FILES_glibc-localedata-bo-cn: /usr/share/i18n/locales/bo_CN
+FILES_INFO: {"/usr/share/i18n/locales/bo_CN": 6018}
+PKGSIZE_glibc-localedata-bo-cn: 6018

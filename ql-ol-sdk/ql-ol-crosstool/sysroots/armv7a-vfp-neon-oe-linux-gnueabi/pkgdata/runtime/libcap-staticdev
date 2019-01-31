@@ -1,0 +1,14 @@
+PN: libcap
+PV: 2.24
+PR: r0
+PKGV: 2.24
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION_libcap-staticdev: Library for getting/setting POSIX.1e capabilities.  This package contains static libraries for software development.
+SUMMARY_libcap-staticdev: Library for getting/setting POSIX.1e capabilities - Development files (Static Libraries)
+RDEPENDS_libcap-staticdev: libcap-dev (= 2.24-r0)
+SECTION_libcap-staticdev: devel
+PKG_libcap-staticdev: libcap-staticdev
+FILES_libcap-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libcap/*.a
+FILES_INFO: {"/lib/libcap.a": 74186}
+PKGSIZE_libcap-staticdev: 74186

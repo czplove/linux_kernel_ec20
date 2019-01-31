@@ -1,0 +1,13 @@
+PN: common
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Common headers
+SUMMARY: common version git-r7
+SECTION: base
+PKG_common-locale: common-locale
+FILES_common-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_common-locale: 0

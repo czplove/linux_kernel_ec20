@@ -1,0 +1,15 @@
+PN: location-flp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-flp-staticdev: GPS FLP  This package contains static libraries for software development.
+SUMMARY_location-flp-staticdev: location-flp version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_location-flp-staticdev: location-flp-dev (= git-invalidgit-r1)
+RPROVIDES_location-flp-staticdev:  location-flp-staticdev
+SECTION_location-flp-staticdev: devel
+PKG_location-flp-staticdev: libflp-default-staticdev
+FILES_location-flp-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/location-flp/*.a
+FILES_INFO: {}
+PKGSIZE_location-flp-staticdev: 0

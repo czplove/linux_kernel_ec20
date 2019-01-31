@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-lij-it: locale definition for lij-it
+SUMMARY_glibc-localedata-lij-it: locale definition for lij-it
+RDEPENDS_glibc-localedata-lij-it: glibc-localedata-it-it glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-lij-it: glibc-localedata-lij-it
+FILES_glibc-localedata-lij-it: /usr/share/i18n/locales/lij_IT
+FILES_INFO: {"/usr/share/i18n/locales/lij_IT": 4184}
+PKGSIZE_glibc-localedata-lij-it: 4184

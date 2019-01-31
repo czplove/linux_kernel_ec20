@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mag-in: locale definition for mag-in
+SUMMARY_glibc-localedata-mag-in: locale definition for mag-in
+RDEPENDS_glibc-localedata-mag-in: glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-mag-in: glibc-localedata-mag-in
+FILES_glibc-localedata-mag-in: /usr/share/i18n/locales/mag_IN
+FILES_INFO: {"/usr/share/i18n/locales/mag_IN": 5528}
+PKGSIZE_glibc-localedata-mag-in: 5528

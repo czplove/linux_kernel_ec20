@@ -1,0 +1,61 @@
+"\
+Package:\
+\n  Name:        %{NAME:yaml}\
+\n  Version:     %{VERSION:yaml}\
+\n  Origin:      %|GROUP?{%{GROUP:yaml}}:{-}|\
+\n  Prefix:      %|PREFIX?{%{PREFIX:yaml}}:{-}|\
+\n  Categories:  FIXME\
+\n  Licenses:    %|LICENSE?{%{LICENSE:yaml}}:{-}|\
+\n  Maintainer:  %|PACKAGER?{%{PACKAGER:yaml}}:{-}|\
+\n  WWW:         %|URL?{%{URL:yaml}}:{-}|\
+\n  Comment:     %{SUMMARY:yaml}\
+\n  Options:     FIXME\
+\n  Flatsize:    %{SIZE}\
+\n  Description: %{DESCRIPTION:yaml}\
+\n\
+\n  Arch:        %{ARCH:yaml}\
+\n  Osversion:   %{OS:yaml}\
+\n\
+\n  licenselogic: FIXME\
+\n  users:       FIXME\
+\n  groups:      FIXME\
+\n  deps:        FIXME\
+%|BASENAMES?{\
+\n  files:\
+[\
+\n    %{FILEPATHS}: -\
+]\
+}|\
+%|DIRNAMES?{\
+\n  dirs:\
+[\
+\n    - %{DIRNAMES}\
+]\
+}|\
+\n  scripts:\
+%|POSTIN?{\
+\n    post-install:\
+\n%|POSTINPROG?{#!%{POSTINPROG}}:{#!/bin/sh}|\
+\n%{POSTIN}\
+\n}|\
+%|PREIN?{\
+\n    pre-install:\
+\n%|PREINPROG?{#!%{PREINPROG}}:{#!/bin/sh}|\
+\n%{PREIN}\
+\n}|\
+\n    install:        FIXME\
+%|POSTUN?{\
+\n    post-deinstall:\
+\n%|POSTUNPROG?{#!%{POSTUNPROG}}:{#!/bin/sh}|\
+\n%{POSTUN}\
+\n}|\
+%|PREUN?{\
+\n    pre-deinstall:\
+\n%|PREUNPROG?{#!%{PREUNPROG}}:{#!/bin/sh}|\
+\n%{PREUN}\
+\n}|\
+\n    deinstall:      FIXME\
+\n    post-upgrade:   FIXME\
+\n    pre-upgrade:    FIXME\
+\n    upgrade:        FIXME\
+\n"

@@ -1,0 +1,16 @@
+PN: ql-common-tools
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-common-tools-dev: Quectel Common Tools  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ql-common-tools-dev: ql-common-tools version git-invalidgit-r01 - Development files
+RDEPENDS_ql-common-tools-dev: ql-common-tools (= git-invalidgit-r01)
+RRECOMMENDS_ql-common-tools-dev: glibc-dev
+SECTION_ql-common-tools-dev: devel
+PKG_ql-common-tools-dev: ql-common-tools-dev
+ALLOW_EMPTY_ql-common-tools-dev: 1
+FILES_ql-common-tools-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ql-common-tools/*.la /lib/*.la
+FILES_INFO: {"/usr/include/ql-common-tools/quectel_socket.h": 2815, "/usr/include/ql-common-tools/quectel_process.h": 2271, "/usr/lib/pkgconfig/ql-common-tools.pc": 233, "/usr/lib/libeloop.so": 17, "/usr/include/ql-common-tools/quectel_common.h": 501, "/usr/include/ql-common-tools/list.h": 2464, "/usr/include/ql-common-tools/quectel_unistd.h": 762, "/usr/lib/libql_log.so": 18, "/usr/lib/libql_utils.so": 20, "/usr/include/ql-common-tools/quectel_string.h": 3043, "/usr/include/ql-common-tools/quectel_malloc.h": 454, "/usr/lib/libql_log.la": 913, "/usr/include/ql-common-tools/os.h": 19646, "/usr/lib/libeloop.la": 907, "/usr/include/ql-common-tools/eloop.h": 14105, "/usr/include/ql-common-tools/quectel_dfifo.h": 827, "/usr/include/ql-common-tools/quectel_file.h": 1073, "/usr/lib/libql_utils.la": 925, "/usr/include/ql-common-tools/quectel_log.h": 6932}
+PKGSIZE_ql-common-tools-dev: 57926

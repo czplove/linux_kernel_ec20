@@ -1,0 +1,13 @@
+PN: quectel-uart-ddp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-uart-ddp-doc: Quectel uart data dispatch  This package contains documentation.
+SUMMARY_quectel-uart-ddp-doc: quectel-uart-ddp version git-invalidgit-r1 - Documentation files
+SECTION_quectel-uart-ddp-doc: doc
+PKG_quectel-uart-ddp-doc: quectel-uart-ddp-doc
+FILES_quectel-uart-ddp-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-uart-ddp-doc: 0

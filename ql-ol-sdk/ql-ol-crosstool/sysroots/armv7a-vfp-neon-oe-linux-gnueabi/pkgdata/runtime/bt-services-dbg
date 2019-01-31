@@ -1,0 +1,14 @@
+PN: bt-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_bt-services-dbg: Bluetooth services required for MDM platforms  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_bt-services-dbg: bt-services version git-invalidgit-r1 - Debugging files
+SECTION_bt-services-dbg: devel
+PKG_bt-services-dbg: bt-services-dbg
+ALLOW_EMPTY_bt-services-dbg: 1
+FILES_bt-services-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/bt-services/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/bt-services/.debug /usr/lib/matchbox-panel/.debug /usr/lib/bt-services/bt-services/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_bt-services-dbg: 0

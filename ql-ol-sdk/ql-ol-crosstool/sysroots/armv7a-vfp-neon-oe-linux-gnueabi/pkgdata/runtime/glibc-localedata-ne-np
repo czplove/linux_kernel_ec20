@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ne-np: locale definition for ne-np
+SUMMARY_glibc-localedata-ne-np: locale definition for ne-np
+RDEPENDS_glibc-localedata-ne-np: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ne-np: glibc-localedata-ne-np
+FILES_glibc-localedata-ne-np: /usr/share/i18n/locales/ne_NP
+FILES_INFO: {"/usr/share/i18n/locales/ne_NP": 6829}
+PKGSIZE_glibc-localedata-ne-np: 6829

@@ -1,0 +1,20 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-agetty: update-alternatives-opkg glibc (>= 2.21)
+SECTION: base
+PKG_util-linux-agetty: util-linux-agetty
+FILES_util-linux-agetty: /sbin/agetty
+pkg_postinst_util-linux-agetty: #!/bin/sh\n\tupdate-alternatives --install /sbin/getty getty /sbin/agetty 100\n
+pkg_postrm_util-linux-agetty: #!/bin/sh\n\tupdate-alternatives --remove  getty /sbin/agetty\n
+FILERPROVIDESFLIST_util-linux-agetty: /sbin/agetty
+FILES_INFO: {"/sbin/agetty": 27912}
+FILERPROVIDES_/sbin/agetty_util-linux-agetty: elf(buildid) (= 470eb647603a26b344b9677a0066f2abd4cab963) /sbin/getty
+FILERDEPENDSFLIST_util-linux-agetty: /sbin/agetty
+FILERDEPENDS_/sbin/agetty_util-linux-agetty: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_util-linux-agetty: 27912

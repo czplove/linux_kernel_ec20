@@ -1,0 +1,15 @@
+PN: libnfnetlink
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnfnetlink-dbg: libnfnetlink is the low-level library for netfilter related kernel/userspace communication  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libnfnetlink-dbg: libnfnetlink version 1.0.0-r0 - Debugging files
+RRECOMMENDS_libnfnetlink-dbg: glibc-dbg
+SECTION_libnfnetlink-dbg: devel
+PKG_libnfnetlink-dbg: libnfnetlink-dbg
+ALLOW_EMPTY_libnfnetlink-dbg: 1
+FILES_libnfnetlink-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libnfnetlink/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libnfnetlink/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libnfnetlink/libnfnetlink/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libnfnetlink.so.0.2.0": 7878}
+PKGSIZE_libnfnetlink-dbg: 7878

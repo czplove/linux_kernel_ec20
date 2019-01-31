@@ -1,0 +1,14 @@
+PN: audio-ftm
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audio-ftm-staticdev: Audio FTM  This package contains static libraries for software development.
+SUMMARY_audio-ftm-staticdev: audio-ftm version git-invalidgit-r4 - Development files (Static Libraries)
+RDEPENDS_audio-ftm-staticdev: audio-ftm-dev (= git-invalidgit-r4)
+SECTION_audio-ftm-staticdev: devel
+PKG_audio-ftm-staticdev: audio-ftm-staticdev
+FILES_audio-ftm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/audio-ftm/*.a
+FILES_INFO: {}
+PKGSIZE_audio-ftm-staticdev: 0

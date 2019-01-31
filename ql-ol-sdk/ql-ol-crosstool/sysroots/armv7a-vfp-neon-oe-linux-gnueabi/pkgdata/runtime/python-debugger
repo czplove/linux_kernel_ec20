@@ -1,0 +1,16 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-debugger: Python debugger
+RDEPENDS_python-debugger: python-shell python-core python-io python-re python-pprint python-lang python-stringold
+SECTION: devel/python
+PKG_python-debugger: python-debugger
+FILES_python-debugger: /usr/lib/python2.7/bdb.* /usr/lib/python2.7/pdb.* 
+FILES_INFO: {"/usr/lib/python2.7/pdb.pyc": 43382, "/usr/lib/python2.7/pdb.py": 46013, "/usr/lib/python2.7/bdb.py": 21714, "/usr/lib/python2.7/pdb.doc": 7913, "/usr/lib/python2.7/bdb.pyc": 18979}
+FILERDEPENDSFLIST_python-debugger: /usr/lib/python2.7/pdb.py
+FILERDEPENDS_/usr/lib/python2.7/pdb.py_python-debugger: /usr/bin/env
+PKGSIZE_python-debugger: 138001

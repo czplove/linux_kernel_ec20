@@ -1,0 +1,15 @@
+PN: dsutils
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_dsutils-staticdev: Qualcomm Data DSutils Module  This package contains static libraries for software development.
+SUMMARY_dsutils-staticdev: dsutils version git-invalidgit-r7 - Development files (Static Libraries)
+RDEPENDS_dsutils-staticdev: dsutils-dev (= git-invalidgit-r7)
+RPROVIDES_dsutils-staticdev:  dsutils-staticdev
+SECTION_dsutils-staticdev: devel
+PKG_dsutils-staticdev: libdsutils-staticdev
+FILES_dsutils-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dsutils/*.a
+FILES_INFO: {}
+PKGSIZE_dsutils-staticdev: 0

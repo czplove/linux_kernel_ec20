@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-lo-la: locale definition for lo-la
+SUMMARY_glibc-localedata-lo-la: locale definition for lo-la
+RDEPENDS_glibc-localedata-lo-la: glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-lo-la: glibc-localedata-lo-la
+FILES_glibc-localedata-lo-la: /usr/share/i18n/locales/lo_LA
+FILES_INFO: {"/usr/share/i18n/locales/lo_LA": 33568}
+PKGSIZE_glibc-localedata-lo-la: 33568

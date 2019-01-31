@@ -1,0 +1,14 @@
+PN: quectel-monitor-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-monitor-daemon-staticdev: Quectel monitor daemon  This package contains static libraries for software development.
+SUMMARY_quectel-monitor-daemon-staticdev: quectel-monitor-daemon version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-monitor-daemon-staticdev: quectel-monitor-daemon-dev (= git-invalidgit-r1)
+SECTION_quectel-monitor-daemon-staticdev: devel
+PKG_quectel-monitor-daemon-staticdev: quectel-monitor-daemon-staticdev
+FILES_quectel-monitor-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-monitor-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-monitor-daemon-staticdev: 0

@@ -1,0 +1,19 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE: GPLv2.0+ & LGPLv2.1+
+DESCRIPTION: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.
+SUMMARY: /dev/ and hotplug management daemon
+SECTION: base
+PKG_udev-cache: udev-cache
+FILES_udev-cache: /etc/init.d/udev-cache /etc/default/udev-cache
+pkg_postinst_udev-cache: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT udev-cache start 36 S .\nfi\n
+pkg_postrm_udev-cache: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT udev-cache remove\nfi\n
+pkg_preinst_udev-cache: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/udev-cache" ]; then\n\t/etc/init.d/udev-cache stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT udev-cache remove\nfi\n
+pkg_prerm_udev-cache: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/udev-cache stop\nfi\n
+FILES_INFO: {"/etc/default/udev-cache": 134, "/etc/init.d/udev-cache": 2016}
+FILERDEPENDSFLIST_udev-cache: /etc/init.d/udev-cache
+FILERDEPENDS_/etc/init.d/udev-cache_udev-cache: /bin/sh
+PKGSIZE_udev-cache: 2150

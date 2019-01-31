@@ -1,0 +1,14 @@
+PN: garden-test-interfaces
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_garden-test-interfaces-staticdev: Garden Test Interfaces  This package contains static libraries for software development.
+SUMMARY_garden-test-interfaces-staticdev: garden-test-interfaces version git-r3 - Development files (Static Libraries)
+RDEPENDS_garden-test-interfaces-staticdev: garden-test-interfaces-dev (= git-r3)
+SECTION_garden-test-interfaces-staticdev: devel
+PKG_garden-test-interfaces-staticdev: garden-test-interfaces-staticdev
+FILES_garden-test-interfaces-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/garden-test-interfaces/*.a
+FILES_INFO: {}
+PKGSIZE_garden-test-interfaces-staticdev: 0

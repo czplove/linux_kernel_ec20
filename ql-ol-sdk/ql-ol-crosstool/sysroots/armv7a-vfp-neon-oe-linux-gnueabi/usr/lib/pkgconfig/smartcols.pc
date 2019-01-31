@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.25.0
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols

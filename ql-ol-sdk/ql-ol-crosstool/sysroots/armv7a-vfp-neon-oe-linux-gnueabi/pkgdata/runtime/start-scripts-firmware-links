@@ -1,0 +1,20 @@
+PN: start-scripts-firmware-links
+PV: 1.0
+PR: r5
+PKGV: 1.0
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION: Start up script for firmware links
+SUMMARY: start-scripts-firmware-links version 1.0-r5
+RRECOMMENDS_start-scripts-firmware-links:  update-rc.d
+SECTION: base
+PKG_start-scripts-firmware-links: start-scripts-firmware-links
+FILES_start-scripts-firmware-links: /usr/bin/* /usr/sbin/* /usr/lib/start-scripts-firmware-links/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/start-scripts-firmware-links /usr/lib/start-scripts-firmware-links/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_start-scripts-firmware-links:         update-alternatives --install /etc/init.d/firmware-links.sh firmware-links.sh firmware-links.sh 60\n        [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n        # remove all rc.d-links potentially created from alternatives\n        update-rc.d $OPT -f firmware-links.sh remove\n        update-rc.d $OPT firmware-links.sh multiuser\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT firmware-links.sh start 37 S .\nfi\n
+pkg_postrm_start-scripts-firmware-links: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT firmware-links.sh remove\nfi\n
+pkg_preinst_start-scripts-firmware-links: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/firmware-links.sh" ]; then\n\t/etc/init.d/firmware-links.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT firmware-links.sh remove\nfi\n
+pkg_prerm_start-scripts-firmware-links: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/firmware-links.sh stop\nfi\n
+FILES_INFO: {"/etc/init.d/firmware-links.sh": 4315}
+FILERDEPENDSFLIST_start-scripts-firmware-links: /etc/init.d/firmware-links.sh
+FILERDEPENDS_/etc/init.d/firmware-links.sh_start-scripts-firmware-links: /bin/sh
+PKGSIZE_start-scripts-firmware-links: 4315

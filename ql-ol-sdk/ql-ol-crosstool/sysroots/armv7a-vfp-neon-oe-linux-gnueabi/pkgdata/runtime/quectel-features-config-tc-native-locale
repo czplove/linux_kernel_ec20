@@ -1,0 +1,13 @@
+PN: quectel-features-config-tc-native
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Features Config
+SUMMARY: quectel-features-config-tc-native version 1.0-r1
+SECTION: base
+PKG_quectel-features-config-tc-native-locale: quectel-features-config-tc-native-locale
+FILES_quectel-features-config-tc-native-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-tc-native-locale: 0

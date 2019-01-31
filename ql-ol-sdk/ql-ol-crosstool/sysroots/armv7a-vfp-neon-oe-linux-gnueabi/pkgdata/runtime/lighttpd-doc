@@ -1,0 +1,13 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-doc: Lightweight high-performance web server.  This package contains documentation.
+SUMMARY_lighttpd-doc: Lightweight high-performance web server - Documentation files
+SECTION_lighttpd-doc: doc
+PKG_lighttpd-doc: lighttpd-doc
+FILES_lighttpd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/lighttpd.8": 1875}
+PKGSIZE_lighttpd-doc: 1875

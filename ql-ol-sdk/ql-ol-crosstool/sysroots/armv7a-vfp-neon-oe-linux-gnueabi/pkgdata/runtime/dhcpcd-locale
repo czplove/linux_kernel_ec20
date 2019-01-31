@@ -1,0 +1,13 @@
+PN: dhcpcd
+PV: 5.2.10
+PR: r2
+PKGV: 5.2.10
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION: dhcpcd is an RFC2131-, RFC2132-, and RFC1541-compliant DHCP client daemon. It gets an IP address and other information from the DHCP server, automatically configures the network interface, and tries to renew the lease time according to RFC2131 or RFC1541.
+SUMMARY: dhcpcd version 5.2.10-r2
+SECTION: console/network
+PKG_dhcpcd-locale: dhcpcd-locale
+FILES_dhcpcd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dhcpcd-locale: 0

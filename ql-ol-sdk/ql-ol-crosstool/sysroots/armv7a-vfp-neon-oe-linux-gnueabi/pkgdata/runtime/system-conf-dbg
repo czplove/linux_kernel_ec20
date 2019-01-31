@@ -1,0 +1,14 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION_system-conf-dbg: Device specific config  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_system-conf-dbg: system-conf version git-r3 - Debugging files
+SECTION_system-conf-dbg: devel
+PKG_system-conf-dbg: system-conf-dbg
+ALLOW_EMPTY_system-conf-dbg: 1
+FILES_system-conf-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/system-conf/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/system-conf/.debug /usr/lib/matchbox-panel/.debug /usr/lib/system-conf/system-conf/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_system-conf-dbg: 0

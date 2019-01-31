@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-iso-5427: character map for iso-5427 encoding
+SUMMARY_glibc-charmap-iso-5427: character map for iso-5427 encoding
+SECTION: base
+PKG_glibc-charmap-iso-5427: glibc-charmap-iso-5427
+FILES_glibc-charmap-iso-5427: /usr/share/i18n/charmaps/ISO_5427.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ISO_5427.gz": 1553}
+PKGSIZE_glibc-charmap-iso-5427: 1553

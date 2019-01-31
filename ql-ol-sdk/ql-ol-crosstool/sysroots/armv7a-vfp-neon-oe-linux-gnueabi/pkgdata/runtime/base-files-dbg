@@ -1,0 +1,14 @@
+PN: base-files
+PV: 3.0.14
+PR: r89
+PKGV: 3.0.14
+PKGR: r89
+LICENSE: GPLv2
+DESCRIPTION_base-files-dbg: The base-files package creates the basic system directory structure and provides a small set of key configuration files for the system.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_base-files-dbg: Miscellaneous files for the base system - Debugging files
+SECTION_base-files-dbg: devel
+PKG_base-files-dbg: base-files-dbg
+ALLOW_EMPTY_base-files-dbg: 1
+FILES_base-files-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/base-files/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/base-files/.debug /usr/lib/matchbox-panel/.debug /usr/lib/base-files/base-files/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_base-files-dbg: 0

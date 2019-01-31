@@ -1,0 +1,13 @@
+PN: quectel-tts-sdk
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel TTS SDK
+SUMMARY: quectel-tts-sdk version git-r1
+SECTION: base
+PKG_quectel-tts-sdk-locale: quectel-tts-sdk-locale
+FILES_quectel-tts-sdk-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-tts-sdk-locale: 0

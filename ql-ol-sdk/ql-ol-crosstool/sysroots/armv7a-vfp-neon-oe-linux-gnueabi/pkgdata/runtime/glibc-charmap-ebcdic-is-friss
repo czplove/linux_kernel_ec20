@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ebcdic-is-friss: character map for ebcdic-is-friss encoding
+SUMMARY_glibc-charmap-ebcdic-is-friss: character map for ebcdic-is-friss encoding
+SECTION: base
+PKG_glibc-charmap-ebcdic-is-friss: glibc-charmap-ebcdic-is-friss
+FILES_glibc-charmap-ebcdic-is-friss: /usr/share/i18n/charmaps/EBCDIC-IS-FRISS.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EBCDIC-IS-FRISS.gz": 1794}
+PKGSIZE_glibc-charmap-ebcdic-is-friss: 1794

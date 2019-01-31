@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-hn: locale definition for es-hn
+SUMMARY_glibc-localedata-es-hn: locale definition for es-hn
+RDEPENDS_glibc-localedata-es-hn: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-hn: glibc-localedata-es-hn
+FILES_glibc-localedata-es-hn: /usr/share/i18n/locales/es_HN
+FILES_INFO: {"/usr/share/i18n/locales/es_HN": 4898}
+PKGSIZE_glibc-localedata-es-hn: 4898

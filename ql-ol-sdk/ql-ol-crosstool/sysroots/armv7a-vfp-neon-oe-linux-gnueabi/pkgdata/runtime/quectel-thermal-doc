@@ -1,0 +1,13 @@
+PN: quectel-thermal
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-thermal-doc: Quectel thermal  This package contains documentation.
+SUMMARY_quectel-thermal-doc: quectel-thermal version git-invalidgit-r1 - Documentation files
+SECTION_quectel-thermal-doc: doc
+PKG_quectel-thermal-doc: quectel-thermal-doc
+FILES_quectel-thermal-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-thermal-doc: 0

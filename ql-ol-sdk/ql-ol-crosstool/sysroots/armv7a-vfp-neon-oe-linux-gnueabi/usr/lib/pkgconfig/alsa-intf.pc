@@ -1,0 +1,10 @@
+prefix=/etc
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: alsa_intf
+Description: alsa-intf library
+Version: 1.0.0
+Libs: -L${libdir} -lalsa_intf
+Cflags: -I${includedir}/alsa-intf

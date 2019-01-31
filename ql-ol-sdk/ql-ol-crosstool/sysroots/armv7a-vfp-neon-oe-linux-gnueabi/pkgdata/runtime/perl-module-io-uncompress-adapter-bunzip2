@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-uncompress-adapter-bunzip2: perl module io-uncompress-adapter-bunzip2
+SUMMARY_perl-module-io-uncompress-adapter-bunzip2: perl module io-uncompress-adapter-bunzip2
+RDEPENDS_perl-module-io-uncompress-adapter-bunzip2: perl-module-io-compress-base-common perl-module-warnings perl perl-module-compress-raw-bzip2 perl-module-bytes perl-module-strict
+SECTION: devel
+PKG_perl-module-io-uncompress-adapter-bunzip2: perl-module-io-uncompress-adapter-bunzip2
+FILES_perl-module-io-uncompress-adapter-bunzip2: /usr/lib/perl/5.20.0/IO/Uncompress/Adapter/Bunzip2.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Uncompress/Adapter/Bunzip2.pm": 2042}
+PKGSIZE_perl-module-io-uncompress-adapter-bunzip2: 2042

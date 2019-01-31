@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: diag
+Description: Common functions for DIAG project test assets
+Version: 1.0.0
+Libs: -L${libdir} -ldiag
+Cflags: -I${includedir}/diag

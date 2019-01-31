@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm500: gconv module for character set ibm500
+SUMMARY_glibc-gconv-ibm500: gconv module for character set ibm500
+RDEPENDS_glibc-gconv-ibm500: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm500: glibc-gconv-ibm500
+FILES_glibc-gconv-ibm500: /usr/lib/gconv/IBM500.so
+FILES_INFO: {"/usr/lib/gconv/IBM500.so": 9584}
+PKGSIZE_glibc-gconv-ibm500: 9584

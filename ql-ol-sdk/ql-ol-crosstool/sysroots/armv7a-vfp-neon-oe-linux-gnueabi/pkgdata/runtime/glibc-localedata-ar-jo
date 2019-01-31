@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-jo: locale definition for ar-jo
+SUMMARY_glibc-localedata-ar-jo: locale definition for ar-jo
+RDEPENDS_glibc-localedata-ar-jo: glibc-localedata-ar-eg glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ar-jo: glibc-localedata-ar-jo
+FILES_glibc-localedata-ar-jo: /usr/share/i18n/locales/ar_JO
+FILES_INFO: {"/usr/share/i18n/locales/ar_JO": 7020}
+PKGSIZE_glibc-localedata-ar-jo: 7020

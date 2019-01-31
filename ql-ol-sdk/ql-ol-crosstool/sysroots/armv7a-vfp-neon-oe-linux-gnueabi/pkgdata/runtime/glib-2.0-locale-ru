@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-ru: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the ru locale.
+SUMMARY_glib-2.0-locale-ru: A general-purpose utility library - ru translations
+RPROVIDES_glib-2.0-locale-ru: glib-2.0-locale ru-translation glib-2.0-locale-ru
+RRECOMMENDS_glib-2.0-locale-ru: virtual-locale-ru
+SECTION: libs
+PKG_glib-2.0-locale-ru: libglib-2.0-locale-ru
+FILES_glib-2.0-locale-ru: /usr/share/locale/ru
+FILES_INFO: {"/usr/share/locale/ru/LC_MESSAGES/glib20.mo": 130953}
+PKGSIZE_glib-2.0-locale-ru: 130953

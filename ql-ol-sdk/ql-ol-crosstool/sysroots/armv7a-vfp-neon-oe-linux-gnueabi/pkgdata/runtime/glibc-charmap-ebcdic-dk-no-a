@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ebcdic-dk-no-a: character map for ebcdic-dk-no-a encoding
+SUMMARY_glibc-charmap-ebcdic-dk-no-a: character map for ebcdic-dk-no-a encoding
+SECTION: base
+PKG_glibc-charmap-ebcdic-dk-no-a: glibc-charmap-ebcdic-dk-no-a
+FILES_glibc-charmap-ebcdic-dk-no-a: /usr/share/i18n/charmaps/EBCDIC-DK-NO-A.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EBCDIC-DK-NO-A.gz": 2066}
+PKGSIZE_glibc-charmap-ebcdic-dk-no-a: 2066

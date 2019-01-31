@@ -1,0 +1,3 @@
+/bin/chattr
+/bin/busybox 50
+/bin/chattr.e2fsprogs 100

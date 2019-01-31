@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-perlio-mmap: perl module perlio-mmap
+SUMMARY_perl-module-perlio-mmap: perl module perlio-mmap
+RDEPENDS_perl-module-perlio-mmap: perl-module-strict perl-module-warnings perl glibc (>= 2.21) perl-module-xsloader
+SECTION: devel
+PKG_perl-module-perlio-mmap: perl-module-perlio-mmap
+FILES_perl-module-perlio-mmap: /usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so /usr/lib/perl/5.20.0/PerlIO/mmap.pm
+FILERPROVIDESFLIST_perl-module-perlio-mmap: /usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so": 8768, "/usr/lib/perl/5.20.0/PerlIO/mmap.pm": 600}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so_perl-module-perlio-mmap: elf(buildid) (= 9aa068ceeba3d7bba7d8e3d8ab2c4a84e90c5300) mmap.so
+FILERDEPENDSFLIST_perl-module-perlio-mmap: /usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/PerlIO/mmap/mmap.so_perl-module-perlio-mmap: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-perlio-mmap: 9368

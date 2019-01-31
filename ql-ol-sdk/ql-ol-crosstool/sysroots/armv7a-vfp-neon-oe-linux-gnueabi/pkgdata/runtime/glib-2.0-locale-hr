@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-hr: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the hr locale.
+SUMMARY_glib-2.0-locale-hr: A general-purpose utility library - hr translations
+RPROVIDES_glib-2.0-locale-hr: glib-2.0-locale hr-translation glib-2.0-locale-hr
+RRECOMMENDS_glib-2.0-locale-hr: virtual-locale-hr
+SECTION: libs
+PKG_glib-2.0-locale-hr: libglib-2.0-locale-hr
+FILES_glib-2.0-locale-hr: /usr/share/locale/hr
+FILES_INFO: {"/usr/share/locale/hr/LC_MESSAGES/glib20.mo": 17441}
+PKGSIZE_glib-2.0-locale-hr: 17441

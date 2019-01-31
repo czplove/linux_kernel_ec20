@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-base: perl module tap-base
+SUMMARY_perl-module-tap-base: perl module tap-base
+RDEPENDS_perl-module-tap-base: perl-module-strict perl-module-constant perl-module-base perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-tap-base: perl-module-tap-base
+FILES_perl-module-tap-base: /usr/lib/perl/5.20.0/TAP/Base.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Base.pm": 2144}
+PKGSIZE_perl-module-tap-base: 2144

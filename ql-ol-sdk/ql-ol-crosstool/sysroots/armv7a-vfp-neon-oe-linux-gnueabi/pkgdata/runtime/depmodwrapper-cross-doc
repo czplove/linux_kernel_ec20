@@ -1,0 +1,13 @@
+PN: depmodwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_depmodwrapper-cross-doc: Wrapper script for the Linux kernel module dependency indexer.  This package contains documentation.
+SUMMARY_depmodwrapper-cross-doc: Wrapper script for the Linux kernel module dependency indexer - Documentation files
+SECTION_depmodwrapper-cross-doc: doc
+PKG_depmodwrapper-cross-doc: depmodwrapper-cross-doc
+FILES_depmodwrapper-cross-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_depmodwrapper-cross-doc: 0

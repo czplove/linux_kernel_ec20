@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-py: locale definition for es-py
+SUMMARY_glibc-localedata-es-py: locale definition for es-py
+RDEPENDS_glibc-localedata-es-py: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-py: glibc-localedata-es-py
+FILES_glibc-localedata-es-py: /usr/share/i18n/locales/es_PY
+FILES_INFO: {"/usr/share/i18n/locales/es_PY": 4836}
+PKGSIZE_glibc-localedata-es-py: 4836

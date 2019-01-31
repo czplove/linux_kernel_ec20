@@ -1,0 +1,18 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-minconn: Plugin for PPP to set a delay before the idle timeout applies
+RDEPENDS_ppp-minconn: glibc (>= 2.21)
+SECTION: console/network
+PKG_ppp-minconn: ppp-minconn
+FILES_ppp-minconn: /usr/lib/pppd/2.4.7/minconn.so
+FILERPROVIDESFLIST_ppp-minconn: /usr/lib/pppd/2.4.7/minconn.so
+FILES_INFO: {"/usr/lib/pppd/2.4.7/minconn.so": 3952}
+FILERPROVIDES_/usr/lib/pppd/2.4.7/minconn.so_ppp-minconn: elf(buildid) (= f0803970f892bc81c9cd031111dbb33ade480b5a) minconn.so
+FILERDEPENDSFLIST_ppp-minconn: /usr/lib/pppd/2.4.7/minconn.so
+FILERDEPENDS_/usr/lib/pppd/2.4.7/minconn.so_ppp-minconn: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ppp-minconn: 3952

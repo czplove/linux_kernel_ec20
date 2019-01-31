@@ -1,0 +1,19 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libmenuw: ncurses menuw library
+SUMMARY_ncurses-libmenuw: ncurses menuw library
+RDEPENDS_ncurses-libmenuw: glibc (>= 2.21) ncurses-libtinfo (>= 5.9) ncurses-libncursesw (>= 5.9)
+RPROVIDES_ncurses-libmenuw:  ncurses-libmenuw
+SECTION: libs
+PKG_ncurses-libmenuw: libmenuw5
+FILES_ncurses-libmenuw: /usr/lib/libmenuw.so.5 /usr/lib/libmenuw.so.5.9
+FILERPROVIDESFLIST_ncurses-libmenuw: /usr/lib/libmenuw.so.5.9
+FILES_INFO: {"/usr/lib/libmenuw.so.5": 24356}
+FILERPROVIDES_/usr/lib/libmenuw.so.5.9_ncurses-libmenuw: elf(buildid) (= 87493ad35c82c22b98a97fbf547076fb6df5357e) libmenuw.so.5
+FILERDEPENDSFLIST_ncurses-libmenuw: /usr/lib/libmenuw.so.5.9
+FILERDEPENDS_/usr/lib/libmenuw.so.5.9_ncurses-libmenuw: libc.so.6 libc.so.6(GLIBC_2.4) libncursesw.so.5 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libmenuw: 24356

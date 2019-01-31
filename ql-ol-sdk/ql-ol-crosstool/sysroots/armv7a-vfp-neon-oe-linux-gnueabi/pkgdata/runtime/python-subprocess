@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-subprocess: Python subprocess support
+RDEPENDS_python-subprocess: python-core python-io python-fcntl python-pickle python-re
+SECTION: devel/python
+PKG_python-subprocess: python-subprocess
+FILES_python-subprocess: /usr/lib/python2.7/subprocess.* 
+FILES_INFO: {"/usr/lib/python2.7/subprocess.py": 59485, "/usr/lib/python2.7/subprocess.pyc": 41823}
+PKGSIZE_python-subprocess: 101308

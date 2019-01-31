@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-fcntl: perl module fcntl
+SUMMARY_perl-module-fcntl: perl module fcntl
+RDEPENDS_perl-module-fcntl: perl-module-strict perl-module-exporter perl glibc (>= 2.21) perl-module-xsloader
+SECTION: devel
+PKG_perl-module-fcntl: perl-module-fcntl
+FILES_perl-module-fcntl: /usr/lib/perl/5.20.0/auto/Fcntl/Fcntl.so /usr/lib/perl/5.20.0/Fcntl.pm
+FILERPROVIDESFLIST_perl-module-fcntl: /usr/lib/perl/5.20.0/auto/Fcntl/Fcntl.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Fcntl.pm": 3924, "/usr/lib/perl/5.20.0/auto/Fcntl/Fcntl.so": 12004}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Fcntl/Fcntl.so_perl-module-fcntl: Fcntl.so elf(buildid) (= 88d9f610eb3b5477596aa41a94f7c5462c8f463b)
+FILERDEPENDSFLIST_perl-module-fcntl: /usr/lib/perl/5.20.0/auto/Fcntl/Fcntl.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Fcntl/Fcntl.so_perl-module-fcntl: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-fcntl: 15928

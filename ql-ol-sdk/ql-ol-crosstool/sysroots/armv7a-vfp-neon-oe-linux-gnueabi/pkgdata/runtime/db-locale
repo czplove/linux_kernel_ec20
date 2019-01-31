@@ -1,0 +1,13 @@
+PN: db
+PV: 6.0.30
+PR: r0
+PKGV: 6.0.30
+PKGR: r0
+LICENSE: AGPL-3.0
+DESCRIPTION: Berkeley Database v6.
+SUMMARY: Berkeley Database v6
+SECTION: libs
+PKG_db-locale: db-locale
+FILES_db-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_db-locale: 0

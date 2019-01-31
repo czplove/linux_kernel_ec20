@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-constant-xs: perl module extutils-constant-xs
+SUMMARY_perl-module-extutils-constant-xs: perl module extutils-constant-xs
+RDEPENDS_perl-module-extutils-constant-xs: perl-module-data-dumper perl-module-carp perl-module-vars perl perl-module-extutils-constant-utils perl-module-extutils-constant-base perl-module-strict perl-module-extutils-constant
+SECTION: devel
+PKG_perl-module-extutils-constant-xs: perl-module-extutils-constant-xs
+FILES_perl-module-extutils-constant-xs: /usr/lib/perl/5.20.0/ExtUtils/Constant/XS.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/Constant/XS.pm": 6353}
+PKGSIZE_perl-module-extutils-constant-xs: 6353

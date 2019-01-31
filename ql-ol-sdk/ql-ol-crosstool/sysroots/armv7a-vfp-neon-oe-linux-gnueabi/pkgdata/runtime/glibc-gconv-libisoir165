@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-libisoir165: gconv module for character set libisoir165
+SUMMARY_glibc-gconv-libisoir165: gconv module for character set libisoir165
+RDEPENDS_glibc-gconv-libisoir165: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-libisoir165: glibc-gconv-libisoir165
+FILES_glibc-gconv-libisoir165: /usr/lib/gconv/libISOIR165.so
+FILES_INFO: {"/usr/lib/gconv/libISOIR165.so": 58720}
+PKGSIZE_glibc-gconv-libisoir165: 58720

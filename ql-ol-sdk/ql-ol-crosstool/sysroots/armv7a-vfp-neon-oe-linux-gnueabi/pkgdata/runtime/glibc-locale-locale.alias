@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-locale.alias: Locale data from glibc.  This package contains language translation files for the locale.alias locale.
+SUMMARY_glibc-locale-locale.alias: Locale data from glibc - locale.alias translations
+RPROVIDES_glibc-locale-locale.alias: glibc-locale locale.alias-translation
+RRECOMMENDS_glibc-locale-locale.alias: virtual-locale-locale.alias
+SECTION: base
+PKG_glibc-locale-locale.alias: glibc-locale-locale.alias
+FILES_glibc-locale-locale.alias: /usr/share/locale/locale.alias
+FILES_INFO: {"/usr/share/locale/locale.alias": 2492}
+PKGSIZE_glibc-locale-locale.alias: 2492

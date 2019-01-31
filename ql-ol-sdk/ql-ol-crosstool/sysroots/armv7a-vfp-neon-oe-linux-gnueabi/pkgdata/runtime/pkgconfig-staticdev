@@ -1,0 +1,14 @@
+PN: pkgconfig
+PV: 0.28
+PR: r0
+PKGV: 0.28
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_pkgconfig-staticdev: pkg-config is a helper tool used when compiling applications and libraries. It helps determined the correct compiler/link options.  It is also language-agnostic.  This package contains static libraries for software development.
+SUMMARY_pkgconfig-staticdev: Helper tool used when compiling - Development files (Static Libraries)
+RDEPENDS_pkgconfig-staticdev: pkgconfig-dev (= 0.28-r0)
+SECTION_pkgconfig-staticdev: devel
+PKG_pkgconfig-staticdev: pkgconfig-staticdev
+FILES_pkgconfig-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/pkgconfig/*.a
+FILES_INFO: {}
+PKGSIZE_pkgconfig-staticdev: 0

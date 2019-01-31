@@ -1,0 +1,14 @@
+PN: acdbmapper
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: acdb mapper Library
+SUMMARY: acdbmapper version git-invalidgit-r2
+RPROVIDES_acdbmapper-locale:  acdbmapper-locale
+SECTION: base
+PKG_acdbmapper-locale: libacdbmapper-locale
+FILES_acdbmapper-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_acdbmapper-locale: 0

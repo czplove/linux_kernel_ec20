@@ -1,0 +1,15 @@
+PN: lrzsz
+PV: 0.12.20
+PR: r6
+PKGV: 0.12.20
+PKGR: r6
+LICENSE: GPLv2+
+DESCRIPTION_lrzsz-dbg: Lrzsz is a cosmetically modified zmodem/ymodem/xmodem package built from the public-domain version of Chuck Forsberg\'s rzsz package. These programs use error correcting protocols ({z,x,y}modem) to send (sz, sx, sb) and receive (rz, rx, rb) files over a dial-in serial port from a variety of programs running under various operating systems.   This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lrzsz-dbg: Tools for zmodem/xmodem/ymodem file transfer - Debugging files
+RRECOMMENDS_lrzsz-dbg: glibc-dbg
+SECTION_lrzsz-dbg: devel
+PKG_lrzsz-dbg: lrzsz-dbg
+ALLOW_EMPTY_lrzsz-dbg: 1
+FILES_lrzsz-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lrzsz/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lrzsz/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lrzsz/lrzsz/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/lrz": 16014, "/usr/bin/.debug/lsz": 17290}
+PKGSIZE_lrzsz-dbg: 33304

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-unicode-ucd: perl module unicode-ucd
+SUMMARY_perl-module-unicode-ucd: perl module unicode-ucd
+RDEPENDS_perl-module-unicode-ucd: perl-module-integer perl-module-carp perl-module-charnames perl-module-if perl-module-file-spec perl-module-warnings perl-module-feature perl perl-module-exporter perl-module-unicore perl-module-strict perl-module-utf8-heavy
+SECTION: devel
+PKG_perl-module-unicode-ucd: perl-module-unicode-ucd
+FILES_perl-module-unicode-ucd: /usr/lib/perl/5.20.0/Unicode/UCD.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Unicode/UCD.pm": 142030}
+PKGSIZE_perl-module-unicode-ucd: 142030

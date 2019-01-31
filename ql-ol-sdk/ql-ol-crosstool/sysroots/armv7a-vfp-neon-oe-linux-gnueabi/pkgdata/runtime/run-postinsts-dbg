@@ -1,0 +1,14 @@
+PN: run-postinsts
+PV: 1.0
+PR: r9
+PKGV: 1.0
+PKGR: r9
+LICENSE: MIT
+DESCRIPTION_run-postinsts-dbg: Runs postinstall scripts on first boot of the target device.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_run-postinsts-dbg: Runs postinstall scripts on first boot of the target device - Debugging files
+SECTION_run-postinsts-dbg: devel
+PKG_run-postinsts-dbg: run-postinsts-dbg
+ALLOW_EMPTY_run-postinsts-dbg: 1
+FILES_run-postinsts-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/run-postinsts/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/run-postinsts/.debug /usr/lib/matchbox-panel/.debug /usr/lib/run-postinsts/run-postinsts/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_run-postinsts-dbg: 0

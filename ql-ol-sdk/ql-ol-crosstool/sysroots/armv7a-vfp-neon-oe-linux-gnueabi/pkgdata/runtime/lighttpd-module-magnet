@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-magnet: Lighttpd module for magnet
+SUMMARY_lighttpd-module-magnet: Lighttpd module for magnet
+RDEPENDS_lighttpd-module-magnet: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-magnet: lighttpd-module-magnet
+FILES_lighttpd-module-magnet: /usr/lib/mod_magnet.so
+FILERPROVIDESFLIST_lighttpd-module-magnet: /usr/lib/mod@underscore@magnet.so
+FILES_INFO: {"/usr/lib/mod_magnet.so": 3360}
+FILERPROVIDES_/usr/lib/mod@underscore@magnet.so_lighttpd-module-magnet: elf(buildid) (= 8f4420303bcefc6733eda1e1a0fc5370af5a107d) mod_magnet.so
+FILERDEPENDSFLIST_lighttpd-module-magnet: /usr/lib/mod@underscore@magnet.so
+FILERDEPENDS_/usr/lib/mod@underscore@magnet.so_lighttpd-module-magnet: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-magnet: 3360

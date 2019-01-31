@@ -1,0 +1,19 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libtic: ncurses tic library
+SUMMARY_ncurses-libtic: ncurses tic library
+RDEPENDS_ncurses-libtic: glibc (>= 2.21) ncurses-libtinfo (>= 5.9)
+RPROVIDES_ncurses-libtic:  ncurses-libtic
+SECTION: libs
+PKG_ncurses-libtic: libtic5
+FILES_ncurses-libtic: /usr/lib/libtic.so.5 /usr/lib/libtic.so.5.9
+FILERPROVIDESFLIST_ncurses-libtic: /usr/lib/libtic.so.5.9
+FILES_INFO: {"/usr/lib/libtic.so.5": 48004}
+FILERPROVIDES_/usr/lib/libtic.so.5.9_ncurses-libtic: elf(buildid) (= 7e4cf68534a9b3ba8a8b9abb35e85fd25523af11) libtic.so.5
+FILERDEPENDSFLIST_ncurses-libtic: /usr/lib/libtic.so.5.9
+FILERDEPENDS_/usr/lib/libtic.so.5.9_ncurses-libtic: libc.so.6 libc.so.6(GLIBC_2.4) libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libtic: 48004

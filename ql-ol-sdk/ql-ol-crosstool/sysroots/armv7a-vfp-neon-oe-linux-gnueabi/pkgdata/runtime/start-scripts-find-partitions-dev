@@ -1,0 +1,16 @@
+PN: start-scripts-find-partitions
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_start-scripts-find-partitions-dev: Start up script for detecting partitions  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_start-scripts-find-partitions-dev: start-scripts-find-partitions version 1.0-r4 - Development files
+RDEPENDS_start-scripts-find-partitions-dev: start-scripts-find-partitions (= 1.0-r4)
+RRECOMMENDS_start-scripts-find-partitions-dev: initscripts-dev
+SECTION_start-scripts-find-partitions-dev: devel
+PKG_start-scripts-find-partitions-dev: start-scripts-find-partitions-dev
+ALLOW_EMPTY_start-scripts-find-partitions-dev: 1
+FILES_start-scripts-find-partitions-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/start-scripts-find-partitions/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-partitions-dev: 0

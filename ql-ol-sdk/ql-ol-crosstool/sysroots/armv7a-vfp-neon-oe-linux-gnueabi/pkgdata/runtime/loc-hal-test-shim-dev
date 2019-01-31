@@ -1,0 +1,16 @@
+PN: loc-hal-test-shim
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-hal-test-shim-dev: GPS HAL API Test shim Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_loc-hal-test-shim-dev: loc-hal-test-shim version git-invalidgit-r3 - Development files
+RDEPENDS_loc-hal-test-shim-dev: loc-hal-test-shim (= git-invalidgit-r3)
+RRECOMMENDS_loc-hal-test-shim-dev: system-core-liblog-dev qmi-client-helper-dev libgcc-dev time-genoff-dev glib-2.0-dev location-service-dev loc-hal-dev data-dev qmi-dev ql-syslog-dev izat-core-dev configdb-dev glibc-dev loc-pla-dev xmllib-dev libstdc++-dev dsutils-dev lbs-core-dev loc-stub-dev data-oss-dev garden-test-interfaces-dev diag-dev qmi-framework-dev
+SECTION_loc-hal-test-shim-dev: devel
+PKG_loc-hal-test-shim-dev: loc-hal-test-shim-dev
+ALLOW_EMPTY_loc-hal-test-shim-dev: 1
+FILES_loc-hal-test-shim-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/loc-hal-test-shim/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libloc_hal_test_shim_extended.la": 2846, "/usr/lib/libloc_hal_test_shim.la": 2599, "/usr/include/loc-hal-test-shim/location_callbacks_android_gps.h": 1235, "/usr/lib/libloc_hal_test_shim.so": 29, "/usr/lib/libloc_hal_test_shim_extended.so": 38, "/usr/include/loc-hal-test-shim/location_test_interface_android_gps.h": 2154, "/usr/lib/pkgconfig/loc-hal-test-shim.pc": 262, "/usr/include/loc-hal-test-shim/location_test_interface_android_gps_extended.h": 2313}
+PKGSIZE_loc-hal-test-shim-dev: 11476

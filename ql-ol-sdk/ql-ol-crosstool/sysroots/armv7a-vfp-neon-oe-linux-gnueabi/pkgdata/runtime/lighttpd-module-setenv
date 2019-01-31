@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-setenv: Lighttpd module for setenv
+SUMMARY_lighttpd-module-setenv: Lighttpd module for setenv
+RDEPENDS_lighttpd-module-setenv: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-setenv: lighttpd-module-setenv
+FILES_lighttpd-module-setenv: /usr/lib/mod_setenv.so
+FILERPROVIDESFLIST_lighttpd-module-setenv: /usr/lib/mod@underscore@setenv.so
+FILES_INFO: {"/usr/lib/mod_setenv.so": 6124}
+FILERPROVIDES_/usr/lib/mod@underscore@setenv.so_lighttpd-module-setenv: elf(buildid) (= a3d69eef4a05c8e5638a0f90a124c6705a4e8855) mod_setenv.so
+FILERDEPENDSFLIST_lighttpd-module-setenv: /usr/lib/mod@underscore@setenv.so
+FILERDEPENDS_/usr/lib/mod@underscore@setenv.so_lighttpd-module-setenv: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-setenv: 6124

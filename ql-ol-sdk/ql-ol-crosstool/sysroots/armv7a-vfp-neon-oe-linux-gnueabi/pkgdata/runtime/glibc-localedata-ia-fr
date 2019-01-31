@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ia-fr: locale definition for ia-fr
+SUMMARY_glibc-localedata-ia-fr: locale definition for ia-fr
+RDEPENDS_glibc-localedata-ia-fr: glibc-localedata-fr-fr
+SECTION: base
+PKG_glibc-localedata-ia-fr: glibc-localedata-ia-fr
+FILES_glibc-localedata-ia-fr: /usr/share/i18n/locales/ia_FR
+FILES_INFO: {"/usr/share/i18n/locales/ia_FR": 4327}
+PKGSIZE_glibc-localedata-ia-fr: 4327

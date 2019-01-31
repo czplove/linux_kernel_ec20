@@ -1,0 +1,13 @@
+PN: libnss-mdns
+PV: 0.10
+PR: r7
+PKGV: 0.10
+PKGR: r7
+LICENSE: LGPLv2.1+
+DESCRIPTION: Name Service Switch module for Multicast DNS (zeroconf) name resolution.
+SUMMARY: Name Service Switch module for Multicast DNS (zeroconf) name resolution
+SECTION: libs
+PKG_libnss-mdns-locale: libnss-mdns-locale
+FILES_libnss-mdns-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libnss-mdns-locale: 0

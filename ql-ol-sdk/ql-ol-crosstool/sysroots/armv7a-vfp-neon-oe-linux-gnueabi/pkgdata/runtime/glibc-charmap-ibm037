@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm037: character map for ibm037 encoding
+SUMMARY_glibc-charmap-ibm037: character map for ibm037 encoding
+SECTION: base
+PKG_glibc-charmap-ibm037: glibc-charmap-ibm037
+FILES_glibc-charmap-ibm037: /usr/share/i18n/charmaps/IBM037.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM037.gz": 3156}
+PKGSIZE_glibc-charmap-ibm037: 3156

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ca-it: locale definition for ca-it
+SUMMARY_glibc-localedata-ca-it: locale definition for ca-it
+RDEPENDS_glibc-localedata-ca-it: glibc-localedata-it-it glibc-localedata-ca-es
+SECTION: base
+PKG_glibc-localedata-ca-it: glibc-localedata-ca-it
+FILES_glibc-localedata-ca-it: /usr/share/i18n/locales/ca_IT
+FILES_INFO: {"/usr/share/i18n/locales/ca_IT": 2018}
+PKGSIZE_glibc-localedata-ca-it: 2018

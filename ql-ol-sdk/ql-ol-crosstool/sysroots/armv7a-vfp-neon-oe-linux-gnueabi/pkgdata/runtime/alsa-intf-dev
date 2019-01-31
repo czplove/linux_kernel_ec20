@@ -1,0 +1,16 @@
+PN: alsa-intf
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Apache-2.0
+DESCRIPTION_alsa-intf-dev: ALSA Framework Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_alsa-intf-dev: alsa-intf version git-invalidgit-r4 - Development files
+RDEPENDS_alsa-intf-dev: alsa-intf (= git-invalidgit-r4)
+RRECOMMENDS_alsa-intf-dev: adiertac-dev acdbrtac-dev system-core-liblog-dev glibc-dev acdbloader-dev acdbmapper-dev time-genoff-dev glib-2.0-dev audioalsa-dev audcal-dev diag-dev
+SECTION_alsa-intf-dev: devel
+PKG_alsa-intf-dev: alsa-intf-dev
+ALLOW_EMPTY_alsa-intf-dev: 1
+FILES_alsa-intf-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /etc/share/pkgconfig /etc/share/aclocal /lib/*.o /usr/lib/alsa-intf/*.la /lib/*.la
+FILES_INFO: {"/usr/include/alsa-intf/alsa_audio.h": 6332, "/usr/lib/libalsa_intf.la": 1477, "/usr/lib/libalsa_intf.so": 21, "/usr/include/alsa-intf/msm8960_use_cases.h": 16991, "/usr/lib/pkgconfig/alsa-intf.pc": 196, "/usr/include/alsa-intf/alsa_ucm.h": 13886}
+PKGSIZE_alsa-intf-dev: 38903

@@ -1,0 +1,13 @@
+PN: btrs-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Bluetooth Remote Start DAEMON
+SUMMARY: btrs-daemon version git-invalidgit-r2
+SECTION: base
+PKG_btrs-daemon-locale: btrs-daemon-locale
+FILES_btrs-daemon-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_btrs-daemon-locale: 0

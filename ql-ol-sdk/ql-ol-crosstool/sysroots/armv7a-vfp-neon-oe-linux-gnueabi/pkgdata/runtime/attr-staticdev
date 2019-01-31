@@ -1,0 +1,14 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-staticdev: Utilities for manipulating filesystem extended attributes.  This package contains static libraries for software development.
+SUMMARY_attr-staticdev: Utilities for manipulating filesystem extended attributes - Development files (Static Libraries)
+RDEPENDS_attr-staticdev: attr-dev (= 2.4.47-r0)
+SECTION_attr-staticdev: devel
+PKG_attr-staticdev: attr-staticdev
+FILES_attr-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/attr/*.a
+FILES_INFO: {}
+PKGSIZE_attr-staticdev: 0

@@ -1,0 +1,16 @@
+PN: minidlna
+PV: 1.1.3
+PR: r5
+PKGV: 1.1.3
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_minidlna-dev: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients..  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_minidlna-dev: MiniDLNA (aka ReadyDLNA) is server software with the aim of being fully compliant with DLNA/UPnP-AV clients. - Development files
+RDEPENDS_minidlna-dev: minidlna (= 1.1.3-r5)
+RRECOMMENDS_minidlna-dev: libid3tag-dev zlib-dev libflac-dev ffmpeg-dev libexif-dev libvorbis-dev flac-dev libogg-dev libsqlite3-dev sqlite3-dev libjpeg-turbo-dev glibc-dev
+SECTION_minidlna-dev: devel
+PKG_minidlna-dev: minidlna-dev
+ALLOW_EMPTY_minidlna-dev: 1
+FILES_minidlna-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/minidlna/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_minidlna-dev: 0

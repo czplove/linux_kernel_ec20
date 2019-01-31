@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-nl-nl+euro: locale definition for nl-nl+euro
+SUMMARY_glibc-localedata-nl-nl+euro: locale definition for nl-nl+euro
+RDEPENDS_glibc-localedata-nl-nl+euro: glibc-localedata-iso14651-t1 glibc-localedata-nl-nl
+SECTION: base
+PKG_glibc-localedata-nl-nl+euro: glibc-localedata-nl-nl+euro
+FILES_glibc-localedata-nl-nl+euro: /usr/share/i18n/locales/nl_NL@euro
+FILES_INFO: {"/usr/share/i18n/locales/nl_NL@euro": 1541}
+PKGSIZE_glibc-localedata-nl-nl+euro: 1541

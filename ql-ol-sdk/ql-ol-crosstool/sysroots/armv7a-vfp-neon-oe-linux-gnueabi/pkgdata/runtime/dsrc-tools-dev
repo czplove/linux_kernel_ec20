@@ -1,0 +1,16 @@
+PN: dsrc-tools
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_dsrc-tools-dev: dsrc-tools  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dsrc-tools-dev: dsrc-tools version git-r0 - Development files
+RDEPENDS_dsrc-tools-dev: dsrc-tools (= git-r0)
+RRECOMMENDS_dsrc-tools-dev: glibc-dev libnl-genl-dev libnl-dev
+SECTION_dsrc-tools-dev: devel
+PKG_dsrc-tools-dev: dsrc-tools-dev
+ALLOW_EMPTY_dsrc-tools-dev: 1
+FILES_dsrc-tools-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dsrc-tools/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_dsrc-tools-dev: 0

@@ -1,0 +1,19 @@
+PN: libhardware
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: Apache-2.0
+DESCRIPTION: hardware libhardware headers
+SUMMARY: libhardware version git-r5
+RDEPENDS_libhardware: glibc (>= 2.21) system-core-libcutils (>= git) system-core-liblog (>= git)
+RPROVIDES_libhardware:  libhardware
+SECTION: base
+PKG_libhardware: libhardware0
+FILES_libhardware: /usr/bin/* /usr/sbin/* /usr/lib/libhardware/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/libhardware /usr/lib/libhardware/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_libhardware: /usr/lib/libhardware.so.0.0.0
+FILES_INFO: {"/usr/lib/libhardware.so.0": 5660}
+FILERPROVIDES_/usr/lib/libhardware.so.0.0.0_libhardware: elf(buildid) (= 1964134936649e9cefa26072c9fb73b39232836d) libhardware.so.0
+FILERDEPENDSFLIST_libhardware: /usr/lib/libhardware.so.0.0.0
+FILERDEPENDS_/usr/lib/libhardware.so.0.0.0_libhardware: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 liblog.so.0 rtld(GNU_HASH)
+PKGSIZE_libhardware: 5660

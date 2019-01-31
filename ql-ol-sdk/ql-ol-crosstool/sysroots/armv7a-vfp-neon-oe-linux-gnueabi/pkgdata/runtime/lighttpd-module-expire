@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-expire: Lighttpd module for expire
+SUMMARY_lighttpd-module-expire: Lighttpd module for expire
+RDEPENDS_lighttpd-module-expire: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-expire: lighttpd-module-expire
+FILES_lighttpd-module-expire: /usr/lib/mod_expire.so
+FILERPROVIDESFLIST_lighttpd-module-expire: /usr/lib/mod@underscore@expire.so
+FILES_INFO: {"/usr/lib/mod_expire.so": 7996}
+FILERPROVIDES_/usr/lib/mod@underscore@expire.so_lighttpd-module-expire: elf(buildid) (= b838958496dc2926fad9d2abddc82c39be95e2c1) mod_expire.so
+FILERDEPENDSFLIST_lighttpd-module-expire: /usr/lib/mod@underscore@expire.so
+FILERDEPENDS_/usr/lib/mod@underscore@expire.so_lighttpd-module-expire: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-expire: 7996

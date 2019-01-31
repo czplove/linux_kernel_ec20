@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ik-ca: locale definition for ik-ca
+SUMMARY_glibc-localedata-ik-ca: locale definition for ik-ca
+RDEPENDS_glibc-localedata-ik-ca: glibc-localedata-iso14651-t1 glibc-localedata-en-ca
+SECTION: base
+PKG_glibc-localedata-ik-ca: glibc-localedata-ik-ca
+FILES_glibc-localedata-ik-ca: /usr/share/i18n/locales/ik_CA
+FILES_INFO: {"/usr/share/i18n/locales/ik_CA": 7743}
+PKGSIZE_glibc-localedata-ik-ca: 7743

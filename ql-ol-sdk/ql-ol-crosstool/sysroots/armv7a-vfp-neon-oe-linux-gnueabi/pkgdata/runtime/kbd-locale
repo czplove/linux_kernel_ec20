@@ -1,0 +1,13 @@
+PN: kbd
+PV: 2.0.2
+PR: r0
+PKGV: 2.0.2
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Keytable files and keyboard utilities.
+SUMMARY: Keytable files and keyboard utilities
+SECTION: base
+PKG_kbd-locale: kbd-locale
+FILES_kbd-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_kbd-locale: 0

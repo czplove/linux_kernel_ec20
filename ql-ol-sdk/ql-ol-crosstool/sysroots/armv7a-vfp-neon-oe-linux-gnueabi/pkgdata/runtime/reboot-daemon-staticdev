@@ -1,0 +1,14 @@
+PN: reboot-daemon
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_reboot-daemon-staticdev: Rebooter daemon  This package contains static libraries for software development.
+SUMMARY_reboot-daemon-staticdev: reboot-daemon version 1.0-r4 - Development files (Static Libraries)
+RDEPENDS_reboot-daemon-staticdev: reboot-daemon-dev (= 1.0-r4)
+SECTION_reboot-daemon-staticdev: devel
+PKG_reboot-daemon-staticdev: reboot-daemon-staticdev
+FILES_reboot-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/reboot-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_reboot-daemon-staticdev: 0

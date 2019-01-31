@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-mcm-qmi-test-shim
+Description: Test shim layer for testing Location Server using QMI APIs
+Version: 1.0.0
+Libs: -L${libdir} -lloc_mcm_qmi_test_shim
+Cflags: -I${includedir}/loc-mcm-qmi-test-shim

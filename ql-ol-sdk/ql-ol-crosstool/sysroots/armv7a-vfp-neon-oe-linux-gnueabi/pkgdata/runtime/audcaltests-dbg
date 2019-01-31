@@ -1,0 +1,15 @@
+PN: audcaltests
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audcaltests-dbg: Audio Calibration Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_audcaltests-dbg: audcaltests version git-invalidgit-r7 - Debugging files
+RRECOMMENDS_audcaltests-dbg: acdbloader-dbg glibc-dbg
+SECTION_audcaltests-dbg: devel
+PKG_audcaltests-dbg: audcaltests-dbg
+ALLOW_EMPTY_audcaltests-dbg: 1
+FILES_audcaltests-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/audcaltests/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/audcaltests/.debug /usr/lib/matchbox-panel/.debug /usr/lib/audcaltests/audcaltests/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/sendcal": 5606}
+PKGSIZE_audcaltests-dbg: 5606

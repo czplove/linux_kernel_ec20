@@ -1,0 +1,16 @@
+PN: quectel-thermal
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-thermal-dev: Quectel thermal  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-thermal-dev: quectel-thermal version git-invalidgit-r1 - Development files
+RDEPENDS_quectel-thermal-dev: qmi-framework
+RRECOMMENDS_quectel-thermal-dev: qmi-framework-dev glibc-dev qmi-dev initscripts-dev
+SECTION_quectel-thermal-dev: devel
+PKG_quectel-thermal-dev: quectel-thermal-dev
+ALLOW_EMPTY_quectel-thermal-dev: 1
+FILES_quectel-thermal-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-thermal/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_quectel-thermal-dev: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-gb-1988-80: character map for gb-1988-80 encoding
+SUMMARY_glibc-charmap-gb-1988-80: character map for gb-1988-80 encoding
+SECTION: base
+PKG_glibc-charmap-gb-1988-80: glibc-charmap-gb-1988-80
+FILES_glibc-charmap-gb-1988-80: /usr/share/i18n/charmaps/GB_1988-80.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/GB_1988-80.gz": 1592}
+PKGSIZE_glibc-charmap-gb-1988-80: 1592

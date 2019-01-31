@@ -1,0 +1,16 @@
+PN: loc-vzw
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_loc-vzw-dbg: GPS Location vzw  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_loc-vzw-dbg: loc-vzw version git-invalidgit-r1 - Debugging files
+RPROVIDES_loc-vzw-dbg:  loc-vzw-dbg
+RRECOMMENDS_loc-vzw-dbg: loc-pla-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg qmi-dbg ql-syslog-dbg glib-2.0-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg system-core-libcutils-dbg
+SECTION_loc-vzw-dbg: devel
+PKG_loc-vzw-dbg: libloc-ext-dbg
+ALLOW_EMPTY_loc-vzw-dbg: 1
+FILES_loc-vzw-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/loc-vzw/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/loc-vzw/.debug /usr/lib/matchbox-panel/.debug /usr/lib/loc-vzw/loc-vzw/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libloc_ext.so.1.0.0": 6787}
+PKGSIZE_loc-vzw-dbg: 6787

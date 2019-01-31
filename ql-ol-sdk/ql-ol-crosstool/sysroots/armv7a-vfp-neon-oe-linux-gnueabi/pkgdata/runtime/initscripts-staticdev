@@ -1,0 +1,14 @@
+PN: initscripts
+PV: 1.0
+PR: r157
+PKGV: 1.0
+PKGR: r157
+LICENSE: GPLv2
+DESCRIPTION_initscripts-staticdev: Initscripts provide the basic system startup initialization scripts for the system.  These scripts include actions such as filesystem mounting, fsck, RTC manipulation and other actions routinely performed at system startup.  In addition, the scripts are also used during system shutdown to reverse the actions performed at startup.  This package contains static libraries for software development.
+SUMMARY_initscripts-staticdev: SysV init scripts - Development files (Static Libraries)
+RDEPENDS_initscripts-staticdev: initscripts-dev (= 1.0-r157)
+SECTION_initscripts-staticdev: devel
+PKG_initscripts-staticdev: initscripts-staticdev
+FILES_initscripts-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/initscripts/*.a
+FILES_INFO: {}
+PKGSIZE_initscripts-staticdev: 0

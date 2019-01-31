@@ -1,0 +1,15 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_gcc-runtime-dbg: GPL-3.0-with-GCC-exception & GPLv3
+DESCRIPTION_gcc-runtime-dbg: GNU cc and gcc C compilers.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gcc-runtime-dbg: GNU cc and gcc C compilers - Debugging files
+RRECOMMENDS_gcc-runtime-dbg: libgcc-dbg glibc-dbg
+SECTION_gcc-runtime-dbg: devel
+PKG_gcc-runtime-dbg: gcc-runtime-dbg
+ALLOW_EMPTY_gcc-runtime-dbg: 1
+FILES_gcc-runtime-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gcc/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gcc/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gcc/gcc/.debug /usr/src/debug     /usr/lib/libstdc++.so.*-gdb.py     /usr/share/gcc-4.9.2/python/libstdcxx 
+FILES_INFO: {"/usr/share/gcc-4.9.2/python/libstdcxx/v6/printers.py": 41551, "/usr/share/gcc-4.9.2/python/libstdcxx/__init__.py": 1, "/usr/share/gcc-4.9.2/python/libstdcxx/v6/__init__.py": 1, "/usr/lib/.debug/libssp.so.0.0.0": 5415, "/usr/lib/libstdc++.so.6.0.20-gdb.py": 2292, "/usr/lib/.debug/libatomic.so.1.1.0": 11178, "/usr/lib/.debug/libgomp.so.1.0.0": 36904, "/usr/lib/.debug/libstdc++.so.6.0.20": 366502}
+PKGSIZE_gcc-runtime-dbg: 463844

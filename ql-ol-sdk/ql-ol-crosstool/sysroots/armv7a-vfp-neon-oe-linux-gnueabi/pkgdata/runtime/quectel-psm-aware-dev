@@ -1,0 +1,16 @@
+PN: quectel-psm-aware
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-psm-aware-dev: Quectel file data dispatch  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-psm-aware-dev: quectel-psm-aware version git-invalidgit-r1 - Development files
+RDEPENDS_quectel-psm-aware-dev: quectel-psm-aware (= git-invalidgit-r1)
+RRECOMMENDS_quectel-psm-aware-dev: glibc-dev initscripts-dev
+SECTION_quectel-psm-aware-dev: devel
+PKG_quectel-psm-aware-dev: quectel-psm-aware-dev
+ALLOW_EMPTY_quectel-psm-aware-dev: 1
+FILES_quectel-psm-aware-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-psm-aware/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_quectel-psm-aware-dev: 0

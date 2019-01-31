@@ -1,0 +1,14 @@
+PN: quectel-libfotainfo
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-libfotainfo-doc: Quectel Function Daemon  This package contains documentation.
+SUMMARY_quectel-libfotainfo-doc: quectel-libfotainfo version git-invalidgit-r1 - Documentation files
+RPROVIDES_quectel-libfotainfo-doc:  quectel-libfotainfo-doc
+SECTION_quectel-libfotainfo-doc: doc
+PKG_quectel-libfotainfo-doc: libfotainfo-doc
+FILES_quectel-libfotainfo-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-libfotainfo-doc: 0

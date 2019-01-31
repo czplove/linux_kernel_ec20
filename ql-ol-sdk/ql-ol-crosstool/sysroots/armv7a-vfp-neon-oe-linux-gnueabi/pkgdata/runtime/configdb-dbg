@@ -1,0 +1,16 @@
+PN: configdb
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_configdb-dbg: Qualcomm Data Configdb Module  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_configdb-dbg: configdb version git-invalidgit-r5 - Debugging files
+RPROVIDES_configdb-dbg:  configdb-dbg
+RRECOMMENDS_configdb-dbg: glibc-dbg diag-dbg time-genoff-dbg glib-2.0-dbg dsutils-dbg xmllib-dbg
+SECTION_configdb-dbg: devel
+PKG_configdb-dbg: libconfigdb-dbg
+ALLOW_EMPTY_configdb-dbg: 1
+FILES_configdb-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/configdb/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/configdb/.debug /usr/lib/matchbox-panel/.debug /usr/lib/configdb/configdb/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libconfigdb.so.0.0.0": 44199}
+PKGSIZE_configdb-dbg: 44199

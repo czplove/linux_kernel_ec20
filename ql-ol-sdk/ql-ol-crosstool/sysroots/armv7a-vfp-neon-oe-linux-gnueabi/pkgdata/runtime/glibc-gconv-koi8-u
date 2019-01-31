@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-koi8-u: gconv module for character set koi8-u
+SUMMARY_glibc-gconv-koi8-u: gconv module for character set koi8-u
+RDEPENDS_glibc-gconv-koi8-u: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-koi8-u: glibc-gconv-koi8-u
+FILES_glibc-gconv-koi8-u: /usr/lib/gconv/KOI8-U.so
+FILES_INFO: {"/usr/lib/gconv/KOI8-U.so": 9584}
+PKGSIZE_glibc-gconv-koi8-u: 9584

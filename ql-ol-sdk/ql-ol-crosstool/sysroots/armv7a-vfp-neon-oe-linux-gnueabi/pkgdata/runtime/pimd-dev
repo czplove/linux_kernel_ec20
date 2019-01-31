@@ -1,0 +1,16 @@
+PN: pimd
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_pimd-dev: PIMD - Multicast Routing Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_pimd-dev: pimd version git-r5 - Development files
+RDEPENDS_pimd-dev: pimd (= git-r5)
+RRECOMMENDS_pimd-dev: glibc-dev
+SECTION_pimd-dev: devel
+PKG_pimd-dev: pimd-dev
+ALLOW_EMPTY_pimd-dev: 1
+FILES_pimd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pimd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_pimd-dev: 0

@@ -1,0 +1,15 @@
+PN: gawk
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gawk-dbg: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gawk-dbg: GNU awk text processing utility - Debugging files
+RRECOMMENDS_gawk-dbg: glibc-dbg
+SECTION_gawk-dbg: devel
+PKG_gawk-dbg: gawk-dbg
+ALLOW_EMPTY_gawk-dbg: 1
+FILES_gawk-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gawk/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gawk/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gawk/gawk/.debug /usr/src/debug /usr/lib/gawk/awk/.debug
+FILES_INFO: {"/usr/lib/gawk/awk/.debug/grcat": 5068, "/usr/lib/gawk/awk/.debug/pwcat": 5020, "/usr/lib/gawk/.debug/revoutput.so": 4348, "/usr/lib/gawk/.debug/readfile.so": 4644, "/usr/lib/gawk/.debug/readdir.so": 4528, "/usr/lib/gawk/.debug/fork.so": 4503, "/usr/lib/gawk/.debug/inplace.so": 4789, "/usr/lib/gawk/.debug/filefuncs.so": 8277, "/usr/bin/.debug/gawk": 64811, "/usr/lib/gawk/.debug/rwarray.so": 4538, "/usr/lib/gawk/.debug/fnmatch.so": 4385, "/usr/lib/gawk/.debug/time.so": 4299, "/usr/bin/.debug/gawk-4.1.1": 64811, "/usr/lib/gawk/.debug/testext.so": 5437, "/usr/lib/gawk/.debug/ordchr.so": 4186, "/usr/lib/gawk/.debug/revtwoway.so": 4675}
+PKGSIZE_gawk-dbg: 198319

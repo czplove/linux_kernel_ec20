@@ -1,0 +1,14 @@
+PN: ql-common-tools
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-common-tools-staticdev: Quectel Common Tools  This package contains static libraries for software development.
+SUMMARY_ql-common-tools-staticdev: ql-common-tools version git-invalidgit-r01 - Development files (Static Libraries)
+RDEPENDS_ql-common-tools-staticdev: ql-common-tools-dev (= git-invalidgit-r01)
+SECTION_ql-common-tools-staticdev: devel
+PKG_ql-common-tools-staticdev: ql-common-tools-staticdev
+FILES_ql-common-tools-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-common-tools/*.a
+FILES_INFO: {}
+PKGSIZE_ql-common-tools-staticdev: 0

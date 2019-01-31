@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-cgi-cookie: perl module cgi-cookie
+SUMMARY_perl-module-cgi-cookie: perl module cgi-cookie
+RDEPENDS_perl-module-cgi-cookie: perl-module-cgi-util perl-module-cgi perl-module-if perl-module-overload perl perl-module-warnings perl-module-strict
+SECTION: devel
+PKG_perl-module-cgi-cookie: perl-module-cgi-cookie
+FILES_perl-module-cgi-cookie: /usr/lib/perl/5.20.0/CGI/Cookie.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/CGI/Cookie.pm": 16785}
+PKGSIZE_perl-module-cgi-cookie: 16785

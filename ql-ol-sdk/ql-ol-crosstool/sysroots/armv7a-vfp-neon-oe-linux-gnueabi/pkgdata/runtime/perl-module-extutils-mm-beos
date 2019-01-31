@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-beos: perl module extutils-mm-beos
+SUMMARY_perl-module-extutils-mm-beos: perl module extutils-mm-beos
+RDEPENDS_perl-module-extutils-mm-beos: perl-module-extutils-makemaker-config perl-module-extutils-mm-unix perl-module-file-spec perl perl-module-extutils-mm-any perl-module-strict
+SECTION: devel
+PKG_perl-module-extutils-mm-beos: perl-module-extutils-mm-beos
+FILES_perl-module-extutils-mm-beos: /usr/lib/perl/5.20.0/ExtUtils/MM_BeOS.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MM_BeOS.pm": 981}
+PKGSIZE_perl-module-extutils-mm-beos: 981

@@ -1,0 +1,16 @@
+PN: audio-ftm
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audio-ftm-dev: Audio FTM  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_audio-ftm-dev: audio-ftm version git-invalidgit-r4 - Development files
+RDEPENDS_audio-ftm-dev: audio-ftm (= git-invalidgit-r4)
+RRECOMMENDS_audio-ftm-dev: glib-2.0-dev glibc-dev common-dev alsa-intf-dev
+SECTION_audio-ftm-dev: devel
+PKG_audio-ftm-dev: audio-ftm-dev
+ALLOW_EMPTY_audio-ftm-dev: 1
+FILES_audio-ftm-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/audio-ftm/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/audio_ftm.pc": 197}
+PKGSIZE_audio-ftm-dev: 197

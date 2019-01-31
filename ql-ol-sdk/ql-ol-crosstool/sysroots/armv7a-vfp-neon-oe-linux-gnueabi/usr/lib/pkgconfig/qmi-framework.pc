@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: qmi-framework
+Description: QMI Framework library
+Version: 1.0.0
+Libs: -L${libdir} -lqmi_common_so -lqmi_encdec -lqmi_cci -lqmi_csi -lqmi_sap
+Cflags: -I${includedir}/qmi-framework

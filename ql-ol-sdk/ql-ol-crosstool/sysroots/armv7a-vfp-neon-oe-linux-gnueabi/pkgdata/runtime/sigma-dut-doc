@@ -1,0 +1,13 @@
+PN: sigma-dut
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_sigma-dut-doc: WFA certification testing tool for QCA devices  This package contains documentation.
+SUMMARY_sigma-dut-doc: sigma-dut version git-invalidgit-r0 - Documentation files
+SECTION_sigma-dut-doc: doc
+PKG_sigma-dut-doc: sigma-dut-doc
+FILES_sigma-dut-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_sigma-dut-doc: 0

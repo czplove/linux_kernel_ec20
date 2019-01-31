@@ -1,0 +1,13 @@
+PN: quectel-features-config
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Features Config
+SUMMARY: quectel-features-config version git-r1
+SECTION: base
+PKG_quectel-features-config-locale: quectel-features-config-locale
+FILES_quectel-features-config-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-locale: 0

@@ -1,0 +1,33 @@
+#  ---------------------------------------------------------------------------
+#   Copyright (c) 2011 Qualcomm Technologies, Inc.  All Rights Reserved.
+#   Qualcomm Technologies Proprietary and Confidential.
+#  ---------------------------------------------------------------------------
+#
+
+#! /bin/sh
+
+set -e
+
+case "$1" in
+start)
+		echo -n "Starting fs-scrub-daemon: "
+		start-stop-daemon -S -b -a /sbin/fs-scrub-daemon
+		echo "done"
+		;;
+	stop)
+		echo -n "Stopping fs-scrub-daemon: "
+		start-stop-daemon -K -n fs-scrub-daemon
+		echo "done"
+		;;
+	restart)
+		echo -n "Restarting fs-scrub-daemon: "
+		$0 stop
+		$0 start
+		;;
+	*)
+		echo "Usage start_fs-scrub-daemon{ start | stop | restart }" >&2
+		exit 1
+		;;
+esac
+
+exit 0

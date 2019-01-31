@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-fil-ph: locale definition for fil-ph
+SUMMARY_glibc-localedata-fil-ph: locale definition for fil-ph
+RDEPENDS_glibc-localedata-fil-ph: glibc-localedata-iso14651-t1 glibc-localedata-tl-ph
+SECTION: base
+PKG_glibc-localedata-fil-ph: glibc-localedata-fil-ph
+FILES_glibc-localedata-fil-ph: /usr/share/i18n/locales/fil_PH
+FILES_INFO: {"/usr/share/i18n/locales/fil_PH": 5786}
+PKGSIZE_glibc-localedata-fil-ph: 5786

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-my-mm: locale definition for my-mm
+SUMMARY_glibc-localedata-my-mm: locale definition for my-mm
+RDEPENDS_glibc-localedata-my-mm: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-my-mm: glibc-localedata-my-mm
+FILES_glibc-localedata-my-mm: /usr/share/i18n/locales/my_MM
+FILES_INFO: {"/usr/share/i18n/locales/my_MM": 9336}
+PKGSIZE_glibc-localedata-my-mm: 9336

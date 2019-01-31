@@ -1,0 +1,13 @@
+PN: jquery
+PV: 1.9.1
+PR: r0
+PKGV: 1.9.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-doc: JQUERY  This package contains documentation.
+SUMMARY_jquery-doc: jquery version 1.9.1-r0 - Documentation files
+SECTION_jquery-doc: doc
+PKG_jquery-doc: jquery-doc
+FILES_jquery-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_jquery-doc: 0

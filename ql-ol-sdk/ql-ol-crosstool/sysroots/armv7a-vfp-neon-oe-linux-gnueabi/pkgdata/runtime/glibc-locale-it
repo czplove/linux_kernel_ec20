@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-it: Locale data from glibc.  This package contains language translation files for the it locale.
+SUMMARY_glibc-locale-it: Locale data from glibc - it translations
+RPROVIDES_glibc-locale-it: glibc-locale it-translation
+RRECOMMENDS_glibc-locale-it: virtual-locale-it
+SECTION: base
+PKG_glibc-locale-it: glibc-locale-it
+FILES_glibc-locale-it: /usr/share/locale/it
+FILES_INFO: {"/usr/share/locale/it/LC_MESSAGES/libc.mo": 139288}
+PKGSIZE_glibc-locale-it: 139288

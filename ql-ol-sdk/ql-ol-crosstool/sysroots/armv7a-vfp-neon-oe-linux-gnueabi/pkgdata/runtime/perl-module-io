@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io: perl module io
+SUMMARY_perl-module-io: perl module io
+RDEPENDS_perl-module-io: perl-module-carp glibc (>= 2.21) perl perl-module-warnings perl-module-strict perl-module-xsloader
+SECTION: devel
+PKG_perl-module-io: perl-module-io
+FILES_perl-module-io: /usr/lib/perl/5.20.0/auto/IO/IO.so /usr/lib/perl/5.20.0/IO.pm
+FILERPROVIDESFLIST_perl-module-io: /usr/lib/perl/5.20.0/auto/IO/IO.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/IO/IO.so": 13412, "/usr/lib/perl/5.20.0/IO.pm": 1397}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/IO/IO.so_perl-module-io: IO.so elf(buildid) (= d8cf822c02b13d67c4a02cf45db13ceb8b6e1034)
+FILERDEPENDSFLIST_perl-module-io: /usr/lib/perl/5.20.0/auto/IO/IO.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/IO/IO.so_perl-module-io: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-io: 14809

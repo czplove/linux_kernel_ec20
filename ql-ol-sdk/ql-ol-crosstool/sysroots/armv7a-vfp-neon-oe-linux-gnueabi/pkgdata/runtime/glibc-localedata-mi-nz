@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mi-nz: locale definition for mi-nz
+SUMMARY_glibc-localedata-mi-nz: locale definition for mi-nz
+RDEPENDS_glibc-localedata-mi-nz: glibc-localedata-iso14651-t1 glibc-localedata-en-nz glibc-localedata-en-dk
+SECTION: base
+PKG_glibc-localedata-mi-nz: glibc-localedata-mi-nz
+FILES_glibc-localedata-mi-nz: /usr/share/i18n/locales/mi_NZ
+FILES_INFO: {"/usr/share/i18n/locales/mi_NZ": 5834}
+PKGSIZE_glibc-localedata-mi-nz: 5834

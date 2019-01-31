@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-inis-cyrillic: character map for inis-cyrillic encoding
+SUMMARY_glibc-charmap-inis-cyrillic: character map for inis-cyrillic encoding
+SECTION: base
+PKG_glibc-charmap-inis-cyrillic: glibc-charmap-inis-cyrillic
+FILES_glibc-charmap-inis-cyrillic: /usr/share/i18n/charmaps/INIS-CYRILLIC.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/INIS-CYRILLIC.gz": 1434}
+PKGSIZE_glibc-charmap-inis-cyrillic: 1434

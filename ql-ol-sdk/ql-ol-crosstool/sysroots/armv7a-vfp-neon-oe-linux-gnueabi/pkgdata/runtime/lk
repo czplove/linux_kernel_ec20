@@ -1,0 +1,13 @@
+PN: lk
+PV: git
+PR: r15
+PKGV: git
+PKGR: r15
+LICENSE: MIT
+DESCRIPTION: Little Kernel bootloader
+SUMMARY: lk version git-r15
+SECTION: base
+PKG_lk: lk
+FILES_lk: /boot
+FILES_INFO: {"/boot/appsboot.mbn": 407396}
+PKGSIZE_lk: 407396

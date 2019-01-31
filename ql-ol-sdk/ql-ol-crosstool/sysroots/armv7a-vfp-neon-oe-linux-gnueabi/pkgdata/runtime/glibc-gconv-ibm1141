@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm1141: gconv module for character set ibm1141
+SUMMARY_glibc-gconv-ibm1141: gconv module for character set ibm1141
+RDEPENDS_glibc-gconv-ibm1141: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm1141: glibc-gconv-ibm1141
+FILES_glibc-gconv-ibm1141: /usr/lib/gconv/IBM1141.so
+FILES_INFO: {"/usr/lib/gconv/IBM1141.so": 9584}
+PKGSIZE_glibc-gconv-ibm1141: 9584

@@ -1,0 +1,16 @@
+PN: quectel-remotefs
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-remotefs-dev: Quectel RemoteFs Service  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_quectel-remotefs-dev: quectel-remotefs version git-invalidgit-r1 - Development files
+RDEPENDS_quectel-remotefs-dev: quectel-remotefs (= git-invalidgit-r1)
+RRECOMMENDS_quectel-remotefs-dev: glibc-dev initscripts-dev
+SECTION_quectel-remotefs-dev: devel
+PKG_quectel-remotefs-dev: quectel-remotefs-dev
+ALLOW_EMPTY_quectel-remotefs-dev: 1
+FILES_quectel-remotefs-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/quectel-remotefs/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_quectel-remotefs-dev: 0

@@ -1,0 +1,13 @@
+PN: ql-common-tools
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-common-tools-doc: Quectel Common Tools  This package contains documentation.
+SUMMARY_ql-common-tools-doc: ql-common-tools version git-invalidgit-r01 - Documentation files
+SECTION_ql-common-tools-doc: doc
+PKG_ql-common-tools-doc: ql-common-tools-doc
+FILES_ql-common-tools-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-common-tools-doc: 0

@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-gl: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the gl locale.
+SUMMARY_attr-locale-gl: Utilities for manipulating filesystem extended attributes - gl translations
+RPROVIDES_attr-locale-gl: attr-locale gl-translation
+RRECOMMENDS_attr-locale-gl: virtual-locale-gl
+SECTION: libs
+PKG_attr-locale-gl: attr-locale-gl
+FILES_attr-locale-gl: /usr/share/locale/gl
+FILES_INFO: {"/usr/share/locale/gl/LC_MESSAGES/attr.mo": 6177}
+PKGSIZE_attr-locale-gl: 6177

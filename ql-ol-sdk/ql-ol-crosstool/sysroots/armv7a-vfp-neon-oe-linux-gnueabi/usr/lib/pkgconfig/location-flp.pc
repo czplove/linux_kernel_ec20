@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: location-flp
+Description: QTI GPS FLP
+Version: @VERSION
+Libs: -L${libdir} -lflp_default
+Cflags:

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm870: character map for ibm870 encoding
+SUMMARY_glibc-charmap-ibm870: character map for ibm870 encoding
+SECTION: base
+PKG_glibc-charmap-ibm870: glibc-charmap-ibm870
+FILES_glibc-charmap-ibm870: /usr/share/i18n/charmaps/IBM870.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM870.gz": 3103}
+PKGSIZE_glibc-charmap-ibm870: 3103

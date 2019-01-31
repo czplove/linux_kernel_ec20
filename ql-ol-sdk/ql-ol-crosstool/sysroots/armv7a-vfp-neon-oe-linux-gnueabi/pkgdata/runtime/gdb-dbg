@@ -1,0 +1,15 @@
+PN: gdb
+PV: 7.8.1
+PR: r0
+PKGV: 7.8.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION_gdb-dbg: GNU debugger.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_gdb-dbg: GNU debugger - Debugging files
+RRECOMMENDS_gdb-dbg: readline-dbg expat-dbg glibc-dbg zlib-dbg ncurses-libtinfo-dbg
+SECTION_gdb-dbg: devel
+PKG_gdb-dbg: gdb-dbg
+ALLOW_EMPTY_gdb-dbg: 1
+FILES_gdb-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/gdb/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/gdb/.debug /usr/lib/matchbox-panel/.debug /usr/lib/gdb/gdb/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/gdb": 619289, "/usr/bin/.debug/gdbserver": 57954}
+PKGSIZE_gdb-dbg: 677243

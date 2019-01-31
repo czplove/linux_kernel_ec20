@@ -1,0 +1,14 @@
+PN: expat
+PV: 2.1.0
+PR: r0
+PKGV: 2.1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_expat-doc: Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)  This package contains documentation.
+SUMMARY_expat-doc: A stream-oriented XML parser library - Documentation files
+RPROVIDES_expat-doc:  expat-doc
+SECTION_expat-doc: doc
+PKG_expat-doc: libexpat-doc
+FILES_expat-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/xmlwf.1": 7895}
+PKGSIZE_expat-doc: 7895

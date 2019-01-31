@@ -1,0 +1,16 @@
+PN: libusb-compat
+PE: 1
+PV: 0.1.5
+PR: r0
+PKGE: 1
+PKGV: 0.1.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb-compat-doc: libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1  This package contains documentation.
+SUMMARY_libusb-compat-doc: libusb-0.1 compatibility layer for libusb1 - Documentation files
+RPROVIDES_libusb-compat-doc:  libusb-compat-doc
+SECTION_libusb-compat-doc: doc
+PKG_libusb-compat-doc: libusb-0.1-doc
+FILES_libusb-compat-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libusb-compat-doc: 0

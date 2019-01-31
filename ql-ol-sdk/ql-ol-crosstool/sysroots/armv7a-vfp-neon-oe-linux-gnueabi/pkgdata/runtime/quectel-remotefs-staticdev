@@ -1,0 +1,14 @@
+PN: quectel-remotefs
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-remotefs-staticdev: Quectel RemoteFs Service  This package contains static libraries for software development.
+SUMMARY_quectel-remotefs-staticdev: quectel-remotefs version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-remotefs-staticdev: quectel-remotefs-dev (= git-invalidgit-r1)
+SECTION_quectel-remotefs-staticdev: devel
+PKG_quectel-remotefs-staticdev: quectel-remotefs-staticdev
+FILES_quectel-remotefs-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-remotefs/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-remotefs-staticdev: 0

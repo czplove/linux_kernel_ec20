@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ansi-x3.110: gconv module for character set ansi-x3.110
+SUMMARY_glibc-gconv-ansi-x3.110: gconv module for character set ansi-x3.110
+RDEPENDS_glibc-gconv-ansi-x3.110: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ansi-x3.110: glibc-gconv-ansi-x3.110
+FILES_glibc-gconv-ansi-x3.110: /usr/lib/gconv/ANSI_X3.110.so
+FILES_INFO: {"/usr/lib/gconv/ANSI_X3.110.so": 21876}
+PKGSIZE_glibc-gconv-ansi-x3.110: 21876

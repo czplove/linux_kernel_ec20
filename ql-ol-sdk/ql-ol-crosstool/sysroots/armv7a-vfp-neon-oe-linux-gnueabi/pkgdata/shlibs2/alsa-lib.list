@@ -1,0 +1,3 @@
+smixer-hda.so:/usr/lib/alsa-lib/smixer:1.0.28
+smixer-sbase.so:/usr/lib/alsa-lib/smixer:1.0.28
+smixer-ac97.so:/usr/lib/alsa-lib/smixer:1.0.28

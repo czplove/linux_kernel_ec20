@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-narrow: locale definition for translit-narrow
+SUMMARY_glibc-localedata-translit-narrow: locale definition for translit-narrow
+SECTION: base
+PKG_glibc-localedata-translit-narrow: glibc-localedata-translit-narrow
+FILES_glibc-localedata-translit-narrow: /usr/share/i18n/locales/translit_narrow
+FILES_INFO: {"/usr/share/i18n/locales/translit_narrow": 6210}
+PKGSIZE_glibc-localedata-translit-narrow: 6210

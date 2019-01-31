@@ -1,0 +1,14 @@
+PN: qcacld-ll
+PV: git
+PR: r7-3.18.20
+PKGV: git
+PKGR: r7-3.18.20
+LICENSE: ISC
+DESCRIPTION_qcacld-ll-staticdev: Qualcomm Atheros WLAN CLD driver  This package contains static libraries for software development.
+SUMMARY_qcacld-ll-staticdev: qcacld-ll version git-r7-3.18.20 - Development files (Static Libraries)
+RDEPENDS_qcacld-ll-staticdev: qcacld-ll-dev (= git-r7-3.18.20)
+SECTION_qcacld-ll-staticdev: devel
+PKG_qcacld-ll-staticdev: qcacld-ll-staticdev
+FILES_qcacld-ll-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qcacld-ll/*.a
+FILES_INFO: {}
+PKGSIZE_qcacld-ll-staticdev: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-yue-hk: locale definition for yue-hk
+SUMMARY_glibc-localedata-yue-hk: locale definition for yue-hk
+RDEPENDS_glibc-localedata-yue-hk: glibc-localedata-iso14651-t1 glibc-localedata-zh-hk glibc-localedata-zh-tw glibc-localedata-zh-cn
+SECTION: base
+PKG_glibc-localedata-yue-hk: glibc-localedata-yue-hk
+FILES_glibc-localedata-yue-hk: /usr/share/i18n/locales/yue_HK
+FILES_INFO: {"/usr/share/i18n/locales/yue_HK": 4477}
+PKGSIZE_glibc-localedata-yue-hk: 4477

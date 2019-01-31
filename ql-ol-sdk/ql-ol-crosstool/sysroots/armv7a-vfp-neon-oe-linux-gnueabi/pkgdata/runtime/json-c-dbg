@@ -1,0 +1,16 @@
+PN: json-c
+PV: 0.12
+PR: r0
+PKGV: 0.12
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_json-c-dbg: JSON-C implements a reference counting object model that allows you to easily construct JSON objects in C.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_json-c-dbg: C bindings for apps which will manipulate JSON data - Debugging files
+RPROVIDES_json-c-dbg:  json-c-dbg
+RRECOMMENDS_json-c-dbg: glibc-dbg
+SECTION_json-c-dbg: devel
+PKG_json-c-dbg: libjson-c-dbg
+ALLOW_EMPTY_json-c-dbg: 1
+FILES_json-c-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/json-c/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/json-c/.debug /usr/lib/matchbox-panel/.debug /usr/lib/json-c/json-c/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libjson-c.so.2.0.1": 18122}
+PKGSIZE_json-c-dbg: 18122

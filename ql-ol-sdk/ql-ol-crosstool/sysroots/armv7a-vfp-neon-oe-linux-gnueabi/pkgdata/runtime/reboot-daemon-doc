@@ -1,0 +1,13 @@
+PN: reboot-daemon
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_reboot-daemon-doc: Rebooter daemon  This package contains documentation.
+SUMMARY_reboot-daemon-doc: reboot-daemon version 1.0-r4 - Documentation files
+SECTION_reboot-daemon-doc: doc
+PKG_reboot-daemon-doc: reboot-daemon-doc
+FILES_reboot-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_reboot-daemon-doc: 0

@@ -1,0 +1,13 @@
+PN: quectel-monitor-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-monitor-daemon-doc: Quectel monitor daemon  This package contains documentation.
+SUMMARY_quectel-monitor-daemon-doc: quectel-monitor-daemon version git-invalidgit-r1 - Documentation files
+SECTION_quectel-monitor-daemon-doc: doc
+PKG_quectel-monitor-daemon-doc: quectel-monitor-daemon-doc
+FILES_quectel-monitor-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-monitor-daemon-doc: 0

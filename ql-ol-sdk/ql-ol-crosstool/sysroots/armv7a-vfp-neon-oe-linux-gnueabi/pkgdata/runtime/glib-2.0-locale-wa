@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-wa: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the wa locale.
+SUMMARY_glib-2.0-locale-wa: A general-purpose utility library - wa translations
+RPROVIDES_glib-2.0-locale-wa: glib-2.0-locale wa-translation glib-2.0-locale-wa
+RRECOMMENDS_glib-2.0-locale-wa: virtual-locale-wa
+SECTION: libs
+PKG_glib-2.0-locale-wa: libglib-2.0-locale-wa
+FILES_glib-2.0-locale-wa: /usr/share/locale/wa
+FILES_INFO: {"/usr/share/locale/wa/LC_MESSAGES/glib20.mo": 6389}
+PKGSIZE_glib-2.0-locale-wa: 6389

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-euc-jisx0213: character map for euc-jisx0213 encoding
+SUMMARY_glibc-charmap-euc-jisx0213: character map for euc-jisx0213 encoding
+SECTION: base
+PKG_glibc-charmap-euc-jisx0213: glibc-charmap-euc-jisx0213
+FILES_glibc-charmap-euc-jisx0213: /usr/share/i18n/charmaps/EUC-JISX0213.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EUC-JISX0213.gz": 69860}
+PKGSIZE_glibc-charmap-euc-jisx0213: 69860

@@ -1,0 +1,16 @@
+PN: pdc-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_pdc-daemon-dev: Persistent device config Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_pdc-daemon-dev: pdc-daemon version git-invalidgit-r1 - Development files
+RDEPENDS_pdc-daemon-dev: pdc-daemon (= git-invalidgit-r1)
+RRECOMMENDS_pdc-daemon-dev: glib-2.0-dev qmi-framework-dev glibc-dev initscripts-dev
+SECTION_pdc-daemon-dev: devel
+PKG_pdc-daemon-dev: pdc-daemon-dev
+ALLOW_EMPTY_pdc-daemon-dev: 1
+FILES_pdc-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/pdc-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_pdc-daemon-dev: 0

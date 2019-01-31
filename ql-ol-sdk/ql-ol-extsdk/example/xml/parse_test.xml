@@ -1,0 +1,12 @@
+<?xml version="1.0"?>  
+<company>  
+  <quectel>  
+    <title>example xml</title>  
+    <author>quectel</author>  
+    <date>2017-12</date>  
+  </quectel>
+  <body>  
+    <headline>This is the headline</headline>  
+    <para>This is the body text.</para>  
+  </body>  
+</company>  

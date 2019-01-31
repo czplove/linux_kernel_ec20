@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-compress-zlib: perl module compress-zlib
+SUMMARY_perl-module-compress-zlib: perl module compress-zlib
+RDEPENDS_perl-module-compress-zlib: perl-module-io-compress-base-common perl-module-carp perl-module-io-uncompress-gunzip perl perl-module-io-compress-gzip-constants perl-module-warnings perl-module-compress-raw-zlib perl-module-scalar-util perl-module-exporter perl-module-bytes perl-module-io-handle perl-module-strict perl-module-constant perl-module-io-compress-gzip
+SECTION: devel
+PKG_perl-module-compress-zlib: perl-module-compress-zlib
+FILES_perl-module-compress-zlib: /usr/lib/perl/5.20.0/Compress/Zlib.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Compress/Zlib.pm": 43922}
+PKGSIZE_perl-module-compress-zlib: 43922

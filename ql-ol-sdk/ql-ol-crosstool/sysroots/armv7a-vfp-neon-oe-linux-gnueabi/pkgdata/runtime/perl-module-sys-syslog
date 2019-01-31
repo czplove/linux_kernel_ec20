@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-sys-syslog: perl module sys-syslog
+SUMMARY_perl-module-sys-syslog: perl module sys-syslog
+RDEPENDS_perl-module-sys-syslog: perl-module-carp perl-module-warnings-register perl-module-dynaloader glibc (>= 2.21) perl-module-vars perl-module-warnings perl-module-sys-hostname perl-module-xsloader perl perl-module-exporter perl-module-fcntl perl-module-socket perl-module-posix perl-module-strict perl-module-file-basename
+SECTION: devel
+PKG_perl-module-sys-syslog: perl-module-sys-syslog
+FILES_perl-module-sys-syslog: /usr/lib/perl/5.20.0/auto/Sys/Syslog/Syslog.so /usr/lib/perl/5.20.0/Sys/Syslog.pm
+FILERPROVIDESFLIST_perl-module-sys-syslog: /usr/lib/perl/5.20.0/auto/Sys/Syslog/Syslog.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Sys/Syslog.pm": 46376, "/usr/lib/perl/5.20.0/auto/Sys/Syslog/Syslog.so": 12424}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Sys/Syslog/Syslog.so_perl-module-sys-syslog: Syslog.so elf(buildid) (= 0cd8c9adfd4a8be5ea8e70d8ea2d35dff09b9738)
+FILERDEPENDSFLIST_perl-module-sys-syslog: /usr/lib/perl/5.20.0/auto/Sys/Syslog/Syslog.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Sys/Syslog/Syslog.so_perl-module-sys-syslog: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-sys-syslog: 58800

@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-ia: Locale data from glibc.  This package contains language translation files for the ia locale.
+SUMMARY_glibc-locale-ia: Locale data from glibc - ia translations
+RPROVIDES_glibc-locale-ia: glibc-locale ia-translation
+RRECOMMENDS_glibc-locale-ia: virtual-locale-ia
+SECTION: base
+PKG_glibc-locale-ia: glibc-locale-ia
+FILES_glibc-locale-ia: /usr/share/locale/ia
+FILES_INFO: {"/usr/share/locale/ia/LC_MESSAGES/libc.mo": 61052}
+PKGSIZE_glibc-locale-ia: 61052

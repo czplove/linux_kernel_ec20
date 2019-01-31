@@ -1,0 +1,13 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION_ppp-doc: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.  This package contains documentation.
+SUMMARY_ppp-doc: Point-to-Point Protocol (PPP) support - Documentation files
+SECTION_ppp-doc: doc
+PKG_ppp-doc: ppp-doc
+FILES_ppp-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man8/pppd-radius.8": 1880, "/usr/share/man/man8/chat.8": 18789, "/usr/share/man/man8/pppdump.8": 1646, "/usr/share/man/man8/pppstats.8": 5526, "/usr/share/man/man8/pppd.8": 84654, "/usr/share/man/man8/pppd-radattr.8": 1129}
+PKGSIZE_ppp-doc: 113624

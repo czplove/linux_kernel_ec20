@@ -1,0 +1,21 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.
+SUMMARY: Avahi IPv4LL network address configuration daemon
+RDEPENDS_avahi-autoipd: glibc (>= 2.21) libdaemon (>= 0.14)
+SECTION: network
+PKG_avahi-autoipd: avahi-autoipd
+FILES_avahi-autoipd: /usr/sbin/avahi-autoipd                        /etc/avahi/avahi-autoipd.action                        /etc/dhcp3/*/avahi-autoipd
+pkg_postinst_avahi-autoipd: \tif [ "x$D" != "x" ]; then\n\t\texit 0\n\tfi\n\tgrep "^avahi-autoipd:" /etc/group > /dev/null || addgroup avahi-autoipd\n\tgrep "^avahi-autoipd:" /etc/passwd > /dev/null || adduser --disabled-password --system --home /var/lib/avahi-autoipd --no-create-home avahi-autoipd --ingroup avahi-autoipd -g "Avahi autoip daemon"\n
+pkg_postrm_avahi-autoipd: \tdeluser avahi-autoipd || true\n\tdelgroup avahi-autoipd || true\n
+FILERPROVIDESFLIST_avahi-autoipd: /usr/sbin/avahi-autoipd
+FILES_INFO: {"/usr/sbin/avahi-autoipd": 30056, "/etc/avahi/avahi-autoipd.action": 2509}
+FILERPROVIDES_/usr/sbin/avahi-autoipd_avahi-autoipd: elf(buildid) (= 2f06825224e54c8fd7ffb6eeef9337fb3602522e)
+FILERDEPENDSFLIST_avahi-autoipd: /usr/sbin/avahi-autoipd /etc/avahi/avahi-autoipd.action
+FILERDEPENDS_/usr/sbin/avahi-autoipd_avahi-autoipd: libc.so.6 libc.so.6(GLIBC_2.4) libdaemon.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/etc/avahi/avahi-autoipd.action_avahi-autoipd: /bin/sh
+PKGSIZE_avahi-autoipd: 32565

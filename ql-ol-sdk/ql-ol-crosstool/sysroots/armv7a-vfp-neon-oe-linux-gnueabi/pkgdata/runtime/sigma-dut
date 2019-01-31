@@ -1,0 +1,18 @@
+PN: sigma-dut
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION: WFA certification testing tool for QCA devices
+SUMMARY: sigma-dut version git-invalidgit-r0
+RDEPENDS_sigma-dut: glibc (>= 2.21)
+SECTION: base
+PKG_sigma-dut: sigma-dut
+FILES_sigma-dut: /usr/bin/* /usr/sbin/* /usr/lib/sigma-dut/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/sigma-dut /usr/lib/sigma-dut/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_sigma-dut: /usr/sbin/sigma@underscore@dut
+FILES_INFO: {"/usr/sbin/sigma_dut": 320992}
+FILERPROVIDES_/usr/sbin/sigma@underscore@dut_sigma-dut: elf(buildid) (= 31d257ad1a35d50117ba7fe441876d175db05165)
+FILERDEPENDSFLIST_sigma-dut: /usr/sbin/sigma@underscore@dut
+FILERDEPENDS_/usr/sbin/sigma@underscore@dut_sigma-dut: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_sigma-dut: 320992

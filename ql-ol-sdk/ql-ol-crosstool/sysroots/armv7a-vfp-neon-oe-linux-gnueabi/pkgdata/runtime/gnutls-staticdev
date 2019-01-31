@@ -1,0 +1,15 @@
+PN: gnutls
+PV: 3.3.12
+PR: r0
+PKGV: 3.3.12
+PKGR: r0
+LICENSE: GPLv3+ & LGPLv2.1+
+DESCRIPTION_gnutls-staticdev: GNU Transport Layer Security Library.  This package contains static libraries for software development.
+SUMMARY_gnutls-staticdev: GNU Transport Layer Security Library - Development files (Static Libraries)
+RDEPENDS_gnutls-staticdev: gnutls-dev (= 3.3.12-r0)
+RPROVIDES_gnutls-staticdev:  gnutls-staticdev
+SECTION_gnutls-staticdev: devel
+PKG_gnutls-staticdev: libgnutls-staticdev
+FILES_gnutls-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gnutls/*.a
+FILES_INFO: {}
+PKGSIZE_gnutls-staticdev: 0

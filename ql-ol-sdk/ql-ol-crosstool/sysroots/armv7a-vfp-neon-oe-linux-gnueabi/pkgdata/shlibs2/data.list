@@ -1,0 +1,9 @@
+libqdi.so.0:/usr/lib:git-invalidgit
+libdsi_netctrl.so.0:/usr/lib:git-invalidgit
+libqcmaputils.so.1:/usr/lib:git-invalidgit
+libnetmgr.so.0:/usr/lib:git-invalidgit
+libqcmap_cm.so.1:/usr/lib:git-invalidgit
+libqcmapipc.so.1:/usr/lib:git-invalidgit
+libqmi_ip.so.1:/usr/lib:git-invalidgit
+libqdp.so.0:/usr/lib:git-invalidgit
+libqcmap_client.so.1:/usr/lib:git-invalidgit

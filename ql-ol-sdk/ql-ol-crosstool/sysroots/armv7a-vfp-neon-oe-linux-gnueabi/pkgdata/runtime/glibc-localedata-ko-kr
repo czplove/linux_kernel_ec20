@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ko-kr: locale definition for ko-kr
+SUMMARY_glibc-localedata-ko-kr: locale definition for ko-kr
+RDEPENDS_glibc-localedata-ko-kr: glibc-localedata-translit-hangul glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ko-kr: glibc-localedata-ko-kr
+FILES_glibc-localedata-ko-kr: /usr/share/i18n/locales/ko_KR
+FILES_INFO: {"/usr/share/i18n/locales/ko_KR": 55176}
+PKGSIZE_glibc-localedata-ko-kr: 55176

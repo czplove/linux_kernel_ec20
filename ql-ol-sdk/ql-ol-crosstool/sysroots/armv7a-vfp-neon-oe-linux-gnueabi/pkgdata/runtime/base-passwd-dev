@@ -1,0 +1,16 @@
+PN: base-passwd
+PV: 3.5.29
+PR: r1
+PKGV: 3.5.29
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION_base-passwd-dev: The master copies of the user database files (/etc/passwd and /etc/group).  The update-passwd tool is also provided to keep the system databases synchronized with these master files.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_base-passwd-dev: Base system master password/group files - Development files
+RDEPENDS_base-passwd-dev: base-passwd (= 3.5.29-r1)
+RRECOMMENDS_base-passwd-dev: glibc-dev
+SECTION_base-passwd-dev: devel
+PKG_base-passwd-dev: base-passwd-dev
+ALLOW_EMPTY_base-passwd-dev: 1
+FILES_base-passwd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/base-passwd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_base-passwd-dev: 0

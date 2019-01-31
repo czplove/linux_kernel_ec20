@@ -1,0 +1,14 @@
+PN: mbim
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mbim-staticdev: USB Mobile Broadband Interface Model (MBIM) Command Processor  This package contains static libraries for software development.
+SUMMARY_mbim-staticdev: mbim version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_mbim-staticdev: mbim-dev (= git-invalidgit-r2)
+SECTION_mbim-staticdev: devel
+PKG_mbim-staticdev: mbim-staticdev
+FILES_mbim-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/mbim/*.a
+FILES_INFO: {}
+PKGSIZE_mbim-staticdev: 0

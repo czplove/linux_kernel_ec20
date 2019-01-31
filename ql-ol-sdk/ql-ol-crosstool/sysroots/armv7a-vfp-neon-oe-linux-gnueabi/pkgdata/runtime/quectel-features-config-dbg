@@ -1,0 +1,14 @@
+PN: quectel-features-config
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-features-config-dbg: Quectel Features Config  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_quectel-features-config-dbg: quectel-features-config version git-r1 - Debugging files
+SECTION_quectel-features-config-dbg: devel
+PKG_quectel-features-config-dbg: quectel-features-config-dbg
+ALLOW_EMPTY_quectel-features-config-dbg: 1
+FILES_quectel-features-config-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/quectel-features-config/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/quectel-features-config/.debug /usr/lib/matchbox-panel/.debug /usr/lib/quectel-features-config/quectel-features-config/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-dbg: 0

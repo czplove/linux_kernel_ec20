@@ -1,0 +1,16 @@
+PN: ftm
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ftm-dev: Qualcomm Technologies ftmdaemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ftm-dev: ftm version git-invalidgit-r1 - Development files
+RDEPENDS_ftm-dev: ftm (= git-invalidgit-r1)
+RRECOMMENDS_ftm-dev: libnl-genl-dev glibc-dev ath6kl-utils-dev libnl-dev libgcc-dev glib-2.0-dev diag-dev
+SECTION_ftm-dev: devel
+PKG_ftm-dev: ftm-dev
+ALLOW_EMPTY_ftm-dev: 1
+FILES_ftm-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ftm/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ftm-dev: 0

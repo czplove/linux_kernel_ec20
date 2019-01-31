@@ -1,0 +1,19 @@
+PN: curl
+PV: 7.40.0
+PR: r0
+PKGV: 7.40.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Command line tool and library for client-side URL transfers.
+SUMMARY: Command line tool and library for client-side URL transfers
+RDEPENDS_libcurl: nettle (>= 2.7.1) gnutls (>= 3.3.12) glibc (>= 2.21) gmp (>= 6.0.0) zlib (>= 1.2.8)
+RPROVIDES_libcurl:  libcurl
+SECTION: console/network
+PKG_libcurl: libcurl5
+FILES_libcurl: /usr/lib/lib*.so.*
+FILERPROVIDESFLIST_libcurl: /usr/lib/libcurl.so.5.3.0
+FILES_INFO: {"/usr/lib/libcurl.so.5": 310804}
+FILERPROVIDES_/usr/lib/libcurl.so.5.3.0_libcurl: elf(buildid) (= e348316333607260fe5287af44c6c354bad0c76f) libcurl.so.5
+FILERDEPENDSFLIST_libcurl: /usr/lib/libcurl.so.5.3.0
+FILERDEPENDS_/usr/lib/libcurl.so.5.3.0_libcurl: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libgmp.so.10 libgnutls.so.28 libgnutls.so.28(GNUTLS_1_4) libgnutls.so.28(GNUTLS_2_12) libhogweed.so.2 libnettle.so.4 libz.so.1 rtld(GNU_HASH)
+PKGSIZE_libcurl: 310804

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-load: perl module load
+SUMMARY_perl-module-load: perl module load
+RDEPENDS_perl-module-load: perl-module-carp perl-module-corelist perl-module-locale-maketext-simple perl-module-config perl-module-vars perl-module-file-spec perl-module-warnings perl-module-filehandle perl-module-load perl-module-exporter perl-module-params-check perl-module-strict perl-module-constant perl perl-module-version
+SECTION: devel
+PKG_perl-module-load: perl-module-load
+FILES_perl-module-load: /usr/lib/perl/5.20.0/Module/Load.pm /usr/lib/perl/5.20.0/Module/Load/Conditional.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Module/Load.pm": 8517, "/usr/lib/perl/5.20.0/Module/Load/Conditional.pm": 18511}
+PKGSIZE_perl-module-load: 27028

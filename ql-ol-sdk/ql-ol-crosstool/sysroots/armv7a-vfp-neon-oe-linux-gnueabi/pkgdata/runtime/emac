@@ -1,0 +1,15 @@
+PN: emac
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION: emac init.d script
+SUMMARY: emac version git-r0
+SECTION: base
+PKG_emac: emac
+FILES_emac: /usr/bin/* /usr/sbin/* /usr/lib/emac/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/emac /usr/lib/emac/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/etc/init.d/start_emac_le": 2730}
+FILERDEPENDSFLIST_emac: /etc/init.d/start@underscore@emac@underscore@le
+FILERDEPENDS_/etc/init.d/start@underscore@emac@underscore@le_emac: /bin/sh
+PKGSIZE_emac: 2730

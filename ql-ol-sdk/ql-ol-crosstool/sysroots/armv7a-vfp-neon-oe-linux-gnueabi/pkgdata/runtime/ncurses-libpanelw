@@ -1,0 +1,19 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libpanelw: ncurses panelw library
+SUMMARY_ncurses-libpanelw: ncurses panelw library
+RDEPENDS_ncurses-libpanelw: glibc (>= 2.21) ncurses-libtinfo (>= 5.9) ncurses-libncursesw (>= 5.9)
+RPROVIDES_ncurses-libpanelw:  ncurses-libpanelw
+SECTION: libs
+PKG_ncurses-libpanelw: libpanelw5
+FILES_ncurses-libpanelw: /usr/lib/libpanelw.so.5 /usr/lib/libpanelw.so.5.9
+FILERPROVIDESFLIST_ncurses-libpanelw: /usr/lib/libpanelw.so.5.9
+FILES_INFO: {"/usr/lib/libpanelw.so.5": 9168}
+FILERPROVIDES_/usr/lib/libpanelw.so.5.9_ncurses-libpanelw: elf(buildid) (= ac934b483d456251e8ea99cdb756fe62a442afec) libpanelw.so.5
+FILERDEPENDSFLIST_ncurses-libpanelw: /usr/lib/libpanelw.so.5.9
+FILERDEPENDS_/usr/lib/libpanelw.so.5.9_ncurses-libpanelw: libc.so.6 libc.so.6(GLIBC_2.4) libncursesw.so.5 libtinfo.so.5 rtld(GNU_HASH)
+PKGSIZE_ncurses-libpanelw: 9168

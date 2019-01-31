@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-th: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the th locale.
+SUMMARY_glib-2.0-locale-th: A general-purpose utility library - th translations
+RPROVIDES_glib-2.0-locale-th: glib-2.0-locale th-translation glib-2.0-locale-th
+RRECOMMENDS_glib-2.0-locale-th: virtual-locale-th
+SECTION: libs
+PKG_glib-2.0-locale-th: libglib-2.0-locale-th
+FILES_glib-2.0-locale-th: /usr/share/locale/th
+FILES_INFO: {"/usr/share/locale/th/LC_MESSAGES/glib20.mo": 147750}
+PKGSIZE_glib-2.0-locale-th: 147750

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-uncompress-base: perl module io-uncompress-base
+SUMMARY_perl-module-io-uncompress-base: perl module io-uncompress-base
+RDEPENDS_perl-module-io-uncompress-base: perl-module-io-compress-base-common perl-module-carp perl-module-list-util perl perl-module-scalar-util perl-module-warnings perl-module-symbol perl-module-io-file perl-module-strict perl-module-constant
+SECTION: devel
+PKG_perl-module-io-uncompress-base: perl-module-io-uncompress-base
+FILES_perl-module-io-uncompress-base: /usr/lib/perl/5.20.0/IO/Uncompress/Base.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Uncompress/Base.pm": 38070}
+PKGSIZE_perl-module-io-uncompress-base: 38070

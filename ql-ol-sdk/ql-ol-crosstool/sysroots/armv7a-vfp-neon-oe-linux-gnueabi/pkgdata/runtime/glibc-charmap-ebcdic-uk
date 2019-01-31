@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ebcdic-uk: character map for ebcdic-uk encoding
+SUMMARY_glibc-charmap-ebcdic-uk: character map for ebcdic-uk encoding
+SECTION: base
+PKG_glibc-charmap-ebcdic-uk: glibc-charmap-ebcdic-uk
+FILES_glibc-charmap-ebcdic-uk: /usr/share/i18n/charmaps/EBCDIC-UK.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/EBCDIC-UK.gz": 2129}
+PKGSIZE_glibc-charmap-ebcdic-uk: 2129

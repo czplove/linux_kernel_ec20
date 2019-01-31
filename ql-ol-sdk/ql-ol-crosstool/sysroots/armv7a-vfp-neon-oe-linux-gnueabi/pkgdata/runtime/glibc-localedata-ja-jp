@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ja-jp: locale definition for ja-jp
+SUMMARY_glibc-localedata-ja-jp: locale definition for ja-jp
+RDEPENDS_glibc-localedata-ja-jp: glibc-localedata-translit-cjk-variants glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ja-jp: glibc-localedata-ja-jp
+FILES_glibc-localedata-ja-jp: /usr/share/i18n/locales/ja_JP
+FILES_INFO: {"/usr/share/i18n/locales/ja_JP": 222300}
+PKGSIZE_glibc-localedata-ja-jp: 222300

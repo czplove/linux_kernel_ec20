@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tl-ph: locale definition for tl-ph
+SUMMARY_glibc-localedata-tl-ph: locale definition for tl-ph
+RDEPENDS_glibc-localedata-tl-ph: glibc-localedata-iso14651-t1 glibc-localedata-en-us glibc-localedata-en-dk
+SECTION: base
+PKG_glibc-localedata-tl-ph: glibc-localedata-tl-ph
+FILES_glibc-localedata-tl-ph: /usr/share/i18n/locales/tl_PH
+FILES_INFO: {"/usr/share/i18n/locales/tl_PH": 5110}
+PKGSIZE_glibc-localedata-tl-ph: 5110

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ca-ad: locale definition for ca-ad
+SUMMARY_glibc-localedata-ca-ad: locale definition for ca-ad
+RDEPENDS_glibc-localedata-ca-ad: glibc-localedata-ca-es
+SECTION: base
+PKG_glibc-localedata-ca-ad: glibc-localedata-ca-ad
+FILES_glibc-localedata-ca-ad: /usr/share/i18n/locales/ca_AD
+FILES_INFO: {"/usr/share/i18n/locales/ca_AD": 2113}
+PKGSIZE_glibc-localedata-ca-ad: 2113

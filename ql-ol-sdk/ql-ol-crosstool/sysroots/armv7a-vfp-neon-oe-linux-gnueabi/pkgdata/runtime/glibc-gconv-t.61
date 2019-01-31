@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-t.61: gconv module for character set t.61
+SUMMARY_glibc-gconv-t.61: gconv module for character set t.61
+RDEPENDS_glibc-gconv-t.61: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-t.61: glibc-gconv-t.61
+FILES_glibc-gconv-t.61: /usr/lib/gconv/T.61.so
+FILES_INFO: {"/usr/lib/gconv/T.61.so": 17772}
+PKGSIZE_glibc-gconv-t.61: 17772

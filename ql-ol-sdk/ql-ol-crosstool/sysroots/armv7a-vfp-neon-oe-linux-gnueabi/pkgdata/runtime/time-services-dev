@@ -1,0 +1,16 @@
+PN: time-services
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_time-services-dev: Time Services Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_time-services-dev: time-services version git-invalidgit-r9 - Development files
+RDEPENDS_time-services-dev: time-services (= git-invalidgit-r9)
+RRECOMMENDS_time-services-dev: glib-2.0-dev qmi-framework-dev glibc-dev diag-dev initscripts-dev
+SECTION_time-services-dev: devel
+PKG_time-services-dev: time-services-dev
+ALLOW_EMPTY_time-services-dev: 1
+FILES_time-services-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/time-services/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_time-services-dev: 0

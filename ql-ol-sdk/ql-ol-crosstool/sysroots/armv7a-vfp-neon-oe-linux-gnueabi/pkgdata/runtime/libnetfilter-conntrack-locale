@@ -1,0 +1,13 @@
+PN: libnetfilter-conntrack
+PV: 0.9.1
+PR: r0
+PKGV: 0.9.1
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Userspace library providing a programming interface (API) to the in-kernel connection tracking state table
+SUMMARY: libnetfilter-conntrack version 0.9.1-r0
+SECTION: base
+PKG_libnetfilter-conntrack-locale: libnetfilter-conntrack-locale
+FILES_libnetfilter-conntrack-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libnetfilter-conntrack-locale: 0

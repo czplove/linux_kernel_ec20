@@ -1,0 +1,13 @@
+PN: libexif
+PV: 0.6.21
+PR: r0
+PKGV: 0.6.21
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_libexif-doc: Library to read the extended image information (EXIF) from JPEG pictures.  This package contains documentation.
+SUMMARY_libexif-doc: Library to read the extended image information (EXIF) from JPEG pictures - Documentation files
+SECTION_libexif-doc: doc
+PKG_libexif-doc: libexif-doc
+FILES_libexif-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/doc/libexif/NEWS": 6173, "/usr/share/doc/libexif/ABOUT-NLS": 53838, "/usr/share/doc/libexif/README": 6142, "/usr/share/doc/libexif/COPYING": 26434, "/usr/share/doc/libexif/ChangeLog": 67816, "/usr/share/doc/libexif/AUTHORS": 162}
+PKGSIZE_libexif-doc: 160565

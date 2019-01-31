@@ -1,0 +1,53 @@
+#
+# Optional quectel drivers configuration
+#
+
+menu "Quectel optional drivers"
+
+config QUECTEL_DRIVER
+	bool "quectel drivers"
+	default y
+	---help---
+	  Quectel Drivers.
+
+if QUECTEL_DRIVER
+
+config LOW_POWER_CONSUME
+	bool "low power consume driver"
+	default n
+	---help---
+	  Low power consume driver, refer to KBA document.
+
+config LOW_POWER_CONSUME_V2
+	tristate "low power consume driver v2"
+	default m
+	---help---
+	  Low power consume driver v2, refer to KBA document.
+
+config QTZONE
+	bool "quectel trust zone support"
+	default n
+	---help---
+	  Trust zone function, consult quectel engineer further.
+
+config QSTART
+	bool "QSTART"
+	default y
+	---help---
+	  legacy
+
+config QSMD
+	bool "QSMD"
+	default n
+	---help---
+	  legacy
+
+config QSMEM
+	bool "QSMEM"
+	default n
+	---help---
+	  legacy
+
+endif
+
+endmenu

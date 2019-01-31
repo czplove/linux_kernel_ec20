@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-threading: Python threading & synchronization support
+RDEPENDS_python-threading: python-core python-lang
+SECTION: devel/python
+PKG_python-threading: python-threading
+FILES_python-threading: /usr/lib/python2.7/_threading_local.* /usr/lib/python2.7/dummy_thread.* /usr/lib/python2.7/dummy_threading.* /usr/lib/python2.7/mutex.* /usr/lib/python2.7/threading.* /usr/lib/python2.7/Queue.* 
+FILES_INFO: {"/usr/lib/python2.7/dummy_thread.pyc": 5364, "/usr/lib/python2.7/_threading_local.pyc": 6586, "/usr/lib/python2.7/dummy_threading.pyc": 1283, "/usr/lib/python2.7/Queue.pyc": 9368, "/usr/lib/python2.7/threading.py": 47330, "/usr/lib/python2.7/mutex.pyc": 2501, "/usr/lib/python2.7/_threading_local.py": 7456, "/usr/lib/python2.7/dummy_thread.py": 4418, "/usr/lib/python2.7/dummy_threading.py": 2804, "/usr/lib/python2.7/Queue.py": 8577, "/usr/lib/python2.7/threading.pyc": 42515, "/usr/lib/python2.7/mutex.py": 1877}
+PKGSIZE_python-threading: 140079

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ebcdic-pt: gconv module for character set ebcdic-pt
+SUMMARY_glibc-gconv-ebcdic-pt: gconv module for character set ebcdic-pt
+RDEPENDS_glibc-gconv-ebcdic-pt: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ebcdic-pt: glibc-gconv-ebcdic-pt
+FILES_glibc-gconv-ebcdic-pt: /usr/lib/gconv/EBCDIC-PT.so
+FILES_INFO: {"/usr/lib/gconv/EBCDIC-PT.so": 9588}
+PKGSIZE_glibc-gconv-ebcdic-pt: 9588

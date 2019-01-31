@@ -1,0 +1,3 @@
+#!/bin/sh
+echo '--should-not-have-used-/usr/bin/pcre-config'
+exit 1

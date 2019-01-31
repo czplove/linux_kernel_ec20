@@ -1,0 +1,28 @@
+Subsystem: kernel-tests/glink
+
+Test: run.sh [-n | --nominal] [-a | --adversarial] [-r | --repeatability] [-s| stress ] [--custom_flag X]
+Parameters:
+  -v: Verbosity (Set to 0 for minimal verbosity, 1 to include details)
+  -n: Nominal test case (runs all level 0 unit tests)
+  -a: Adversarial test case (runs all unit tests)
+  -r: Repeatability test case (Run -n and -a 10 times each)
+  -s: Stress test case (runs all unit tests)
+  --custom_flag: Not used
+
+Description:
+  G-Link, short for Generic Link, is a generic link-layer transport that
+  supports a plug-in framework for physical transports. This allows it to adapt
+  to different physical transports such as shared memory, UARTs, buses, and DMA.
+
+  See the <kernel>/Documentation/arm/msm/glink.txt file for more details.
+
+  This test suite contains a mock transport, loopback transport, loopback
+  client, and unit tests. The unit tests validate behavior against mock objects,
+  local loopback system, and remote loopback with different subsystems.
+  Verified behavior includes:
+       * channel state behavior and callbacks
+       * basic data transfer
+       * performance including throughput and latency
+
+Target support: Future
+Notes: A subset of the tests are run for automation.

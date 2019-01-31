@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tig-er: locale definition for tig-er
+SUMMARY_glibc-localedata-tig-er: locale definition for tig-er
+RDEPENDS_glibc-localedata-tig-er: glibc-localedata-ti-er
+SECTION: base
+PKG_glibc-localedata-tig-er: glibc-localedata-tig-er
+FILES_glibc-localedata-tig-er: /usr/share/i18n/locales/tig_ER
+FILES_INFO: {"/usr/share/i18n/locales/tig_ER": 5659}
+PKGSIZE_glibc-localedata-tig-er: 5659

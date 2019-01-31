@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: quectel-data-openAPI
+Description: quectel data openAPI package
+Version: 1.0.0
+Libs: -L${libdir} -lquectel_data_wwanAPI
+Cflags: -I${includedir}/quectel-data-openAPI

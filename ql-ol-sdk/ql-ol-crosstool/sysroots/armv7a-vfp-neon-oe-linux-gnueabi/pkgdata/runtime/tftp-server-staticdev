@@ -1,0 +1,14 @@
+PN: tftp-server
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_tftp-server-staticdev: tftp_server server module  This package contains static libraries for software development.
+SUMMARY_tftp-server-staticdev: tftp-server version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_tftp-server-staticdev: tftp-server-dev (= git-invalidgit-r1)
+SECTION_tftp-server-staticdev: devel
+PKG_tftp-server-staticdev: tftp-server-staticdev
+FILES_tftp-server-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/tftp-server/*.a
+FILES_INFO: {}
+PKGSIZE_tftp-server-staticdev: 0

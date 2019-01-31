@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-aa-er: locale definition for aa-er
+SUMMARY_glibc-localedata-aa-er: locale definition for aa-er
+RDEPENDS_glibc-localedata-aa-er: glibc-localedata-ti-er glibc-localedata-aa-et
+SECTION: base
+PKG_glibc-localedata-aa-er: glibc-localedata-aa-er
+FILES_glibc-localedata-aa-er: /usr/share/i18n/locales/aa_ER
+FILES_INFO: {"/usr/share/i18n/locales/aa_ER": 6566}
+PKGSIZE_glibc-localedata-aa-er: 6566

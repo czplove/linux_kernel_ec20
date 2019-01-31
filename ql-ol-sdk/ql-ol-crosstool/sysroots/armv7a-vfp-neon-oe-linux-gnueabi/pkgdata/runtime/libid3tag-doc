@@ -1,0 +1,13 @@
+PN: libid3tag
+PV: 0.15.1b
+PR: r7
+PKGV: 0.15.1b
+PKGR: r7
+LICENSE: GPLv2+
+DESCRIPTION_libid3tag-doc: Library for interacting with ID3 tags in MP3 files.  This package contains documentation.
+SUMMARY_libid3tag-doc: Library for interacting with ID3 tags in MP3 files - Documentation files
+SECTION_libid3tag-doc: doc
+PKG_libid3tag-doc: libid3tag-doc
+FILES_libid3tag-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libid3tag-doc: 0

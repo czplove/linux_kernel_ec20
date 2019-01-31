@@ -1,0 +1,13 @@
+PN: quectel-gps-handle
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel uart data dispatch
+SUMMARY: quectel-gps-handle version git-invalidgit-r1
+SECTION: base
+PKG_quectel-gps-handle-locale: quectel-gps-handle-locale
+FILES_quectel-gps-handle-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-gps-handle-locale: 0

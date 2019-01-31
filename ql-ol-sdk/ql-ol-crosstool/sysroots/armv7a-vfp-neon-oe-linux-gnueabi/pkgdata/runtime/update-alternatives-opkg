@@ -1,0 +1,18 @@
+PN: opkg-utils
+PV: 0.1.8+gitAUTOINC+53274f0875
+PR: r0
+PKGV: 0.1.8+git0+53274f0875
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Additional utilities for the opkg package manager.
+SUMMARY_update-alternatives-opkg: Utility for managing the alternatives system
+RPROVIDES_update-alternatives-opkg: update-alternatives update-alternatives-cworth
+RREPLACES_update-alternatives-opkg: update-alternatives-cworth
+RCONFLICTS_update-alternatives-opkg: update-alternatives-cworth
+SECTION: base
+PKG_update-alternatives-opkg: update-alternatives-opkg
+FILES_update-alternatives-opkg: /usr/bin/update-alternatives
+FILES_INFO: {"/usr/bin/update-alternatives": 4341}
+FILERDEPENDSFLIST_update-alternatives-opkg: /usr/bin/update-alternatives
+FILERDEPENDS_/usr/bin/update-alternatives_update-alternatives-opkg: /bin/sh
+PKGSIZE_update-alternatives-opkg: 4341

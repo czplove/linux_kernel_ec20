@@ -1,0 +1,14 @@
+PN: qemuwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_qemuwrapper-cross-dbg: QEMU wrapper script.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qemuwrapper-cross-dbg: QEMU wrapper script - Debugging files
+SECTION_qemuwrapper-cross-dbg: devel
+PKG_qemuwrapper-cross-dbg: qemuwrapper-cross-dbg
+ALLOW_EMPTY_qemuwrapper-cross-dbg: 1
+FILES_qemuwrapper-cross-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qemuwrapper/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qemuwrapper/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qemuwrapper/qemuwrapper/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_qemuwrapper-cross-dbg: 0

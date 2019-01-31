@@ -1,0 +1,16 @@
+PN: qcacld-ll
+PV: git
+PR: r7-3.18.20
+PKGV: git
+PKGR: r7-3.18.20
+LICENSE: ISC
+DESCRIPTION_kernel-module-wlan: wlan kernel module; WLAN HOST DEVICE DRIVER
+SUMMARY_kernel-module-wlan: wlan kernel module
+RDEPENDS_kernel-module-wlan: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-wlan: kernel-module-wlan
+FILES_kernel-module-wlan: /lib/modules/3.18.20/extra/wlan.ko /etc/modules-load.d/wlan.conf /etc/modprobe.d/wlan.conf
+pkg_postinst_kernel-module-wlan: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-wlan: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {}
+PKGSIZE_kernel-module-wlan: 0

@@ -1,0 +1,16 @@
+PN: libnfnetlink
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnfnetlink-dev: libnfnetlink is the low-level library for netfilter related kernel/userspace communication  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libnfnetlink-dev: libnfnetlink version 1.0.0-r0 - Development files
+RDEPENDS_libnfnetlink-dev: libnfnetlink (= 1.0.0-r0)
+RRECOMMENDS_libnfnetlink-dev: glibc-dev
+SECTION_libnfnetlink-dev: devel
+PKG_libnfnetlink-dev: libnfnetlink-dev
+ALLOW_EMPTY_libnfnetlink-dev: 1
+FILES_libnfnetlink-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnfnetlink/*.la /lib/*.la
+FILES_INFO: {"/usr/include/libnfnetlink/linux_nfnetlink.h": 2574, "/usr/lib/libnfnetlink.la": 945, "/usr/lib/libnfnetlink.so": 21, "/usr/include/libnfnetlink/linux_nfnetlink_compat.h": 2407, "/usr/lib/pkgconfig/libnfnetlink.pc": 323, "/usr/include/libnfnetlink/libnfnetlink.h": 7970}
+PKGSIZE_libnfnetlink-dev: 14240

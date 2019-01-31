@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sc-it: locale definition for sc-it
+SUMMARY_glibc-localedata-sc-it: locale definition for sc-it
+RDEPENDS_glibc-localedata-sc-it: glibc-localedata-it-it glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-sc-it: glibc-localedata-sc-it
+FILES_glibc-localedata-sc-it: /usr/share/i18n/locales/sc_IT
+FILES_INFO: {"/usr/share/i18n/locales/sc_IT": 4462}
+PKGSIZE_glibc-localedata-sc-it: 4462

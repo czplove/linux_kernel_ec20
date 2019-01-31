@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-2022-jp-3: gconv module for character set iso-2022-jp-3
+SUMMARY_glibc-gconv-iso-2022-jp-3: gconv module for character set iso-2022-jp-3
+RDEPENDS_glibc-gconv-iso-2022-jp-3: glibc-gconv-libjisx0213 (>= 2.21) glibc (>= 2.21) glibc-gconv-libjis (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso-2022-jp-3: glibc-gconv-iso-2022-jp-3
+FILES_glibc-gconv-iso-2022-jp-3: /usr/lib/gconv/ISO-2022-JP-3.so
+FILES_INFO: {"/usr/lib/gconv/ISO-2022-JP-3.so": 21924}
+PKGSIZE_glibc-gconv-iso-2022-jp-3: 21924

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-latin-greek: gconv module for character set latin-greek
+SUMMARY_glibc-gconv-latin-greek: gconv module for character set latin-greek
+RDEPENDS_glibc-gconv-latin-greek: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-latin-greek: glibc-gconv-latin-greek
+FILES_glibc-gconv-latin-greek: /usr/lib/gconv/LATIN-GREEK.so
+FILES_INFO: {"/usr/lib/gconv/LATIN-GREEK.so": 9588}
+PKGSIZE_glibc-gconv-latin-greek: 9588

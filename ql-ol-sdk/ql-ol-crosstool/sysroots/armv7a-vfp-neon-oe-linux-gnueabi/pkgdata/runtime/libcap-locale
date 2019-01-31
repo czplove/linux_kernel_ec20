@@ -1,0 +1,13 @@
+PN: libcap
+PV: 2.24
+PR: r0
+PKGV: 2.24
+PKGR: r0
+LICENSE: BSD | GPLv2
+DESCRIPTION: Library for getting/setting POSIX.1e capabilities.
+SUMMARY: Library for getting/setting POSIX.1e capabilities
+SECTION: base
+PKG_libcap-locale: libcap-locale
+FILES_libcap-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libcap-locale: 0

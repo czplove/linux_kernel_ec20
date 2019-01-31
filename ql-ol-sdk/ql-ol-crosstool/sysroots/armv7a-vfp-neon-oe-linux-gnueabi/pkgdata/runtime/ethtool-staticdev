@@ -1,0 +1,14 @@
+PN: ethtool
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_ethtool-staticdev: ethtool is the standard Linux utility for controlling networkdrivers and hardware, particularly for wired Ethernet devices  This package contains static libraries for software development.
+SUMMARY_ethtool-staticdev: ethtool is the standard Linux utility for managing Ethernet Drivers - Development files (Static Libraries)
+RDEPENDS_ethtool-staticdev: ethtool-dev (= git-r2)
+SECTION_ethtool-staticdev: devel
+PKG_ethtool-staticdev: ethtool-staticdev
+FILES_ethtool-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ethtool/*.a
+FILES_INFO: {}
+PKGSIZE_ethtool-staticdev: 0

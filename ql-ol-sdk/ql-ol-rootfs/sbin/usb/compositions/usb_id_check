@@ -1,0 +1,60 @@
+#!/bin/sh
+
+#add by Max.tang ot check if USB ID is defined by Quectel
+#Param1: USB PID; Param2: USB VID
+#The default USB configuration file is /sbin/usb/compositions/9025. 
+
+
+TMP_PID=`cat /sys/class/android_usb/android0/idProduct`
+TMP_VID=`cat /sys/class/android_usb/android0/idVendor`
+CUR_PID=$(echo $TMP_PID | tr [a-z] [A-Z])
+CUR_VID=$(echo $TMP_VID | tr [a-z] [A-Z])
+
+TestPid = $1
+TestVid = $2
+TestPid=$(echo $1 | tr [a-z] [A-Z])
+TestVid=$(echo $2 | tr [a-z] [A-Z])
+
+B_USB_ORG=`ls -l /sbin/usb/boot_hsusb_composition | grep compositions/9025`
+
+echo "[Max][USB_DEF_ID_CHECK] cur usb id: pid is $CUR_PID,vid is $CUR_VID" > /dev/kmsg
+echo "[Max][USB_DEF_ID_CHECK] test usb id: pid's $TestPid,vid is $TestVid" > /dev/kmsg
+echo "[Max][USB_DEF_ID_CHECK] B_USB_ORG=[$B_USB_ORG]" > /dev/kmsg
+
+if [ -n "$B_USB_ORG" ]
+then
+echo "[Max][USB_DEF_ID_CHECK] USB ID is still defined by Quectel! So check it..." > /dev/kmsg
+else
+echo "[Max][USB_DEF_ID_CHECK] USB ID is defined by customer! So back to default scrpit(9025)" > /dev/kmsg
+ln -s  /sinb/usb/compositions/9025 /sbin/usb/boot_hsusb_composition
+fi
+
+
+if [ "$CUR_PID" = "$TestPid" ]
+then 
+echo "[Max][USB_DEF_ID_CHECK] test usb PID is the same with cur usb id" > /dev/kmsg
+
+if [ "$CUR_VID" = "$TestVid" ]
+then
+echo "[Max][USB_DEF_ID_CHECK] test usb VID is the same with cur usb id" > /dev/kmsg
+exit 1
+else
+echo "[Max][USB_DEF_ID_CHECK] test USB VID not macth!" > /dev/kmsg
+fi
+
+else
+echo "[Max][USB_DEF_ID_CHECK] test USB PID not match!" > /dev/kmsg
+fi
+
+echo "[Max][USB_DEF_ID_CHECK] set USB ID to pid_$TestPid & vid_$TestVid" > /dev/kmsg
+
+echo 0 > /sys/class/android_usb/android0/enable
+sleep 1.5
+echo $TestPid > /sys/class/android_usb/android0/idProduct
+echo $TestVid > /sys/class/android_usb/android0/idVendor
+echo $TestPid > /sbin/usb/compositions/quec_usb_pid
+echo $TestVid > /sbin/usb/compositions/quec_usb_vid
+sync
+sleep 1
+echo 1 > /sys/class/android_usb/android0/enable
+

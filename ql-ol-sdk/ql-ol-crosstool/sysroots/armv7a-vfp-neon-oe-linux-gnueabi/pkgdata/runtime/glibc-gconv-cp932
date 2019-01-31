@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-cp932: gconv module for character set cp932
+SUMMARY_glibc-gconv-cp932: gconv module for character set cp932
+RDEPENDS_glibc-gconv-cp932: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-cp932: glibc-gconv-cp932
+FILES_glibc-gconv-cp932: /usr/lib/gconv/CP932.so
+FILES_INFO: {"/usr/lib/gconv/CP932.so": 95600}
+PKGSIZE_glibc-gconv-cp932: 95600

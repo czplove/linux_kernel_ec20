@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-el-cy: locale definition for el-cy
+SUMMARY_glibc-localedata-el-cy: locale definition for el-cy
+RDEPENDS_glibc-localedata-el-cy: glibc-localedata-el-gr glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-el-cy: glibc-localedata-el-cy
+FILES_glibc-localedata-el-cy: /usr/share/i18n/locales/el_CY
+FILES_INFO: {"/usr/share/i18n/locales/el_CY": 2684}
+PKGSIZE_glibc-localedata-el-cy: 2684

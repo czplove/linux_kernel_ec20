@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-cs: Locale data from glibc.  This package contains language translation files for the cs locale.
+SUMMARY_glibc-locale-cs: Locale data from glibc - cs translations
+RPROVIDES_glibc-locale-cs: glibc-locale cs-translation
+RRECOMMENDS_glibc-locale-cs: virtual-locale-cs
+SECTION: base
+PKG_glibc-locale-cs: glibc-locale-cs
+FILES_glibc-locale-cs: /usr/share/locale/cs
+FILES_INFO: {"/usr/share/locale/cs/LC_MESSAGES/libc.mo": 149869}
+PKGSIZE_glibc-locale-cs: 149869

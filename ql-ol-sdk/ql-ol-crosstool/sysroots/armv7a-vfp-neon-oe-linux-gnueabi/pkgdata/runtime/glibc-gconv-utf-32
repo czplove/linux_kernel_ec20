@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-utf-32: gconv module for character set utf-32
+SUMMARY_glibc-gconv-utf-32: gconv module for character set utf-32
+RDEPENDS_glibc-gconv-utf-32: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-utf-32: glibc-gconv-utf-32
+FILES_glibc-gconv-utf-32: /usr/lib/gconv/UTF-32.so
+FILES_INFO: {"/usr/lib/gconv/UTF-32.so": 9592}
+PKGSIZE_glibc-gconv-utf-32: 9592

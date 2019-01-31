@@ -1,0 +1,13 @@
+PN: ql-manager
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-manager-doc: Quectel Manager Modules  This package contains documentation.
+SUMMARY_ql-manager-doc: ql-manager version git-invalidgit-r21 - Documentation files
+SECTION_ql-manager-doc: doc
+PKG_ql-manager-doc: ql-manager-doc
+FILES_ql-manager-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_ql-manager-doc: 0

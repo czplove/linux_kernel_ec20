@@ -1,0 +1,13 @@
+PN: diag-reboot-app
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-reboot-app-doc: Reboot Diag  This package contains documentation.
+SUMMARY_diag-reboot-app-doc: diag-reboot-app version git-invalidgit-r5 - Documentation files
+SECTION_diag-reboot-app-doc: doc
+PKG_diag-reboot-app-doc: diag-reboot-app-doc
+FILES_diag-reboot-app-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_diag-reboot-app-doc: 0

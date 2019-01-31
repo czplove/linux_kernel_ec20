@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-math-bigint-calc: perl module math-bigint-calc
+SUMMARY_perl-module-math-bigint-calc: perl module math-bigint-calc
+RDEPENDS_perl-module-math-bigint-calc: perl-module-strict perl-module-constant perl-module-integer perl-module-carp perl
+SECTION: devel
+PKG_perl-module-math-bigint-calc: perl-module-math-bigint-calc
+FILES_perl-module-math-bigint-calc: /usr/lib/perl/5.20.0/Math/BigInt/Calc.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Math/BigInt/Calc.pm": 79633}
+PKGSIZE_perl-module-math-bigint-calc: 79633

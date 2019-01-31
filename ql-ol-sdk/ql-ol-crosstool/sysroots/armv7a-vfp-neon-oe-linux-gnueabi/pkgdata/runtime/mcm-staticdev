@@ -1,0 +1,14 @@
+PN: mcm
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_mcm-staticdev: mcm headers  This package contains static libraries for software development.
+SUMMARY_mcm-staticdev: mcm version git-invalidgit-r3 - Development files (Static Libraries)
+RDEPENDS_mcm-staticdev: mcm-dev (= git-invalidgit-r3)
+SECTION_mcm-staticdev: devel
+PKG_mcm-staticdev: mcm-staticdev
+FILES_mcm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/mcm/*.a
+FILES_INFO: {}
+PKGSIZE_mcm-staticdev: 0

@@ -1,0 +1,16 @@
+PN: libusb-compat
+PE: 1
+PV: 0.1.5
+PR: r0
+PKGE: 1
+PKGV: 0.1.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1
+SUMMARY: libusb-0.1 compatibility layer for libusb1
+RPROVIDES_libusb-compat-locale:  libusb-compat-locale
+SECTION: libs
+PKG_libusb-compat-locale: libusb-0.1-locale
+FILES_libusb-compat-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libusb-compat-locale: 0

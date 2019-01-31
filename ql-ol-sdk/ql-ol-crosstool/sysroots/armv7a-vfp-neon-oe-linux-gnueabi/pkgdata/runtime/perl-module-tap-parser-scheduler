@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser-scheduler: perl module tap-parser-scheduler
+SUMMARY_perl-module-tap-parser-scheduler: perl module tap-parser-scheduler
+RDEPENDS_perl-module-tap-parser-scheduler: perl-module-carp perl-module-tap-parser-scheduler-spinner perl-module-tap-parser-scheduler-job perl perl-module-warnings perl-module-strict
+SECTION: devel
+PKG_perl-module-tap-parser-scheduler: perl-module-tap-parser-scheduler
+FILES_perl-module-tap-parser-scheduler: /usr/lib/perl/5.20.0/TAP/Parser/Scheduler.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Parser/Scheduler.pm": 11542}
+PKGSIZE_perl-module-tap-parser-scheduler: 11542

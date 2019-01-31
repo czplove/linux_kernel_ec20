@@ -1,0 +1,13 @@
+PN: start-scripts-find-recovery-partitions
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: BSD
+DESCRIPTION: Start up script for finding partitions used in recovery
+SUMMARY: start-scripts-find-recovery-partitions version 1.0-r3
+SECTION: base
+PKG_start-scripts-find-recovery-partitions-locale: start-scripts-find-recovery-partitions-locale
+FILES_start-scripts-find-recovery-partitions-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-recovery-partitions-locale: 0

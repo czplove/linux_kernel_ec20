@@ -1,0 +1,14 @@
+PN: ddclient
+PV: 3.8.1
+PR: r5
+PKGV: 3.8.1
+PKGR: r5
+LICENSE: GPLv2
+DESCRIPTION_ddclient-dbg: DDClient is a perl based dynamic DNS Utility  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ddclient-dbg: ddclient version 3.8.1-r5 - Debugging files
+SECTION_ddclient-dbg: devel
+PKG_ddclient-dbg: ddclient-dbg
+ALLOW_EMPTY_ddclient-dbg: 1
+FILES_ddclient-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ddclient/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ddclient/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ddclient/ddclient/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_ddclient-dbg: 0

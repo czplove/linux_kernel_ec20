@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-time-hires: perl module time-hires
+SUMMARY_perl-module-time-hires: perl module time-hires
+RDEPENDS_perl-module-time-hires: perl-module-carp perl-module-dynaloader glibc (>= 2.21) perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-time-hires: perl-module-time-hires
+FILES_perl-module-time-hires: /usr/lib/perl/5.20.0/auto/Time/HiRes/HiRes.so /usr/lib/perl/5.20.0/Time/HiRes.pm
+FILERPROVIDESFLIST_perl-module-time-hires: /usr/lib/perl/5.20.0/auto/Time/HiRes/HiRes.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/Time/HiRes.pm": 22407, "/usr/lib/perl/5.20.0/auto/Time/HiRes/HiRes.so": 16664}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Time/HiRes/HiRes.so_perl-module-time-hires: HiRes.so elf(buildid) (= 2dc5cde5ce51512faaba398feb2e450847d29ce4)
+FILERDEPENDSFLIST_perl-module-time-hires: /usr/lib/perl/5.20.0/auto/Time/HiRes/HiRes.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Time/HiRes/HiRes.so_perl-module-time-hires: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-time-hires: 39071

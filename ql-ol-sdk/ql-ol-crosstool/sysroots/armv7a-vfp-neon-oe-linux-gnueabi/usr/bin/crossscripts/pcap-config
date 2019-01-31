@@ -1,0 +1,3 @@
+#!/bin/sh
+echo '--should-not-have-used-/usr/bin/pcap-config'
+exit 1

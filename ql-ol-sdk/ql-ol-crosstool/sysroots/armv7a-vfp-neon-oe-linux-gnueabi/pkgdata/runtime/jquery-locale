@@ -1,0 +1,13 @@
+PN: jquery
+PV: 1.9.1
+PR: r0
+PKGV: 1.9.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: JQUERY
+SUMMARY: jquery version 1.9.1-r0
+SECTION: base
+PKG_jquery-locale: jquery-locale
+FILES_jquery-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_jquery-locale: 0

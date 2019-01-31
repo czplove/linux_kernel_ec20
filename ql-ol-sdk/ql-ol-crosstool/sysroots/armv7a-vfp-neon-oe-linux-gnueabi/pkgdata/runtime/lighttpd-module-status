@@ -1,0 +1,18 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-module-status: Lighttpd module for status
+SUMMARY_lighttpd-module-status: Lighttpd module for status
+RDEPENDS_lighttpd-module-status: glibc (>= 2.21)
+SECTION: net
+PKG_lighttpd-module-status: lighttpd-module-status
+FILES_lighttpd-module-status: /usr/lib/mod_status.so
+FILERPROVIDESFLIST_lighttpd-module-status: /usr/lib/mod@underscore@status.so
+FILES_INFO: {"/usr/lib/mod_status.so": 17680}
+FILERPROVIDES_/usr/lib/mod@underscore@status.so_lighttpd-module-status: elf(buildid) (= 4cacd7aa5914e8bb2440d28db5370a98f062bcce) mod_status.so
+FILERDEPENDSFLIST_lighttpd-module-status: /usr/lib/mod@underscore@status.so
+FILERDEPENDS_/usr/lib/mod@underscore@status.so_lighttpd-module-status: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_lighttpd-module-status: 17680

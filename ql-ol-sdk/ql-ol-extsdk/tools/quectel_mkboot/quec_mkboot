@@ -1,0 +1,115 @@
+#!/bin/sh
+
+########################################################
+#  Copyright (C) 2016-2020 Quectel Wireless Co.,Ltd. 
+#  Quectel Wireless Proprietary and Confidential.
+#
+#  Created by Gale
+#
+########################################################
+
+img2dts()
+{
+	[ "${arg2##*.}" = "img" -a -f $arg2 ] || usage
+	./mkqcomboot -i $arg2
+	./mkqcomdt -i dt.img -o mdm9607-mtp.dtb
+	./mkqcomdt -i mdm9607-mtp.dtb -o mdm9607-mtp.dts
+	echo "############# generate dts file ok ###############"
+}
+
+dts2img()
+{
+	[ "${arg2##*.}" = "dts" -a -f $arg2 -a -f zImage ] || usage
+	./mkqcomdt -i $arg2 -o mdm9607-mtp.dtb
+	./mkqcomdt -i mdm9607-mtp.dtb -o dt.img
+	./mkqcomboot -z zImage -d dt.img -p $page_size -o boot.img
+	signature boot.img
+	mkdir -p target
+	mv boot_new_sign.img target/mdm9607-perf-boot.img
+	echo "############# generate mdm9607-perf-boot.img into target/ directory ###############"
+}
+
+dtb2img()
+{
+	[ "${arg2##*.}" = "dtb" -a -f $arg2 -a -f zImage ] || usage
+	./mkqcomdt -i $arg2 -o dt.img
+	./mkqcomboot -z zImage -d dt.img -p $page_size -o boot.img
+	signature boot.img
+	mkdir -p target
+	mv boot_new_sign.img target/mdm9607-perf-boot.img
+	echo "############# generate mdm9607-perf-boot.img into target/ directory ###############"
+}
+
+
+#Signature for the new boot.img;        by gale
+#NOTICE: the bootloader require to check signature of boot.img
+#and there are two methods to solve, however the second is better.
+#       1.remove the check process on bootloader;
+#       2.signaure for the new boot.img.
+signature()
+{
+	local TARGET_SHA_TYPE=sha256
+	local PRODUCT_PRIVATE_KEY=quectel.key
+ 	local BOARD_KERNEL_PAGESIZE=$page_size
+
+	echo "############## start: signature for new boot.img #######"
+	openssl dgst -$TARGET_SHA_TYPE -binary $1 > $1.$TARGET_SHA_TYPE
+	openssl rsautl -sign -in $1.$TARGET_SHA_TYPE -inkey $PRODUCT_PRIVATE_KEY -out $1.sig
+	dd if=/dev/zero of=$1.sig.padded bs=$BOARD_KERNEL_PAGESIZE count=1
+	dd if=$1.sig of=$1.sig.padded conv=notrunc
+	cat $1 $1.sig.padded > boot_new_sign.img
+	rm $1 $1.sig $1.$TARGET_SHA_TYPE $1.sig.padded
+	echo "############## end: signature for new boot.img #######"
+}
+
+clean()
+{
+	rm -rf *.img *.dts *.dtb zImage target
+}
+
+usage()
+{
+cat << EOF
+Usage:
+	./quec_mkboot img2dts img_file
+	./quec_mkboot dts2img dts_file <module type>
+	./quec_mkboot dtb2img dtb_file <module type>
+	./quec_mkboot clean all
+EOF
+exit
+}
+
+
+
+# start here
+[ $# -ge 2 ] || usage
+
+arg0=$0
+arg1=$1
+arg2=$2
+arg3=$3
+
+# get nand flash pagesize
+if [ "$arg1" = "dts2img" -o "$arg1" = "dtb2img" ] && [ $# -eq 3 ];then
+	case $arg3 in
+	EC20C_HA | EC20C_HB | EC20CET | EC20CEL | EC20C_FT | EC20C_FTB | EC20CE_FBKG | AG35C | AG35CE )
+		page_size=2048
+		;;
+	*)
+		page_size=4096
+		;;
+	esac
+elif [ "$arg1" = "dts2img" -o "$arg1" = "dtb2img" ];then
+	echo "####### please input module type ##########"
+	exit
+fi
+
+
+case $arg1 in
+	img2dts | dts2img | dtb2img | clean)
+		$arg1
+		;;
+	*)
+		usage
+		;;
+esac

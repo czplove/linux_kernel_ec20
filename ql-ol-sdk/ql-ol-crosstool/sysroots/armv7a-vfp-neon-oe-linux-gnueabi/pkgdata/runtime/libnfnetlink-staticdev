@@ -1,0 +1,14 @@
+PN: libnfnetlink
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnfnetlink-staticdev: libnfnetlink is the low-level library for netfilter related kernel/userspace communication  This package contains static libraries for software development.
+SUMMARY_libnfnetlink-staticdev: libnfnetlink version 1.0.0-r0 - Development files (Static Libraries)
+RDEPENDS_libnfnetlink-staticdev: libnfnetlink-dev (= 1.0.0-r0)
+SECTION_libnfnetlink-staticdev: devel
+PKG_libnfnetlink-staticdev: libnfnetlink-staticdev
+FILES_libnfnetlink-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libnfnetlink/*.a
+FILES_INFO: {"/usr/lib/libnfnetlink.a": 30456}
+PKGSIZE_libnfnetlink-staticdev: 30456

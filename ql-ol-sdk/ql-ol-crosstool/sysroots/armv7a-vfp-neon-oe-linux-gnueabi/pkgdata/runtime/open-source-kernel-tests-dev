@@ -1,0 +1,16 @@
+PN: open-source-kernel-tests
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: BSD
+DESCRIPTION_open-source-kernel-tests-dev: Open Source kernel tests  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_open-source-kernel-tests-dev: open-source-kernel-tests version git-r6 - Development files
+RDEPENDS_open-source-kernel-tests-dev: open-source-kernel-tests (= git-r6)
+RRECOMMENDS_open-source-kernel-tests-dev: glib-2.0-dev glibc-dev libxml2-dev
+SECTION_open-source-kernel-tests-dev: devel
+PKG_open-source-kernel-tests-dev: open-source-kernel-tests-dev
+ALLOW_EMPTY_open-source-kernel-tests-dev: 1
+FILES_open-source-kernel-tests-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/open-source-kernel-tests/*.la /lib/*.la
+FILES_INFO: {"/usr/include/msm_bus_test.h": 3701}
+PKGSIZE_open-source-kernel-tests-dev: 3701

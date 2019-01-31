@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple: perl module pod-simple
+SUMMARY_perl-module-pod-simple: perl module pod-simple
+RDEPENDS_perl-module-pod-simple: perl-module-integer perl-module-carp perl-module-pod-simple-tiedoutfh perl-module-vars perl perl-module-pod-simple-linksection perl-module-symbol perl-module-strict perl-module-pod-escapes perl-module-pod-simple-blackbox
+SECTION: devel
+PKG_perl-module-pod-simple: perl-module-pod-simple
+FILES_perl-module-pod-simple: /usr/lib/perl/5.20.0/Pod/Simple.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Simple.pm": 52454}
+PKGSIZE_perl-module-pod-simple: 52454

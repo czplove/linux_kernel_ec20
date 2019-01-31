@@ -1,0 +1,13 @@
+PN: portal-gateway
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_portal-gateway-doc: Quectel Function Daemon  This package contains documentation.
+SUMMARY_portal-gateway-doc: portal-gateway version git-invalidgit-r1 - Documentation files
+SECTION_portal-gateway-doc: doc
+PKG_portal-gateway-doc: portal-gateway-doc
+FILES_portal-gateway-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_portal-gateway-doc: 0

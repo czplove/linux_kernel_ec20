@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-si: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the si locale.
+SUMMARY_glib-2.0-locale-si: A general-purpose utility library - si translations
+RPROVIDES_glib-2.0-locale-si: glib-2.0-locale si-translation glib-2.0-locale-si
+RRECOMMENDS_glib-2.0-locale-si: virtual-locale-si
+SECTION: libs
+PKG_glib-2.0-locale-si: libglib-2.0-locale-si
+FILES_glib-2.0-locale-si: /usr/share/locale/si
+FILES_INFO: {"/usr/share/locale/si/LC_MESSAGES/glib20.mo": 11420}
+PKGSIZE_glib-2.0-locale-si: 11420

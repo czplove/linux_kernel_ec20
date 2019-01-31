@@ -1,0 +1,13 @@
+PN: dnsmasq
+PV: 2.73
+PR: r2
+PKGV: 2.73
+PKGR: r2
+LICENSE: GPL
+DESCRIPTION: Dnsmasq is a lightweight, easy to configure DNS forwarder and DHCP server.
+SUMMARY: dnsmasq version 2.73-r2
+SECTION: console/network
+PKG_dnsmasq-locale: dnsmasq-locale
+FILES_dnsmasq-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_dnsmasq-locale: 0

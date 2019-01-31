@@ -1,0 +1,13 @@
+PN: open-source-kernel-tests
+PV: git
+PR: r6
+PKGV: git
+PKGR: r6
+LICENSE: BSD
+DESCRIPTION: Open Source kernel tests
+SUMMARY: open-source-kernel-tests version git-r6
+SECTION: base
+PKG_open-source-kernel-tests-locale: open-source-kernel-tests-locale
+FILES_open-source-kernel-tests-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_open-source-kernel-tests-locale: 0

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sa-in: locale definition for sa-in
+SUMMARY_glibc-localedata-sa-in: locale definition for sa-in
+RDEPENDS_glibc-localedata-sa-in: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-sa-in: glibc-localedata-sa-in
+FILES_glibc-localedata-sa-in: /usr/share/i18n/locales/sa_IN
+FILES_INFO: {"/usr/share/i18n/locales/sa_IN": 8371}
+PKGSIZE_glibc-localedata-sa-in: 8371

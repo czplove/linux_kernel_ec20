@@ -1,0 +1,13 @@
+PN: tftp-server
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_tftp-server-doc: tftp_server server module  This package contains documentation.
+SUMMARY_tftp-server-doc: tftp-server version git-invalidgit-r1 - Documentation files
+SECTION_tftp-server-doc: doc
+PKG_tftp-server-doc: tftp-server-doc
+FILES_tftp-server-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_tftp-server-doc: 0

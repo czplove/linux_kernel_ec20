@@ -1,0 +1,13 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION: Powerapp tools
+SUMMARY: powerapp version git-r9
+SECTION: base
+PKG_powerapp-locale: powerapp-locale
+FILES_powerapp-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_powerapp-locale: 0

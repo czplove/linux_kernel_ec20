@@ -1,0 +1,30 @@
+PN: psm
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QTI Power Saving Mode Framework
+SUMMARY: psm version git-invalidgit-r0
+RDEPENDS_psm: diag (>= git-invalidgit) time-genoff (>= git-invalidgit) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) xmllib (>= git-invalidgit) data (>= git-invalidgit) glibc (>= 2.21)
+RRECOMMENDS_psm:  update-rc.d
+SECTION: base
+PKG_psm: psm
+FILES_psm: /usr/bin/* /usr/sbin/* /usr/lib/psm/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/psm /usr/lib/psm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_psm: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT psmd start 36 S .\nfi\n
+pkg_postrm_psm: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT psmd remove\nfi\n
+pkg_preinst_psm: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/psmd" ]; then\n\t/etc/init.d/psmd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT psmd remove\nfi\n
+pkg_prerm_psm: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/psmd stop\nfi\n
+FILERPROVIDESFLIST_psm: /usr/bin/psm@underscore@test /usr/lib/libutils.so.0.0.0 /usr/lib/libpsm@underscore@client.so.0.0.0 /usr/bin/psmd
+FILES_INFO: {"/usr/bin/psmd": 59168, "/usr/lib/libpsm_client.so.0": 18072, "/etc/init.d/psmd": 823, "/usr/lib/libutils.so.0": 17992, "/usr/bin/psm_test": 26344}
+FILERPROVIDES_/usr/bin/psm@underscore@test_psm: elf(buildid) (= a4170fa1c8ace7f95a7559e6cb2331af72c1e4b6)
+FILERPROVIDES_/usr/lib/libutils.so.0.0.0_psm: elf(buildid) (= be0b82313e1933a06eb39df55c50f2716b7e9131) libutils.so.0
+FILERPROVIDES_/usr/lib/libpsm@underscore@client.so.0.0.0_psm: elf(buildid) (= b4592c7acfe50c38d11392cd9162ffbf373f893d) libpsm_client.so.0
+FILERPROVIDES_/usr/bin/psmd_psm: elf(buildid) (= 776396fba6c485670278785ae952a7e4b31b3142)
+FILERDEPENDSFLIST_psm: /usr/bin/psm@underscore@test /usr/lib/libutils.so.0.0.0 /usr/lib/libpsm@underscore@client.so.0.0.0 /etc/init.d/psmd /usr/bin/psmd
+FILERDEPENDS_/usr/bin/psm@underscore@test_psm: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libdsi_netctrl.so.0 libglib-2.0.so.0 libpsm_client.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_encdec.so.1 libqmiservices.so.1 libutils.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libutils.so.0.0.0_psm: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libpsm@underscore@client.so.0.0.0_psm: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libconfigdb.so.0 libdiag.so.1 libdsutils.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_common_so.so.1 libqmi_csi.so.1 libqmi_encdec.so.1 libqmi_sap.so.1 libtime_genoff.so.1 libutils.so.0 libxml.so.0 rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/psmd_psm: /bin/sh
+FILERDEPENDS_/usr/bin/psmd_psm: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.8) libdiag.so.1 libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi_cci.so.1 libqmi_encdec.so.1 libqmiservices.so.1 libutils.so.0 rtld(GNU_HASH)
+PKGSIZE_psm: 122399

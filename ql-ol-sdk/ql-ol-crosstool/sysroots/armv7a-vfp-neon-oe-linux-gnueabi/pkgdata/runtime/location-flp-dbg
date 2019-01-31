@@ -1,0 +1,16 @@
+PN: location-flp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-flp-dbg: GPS FLP  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_location-flp-dbg: location-flp version git-invalidgit-r1 - Debugging files
+RPROVIDES_location-flp-dbg:  location-flp-dbg
+RRECOMMENDS_location-flp-dbg: lbs-core-dbg diag-dbg libstdc++-dbg izat-core-dbg dsutils-dbg xmllib-dbg qmi-dbg qmi-framework-dbg qmi-client-helper-dbg location-geofence-dbg data-oss-dbg loc-stub-dbg system-core-liblog-dbg location-service-dbg loc-hal-dbg glib-2.0-dbg libgcc-dbg loc-pla-dbg glibc-dbg configdb-dbg data-dbg time-genoff-dbg
+SECTION_location-flp-dbg: devel
+PKG_location-flp-dbg: libflp-default-dbg
+ALLOW_EMPTY_location-flp-dbg: 1
+FILES_location-flp-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/location-flp/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/location-flp/.debug /usr/lib/matchbox-panel/.debug /usr/lib/location-flp/location-flp/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libflp_default.so.1.0.0": 22105}
+PKGSIZE_location-flp-dbg: 22105

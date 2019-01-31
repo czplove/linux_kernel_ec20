@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: audioalsa
+Description: audioalsa library
+Version: 1.0.0
+Libs: -L${libdir} -laudioalsa
+Cflags: -I${includedir}/audioalsa

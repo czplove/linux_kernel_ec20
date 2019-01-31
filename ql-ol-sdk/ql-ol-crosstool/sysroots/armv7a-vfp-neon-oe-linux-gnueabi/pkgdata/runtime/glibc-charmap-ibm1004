@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-ibm1004: character map for ibm1004 encoding
+SUMMARY_glibc-charmap-ibm1004: character map for ibm1004 encoding
+SECTION: base
+PKG_glibc-charmap-ibm1004: glibc-charmap-ibm1004
+FILES_glibc-charmap-ibm1004: /usr/share/i18n/charmaps/IBM1004.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IBM1004.gz": 2852}
+PKGSIZE_glibc-charmap-ibm1004: 2852

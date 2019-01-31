@@ -1,0 +1,16 @@
+PN: dbus
+PV: 1.8.10
+PR: r0
+PKGV: 1.8.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-dev: D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\"single instance\\" application or daemon, and to launch applications and daemons on demand when their services are needed.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dbus-dev: D-Bus message bus - Development files
+RDEPENDS_dbus-dev: dbus (= 1.8.10-r0) dbus-lib
+RRECOMMENDS_dbus-dev: base-passwd-dev shadow-dev shadow-sysroot-dev base-files-dev dbus-lib-dev initscripts-functions-dev glibc-dev expat-dev initscripts-dev
+SECTION_dbus-dev: devel
+PKG_dbus-dev: dbus-dev
+ALLOW_EMPTY_dbus-dev: 1
+FILES_dbus-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dbus/*.la /lib/*.la /usr/lib/dbus-1.0/include /usr/bin/dbus-glib-tool
+FILES_INFO: {"/usr/include/dbus-1.0/dbus/dbus-macros.h": 5285, "/usr/include/dbus-1.0/dbus/dbus-server.h": 4794, "/usr/include/dbus-1.0/dbus/dbus-protocol.h": 23182, "/usr/lib/pkgconfig/dbus-1.pc": 510, "/usr/lib/libdbus-1.so": 18, "/usr/lib/dbus-1.0/include/dbus/dbus-arch-deps.h": 2061, "/usr/include/dbus-1.0/dbus/dbus-signature.h": 3049, "/usr/include/dbus-1.0/dbus/dbus-types.h": 4145, "/usr/lib/libdbus-1.la": 935, "/usr/include/dbus-1.0/dbus/dbus-connection.h": 26029, "/usr/include/dbus-1.0/dbus/dbus-misc.h": 1744, "/usr/include/dbus-1.0/dbus/dbus-message.h": 13018, "/usr/include/dbus-1.0/dbus/dbus-errors.h": 2886, "/usr/include/dbus-1.0/dbus/dbus-threads.h": 8507, "/usr/include/dbus-1.0/dbus/dbus-bus.h": 3472, "/usr/include/dbus-1.0/dbus/dbus-pending-call.h": 3124, "/usr/include/dbus-1.0/dbus/dbus.h": 3955, "/usr/include/dbus-1.0/dbus/dbus-memory.h": 1975, "/usr/include/dbus-1.0/dbus/dbus-syntax.h": 2359, "/usr/include/dbus-1.0/dbus/dbus-shared.h": 5135, "/usr/include/dbus-1.0/dbus/dbus-address.h": 2135}
+PKGSIZE_dbus-dev: 118318

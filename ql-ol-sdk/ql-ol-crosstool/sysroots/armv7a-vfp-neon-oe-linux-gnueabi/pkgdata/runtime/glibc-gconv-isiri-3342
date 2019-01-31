@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-isiri-3342: gconv module for character set isiri-3342
+SUMMARY_glibc-gconv-isiri-3342: gconv module for character set isiri-3342
+RDEPENDS_glibc-gconv-isiri-3342: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-isiri-3342: glibc-gconv-isiri-3342
+FILES_glibc-gconv-isiri-3342: /usr/lib/gconv/ISIRI-3342.so
+FILES_INFO: {"/usr/lib/gconv/ISIRI-3342.so": 9588}
+PKGSIZE_glibc-gconv-isiri-3342: 9588

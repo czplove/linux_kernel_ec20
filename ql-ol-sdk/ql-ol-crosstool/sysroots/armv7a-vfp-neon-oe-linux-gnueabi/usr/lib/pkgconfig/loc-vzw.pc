@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-vzw
+Description: QTI GPS Location vzw
+Version: 1.0.0
+Libs: -L${libdir} -lloc_ext
+Cflags: -I${includedir}/loc-vzw/vzwGpsLocationProvider/loc_ext

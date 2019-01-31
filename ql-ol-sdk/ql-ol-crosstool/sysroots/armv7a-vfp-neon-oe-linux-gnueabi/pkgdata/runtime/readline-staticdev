@@ -1,0 +1,15 @@
+PN: readline
+PV: 5.2
+PR: r9
+PKGV: 5.2
+PKGR: r9
+LICENSE: GPLv2+
+DESCRIPTION_readline-staticdev: The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes  additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those   lines, and perform csh-like history expansion on previous commands.  This package contains static libraries for software development.
+SUMMARY_readline-staticdev: Library for editing typed command lines - Development files (Static Libraries)
+RDEPENDS_readline-staticdev: readline-dev (= 5.2-r9)
+RPROVIDES_readline-staticdev:  readline-staticdev
+SECTION_readline-staticdev: devel
+PKG_readline-staticdev: libreadline-staticdev
+FILES_readline-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/readline/*.a
+FILES_INFO: {"/usr/lib/libreadline.a": 298348, "/usr/lib/libhistory.a": 35658}
+PKGSIZE_readline-staticdev: 334006

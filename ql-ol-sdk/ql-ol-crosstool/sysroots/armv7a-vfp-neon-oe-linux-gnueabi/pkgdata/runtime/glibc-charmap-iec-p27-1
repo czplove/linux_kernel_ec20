@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-iec-p27-1: character map for iec-p27-1 encoding
+SUMMARY_glibc-charmap-iec-p27-1: character map for iec-p27-1 encoding
+SECTION: base
+PKG_glibc-charmap-iec-p27-1: glibc-charmap-iec-p27-1
+FILES_glibc-charmap-iec-p27-1: /usr/share/i18n/charmaps/IEC_P27-1.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/IEC_P27-1.gz": 3200}
+PKGSIZE_glibc-charmap-iec-p27-1: 3200

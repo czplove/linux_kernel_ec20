@@ -1,0 +1,30 @@
+PN: quectel-tts-sdk
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel TTS SDK
+SUMMARY: quectel-tts-sdk version git-r1
+RDEPENDS_quectel-tts-sdk: glibc (>= 2.21) system-core-liblog (>= git) alsa-intf (>= git-invalidgit) quectel-audio-lib (>= git-invalidgit)
+RRECOMMENDS_quectel-tts-sdk:  update-rc.d
+SECTION: base
+PKG_quectel-tts-sdk: quectel-tts-sdk
+FILES_quectel-tts-sdk: /usr/bin/* /usr/sbin/* /usr/lib/quectel-tts-sdk/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-tts-sdk /usr/lib/quectel-tts-sdk/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/share/TTS
+pkg_postinst_quectel-tts-sdk: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_quectel_tts_service_daemon start 45 2 3 4 5 .\nfi\n
+pkg_postrm_quectel-tts-sdk: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_quectel_tts_service_daemon remove\nfi\n
+pkg_preinst_quectel-tts-sdk: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_quectel_tts_service_daemon" ]; then\n\t/etc/init.d/start_quectel_tts_service_daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_quectel_tts_service_daemon remove\nfi\n
+pkg_prerm_quectel-tts-sdk: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_quectel_tts_service_daemon stop\nfi\n
+FILERPROVIDESFLIST_quectel-tts-sdk: /usr/lib/libql@underscore@tts@underscore@ch.so.1 /usr/lib/libql@underscore@tts@underscore@eng.so.1 /usr/bin/quectel@underscore@tts@underscore@demo /usr/bin/quectel@underscore@tts@underscore@service
+FILES_INFO: {"/usr/share/TTS/tts.prop": 12, "/etc/init.d/start_quectel_tts_service_daemon": 761, "/usr/share/TTS/Resource_ENG.irf": 1938658, "/usr/bin/quectel_tts_service": 10380, "/usr/bin/quectel_tts_demo": 14648, "/usr/lib/libql_tts.so.1": 409772, "/usr/share/TTS/Resource_CH.irf": 2731334}
+FILERPROVIDES_/usr/lib/libql@underscore@tts@underscore@ch.so.1_quectel-tts-sdk: elf(buildid) (= 2c9137a325d23c2570f217052b64cd3dd6b39140) libql_tts.so.1
+FILERPROVIDES_/usr/lib/libql@underscore@tts@underscore@eng.so.1_quectel-tts-sdk: elf(buildid) (= c5a8eb6d416a28fcdcbe122ac188487aeeb8299c) libql_tts.so.1
+FILERPROVIDES_/usr/bin/quectel@underscore@tts@underscore@demo_quectel-tts-sdk: elf(buildid) (= 9ba193d5b6c329411abe3713ac1ef0221e7f735e)
+FILERPROVIDES_/usr/bin/quectel@underscore@tts@underscore@service_quectel-tts-sdk: elf(buildid) (= 23e85993e4ca6cd2c37e2ad0ead037e8c26ba434)
+FILERDEPENDSFLIST_quectel-tts-sdk: /usr/lib/libql@underscore@tts@underscore@ch.so.1 /etc/init.d/start@underscore@quectel@underscore@tts@underscore@service@underscore@daemon /usr/lib/libql@underscore@tts@underscore@eng.so.1 /usr/bin/quectel@underscore@tts@underscore@demo /usr/bin/quectel@underscore@tts@underscore@service
+FILERDEPENDS_/usr/lib/libql@underscore@tts@underscore@ch.so.1_quectel-tts-sdk: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/start@underscore@quectel@underscore@tts@underscore@service@underscore@daemon_quectel-tts-sdk: /bin/sh
+FILERDEPENDS_/usr/lib/libql@underscore@tts@underscore@eng.so.1_quectel-tts-sdk: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/quectel@underscore@tts@underscore@demo_quectel-tts-sdk: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/quectel@underscore@tts@underscore@service_quectel-tts-sdk: libc.so.6 libc.so.6(GLIBC_2.4) liblog.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_lib_audio.so.1 libql_tts.so.1 rtld(GNU_HASH)
+PKGSIZE_quectel-tts-sdk: 5105565

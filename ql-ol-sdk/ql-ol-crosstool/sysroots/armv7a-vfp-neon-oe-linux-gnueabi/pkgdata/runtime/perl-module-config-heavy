@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-config-heavy: perl module config-heavy
+SUMMARY_perl-module-config-heavy: perl module config-heavy
+RDEPENDS_perl-module-config-heavy: perl
+SECTION: devel
+PKG_perl-module-config-heavy: perl-module-config-heavy
+FILES_perl-module-config-heavy: /usr/lib/perl/5.20.0/Config_heavy.pl
+FILES_INFO: {}
+PKGSIZE_perl-module-config-heavy: 0

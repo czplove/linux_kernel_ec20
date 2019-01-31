@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-tis-620: character map for tis-620 encoding
+SUMMARY_glibc-charmap-tis-620: character map for tis-620 encoding
+SECTION: base
+PKG_glibc-charmap-tis-620: glibc-charmap-tis-620
+FILES_glibc-charmap-tis-620: /usr/share/i18n/charmaps/TIS-620.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/TIS-620.gz": 2542}
+PKGSIZE_glibc-charmap-tis-620: 2542

@@ -1,0 +1,17 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb1-dev: Userspace library to access USB (version 1.0).  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libusb1-dev: Userspace library to access USB (version 1.0) - Development files
+RDEPENDS_libusb1-dev: libusb1 (= 1.0.19-r0)
+RPROVIDES_libusb1-dev:  libusb1-dev
+RRECOMMENDS_libusb1-dev: glibc-dev
+SECTION_libusb1-dev: devel
+PKG_libusb1-dev: libusb-1.0-dev
+ALLOW_EMPTY_libusb1-dev: 1
+FILES_libusb1-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libusb1/*.la /lib/*.la /lib/*.so /lib/*.la
+FILES_INFO: {"/lib/libusb-1.0.so": 19, "/usr/lib/pkgconfig/libusb-1.0.pc": 286, "/lib/libusb-1.0.la": 936, "/usr/include/libusb-1.0/libusb.h": 70156}
+PKGSIZE_libusb1-dev: 71397

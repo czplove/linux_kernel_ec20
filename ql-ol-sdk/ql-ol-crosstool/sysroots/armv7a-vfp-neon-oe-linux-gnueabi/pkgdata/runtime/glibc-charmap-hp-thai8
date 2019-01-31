@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-hp-thai8: character map for hp-thai8 encoding
+SUMMARY_glibc-charmap-hp-thai8: character map for hp-thai8 encoding
+SECTION: base
+PKG_glibc-charmap-hp-thai8: glibc-charmap-hp-thai8
+FILES_glibc-charmap-hp-thai8: /usr/share/i18n/charmaps/HP-THAI8.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/HP-THAI8.gz": 2951}
+PKGSIZE_glibc-charmap-hp-thai8: 2951

@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-kn: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the kn locale.
+SUMMARY_glib-2.0-locale-kn: A general-purpose utility library - kn translations
+RPROVIDES_glib-2.0-locale-kn: glib-2.0-locale kn-translation glib-2.0-locale-kn
+RRECOMMENDS_glib-2.0-locale-kn: virtual-locale-kn
+SECTION: libs
+PKG_glib-2.0-locale-kn: libglib-2.0-locale-kn
+FILES_glib-2.0-locale-kn: /usr/share/locale/kn
+FILES_INFO: {"/usr/share/locale/kn/LC_MESSAGES/glib20.mo": 162199}
+PKGSIZE_glib-2.0-locale-kn: 162199

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-sdbm: perl module sdbm
+SUMMARY_perl-module-sdbm: perl module sdbm
+RDEPENDS_perl-module-sdbm: perl
+SECTION: devel
+PKG_perl-module-sdbm: perl-module-sdbm
+FILES_perl-module-sdbm: /usr/lib/perl/5.20.0/auto/sdbm/extralibs.ld
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/sdbm/extralibs.ld": 1}
+PKGSIZE_perl-module-sdbm: 1

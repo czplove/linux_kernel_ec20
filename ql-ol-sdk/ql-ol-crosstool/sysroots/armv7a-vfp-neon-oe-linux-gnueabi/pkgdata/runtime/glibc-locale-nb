@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-nb: Locale data from glibc.  This package contains language translation files for the nb locale.
+SUMMARY_glibc-locale-nb: Locale data from glibc - nb translations
+RPROVIDES_glibc-locale-nb: glibc-locale nb-translation
+RRECOMMENDS_glibc-locale-nb: virtual-locale-nb
+SECTION: base
+PKG_glibc-locale-nb: glibc-locale-nb
+FILES_glibc-locale-nb: /usr/share/locale/nb
+FILES_INFO: {"/usr/share/locale/nb/LC_MESSAGES/libc.mo": 61764}
+PKGSIZE_glibc-locale-nb: 61764

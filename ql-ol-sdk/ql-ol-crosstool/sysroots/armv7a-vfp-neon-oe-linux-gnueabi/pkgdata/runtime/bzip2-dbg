@@ -1,0 +1,15 @@
+PN: bzip2
+PV: 1.0.6
+PR: r5
+PKGV: 1.0.6
+PKGR: r5
+LICENSE: bzip2
+DESCRIPTION_bzip2-dbg: bzip2 compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding. Compression is generally considerably better than that achieved by more conventional LZ77/LZ78-based compressors, and approaches the performance of the PPM family of statistical compressors.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_bzip2-dbg: Very high-quality data compression program - Debugging files
+RRECOMMENDS_bzip2-dbg: libbz2-dbg glibc-dbg
+SECTION_bzip2-dbg: devel
+PKG_bzip2-dbg: bzip2-dbg
+ALLOW_EMPTY_bzip2-dbg: 1
+FILES_bzip2-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/bzip2/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/bzip2/.debug /usr/lib/matchbox-panel/.debug /usr/lib/bzip2/bzip2/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libbz2.so.0.0.0": 8876, "/usr/bin/.debug/bzip2": 8734, "/usr/bin/.debug/bzip2recover": 6031}
+PKGSIZE_bzip2-dbg: 23641

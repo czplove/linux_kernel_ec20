@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: loc-mcm-type-conv
+Description: MCM Location Type Conversion Library
+Version: 1.0.0
+Libs: -L${libdir} -lloc_mcm_type_conv
+Cflags: -I${includedir}/loc-mcm-type-conv

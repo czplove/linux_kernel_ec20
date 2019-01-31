@@ -1,0 +1,13 @@
+PN: lbs-core-hdr
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_lbs-core-hdr-doc: LBS Core hdr  This package contains documentation.
+SUMMARY_lbs-core-hdr-doc: lbs-core-hdr version git-invalidgit-r1 - Documentation files
+SECTION_lbs-core-hdr-doc: doc
+PKG_lbs-core-hdr-doc: lbs-core-hdr-doc
+FILES_lbs-core-hdr-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_lbs-core-hdr-doc: 0

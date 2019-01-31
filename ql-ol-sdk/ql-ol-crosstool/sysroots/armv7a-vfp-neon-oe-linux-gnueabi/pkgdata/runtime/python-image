@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-image: Python graphical image handling
+RDEPENDS_python-image: python-core glibc (>= 2.21) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-image: python-image
+FILES_python-image: /usr/lib/python2.7/colorsys.* /usr/lib/python2.7/imghdr.* /usr/lib/python2.7/lib-dynload/imageop.so /usr/lib/python2.7/lib-dynload/rgbimg.so 
+FILERPROVIDESFLIST_python-image: /usr/lib/python2.7/lib-dynload/imageop.so
+FILES_INFO: {"/usr/lib/python2.7/imghdr.pyc": 4806, "/usr/lib/python2.7/colorsys.pyc": 3975, "/usr/lib/python2.7/lib-dynload/imageop.so": 14556, "/usr/lib/python2.7/imghdr.py": 3541, "/usr/lib/python2.7/colorsys.py": 3691}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/imageop.so_python-image: elf(buildid) (= 76fd870fb4e566dc2a240f1c405d71a023b99d4b) imageop.so
+FILERDEPENDSFLIST_python-image: /usr/lib/python2.7/lib-dynload/imageop.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/imageop.so_python-image: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-image: 30569

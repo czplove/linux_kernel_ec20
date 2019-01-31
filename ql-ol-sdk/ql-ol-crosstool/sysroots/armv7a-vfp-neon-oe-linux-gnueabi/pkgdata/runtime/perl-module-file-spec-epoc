@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-file-spec-epoc: perl module file-spec-epoc
+SUMMARY_perl-module-file-spec-epoc: perl module file-spec-epoc
+RDEPENDS_perl-module-file-spec-epoc: perl-module-strict perl-module-file-spec-unix perl-module-vars perl
+SECTION: devel
+PKG_perl-module-file-spec-epoc: perl-module-file-spec-epoc
+FILES_perl-module-file-spec-epoc: /usr/lib/perl/5.20.0/File/Spec/Epoc.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/File/Spec/Epoc.pm": 1590}
+PKGSIZE_perl-module-file-spec-epoc: 1590

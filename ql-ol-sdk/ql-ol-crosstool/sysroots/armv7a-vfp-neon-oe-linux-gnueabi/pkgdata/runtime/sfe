@@ -1,0 +1,22 @@
+PN: sfe
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION: Shortcut Forward Engine Driver
+SUMMARY: sfe version git-r0
+RDEPENDS_sfe: kernel-module-shortcut-fe-cm kernel-module-shortcut-fe-ipv6 kernel-module-shortcut-fe
+RRECOMMENDS_sfe:  update-rc.d
+SECTION: base
+PKG_sfe: sfe
+ALLOW_EMPTY_sfe: 1
+FILES_sfe: /etc/init.d/start_shortcut_fe_le
+pkg_postinst_sfe: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT start_shortcut_fe_le start 91 5 . stop 15 0 1 6 .\nfi\n
+pkg_postrm_sfe: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_shortcut_fe_le remove\nfi\n
+pkg_preinst_sfe: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/start_shortcut_fe_le" ]; then\n\t/etc/init.d/start_shortcut_fe_le stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT start_shortcut_fe_le remove\nfi\n
+pkg_prerm_sfe: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/start_shortcut_fe_le stop\nfi\n
+FILES_INFO: {"/etc/init.d/start_shortcut_fe_le": 2461}
+FILERDEPENDSFLIST_sfe: /etc/init.d/start@underscore@shortcut@underscore@fe@underscore@le
+FILERDEPENDS_/etc/init.d/start@underscore@shortcut@underscore@fe@underscore@le_sfe: /bin/sh
+PKGSIZE_sfe: 2461

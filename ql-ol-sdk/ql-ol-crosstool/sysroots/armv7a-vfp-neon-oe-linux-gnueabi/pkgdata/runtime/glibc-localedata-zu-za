@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-zu-za: locale definition for zu-za
+SUMMARY_glibc-localedata-zu-za: locale definition for zu-za
+RDEPENDS_glibc-localedata-zu-za: glibc-localedata-iso14651-t1 glibc-localedata-en-za glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-zu-za: glibc-localedata-zu-za
+FILES_glibc-localedata-zu-za: /usr/share/i18n/locales/zu_ZA
+FILES_INFO: {"/usr/share/i18n/locales/zu_ZA": 9720}
+PKGSIZE_glibc-localedata-zu-za: 9720

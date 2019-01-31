@@ -1,0 +1,16 @@
+PN: libgcc
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libgcc-dbg: GPL-3.0-with-GCC-exception
+DESCRIPTION_libgcc-dbg: GNU cc and gcc C compilers.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libgcc-dbg: GNU cc and gcc C compilers - Debugging files
+RPROVIDES_libgcc-dbg:  libgcc-dbg
+RRECOMMENDS_libgcc-dbg: glibc-dbg
+SECTION_libgcc-dbg: devel
+PKG_libgcc-dbg: libgcc-s-dbg
+ALLOW_EMPTY_libgcc-dbg: 1
+FILES_libgcc-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libgcc/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libgcc/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libgcc/libgcc/.debug /usr/src/debug /lib/.debug/
+FILES_INFO: {"/lib/.debug/libgcc_s.so.1": 1424232}
+PKGSIZE_libgcc-dbg: 1424232

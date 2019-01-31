@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-byn-er: locale definition for byn-er
+SUMMARY_glibc-localedata-byn-er: locale definition for byn-er
+RDEPENDS_glibc-localedata-byn-er: glibc-localedata-ti-er
+SECTION: base
+PKG_glibc-localedata-byn-er: glibc-localedata-byn-er
+FILES_glibc-localedata-byn-er: /usr/share/i18n/locales/byn_ER
+FILES_INFO: {"/usr/share/i18n/locales/byn_ER": 5801}
+PKGSIZE_glibc-localedata-byn-er: 5801

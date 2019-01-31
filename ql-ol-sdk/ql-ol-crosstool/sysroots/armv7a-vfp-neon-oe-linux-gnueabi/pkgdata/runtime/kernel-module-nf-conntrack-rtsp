@@ -1,0 +1,16 @@
+PN: rtsp-alg
+PV: 3.7
+PR: r6-3.18.20
+PKGV: 3.7
+PKGR: r6-3.18.20
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-nf-conntrack-rtsp: nf-conntrack-rtsp kernel module; RTSP connection tracking module
+SUMMARY_kernel-module-nf-conntrack-rtsp: nf-conntrack-rtsp kernel module
+RDEPENDS_kernel-module-nf-conntrack-rtsp: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-nf-conntrack-rtsp: kernel-module-nf-conntrack-rtsp
+FILES_kernel-module-nf-conntrack-rtsp: /lib/modules/3.18.20/kernel/drivers/net/nf_conntrack_rtsp.ko /etc/modules-load.d/nf_conntrack_rtsp.conf /etc/modprobe.d/nf_conntrack_rtsp.conf
+pkg_postinst_kernel-module-nf-conntrack-rtsp: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-nf-conntrack-rtsp: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/net/nf_conntrack_rtsp.ko": 9400}
+PKGSIZE_kernel-module-nf-conntrack-rtsp: 9400

@@ -1,0 +1,17 @@
+PN: acdbloader
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbloader-dev: acdb loader Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_acdbloader-dev: acdbloader version git-invalidgit-r7 - Development files
+RDEPENDS_acdbloader-dev: acdbloader (= git-invalidgit-r7)
+RPROVIDES_acdbloader-dev:  acdbloader-dev
+RRECOMMENDS_acdbloader-dev: adiertac-dev acdbrtac-dev system-core-liblog-dev glibc-dev acdbmapper-dev time-genoff-dev glib-2.0-dev audioalsa-dev audcal-dev diag-dev
+SECTION_acdbloader-dev: devel
+PKG_acdbloader-dev: libacdbloader-dev
+ALLOW_EMPTY_acdbloader-dev: 1
+FILES_acdbloader-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/acdbloader/*.la /lib/*.la
+FILES_INFO: {"/usr/include/acdbloader/vbat_map_api.h": 9067, "/usr/lib/libacdbloader.so": 22, "/usr/lib/pkgconfig/acdbloader.pc": 199, "/usr/include/acdbloader/anc_map_api.h": 12324, "/usr/include/acdbloader/anc_bitmasks.h": 975, "/usr/include/acdbloader/acdb-anc-taiko.h": 3406, "/usr/include/acdbloader/acdb-anc-general.h": 3626, "/usr/include/acdbloader/wcd9335_anc_registers.h": 6227, "/usr/include/acdbloader/acdb-loader.h": 2093, "/usr/lib/libacdbloader.la": 1386}
+PKGSIZE_acdbloader-dev: 39325

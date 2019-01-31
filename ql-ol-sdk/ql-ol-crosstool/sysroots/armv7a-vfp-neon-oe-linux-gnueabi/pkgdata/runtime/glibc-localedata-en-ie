@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-ie: locale definition for en-ie
+SUMMARY_glibc-localedata-en-ie: locale definition for en-ie
+RDEPENDS_glibc-localedata-en-ie: glibc-localedata-iso14651-t1 glibc-localedata-en-gb
+SECTION: base
+PKG_glibc-localedata-en-ie: glibc-localedata-en-ie
+FILES_glibc-localedata-en-ie: /usr/share/i18n/locales/en_IE
+FILES_INFO: {"/usr/share/i18n/locales/en_IE": 5218}
+PKGSIZE_glibc-localedata-en-ie: 5218

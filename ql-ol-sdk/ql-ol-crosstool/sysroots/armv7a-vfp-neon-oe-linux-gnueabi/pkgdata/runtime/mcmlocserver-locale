@@ -1,0 +1,13 @@
+PN: mcmlocserver
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: MCM Location Server
+SUMMARY: mcmlocserver version git-invalidgit-r5
+SECTION: base
+PKG_mcmlocserver-locale: mcmlocserver-locale
+FILES_mcmlocserver-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mcmlocserver-locale: 0

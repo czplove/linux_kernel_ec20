@@ -1,0 +1,9 @@
+# Quectel QuecOpen Project #
+This directory is used to make usrdata.ubi by customer,
+user could store their files here, and excute below command 
+to generate usrdata.ubi
+command: cd ql-ol-sdk
+	 make usrdata
+
+Notice: if user require to upgrade version with FOTA, there must be
+60M Bytes is available for FOTA upgrade.

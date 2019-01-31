@@ -1,0 +1,13 @@
+PN: mcm
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: mcm headers
+SUMMARY: mcm version git-invalidgit-r3
+SECTION: base
+PKG_mcm: mcm
+FILES_mcm: /usr/bin/* /usr/sbin/* /usr/lib/mcm/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/mcm /usr/lib/mcm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_mcm: 0

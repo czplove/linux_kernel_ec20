@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-tap-parser-iterator: perl module tap-parser-iterator
+SUMMARY_perl-module-tap-parser-iterator: perl module tap-parser-iterator
+RDEPENDS_perl-module-tap-parser-iterator: perl-module-strict perl-module-base perl-module-carp perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-tap-parser-iterator: perl-module-tap-parser-iterator
+FILES_perl-module-tap-parser-iterator: /usr/lib/perl/5.20.0/TAP/Parser/Iterator.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/TAP/Parser/Iterator.pm": 2998}
+PKGSIZE_perl-module-tap-parser-iterator: 2998

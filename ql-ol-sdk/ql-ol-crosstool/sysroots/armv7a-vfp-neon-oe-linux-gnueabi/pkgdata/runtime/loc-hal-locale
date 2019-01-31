@@ -1,0 +1,13 @@
+PN: loc-hal
+PV: git
+PR: r5
+PKGV: git
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION: GPS Loc HAL
+SUMMARY: loc-hal version git-r5
+SECTION: base
+PKG_loc-hal-locale: loc-hal-locale
+FILES_loc-hal-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-hal-locale: 0

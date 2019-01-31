@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-b-debug: perl module b-debug
+SUMMARY_perl-module-b-debug: perl module b-debug
+RDEPENDS_perl-module-b-debug: perl-module-strict perl-module-config perl-module-b perl
+RPROVIDES_perl-module-b-debug: perl-module-arm-oe-linux-gnueabi-b-debug
+SECTION: devel
+PKG_perl-module-b-debug: perl-module-b-debug
+FILES_perl-module-b-debug: /usr/lib/perl/5.20.0/B/Debug.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/B/Debug.pm": 10723}
+PKGSIZE_perl-module-b-debug: 10723

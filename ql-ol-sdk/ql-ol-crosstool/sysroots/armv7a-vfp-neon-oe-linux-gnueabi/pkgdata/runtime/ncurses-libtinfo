@@ -1,0 +1,21 @@
+PN: ncurses
+PV: 5.9
+PR: r15.1
+PKGV: 5.9
+PKGR: r15.1
+LICENSE: MIT
+DESCRIPTION_ncurses-libtinfo: ncurses tinfo library
+SUMMARY_ncurses-libtinfo: ncurses tinfo library
+RDEPENDS_ncurses-libtinfo: glibc (>= 2.21)
+RPROVIDES_ncurses-libtinfo:  ncurses-libtinfo
+RRECOMMENDS_ncurses-libtinfo: ncurses-terminfo-base
+RSUGGESTS_ncurses-libtinfo: ncurses-terminfo
+SECTION: libs
+PKG_ncurses-libtinfo: libtinfo5
+FILES_ncurses-libtinfo: /lib/libtinfo.so.5 /lib/libtinfo.so.5.9
+FILERPROVIDESFLIST_ncurses-libtinfo: /lib/libtinfo.so.5.9
+FILES_INFO: {"/lib/libtinfo.so.5": 117136}
+FILERPROVIDES_/lib/libtinfo.so.5.9_ncurses-libtinfo: elf(buildid) (= dae359b7b44fc4ef83c5010c7275ed0462075b81) libtinfo.so.5
+FILERDEPENDSFLIST_ncurses-libtinfo: /lib/libtinfo.so.5.9
+FILERDEPENDS_/lib/libtinfo.so.5.9_ncurses-libtinfo: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ncurses-libtinfo: 117136

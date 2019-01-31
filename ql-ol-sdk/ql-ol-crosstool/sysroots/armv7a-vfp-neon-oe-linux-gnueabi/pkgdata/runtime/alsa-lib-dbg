@@ -1,0 +1,15 @@
+PN: alsa-lib
+PV: 1.0.28
+PR: r0
+PKGV: 1.0.28
+PKGR: r0
+LICENSE: LGPLv2.1 & GPLv2+
+DESCRIPTION_alsa-lib-dbg: ALSA sound library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_alsa-lib-dbg: ALSA sound library - Debugging files
+RRECOMMENDS_alsa-lib-dbg: libasound-dbg glibc-dbg
+SECTION_alsa-lib-dbg: devel
+PKG_alsa-lib-dbg: alsa-lib-dbg
+ALLOW_EMPTY_alsa-lib-dbg: 1
+FILES_alsa-lib-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/alsa-lib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/alsa-lib/.debug /usr/lib/matchbox-panel/.debug /usr/lib/alsa-lib/alsa-lib/.debug /usr/src/debug /usr/lib/alsa-lib/smixer/.debug
+FILES_INFO: {"/usr/lib/alsa-lib/smixer/.debug/smixer-ac97.so": 18626, "/usr/lib/alsa-lib/smixer/.debug/smixer-sbase.so": 27481, "/usr/lib/alsa-lib/smixer/.debug/smixer-hda.so": 18620, "/usr/bin/.debug/aserver": 10182, "/usr/lib/.debug/libasound.so.2.0.0": 265006}
+PKGSIZE_alsa-lib-dbg: 339915

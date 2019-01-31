@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso-ir-197: gconv module for character set iso-ir-197
+SUMMARY_glibc-gconv-iso-ir-197: gconv module for character set iso-ir-197
+RDEPENDS_glibc-gconv-iso-ir-197: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso-ir-197: glibc-gconv-iso-ir-197
+FILES_glibc-gconv-iso-ir-197: /usr/lib/gconv/ISO-IR-197.so
+FILES_INFO: {"/usr/lib/gconv/ISO-IR-197.so": 9588}
+PKGSIZE_glibc-gconv-iso-ir-197: 9588

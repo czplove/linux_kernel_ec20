@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-perldoc-getoptsoo: perl module pod-perldoc-getoptsoo
+SUMMARY_perl-module-pod-perldoc-getoptsoo: perl module pod-perldoc-getoptsoo
+RDEPENDS_perl-module-pod-perldoc-getoptsoo: perl-module-strict perl-module-vars perl
+SECTION: devel
+PKG_perl-module-pod-perldoc-getoptsoo: perl-module-pod-perldoc-getoptsoo
+FILES_perl-module-pod-perldoc-getoptsoo: /usr/lib/perl/5.20.0/Pod/Perldoc/GetOptsOO.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Perldoc/GetOptsOO.pm": 3888}
+PKGSIZE_perl-module-pod-perldoc-getoptsoo: 3888

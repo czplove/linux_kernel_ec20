@@ -1,0 +1,16 @@
+PN: system-core
+PV: git
+PR: r16
+PKGV: git
+PKGR: r16
+LICENSE: Apache-2.0
+DESCRIPTION_system-core-dev: Android system/core components  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_system-core-dev: system-core version git-r16 - Development files
+RDEPENDS_system-core-dev: system-core (= git-r16)
+RRECOMMENDS_system-core-dev: glibc-dev zlib-dev openssl-dev libcrypto-dev libcap-dev glib-2.0-dev initscripts-dev
+SECTION_system-core-dev: devel
+PKG_system-core-dev: system-core-dev
+ALLOW_EMPTY_system-core-dev: 1
+FILES_system-core-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/system-core/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/pkgconfig/libmincrypt.pc": 183, "/usr/lib/libmincrypt.la": 884, "/usr/lib/pkgconfig/libcutils.pc": 177}
+PKGSIZE_system-core-dev: 1244

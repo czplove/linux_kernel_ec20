@@ -1,0 +1,14 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RPROVIDES_glibc-pic: eglibc-pic glibc-pic
+SECTION: libs
+PKG_glibc-pic: libc6-pic
+FILES_glibc-pic: /usr/lib/*_pic.a /usr/lib/*_pic.map /usr/lib/libc_pic/*.o
+FILES_INFO: {}
+PKGSIZE_glibc-pic: 0

@@ -1,0 +1,16 @@
+PN: adiertac
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_adiertac-dbg: adie rtac Library and calibiration files  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_adiertac-dbg: adiertac version git-invalidgit-r3 - Debugging files
+RPROVIDES_adiertac-dbg:  adiertac-dbg
+RRECOMMENDS_adiertac-dbg: audcal-dbg glibc-dbg acdbmapper-dbg diag-dbg audioalsa-dbg time-genoff-dbg glib-2.0-dbg
+SECTION_adiertac-dbg: devel
+PKG_adiertac-dbg: libadiertac-dbg
+ALLOW_EMPTY_adiertac-dbg: 1
+FILES_adiertac-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/adiertac/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/adiertac/.debug /usr/lib/matchbox-panel/.debug /usr/lib/adiertac/adiertac/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libadiertac.so.1.0.0": 32376}
+PKGSIZE_adiertac-dbg: 32376

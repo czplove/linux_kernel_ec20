@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-compress-rawdeflate: perl module io-compress-rawdeflate
+SUMMARY_perl-module-io-compress-rawdeflate: perl module io-compress-rawdeflate
+RDEPENDS_perl-module-io-compress-rawdeflate: perl-module-io-compress-base-common perl-module-io-compress-adapter-deflate perl-module-warnings perl-module-compress-raw-zlib perl-module-exporter perl-module-bytes perl-module-io-compress-base perl-module-strict perl perl-module-io-seekable
+SECTION: devel
+PKG_perl-module-io-compress-rawdeflate: perl-module-io-compress-rawdeflate
+FILES_perl-module-io-compress-rawdeflate: /usr/lib/perl/5.20.0/IO/Compress/RawDeflate.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Compress/RawDeflate.pm": 25875}
+PKGSIZE_perl-module-io-compress-rawdeflate: 25875

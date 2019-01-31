@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-cbuilder-platform-dec-osf: perl module extutils-cbuilder-platform-dec-osf
+SUMMARY_perl-module-extutils-cbuilder-platform-dec-osf: perl module extutils-cbuilder-platform-dec-osf
+RDEPENDS_perl-module-extutils-cbuilder-platform-dec-osf: perl-module-strict perl-module-extutils-cbuilder-platform-unix perl-module-vars perl-module-file-spec perl
+SECTION: devel
+PKG_perl-module-extutils-cbuilder-platform-dec-osf: perl-module-extutils-cbuilder-platform-dec-osf
+FILES_perl-module-extutils-cbuilder-platform-dec-osf: /usr/lib/perl/5.20.0/ExtUtils/CBuilder/Platform/dec_osf.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/CBuilder/Platform/dec_osf.pm": 424}
+PKGSIZE_perl-module-extutils-cbuilder-platform-dec-osf: 424

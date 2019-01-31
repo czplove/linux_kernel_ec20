@@ -1,0 +1,13 @@
+PN: loc-hal-test-shim
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: GPS HAL API Test shim Library
+SUMMARY: loc-hal-test-shim version git-invalidgit-r3
+SECTION: base
+PKG_loc-hal-test-shim-locale: loc-hal-test-shim-locale
+FILES_loc-hal-test-shim-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_loc-hal-test-shim-locale: 0

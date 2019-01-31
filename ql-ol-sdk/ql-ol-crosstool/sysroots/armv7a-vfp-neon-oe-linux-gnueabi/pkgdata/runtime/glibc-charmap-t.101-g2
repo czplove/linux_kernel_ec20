@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-t.101-g2: character map for t.101-g2 encoding
+SUMMARY_glibc-charmap-t.101-g2: character map for t.101-g2 encoding
+SECTION: base
+PKG_glibc-charmap-t.101-g2: glibc-charmap-t.101-g2
+FILES_glibc-charmap-t.101-g2: /usr/share/i18n/charmaps/T.101-G2.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/T.101-G2.gz": 4729}
+PKGSIZE_glibc-charmap-t.101-g2: 4729

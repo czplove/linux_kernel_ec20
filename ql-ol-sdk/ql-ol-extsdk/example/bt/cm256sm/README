@@ -1,0 +1,38 @@
+#--------------------------------------------------------------
+#               Quectel OpenLinux
+#--------------------------------------------------------------
+
+1. Please Through the adb or other ways to push below files to the correct directory.Here is an example
+    adb push ./libbsa/firmware/bsa_server /usrdata/
+    adb push ./libbsa/firmware/BCM434545.hcd /usrdata/
+
+2. Configure Hardware to Run BSA
+   a)Turn on the power supply of BT module.Here is an example
+       echo 1 > /sys/kernel/debug/regulator/rome_vreg/enable
+   b)reset BT module by operate BT_EN Pin.Here is an example
+       echo 1019 > /sys/class/gpio/export
+       echo out > /sys/class/gpio/gpio1019/direction
+       echo 0 > /sys/class/gpio/gpio1019/value
+       sleep 3
+       echo 1 > /sys/class/gpio/gpio1019/value
+
+3. Please execute the following command background running bsa_server.
+    /usrdata/bsa_server -d /dev/ttyHS0 -p /usrdata/BCM434545.hcd -b /tmp/btsnoop.cfa > /tmp/bsa.log &
+NOTE:Here we use ttyHS0. The serial device should match the actual hardware.
+
+4. Compile code
+    cd ql-ol-sdk/
+    source ql-ol-crosstool/ql-ol-crosstool-env-init
+    cd ql-ol-extsdk/example/bt/cm256sm/
+    make clean
+    make
+    cd arm
+    You will see the final executable file named bsa_client 
+
+5. Running Demo
+   adb push bsa_client /usrdata/
+   ./bsa_client
+
+6. Turn on Phone Bluetooth. If it's an iphone, download an APP called LightBlue. If it's an android phone, please download an APP called BLE Deng.
+   Please refer to the APP for guidance scanning bluetooth module. You will see a BLE device named Quectel CM256SM.
+

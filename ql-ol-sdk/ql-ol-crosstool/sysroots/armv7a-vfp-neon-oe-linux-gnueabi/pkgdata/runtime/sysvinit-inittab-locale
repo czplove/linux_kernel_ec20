@@ -1,0 +1,13 @@
+PN: sysvinit-inittab
+PV: 2.88dsf
+PR: r10
+PKGV: 2.88dsf
+PKGR: r10
+LICENSE: GPLv2
+DESCRIPTION: Inittab configuration for SysVinit.
+SUMMARY: Inittab configuration for SysVinit
+SECTION: base
+PKG_sysvinit-inittab-locale: sysvinit-inittab-locale
+FILES_sysvinit-inittab-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_sysvinit-inittab-locale: 0

@@ -1,0 +1,17 @@
+PN: qmi-client-helper
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-client-helper-dev: QMI Client Helper Module  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qmi-client-helper-dev: qmi-client-helper version git-invalidgit-r0 - Development files
+RDEPENDS_qmi-client-helper-dev: qmi-client-helper (= git-invalidgit-r0)
+RPROVIDES_qmi-client-helper-dev:  qmi-client-helper-dev
+RRECOMMENDS_qmi-client-helper-dev: configdb-dev glibc-dev xmllib-dev dsutils-dev time-genoff-dev qmi-dev glib-2.0-dev qmi-framework-dev common-dev diag-dev
+SECTION_qmi-client-helper-dev: devel
+PKG_qmi-client-helper-dev: libqmi-client-helper-dev
+ALLOW_EMPTY_qmi-client-helper-dev: 1
+FILES_qmi-client-helper-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qmi-client-helper/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libqmi_client_helper.so": 29, "/usr/include/qmi-client-helper/qmi_client_helper.h": 10998, "/usr/lib/libqmi_client_helper.la": 1718, "/usr/lib/pkgconfig/qmi-client-helper.pc": 228}
+PKGSIZE_qmi-client-helper-dev: 12973

@@ -1,0 +1,16 @@
+PN: ipth-dme
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ipth-dme-dev: IPTH DME tool for FOTA  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_ipth-dme-dev: ipth-dme version git-r1 - Development files
+RDEPENDS_ipth-dme-dev: ipth-dme (= git-r1)
+RRECOMMENDS_ipth-dme-dev: configdb-dev glibc-dev atfwd-daemon-dev libssl-dev libcrypto-dev libstdc++-dev libgcc-dev dsutils-dev qmi-dev glib-2.0-dev qmi-framework-dev diag-dev
+SECTION_ipth-dme-dev: devel
+PKG_ipth-dme-dev: ipth-dme-dev
+ALLOW_EMPTY_ipth-dme-dev: 1
+FILES_ipth-dme-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/ipth-dme/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_ipth-dme-dev: 0

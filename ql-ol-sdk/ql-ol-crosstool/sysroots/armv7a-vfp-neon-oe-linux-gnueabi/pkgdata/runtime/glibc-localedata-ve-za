@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ve-za: locale definition for ve-za
+SUMMARY_glibc-localedata-ve-za: locale definition for ve-za
+RDEPENDS_glibc-localedata-ve-za: glibc-localedata-iso14651-t1 glibc-localedata-en-za glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ve-za: glibc-localedata-ve-za
+FILES_glibc-localedata-ve-za: /usr/share/i18n/locales/ve_ZA
+FILES_INFO: {"/usr/share/i18n/locales/ve_ZA": 9709}
+PKGSIZE_glibc-localedata-ve-za: 9709

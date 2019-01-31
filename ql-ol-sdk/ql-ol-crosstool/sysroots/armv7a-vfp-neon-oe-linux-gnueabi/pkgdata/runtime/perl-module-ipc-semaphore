@@ -1,0 +1,15 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-ipc-semaphore: perl module ipc-semaphore
+SUMMARY_perl-module-ipc-semaphore: perl module ipc-semaphore
+RDEPENDS_perl-module-ipc-semaphore: perl-module-carp perl-module-vars perl perl-module-class-struct perl-module-ipc-sysv perl-module-strict
+RPROVIDES_perl-module-ipc-semaphore: perl-module-arm-oe-linux-gnueabi-ipc-semaphore
+SECTION: devel
+PKG_perl-module-ipc-semaphore: perl-module-ipc-semaphore
+FILES_perl-module-ipc-semaphore: /usr/lib/perl/5.20.0/IPC/Semaphore.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IPC/Semaphore.pm": 6390}
+PKGSIZE_perl-module-ipc-semaphore: 6390

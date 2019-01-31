@@ -1,0 +1,13 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION: Utilities for manipulating filesystem extended attributes.
+SUMMARY: Utilities for manipulating filesystem extended attributes
+SECTION: libs
+PKG_libattr-doc: libattr-doc
+FILES_libattr-doc: /usr/share/man/man2                       /usr/share/man/man3
+FILES_INFO: {"/usr/share/man/man3/attr_get.3.gz": 1883, "/usr/share/man/man2/lgetxattr.2.gz": 13, "/usr/share/man/man2/getxattr.2.gz": 1848, "/usr/share/man/man2/fgetxattr.2.gz": 13, "/usr/share/man/man3/attr_remove.3.gz": 1668, "/usr/share/man/man3/attr_removef.3.gz": 16, "/usr/share/man/man2/setxattr.2.gz": 1853, "/usr/share/man/man3/attr_listf.3.gz": 14, "/usr/share/man/man3/attr_getf.3.gz": 13, "/usr/share/man/man2/removexattr.2.gz": 1511, "/usr/share/man/man3/attr_multif.3.gz": 15, "/usr/share/man/man2/fremovexattr.2.gz": 16, "/usr/share/man/man2/flistxattr.2.gz": 14, "/usr/share/man/man2/lremovexattr.2.gz": 16, "/usr/share/man/man3/attr_multi.3.gz": 2764, "/usr/share/man/man2/fsetxattr.2.gz": 13, "/usr/share/man/man2/llistxattr.2.gz": 14, "/usr/share/man/man3/attr_set.3.gz": 2083, "/usr/share/man/man2/lsetxattr.2.gz": 13, "/usr/share/man/man3/attr_setf.3.gz": 13, "/usr/share/man/man2/listxattr.2.gz": 1952, "/usr/share/man/man3/attr_list.3.gz": 2662}
+PKGSIZE_libattr-doc: 18407

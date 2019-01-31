@@ -1,0 +1,16 @@
+PN: init-ifupdown
+PV: 1.0
+PR: r7
+PKGV: 1.0
+PKGR: r7
+LICENSE: GPLv2
+DESCRIPTION_init-ifupdown-dev: This package provides high level tools to configure network interfaces  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_init-ifupdown-dev: Basic TCP/IP networking init scripts and configuration files - Development files
+RDEPENDS_init-ifupdown-dev: init-ifupdown (= 1.0-r7)
+RRECOMMENDS_init-ifupdown-dev: netbase-dev initscripts-dev
+SECTION_init-ifupdown-dev: devel
+PKG_init-ifupdown-dev: init-ifupdown-dev
+ALLOW_EMPTY_init-ifupdown-dev: 1
+FILES_init-ifupdown-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/init-ifupdown/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_init-ifupdown-dev: 0

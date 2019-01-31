@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-mac-cyrillic: character map for mac-cyrillic encoding
+SUMMARY_glibc-charmap-mac-cyrillic: character map for mac-cyrillic encoding
+SECTION: base
+PKG_glibc-charmap-mac-cyrillic: glibc-charmap-mac-cyrillic
+FILES_glibc-charmap-mac-cyrillic: /usr/share/i18n/charmaps/MAC-CYRILLIC.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/MAC-CYRILLIC.gz": 2660}
+PKGSIZE_glibc-charmap-mac-cyrillic: 2660

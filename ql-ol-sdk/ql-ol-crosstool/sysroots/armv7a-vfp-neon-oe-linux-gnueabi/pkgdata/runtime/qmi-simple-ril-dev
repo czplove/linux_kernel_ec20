@@ -1,0 +1,16 @@
+PN: qmi-simple-ril
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-simple-ril-dev: QMI Test application  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qmi-simple-ril-dev: qmi-simple-ril version git-invalidgit-r1 - Development files
+RDEPENDS_qmi-simple-ril-dev: qmi-simple-ril (= git-invalidgit-r1)
+RRECOMMENDS_qmi-simple-ril-dev: glib-2.0-dev glibc-dev qmi-dev qmi-framework-dev
+SECTION_qmi-simple-ril-dev: devel
+PKG_qmi-simple-ril-dev: qmi-simple-ril-dev
+ALLOW_EMPTY_qmi-simple-ril-dev: 1
+FILES_qmi-simple-ril-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qmi-simple-ril/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_qmi-simple-ril-dev: 0

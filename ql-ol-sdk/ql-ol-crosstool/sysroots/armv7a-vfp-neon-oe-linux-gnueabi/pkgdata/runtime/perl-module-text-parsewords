@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-text-parsewords: perl module text-parsewords
+SUMMARY_perl-module-text-parsewords: perl module text-parsewords
+RDEPENDS_perl-module-text-parsewords: perl-module-strict perl-module-exporter perl-module-carp perl
+SECTION: devel
+PKG_perl-module-text-parsewords: perl-module-text-parsewords
+FILES_perl-module-text-parsewords: /usr/lib/perl/5.20.0/Text/ParseWords.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Text/ParseWords.pm": 7982}
+PKGSIZE_perl-module-text-parsewords: 7982

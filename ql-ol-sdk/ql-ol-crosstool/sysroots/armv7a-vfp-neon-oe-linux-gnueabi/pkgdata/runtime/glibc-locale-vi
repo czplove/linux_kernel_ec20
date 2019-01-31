@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-vi: Locale data from glibc.  This package contains language translation files for the vi locale.
+SUMMARY_glibc-locale-vi: Locale data from glibc - vi translations
+RPROVIDES_glibc-locale-vi: glibc-locale vi-translation
+RRECOMMENDS_glibc-locale-vi: virtual-locale-vi
+SECTION: base
+PKG_glibc-locale-vi: glibc-locale-vi
+FILES_glibc-locale-vi: /usr/share/locale/vi
+FILES_INFO: {"/usr/share/locale/vi/LC_MESSAGES/libc.mo": 164062}
+PKGSIZE_glibc-locale-vi: 164062

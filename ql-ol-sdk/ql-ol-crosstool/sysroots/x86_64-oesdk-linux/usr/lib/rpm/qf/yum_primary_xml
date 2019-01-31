@@ -1,0 +1,82 @@
+"\
+<package type=\"rpm\">\
+\n  <name>%{NAME:cdata}</name>\
+\n  <arch>%{ARCH:cdata}</arch>\
+\n  <version epoch=\"%|EPOCH?{%{EPOCH}}:{0}|\" ver=\"%{VERSION:cdata}\" rel=\"%{RELEASE:cdata}\"/>\
+\n  <checksum type=\"sha\" pkgid=\"YES\">%|PACKAGEDIGEST?{%{PACKAGEDIGEST}}|</checksum>\
+\n  <summary>%{SUMMARY:cdata}</summary>\
+\n  <description>%{DESCRIPTION:cdata}</description>\
+\n  <packager>%|PACKAGER?{%{PACKAGER:cdata}}:{}|</packager>\
+\n  <url>%|URL?{%{URL:cdata}}:{}|</url>\
+\n  <time file=\"%{PACKAGETIME}\" build=\"%{BUILDTIME}\"/>\
+\n  <size package=\"%{PACKAGESIZE}\" installed=\"%{SIZE}\" archive=\"%{ARCHIVESIZE}\"/>\
+\n  <location %|PACKAGEBASEURL?{xml:base=\"%{PACKAGEBASEURL:cdata}\" }|href=\"%{PACKAGEORIGIN:bncdata}\"/>\
+\n  <format>\
+%|license?{\
+\n    <rpm:license>%{LICENSE:cdata}</rpm:license>\
+}:{\
+\n    <rpm:license/>\
+}|\
+%|vendor?{\
+\n    <rpm:vendor>%{VENDOR:cdata}</rpm:vendor>\
+}:{\
+\n    <rpm:vendor/>\
+}|\
+%|group?{\
+\n    <rpm:group>%{GROUP:cdata}</rpm:group>\
+}:{\
+\n    <rpm:group/>\
+}|\
+%|buildhost?{\
+\n    <rpm:buildhost>%{BUILDHOST:cdata}</rpm:buildhost>\
+}:{\
+\n    <rpm:buildhost/>\
+}|\
+%|sourcerpm?{\
+\n    <rpm:sourcerpm>%{SOURCERPM:cdata}</rpm:sourcerpm>\
+}|\
+\n    <rpm:header-range start=\"%{HEADERSTARTOFF}\" end=\"%{HEADERENDOFF}\"/>\
+%|providename?{\
+\n    <rpm:provides>\
+[\
+\n      %{providexmlentry}\
+]\
+\n    </rpm:provides>\
+}:{\
+\n    <rpm:provides/>\
+}|\
+%|requirename?{\
+\n    <rpm:requires>\
+[\
+\n      %{requirexmlentry}\
+]\
+\n    </rpm:requires>\
+}:{\
+\n    <rpm:requires/>\
+}|\
+%|conflictname?{\
+\n    <rpm:conflicts>\
+[\
+\n      %{conflictxmlentry}\
+]\
+\n    </rpm:conflicts>\
+}:{\
+\n    <rpm:conflicts/>\
+}|\
+%|obsoletename?{\
+\n    <rpm:obsoletes>\
+[\
+\n      %{obsoletexmlentry}\
+]\
+\n    </rpm:obsoletes>\
+}:{\
+\n    <rpm:obsoletes/>\
+}|\
+%|filesxmlentry1?{\
+[\
+\n    %{filesxmlentry1}\
+]\
+}|\
+\n  </format>\
+\n</package>\
+\n"

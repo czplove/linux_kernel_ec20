@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-json: Python JSON support
+RDEPENDS_python-json: python-core glibc (>= 2.21) python-codecs python-math libpython2 (>= 2.7.9) python-re
+SECTION: devel/python
+PKG_python-json: python-json
+FILES_python-json: /usr/lib/python2.7/json /usr/lib/python2.7/lib-dynload/_json.so 
+FILERPROVIDESFLIST_python-json: /usr/lib/python2.7/lib-dynload/@underscore@json.so
+FILES_INFO: {"/usr/lib/python2.7/json/tests/__init__.py": 2452, "/usr/lib/python2.7/json/scanner.py": 2297, "/usr/lib/python2.7/json/tests/test_recursion.pyc": 4463, "/usr/lib/python2.7/json/tool.py": 997, "/usr/lib/python2.7/json/tests/test_encode_basestring_ascii.pyc": 3401, "/usr/lib/python2.7/json/tests/test_unicode.py": 3505, "/usr/lib/python2.7/lib-dynload/_json.so": 40556, "/usr/lib/python2.7/json/tests/test_pass2.pyc": 1103, "/usr/lib/python2.7/json/tests/test_fail.py": 3915, "/usr/lib/python2.7/json/tests/test_separators.py": 1023, "/usr/lib/python2.7/json/decoder.pyc": 12070, "/usr/lib/python2.7/json/tests/test_encode_basestring_ascii.py": 2004, "/usr/lib/python2.7/json/tests/test_fail.pyc": 2924, "/usr/lib/python2.7/json/tests/test_separators.pyc": 1856, "/usr/lib/python2.7/json/tests/test_speedups.py": 909, "/usr/lib/python2.7/json/tests/test_decode.py": 2958, "/usr/lib/python2.7/json/encoder.pyc": 13676, "/usr/lib/python2.7/json/tests/test_float.pyc": 2431, "/usr/lib/python2.7/json/tests/test_default.pyc": 1035, "/usr/lib/python2.7/json/tests/test_tool.pyc": 2758, "/usr/lib/python2.7/json/tests/test_pass1.py": 1841, "/usr/lib/python2.7/json/scanner.pyc": 2223, "/usr/lib/python2.7/json/__init__.py": 14750, "/usr/lib/python2.7/json/tests/test_speedups.pyc": 1748, "/usr/lib/python2.7/json/tests/__init__.pyc": 3443, "/usr/lib/python2.7/json/tests/test_unicode.pyc": 5410, "/usr/lib/python2.7/json/tests/test_dump.py": 1009, "/usr/lib/python2.7/json/tests/test_indent.py": 1469, "/usr/lib/python2.7/json/tests/test_check_circular.py": 1015, "/usr/lib/python2.7/json/tests/test_float.py": 1446, "/usr/lib/python2.7/json/tests/test_decode.pyc": 4310, "/usr/lib/python2.7/json/tests/test_pass3.py": 548, "/usr/lib/python2.7/json/tests/test_check_circular.pyc": 2341, "/usr/lib/python2.7/json/tests/test_pass3.pyc": 1198, "/usr/lib/python2.7/json/tests/test_dump.pyc": 2158, "/usr/lib/python2.7/json/tests/test_indent.pyc": 2440, "/usr/lib/python2.7/json/tool.pyc": 1290, "/usr/lib/python2.7/json/tests/test_pass2.py": 452, "/usr/lib/python2.7/json/decoder.py": 13751, "/usr/lib/python2.7/json/tests/test_tool.py": 1968, "/usr/lib/python2.7/json/tests/test_recursion.py": 3374, "/usr/lib/python2.7/json/tests/test_scanstring.pyc": 6163, "/usr/lib/python2.7/json/encoder.py": 16389, "/usr/lib/python2.7/json/tests/test_default.py": 294, "/usr/lib/python2.7/json/tests/test_pass1.pyc": 2492, "/usr/lib/python2.7/json/tests/test_scanstring.py": 5536, "/usr/lib/python2.7/json/__init__.pyc": 13945}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@json.so_python-json: _json.so elf(buildid) (= 627f3238abcec1371df10e6cb3a9c9e2222eb4b8)
+FILERDEPENDSFLIST_python-json: /usr/lib/python2.7/lib-dynload/@underscore@json.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@json.so_python-json: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-json: 219336

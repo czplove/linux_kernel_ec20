@@ -1,0 +1,16 @@
+PN: dhcpcd
+PV: 5.2.10
+PR: r2
+PKGV: 5.2.10
+PKGR: r2
+LICENSE: BSD
+DESCRIPTION_dhcpcd-dev: dhcpcd is an RFC2131-, RFC2132-, and RFC1541-compliant DHCP client daemon. It gets an IP address and other information from the DHCP server, automatically configures the network interface, and tries to renew the lease time according to RFC2131 or RFC1541.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_dhcpcd-dev: dhcpcd version 5.2.10-r2 - Development files
+RDEPENDS_dhcpcd-dev: dhcpcd (= 5.2.10-r2)
+RRECOMMENDS_dhcpcd-dev: glibc-dev
+SECTION_dhcpcd-dev: devel
+PKG_dhcpcd-dev: dhcpcd-dev
+ALLOW_EMPTY_dhcpcd-dev: 1
+FILES_dhcpcd-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/dhcpcd/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_dhcpcd-dev: 0

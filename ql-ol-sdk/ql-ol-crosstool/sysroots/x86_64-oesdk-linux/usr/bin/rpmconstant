@@ -1,0 +1,4 @@
+#!/bin/bash
+realpath=`readlink -fn $0`
+export RPM_USRLIBRPM=`dirname $realpath`/../lib/rpm RPM_ETCRPM=${RPM_ETCRPM-`dirname $realpath`/../../etc/rpm} RPM_LOCALEDIRRPM=`dirname $realpath`/../share/locale
+exec -a `dirname $realpath`/rpmconstant `dirname $realpath`/rpmconstant.real "$@"

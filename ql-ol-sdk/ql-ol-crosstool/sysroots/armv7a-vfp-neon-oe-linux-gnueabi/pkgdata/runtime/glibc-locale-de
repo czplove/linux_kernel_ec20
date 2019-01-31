@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-de: Locale data from glibc.  This package contains language translation files for the de locale.
+SUMMARY_glibc-locale-de: Locale data from glibc - de translations
+RPROVIDES_glibc-locale-de: glibc-locale de-translation
+RRECOMMENDS_glibc-locale-de: virtual-locale-de
+SECTION: base
+PKG_glibc-locale-de: glibc-locale-de
+FILES_glibc-locale-de: /usr/share/locale/de
+FILES_INFO: {"/usr/share/locale/de/LC_MESSAGES/libc.mo": 153830}
+PKGSIZE_glibc-locale-de: 153830

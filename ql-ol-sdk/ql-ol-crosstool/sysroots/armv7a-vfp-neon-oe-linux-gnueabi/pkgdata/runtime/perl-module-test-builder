@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-test-builder: perl module test-builder
+SUMMARY_perl-module-test-builder: perl module test-builder
+RDEPENDS_perl-module-test-builder: perl-module-config perl perl-module-threads-shared perl-module-warnings perl-module-perlio perl-module-strict
+SECTION: devel
+PKG_perl-module-test-builder: perl-module-test-builder
+FILES_perl-module-test-builder: /usr/lib/perl/5.20.0/Test/Builder.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Test/Builder.pm": 62603}
+PKGSIZE_perl-module-test-builder: 62603

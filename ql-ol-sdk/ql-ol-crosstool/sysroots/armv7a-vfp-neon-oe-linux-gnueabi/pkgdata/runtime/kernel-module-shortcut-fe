@@ -1,0 +1,16 @@
+PN: sfe
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: ISC
+DESCRIPTION_kernel-module-shortcut-fe: shortcut-fe kernel module; Shortcut Forwarding Engine - IPv4 edition
+SUMMARY_kernel-module-shortcut-fe: shortcut-fe kernel module
+RDEPENDS_kernel-module-shortcut-fe: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-shortcut-fe: kernel-module-shortcut-fe
+FILES_kernel-module-shortcut-fe: /lib/modules/3.18.20/extra/shortcut-fe.ko /etc/modules-load.d/shortcut-fe.conf /etc/modprobe.d/shortcut-fe.conf
+pkg_postinst_kernel-module-shortcut-fe: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-shortcut-fe: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/extra/shortcut-fe.ko": 30128}
+PKGSIZE_kernel-module-shortcut-fe: 30128

@@ -1,0 +1,14 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-staticdev: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains static libraries for software development.
+SUMMARY_gettext-staticdev: Utilities and libraries for producing multi-lingual messages - Development files (Static Libraries)
+RDEPENDS_gettext-staticdev: gettext-dev (= 0.19.4-r0)
+SECTION_gettext-staticdev: devel
+PKG_gettext-staticdev: gettext-staticdev
+FILES_gettext-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gettext/*.a
+FILES_INFO: {"/usr/lib/libgettextpo.a": 476060}
+PKGSIZE_gettext-staticdev: 476060

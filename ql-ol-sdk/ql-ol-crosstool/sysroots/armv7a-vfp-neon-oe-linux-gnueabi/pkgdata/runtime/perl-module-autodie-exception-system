@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-autodie-exception-system: perl module autodie-exception-system
+SUMMARY_perl-module-autodie-exception-system: perl module autodie-exception-system
+RDEPENDS_perl-module-autodie-exception-system: perl-module-strict perl-module-base perl-module-carp perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-autodie-exception-system: perl-module-autodie-exception-system
+FILES_perl-module-autodie-exception-system: /usr/lib/perl/5.20.0/autodie/exception/system.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/autodie/exception/system.pm": 1629}
+PKGSIZE_perl-module-autodie-exception-system: 1629

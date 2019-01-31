@@ -1,0 +1,66 @@
+PN: ebtables
+PV: v2.0.10-4
+PR: r2
+PKGV: v2.0.10-4
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION: Ethernet bridge tables - Linux Ethernet filter for the Linux bridge
+SUMMARY: ebtables version v2.0.10-4-r2
+RDEPENDS_ebtables: glibc (>= 2.21) perl
+SECTION: console/network
+PKG_ebtables: ebtables
+FILES_ebtables: /usr/bin/* /usr/sbin/* /usr/lib/ebtables/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ebtables /usr/lib/ebtables/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/lib*.so /usr/sbin/*
+FILERPROVIDESFLIST_ebtables: /usr/lib/libebt@underscore@nat.so /usr/lib/libebt@underscore@redirect.so /usr/lib/libebt@underscore@mark@underscore@m.so /usr/sbin/ebtables-restore /usr/lib/libebt@underscore@ulog.so /usr/lib/libebtc.so /usr/lib/libebt@underscore@log.so /usr/lib/libebt@underscore@802@underscore@3.so /usr/lib/libebt@underscore@mark.so /usr/lib/libebtable@underscore@filter.so /usr/lib/libebtable@underscore@broute.so /usr/lib/libebt@underscore@ip6.so /usr/sbin/ebtables /usr/lib/libebt@underscore@stp.so /usr/lib/libebt@underscore@ip.so /usr/lib/libebt@underscore@arpreply.so /usr/lib/libebt@underscore@among.so /usr/lib/libebt@underscore@standard.so /usr/lib/libebt@underscore@pkttype.so /usr/lib/libebt@underscore@arp.so /usr/lib/libebt@underscore@vlan.so /usr/lib/libebt@underscore@nflog.so /usr/lib/libebtable@underscore@nat.so /usr/lib/libebt@underscore@limit.so
+FILES_INFO: {"/usr/lib/libebt_stp.so": 8108, "/usr/lib/libebtc.so": 58360, "/usr/lib/libebtable_broute.so": 2228, "/usr/lib/libebt_arpreply.so": 4184, "/usr/lib/libebt_redirect.so": 3392, "/usr/lib/libebt_nat.so": 5800, "/usr/lib/libebt_log.so": 5816, "/usr/lib/libebt_arp.so": 8108, "/usr/lib/libebt_ip.so": 6984, "/usr/lib/libebt_ulog.so": 4920, "/usr/lib/libebtable_nat.so": 2372, "/usr/lib/libebt_limit.so": 5248, "/usr/lib/libebt_ip6.so": 10372, "/usr/sbin/ebtables-restore": 7292, "/etc/ebtables/ebtables-config": 1388, "/usr/lib/libebt_mark.so": 4872, "/etc/rc.d/init.d/ebtables": 3410, "/usr/sbin/ebtables": 4144, "/usr/lib/libebtable_filter.so": 2380, "/usr/lib/libebt_802_3.so": 4036, "/usr/lib/libebt_among.so": 8408, "/usr/sbin/ebtables-save": 1668, "/usr/lib/libebt_nflog.so": 4700, "/usr/lib/libebt_vlan.so": 4756, "/usr/lib/libebt_standard.so": 2776, "/usr/lib/libebt_pkttype.so": 4172, "/etc/ethertypes": 1317, "/usr/lib/libebt_mark_m.so": 3432}
+FILERPROVIDES_/usr/lib/libebt@underscore@nat.so_ebtables: elf(buildid) (= aeafebdfaf0788d37a2fd9870bec8069459b1114) libebt_nat.so
+FILERPROVIDES_/usr/lib/libebt@underscore@redirect.so_ebtables: elf(buildid) (= ee11f5019d58954d6c62303be5262181e3d3b313) libebt_redirect.so
+FILERPROVIDES_/usr/lib/libebt@underscore@mark@underscore@m.so_ebtables: elf(buildid) (= 5520d0699c4942657ee12864729f8bc3875a0cda) libebt_mark_m.so
+FILERPROVIDES_/usr/sbin/ebtables-restore_ebtables: elf(buildid) (= 4bd895afeb09eef2950bc624f124c1bebbc42b2b)
+FILERPROVIDES_/usr/lib/libebt@underscore@ulog.so_ebtables: elf(buildid) (= 9fa83e51a1d47c10246fb5f64870d4f1933a425a) libebt_ulog.so
+FILERPROVIDES_/usr/lib/libebtc.so_ebtables: elf(buildid) (= ddc0e2bff4c89b17f4f7184c3eb26e12fc4999cd) libebtc.so
+FILERPROVIDES_/usr/lib/libebt@underscore@log.so_ebtables: elf(buildid) (= 551d359d4b714b0c555f19a2a57d6eaf15cfda5c) libebt_log.so
+FILERPROVIDES_/usr/lib/libebt@underscore@802@underscore@3.so_ebtables: elf(buildid) (= 7a1acbd48aaa3d82ff13b87ddffdb2f6e6e7cbbf) libebt_802_3.so
+FILERPROVIDES_/usr/lib/libebt@underscore@mark.so_ebtables: elf(buildid) (= a4435c399b5006d4180fdefa22295dd81e6d0cdc) libebt_mark.so
+FILERPROVIDES_/usr/lib/libebtable@underscore@filter.so_ebtables: elf(buildid) (= 147734389b1ffb48d70e7e0d2609c9bc3bead277) libebtable_filter.so
+FILERPROVIDES_/usr/lib/libebtable@underscore@broute.so_ebtables: elf(buildid) (= b388cfba115584ad177cfc68299eacb172a91e6a) libebtable_broute.so
+FILERPROVIDES_/usr/lib/libebt@underscore@ip6.so_ebtables: elf(buildid) (= 9e84c156d0c0f4adbb72eb98881195b1eef6e6e4) libebt_ip6.so
+FILERPROVIDES_/usr/sbin/ebtables_ebtables: elf(buildid) (= 006c0b1f73d75b0952927e55b9e734dec7413575)
+FILERPROVIDES_/usr/lib/libebt@underscore@stp.so_ebtables: elf(buildid) (= 9b844af3566e8931f030a8d5fe9ef7be0f7691ff) libebt_stp.so
+FILERPROVIDES_/usr/lib/libebt@underscore@ip.so_ebtables: elf(buildid) (= f3bcc4b689a93adad0535a1829f77dbbf1fa1e49) libebt_ip.so
+FILERPROVIDES_/usr/lib/libebt@underscore@arpreply.so_ebtables: elf(buildid) (= 5c6c9af3dc34cf81cd16c0a9a2cb9c807a007873) libebt_arpreply.so
+FILERPROVIDES_/usr/lib/libebt@underscore@among.so_ebtables: elf(buildid) (= 7349a6ce7c25ddcd2f2bf222f6f683463a1e49e2) libebt_among.so
+FILERPROVIDES_/usr/lib/libebt@underscore@standard.so_ebtables: elf(buildid) (= 3d3a8086836e4efed0518311765397c54f31225b) libebt_standard.so
+FILERPROVIDES_/usr/lib/libebt@underscore@pkttype.so_ebtables: elf(buildid) (= 949f4c3054f6f5d22e0dd2d49c20b8788205faf2) libebt_pkttype.so
+FILERPROVIDES_/usr/lib/libebt@underscore@arp.so_ebtables: elf(buildid) (= 2a5c0c678e9dc96157b0d6e25576637f69c88858) libebt_arp.so
+FILERPROVIDES_/usr/lib/libebt@underscore@vlan.so_ebtables: elf(buildid) (= 3ee80c4e986fd7906e4f5483af02b623a71ff3e7) libebt_vlan.so
+FILERPROVIDES_/usr/lib/libebt@underscore@nflog.so_ebtables: elf(buildid) (= fa3261b7f1e3c8e951546befba216dd50bd131bf) libebt_nflog.so
+FILERPROVIDES_/usr/lib/libebtable@underscore@nat.so_ebtables: elf(buildid) (= 47905586e888e68614111cc51d8ed1954df22e84) libebtable_nat.so
+FILERPROVIDES_/usr/lib/libebt@underscore@limit.so_ebtables: elf(buildid) (= 96cbd748aee72666775cc44cd250cdb9cba8026d) libebt_limit.so
+FILERDEPENDSFLIST_ebtables: /usr/lib/libebt@underscore@nat.so /usr/lib/libebt@underscore@redirect.so /usr/lib/libebt@underscore@mark@underscore@m.so /usr/sbin/ebtables-restore /usr/lib/libebt@underscore@ulog.so /usr/lib/libebtc.so /usr/lib/libebt@underscore@log.so /usr/lib/libebt@underscore@802@underscore@3.so /usr/lib/libebt@underscore@mark.so /usr/lib/libebtable@underscore@filter.so /usr/lib/libebtable@underscore@broute.so /usr/lib/libebt@underscore@ip6.so /usr/sbin/ebtables /usr/lib/libebt@underscore@stp.so /usr/lib/libebt@underscore@ip.so /usr/lib/libebt@underscore@arpreply.so /usr/lib/libebtable@underscore@nat.so /usr/lib/libebt@underscore@among.so /usr/lib/libebt@underscore@limit.so /usr/lib/libebt@underscore@standard.so /usr/lib/libebt@underscore@pkttype.so /usr/lib/libebt@underscore@arp.so /usr/lib/libebt@underscore@vlan.so /usr/lib/libebt@underscore@nflog.so /etc/rc.d/init.d/ebtables /usr/sbin/ebtables-save
+FILERDEPENDS_/usr/lib/libebt@underscore@nat.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@redirect.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@mark@underscore@m.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ebtables-restore_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) libebt_802_3.so libebt_among.so libebt_arp.so libebt_arpreply.so libebt_ip.so libebt_ip6.so libebt_limit.so libebt_log.so libebt_mark.so libebt_mark_m.so libebt_nat.so libebt_nflog.so libebt_pkttype.so libebt_redirect.so libebt_standard.so libebt_stp.so libebt_ulog.so libebt_vlan.so libebtable_broute.so libebtable_filter.so libebtable_nat.so libebtc.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@ulog.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebtc.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@log.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@802@underscore@3.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@mark.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebtable@underscore@filter.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebtable@underscore@broute.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@ip6.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/sbin/ebtables_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) libebt_802_3.so libebt_among.so libebt_arp.so libebt_arpreply.so libebt_ip.so libebt_ip6.so libebt_limit.so libebt_log.so libebt_mark.so libebt_mark_m.so libebt_nat.so libebt_nflog.so libebt_pkttype.so libebt_redirect.so libebt_standard.so libebt_stp.so libebt_ulog.so libebt_vlan.so libebtable_broute.so libebtable_filter.so libebtable_nat.so libebtc.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@stp.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@ip.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@arpreply.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebtable@underscore@nat.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@among.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@limit.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@standard.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@pkttype.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@arp.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@vlan.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libebt@underscore@nflog.so_ebtables: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/rc.d/init.d/ebtables_ebtables: /bin/bash
+FILERDEPENDS_/usr/sbin/ebtables-save_ebtables: /usr/bin/perl
+PKGSIZE_ebtables: 184643

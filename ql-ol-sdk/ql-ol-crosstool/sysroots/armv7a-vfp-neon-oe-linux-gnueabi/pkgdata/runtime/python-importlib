@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-importlib: Python import implementation library
+RDEPENDS_python-importlib: python-core
+SECTION: devel/python
+PKG_python-importlib: python-importlib
+FILES_python-importlib: /usr/lib/python2.7/importlib 
+FILES_INFO: {"/usr/lib/python2.7/importlib/__init__.py": 1327, "/usr/lib/python2.7/importlib/__init__.pyc": 1496}
+PKGSIZE_python-importlib: 2823

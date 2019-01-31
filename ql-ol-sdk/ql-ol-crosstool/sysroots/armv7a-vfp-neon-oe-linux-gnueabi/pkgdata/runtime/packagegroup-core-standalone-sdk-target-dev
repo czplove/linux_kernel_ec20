@@ -1,0 +1,16 @@
+PN: packagegroup-core-standalone-sdk-target
+PV: 1.0
+PR: r8
+PKGV: 1.0
+PKGR: r8
+LICENSE: MIT
+DESCRIPTION_packagegroup-core-standalone-sdk-target-dev: Target packages for the standalone SDK.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_packagegroup-core-standalone-sdk-target-dev: Target packages for the standalone SDK - Development files
+RDEPENDS_packagegroup-core-standalone-sdk-target-dev: packagegroup-core-standalone-sdk-target (= 1.0-r8)
+RRECOMMENDS_packagegroup-core-standalone-sdk-target-dev: qemuwrapper-cross-dev glibc-utils-dev glibc-gconv-ibm850-dev glibc-dev glibc-thread-db-dev glibc-gconv-cp1252-dev libstdc++-dev glibc-localedata-i18n-dev libgcc-dev libsegfault-dev glibc-gconv-iso8859-15-dev glibc-gconv-iso8859-1-dev libgcov-dev
+SECTION_packagegroup-core-standalone-sdk-target-dev: devel
+PKG_packagegroup-core-standalone-sdk-target-dev: packagegroup-core-standalone-sdk-target-dev
+ALLOW_EMPTY_packagegroup-core-standalone-sdk-target-dev: 1
+FILES_packagegroup-core-standalone-sdk-target-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/packagegroup-core-standalone-sdk-target/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_packagegroup-core-standalone-sdk-target-dev: 0

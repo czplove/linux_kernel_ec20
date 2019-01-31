@@ -1,0 +1,13 @@
+PN: dsrc-tools
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_dsrc-tools-doc: dsrc-tools  This package contains documentation.
+SUMMARY_dsrc-tools-doc: dsrc-tools version git-r0 - Documentation files
+SECTION_dsrc-tools-doc: doc
+PKG_dsrc-tools-doc: dsrc-tools-doc
+FILES_dsrc-tools-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_dsrc-tools-doc: 0

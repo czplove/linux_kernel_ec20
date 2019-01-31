@@ -1,0 +1,13 @@
+PN: linux-libc-headers
+PV: 3.19
+PR: r0
+PKGV: 3.19
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: Sanitized set of kernel headers for the C library\'s use.
+SUMMARY: Sanitized set of kernel headers for the C library\'s use
+SECTION: devel
+PKG_linux-libc-headers-locale: linux-libc-headers-locale
+FILES_linux-libc-headers-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_linux-libc-headers-locale: 0

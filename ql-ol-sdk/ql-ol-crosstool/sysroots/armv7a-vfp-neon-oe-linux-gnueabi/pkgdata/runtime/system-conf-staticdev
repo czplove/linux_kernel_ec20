@@ -1,0 +1,14 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION_system-conf-staticdev: Device specific config  This package contains static libraries for software development.
+SUMMARY_system-conf-staticdev: system-conf version git-r3 - Development files (Static Libraries)
+RDEPENDS_system-conf-staticdev: system-conf-dev (= git-r3)
+SECTION_system-conf-staticdev: devel
+PKG_system-conf-staticdev: system-conf-staticdev
+FILES_system-conf-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/system-conf/*.a
+FILES_INFO: {}
+PKGSIZE_system-conf-staticdev: 0

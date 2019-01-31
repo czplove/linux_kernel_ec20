@@ -1,0 +1,34 @@
+#! /bin/sh
+#  ---------------------------------------------------------------------------
+#  Copyright (c) 2015 Quectel Wireless Solutions Co., Ltd. All Rights Reserved.
+#  Quectel Wireless Solutions Proprietary and Confidential.
+#  ---------------------------------------------------------------------------
+#
+# init.d script for quectel-gps-handle
+
+set -x
+set -e
+
+case "$1" in
+       start)
+                echo -n "Starting quectel-gps-handle(uart-ddp): "
+                echo "cp quectel-uart-ddp quectel-gps-handle done"
+                start-stop-daemon -S -b -a /usr/bin/quectel-gps-handle -- -default
+                echo "done"
+                ;;
+       stop)
+                echo -n "Stopping quectel gps handle: "
+                start-stop-daemon -K -n quectel-gps-handle
+                echo "done"
+                ;;
+       restart)
+                $0 stop
+                $0 start
+                ;;
+       *)
+                echo "Usage: quectel-gps-handle { start | stop | restart }" >&2
+                exit 1
+                ;;
+esac
+
+exit 0

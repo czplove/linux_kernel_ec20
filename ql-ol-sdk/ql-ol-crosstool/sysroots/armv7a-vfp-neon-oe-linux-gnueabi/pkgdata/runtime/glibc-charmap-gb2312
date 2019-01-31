@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-gb2312: character map for gb2312 encoding
+SUMMARY_glibc-charmap-gb2312: character map for gb2312 encoding
+SECTION: base
+PKG_glibc-charmap-gb2312: glibc-charmap-gb2312
+FILES_glibc-charmap-gb2312: /usr/share/i18n/charmaps/GB2312.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/GB2312.gz": 44796}
+PKGSIZE_glibc-charmap-gb2312: 44796

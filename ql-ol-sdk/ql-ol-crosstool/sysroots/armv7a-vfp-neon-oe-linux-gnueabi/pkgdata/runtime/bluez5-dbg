@@ -1,0 +1,15 @@
+PN: bluez5
+PV: 5.19
+PR: r1
+PKGV: 5.19
+PKGR: r1
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION_bluez5-dbg: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_bluez5-dbg: Linux Bluetooth Stack Userland V5 - Debugging files
+RRECOMMENDS_bluez5-dbg: libical-dbg glibc-dbg dbus-lib-dbg glib-2.0-dbg readline-dbg libudev-dbg
+SECTION_bluez5-dbg: devel
+PKG_bluez5-dbg: bluez5-dbg
+ALLOW_EMPTY_bluez5-dbg: 1
+FILES_bluez5-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/bluez5/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/bluez5/.debug /usr/lib/matchbox-panel/.debug /usr/lib/bluez5/bluez5/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_bluez5-dbg: 0

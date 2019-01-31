@@ -1,0 +1,13 @@
+PN: libgcc
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE: GPL-3.0-with-GCC-exception & GPLv3
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+SECTION: devel
+PKG_libgcov-dev: libgcov-dev
+FILES_libgcov-dev:     /usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcov.a 
+FILES_INFO: {"/usr/lib/arm-oe-linux-gnueabi/4.9.2/libgcov.a": 142594}
+PKGSIZE_libgcov-dev: 142594

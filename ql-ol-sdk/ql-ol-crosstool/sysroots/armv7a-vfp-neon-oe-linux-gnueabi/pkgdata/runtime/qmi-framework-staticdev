@@ -1,0 +1,14 @@
+PN: qmi-framework
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-framework-staticdev: QMI Framework Library  This package contains static libraries for software development.
+SUMMARY_qmi-framework-staticdev: qmi-framework version git-invalidgit-r7 - Development files (Static Libraries)
+RDEPENDS_qmi-framework-staticdev: qmi-framework-dev (= git-invalidgit-r7)
+SECTION_qmi-framework-staticdev: devel
+PKG_qmi-framework-staticdev: qmi-framework-staticdev
+FILES_qmi-framework-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qmi-framework/*.a
+FILES_INFO: {}
+PKGSIZE_qmi-framework-staticdev: 0

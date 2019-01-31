@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-text-overstrike: perl module pod-text-overstrike
+SUMMARY_perl-module-pod-text-overstrike: perl module pod-text-overstrike
+RDEPENDS_perl-module-pod-text-overstrike: perl-module-strict perl-module-vars perl-module-pod-text perl
+SECTION: devel
+PKG_perl-module-pod-text-overstrike: perl-module-pod-text-overstrike
+FILES_perl-module-pod-text-overstrike: /usr/lib/perl/5.20.0/Pod/Text/Overstrike.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Text/Overstrike.pm": 6453}
+PKGSIZE_perl-module-pod-text-overstrike: 6453

@@ -1,0 +1,31 @@
+PN: recovery
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Apache-2.0
+DESCRIPTION: Recovery bootloader
+SUMMARY: recovery version git-r7
+RDEPENDS_recovery: bzip2 zlib (>= 1.2.8) system-core-libcutils (>= git) glibc (>= 2.21) libbz2 (>= 1.0.6)
+RRECOMMENDS_recovery:  update-rc.d
+SECTION: base
+PKG_recovery: recovery
+FILES_recovery: /usr/bin/* /usr/sbin/* /usr/lib/recovery/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/recovery /usr/lib/recovery/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /cache /system /tmp /res /data
+pkg_postinst_recovery: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT recovery start 27 5 . stop 80 0 1 6 .\nfi\n
+pkg_postrm_recovery: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT recovery remove\nfi\n
+pkg_preinst_recovery: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/recovery" ]; then\n\t/etc/init.d/recovery stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT recovery remove\nfi\n
+pkg_prerm_recovery: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/recovery stop\nfi\n
+FILERPROVIDESFLIST_recovery: /usr/bin/updater /usr/bin/recovery /usr/bin/applypatch /usr/bin/verifier@underscore@test
+FILES_INFO: {"/usr/bin/updater": 97544, "/etc/init.d/full_update.sh": 5568, "/etc/sysctl.conf": 63, "/etc/init.d/recovery": 628, "/etc/urc.ini": 92, "/usr/bin/verifier_test": 9360, "/res/recovery_volume_config": 480, "/etc/init.d/usb_remount.sh": 739, "/etc/fstab": 480, "/usr/bin/applypatch": 648088, "/etc/ubinize_system_rootfs.cfg": 129, "/etc/ubinize_modem.cfg": 121, "/etc/init.d/backup_rootfs.sh": 3664, "/usr/bin/recovery": 72404}
+FILERPROVIDES_/usr/bin/updater_recovery: elf(buildid) (= 16a9c04eea5ef05c1628c90ebc6a2183c348653a)
+FILERPROVIDES_/usr/bin/recovery_recovery: elf(buildid) (= 2bbd48c6d444b21e2f288088a5e058c53b90c1e3)
+FILERPROVIDES_/usr/bin/applypatch_recovery: elf(buildid) (= a8f75ba8ce610b6856404bee1f92c53fbf042b2e)
+FILERPROVIDES_/usr/bin/verifier@underscore@test_recovery: elf(buildid) (= ee72c7b9327c8571cdabf016f779dd3e07b41086)
+FILERDEPENDSFLIST_recovery: /usr/bin/updater /etc/init.d/recovery /etc/init.d/usb@underscore@remount.sh /etc/init.d/backup@underscore@rootfs.sh /usr/bin/verifier@underscore@test /usr/bin/recovery
+FILERDEPENDS_/usr/bin/updater_recovery: libbz2.so.0 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/etc/init.d/recovery_recovery: /bin/sh
+FILERDEPENDS_/etc/init.d/usb@underscore@remount.sh_recovery: /bin/sh
+FILERDEPENDS_/etc/init.d/backup@underscore@rootfs.sh_recovery: /bin/sh
+FILERDEPENDS_/usr/bin/verifier@underscore@test_recovery: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/recovery_recovery: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libcutils.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+PKGSIZE_recovery: 839360

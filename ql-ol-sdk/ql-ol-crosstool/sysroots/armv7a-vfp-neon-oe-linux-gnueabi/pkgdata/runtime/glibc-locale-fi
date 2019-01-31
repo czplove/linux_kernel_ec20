@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-fi: Locale data from glibc.  This package contains language translation files for the fi locale.
+SUMMARY_glibc-locale-fi: Locale data from glibc - fi translations
+RPROVIDES_glibc-locale-fi: glibc-locale fi-translation
+RRECOMMENDS_glibc-locale-fi: virtual-locale-fi
+SECTION: base
+PKG_glibc-locale-fi: glibc-locale-fi
+FILES_glibc-locale-fi: /usr/share/locale/fi
+FILES_INFO: {"/usr/share/locale/fi/LC_MESSAGES/libc.mo": 103138}
+PKGSIZE_glibc-locale-fi: 103138

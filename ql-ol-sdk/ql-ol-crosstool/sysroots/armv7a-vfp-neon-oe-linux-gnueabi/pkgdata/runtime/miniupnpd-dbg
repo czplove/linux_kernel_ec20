@@ -1,0 +1,15 @@
+PN: miniupnpd
+PV: 1.9.20150307
+PR: r7
+PKGV: 1.9.20150307
+PKGR: r7
+LICENSE: BSD
+DESCRIPTION_miniupnpd-dbg: MiniUPnPd is a low memory daemon which acts as aUPnP device, enabling seamless detection of other UPnP devices/control points.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_miniupnpd-dbg: Lightweight implementation of a UPnP IGD daemon. - Debugging files
+RRECOMMENDS_miniupnpd-dbg: glibc-dbg data-dbg libstdc++-dbg libssl-dbg libcrypto-dbg libnfnetlink-dbg libgcc-dbg
+SECTION_miniupnpd-dbg: devel
+PKG_miniupnpd-dbg: miniupnpd-dbg
+ALLOW_EMPTY_miniupnpd-dbg: 1
+FILES_miniupnpd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/miniupnpd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/miniupnpd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/miniupnpd/miniupnpd/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/miniupnpd": 22645}
+PKGSIZE_miniupnpd-dbg: 22645

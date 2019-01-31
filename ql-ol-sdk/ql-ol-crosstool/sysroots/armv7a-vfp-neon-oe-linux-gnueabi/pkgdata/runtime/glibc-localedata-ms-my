@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ms-my: locale definition for ms-my
+SUMMARY_glibc-localedata-ms-my: locale definition for ms-my
+RDEPENDS_glibc-localedata-ms-my: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ms-my: glibc-localedata-ms-my
+FILES_glibc-localedata-ms-my: /usr/share/i18n/locales/ms_MY
+FILES_INFO: {"/usr/share/i18n/locales/ms_MY": 7236}
+PKGSIZE_glibc-localedata-ms-my: 7236

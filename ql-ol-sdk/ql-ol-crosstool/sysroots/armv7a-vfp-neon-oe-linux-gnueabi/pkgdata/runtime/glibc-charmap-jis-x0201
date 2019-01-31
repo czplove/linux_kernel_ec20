@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-jis-x0201: character map for jis-x0201 encoding
+SUMMARY_glibc-charmap-jis-x0201: character map for jis-x0201 encoding
+SECTION: base
+PKG_glibc-charmap-jis-x0201: glibc-charmap-jis-x0201
+FILES_glibc-charmap-jis-x0201: /usr/share/i18n/charmaps/JIS_X0201.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/JIS_X0201.gz": 2624}
+PKGSIZE_glibc-charmap-jis-x0201: 2624

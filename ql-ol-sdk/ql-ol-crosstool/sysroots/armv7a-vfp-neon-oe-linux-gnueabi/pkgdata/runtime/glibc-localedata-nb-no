@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-nb-no: locale definition for nb-no
+SUMMARY_glibc-localedata-nb-no: locale definition for nb-no
+RDEPENDS_glibc-localedata-nb-no: glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-nb-no: glibc-localedata-nb-no
+FILES_glibc-localedata-nb-no: /usr/share/i18n/locales/nb_NO
+FILES_INFO: {"/usr/share/i18n/locales/nb_NO": 7719}
+PKGSIZE_glibc-localedata-nb-no: 7719

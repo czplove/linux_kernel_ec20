@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-inc-latest-private: perl module inc-latest-private
+SUMMARY_perl-module-inc-latest-private: perl module inc-latest-private
+RDEPENDS_perl-module-inc-latest-private: perl-module-if perl-module-vars perl-module-file-spec perl-module-extutils-makemaker perl perl-module-strict
+SECTION: devel
+PKG_perl-module-inc-latest-private: perl-module-inc-latest-private
+FILES_perl-module-inc-latest-private: /usr/lib/perl/5.20.0/inc/latest/private.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/inc/latest/private.pm": 2279}
+PKGSIZE_perl-module-inc-latest-private: 2279

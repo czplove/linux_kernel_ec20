@@ -1,0 +1,18 @@
+PN: tinyproxy
+PV: 1.8.3
+PR: r0
+PKGV: 1.8.3
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: TinyProxy
+SUMMARY: tinyproxy version 1.8.3-r0
+RDEPENDS_tinyproxy: glibc (>= 2.21)
+SECTION: console/network
+PKG_tinyproxy: tinyproxy
+FILES_tinyproxy: /usr/bin/* /usr/sbin/* /usr/lib/tinyproxy/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tinyproxy /usr/lib/tinyproxy/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_tinyproxy: /usr/sbin/tinyproxy
+FILES_INFO: {"/usr/share/tinyproxy/stats.html": 1121, "/etc/tinyproxy.conf": 10146, "/usr/sbin/tinyproxy": 58500, "/usr/share/tinyproxy/default.html": 466, "/usr/share/tinyproxy/debug.html": 874}
+FILERPROVIDES_/usr/sbin/tinyproxy_tinyproxy: elf(buildid) (= 0e2e46669b9911f08fa9c89c5a332c7a739d3c32)
+FILERDEPENDSFLIST_tinyproxy: /usr/sbin/tinyproxy
+FILERDEPENDS_/usr/sbin/tinyproxy_tinyproxy: libc.so.6 libc.so.6(GLIBC_2.15) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libnsl.so.1 libresolv.so.2 rtld(GNU_HASH)
+PKGSIZE_tinyproxy: 71107

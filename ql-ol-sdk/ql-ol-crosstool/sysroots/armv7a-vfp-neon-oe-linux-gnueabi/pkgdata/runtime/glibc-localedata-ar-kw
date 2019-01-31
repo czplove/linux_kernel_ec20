@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-kw: locale definition for ar-kw
+SUMMARY_glibc-localedata-ar-kw: locale definition for ar-kw
+RDEPENDS_glibc-localedata-ar-kw: glibc-localedata-ar-eg glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ar-kw: glibc-localedata-ar-kw
+FILES_glibc-localedata-ar-kw: /usr/share/i18n/locales/ar_KW
+FILES_INFO: {"/usr/share/i18n/locales/ar_KW": 6185}
+PKGSIZE_glibc-localedata-ar-kw: 6185

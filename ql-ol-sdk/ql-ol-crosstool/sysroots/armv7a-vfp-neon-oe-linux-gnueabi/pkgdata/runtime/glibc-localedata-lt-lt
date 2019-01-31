@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-lt-lt: locale definition for lt-lt
+SUMMARY_glibc-localedata-lt-lt: locale definition for lt-lt
+RDEPENDS_glibc-localedata-lt-lt: glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-lt-lt: glibc-localedata-lt-lt
+FILES_glibc-localedata-lt-lt: /usr/share/i18n/locales/lt_LT
+FILES_INFO: {"/usr/share/i18n/locales/lt_LT": 83150}
+PKGSIZE_glibc-localedata-lt-lt: 83150

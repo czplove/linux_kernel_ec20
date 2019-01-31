@@ -1,0 +1,16 @@
+PN: libnss-mdns
+PV: 0.10
+PR: r7
+PKGV: 0.10
+PKGR: r7
+LICENSE: LGPLv2.1+
+DESCRIPTION_libnss-mdns-dev: Name Service Switch module for Multicast DNS (zeroconf) name resolution.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libnss-mdns-dev: Name Service Switch module for Multicast DNS (zeroconf) name resolution - Development files
+RDEPENDS_libnss-mdns-dev: libnss-mdns (= 0.10-r7)
+RRECOMMENDS_libnss-mdns-dev: glibc-dev avahi-dev avahi-daemon-dev
+SECTION_libnss-mdns-dev: devel
+PKG_libnss-mdns-dev: libnss-mdns-dev
+ALLOW_EMPTY_libnss-mdns-dev: 1
+FILES_libnss-mdns-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libnss-mdns/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_libnss-mdns-dev: 0

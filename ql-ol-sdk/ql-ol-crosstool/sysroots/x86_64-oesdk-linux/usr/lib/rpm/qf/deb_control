@@ -1,0 +1,20 @@
+"\
+Package: %{NAME}\
+\nVersion: %|EPOCH?{%{EPOCH}:}|%{VERSION}-%{RELEASE}\
+\nArchitecture: %{ARCH:strsub(noarch,all,src,source)}\
+%|PACKAGER?{\
+\nMaintainer: %{PACKAGER}\
+}|\
+\nInstalled-Size: %{SIZE:rpn(1023,+,1024,/)}\
+%|REQUIRENAME?{\
+\nDepends:[ %{needswhat}]\
+}|\
+\nSection: %{GROUP}\
+%|Priority?{\
+\nPriority: %{Priority}\
+}:{\
+\nPriority: standard\
+}|\
+\nDescription: %{SUMMARY}\
+\n%{DESCRIPTION:strsub(^, )}\
+\n"

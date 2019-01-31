@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-universal: perl module universal
+SUMMARY_perl-module-universal: perl module universal
+RDEPENDS_perl-module-universal: perl-module-exporter perl-module-warnings perl
+SECTION: devel
+PKG_perl-module-universal: perl-module-universal
+FILES_perl-module-universal: /usr/lib/perl/5.20.0/UNIVERSAL.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/UNIVERSAL.pm": 7134}
+PKGSIZE_perl-module-universal: 7134

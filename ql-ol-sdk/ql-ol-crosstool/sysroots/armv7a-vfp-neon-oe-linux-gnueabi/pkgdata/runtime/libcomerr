@@ -1,0 +1,19 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_libcomerr: glibc (>= 2.21)
+RPROVIDES_libcomerr:  libcomerr
+SECTION: base
+PKG_libcomerr: libcom-err2
+FILES_libcomerr: /lib/libcom_err.so.*
+FILERPROVIDESFLIST_libcomerr: /lib/libcom@underscore@err.so.2.1
+FILES_INFO: {"/lib/libcom_err.so.2": 9360}
+FILERPROVIDES_/lib/libcom@underscore@err.so.2.1_libcomerr: elf(buildid) (= 16138e00abeaa4bdad47bbcdd8ba82ad4e32e236) libcom_err.so.2
+FILERDEPENDSFLIST_libcomerr: /lib/libcom@underscore@err.so.2.1
+FILERDEPENDS_/lib/libcom@underscore@err.so.2.1_libcomerr: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_libcomerr: 9360

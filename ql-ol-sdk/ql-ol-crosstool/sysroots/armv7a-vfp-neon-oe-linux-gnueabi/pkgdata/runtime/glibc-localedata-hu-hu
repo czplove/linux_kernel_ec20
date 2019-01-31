@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-hu-hu: locale definition for hu-hu
+SUMMARY_glibc-localedata-hu-hu: locale definition for hu-hu
+RDEPENDS_glibc-localedata-hu-hu: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-hu-hu: glibc-localedata-hu-hu
+FILES_glibc-localedata-hu-hu: /usr/share/i18n/locales/hu_HU
+FILES_INFO: {"/usr/share/i18n/locales/hu_HU": 22769}
+PKGSIZE_glibc-localedata-hu-hu: 22769

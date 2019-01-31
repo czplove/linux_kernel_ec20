@@ -1,0 +1,13 @@
+PN: start-scripts-dynamic-console
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_start-scripts-dynamic-console-doc: Start up script for  dynamic console  This package contains documentation.
+SUMMARY_start-scripts-dynamic-console-doc: start-scripts-dynamic-console version 1.0-r4 - Documentation files
+SECTION_start-scripts-dynamic-console-doc: doc
+PKG_start-scripts-dynamic-console-doc: start-scripts-dynamic-console-doc
+FILES_start-scripts-dynamic-console-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_start-scripts-dynamic-console-doc: 0

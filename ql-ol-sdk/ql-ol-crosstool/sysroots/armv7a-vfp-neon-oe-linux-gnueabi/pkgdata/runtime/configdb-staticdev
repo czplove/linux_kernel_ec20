@@ -1,0 +1,15 @@
+PN: configdb
+PV: git-invalidgit
+PR: r5
+PKGV: git-invalidgit
+PKGR: r5
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_configdb-staticdev: Qualcomm Data Configdb Module  This package contains static libraries for software development.
+SUMMARY_configdb-staticdev: configdb version git-invalidgit-r5 - Development files (Static Libraries)
+RDEPENDS_configdb-staticdev: configdb-dev (= git-invalidgit-r5)
+RPROVIDES_configdb-staticdev:  configdb-staticdev
+SECTION_configdb-staticdev: devel
+PKG_configdb-staticdev: libconfigdb-staticdev
+FILES_configdb-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/configdb/*.a
+FILES_INFO: {"/usr/lib/libconfigdb.a": 70066}
+PKGSIZE_configdb-staticdev: 70066

@@ -1,0 +1,13 @@
+PN: qmuxd
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmuxd-doc: QMUXD Module  This package contains documentation.
+SUMMARY_qmuxd-doc: qmuxd version git-invalidgit-r0 - Documentation files
+SECTION_qmuxd-doc: doc
+PKG_qmuxd-doc: qmuxd-doc
+FILES_qmuxd-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_qmuxd-doc: 0

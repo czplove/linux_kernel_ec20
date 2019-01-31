@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-ko: Locale data from glibc.  This package contains language translation files for the ko locale.
+SUMMARY_glibc-locale-ko: Locale data from glibc - ko translations
+RPROVIDES_glibc-locale-ko: glibc-locale ko-translation
+RRECOMMENDS_glibc-locale-ko: virtual-locale-ko
+SECTION: base
+PKG_glibc-locale-ko: glibc-locale-ko
+FILES_glibc-locale-ko: /usr/share/locale/ko
+FILES_INFO: {"/usr/share/locale/ko/LC_MESSAGES/libc.mo": 157111}
+PKGSIZE_glibc-locale-ko: 157111

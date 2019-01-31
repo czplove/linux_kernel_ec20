@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-sd-in+devanagari: locale definition for sd-in+devanagari
+SUMMARY_glibc-localedata-sd-in+devanagari: locale definition for sd-in+devanagari
+RDEPENDS_glibc-localedata-sd-in+devanagari: glibc-localedata-iso14651-t1 glibc-localedata-hi-in glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-sd-in+devanagari: glibc-localedata-sd-in+devanagari
+FILES_glibc-localedata-sd-in+devanagari: /usr/share/i18n/locales/sd_IN@devanagari
+FILES_INFO: {"/usr/share/i18n/locales/sd_IN@devanagari": 6661}
+PKGSIZE_glibc-localedata-sd-in+devanagari: 6661

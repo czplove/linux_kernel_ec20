@@ -1,0 +1,13 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libg2c: GPL-3.0-with-GCC-exception
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+SECTION: devel
+PKG_libg2c: libg2c
+FILES_libg2c: /usr/lib/libg2c.so.*
+FILES_INFO: {}
+PKGSIZE_libg2c: 0

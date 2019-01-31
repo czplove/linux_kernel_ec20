@@ -1,0 +1,19 @@
+PN: dbus-glib
+PV: 0.102
+PR: r0
+PKGV: 0.102
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: GLib bindings for the D-Bus message bus that integrate the D-Bus library with the GLib thread abstraction and main loop.
+SUMMARY: High level language (GLib) binding for D-Bus
+RDEPENDS_dbus-glib: libffi (>= 3.2.1) glibc (>= 2.21) zlib (>= 1.2.8) dbus-lib (>= 1.8.10) glib-2.0 (>= 2.42.1)
+RPROVIDES_dbus-glib:  dbus-glib
+SECTION: base
+PKG_dbus-glib: libdbus-glib-1-2
+FILES_dbus-glib: /usr/lib/lib*.so.*
+FILERPROVIDESFLIST_dbus-glib: /usr/lib/libdbus-glib-1.so.2.2.2
+FILES_INFO: {"/usr/lib/libdbus-glib-1.so.2": 123240}
+FILERPROVIDES_/usr/lib/libdbus-glib-1.so.2.2.2_dbus-glib: elf(buildid) (= 2888ffa50a230953c2604ff14e4395d8713602c6) libdbus-glib-1.so.2
+FILERDEPENDSFLIST_dbus-glib: /usr/lib/libdbus-glib-1.so.2.2.2
+FILERDEPENDS_/usr/lib/libdbus-glib-1.so.2.2.2_dbus-glib: libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libdl.so.2 libffi.so.6 libgio-2.0.so.0 libglib-2.0.so.0 libgmodule-2.0.so.0 libgobject-2.0.so.0 libpthread.so.0 libresolv.so.2 libz.so.1 rtld(GNU_HASH)
+PKGSIZE_dbus-glib: 123240

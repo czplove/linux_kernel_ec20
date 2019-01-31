@@ -1,0 +1,14 @@
+PN: dsrc-tools
+PV: git
+PR: r0
+PKGV: git
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_dsrc-tools-staticdev: dsrc-tools  This package contains static libraries for software development.
+SUMMARY_dsrc-tools-staticdev: dsrc-tools version git-r0 - Development files (Static Libraries)
+RDEPENDS_dsrc-tools-staticdev: dsrc-tools-dev (= git-r0)
+SECTION_dsrc-tools-staticdev: devel
+PKG_dsrc-tools-staticdev: dsrc-tools-staticdev
+FILES_dsrc-tools-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dsrc-tools/*.a
+FILES_INFO: {}
+PKGSIZE_dsrc-tools-staticdev: 0

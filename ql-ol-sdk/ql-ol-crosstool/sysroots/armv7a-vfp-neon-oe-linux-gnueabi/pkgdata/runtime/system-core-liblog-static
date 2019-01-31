@@ -1,0 +1,13 @@
+PN: system-core
+PV: git
+PR: r16
+PKGV: git
+PKGR: r16
+LICENSE: Apache-2.0
+DESCRIPTION: Android system/core components
+SUMMARY: system-core version git-r16
+SECTION: base
+PKG_system-core-liblog-static: system-core-liblog-static
+FILES_system-core-liblog-static: /usr/lib/liblog.a
+FILES_INFO: {"/usr/lib/liblog.a": 25594}
+PKGSIZE_system-core-liblog-static: 25594

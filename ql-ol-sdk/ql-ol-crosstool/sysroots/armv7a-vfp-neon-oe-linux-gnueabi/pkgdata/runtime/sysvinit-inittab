@@ -1,0 +1,14 @@
+PN: sysvinit-inittab
+PV: 2.88dsf
+PR: r10
+PKGV: 2.88dsf
+PKGR: r10
+LICENSE: GPLv2
+DESCRIPTION: Inittab configuration for SysVinit.
+SUMMARY: Inittab configuration for SysVinit
+SECTION: base
+PKG_sysvinit-inittab: sysvinit-inittab
+FILES_sysvinit-inittab: /etc/inittab
+pkg_postinst_sysvinit-inittab: # run this on the target\nif [ "x$D" = "x" ] && [ -e /proc/consoles ]; then\n\ttmp="${SERIAL_CONSOLES_CHECK}"\n\tfor i in $tmp\n\tdo\n\t\tj=`echo ${i} | sed s/^.*\\;//g`\n\t\tif [ -z "`grep ${j} /proc/consoles`" ]; then\n\t\t\tsed -i /^.*${j}$/d /etc/inittab\n\t\tfi\n\tdone\n\tkill -HUP 1\nelse\n\tif [ "${SERIAL_CONSOLES_CHECK}" = "" ]; then\n\t\texit 0\n\telse\n\t\texit 1\n\tfi\nfi\n
+FILES_INFO: {"/etc/inittab": 1346}
+PKGSIZE_sysvinit-inittab: 1346

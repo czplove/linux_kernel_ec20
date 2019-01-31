@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-english: perl module english
+SUMMARY_perl-module-english: perl module english
+RDEPENDS_perl-module-english: perl-module-exporter perl-module-carp perl
+SECTION: devel
+PKG_perl-module-english: perl-module-english
+FILES_perl-module-english: /usr/lib/perl/5.20.0/English.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/English.pm": 4753}
+PKGSIZE_perl-module-english: 4753

@@ -1,0 +1,13 @@
+PN: ath6kl-utils
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Atheros ath6kl utils.
+SUMMARY: ath6kl-utils version git-invalidgit-r2
+SECTION: base
+PKG_ath6kl-utils-locale: ath6kl-utils-locale
+FILES_ath6kl-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ath6kl-utils-locale: 0

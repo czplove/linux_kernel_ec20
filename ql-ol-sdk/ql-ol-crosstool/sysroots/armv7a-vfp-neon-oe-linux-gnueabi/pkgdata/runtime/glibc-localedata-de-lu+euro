@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-de-lu+euro: locale definition for de-lu+euro
+SUMMARY_glibc-localedata-de-lu+euro: locale definition for de-lu+euro
+RDEPENDS_glibc-localedata-de-lu+euro: glibc-localedata-de-lu glibc-localedata-iso14651-t1 glibc-localedata-de-de
+SECTION: base
+PKG_glibc-localedata-de-lu+euro: glibc-localedata-de-lu+euro
+FILES_glibc-localedata-de-lu+euro: /usr/share/i18n/locales/de_LU@euro
+FILES_INFO: {"/usr/share/i18n/locales/de_LU@euro": 1530}
+PKGSIZE_glibc-localedata-de-lu+euro: 1530

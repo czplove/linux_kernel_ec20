@@ -1,0 +1,14 @@
+PN: start-scripts-find-recovery-partitions
+PV: 1.0
+PR: r3
+PKGV: 1.0
+PKGR: r3
+LICENSE: BSD
+DESCRIPTION_start-scripts-find-recovery-partitions-dbg: Start up script for finding partitions used in recovery  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_start-scripts-find-recovery-partitions-dbg: start-scripts-find-recovery-partitions version 1.0-r3 - Debugging files
+SECTION_start-scripts-find-recovery-partitions-dbg: devel
+PKG_start-scripts-find-recovery-partitions-dbg: start-scripts-find-recovery-partitions-dbg
+ALLOW_EMPTY_start-scripts-find-recovery-partitions-dbg: 1
+FILES_start-scripts-find-recovery-partitions-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/start-scripts-find-recovery-partitions/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/start-scripts-find-recovery-partitions/.debug /usr/lib/matchbox-panel/.debug /usr/lib/start-scripts-find-recovery-partitions/start-scripts-find-recovery-partitions/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-recovery-partitions-dbg: 0

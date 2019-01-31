@@ -1,0 +1,16 @@
+PN: linux-quic
+PV: git-quectel
+PR: r3
+PKGV: git-quectel
+PKGR: r3
+LICENSE: GPLv2
+DESCRIPTION_kernel-module-quec-spi-chn: quec-spi-chn kernel module
+SUMMARY_kernel-module-quec-spi-chn: quec-spi-chn kernel module
+RDEPENDS_kernel-module-quec-spi-chn: kernel-3.18.20
+SECTION: base
+PKG_kernel-module-quec-spi-chn: kernel-module-quec-spi-chn
+FILES_kernel-module-quec-spi-chn: /lib/modules/3.18.20/kernel/drivers/spi/quec_spi_chn.ko /etc/modules-load.d/quec_spi_chn.conf /etc/modprobe.d/quec_spi_chn.conf
+pkg_postinst_kernel-module-quec-spi-chn: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\t# image.bbclass will call depmodwrapper after everything is installed,\n\t# no need to do it here as well\n\t:\nfi\n\n
+pkg_postrm_kernel-module-quec-spi-chn: #!/bin/sh\nif [ -z "$D" ]; then\n\tdepmod -a 3.18.20\nelse\n\tdepmodwrapper -a -b $D 3.18.20\nfi\n\n
+FILES_INFO: {"/lib/modules/3.18.20/kernel/drivers/spi/quec_spi_chn.ko": 17264}
+PKGSIZE_kernel-module-quec-spi-chn: 17264

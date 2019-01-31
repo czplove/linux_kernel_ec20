@@ -1,0 +1,13 @@
+PN: sigma-dut
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION: WFA certification testing tool for QCA devices
+SUMMARY: sigma-dut version git-invalidgit-r0
+SECTION: base
+PKG_sigma-dut-locale: sigma-dut-locale
+FILES_sigma-dut-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_sigma-dut-locale: 0

@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-integer: perl module integer
+SUMMARY_perl-module-integer: perl module integer
+RDEPENDS_perl-module-integer: perl
+SECTION: devel
+PKG_perl-module-integer: perl-module-integer
+FILES_perl-module-integer: /usr/lib/perl/5.20.0/integer.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/integer.pm": 3254}
+PKGSIZE_perl-module-integer: 3254

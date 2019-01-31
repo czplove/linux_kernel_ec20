@@ -1,0 +1,14 @@
+PN: start-scripts-misc-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-misc-daemon-staticdev: Start up script for misc daemons  This package contains static libraries for software development.
+SUMMARY_start-scripts-misc-daemon-staticdev: start-scripts-misc-daemon version git-invalidgit-r2 - Development files (Static Libraries)
+RDEPENDS_start-scripts-misc-daemon-staticdev: start-scripts-misc-daemon-dev (= git-invalidgit-r2)
+SECTION_start-scripts-misc-daemon-staticdev: devel
+PKG_start-scripts-misc-daemon-staticdev: start-scripts-misc-daemon-staticdev
+FILES_start-scripts-misc-daemon-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/start-scripts-misc-daemon/*.a
+FILES_INFO: {}
+PKGSIZE_start-scripts-misc-daemon-staticdev: 0

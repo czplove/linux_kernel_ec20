@@ -1,0 +1,103 @@
+#!/bin/sh
+# Company:      QUECTEL
+# Author:       Len
+# Funciton:     This file is used to upgrade version in console
+# History:      20180426    creat
+
+fota_default_dir="/usrdata/cache/fota"
+recovery_default_dir="/usrdata/cache/recovery"
+fota_use_file="ipth_package.bin"
+timeout_sec=30
+retry_cnt=3
+
+fota_dl_file="$1"
+wget_log="/tmp/tmp_wget.log"
+wget_path="/usrdata/cache"
+
+usage()
+{
+    echo -e "Usage:\n"
+    echo -e "\t$0 https://test-address/update.zip [download_file_store_path]"
+    echo -e "\t$0 location_file"
+    echo -e "\tDefault parameter 2 : $wget_path"
+}
+
+copy_file()
+{
+    rm -rf $fota_default_dir
+    rm -rf $recovery_default_dir
+    mkdir -p $fota_default_dir
+    mkdir -p $recovery_default_dir
+    cp $1 $fota_default_dir/$fota_use_file
+}
+
+download_file()
+{
+    wget -T $timeout_sec -t $retry_cnt $1 -P $2 2>&1 | tee $wget_log
+    saved_text=`grep -w "saved" $wget_log`
+    if [ "$saved_text" != "" ]
+    then
+        wget_saved_size=`echo $saved_text | awk '{printf $NF}'`
+        wget_need_size=`echo ${wget_saved_size:1:-1} | awk -F/ '{printf $2}'`
+        wget_saved_size=`echo ${wget_saved_size:1:-1} | awk -F/ '{printf $1}'`
+        if [ "$wget_saved_size" = "$wget_need_size" ] 
+        then
+            wget_saved_file=`echo $saved_text | awk '{printf $(NF-2)}'`
+            wget_saved_file="${wget_saved_file:1:-1}"
+        else
+            echo -e "Error: Download file [ $1 ] failed!!!!\n"
+            exit 1
+        fi
+    fi
+}
+
+config_port()
+{
+    mtd_text=`cat /proc/mtd | grep -w recoveryfs`
+    if [ -z "$mtd_text" ]
+    then
+        echo "Error: No recoveryfs partition"
+        exit 1
+    fi
+    mtdnum=`echo $mtd_text | awk -F["d"":"] '{print $2}'`
+    ubiattach -m $mtdnum -d 3 /dev/ubi_ctrl
+    mkdir -p /tmp/mount_recovery
+    mount -t ubifs /dev/ubi3_0 /tmp/mount_recovery -o bulk_read
+    rm /tmp/mount_recovery/sbin/usb/boot_hsusb_composition 
+    ln -s /sbin/usb/compositions/recovery_9607 /tmp/mount_recovery/sbin/usb/boot_hsusb_composition
+}
+
+if [ -z "$fota_dl_file" ]
+then
+    echo -e "Error: Plz input parameter 1\n"
+    exit 1
+fi
+
+if [ "${fota_dl_file:0:8}" != "https://" -a "${fota_dl_file:0:7}" != "http://" -a "${fota_dl_file:0:6}" != "ftp://" ] && [ ! -f "$fota_dl_file" ]
+then
+    echo -e "Error: Plz check [ $fota_dl_file ]\n"
+    exit 1
+fi
+
+if [ ! -f "$fota_dl_file" ]
+then
+    if [ -n "$2" ]
+    then
+        if [ -d "$2" ]
+        then
+            wget_path=$2
+        else
+            echo -e "Error: No such path [ $2 ]\n"
+            exit 1
+        fi
+    fi
+    download_file $fota_dl_file $wget_path
+    copy_file $wget_saved_file
+else
+    copy_file $fota_dl_file
+fi
+
+config_port
+sync
+reboot-recovery
+#sys_reboot recovery

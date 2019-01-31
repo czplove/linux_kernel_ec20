@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-es: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the es locale.
+SUMMARY_glib-2.0-locale-es: A general-purpose utility library - es translations
+RPROVIDES_glib-2.0-locale-es: glib-2.0-locale es-translation glib-2.0-locale-es
+RRECOMMENDS_glib-2.0-locale-es: virtual-locale-es
+SECTION: libs
+PKG_glib-2.0-locale-es: libglib-2.0-locale-es
+FILES_glib-2.0-locale-es: /usr/share/locale/es
+FILES_INFO: {"/usr/share/locale/es/LC_MESSAGES/glib20.mo": 102750}
+PKGSIZE_glib-2.0-locale-es: 102750

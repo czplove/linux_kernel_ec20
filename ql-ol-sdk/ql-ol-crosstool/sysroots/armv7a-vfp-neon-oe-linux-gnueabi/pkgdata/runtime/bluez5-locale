@@ -1,0 +1,13 @@
+PN: bluez5
+PV: 5.19
+PR: r1
+PKGV: 5.19
+PKGR: r1
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Linux Bluetooth stack V5 userland components.  These include a system configurations, daemons, tools and system libraries.
+SUMMARY: Linux Bluetooth Stack Userland V5
+SECTION: libs
+PKG_bluez5-locale: bluez5-locale
+FILES_bluez5-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_bluez5-locale: 0

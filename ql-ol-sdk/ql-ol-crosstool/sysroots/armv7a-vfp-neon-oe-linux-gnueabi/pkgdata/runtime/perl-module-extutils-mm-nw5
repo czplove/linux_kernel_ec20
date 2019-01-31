@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-mm-nw5: perl module extutils-mm-nw5
+SUMMARY_perl-module-extutils-mm-nw5: perl module extutils-mm-nw5
+RDEPENDS_perl-module-extutils-mm-nw5: perl-module-extutils-makemaker-config perl-module-extutils-mm-win32 perl-module-extutils-makemaker perl perl-module-strict perl-module-file-basename
+SECTION: devel
+PKG_perl-module-extutils-mm-nw5: perl-module-extutils-mm-nw5
+FILES_perl-module-extutils-mm-nw5: /usr/lib/perl/5.20.0/ExtUtils/MM_NW5.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/MM_NW5.pm": 6555}
+PKGSIZE_perl-module-extutils-mm-nw5: 6555

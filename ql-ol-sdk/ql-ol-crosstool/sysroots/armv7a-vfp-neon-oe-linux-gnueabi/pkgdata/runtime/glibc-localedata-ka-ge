@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ka-ge: locale definition for ka-ge
+SUMMARY_glibc-localedata-ka-ge: locale definition for ka-ge
+RDEPENDS_glibc-localedata-ka-ge: glibc-localedata-iso14651-t1 glibc-localedata-en-dk
+SECTION: base
+PKG_glibc-localedata-ka-ge: glibc-localedata-ka-ge
+FILES_glibc-localedata-ka-ge: /usr/share/i18n/locales/ka_GE
+FILES_INFO: {"/usr/share/i18n/locales/ka_GE": 4749}
+PKGSIZE_glibc-localedata-ka-ge: 4749

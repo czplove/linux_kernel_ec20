@@ -1,0 +1,16 @@
+PN: wlan-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wlan-services-dev: WLAN Services required for QCACLD  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_wlan-services-dev: wlan-services version git-invalidgit-r1 - Development files
+RDEPENDS_wlan-services-dev: wlan-services (= git-invalidgit-r1)
+RRECOMMENDS_wlan-services-dev: glibc-dev qcacld-ll-dev data-dev libstdc++-dev libgcc-dev initscripts-dev
+SECTION_wlan-services-dev: devel
+PKG_wlan-services-dev: wlan-services-dev
+ALLOW_EMPTY_wlan-services-dev: 1
+FILES_wlan-services-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/wlan-services/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_wlan-services-dev: 0

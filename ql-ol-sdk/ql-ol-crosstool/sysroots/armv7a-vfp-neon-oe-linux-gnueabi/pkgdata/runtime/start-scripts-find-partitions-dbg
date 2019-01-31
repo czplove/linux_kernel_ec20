@@ -1,0 +1,14 @@
+PN: start-scripts-find-partitions
+PV: 1.0
+PR: r4
+PKGV: 1.0
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_start-scripts-find-partitions-dbg: Start up script for detecting partitions  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_start-scripts-find-partitions-dbg: start-scripts-find-partitions version 1.0-r4 - Debugging files
+SECTION_start-scripts-find-partitions-dbg: devel
+PKG_start-scripts-find-partitions-dbg: start-scripts-find-partitions-dbg
+ALLOW_EMPTY_start-scripts-find-partitions-dbg: 1
+FILES_start-scripts-find-partitions-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/start-scripts-find-partitions/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/start-scripts-find-partitions/.debug /usr/lib/matchbox-panel/.debug /usr/lib/start-scripts-find-partitions/start-scripts-find-partitions/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_start-scripts-find-partitions-dbg: 0

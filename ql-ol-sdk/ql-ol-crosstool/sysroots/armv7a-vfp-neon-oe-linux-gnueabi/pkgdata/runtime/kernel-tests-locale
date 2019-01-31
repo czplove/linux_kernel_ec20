@@ -1,0 +1,13 @@
+PN: kernel-tests
+PV: git-invalidgit
+PR: r18
+PKGV: git-invalidgit
+PKGR: r18
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Technologies Proprietary kernel test
+SUMMARY: kernel-tests version git-invalidgit-r18
+SECTION: base
+PKG_kernel-tests-locale: kernel-tests-locale
+FILES_kernel-tests-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_kernel-tests-locale: 0

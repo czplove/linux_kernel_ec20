@@ -1,0 +1,14 @@
+PN: jquery-ui
+PV: 1.10.1
+PR: r0
+PKGV: 1.10.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-ui-dbg: JQUERY UI  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_jquery-ui-dbg: jquery-ui version 1.10.1-r0 - Debugging files
+SECTION_jquery-ui-dbg: devel
+PKG_jquery-ui-dbg: jquery-ui-dbg
+ALLOW_EMPTY_jquery-ui-dbg: 1
+FILES_jquery-ui-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/jquery-ui/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/jquery-ui/.debug /usr/lib/matchbox-panel/.debug /usr/lib/jquery-ui/jquery-ui/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_jquery-ui-dbg: 0

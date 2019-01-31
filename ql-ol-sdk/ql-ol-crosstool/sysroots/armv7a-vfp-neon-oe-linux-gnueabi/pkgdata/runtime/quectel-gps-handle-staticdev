@@ -1,0 +1,14 @@
+PN: quectel-gps-handle
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-gps-handle-staticdev: Quectel uart data dispatch  This package contains static libraries for software development.
+SUMMARY_quectel-gps-handle-staticdev: quectel-gps-handle version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-gps-handle-staticdev: quectel-gps-handle-dev (= git-invalidgit-r1)
+SECTION_quectel-gps-handle-staticdev: devel
+PKG_quectel-gps-handle-staticdev: quectel-gps-handle-staticdev
+FILES_quectel-gps-handle-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-gps-handle/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-gps-handle-staticdev: 0

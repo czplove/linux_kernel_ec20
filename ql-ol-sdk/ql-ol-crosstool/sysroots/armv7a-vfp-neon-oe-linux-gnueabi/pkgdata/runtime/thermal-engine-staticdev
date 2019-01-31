@@ -1,0 +1,14 @@
+PN: thermal-engine
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_thermal-engine-staticdev: Thermal Engine  This package contains static libraries for software development.
+SUMMARY_thermal-engine-staticdev: thermal-engine version git-invalidgit-r9 - Development files (Static Libraries)
+RDEPENDS_thermal-engine-staticdev: thermal-engine-dev (= git-invalidgit-r9)
+SECTION_thermal-engine-staticdev: devel
+PKG_thermal-engine-staticdev: thermal-engine-staticdev
+FILES_thermal-engine-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/thermal-engine/*.a
+FILES_INFO: {}
+PKGSIZE_thermal-engine-staticdev: 0

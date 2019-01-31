@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-euc-kr: gconv module for character set euc-kr
+SUMMARY_glibc-gconv-euc-kr: gconv module for character set euc-kr
+RDEPENDS_glibc-gconv-euc-kr: glibc-gconv-libksc (>= 2.21) glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-euc-kr: glibc-gconv-euc-kr
+FILES_glibc-gconv-euc-kr: /usr/lib/gconv/EUC-KR.so
+FILES_INFO: {"/usr/lib/gconv/EUC-KR.so": 13700}
+PKGSIZE_glibc-gconv-euc-kr: 13700

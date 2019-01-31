@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION_attr-locale-cs: Utilities for manipulating filesystem extended attributes.  This package contains language translation files for the cs locale.
+SUMMARY_attr-locale-cs: Utilities for manipulating filesystem extended attributes - cs translations
+RPROVIDES_attr-locale-cs: attr-locale cs-translation
+RRECOMMENDS_attr-locale-cs: virtual-locale-cs
+SECTION: libs
+PKG_attr-locale-cs: attr-locale-cs
+FILES_attr-locale-cs: /usr/share/locale/cs
+FILES_INFO: {"/usr/share/locale/cs/LC_MESSAGES/attr.mo": 6394}
+PKGSIZE_attr-locale-cs: 6394

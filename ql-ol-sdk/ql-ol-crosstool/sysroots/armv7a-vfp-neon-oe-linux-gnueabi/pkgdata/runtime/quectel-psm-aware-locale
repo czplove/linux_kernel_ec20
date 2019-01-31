@@ -1,0 +1,13 @@
+PN: quectel-psm-aware
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel file data dispatch
+SUMMARY: quectel-psm-aware version git-invalidgit-r1
+SECTION: base
+PKG_quectel-psm-aware-locale: quectel-psm-aware-locale
+FILES_quectel-psm-aware-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_quectel-psm-aware-locale: 0

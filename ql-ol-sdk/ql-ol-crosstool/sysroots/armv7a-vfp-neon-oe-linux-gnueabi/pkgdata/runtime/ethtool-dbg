@@ -1,0 +1,15 @@
+PN: ethtool
+PV: git
+PR: r2
+PKGV: git
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_ethtool-dbg: ethtool is the standard Linux utility for controlling networkdrivers and hardware, particularly for wired Ethernet devices  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ethtool-dbg: ethtool is the standard Linux utility for managing Ethernet Drivers - Debugging files
+RRECOMMENDS_ethtool-dbg: glibc-dbg
+SECTION_ethtool-dbg: devel
+PKG_ethtool-dbg: ethtool-dbg
+ALLOW_EMPTY_ethtool-dbg: 1
+FILES_ethtool-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ethtool/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ethtool/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ethtool/ethtool/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/ethtool": 19716}
+PKGSIZE_ethtool-dbg: 19716

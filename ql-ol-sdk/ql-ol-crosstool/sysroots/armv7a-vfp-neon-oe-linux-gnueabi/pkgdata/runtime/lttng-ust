@@ -1,0 +1,39 @@
+PN: lttng-ust
+PE: 2
+PV: 2.6.0
+PR: r2
+PKGE: 2
+PKGV: 2.6.0
+PKGR: r2
+LICENSE: LGPLv2.1+ & MIT & GPLv2
+DESCRIPTION: The LTTng UST 2.x package contains the userspace tracer library to trace userspace codes.
+SUMMARY: Linux Trace Toolkit Userspace Tracer 2.x
+RDEPENDS_lttng-ust: glibc (>= 2.21) liburcu (>= 0.8.6)
+RPROVIDES_lttng-ust: lttng2-ust
+RREPLACES_lttng-ust: lttng2-ust
+RCONFLICTS_lttng-ust: lttng2-ust
+SECTION: base
+PKG_lttng-ust: lttng-ust
+FILES_lttng-ust: /usr/bin/* /usr/sbin/* /usr/lib/lttng-ust/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/lttng-ust /usr/lib/lttng-ust/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_lttng-ust: /usr/lib/liblttng-ust.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0 /usr/lib/liblttng-ust-dl.so.0.0.0 /usr/lib/liblttng-ust-fork.so.0.0.0 /usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile.so.0.0.0 /usr/lib/liblttng-ust-libc-wrapper.so.0.0.0 /usr/lib/liblttng-ust-ctl.so.2.0.0 /usr/lib/liblttng-ust-tracepoint.so.0.0.0
+FILES_INFO: {"/usr/lib/liblttng-ust-tracepoint.so.0": 35316, "/usr/lib/liblttng-ust-dl.so.0": 12416, "/usr/lib/liblttng-ust-pthread-wrapper.so.0": 17368, "/usr/lib/liblttng-ust-libc-wrapper.so.0": 24444, "/usr/lib/liblttng-ust-cyg-profile.so.0": 12092, "/usr/lib/liblttng-ust-cyg-profile-fast.so.0": 8916, "/usr/lib/liblttng-ust.so.0": 352136, "/usr/lib/liblttng-ust-ctl.so.2": 225212, "/usr/lib/liblttng-ust-fork.so.0": 5140}
+FILERPROVIDES_/usr/lib/liblttng-ust.so.0.0.0_lttng-ust: elf(buildid) (= 8766d387e65dd54d40f8274a26e48cd876946b69) liblttng-ust.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0_lttng-ust: elf(buildid) (= 51bc3aa71941f391cf0004db298ad118f951d638) liblttng-ust-cyg-profile-fast.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-dl.so.0.0.0_lttng-ust: elf(buildid) (= 4d8cfa4ea5f1593a6230d4a1455ac5e6af93fbd1) liblttng-ust-dl.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-fork.so.0.0.0_lttng-ust: elf(buildid) (= daeeeed5e34436a6f3356491e6e16d5669471713) liblttng-ust-fork.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0_lttng-ust: elf(buildid) (= a6907b33a155b0c6a3ffbba71d4e843aca7bccea) liblttng-ust-pthread-wrapper.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-cyg-profile.so.0.0.0_lttng-ust: elf(buildid) (= 601ce5049921fd5abee50e122ee1f5932ffeb85a) liblttng-ust-cyg-profile.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-libc-wrapper.so.0.0.0_lttng-ust: elf(buildid) (= 396a4fd455b47fabc4d336a7d305c00ca9932ea3) liblttng-ust-libc-wrapper.so.0
+FILERPROVIDES_/usr/lib/liblttng-ust-ctl.so.2.0.0_lttng-ust: elf(buildid) (= 18571368062b7f200a4806ceb03e1d03a494a453) liblttng-ust-ctl.so.2
+FILERPROVIDES_/usr/lib/liblttng-ust-tracepoint.so.0.0.0_lttng-ust: elf(buildid) (= 77d6734aa79b8f7f39de8939a036b16822e18c8e) liblttng-ust-tracepoint.so.0
+FILERDEPENDSFLIST_lttng-ust: /usr/lib/liblttng-ust.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0 /usr/lib/liblttng-ust-dl.so.0.0.0 /usr/lib/liblttng-ust-fork.so.0.0.0 /usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0 /usr/lib/liblttng-ust-cyg-profile.so.0.0.0 /usr/lib/liblttng-ust-libc-wrapper.so.0.0.0 /usr/lib/liblttng-ust-ctl.so.2.0.0 /usr/lib/liblttng-ust-tracepoint.so.0.0.0
+FILERDEPENDS_/usr/lib/liblttng-ust.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-cyg-profile-fast.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-dl.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-fork.so.0.0.0_lttng-ust: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-pthread-wrapper.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-cyg-profile.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-libc-wrapper.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) liblttng-ust-tracepoint.so.0 liblttng-ust.so.0 libpthread.so.0 librt.so.1 liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-ctl.so.2.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.6) libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 librt.so.1(GLIBC_2.4) liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/liblttng-ust-tracepoint.so.0.0.0_lttng-ust: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) liburcu-bp.so.2 liburcu-cds.so.2 liburcu-common.so.2 rtld(GNU_HASH)
+PKGSIZE_lttng-ust: 693040

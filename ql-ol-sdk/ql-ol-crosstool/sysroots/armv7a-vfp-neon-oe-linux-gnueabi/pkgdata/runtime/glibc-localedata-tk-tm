@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-tk-tm: locale definition for tk-tm
+SUMMARY_glibc-localedata-tk-tm: locale definition for tk-tm
+RDEPENDS_glibc-localedata-tk-tm: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-tk-tm: glibc-localedata-tk-tm
+FILES_glibc-localedata-tk-tm: /usr/share/i18n/locales/tk_TM
+FILES_INFO: {"/usr/share/i18n/locales/tk_TM": 12443}
+PKGSIZE_glibc-localedata-tk-tm: 12443

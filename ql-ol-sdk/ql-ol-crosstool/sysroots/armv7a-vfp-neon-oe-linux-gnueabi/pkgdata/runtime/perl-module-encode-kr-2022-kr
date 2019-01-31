@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-kr-2022-kr: perl module encode-kr-2022-kr
+SUMMARY_perl-module-encode-kr-2022-kr: perl module encode-kr-2022-kr
+RDEPENDS_perl-module-encode-kr-2022-kr: perl-module-encode perl-module-encode-cjkconstants perl perl-module-warnings perl-module-strict perl-module-parent
+SECTION: devel
+PKG_perl-module-encode-kr-2022-kr: perl-module-encode-kr-2022-kr
+FILES_perl-module-encode-kr-2022-kr: /usr/lib/perl/5.20.0/Encode/KR/2022_KR.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/KR/2022_KR.pm": 1900}
+PKGSIZE_perl-module-encode-kr-2022-kr: 1900

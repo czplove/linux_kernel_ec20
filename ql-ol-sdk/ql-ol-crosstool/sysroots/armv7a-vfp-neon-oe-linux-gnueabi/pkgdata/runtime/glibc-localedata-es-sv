@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-sv: locale definition for es-sv
+SUMMARY_glibc-localedata-es-sv: locale definition for es-sv
+RDEPENDS_glibc-localedata-es-sv: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-sv: glibc-localedata-es-sv
+FILES_glibc-localedata-es-sv: /usr/share/i18n/locales/es_SV
+FILES_INFO: {"/usr/share/i18n/locales/es_SV": 4921}
+PKGSIZE_glibc-localedata-es-sv: 4921

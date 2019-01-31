@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-nds-nl: locale definition for nds-nl
+SUMMARY_glibc-localedata-nds-nl: locale definition for nds-nl
+RDEPENDS_glibc-localedata-nds-nl: glibc-localedata-iso14651-t1 glibc-localedata-nl-nl glibc-localedata-en-dk
+SECTION: base
+PKG_glibc-localedata-nds-nl: glibc-localedata-nds-nl
+FILES_glibc-localedata-nds-nl: /usr/share/i18n/locales/nds_NL
+FILES_INFO: {"/usr/share/i18n/locales/nds_NL": 4116}
+PKGSIZE_glibc-localedata-nds-nl: 4116

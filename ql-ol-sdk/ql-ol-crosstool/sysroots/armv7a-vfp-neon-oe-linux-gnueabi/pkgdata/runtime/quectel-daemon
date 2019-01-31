@@ -1,0 +1,25 @@
+PN: quectel-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Function Daemon
+SUMMARY: quectel-daemon version git-invalidgit-r1
+RDEPENDS_quectel-daemon: glibc (>= 2.21) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) dsutils (>= git-invalidgit) ql-common-tools (>= git-invalidgit) quectel-audio-lib (>= git-invalidgit)
+RRECOMMENDS_quectel-daemon:  update-rc.d
+SECTION: base
+PKG_quectel-daemon: quectel-daemon
+FILES_quectel-daemon: /usr/bin/* /usr/sbin/* /usr/lib/quectel-daemon/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-daemon /usr/lib/quectel-daemon/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/data/ring/
+pkg_postinst_quectel-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT quectel_daemon start 45 2 3 4 5 .\nfi\n
+pkg_postrm_quectel-daemon: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel_daemon remove\nfi\n
+pkg_preinst_quectel-daemon: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel_daemon" ]; then\n\t/etc/init.d/quectel_daemon stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel_daemon remove\nfi\n
+pkg_prerm_quectel-daemon: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel_daemon stop\nfi\n
+FILERPROVIDESFLIST_quectel-daemon: /usr/bin/quectel@underscore@daemon
+FILES_INFO: {"/etc/pcm_config": 1868, "/usr/data/ring/ringtone1.wav": 996476, "/usr/bin/quectel_daemon": 39980, "/etc/init.d/quectel_daemon": 940}
+FILERPROVIDES_/usr/bin/quectel@underscore@daemon_quectel-daemon: elf(buildid) (= ede2d8d1ec1516df29035621e1bc69d30f895e62)
+FILERDEPENDSFLIST_quectel-daemon: /etc/pcm@underscore@config /etc/init.d/quectel@underscore@daemon /usr/bin/quectel@underscore@daemon
+FILERDEPENDS_/etc/pcm@underscore@config_quectel-daemon: /bin/sh
+FILERDEPENDS_/etc/init.d/quectel@underscore@daemon_quectel-daemon: /bin/sh
+FILERDEPENDS_/usr/bin/quectel@underscore@daemon_quectel-daemon: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdsutils.so.1 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libql_lib_audio.so.1 libql_log.so.1 libql_utils.so.1 libqmi_cci.so.1 libqmi_encdec.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-daemon: 1039264

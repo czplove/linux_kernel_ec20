@@ -1,0 +1,20 @@
+PN: quectel-audio-lib
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel audio lib
+SUMMARY: quectel-audio-lib version git-invalidgit-r1
+RDEPENDS_quectel-audio-lib: audioalsa (>= git) adiertac (>= git-invalidgit) diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) alsa-intf (>= git-invalidgit) acdbmapper (>= git-invalidgit) acdbrtac (>= git-invalidgit) acdbloader (>= git-invalidgit) audcal (>= git-invalidgit) time-genoff (>= git-invalidgit) system-core-liblog (>= git)
+SECTION: base
+PKG_quectel-audio-lib: quectel-audio-lib
+FILES_quectel-audio-lib: /usr/bin/* /usr/sbin/* /usr/lib/quectel-audio-lib/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-audio-lib /usr/lib/quectel-audio-lib/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_quectel-audio-lib: /usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0 /usr/lib/libmad.so.0
+FILES_INFO: {"/usr/lib/libql_lib_audio.so.1": 291032, "/usr/lib/libmad.so.0": 84912}
+FILERPROVIDES_/usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0_quectel-audio-lib: elf(buildid) (= 0e390d294b2fea7a9ff703edbed2a9684b3341ec) libql_lib_audio.so.1
+FILERPROVIDES_/usr/lib/libmad.so.0_quectel-audio-lib: elf(buildid) (= 449ebdc95882bace6cfa91845effd41faadcd1cb) libmad.so.0
+FILERDEPENDSFLIST_quectel-audio-lib: /usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0 /usr/lib/libmad.so.0
+FILERDEPENDS_/usr/lib/libql@underscore@lib@underscore@audio.so.1.0.0_quectel-audio-lib: libacdbloader.so.1 libacdbmapper.so.1 libacdbrtac.so.1 libadiertac.so.1 libalsa_intf.so.1 libaudcal.so.1 libaudioalsa.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libdiag.so.1 libglib-2.0.so.0 libgthread-2.0.so.0 liblog.so.0 libm.so.6 libmad.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) librt.so.1 libtime_genoff.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libmad.so.0_quectel-audio-lib: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-audio-lib: 375944

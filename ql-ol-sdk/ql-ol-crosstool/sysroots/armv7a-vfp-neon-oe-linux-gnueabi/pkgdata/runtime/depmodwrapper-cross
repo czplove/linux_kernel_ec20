@@ -1,0 +1,15 @@
+PN: depmodwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION: Wrapper script for the Linux kernel module dependency indexer.
+SUMMARY: Wrapper script for the Linux kernel module dependency indexer
+SECTION: base
+PKG_depmodwrapper-cross: depmodwrapper-cross
+FILES_depmodwrapper-cross: /usr/bin/* /usr/sbin/* /usr/lib/depmodwrapper/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/depmodwrapper /usr/lib/depmodwrapper/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {"/usr/bin/crossscripts/depmodwrapper": 1683}
+FILERDEPENDSFLIST_depmodwrapper-cross: /usr/bin/crossscripts/depmodwrapper
+FILERDEPENDS_/usr/bin/crossscripts/depmodwrapper_depmodwrapper-cross: /bin/sh
+PKGSIZE_depmodwrapper-cross: 1683

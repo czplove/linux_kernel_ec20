@@ -1,0 +1,15 @@
+PN: ffmpeg
+PV: 2.3
+PR: r0
+PKGV: 2.3
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION_ffmpeg-dbg: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video..  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ffmpeg-dbg: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video. - Debugging files
+RRECOMMENDS_ffmpeg-dbg: glibc-dbg
+SECTION_ffmpeg-dbg: devel
+PKG_ffmpeg-dbg: ffmpeg-dbg
+ALLOW_EMPTY_ffmpeg-dbg: 1
+FILES_ffmpeg-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ffmpeg/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ffmpeg/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ffmpeg/ffmpeg/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_ffmpeg-dbg: 0

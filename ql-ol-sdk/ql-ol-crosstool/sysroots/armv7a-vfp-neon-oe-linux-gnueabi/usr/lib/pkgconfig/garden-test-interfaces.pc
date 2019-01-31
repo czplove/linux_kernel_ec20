@@ -1,0 +1,9 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: garden-test-interfaces
+Description: Garden test interfacies header package
+Version: 1.0.0
+Cflags: -I${includedir}/garden-test-interfaces

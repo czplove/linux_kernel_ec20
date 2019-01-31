@@ -1,0 +1,14 @@
+PN: iproute2
+PV: 3.16.0
+PR: r0
+PKGV: 3.16.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iproute2-staticdev: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.  This package contains static libraries for software development.
+SUMMARY_iproute2-staticdev: TCP / IP networking and traffic control utilities - Development files (Static Libraries)
+RDEPENDS_iproute2-staticdev: iproute2-dev (= 3.16.0-r0)
+SECTION_iproute2-staticdev: devel
+PKG_iproute2-staticdev: iproute2-staticdev
+FILES_iproute2-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/iproute2/*.a
+FILES_INFO: {}
+PKGSIZE_iproute2-staticdev: 0

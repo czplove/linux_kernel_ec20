@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-zh-tw: Locale data from glibc.  This package contains language translation files for the zh_TW locale.
+SUMMARY_glibc-locale-zh-tw: Locale data from glibc - zh_TW translations
+RPROVIDES_glibc-locale-zh-tw: glibc-locale zh-tw-translation
+RRECOMMENDS_glibc-locale-zh-tw: virtual-locale-zh-tw
+SECTION: base
+PKG_glibc-locale-zh-tw: glibc-locale-zh-tw
+FILES_glibc-locale-zh-tw: /usr/share/locale/zh_TW
+FILES_INFO: {"/usr/share/locale/zh_TW/LC_MESSAGES/libc.mo": 134728}
+PKGSIZE_glibc-locale-zh-tw: 134728

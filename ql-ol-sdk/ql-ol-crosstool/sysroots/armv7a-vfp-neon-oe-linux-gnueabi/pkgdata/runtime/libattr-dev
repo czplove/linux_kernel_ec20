@@ -1,0 +1,15 @@
+PN: attr
+PV: 2.4.47
+PR: r0
+PKGV: 2.4.47
+PKGR: r0
+LICENSE: LGPLv2.1+ & GPLv2+
+DESCRIPTION: Utilities for manipulating filesystem extended attributes.
+SUMMARY: Utilities for manipulating filesystem extended attributes
+RDEPENDS_libattr-dev: libattr
+RRECOMMENDS_libattr-dev: glibc-dev ncurses-dev
+SECTION: libs
+PKG_libattr-dev: libattr-dev
+FILES_libattr-dev: /usr/include                       /usr/lib/lib*.so                       /usr/lib/lib*.la                       /lib/lib*.so                       /lib/lib*.la
+FILES_INFO: {"/usr/include/attr/error_context.h": 1555, "/usr/include/attr/xattr.h": 2313, "/lib/libattr.la": 21, "/usr/lib/libattr.la": 910, "/usr/include/attr/attributes.h": 7242, "/lib/libattr.so": 12, "/usr/include/attr/libattr.h": 1388, "/usr/lib/libattr.so": 20}
+PKGSIZE_libattr-dev: 13461

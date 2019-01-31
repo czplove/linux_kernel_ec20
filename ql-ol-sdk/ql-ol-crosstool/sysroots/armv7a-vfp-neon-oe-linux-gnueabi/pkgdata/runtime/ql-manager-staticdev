@@ -1,0 +1,14 @@
+PN: ql-manager
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ql-manager-staticdev: Quectel Manager Modules  This package contains static libraries for software development.
+SUMMARY_ql-manager-staticdev: ql-manager version git-invalidgit-r21 - Development files (Static Libraries)
+RDEPENDS_ql-manager-staticdev: ql-manager-dev (= git-invalidgit-r21)
+SECTION_ql-manager-staticdev: devel
+PKG_ql-manager-staticdev: ql-manager-staticdev
+FILES_ql-manager-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/ql-manager/*.a
+FILES_INFO: {}
+PKGSIZE_ql-manager-staticdev: 0

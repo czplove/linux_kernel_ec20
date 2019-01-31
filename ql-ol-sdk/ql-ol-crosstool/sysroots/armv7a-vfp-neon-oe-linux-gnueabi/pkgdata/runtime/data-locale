@@ -1,0 +1,13 @@
+PN: data
+PV: git-invalidgit
+PR: r21
+PKGV: git-invalidgit
+PKGR: r21
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm Technologies Data Modules (Excluding ConfigDB and DSUtils)
+SUMMARY: data version git-invalidgit-r21
+SECTION: base
+PKG_data-locale: data-locale
+FILES_data-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_data-locale: 0

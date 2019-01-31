@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-ipc-sysv: perl module ipc-sysv
+SUMMARY_perl-module-ipc-sysv: perl module ipc-sysv
+RDEPENDS_perl-module-ipc-sysv: perl-module-carp perl-module-dynaloader perl-module-config glibc (>= 2.21) perl-module-vars perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-ipc-sysv: perl-module-ipc-sysv
+FILES_perl-module-ipc-sysv: /usr/lib/perl/5.20.0/auto/IPC/SysV/SysV.so /usr/lib/perl/5.20.0/IPC/SysV.pm
+FILERPROVIDESFLIST_perl-module-ipc-sysv: /usr/lib/perl/5.20.0/auto/IPC/SysV/SysV.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/IPC/SysV.pm": 4713, "/usr/lib/perl/5.20.0/auto/IPC/SysV/SysV.so": 22012}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/IPC/SysV/SysV.so_perl-module-ipc-sysv: SysV.so elf(buildid) (= 154adbfe4cf6377feee7c7af2777504cf97a471b)
+FILERDEPENDSFLIST_perl-module-ipc-sysv: /usr/lib/perl/5.20.0/auto/IPC/SysV/SysV.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/IPC/SysV/SysV.so_perl-module-ipc-sysv: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-ipc-sysv: 26725

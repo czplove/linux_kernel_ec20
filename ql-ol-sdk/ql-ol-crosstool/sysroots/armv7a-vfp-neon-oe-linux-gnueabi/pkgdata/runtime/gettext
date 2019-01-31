@@ -1,0 +1,68 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.
+SUMMARY: Utilities and libraries for producing multi-lingual messages
+RDEPENDS_gettext: glibc (>= 2.21) libgettextsrc (>= 0.19.4) libgettextlib (>= 0.19.4)
+RCONFLICTS_gettext: proxy-libintl
+SECTION: libs
+PKG_gettext: gettext
+FILES_gettext: /usr/bin/* /usr/sbin/* /usr/lib/gettext/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gettext /usr/lib/gettext/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/gettext/*
+FILERPROVIDESFLIST_gettext: /usr/bin/xgettext /usr/bin/msgunfmt /usr/bin/msgfilter /usr/lib/gettext/urlget /usr/bin/msgattrib /usr/bin/msgexec /usr/bin/msgconv /usr/bin/msgfmt /usr/bin/msguniq /usr/bin/msgcmp /usr/bin/msgcomm /usr/lib/gettext/hostname /usr/bin/recode-sr-latin /usr/bin/msginit /usr/lib/libgettextpo.so.0.5.3 /usr/bin/msgmerge /usr/bin/msgen /usr/bin/msgcat /usr/bin/msggrep
+FILES_INFO: {"/usr/share/gettext/msgunfmt.tcl": 2476, "/usr/share/gettext/intl/osdep.c": 955, "/usr/share/gettext/intl/ngettext.c": 1919, "/usr/share/gettext/intl/printf.c": 10319, "/usr/share/gettext/intl/setlocale.c": 33103, "/usr/bin/msgmerge": 41516, "/usr/bin/msgexec": 10420, "/usr/bin/msguniq": 13500, "/usr/lib/gettext/user-email": 14453, "/usr/share/gettext/intl/log.c": 3844, "/usr/share/gettext/intl/localename.c": 85745, "/usr/share/gettext/intl/vasnwprintf.h": 1673, "/usr/lib/gettext/urlget": 8156, "/usr/share/gettext/styles/po-emacs-xterm16.css": 1155, "/usr/share/gettext/intl/loadmsgcat.c": 34527, "/usr/share/gettext/intl/tsearch.c": 21476, "/usr/share/gettext/intl/printf-parse.h": 2580, "/usr/share/gettext/intl/tsearch.h": 2801, "/usr/share/gettext/intl/dgettext.c": 1724, "/usr/share/gettext/projects/GNOME/trigger": 863, "/usr/share/gettext/intl/explodename.c": 3369, "/usr/share/gettext/projects/team-address": 410, "/usr/share/gettext/po/Rules-quot": 2165, "/usr/lib/gettext/project-id": 2733, "/usr/share/gettext/intl/gettext.c": 1839, "/usr/share/gettext/intl/loadinfo.h": 5134, "/usr/share/gettext/intl/hash-string.c": 1568, "/usr/share/gettext/po/en@quot.header": 1203, "/usr/bin/msgcmp": 15292, "/usr/share/gettext/intl/printf-args.c": 6570, "/usr/share/gettext/intl/printf-args.h": 3962, "/usr/share/gettext/projects/GNOME/team-address": 1044, "/usr/share/gettext/intl/langprefs.c": 12706, "/usr/bin/msgfmt": 61704, "/usr/share/gettext/intl/ref-add.sin": 1030, "/usr/share/gettext/intl/localcharset.c": 19088, "/usr/share/gettext/intl/l10nflist.c": 11072, "/usr/share/gettext/intl/dcngettext.c": 1791, "/usr/share/gettext/projects/TP/team-address": 3201, "/usr/share/gettext/intl/localcharset.h": 1334, "/usr/bin/gettextize": 43499, "/usr/share/gettext/projects/KDE/teams.url": 38, "/usr/share/gettext/intl/gettextP.h": 10089, "/usr/share/gettext/intl/dcgettext.c": 1748, "/usr/share/gettext/intl/ref-del.sin": 985, "/usr/share/gettext/styles/po-default.css": 1310, "/usr/share/gettext/projects/KDE/team-address": 3854, "/usr/share/gettext/intl/finddomain.c": 6014, "/usr/bin/msginit": 33228, "/usr/share/gettext/projects/GNOME/teams.html": 42661, "/usr/bin/recode-sr-latin": 9608, "/usr/bin/msgattrib": 16616, "/usr/share/gettext/projects/KDE/teams.html": 81201, "/usr/lib/libgettextpo.so.0": 275504, "/usr/share/gettext/intl/config.charset": 23162, "/usr/share/gettext/intl/Makefile.in": 25115, "/usr/bin/msgunfmt": 21844, "/usr/share/gettext/intl/os2compat.c": 2826, "/usr/share/gettext/intl/threadlib.c": 1925, "/usr/share/gettext/intl/intl-compat.c": 3441, "/usr/share/gettext/intl/gmo.h": 4877, "/usr/share/gettext/intl/hash-string.h": 1337, "/usr/share/gettext/intl/wprintf-parse.h": 2629, "/usr/share/gettext/po/boldquot.sed": 217, "/usr/share/gettext/intl/libgnuintl.in.h": 16792, "/usr/share/gettext/intl/xsize.c": 78, "/usr/bin/msgconv": 12120, "/usr/share/gettext/intl/xsize.h": 3653, "/usr/share/gettext/intl/plural.c": 53298, "/usr/share/gettext/styles/po-vim.css": 1160, "/usr/share/gettext/projects/TP/teams.url": 46, "/usr/share/gettext/po/Makevars.template": 3376, "/usr/share/gettext/intl/localealias.c": 10537, "/usr/share/gettext/config.rpath": 18574, "/usr/bin/msgen": 12200, "/usr/share/gettext/intl/eval-plural.h": 2725, "/usr/share/gettext/projects/KDE/trigger": 985, "/usr/bin/msgfilter": 18668, "/usr/share/gettext/po/en@boldquot.header": 1337, "/usr/bin/autopoint": 25597, "/usr/share/gettext/intl/version.c": 924, "/usr/share/gettext/intl/plural.y": 7533, "/usr/share/gettext/intl/verify.h": 11019, "/usr/share/gettext/intl/dngettext.c": 1833, "/usr/share/gettext/javaversion.class": 510, "/usr/share/gettext/styles/po-emacs-xterm.css": 1119, "/usr/share/gettext/intl/lock.h": 36305, "/usr/share/gettext/intl/lock.c": 26774, "/usr/share/gettext/intl/bindtextdom.c": 8869, "/usr/share/gettext/po/quot.sed": 153, "/usr/share/gettext/intl/textdomain.c": 3833, "/usr/share/gettext/intl/locale.alias": 2575, "/usr/share/gettext/intl/vasnprintf.h": 2796, "/usr/share/gettext/intl/vasnprintf.c": 223307, "/usr/lib/gettext/hostname": 7308, "/usr/share/gettext/po/insert-header.sin": 672, "/usr/share/gettext/po/remove-potcdate.sin": 432, "/usr/share/gettext/styles/po-emacs-xterm256.css": 1157, "/usr/bin/msgcat": 15264, "/usr/share/gettext/intl/COPYING.LIB": 26545, "/usr/share/gettext/styles/po-emacs-x.css": 1155, "/usr/share/gettext/intl/VERSION": 40, "/usr/share/gettext/projects/TP/teams.html": 19686, "/usr/share/gettext/intl/dcigettext.c": 47588, "/usr/share/gettext/intl/plural-exp.c": 3997, "/usr/share/gettext/projects/index": 13, "/usr/share/gettext/intl/plural-exp.h": 4137, "/usr/share/gettext/projects/GNOME/teams.url": 29, "/usr/share/gettext/intl/relocatable.c": 16037, "/usr/share/gettext/intl/libintl.rc": 1622, "/usr/share/gettext/intl/relocatable.h": 3133, "/usr/share/gettext/archive.dir.tar.xz": 376056, "/usr/share/gettext/projects/TP/trigger": 89, "/usr/share/gettext/intl/intl-exports.c": 1763, "/usr/share/gettext/intl/export.h": 157, "/usr/share/gettext/intl/os2compat.h": 1494, "/usr/bin/msggrep": 83020, "/usr/share/gettext/gettext.h": 10011, "/usr/share/gettext/po/Makefile.in.in": 17259, "/usr/share/gettext/intl/printf-parse.c": 22179, "/usr/bin/msgcomm": 15032, "/usr/bin/xgettext": 217412}
+FILERPROVIDES_/usr/bin/xgettext_gettext: elf(buildid) (= 72ef81c74c8eb17de10d67588599f63432651762)
+FILERPROVIDES_/usr/bin/msgunfmt_gettext: elf(buildid) (= ed0422cead43cd720df193a1337edd4e0dd35550)
+FILERPROVIDES_/usr/bin/msgfilter_gettext: elf(buildid) (= ba90bf5c8f8b5357f377d91a0e4a43939af9f184)
+FILERPROVIDES_/usr/lib/gettext/urlget_gettext: elf(buildid) (= d1af147be53ff12daa9e7c46a3c877f879091447)
+FILERPROVIDES_/usr/bin/msgattrib_gettext: elf(buildid) (= 51bc8e407beee2c315749c33e16bcaa8f443beaf)
+FILERPROVIDES_/usr/bin/msgexec_gettext: elf(buildid) (= e07b8a00dcd1b8005085b182b208d6ab4818229b)
+FILERPROVIDES_/usr/bin/msgconv_gettext: elf(buildid) (= ed0de04eb93f4922ab0ca98042fb5e9f10b5221b)
+FILERPROVIDES_/usr/bin/msgfmt_gettext: elf(buildid) (= 86e2ae23bbff2433ab88b27c958152d6e6c1fb6d)
+FILERPROVIDES_/usr/bin/msguniq_gettext: elf(buildid) (= 7214457e6a58523552e8c6c877c14d46688d09ca)
+FILERPROVIDES_/usr/bin/msgcmp_gettext: elf(buildid) (= 6648426b72478dff84df7ab6a4dafb4b0f933c54)
+FILERPROVIDES_/usr/bin/msgcomm_gettext: elf(buildid) (= 28eab118fbbac25c54d5a4590de3721dd90f8382)
+FILERPROVIDES_/usr/lib/gettext/hostname_gettext: elf(buildid) (= 1e850606ce583b464ee53697459b35061bfcac5b)
+FILERPROVIDES_/usr/bin/recode-sr-latin_gettext: elf(buildid) (= 5a0b36642934e738ca43a4f4f299fee7e05cf9ee)
+FILERPROVIDES_/usr/bin/msginit_gettext: elf(buildid) (= 4628b79c4648ee226139c7744a6975c0bc3f38a8)
+FILERPROVIDES_/usr/lib/libgettextpo.so.0.5.3_gettext: elf(buildid) (= ce6ecb5113dc787ae836a94d13a82ceb2c4d97c4) libgettextpo.so.0
+FILERPROVIDES_/usr/bin/msgmerge_gettext: elf(buildid) (= c92a80f80cf9b3240d23ba44b5dfb9fbd16f93d9)
+FILERPROVIDES_/usr/bin/msgen_gettext: elf(buildid) (= 60456a1af044ab1482ecb769980608968da9f38c)
+FILERPROVIDES_/usr/bin/msgcat_gettext: elf(buildid) (= 5863ca32e460e536ed4b5a5c663fcd810f98be14)
+FILERPROVIDES_/usr/bin/msggrep_gettext: elf(buildid) (= 3a3bc33a5166055eadba0b35fd394370d28e25f9)
+FILERDEPENDSFLIST_gettext: /usr/bin/msgunfmt /usr/lib/gettext/project-id /usr/bin/msgcmp /usr/lib/gettext/hostname /usr/bin/msgmerge /usr/share/gettext/projects/TP/team-address /usr/share/gettext/projects/GNOME/team-address /usr/bin/xgettext /usr/bin/msgfmt /usr/bin/msgexec /usr/bin/msgconv /usr/bin/msguniq /usr/lib/gettext/user-email /usr/bin/gettextize /usr/bin/msgcat /usr/lib/libgettextpo.so.0.5.3 /usr/share/gettext/config.rpath /usr/bin/msgen /usr/share/gettext/projects/KDE/trigger /usr/bin/msgfilter /usr/lib/gettext/urlget /usr/bin/autopoint /usr/share/gettext/projects/KDE/team-address /usr/share/gettext/projects/TP/trigger /usr/bin/msginit /usr/bin/msggrep /usr/bin/recode-sr-latin /usr/bin/msgattrib /usr/share/gettext/projects/GNOME/trigger /usr/bin/msgcomm /usr/share/gettext/intl/config.charset /usr/share/gettext/projects/team-address
+FILERDEPENDS_/usr/bin/msgunfmt_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gettext/project-id_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/msgcmp_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gettext/hostname_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msgmerge_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/share/gettext/projects/TP/team-address_gettext: /bin/sh
+FILERDEPENDS_/usr/share/gettext/projects/GNOME/team-address_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/xgettext_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msgfmt_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msgexec_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msgconv_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msguniq_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gettext/user-email_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/gettextize_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/msgcat_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/libgettextpo.so.0.5.3_gettext: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/share/gettext/config.rpath_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/msgen_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/share/gettext/projects/KDE/trigger_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/msgfilter_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gettext/urlget_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/autopoint_gettext: /bin/sh
+FILERDEPENDS_/usr/share/gettext/projects/KDE/team-address_gettext: /bin/sh
+FILERDEPENDS_/usr/share/gettext/projects/TP/trigger_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/msginit_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msggrep_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/recode-sr-latin_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/msgattrib_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/share/gettext/projects/GNOME/trigger_gettext: /bin/sh
+FILERDEPENDS_/usr/bin/msgcomm_gettext: libc.so.6 libc.so.6(GLIBC_2.4) libgettextlib-0.19.4.so libgettextsrc-0.19.4.so rtld(GNU_HASH)
+FILERDEPENDS_/usr/share/gettext/intl/config.charset_gettext: /bin/sh
+FILERDEPENDS_/usr/share/gettext/projects/team-address_gettext: /bin/sh
+PKGSIZE_gettext: 2466131

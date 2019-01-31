@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-bo-in: locale definition for bo-in
+SUMMARY_glibc-localedata-bo-in: locale definition for bo-in
+RDEPENDS_glibc-localedata-bo-in: glibc-localedata-hi-in glibc-localedata-bo-cn
+SECTION: base
+PKG_glibc-localedata-bo-in: glibc-localedata-bo-in
+FILES_glibc-localedata-bo-in: /usr/share/i18n/locales/bo_IN
+FILES_INFO: {"/usr/share/i18n/locales/bo_IN": 1857}
+PKGSIZE_glibc-localedata-bo-in: 1857

@@ -1,0 +1,15 @@
+PN: sigma-dut
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: BSD-3-Clause
+DESCRIPTION_sigma-dut-dbg: WFA certification testing tool for QCA devices  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_sigma-dut-dbg: sigma-dut version git-invalidgit-r0 - Debugging files
+RRECOMMENDS_sigma-dut-dbg: glibc-dbg
+SECTION_sigma-dut-dbg: devel
+PKG_sigma-dut-dbg: sigma-dut-dbg
+ALLOW_EMPTY_sigma-dut-dbg: 1
+FILES_sigma-dut-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/sigma-dut/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/sigma-dut/.debug /usr/lib/matchbox-panel/.debug /usr/lib/sigma-dut/sigma-dut/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/sigma_dut": 29362}
+PKGSIZE_sigma-dut-dbg: 29362

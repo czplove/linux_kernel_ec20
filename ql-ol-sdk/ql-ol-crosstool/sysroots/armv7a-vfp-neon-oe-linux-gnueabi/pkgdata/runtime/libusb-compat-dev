@@ -1,0 +1,21 @@
+PN: libusb-compat
+PE: 1
+PV: 0.1.5
+PR: r0
+PKGE: 1
+PKGV: 0.1.5
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION_libusb-compat-dev: libusb-0.1 compatible layer for libusb1, a drop-in replacement that aims to look, feel and behave exactly like libusb-0.1  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libusb-compat-dev: libusb-0.1 compatibility layer for libusb1 - Development files
+RDEPENDS_libusb-compat-dev: libusb-compat (= 1:0.1.5-r0)
+RPROVIDES_libusb-compat-dev:  libusb-compat-dev
+RRECOMMENDS_libusb-compat-dev: glibc-dev libusb1-dev
+SECTION_libusb-compat-dev: devel
+PKG_libusb-compat-dev: libusb-0.1-dev
+ALLOW_EMPTY_libusb-compat-dev: 1
+FILES_libusb-compat-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libusb-compat/*.la /lib/*.la /usr/bin/*-config
+FILES_INFO: {"/usr/include/usb.h": 8806, "/usr/lib/pkgconfig/libusb.pc": 268, "/lib/libusb.so": 19, "/usr/bin/libusb-config": 70, "/lib/libusb.la": 940}
+FILERDEPENDSFLIST_libusb-compat-dev: /usr/bin/libusb-config
+FILERDEPENDS_/usr/bin/libusb-config_libusb-compat-dev: /bin/sh
+PKGSIZE_libusb-compat-dev: 10103

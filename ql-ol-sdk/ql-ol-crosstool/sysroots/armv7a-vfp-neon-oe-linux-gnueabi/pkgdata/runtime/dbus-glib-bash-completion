@@ -1,0 +1,19 @@
+PN: dbus-glib
+PV: 0.102
+PR: r0
+PKGV: 0.102
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION: GLib bindings for the D-Bus message bus that integrate the D-Bus library with the GLib thread abstraction and main loop.
+SUMMARY: High level language (GLib) binding for D-Bus
+RDEPENDS_dbus-glib-bash-completion: glibc (>= 2.21) expat (>= 2.1.0) dbus-lib (>= 1.8.10) dbus-glib (>= 0.102) glib-2.0 (>= 2.42.1)
+RPROVIDES_dbus-glib-bash-completion:  dbus-glib-bash-completion
+SECTION: base
+PKG_dbus-glib-bash-completion: libdbus-glib-1-bash-completion
+FILES_dbus-glib-bash-completion: /etc/bash_completion.d/dbus-bash-completion.sh    /usr/lib/dbus-glib/dbus-bash-completion-helper
+FILERPROVIDESFLIST_dbus-glib-bash-completion: /usr/lib/dbus-glib/dbus-bash-completion-helper
+FILES_INFO: {"/usr/lib/dbus-glib/dbus-bash-completion-helper": 22176, "/etc/bash_completion.d/dbus-bash-completion.sh": 559}
+FILERPROVIDES_/usr/lib/dbus-glib/dbus-bash-completion-helper_dbus-glib-bash-completion: elf(buildid) (= 5c82c5f1a26fb930f8409eb8b584716390e39b29)
+FILERDEPENDSFLIST_dbus-glib-bash-completion: /usr/lib/dbus-glib/dbus-bash-completion-helper
+FILERDEPENDS_/usr/lib/dbus-glib/dbus-bash-completion-helper_dbus-glib-bash-completion: libc.so.6 libc.so.6(GLIBC_2.4) libdbus-1.so.3 libdbus-glib-1.so.2 libexpat.so.1 libgio-2.0.so.0 libglib-2.0.so.0 libgobject-2.0.so.0 rtld(GNU_HASH)
+PKGSIZE_dbus-glib-bash-completion: 22735

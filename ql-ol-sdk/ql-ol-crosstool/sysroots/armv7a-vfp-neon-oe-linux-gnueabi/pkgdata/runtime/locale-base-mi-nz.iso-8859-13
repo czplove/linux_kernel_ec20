@@ -1,0 +1,17 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: Locale data from glibc.
+SUMMARY: Locale data from glibc
+RDEPENDS_locale-base-mi-nz.iso-8859-13: glibc-localedata-mi-nz localedef glibc-charmap-iso-8859-13
+RPROVIDES_locale-base-mi-nz.iso-8859-13:  virtual-locale-mi-nz.iso-8859-13 virtual-locale-mi
+SECTION: base
+PKG_locale-base-mi-nz.iso-8859-13: locale-base-mi-nz.iso-8859-13
+ALLOW_EMPTY_locale-base-mi-nz.iso-8859-13: 1
+pkg_postinst_locale-base-mi-nz.iso-8859-13: #!/bin/sh\n\nif [ "x$D" != "x" ]; then\n\texit 1\nfi\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n        cp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --inputfile=/usr/share/i18n/locales/mi_NZ --charmap=ISO-8859-13 --prefix=/tmp/locale mi_NZ\nmkdir -p /usr/lib/locale/\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+pkg_postrm_locale-base-mi-nz.iso-8859-13: #!/bin/sh\n\nrm -rf /tmp/locale/usr/lib/locale\nmkdir -p /tmp/locale/usr/lib/locale\nif [ -f /usr/lib/locale/locale-archive ]; then\n\tcp /usr/lib/locale/locale-archive /tmp/locale/usr/lib/locale/\nfi\nlocaledef --delete-from-archive --inputfile=/usr/share/locales/mi_NZ --charmap=ISO-8859-13 --prefix=/tmp/locale mi_NZ\nmv /tmp/locale/usr/lib/locale/locale-archive /usr/lib/locale/\nrm -rf /tmp/locale/usr/lib/locale\n
+FILES_INFO: {}
+PKGSIZE_locale-base-mi-nz.iso-8859-13: 0

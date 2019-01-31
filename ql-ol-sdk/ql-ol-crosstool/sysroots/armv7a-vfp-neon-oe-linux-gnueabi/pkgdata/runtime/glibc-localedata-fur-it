@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-fur-it: locale definition for fur-it
+SUMMARY_glibc-localedata-fur-it: locale definition for fur-it
+RDEPENDS_glibc-localedata-fur-it: glibc-localedata-it-it glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-fur-it: glibc-localedata-fur-it
+FILES_glibc-localedata-fur-it: /usr/share/i18n/locales/fur_IT
+FILES_INFO: {"/usr/share/i18n/locales/fur_IT": 4270}
+PKGSIZE_glibc-localedata-fur-it: 4270

@@ -1,0 +1,15 @@
+PN: ftm
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_ftm-dbg: Qualcomm Technologies ftmdaemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ftm-dbg: ftm version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_ftm-dbg: libnl-genl-dbg libnl-dbg diag-dbg glibc-dbg glib-2.0-dbg libgcc-dbg
+SECTION_ftm-dbg: devel
+PKG_ftm-dbg: ftm-dbg
+ALLOW_EMPTY_ftm-dbg: 1
+FILES_ftm-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ftm/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ftm/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ftm/ftm/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/ftmdaemon": 128814, "/usr/bin/.debug/btnvtool": 36153}
+PKGSIZE_ftm-dbg: 164967

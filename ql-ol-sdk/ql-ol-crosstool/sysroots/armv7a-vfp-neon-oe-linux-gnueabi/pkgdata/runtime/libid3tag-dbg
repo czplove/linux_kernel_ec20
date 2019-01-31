@@ -1,0 +1,15 @@
+PN: libid3tag
+PV: 0.15.1b
+PR: r7
+PKGV: 0.15.1b
+PKGR: r7
+LICENSE: GPLv2+
+DESCRIPTION_libid3tag-dbg: Library for interacting with ID3 tags in MP3 files.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_libid3tag-dbg: Library for interacting with ID3 tags in MP3 files - Debugging files
+RRECOMMENDS_libid3tag-dbg: glibc-dbg zlib-dbg
+SECTION_libid3tag-dbg: devel
+PKG_libid3tag-dbg: libid3tag-dbg
+ALLOW_EMPTY_libid3tag-dbg: 1
+FILES_libid3tag-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/libid3tag/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/libid3tag/.debug /usr/lib/matchbox-panel/.debug /usr/lib/libid3tag/libid3tag/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libid3tag.so.0.3.0": 21647}
+PKGSIZE_libid3tag-dbg: 21647

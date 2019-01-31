@@ -1,0 +1,20 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0
+LICENSE_e2fsprogs-tune2fs: GPLv2
+DESCRIPTION: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+SUMMARY: Ext2 Filesystem Utilities
+RDEPENDS_e2fsprogs-tune2fs: libext2fs (>= 1.42.9) glibc (>= 2.21) libcomerr (>= 1.42.9) util-linux-libblkid (>= 2.25.2) util-linux-libuuid (>= 2.25.2) libe2p (>= 1.42.9)
+SECTION: base
+PKG_e2fsprogs-tune2fs: e2fsprogs-tune2fs
+FILES_e2fsprogs-tune2fs: /sbin/tune2fs /sbin/e2label
+FILERPROVIDESFLIST_e2fsprogs-tune2fs: /sbin/e2label /sbin/tune2fs
+FILES_INFO: {"/sbin/e2label": 55864, "/sbin/tune2fs": 75742}
+FILERPROVIDES_/sbin/e2label_e2fsprogs-tune2fs: elf(buildid) (= 3c8ccc10aa14e988870a4e258e50a7cfa91641ba)
+FILERPROVIDES_/sbin/tune2fs_e2fsprogs-tune2fs: elf(buildid) (= 3c8ccc10aa14e988870a4e258e50a7cfa91641ba)
+FILERDEPENDSFLIST_e2fsprogs-tune2fs: /sbin/e2label /sbin/tune2fs
+FILERDEPENDS_/sbin/e2label_e2fsprogs-tune2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/tune2fs_e2fsprogs-tune2fs: libblkid.so.1 libc.so.6 libc.so.6(GLIBC_2.4) libcom_err.so.2 libe2p.so.2 libext2fs.so.2 libuuid.so.1 libuuid.so.1(UUID_1.0) rtld(GNU_HASH)
+PKGSIZE_e2fsprogs-tune2fs: 131606

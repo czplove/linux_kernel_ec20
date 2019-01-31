@@ -1,0 +1,8 @@
+0	0	periph_CE
+1	1	vfe
+2	1	venus_ns
+3	1	mdp_0
+4	0	mDSP
+5	0	gss
+6	0	a2
+8	1	gfx3d_user

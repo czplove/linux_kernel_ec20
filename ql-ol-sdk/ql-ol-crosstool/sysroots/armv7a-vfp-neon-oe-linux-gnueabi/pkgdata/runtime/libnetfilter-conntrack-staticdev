@@ -1,0 +1,14 @@
+PN: libnetfilter-conntrack
+PV: 0.9.1
+PR: r0
+PKGV: 0.9.1
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnetfilter-conntrack-staticdev: Userspace library providing a programming interface (API) to the in-kernel connection tracking state table  This package contains static libraries for software development.
+SUMMARY_libnetfilter-conntrack-staticdev: libnetfilter-conntrack version 0.9.1-r0 - Development files (Static Libraries)
+RDEPENDS_libnetfilter-conntrack-staticdev: libnetfilter-conntrack-dev (= 0.9.1-r0)
+SECTION_libnetfilter-conntrack-staticdev: devel
+PKG_libnetfilter-conntrack-staticdev: libnetfilter-conntrack-staticdev
+FILES_libnetfilter-conntrack-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libnetfilter-conntrack/*.a
+FILES_INFO: {}
+PKGSIZE_libnetfilter-conntrack-staticdev: 0

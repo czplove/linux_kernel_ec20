@@ -1,0 +1,15 @@
+PN: wlan-services
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wlan-services-dbg: WLAN Services required for QCACLD  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_wlan-services-dbg: wlan-services version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_wlan-services-dbg: libstdc++-dbg glibc-dbg libgcc-dbg data-dbg
+SECTION_wlan-services-dbg: devel
+PKG_wlan-services-dbg: wlan-services-dbg
+ALLOW_EMPTY_wlan-services-dbg: 1
+FILES_wlan-services-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/wlan-services/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/wlan-services/.debug /usr/lib/matchbox-panel/.debug /usr/lib/wlan-services/wlan-services/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/wlan_services": 46819}
+PKGSIZE_wlan-services-dbg: 46819

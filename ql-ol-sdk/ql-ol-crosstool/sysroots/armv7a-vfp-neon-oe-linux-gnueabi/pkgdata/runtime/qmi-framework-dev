@@ -1,0 +1,16 @@
+PN: qmi-framework
+PV: git-invalidgit
+PR: r7
+PKGV: git-invalidgit
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-framework-dev: QMI Framework Library  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_qmi-framework-dev: qmi-framework version git-invalidgit-r7 - Development files
+RDEPENDS_qmi-framework-dev: qmi-framework (= git-invalidgit-r7)
+RRECOMMENDS_qmi-framework-dev: configdb-dev glibc-dev xmllib-dev dsutils-dev time-genoff-dev qmi-dev glib-2.0-dev initscripts-dev diag-dev
+SECTION_qmi-framework-dev: devel
+PKG_qmi-framework-dev: qmi-framework-dev
+ALLOW_EMPTY_qmi-framework-dev: 1
+FILES_qmi-framework-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/qmi-framework/*.la /lib/*.la
+FILES_INFO: {"/usr/include/qmi-framework/qmi_client.h": 33585, "/usr/lib/libqmi_common_so.la": 977, "/usr/include/qmi-framework/qmi_cci_target_ext.h": 3648, "/usr/include/qmi-framework/qmi_idl_lib.h": 14137, "/usr/include/qmi-framework/qmi_cci_common.h": 14791, "/usr/lib/libqmi_encdec.so": 22, "/usr/include/qmi-framework/qmi_csi_common.h": 21147, "/usr/lib/libqmi_encdec.la": 949, "/usr/include/qmi-framework/service_access_proxy_v01.h": 6588, "/usr/include/qmi-framework/qmi_client_deprecated.h": 2277, "/usr/include/qmi-framework/qmi_common.h": 3049, "/usr/include/qmi-framework/qmi_csi.h": 27388, "/usr/lib/pkgconfig/qmi-framework.pc": 255, "/usr/lib/libqmi_sap.la": 1387, "/usr/lib/libqmi_csi.so": 19, "/usr/lib/libqmi_cci.la": 1363, "/usr/include/qmi-framework/qmi_sap_target_ext.h": 853, "/usr/include/qmi-framework/qmi_csi_target_ext.h": 1520, "/usr/include/qmi-framework/common_v01.h": 14364, "/usr/lib/libqmi_csi.la": 968, "/usr/include/qmi-framework/qmi_sap.h": 2382, "/usr/lib/libqmi_sap.so": 19, "/usr/include/qmi-framework/qmi_client_instance_defs.h": 4441, "/usr/lib/libqmi_cci.so": 19, "/usr/include/qmi-framework/qmi_idl_lib_target.h": 1138, "/usr/include/qmi-framework/qmi_idl_lib_internal.h": 6019, "/usr/lib/libqmi_common_so.so": 25, "/usr/include/qmi-framework/qmi_cci_target.h": 891}
+PKGSIZE_qmi-framework-dev: 164221

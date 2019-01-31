@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-unicode-normalize: perl module unicode-normalize
+SUMMARY_perl-module-unicode-normalize: perl module unicode-normalize
+RDEPENDS_perl-module-unicode-normalize: perl-module-carp perl-module-dynaloader glibc (>= 2.21) perl-module-warnings perl perl-module-exporter perl-module-strict
+SECTION: devel
+PKG_perl-module-unicode-normalize: perl-module-unicode-normalize
+FILES_perl-module-unicode-normalize: /usr/lib/perl/5.20.0/auto/Unicode/Normalize/Normalize.so /usr/lib/perl/5.20.0/Unicode/Normalize.pm
+FILERPROVIDESFLIST_perl-module-unicode-normalize: /usr/lib/perl/5.20.0/auto/Unicode/Normalize/Normalize.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Unicode/Normalize/Normalize.so": 274092, "/usr/lib/perl/5.20.0/Unicode/Normalize.pm": 18178}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Unicode/Normalize/Normalize.so_perl-module-unicode-normalize: Normalize.so elf(buildid) (= d4c64fe02f49740e3a6c92c6df642f7e893c26c7)
+FILERDEPENDSFLIST_perl-module-unicode-normalize: /usr/lib/perl/5.20.0/auto/Unicode/Normalize/Normalize.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Unicode/Normalize/Normalize.so_perl-module-unicode-normalize: ld-linux.so.3 ld-linux.so.3(GLIBC_2.4) libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-unicode-normalize: 292270

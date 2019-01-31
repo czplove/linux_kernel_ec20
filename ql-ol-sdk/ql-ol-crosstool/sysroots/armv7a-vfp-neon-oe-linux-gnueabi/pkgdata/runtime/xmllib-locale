@@ -1,0 +1,14 @@
+PN: xmllib
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Qualcomm XML Library
+SUMMARY: xmllib version git-invalidgit-r9
+RPROVIDES_xmllib-locale:  xmllib-locale
+SECTION: base
+PKG_xmllib-locale: libxml-locale
+FILES_xmllib-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_xmllib-locale: 0

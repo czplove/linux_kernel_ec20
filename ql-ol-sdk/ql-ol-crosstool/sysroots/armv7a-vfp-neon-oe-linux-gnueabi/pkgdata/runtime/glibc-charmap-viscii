@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-viscii: character map for viscii encoding
+SUMMARY_glibc-charmap-viscii: character map for viscii encoding
+SECTION: base
+PKG_glibc-charmap-viscii: glibc-charmap-viscii
+FILES_glibc-charmap-viscii: /usr/share/i18n/charmaps/VISCII.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/VISCII.gz": 2636}
+PKGSIZE_glibc-charmap-viscii: 2636

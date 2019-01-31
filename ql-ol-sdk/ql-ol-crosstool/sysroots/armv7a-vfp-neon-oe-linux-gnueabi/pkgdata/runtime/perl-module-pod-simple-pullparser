@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-simple-pullparser: perl module pod-simple-pullparser
+SUMMARY_perl-module-pod-simple-pullparser: perl module pod-simple-pullparser
+RDEPENDS_perl-module-pod-simple-pullparser: perl-module-carp perl-module-pod-simple perl perl-module-pod-simple-pullparsertexttoken perl-module-pod-simple-pullparserendtoken perl-module-strict perl-module-pod-simple-pullparserstarttoken
+SECTION: devel
+PKG_perl-module-pod-simple-pullparser: perl-module-pod-simple-pullparser
+FILES_perl-module-pod-simple-pullparser: /usr/lib/perl/5.20.0/Pod/Simple/PullParser.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Simple/PullParser.pm": 25355}
+PKGSIZE_perl-module-pod-simple-pullparser: 25355

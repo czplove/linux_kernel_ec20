@@ -1,0 +1,16 @@
+PN: location-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-service-dbg: GPS Location Service library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_location-service-dbg: location-service version git-r1 - Debugging files
+RPROVIDES_location-service-dbg:  location-service-dbg
+RRECOMMENDS_location-service-dbg: lbs-core-dbg loc-hal-dbg glibc-dbg qmi-client-helper-dbg configdb-dbg loc-pla-dbg libstdc++-dbg diag-dbg dsutils-dbg data-dbg time-genoff-dbg system-core-liblog-dbg data-oss-dbg glib-2.0-dbg ql-syslog-dbg izat-core-dbg libgcc-dbg qmi-framework-dbg xmllib-dbg loc-stub-dbg qmi-dbg
+SECTION_location-service-dbg: devel
+PKG_location-service-dbg: liblocationservice-dbg
+ALLOW_EMPTY_location-service-dbg: 1
+FILES_location-service-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/location-service/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/location-service/.debug /usr/lib/matchbox-panel/.debug /usr/lib/location-service/location-service/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/liblocationservice.so.1.0.0": 15704}
+PKGSIZE_location-service-dbg: 15704

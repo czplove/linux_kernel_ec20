@@ -1,0 +1,13 @@
+PN: modem-shutdown
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_modem-shutdown-doc: Automatically shuts the modem down on halt and reboot  This package contains documentation.
+SUMMARY_modem-shutdown-doc: modem-shutdown version git-invalidgit-r2 - Documentation files
+SECTION_modem-shutdown-doc: doc
+PKG_modem-shutdown-doc: modem-shutdown-doc
+FILES_modem-shutdown-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_modem-shutdown-doc: 0

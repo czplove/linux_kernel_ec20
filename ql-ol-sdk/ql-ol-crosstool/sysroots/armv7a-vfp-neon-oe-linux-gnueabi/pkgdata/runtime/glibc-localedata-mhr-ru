@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-mhr-ru: locale definition for mhr-ru
+SUMMARY_glibc-localedata-mhr-ru: locale definition for mhr-ru
+RDEPENDS_glibc-localedata-mhr-ru: glibc-localedata-iso14651-t1 glibc-localedata-ru-ru glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-mhr-ru: glibc-localedata-mhr-ru
+FILES_glibc-localedata-mhr-ru: /usr/share/i18n/locales/mhr_RU
+FILES_INFO: {"/usr/share/i18n/locales/mhr_RU": 4898}
+PKGSIZE_glibc-localedata-mhr-ru: 4898

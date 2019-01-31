@@ -1,0 +1,16 @@
+PN: kmod
+PV: 19+gitAUTOINC+fd56638aed
+PR: r0
+PKGV: 19+git0+fd56638aed
+PKGR: r0
+LICENSE: GPL-2.0+ & LGPL-2.1+
+DESCRIPTION_kmod-dev: kmod is a set of tools to handle common tasks with Linux kernel modules like                insert, remove, list, check properties, resolve dependencies and aliases.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_kmod-dev: Tools for managing Linux kernel modules - Development files
+RDEPENDS_kmod-dev: kmod (= 19+git0+fd56638aed-r0) libkmod
+RRECOMMENDS_kmod-dev: libkmod-dev glibc-dev zlib-dev update-alternatives-opkg-dev
+SECTION_kmod-dev: devel
+PKG_kmod-dev: kmod-dev
+ALLOW_EMPTY_kmod-dev: 1
+FILES_kmod-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/kmod/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/libkmod.so": 16, "/usr/lib/libkmod.la": 917, "/usr/include/libkmod.h": 9446, "/usr/lib/pkgconfig/libkmod.pc": 373}
+PKGSIZE_kmod-dev: 10752

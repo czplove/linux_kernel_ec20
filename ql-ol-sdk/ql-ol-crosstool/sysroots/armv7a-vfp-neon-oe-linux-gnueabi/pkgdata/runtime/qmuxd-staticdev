@@ -1,0 +1,14 @@
+PN: qmuxd
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmuxd-staticdev: QMUXD Module  This package contains static libraries for software development.
+SUMMARY_qmuxd-staticdev: qmuxd version git-invalidgit-r0 - Development files (Static Libraries)
+RDEPENDS_qmuxd-staticdev: qmuxd-dev (= git-invalidgit-r0)
+SECTION_qmuxd-staticdev: devel
+PKG_qmuxd-staticdev: qmuxd-staticdev
+FILES_qmuxd-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qmuxd/*.a
+FILES_INFO: {}
+PKGSIZE_qmuxd-staticdev: 0

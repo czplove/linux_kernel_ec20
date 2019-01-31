@@ -1,0 +1,15 @@
+PN: wap-fota-daemon
+PV: git-invalidgit
+PR: r3
+PKGV: git-invalidgit
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_wap-fota-daemon-dbg: WAP FOTA DAEMON  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_wap-fota-daemon-dbg: wap-fota-daemon version git-invalidgit-r3 - Debugging files
+RRECOMMENDS_wap-fota-daemon-dbg: qmi-framework-dbg glibc-dbg
+SECTION_wap-fota-daemon-dbg: devel
+PKG_wap-fota-daemon-dbg: wap-fota-daemon-dbg
+ALLOW_EMPTY_wap-fota-daemon-dbg: 1
+FILES_wap-fota-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/wap-fota-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/wap-fota-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/wap-fota-daemon/wap-fota-daemon/.debug /usr/src/debug /etc/init.d/.debug
+FILES_INFO: {"/usr/bin/.debug/wapfotadaemon": 33586}
+PKGSIZE_wap-fota-daemon-dbg: 33586

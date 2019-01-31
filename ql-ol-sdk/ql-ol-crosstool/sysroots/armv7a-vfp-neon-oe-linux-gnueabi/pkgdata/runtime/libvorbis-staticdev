@@ -1,0 +1,14 @@
+PN: libvorbis
+PV: 1.3.3
+PR: r1
+PKGV: 1.3.3
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_libvorbis-staticdev: General purpose compressed audio format for mid to high quality at fixed variable bitrates..  This package contains static libraries for software development.
+SUMMARY_libvorbis-staticdev: General purpose compressed audio format for mid to high quality at fixed variable bitrates. - Development files (Static Libraries)
+RDEPENDS_libvorbis-staticdev: libvorbis-dev (= 1.3.3-r1)
+SECTION_libvorbis-staticdev: devel
+PKG_libvorbis-staticdev: libvorbis-staticdev
+FILES_libvorbis-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libvorbis/*.a
+FILES_INFO: {"/usr/lib/libvorbisenc.a": 1583730, "/usr/lib/libvorbisfile.a": 24036, "/usr/lib/libvorbis.a": 183010}
+PKGSIZE_libvorbis-staticdev: 1790776

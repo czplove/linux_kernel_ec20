@@ -1,0 +1,13 @@
+PN: mtd-utils
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: GPLv2
+DESCRIPTION: Tools for managing memory technology devices.
+SUMMARY: mtd-utils version 1.0-r1
+SECTION: base
+PKG_mtd-utils-locale: mtd-utils-locale
+FILES_mtd-utils-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_mtd-utils-locale: 0

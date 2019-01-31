@@ -1,0 +1,13 @@
+PN: subsystem-ramdump
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: subsystem ramdump
+SUMMARY: subsystem-ramdump version git-r3
+SECTION: base
+PKG_subsystem-ramdump-locale: subsystem-ramdump-locale
+FILES_subsystem-ramdump-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_subsystem-ramdump-locale: 0

@@ -1,0 +1,14 @@
+PN: qmi-client-helper
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: QMI Client Helper Module
+SUMMARY: qmi-client-helper version git-invalidgit-r0
+RPROVIDES_qmi-client-helper-locale:  qmi-client-helper-locale
+SECTION: base
+PKG_qmi-client-helper-locale: libqmi-client-helper-locale
+FILES_qmi-client-helper-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_qmi-client-helper-locale: 0

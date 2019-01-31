@@ -1,0 +1,3 @@
+/bin/ping6
+/bin/ping6.iputils 100
+/bin/busybox 50

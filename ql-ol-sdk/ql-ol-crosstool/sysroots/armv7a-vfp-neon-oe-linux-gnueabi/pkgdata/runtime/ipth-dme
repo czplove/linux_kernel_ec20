@@ -1,0 +1,20 @@
+PN: ipth-dme
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: IPTH DME tool for FOTA
+SUMMARY: ipth-dme version git-r1
+RDEPENDS_ipth-dme: libstdc++ (>= 4.9.2) libcrypto (>= 1.0.1k) diag (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1) qmi (>= git-invalidgit) qmi-framework (>= git-invalidgit) configdb (>= git-invalidgit) dsutils (>= git-invalidgit) libgcc (>= 4.9.2) libssl (>= 1.0.1k)
+SECTION: base
+PKG_ipth-dme: ipth-dme
+FILES_ipth-dme: /usr/bin/* /usr/sbin/* /usr/lib/ipth-dme/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/ipth-dme /usr/lib/ipth-dme/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/fota_ip_v /usr/fota_ip_a /usr/fota
+FILERPROVIDESFLIST_ipth-dme: /usr/bin/ipth@underscore@dme@underscore@v /usr/bin/ipth@underscore@dme@underscore@a
+FILES_INFO: {"/usr/fota_ip_a/backup/fumo.tre": 500, "/usr/fota_ip_a/fumo.tre": 500, "/usr/fota_ip_v/backup/fumo.tre": 866, "/usr/fota_ip_a/mgmtree.dfp": 17015, "/usr/fota_ip_a/AttDevDetailExt.tre": 2011, "/usr/fota_ip_a/ipth-muc.prop": 1014, "/usr/fota_ip_a/backup/mgmtree.dfp": 17015, "/usr/bin/ipth_dme": 10, "/usr/fota_ip_v/backup/dcmo.dfp": 1489, "/usr/fota_ip_v/backup/dcmo.tre": 1797, "/usr/fota_ip_v/dcmo.tre": 1797, "/usr/fota_ip_v/dcmo.dfp": 1489, "/usr/fota_ip_a/backup/AttDevDetailExt.dfp": 1348, "/usr/fota_ip_a/backup/ipth-muc.prop": 1014, "/usr/fota_ip_v/connmo.tre": 2804, "/usr/fota_ip_v/fumo.dfp": 1342, "/usr/fota_ip_a/fumo.dfp": 958, "/usr/bin/ipth_dme_a": 530460, "/usr/fota_ip_a/bootstrap.xml": 1034, "/usr/fota_ip_a/backup/mgmtree.tre": 13973, "/usr/fota_ip_v/fumo.tre": 866, "/usr/fota_ip_a/backup/bootstraprep.xml": 1052, "/usr/fota_ip_v/mgmtree.dfp": 10382, "/usr/fota_ip_a/mgmtree.tre": 13973, "/usr/fota_ip_v/backup/connmo.tre": 2804, "/usr/fota_ip_v/backup/mgmtree.dfp": 10382, "/usr/bin/ipth_dme_v": 830404, "/usr/fota_ip_a/AttDevDetailExt.dfp": 1348, "/usr/fota_ip_a/bootstraprep.xml": 1052, "/usr/fota_ip_v/connmo.dfp": 2048, "/usr/fota_ip_v/backup/fumo.dfp": 1342, "/usr/fota_ip_v/backup/mgmtree.tre": 6617, "/usr/fota_ip_a/backup/bootstrap.xml": 1034, "/usr/fota_ip_v/backup/connmo.dfp": 2048, "/usr/fota_ip_a/backup/AttDevDetailExt.tre": 2011, "/usr/fota_ip_v/mgmtree.tre": 6617, "/usr/fota_ip_a/backup/fumo.dfp": 958}
+FILERPROVIDES_/usr/bin/ipth@underscore@dme@underscore@v_ipth-dme: elf(buildid) (= 4d7947b114b706f9b1272278e7695208e7fe4f2f)
+FILERPROVIDES_/usr/bin/ipth@underscore@dme@underscore@a_ipth-dme: elf(buildid) (= 942777e70e0731a53730ade7877c593ca1560873)
+FILERDEPENDSFLIST_ipth-dme: /usr/bin/ipth@underscore@dme@underscore@v /usr/bin/ipth@underscore@dme@underscore@a
+FILERDEPENDS_/usr/bin/ipth@underscore@dme@underscore@v_ipth-dme: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libconfigdb.so.0 libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdiag.so.1 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_encdec.so.1 libqmiidl.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) libstdc++.so.6 rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/ipth@underscore@dme@underscore@a_ipth-dme: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libconfigdb.so.0 libcrypto.so.1.0.0 libcrypto.so.1.0.0(OPENSSL_1.0.0) libdiag.so.1 libdsutils.so.1 libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libglib-2.0.so.0 libgthread-2.0.so.0 libm.so.6 libpthread.so.0 libpthread.so.0(GLIBC_2.4) libqmi.so.1 libqmi_cci.so.1 libqmi_client_qmux.so.1 libqmi_encdec.so.1 libqmiidl.so.1 libqmiservices.so.1 librt.so.1 librt.so.1(GLIBC_2.4) libssl.so.1.0.0 libssl.so.1.0.0(OPENSSL_1.0.0) libssl.so.1.0.0(OPENSSL_1.0.1) libstdc++.so.6 rtld(GNU_HASH)
+PKGSIZE_ipth-dme: 1493374

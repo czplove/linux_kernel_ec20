@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-et-ee: locale definition for et-ee
+SUMMARY_glibc-localedata-et-ee: locale definition for et-ee
+RDEPENDS_glibc-localedata-et-ee: glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-et-ee: glibc-localedata-et-ee
+FILES_glibc-localedata-et-ee: /usr/share/i18n/locales/et_EE
+FILES_INFO: {"/usr/share/i18n/locales/et_EE": 82894}
+PKGSIZE_glibc-localedata-et-ee: 82894

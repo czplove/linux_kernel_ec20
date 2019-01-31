@@ -1,0 +1,14 @@
+PN: libjpeg-turbo
+PV: 1.2.1
+PR: r2
+PKGV: 1.2.1
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_libjpeg-turbo-doc: Accelerates basline JPEG compression and decompression..  This package contains documentation.
+SUMMARY_libjpeg-turbo-doc: Accelerates basline JPEG compression and decompression. - Documentation files
+RPROVIDES_libjpeg-turbo-doc:  libjpeg-turbo-doc
+SECTION_libjpeg-turbo-doc: doc
+PKG_libjpeg-turbo-doc: libjpeg-doc
+FILES_libjpeg-turbo-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/man/man1/djpeg.1": 7323, "/usr/share/man/man1/rdjpgcom.1": 1699, "/usr/share/doc/usage.txt": 29470, "/usr/share/doc/README-turbo.txt": 16935, "/usr/share/man/man1/jpegtran.1": 8406, "/usr/share/doc/libjpeg.txt": 160860, "/usr/share/doc/wizard.txt": 9759, "/usr/share/doc/example.c": 17091, "/usr/share/man/man1/cjpeg.1": 11913, "/usr/share/doc/structure.txt": 51751, "/usr/share/man/man1/wrjpgcom.1": 2627, "/usr/share/doc/README": 14410}
+PKGSIZE_libjpeg-turbo-doc: 332244

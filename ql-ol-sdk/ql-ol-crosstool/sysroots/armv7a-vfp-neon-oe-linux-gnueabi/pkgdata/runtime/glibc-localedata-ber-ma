@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ber-ma: locale definition for ber-ma
+SUMMARY_glibc-localedata-ber-ma: locale definition for ber-ma
+RDEPENDS_glibc-localedata-ber-ma: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ber-ma: glibc-localedata-ber-ma
+FILES_glibc-localedata-ber-ma: /usr/share/i18n/locales/ber_MA
+FILES_INFO: {"/usr/share/i18n/locales/ber_MA": 6374}
+PKGSIZE_glibc-localedata-ber-ma: 6374

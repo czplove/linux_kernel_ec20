@@ -1,0 +1,13 @@
+PN: linux-libc-headers
+PV: 3.19
+PR: r0
+PKGV: 3.19
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_linux-libc-headers-doc: Sanitized set of kernel headers for the C library\'s use.  This package contains documentation.
+SUMMARY_linux-libc-headers-doc: Sanitized set of kernel headers for the C library\'s use - Documentation files
+SECTION_linux-libc-headers-doc: doc
+PKG_linux-libc-headers-doc: linux-libc-headers-doc
+FILES_linux-libc-headers-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_linux-libc-headers-doc: 0

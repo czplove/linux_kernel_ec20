@@ -1,0 +1,14 @@
+PN: diag
+PV: git-invalidgit
+PR: r9
+PKGV: git-invalidgit
+PKGR: r9
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_diag-staticdev: Library and routing applications for diagnostic traffic  This package contains static libraries for software development.
+SUMMARY_diag-staticdev: diag version git-invalidgit-r9 - Development files (Static Libraries)
+RDEPENDS_diag-staticdev: diag-dev (= git-invalidgit-r9)
+SECTION_diag-staticdev: devel
+PKG_diag-staticdev: diag-staticdev
+FILES_diag-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/diag/*.a
+FILES_INFO: {}
+PKGSIZE_diag-staticdev: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-iso-646.basic: character map for iso-646.basic encoding
+SUMMARY_glibc-charmap-iso-646.basic: character map for iso-646.basic encoding
+SECTION: base
+PKG_glibc-charmap-iso-646.basic: glibc-charmap-iso-646.basic
+FILES_glibc-charmap-iso-646.basic: /usr/share/i18n/charmaps/ISO_646.BASIC.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/ISO_646.BASIC.gz": 926}
+PKGSIZE_glibc-charmap-iso-646.basic: 926

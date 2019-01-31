@@ -1,0 +1,19 @@
+PN: libpcre
+PV: 8.36
+PR: r0
+PKGV: 8.36
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION: The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API.
+SUMMARY_libpcrecpp: Perl Compatible Regular Expressions - C++ wrapper functions
+RDEPENDS_libpcrecpp: libstdc++ (>= 4.9.2) libpcre (>= 8.36) libgcc (>= 4.9.2) glibc (>= 2.21)
+RPROVIDES_libpcrecpp:  libpcrecpp
+SECTION: devel
+PKG_libpcrecpp: libpcrecpp0
+FILES_libpcrecpp: /usr/lib/libpcrecpp.so.*
+FILERPROVIDESFLIST_libpcrecpp: /usr/lib/libpcrecpp.so.0.0.1
+FILES_INFO: {"/usr/lib/libpcrecpp.so.0": 25884}
+FILERPROVIDES_/usr/lib/libpcrecpp.so.0.0.1_libpcrecpp: elf(buildid) (= af61af2fe6bfaa1023361fa9b98f34b0a1a9fb2c) libpcrecpp.so.0
+FILERDEPENDSFLIST_libpcrecpp: /usr/lib/libpcrecpp.so.0.0.1
+FILERDEPENDS_/usr/lib/libpcrecpp.so.0.0.1_libpcrecpp: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libpcre.so.1 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(CXXABI_ARM_1.3.3) libstdc++.so.6(GLIBCXX_3.4) libstdc++.so.6(GLIBCXX_3.4.9) rtld(GNU_HASH)
+PKGSIZE_libpcrecpp: 25884

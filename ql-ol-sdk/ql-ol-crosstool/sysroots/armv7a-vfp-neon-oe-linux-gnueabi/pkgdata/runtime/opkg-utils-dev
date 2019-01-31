@@ -1,0 +1,16 @@
+PN: opkg-utils
+PV: 0.1.8+gitAUTOINC+53274f0875
+PR: r0
+PKGV: 0.1.8+git0+53274f0875
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_opkg-utils-dev: Additional utilities for the opkg package manager.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_opkg-utils-dev: Additional utilities for the opkg package manager - Development files
+RDEPENDS_opkg-utils-dev: opkg-utils (= 0.1.8+git0+53274f0875-r0)
+RRECOMMENDS_opkg-utils-dev: python-pickle-dev python-compression-dev glibc-dev python-shell-dev python-stringold-dev python-logging-dev python-math-dev python-subprocess-dev python-fcntl-dev python-textutils-dev python-io-dev python-dev python-crypt-dev
+SECTION_opkg-utils-dev: devel
+PKG_opkg-utils-dev: opkg-utils-dev
+ALLOW_EMPTY_opkg-utils-dev: 1
+FILES_opkg-utils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/opkg-utils/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_opkg-utils-dev: 0

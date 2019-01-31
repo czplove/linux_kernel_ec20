@@ -1,0 +1,14 @@
+PN: common
+PV: git
+PR: r7
+PKGV: git
+PKGR: r7
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_common-dbg: Common headers  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_common-dbg: common version git-r7 - Debugging files
+SECTION_common-dbg: devel
+PKG_common-dbg: common-dbg
+ALLOW_EMPTY_common-dbg: 1
+FILES_common-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/common/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/common/.debug /usr/lib/matchbox-panel/.debug /usr/lib/common/common/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_common-dbg: 0

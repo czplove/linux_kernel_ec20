@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-viscii: gconv module for character set viscii
+SUMMARY_glibc-gconv-viscii: gconv module for character set viscii
+RDEPENDS_glibc-gconv-viscii: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-viscii: glibc-gconv-viscii
+FILES_glibc-gconv-viscii: /usr/lib/gconv/VISCII.so
+FILES_INFO: {"/usr/lib/gconv/VISCII.so": 9584}
+PKGSIZE_glibc-gconv-viscii: 9584

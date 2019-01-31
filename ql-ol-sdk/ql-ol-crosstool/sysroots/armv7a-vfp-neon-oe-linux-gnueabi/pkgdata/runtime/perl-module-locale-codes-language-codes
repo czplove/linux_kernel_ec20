@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-locale-codes-language-codes: perl module locale-codes-language-codes
+SUMMARY_perl-module-locale-codes-language-codes: perl module locale-codes-language-codes
+RDEPENDS_perl-module-locale-codes-language-codes: perl-module-strict perl-module-warnings perl-module-utf8 perl
+SECTION: devel
+PKG_perl-module-locale-codes-language-codes: perl-module-locale-codes-language-codes
+FILES_perl-module-locale-codes-language-codes: /usr/lib/perl/5.20.0/Locale/Codes/Language_Codes.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Locale/Codes/Language_Codes.pm": 1563126}
+PKGSIZE_perl-module-locale-codes-language-codes: 1563126

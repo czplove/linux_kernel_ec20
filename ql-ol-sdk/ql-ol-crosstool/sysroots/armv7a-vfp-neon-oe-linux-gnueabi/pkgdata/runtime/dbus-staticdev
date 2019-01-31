@@ -1,0 +1,14 @@
+PN: dbus
+PV: 1.8.10
+PR: r0
+PKGV: 1.8.10
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-staticdev: D-Bus is a message bus system, a simple way for applications to talk to one another. In addition to interprocess communication, D-Bus helps coordinate process lifecycle; it makes it simple and reliable to code a \\"single instance\\" application or daemon, and to launch applications and daemons on demand when their services are needed.  This package contains static libraries for software development.
+SUMMARY_dbus-staticdev: D-Bus message bus - Development files (Static Libraries)
+RDEPENDS_dbus-staticdev: dbus-dev (= 1.8.10-r0)
+SECTION_dbus-staticdev: devel
+PKG_dbus-staticdev: dbus-staticdev
+FILES_dbus-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/dbus/*.a
+FILES_INFO: {"/usr/lib/libdbus-1.a": 466772}
+PKGSIZE_dbus-staticdev: 466772

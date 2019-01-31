@@ -1,0 +1,13 @@
+PN: location-hal-tests
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-hal-tests-doc: Location HAL Tests  This package contains documentation.
+SUMMARY_location-hal-tests-doc: location-hal-tests version git-r1 - Documentation files
+SECTION_location-hal-tests-doc: doc
+PKG_location-hal-tests-doc: location-hal-tests-doc
+FILES_location-hal-tests-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_location-hal-tests-doc: 0

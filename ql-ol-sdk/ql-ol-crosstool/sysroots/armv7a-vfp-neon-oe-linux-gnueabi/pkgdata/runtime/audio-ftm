@@ -1,0 +1,18 @@
+PN: audio-ftm
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio FTM
+SUMMARY: audio-ftm version git-invalidgit-r4
+RDEPENDS_audio-ftm: alsa-intf (>= git-invalidgit) glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+SECTION: base
+PKG_audio-ftm: audio-ftm
+FILES_audio-ftm: /usr/bin/* /usr/sbin/* /usr/lib/audio-ftm/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/audio-ftm /usr/lib/audio-ftm/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_audio-ftm: /usr/bin/audio@underscore@ftm
+FILES_INFO: {"/etc/ftm_test_config": 8021, "/usr/bin/audio_ftm": 132800}
+FILERPROVIDES_/usr/bin/audio@underscore@ftm_audio-ftm: elf(buildid) (= 3d1d4401a27d219695690ebb6021424d6746dd38)
+FILERDEPENDSFLIST_audio-ftm: /usr/bin/audio@underscore@ftm
+FILERDEPENDS_/usr/bin/audio@underscore@ftm_audio-ftm: libalsa_intf.so.1 libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_audio-ftm: 140821

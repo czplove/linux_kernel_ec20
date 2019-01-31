@@ -1,0 +1,11 @@
+0	0	lpass
+1	1	vfe
+2	1	venus_ns
+3	0	mss_mcdma
+4	0	q6
+5	0	pronto_pil
+6	1	jpeg_enc0
+7	1	cpp
+8	0	adsp_opendsp
+9	1	vfe
+a	1	mdp_1

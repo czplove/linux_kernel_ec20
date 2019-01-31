@@ -1,0 +1,14 @@
+PN: acdbmapper
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbmapper-doc: acdb mapper Library  This package contains documentation.
+SUMMARY_acdbmapper-doc: acdbmapper version git-invalidgit-r2 - Documentation files
+RPROVIDES_acdbmapper-doc:  acdbmapper-doc
+SECTION_acdbmapper-doc: doc
+PKG_acdbmapper-doc: libacdbmapper-doc
+FILES_acdbmapper-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_acdbmapper-doc: 0

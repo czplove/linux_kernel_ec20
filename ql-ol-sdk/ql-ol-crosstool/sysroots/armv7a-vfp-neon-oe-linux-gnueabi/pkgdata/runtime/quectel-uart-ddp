@@ -1,0 +1,24 @@
+PN: quectel-uart-ddp
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel uart data dispatch
+SUMMARY: quectel-uart-ddp version git-invalidgit-r1
+RDEPENDS_quectel-uart-ddp: glibc (>= 2.21)
+RRECOMMENDS_quectel-uart-ddp:  update-rc.d
+SECTION: base
+PKG_quectel-uart-ddp: quectel-uart-ddp
+FILES_quectel-uart-ddp: /usr/bin/* /usr/sbin/* /usr/lib/quectel-uart-ddp/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-uart-ddp /usr/lib/quectel-uart-ddp/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_quectel-uart-ddp: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT quectel-uart-ddp start 91 2 3 4 5 .\nfi\n
+pkg_postrm_quectel-uart-ddp: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel-uart-ddp remove\nfi\n
+pkg_preinst_quectel-uart-ddp: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/quectel-uart-ddp" ]; then\n\t/etc/init.d/quectel-uart-ddp stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT quectel-uart-ddp remove\nfi\n
+pkg_prerm_quectel-uart-ddp: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/quectel-uart-ddp stop\nfi\n
+FILERPROVIDESFLIST_quectel-uart-ddp: /usr/bin/quectel-uart-ddp
+FILES_INFO: {"/usr/bin/quectel-uart-ddp": 20372, "/etc/init.d/quectel-uart-ddp": 952}
+FILERPROVIDES_/usr/bin/quectel-uart-ddp_quectel-uart-ddp: elf(buildid) (= 752a5a3cade6df47aae1c8814032cee3e1260854)
+FILERDEPENDSFLIST_quectel-uart-ddp: /etc/init.d/quectel-uart-ddp /usr/bin/quectel-uart-ddp
+FILERDEPENDS_/etc/init.d/quectel-uart-ddp_quectel-uart-ddp: /bin/sh
+FILERDEPENDS_/usr/bin/quectel-uart-ddp_quectel-uart-ddp: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_quectel-uart-ddp: 21324

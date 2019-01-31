@@ -1,0 +1,15 @@
+PN: fs-scrub-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_fs-scrub-daemon-dbg: Daemon to perform scrubbing  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_fs-scrub-daemon-dbg: fs-scrub-daemon version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_fs-scrub-daemon-dbg: glib-2.0-dbg qmi-framework-dbg glibc-dbg
+SECTION_fs-scrub-daemon-dbg: devel
+PKG_fs-scrub-daemon-dbg: fs-scrub-daemon-dbg
+ALLOW_EMPTY_fs-scrub-daemon-dbg: 1
+FILES_fs-scrub-daemon-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/fs-scrub-daemon/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/fs-scrub-daemon/.debug /usr/lib/matchbox-panel/.debug /usr/lib/fs-scrub-daemon/fs-scrub-daemon/.debug /usr/src/debug
+FILES_INFO: {"/sbin/.debug/fs-scrub-daemon": 8829}
+PKGSIZE_fs-scrub-daemon-dbg: 8829

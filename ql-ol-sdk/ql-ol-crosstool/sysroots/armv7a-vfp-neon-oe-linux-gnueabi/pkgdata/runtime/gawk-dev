@@ -1,0 +1,16 @@
+PN: gawk
+PV: 4.1.1
+PR: r0
+PKGV: 4.1.1
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gawk-dev: The GNU version of awk, a text processing utility. Awk interprets a special-purpose programming language to do quick and easy text pattern matching and reformatting jobs.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gawk-dev: GNU awk text processing utility - Development files
+RDEPENDS_gawk-dev: gawk (= 4.1.1-r0)
+RRECOMMENDS_gawk-dev: update-alternatives-opkg-dev glibc-dev readline-dev
+SECTION_gawk-dev: devel
+PKG_gawk-dev: gawk-dev
+ALLOW_EMPTY_gawk-dev: 1
+FILES_gawk-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gawk/*.la /lib/*.la /usr/lib/gawk/*.la
+FILES_INFO: {"/usr/include/gawkapi.h": 30909}
+PKGSIZE_gawk-dev: 30909

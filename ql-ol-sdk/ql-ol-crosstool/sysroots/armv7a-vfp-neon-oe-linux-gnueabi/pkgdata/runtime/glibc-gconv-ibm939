@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm939: gconv module for character set ibm939
+SUMMARY_glibc-gconv-ibm939: gconv module for character set ibm939
+RDEPENDS_glibc-gconv-ibm939: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm939: glibc-gconv-ibm939
+FILES_glibc-gconv-ibm939: /usr/lib/gconv/IBM939.so
+FILES_INFO: {"/usr/lib/gconv/IBM939.so": 99748}
+PKGSIZE_glibc-gconv-ibm939: 99748

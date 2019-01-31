@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-time-local: perl module time-local
+SUMMARY_perl-module-time-local: perl module time-local
+RDEPENDS_perl-module-time-local: perl-module-carp perl-module-config perl-module-vars perl perl-module-exporter perl-module-strict perl-module-constant
+SECTION: devel
+PKG_perl-module-time-local: perl-module-time-local
+FILES_perl-module-time-local: /usr/lib/perl/5.20.0/Time/Local.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Time/Local.pm": 12092}
+PKGSIZE_perl-module-time-local: 12092

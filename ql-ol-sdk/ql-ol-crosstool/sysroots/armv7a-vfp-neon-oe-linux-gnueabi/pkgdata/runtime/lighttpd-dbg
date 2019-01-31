@@ -1,0 +1,15 @@
+PN: lighttpd
+PV: 1.4.35
+PR: r1
+PKGV: 1.4.35
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_lighttpd-dbg: Lightweight high-performance web server.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lighttpd-dbg: Lightweight high-performance web server - Debugging files
+RRECOMMENDS_lighttpd-dbg: libpcre-dbg libssl-dbg glibc-dbg zlib-dbg libcrypto-dbg
+SECTION_lighttpd-dbg: devel
+PKG_lighttpd-dbg: lighttpd-dbg
+ALLOW_EMPTY_lighttpd-dbg: 1
+FILES_lighttpd-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lighttpd/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lighttpd/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lighttpd/lighttpd/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/mod_indexfile.so": 4626, "/usr/lib/.debug/mod_fastcgi.so": 8554, "/usr/lib/.debug/mod_cgi.so": 6720, "/usr/lib/.debug/mod_status.so": 7301, "/usr/lib/.debug/mod_simple_vhost.so": 4810, "/usr/lib/.debug/mod_scgi.so": 10036, "/usr/lib/.debug/mod_expire.so": 4846, "/usr/lib/.debug/mod_secdownload.so": 4896, "/usr/lib/.debug/mod_accesslog.so": 5445, "/usr/lib/.debug/mod_extforward.so": 4986, "/usr/lib/.debug/mod_magnet.so": 3777, "/usr/lib/.debug/mod_setenv.so": 4535, "/usr/lib/.debug/mod_auth.so": 6342, "/usr/lib/.debug/mod_proxy.so": 6595, "/usr/lib/.debug/mod_mysql_vhost.so": 3883, "/usr/lib/.debug/mod_alias.so": 4496, "/usr/lib/.debug/mod_rewrite.so": 5177, "/usr/sbin/.debug/lighttpd": 37399, "/usr/lib/.debug/mod_usertrack.so": 4946, "/usr/lib/.debug/mod_access.so": 4395, "/usr/lib/.debug/mod_ssi.so": 7173, "/usr/lib/.debug/mod_redirect.so": 4861, "/usr/lib/.debug/mod_userdir.so": 4889, "/usr/lib/.debug/mod_cml.so": 4854, "/usr/lib/.debug/mod_flv_streaming.so": 4944, "/usr/lib/.debug/mod_compress.so": 10883, "/usr/lib/.debug/mod_webdav.so": 6569, "/usr/lib/.debug/mod_evasive.so": 4357, "/usr/sbin/.debug/lighttpd-angel": 5537, "/usr/lib/.debug/mod_dirlisting.so": 5569, "/usr/lib/.debug/mod_rrdtool.so": 6928, "/usr/lib/.debug/mod_staticfile.so": 5218, "/usr/lib/.debug/mod_trigger_b4_dl.so": 4583, "/usr/lib/.debug/mod_evhost.so": 4874}
+PKGSIZE_lighttpd-dbg: 225004

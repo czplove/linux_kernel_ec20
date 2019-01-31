@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-test-simple: perl module test-simple
+SUMMARY_perl-module-test-simple: perl module test-simple
+RDEPENDS_perl-module-test-simple: perl-module-strict perl-module-test-builder-module perl
+SECTION: devel
+PKG_perl-module-test-simple: perl-module-test-simple
+FILES_perl-module-test-simple: /usr/lib/perl/5.20.0/Test/Simple.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Test/Simple.pm": 6471}
+PKGSIZE_perl-module-test-simple: 6471

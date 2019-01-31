@@ -1,0 +1,124 @@
+---
+cpuinfo:
+  - Family: cpuinfo([x86])
+    Priority:
+      - x86_64
+      - pentium4
+      - pentium3
+      - athlon
+      - pentium2
+      - i686
+      - geode
+      - i586
+      - i486
+      - i386
+      - fat
+
+    Arch:
+      - Name: fat
+
+      - Name: i386
+
+      - Name: i486
+        Extends: i386
+        Features:
+          - cpuinfo(ac)
+
+      - Name: i586
+        Extends: i486
+        Features:
+          - cpuinfo(tsc)
+
+      - Name: geode
+        Alias:
+          - k6-3
+          - k6-2
+        Extends: i586
+        Features:
+          - cpuinfo(3dnow)
+          - cpuinfo(mmx)
+
+      - Name: i686
+        Extends: i586
+        Features:
+          - cpuinfo(cmov)
+
+      - Name: pentium2
+        Extends: i686
+        Features:
+          - cpuinfo(mmx)
+
+      - Name: athlon
+        Extends: pentium2
+        Features:
+          - cpuinfo(3dnowext)
+
+      - Name: pentium3
+        Extends: pentium2
+        Features:
+          - cpuinfo(sse)
+
+      - Name: pentium4
+        Extends: pentium3
+        Features:
+          - cpuinfo(sse2)
+
+      - Name: x86_64
+        Alias:
+          - amd64
+          - ia32e
+        Features:
+          - cpuinfo(64bit)
+
+  - Family: cpuinfo([ppc])
+    Priority:
+      - ppc64
+      - ppc
+      - fat
+
+    Arch:
+      - Name: fat
+
+      - Name: ppc
+
+      - Name: ppc64
+        Extends: ppc
+        Features:
+          - cpuinfo(64bit)
+
+  - Family: cpuinfo([ia64])
+    Priority:
+      - ia64
+
+    Arch:
+      - Name: ia64
+
+  - Family: cpuinfo([mips])
+    Priority:
+      - mips64
+      - mips64el
+      - mips
+      - mipsel
+
+    Arch:
+      - Name: mips
+        Alias:
+          - mipseb
+        Features:
+          - cpuinfo(endian) == big
+
+      - Name: mips64
+        Alias:
+          - mips64eb
+        Extends: mips
+        Features:
+          - cpuinfo(64bit)
+
+      - Name: mipsel
+        Features:
+          - cpuinfo(endian) == little
+
+      - Name: mips64el
+        Extends: mipsel
+        Features:
+          - cpuinfo(64bit)

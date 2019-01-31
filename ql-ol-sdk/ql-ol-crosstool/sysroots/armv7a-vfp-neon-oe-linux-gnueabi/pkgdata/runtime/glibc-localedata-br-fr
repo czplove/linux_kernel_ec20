@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-br-fr: locale definition for br-fr
+SUMMARY_glibc-localedata-br-fr: locale definition for br-fr
+RDEPENDS_glibc-localedata-br-fr: glibc-localedata-iso14651-t1 glibc-localedata-fr-fr glibc-localedata-en-dk
+SECTION: base
+PKG_glibc-localedata-br-fr: glibc-localedata-br-fr
+FILES_glibc-localedata-br-fr: /usr/share/i18n/locales/br_FR
+FILES_INFO: {"/usr/share/i18n/locales/br_FR": 5301}
+PKGSIZE_glibc-localedata-br-fr: 5301

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-so-dj: locale definition for so-dj
+SUMMARY_glibc-localedata-so-dj: locale definition for so-dj
+RDEPENDS_glibc-localedata-so-dj: glibc-localedata-aa-dj glibc-localedata-so-so
+SECTION: base
+PKG_glibc-localedata-so-dj: glibc-localedata-so-dj
+FILES_glibc-localedata-so-dj: /usr/share/i18n/locales/so_DJ
+FILES_INFO: {"/usr/share/i18n/locales/so_DJ": 6813}
+PKGSIZE_glibc-localedata-so-dj: 6813

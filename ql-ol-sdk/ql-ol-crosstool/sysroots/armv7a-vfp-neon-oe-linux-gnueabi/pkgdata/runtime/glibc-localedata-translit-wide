@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-translit-wide: locale definition for translit-wide
+SUMMARY_glibc-localedata-translit-wide: locale definition for translit-wide
+SECTION: base
+PKG_glibc-localedata-translit-wide: glibc-localedata-translit-wide
+FILES_glibc-localedata-translit-wide: /usr/share/i18n/locales/translit_wide
+FILES_INFO: {"/usr/share/i18n/locales/translit_wide": 5030}
+PKGSIZE_glibc-localedata-translit-wide: 5030

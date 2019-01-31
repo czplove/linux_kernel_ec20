@@ -1,0 +1,24 @@
+PN: tftp-server
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: tftp_server server module
+SUMMARY: tftp-server version git-invalidgit-r1
+RDEPENDS_tftp-server: glibc (>= 2.21) glib-2.0 (>= 2.42.1)
+RRECOMMENDS_tftp-server:  update-rc.d
+SECTION: base
+PKG_tftp-server: tftp-server
+FILES_tftp-server: /usr/bin/* /usr/sbin/* /usr/lib/tftp-server/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/tftp-server /usr/lib/tftp-server/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /system /usr
+pkg_postinst_tftp-server:         [ -n "$D" ] && OPT="-r $D" || OPT="-s"\n        # remove all rc.d-links potentially created from alternatives\n        update-rc.d $OPT -f tftp_server.sh remove\n        update-rc.d $OPT tftp_server.sh start 20 2 3 4 5 .\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT tftp_server.sh start 20 2 3 4 5 .\nfi\n
+pkg_postrm_tftp-server: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT tftp_server.sh remove\nfi\n
+pkg_preinst_tftp-server: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/tftp_server.sh" ]; then\n\t/etc/init.d/tftp_server.sh stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT tftp_server.sh remove\nfi\n
+pkg_prerm_tftp-server: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/tftp_server.sh stop\nfi\n
+FILERPROVIDESFLIST_tftp-server: /sbin/tftp@underscore@server
+FILES_INFO: {"/system/rfs/mdm/mpss/hlos": 28, "/system/rfs/msm/mpss/hlos": 28, "/system/rfs/msm/mpss/readwrite": 25, "/system/rfs/msm/adsp/ramdumps": 26, "/system/rfs/mdm/mpss/ramdumps": 26, "/etc/init.d/tftp_server.sh": 580, "/system/rfs/msm/mpss/ramdumps": 26, "/system/rfs/mdm/adsp/readonly/firmware": 9, "/system/rfs/mdm/adsp/ramdumps": 26, "/system/rfs/mdm/adsp/shared": 23, "/system/rfs/msm/adsp/readwrite": 25, "/system/rfs/msm/mpss/shared": 23, "/system/rfs/mdm/mpss/shared": 23, "/system/rfs/mdm/adsp/readwrite": 25, "/system/rfs/mdm/mpss/readwrite": 25, "/system/rfs/mdm/mpss/readonly/firmware": 9, "/system/rfs/mdm/adsp/hlos": 28, "/system/rfs/msm/mpss/readonly/firmware": 9, "/sbin/tftp_server": 58684, "/system/rfs/msm/adsp/shared": 23, "/system/rfs/msm/adsp/readonly/firmware": 9, "/system/rfs/msm/adsp/hlos": 28}
+FILERPROVIDES_/sbin/tftp@underscore@server_tftp-server: elf(buildid) (= e5337917c57b2c405e783cc8bba35f0e83580108)
+FILERDEPENDSFLIST_tftp-server: /etc/init.d/tftp@underscore@server.sh /sbin/tftp@underscore@server
+FILERDEPENDS_/etc/init.d/tftp@underscore@server.sh_tftp-server: /bin/sh
+FILERDEPENDS_/sbin/tftp@underscore@server_tftp-server: libc.so.6 libc.so.6(GLIBC_2.4) libglib-2.0.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_tftp-server: 59708

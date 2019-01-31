@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-mro: perl module mro
+SUMMARY_perl-module-mro: perl module mro
+RDEPENDS_perl-module-mro: perl-module-strict perl-module-warnings perl glibc (>= 2.21) perl-module-xsloader
+SECTION: devel
+PKG_perl-module-mro: perl-module-mro
+FILES_perl-module-mro: /usr/lib/perl/5.20.0/auto/mro/mro.so /usr/lib/perl/5.20.0/mro.pm
+FILERPROVIDESFLIST_perl-module-mro: /usr/lib/perl/5.20.0/auto/mro/mro.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/mro.pm": 10099, "/usr/lib/perl/5.20.0/auto/mro/mro.so": 14468}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/mro/mro.so_perl-module-mro: elf(buildid) (= a884ad52be7156c4c0f996257d9ec7557fdccd83) mro.so
+FILERDEPENDSFLIST_perl-module-mro: /usr/lib/perl/5.20.0/auto/mro/mro.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/mro/mro.so_perl-module-mro: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-mro: 24567

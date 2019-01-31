@@ -1,0 +1,16 @@
+PN: lzo
+PV: 2.09
+PR: r0
+PKGV: 2.09
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_lzo-dbg: Lossless data compression library.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_lzo-dbg: Lossless data compression library - Debugging files
+RPROVIDES_lzo-dbg:  lzo-dbg
+RRECOMMENDS_lzo-dbg: glibc-dbg
+SECTION_lzo-dbg: devel
+PKG_lzo-dbg: liblzo2-dbg
+ALLOW_EMPTY_lzo-dbg: 1
+FILES_lzo-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/lzo/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/lzo/.debug /usr/lib/matchbox-panel/.debug /usr/lib/lzo/lzo/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/liblzo2.so.2.0.0": 13232}
+PKGSIZE_lzo-dbg: 13232

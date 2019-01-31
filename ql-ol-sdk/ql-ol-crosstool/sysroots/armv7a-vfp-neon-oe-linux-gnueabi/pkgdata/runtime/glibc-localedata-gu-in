@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-gu-in: locale definition for gu-in
+SUMMARY_glibc-localedata-gu-in: locale definition for gu-in
+RDEPENDS_glibc-localedata-gu-in: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-hi-in glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-gu-in: glibc-localedata-gu-in
+FILES_glibc-localedata-gu-in: /usr/share/i18n/locales/gu_IN
+FILES_INFO: {"/usr/share/i18n/locales/gu_IN": 6514}
+PKGSIZE_glibc-localedata-gu-in: 6514

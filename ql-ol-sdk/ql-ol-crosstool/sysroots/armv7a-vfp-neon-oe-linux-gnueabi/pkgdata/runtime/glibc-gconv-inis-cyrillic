@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-inis-cyrillic: gconv module for character set inis-cyrillic
+SUMMARY_glibc-gconv-inis-cyrillic: gconv module for character set inis-cyrillic
+RDEPENDS_glibc-gconv-inis-cyrillic: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-inis-cyrillic: glibc-gconv-inis-cyrillic
+FILES_glibc-gconv-inis-cyrillic: /usr/lib/gconv/INIS-CYRILLIC.so
+FILES_INFO: {"/usr/lib/gconv/INIS-CYRILLIC.so": 9592}
+PKGSIZE_glibc-gconv-inis-cyrillic: 9592

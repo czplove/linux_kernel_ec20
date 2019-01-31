@@ -1,0 +1,16 @@
+PN: powerapp
+PV: git
+PR: r9
+PKGV: git
+PKGR: r9
+LICENSE: Apache-2.0
+DESCRIPTION_powerapp-dev: Powerapp tools  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_powerapp-dev: powerapp version git-r9 - Development files
+RDEPENDS_powerapp-dev: powerapp (= git-r9)
+RRECOMMENDS_powerapp-dev: glibc-dev
+SECTION_powerapp-dev: devel
+PKG_powerapp-dev: powerapp-dev
+ALLOW_EMPTY_powerapp-dev: 1
+FILES_powerapp-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/powerapp/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_powerapp-dev: 0

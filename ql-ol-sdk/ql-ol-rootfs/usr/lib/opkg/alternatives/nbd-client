@@ -1,0 +1,2 @@
+/sbin/nbd-client
+/bin/busybox 50

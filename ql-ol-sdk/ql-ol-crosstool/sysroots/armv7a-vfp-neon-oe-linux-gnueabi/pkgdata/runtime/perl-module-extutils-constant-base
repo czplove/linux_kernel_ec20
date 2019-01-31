@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-constant-base: perl module extutils-constant-base
+SUMMARY_perl-module-extutils-constant-base: perl module extutils-constant-base
+RDEPENDS_perl-module-extutils-constant-base: perl-module-carp perl-module-vars perl-module-text-wrap perl perl-module-extutils-constant-utils perl-module-strict perl-module-constant
+SECTION: devel
+PKG_perl-module-extutils-constant-base: perl-module-extutils-constant-base
+FILES_perl-module-extutils-constant-base: /usr/lib/perl/5.20.0/ExtUtils/Constant/Base.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/Constant/Base.pm": 33311}
+PKGSIZE_perl-module-extutils-constant-base: 33311

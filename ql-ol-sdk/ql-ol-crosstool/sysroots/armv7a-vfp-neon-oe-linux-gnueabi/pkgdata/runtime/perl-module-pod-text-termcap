@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-pod-text-termcap: perl module pod-text-termcap
+SUMMARY_perl-module-pod-text-termcap: perl module pod-text-termcap
+RDEPENDS_perl-module-pod-text-termcap: perl-module-vars perl perl-module-term-cap perl-module-pod-text perl-module-posix perl-module-strict
+SECTION: devel
+PKG_perl-module-pod-text-termcap: perl-module-pod-text-termcap
+FILES_perl-module-pod-text-termcap: /usr/lib/perl/5.20.0/Pod/Text/Termcap.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Pod/Text/Termcap.pm": 5979}
+PKGSIZE_perl-module-pod-text-termcap: 5979

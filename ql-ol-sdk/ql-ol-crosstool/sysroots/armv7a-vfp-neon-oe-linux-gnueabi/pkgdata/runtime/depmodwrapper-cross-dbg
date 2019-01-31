@@ -1,0 +1,14 @@
+PN: depmodwrapper-cross
+PV: 1.0
+PR: r0
+PKGV: 1.0
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_depmodwrapper-cross-dbg: Wrapper script for the Linux kernel module dependency indexer.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_depmodwrapper-cross-dbg: Wrapper script for the Linux kernel module dependency indexer - Debugging files
+SECTION_depmodwrapper-cross-dbg: devel
+PKG_depmodwrapper-cross-dbg: depmodwrapper-cross-dbg
+ALLOW_EMPTY_depmodwrapper-cross-dbg: 1
+FILES_depmodwrapper-cross-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/depmodwrapper/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/depmodwrapper/.debug /usr/lib/matchbox-panel/.debug /usr/lib/depmodwrapper/depmodwrapper/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_depmodwrapper-cross-dbg: 0

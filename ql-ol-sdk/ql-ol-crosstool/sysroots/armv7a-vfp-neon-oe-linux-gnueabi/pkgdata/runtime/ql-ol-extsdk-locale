@@ -1,0 +1,13 @@
+PN: ql-ol-extsdk
+PV: git-invalidgit
+PR: r01
+PKGV: git-invalidgit
+PKGR: r01
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel High Data Open API
+SUMMARY: ql-ol-extsdk version git-invalidgit-r01
+SECTION: base
+PKG_ql-ol-extsdk-locale: ql-ol-extsdk-locale
+FILES_ql-ol-extsdk-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ql-ol-extsdk-locale: 0

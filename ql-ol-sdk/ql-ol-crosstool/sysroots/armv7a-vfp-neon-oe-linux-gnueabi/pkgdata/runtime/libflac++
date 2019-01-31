@@ -1,0 +1,19 @@
+PN: flac
+PV: 1.3.1
+PR: r0
+PKGV: 1.3.1
+PKGR: r0
+LICENSE: GFDL-1.2 & GPLv2+ & LGPLv2.1+ & BSD
+DESCRIPTION: FLAC stands for Free Lossless Audio Codec, a lossless audio compression format.
+SUMMARY: Free Lossless Audio Codec
+RDEPENDS_libflac++: libflac (>= 1.3.1) libstdc++ (>= 4.9.2) glibc (>= 2.21) libogg (>= 1.3.0) libgcc (>= 4.9.2)
+RPROVIDES_libflac++:  libflac++
+SECTION: libs
+PKG_libflac++: libflac++6
+FILES_libflac++: /usr/lib/libFLAC++.so.*
+FILERPROVIDESFLIST_libflac++: /usr/lib/libFLAC++.so.6.3.0
+FILES_INFO: {"/usr/lib/libFLAC++.so.6": 78752}
+FILERPROVIDES_/usr/lib/libFLAC++.so.6.3.0_libflac++: elf(buildid) (= cbc590e79da6ae2f4fd996f07fb1852044d13a5b) libFLAC++.so.6
+FILERDEPENDSFLIST_libflac++: /usr/lib/libFLAC++.so.6.3.0
+FILERDEPENDS_/usr/lib/libFLAC++.so.6.3.0_libflac++: libFLAC.so.8 libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.5) libm.so.6 libogg.so.0 libstdc++.so.6 libstdc++.so.6(CXXABI_1.3) libstdc++.so.6(GLIBCXX_3.4) rtld(GNU_HASH)
+PKGSIZE_libflac++: 78752

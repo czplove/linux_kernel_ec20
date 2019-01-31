@@ -1,0 +1,15 @@
+PN: gcc-runtime
+PV: 4.9.2
+PR: r0
+PKGV: 4.9.2
+PKGR: r0
+LICENSE_libgomp-dev: GPLv3
+DESCRIPTION: GNU cc and gcc C compilers.
+SUMMARY: GNU cc and gcc C compilers
+RDEPENDS_libgomp-dev: libgomp
+RRECOMMENDS_libgomp-dev: libgcc-dev glibc-dev
+SECTION: devel
+PKG_libgomp-dev: libgomp-dev
+FILES_libgomp-dev:     /usr/lib/libgomp*.so     /usr/lib/libgomp*.la     /usr/lib/libgomp.spec     /usr/lib/gcc/arm-oe-linux-gnueabi/4.9.2/include/omp.h 
+FILES_INFO: {"/usr/lib/libgomp.spec": 164, "/usr/lib/libgomp.so": 16, "/usr/lib/libgomp.la": 939, "/usr/lib/gcc/arm-oe-linux-gnueabi/4.9.2/include/omp.h": 4327}
+PKGSIZE_libgomp-dev: 5446

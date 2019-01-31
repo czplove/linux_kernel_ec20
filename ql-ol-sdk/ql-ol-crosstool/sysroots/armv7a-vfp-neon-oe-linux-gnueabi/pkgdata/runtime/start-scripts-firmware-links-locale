@@ -1,0 +1,13 @@
+PN: start-scripts-firmware-links
+PV: 1.0
+PR: r5
+PKGV: 1.0
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION: Start up script for firmware links
+SUMMARY: start-scripts-firmware-links version 1.0-r5
+SECTION: base
+PKG_start-scripts-firmware-links-locale: start-scripts-firmware-links-locale
+FILES_start-scripts-firmware-links-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_start-scripts-firmware-links-locale: 0

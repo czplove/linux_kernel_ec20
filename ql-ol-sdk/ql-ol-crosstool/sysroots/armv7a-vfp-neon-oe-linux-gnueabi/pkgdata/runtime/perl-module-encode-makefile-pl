@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-makefile-pl: perl module encode-makefile-pl
+SUMMARY_perl-module-encode-makefile-pl: perl module encode-makefile-pl
+RDEPENDS_perl-module-encode-makefile-pl: perl
+SECTION: devel
+PKG_perl-module-encode-makefile-pl: perl-module-encode-makefile-pl
+FILES_perl-module-encode-makefile-pl: /usr/lib/perl/5.20.0/Encode/Makefile_PL.e2x
+FILES_INFO: {"/usr/lib/perl/5.20.0/Encode/Makefile_PL.e2x": 5168}
+PKGSIZE_perl-module-encode-makefile-pl: 5168

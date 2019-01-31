@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-socket-ip: perl module io-socket-ip
+SUMMARY_perl-module-io-socket-ip: perl module io-socket-ip
+RDEPENDS_perl-module-io-socket-ip: perl-module-carp perl-module-errno perl perl-module-warnings perl-module-socket perl-module-posix perl-module-strict perl-module-constant perl-module-base
+SECTION: devel
+PKG_perl-module-io-socket-ip: perl-module-io-socket-ip
+FILES_perl-module-io-socket-ip: /usr/lib/perl/5.20.0/IO/Socket/IP.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Socket/IP.pm": 34982}
+PKGSIZE_perl-module-io-socket-ip: 34982

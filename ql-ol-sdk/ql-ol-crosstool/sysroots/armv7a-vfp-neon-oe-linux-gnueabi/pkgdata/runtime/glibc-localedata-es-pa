@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-es-pa: locale definition for es-pa
+SUMMARY_glibc-localedata-es-pa: locale definition for es-pa
+RDEPENDS_glibc-localedata-es-pa: glibc-localedata-es-es
+SECTION: base
+PKG_glibc-localedata-es-pa: glibc-localedata-es-pa
+FILES_glibc-localedata-es-pa: /usr/share/i18n/locales/es_PA
+FILES_INFO: {"/usr/share/i18n/locales/es_PA": 4881}
+PKGSIZE_glibc-localedata-es-pa: 4881

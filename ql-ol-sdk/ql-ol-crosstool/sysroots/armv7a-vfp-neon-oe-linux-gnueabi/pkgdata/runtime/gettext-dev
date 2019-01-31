@@ -1,0 +1,16 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-dev: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_gettext-dev: Utilities and libraries for producing multi-lingual messages - Development files
+RDEPENDS_gettext-dev: gettext (= 0.19.4-r0) libgettextlib libgettextsrc
+RRECOMMENDS_gettext-dev: libgettextlib-dev libgettextsrc-dev glibc-dev expat-dev
+SECTION_gettext-dev: devel
+PKG_gettext-dev: gettext-dev
+ALLOW_EMPTY_gettext-dev: 1
+FILES_gettext-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/gettext/*.la /lib/*.la
+FILES_INFO: {"/usr/share/aclocal/size_max.m4": 3064, "/usr/share/aclocal/lib-link.m4": 33059, "/usr/share/aclocal/extern-inline.m4": 4301, "/usr/share/aclocal/gettext.m4": 15245, "/usr/share/aclocal/wchar_t.m4": 818, "/usr/share/aclocal/uintmax_t.m4": 1113, "/usr/lib/libgettextlib.so": 23, "/usr/share/aclocal/longlong.m4": 4739, "/usr/share/aclocal/glibc21.m4": 907, "/usr/share/aclocal/stdint_h.m4": 995, "/usr/share/aclocal/nls.m4": 1229, "/usr/lib/libgettextlib.la": 963, "/usr/share/aclocal/visibility.m4": 3351, "/usr/share/aclocal/po.m4": 18975, "/usr/share/aclocal/printf-posix.m4": 1579, "/usr/share/aclocal/lcmessage.m4": 1371, "/usr/lib/libgettextpo.so": 21, "/usr/share/aclocal/wint_t.m4": 1053, "/usr/share/aclocal/lib-prefix.m4": 8466, "/usr/share/aclocal/xsize.m4": 406, "/usr/share/aclocal/intmax.m4": 1123, "/usr/share/aclocal/fcntl-o.m4": 4668, "/usr/share/aclocal/iconv.m4": 9268, "/usr/share/aclocal/intldir.m4": 923, "/usr/share/aclocal/glibc2.m4": 830, "/usr/share/aclocal/intlmacosx.m4": 2539, "/usr/share/aclocal/progtest.m4": 3104, "/usr/include/gettext-po.h": 15523, "/usr/share/aclocal/lock.m4": 1463, "/usr/share/aclocal/intl.m4": 11939, "/usr/lib/libgettextpo.la": 949, "/usr/lib/libgettextsrc.so": 23, "/usr/share/aclocal/intdiv0.m4": 2410, "/usr/share/aclocal/threadlib.m4": 15151, "/usr/lib/libgettextsrc.la": 994, "/usr/share/aclocal/codeset.m4": 832, "/usr/share/aclocal/inttypes_h.m4": 1020, "/usr/share/aclocal/inttypes-pri.m4": 1253, "/usr/share/aclocal/lib-ld.m4": 3683}
+PKGSIZE_gettext-dev: 179373

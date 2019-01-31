@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-id: Locale data from glibc.  This package contains language translation files for the id locale.
+SUMMARY_glibc-locale-id: Locale data from glibc - id translations
+RPROVIDES_glibc-locale-id: glibc-locale id-translation
+RRECOMMENDS_glibc-locale-id: virtual-locale-id
+SECTION: base
+PKG_glibc-locale-id: glibc-locale-id
+FILES_glibc-locale-id: /usr/share/locale/id
+FILES_INFO: {"/usr/share/locale/id/LC_MESSAGES/libc.mo": 128040}
+PKGSIZE_glibc-locale-id: 128040

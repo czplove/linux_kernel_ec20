@@ -1,0 +1,13 @@
+PN: audio-ftm
+PV: git-invalidgit
+PR: r4
+PKGV: git-invalidgit
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audio-ftm-doc: Audio FTM  This package contains documentation.
+SUMMARY_audio-ftm-doc: audio-ftm version git-invalidgit-r4 - Documentation files
+SECTION_audio-ftm-doc: doc
+PKG_audio-ftm-doc: audio-ftm-doc
+FILES_audio-ftm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_audio-ftm-doc: 0

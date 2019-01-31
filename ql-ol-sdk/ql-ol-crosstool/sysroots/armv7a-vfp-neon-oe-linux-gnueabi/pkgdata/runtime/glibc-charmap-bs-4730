@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-bs-4730: character map for bs-4730 encoding
+SUMMARY_glibc-charmap-bs-4730: character map for bs-4730 encoding
+SECTION: base
+PKG_glibc-charmap-bs-4730: glibc-charmap-bs-4730
+FILES_glibc-charmap-bs-4730: /usr/share/i18n/charmaps/BS_4730.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/BS_4730.gz": 1592}
+PKGSIZE_glibc-charmap-bs-4730: 1592

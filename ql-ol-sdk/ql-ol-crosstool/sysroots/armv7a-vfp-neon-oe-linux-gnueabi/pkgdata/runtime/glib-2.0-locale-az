@@ -1,0 +1,17 @@
+PN: glib-2.0
+PE: 1
+PV: 2.42.1
+PR: r0
+PKGE: 1
+PKGV: 2.42.1
+PKGR: r0
+LICENSE: LGPLv2+ & BSD & PD
+DESCRIPTION_glib-2.0-locale-az: GLib is a general-purpose utility library, which provides many useful data types, macros, type conversions, string utilities, file utilities, a main loop abstraction, and so on.  This package contains language translation files for the az locale.
+SUMMARY_glib-2.0-locale-az: A general-purpose utility library - az translations
+RPROVIDES_glib-2.0-locale-az: glib-2.0-locale az-translation glib-2.0-locale-az
+RRECOMMENDS_glib-2.0-locale-az: virtual-locale-az
+SECTION: libs
+PKG_glib-2.0-locale-az: libglib-2.0-locale-az
+FILES_glib-2.0-locale-az: /usr/share/locale/az
+FILES_INFO: {"/usr/share/locale/az/LC_MESSAGES/glib20.mo": 12743}
+PKGSIZE_glib-2.0-locale-az: 12743

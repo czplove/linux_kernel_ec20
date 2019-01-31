@@ -1,0 +1,15 @@
+PN: libjpeg-turbo
+PV: 1.2.1
+PR: r2
+PKGV: 1.2.1
+PKGR: r2
+LICENSE: GPLv2
+DESCRIPTION_libjpeg-turbo-staticdev: Accelerates basline JPEG compression and decompression..  This package contains static libraries for software development.
+SUMMARY_libjpeg-turbo-staticdev: Accelerates basline JPEG compression and decompression. - Development files (Static Libraries)
+RDEPENDS_libjpeg-turbo-staticdev: libjpeg-turbo-dev (= 1.2.1-r2)
+RPROVIDES_libjpeg-turbo-staticdev:  libjpeg-turbo-staticdev
+SECTION_libjpeg-turbo-staticdev: devel
+PKG_libjpeg-turbo-staticdev: libjpeg-staticdev
+FILES_libjpeg-turbo-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libjpeg-turbo/*.a
+FILES_INFO: {"/usr/lib/libjpeg.a": 256442, "/usr/lib/libturbojpeg.a": 295002}
+PKGSIZE_libjpeg-turbo-staticdev: 551444

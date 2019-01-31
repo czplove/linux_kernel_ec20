@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-cp949: character map for cp949 encoding
+SUMMARY_glibc-charmap-cp949: character map for cp949 encoding
+SECTION: base
+PKG_glibc-charmap-cp949: glibc-charmap-cp949
+FILES_glibc-charmap-cp949: /usr/share/i18n/charmaps/CP949.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/CP949.gz": 129053}
+PKGSIZE_glibc-charmap-cp949: 129053

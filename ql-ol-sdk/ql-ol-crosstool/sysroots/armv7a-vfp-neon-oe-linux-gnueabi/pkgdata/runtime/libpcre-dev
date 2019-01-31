@@ -1,0 +1,18 @@
+PN: libpcre
+PV: 8.36
+PR: r0
+PKGV: 8.36
+PKGR: r0
+LICENSE: BSD
+DESCRIPTION_libpcre-dev: The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_libpcre-dev: Perl Compatible Regular Expressions - Development files
+RDEPENDS_libpcre-dev: libpcre (= 8.36-r0) libpcrecpp libpcreposix
+RRECOMMENDS_libpcre-dev: glibc-dev zlib-dev libstdc++-dev libpcrecpp-dev libgcc-dev libpcreposix-dev bzip2-dev
+SECTION_libpcre-dev: devel
+PKG_libpcre-dev: libpcre-dev
+ALLOW_EMPTY_libpcre-dev: 1
+FILES_libpcre-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/libpcre/*.la /lib/*.la /usr/bin/*-config
+FILES_INFO: {"/usr/lib/libpcreposix.so": 21, "/usr/lib/libpcre.la": 910, "/usr/include/pcrecpp.h": 26529, "/usr/include/pcre_scanner.h": 6600, "/usr/lib/pkgconfig/libpcre.pc": 281, "/usr/include/pcrecpparg.h": 6783, "/usr/include/pcre.h": 31706, "/usr/include/pcre_stringpiece.h": 6312, "/usr/lib/libpcrecpp.la": 975, "/usr/lib/pkgconfig/libpcreposix.pc": 285, "/usr/include/pcreposix.h": 5631, "/usr/lib/pkgconfig/libpcrecpp.pc": 243, "/usr/lib/libpcre.so": 16, "/usr/lib/libpcrecpp.so": 19, "/usr/bin/pcre-config": 68, "/usr/lib/libpcreposix.la": 966}
+FILERDEPENDSFLIST_libpcre-dev: /usr/bin/pcre-config
+FILERDEPENDS_/usr/bin/pcre-config_libpcre-dev: /bin/sh
+PKGSIZE_libpcre-dev: 87345

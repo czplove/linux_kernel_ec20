@@ -1,0 +1,15 @@
+PN: system-conf
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: ISC
+DESCRIPTION: Device specific config
+SUMMARY: system-conf version git-r3
+SECTION: base
+PKG_system-conf: system-conf
+FILES_system-conf: /usr/bin/* /usr/sbin/* /usr/lib/system-conf/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/system-conf /usr/lib/system-conf/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /lib/firmware/wlan/qca_cld/*
+FILES_INFO: {"/etc/cld-hostapd-wlan0.sh": 1912, "/etc/sta_mode_hostapd.conf": 66890, "/lib/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini": 13745, "/etc/sysctl.conf": 306, "/etc/wpa_supplicant.conf": 102, "/etc/hostapd-factory.conf": 66889, "/etc/hostapd-wlan1.conf": 66892, "/etc/cld-hostapd-wlan1.sh": 1912, "/etc/init.d/wlan": 6099, "/etc/hostapd.conf": 66889}
+FILERDEPENDSFLIST_system-conf: /etc/init.d/wlan
+FILERDEPENDS_/etc/init.d/wlan_system-conf: /bin/sh
+PKGSIZE_system-conf: 291636

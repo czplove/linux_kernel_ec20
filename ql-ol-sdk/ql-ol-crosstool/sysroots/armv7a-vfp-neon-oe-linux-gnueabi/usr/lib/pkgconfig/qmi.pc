@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: qmi
+Description: QMI library
+Version: 1.0.0
+Libs: -L${libdir} -lqmi_client_qmux -lqmi -lqmiidl -lqmiservices
+Cflags: -I${includedir}/qmi

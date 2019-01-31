@@ -1,0 +1,14 @@
+PN: qmi-simple-ril
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-simple-ril-staticdev: QMI Test application  This package contains static libraries for software development.
+SUMMARY_qmi-simple-ril-staticdev: qmi-simple-ril version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_qmi-simple-ril-staticdev: qmi-simple-ril-dev (= git-invalidgit-r1)
+SECTION_qmi-simple-ril-staticdev: devel
+PKG_qmi-simple-ril-staticdev: qmi-simple-ril-staticdev
+FILES_qmi-simple-ril-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/qmi-simple-ril/*.a
+FILES_INFO: {}
+PKGSIZE_qmi-simple-ril-staticdev: 0

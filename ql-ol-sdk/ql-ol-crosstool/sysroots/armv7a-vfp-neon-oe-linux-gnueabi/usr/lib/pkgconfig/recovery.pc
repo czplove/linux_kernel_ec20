@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: recovery
+Description: recovery services package
+Version: 1.0.0
+libs: -L${libdir} -lretouch
+Cflags: -I${includedir}/recovery

@@ -1,0 +1,20 @@
+PN: start-scripts-mssboot
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Start up script for mssboot
+SUMMARY: start-scripts-mssboot version git-invalidgit-r2
+RRECOMMENDS_start-scripts-mssboot:  update-rc.d
+SECTION: base
+PKG_start-scripts-mssboot: start-scripts-mssboot
+FILES_start-scripts-mssboot: /usr/bin/* /usr/sbin/* /usr/lib/start-scripts-mssboot/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/start-scripts-mssboot /usr/lib/start-scripts-mssboot/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_start-scripts-mssboot: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT mssboot start 30 5 .\nfi\n
+pkg_postrm_start-scripts-mssboot: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT mssboot remove\nfi\n
+pkg_preinst_start-scripts-mssboot: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/mssboot" ]; then\n\t/etc/init.d/mssboot stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT mssboot remove\nfi\n
+pkg_prerm_start-scripts-mssboot: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/mssboot stop\nfi\n
+FILES_INFO: {"/etc/init.d/mssboot": 1278}
+FILERDEPENDSFLIST_start-scripts-mssboot: /etc/init.d/mssboot
+FILERDEPENDS_/etc/init.d/mssboot_start-scripts-mssboot: /bin/sh
+PKGSIZE_start-scripts-mssboot: 1278

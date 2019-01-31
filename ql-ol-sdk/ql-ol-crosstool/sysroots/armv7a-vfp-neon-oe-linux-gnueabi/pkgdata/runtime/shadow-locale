@@ -1,0 +1,13 @@
+PN: shadow
+PV: 4.2.1
+PR: r0
+PKGV: 4.2.1
+PKGR: r0
+LICENSE: BSD | Artistic-1.0
+DESCRIPTION: Tools to change and administer password and group data.
+SUMMARY: Tools to change and administer password and group data
+SECTION: base/utils
+PKG_shadow-locale: shadow-locale
+FILES_shadow-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_shadow-locale: 0

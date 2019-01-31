@@ -1,0 +1,16 @@
+PN: iputils
+PV: s20101006
+PR: r6
+PKGV: s20101006
+PKGR: r6
+LICENSE: BSD & GPLv2+
+DESCRIPTION_iputils-dev: Utilities for the IP protocol, including traceroute6, tracepath, tracepath6, ping, ping6 and arping.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_iputils-dev: Network monitoring tools - Development files
+RDEPENDS_iputils-dev: iputils (= s20101006-r6)
+RRECOMMENDS_iputils-dev: iputils-ping-dev glibc-dev openssl-dev libcrypto-dev update-alternatives-opkg-dev iputils-ping6-dev
+SECTION_iputils-dev: devel
+PKG_iputils-dev: iputils-dev
+ALLOW_EMPTY_iputils-dev: 1
+FILES_iputils-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/iputils/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_iputils-dev: 0

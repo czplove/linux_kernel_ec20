@@ -1,0 +1,16 @@
+PN: iw
+PV: 3.6
+PR: r1
+PKGV: 3.6
+PKGR: r1
+LICENSE: BSD
+DESCRIPTION_iw-dev: iw is a new nl80211 based CLI configuration utility for                wireless devices. It supports almost all new drivers that have been added                to the kernel recently.   This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_iw-dev: nl80211 based CLI configuration utility for wireless devices - Development files
+RDEPENDS_iw-dev: iw (= 3.6-r1)
+RRECOMMENDS_iw-dev: glibc-dev libnl-genl-dev pkgconfig-dev libnl-dev
+SECTION_iw-dev: devel
+PKG_iw-dev: iw-dev
+ALLOW_EMPTY_iw-dev: 1
+FILES_iw-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/iw/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_iw-dev: 0

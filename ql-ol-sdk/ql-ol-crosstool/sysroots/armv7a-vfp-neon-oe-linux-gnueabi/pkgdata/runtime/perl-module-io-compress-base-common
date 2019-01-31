@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-compress-base-common: perl module io-compress-base-common
+SUMMARY_perl-module-io-compress-base-common: perl module io-compress-base-common
+RDEPENDS_perl-module-io-compress-base-common: perl-module-file-globmapper perl-module-carp perl-module-encode perl-module-warnings perl perl-module-scalar-util perl-module-exporter perl-module-bytes perl-module-utf8 perl-module-strict perl-module-constant
+SECTION: devel
+PKG_perl-module-io-compress-base-common: perl-module-io-compress-base-common
+FILES_perl-module-io-compress-base-common: /usr/lib/perl/5.20.0/IO/Compress/Base/Common.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Compress/Base/Common.pm": 23099}
+PKGSIZE_perl-module-io-compress-base-common: 23099

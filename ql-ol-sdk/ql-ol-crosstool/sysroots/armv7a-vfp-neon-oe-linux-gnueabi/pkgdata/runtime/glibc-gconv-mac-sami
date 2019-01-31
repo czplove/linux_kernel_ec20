@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-mac-sami: gconv module for character set mac-sami
+SUMMARY_glibc-gconv-mac-sami: gconv module for character set mac-sami
+RDEPENDS_glibc-gconv-mac-sami: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-mac-sami: glibc-gconv-mac-sami
+FILES_glibc-gconv-mac-sami: /usr/lib/gconv/MAC-SAMI.so
+FILES_INFO: {"/usr/lib/gconv/MAC-SAMI.so": 9584}
+PKGSIZE_glibc-gconv-mac-sami: 9584

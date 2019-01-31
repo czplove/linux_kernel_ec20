@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-unm-us: locale definition for unm-us
+SUMMARY_glibc-localedata-unm-us: locale definition for unm-us
+RDEPENDS_glibc-localedata-unm-us: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-en-us glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-unm-us: glibc-localedata-unm-us
+FILES_glibc-localedata-unm-us: /usr/share/i18n/locales/unm_US
+FILES_INFO: {"/usr/share/i18n/locales/unm_US": 5466}
+PKGSIZE_glibc-localedata-unm-us: 5466

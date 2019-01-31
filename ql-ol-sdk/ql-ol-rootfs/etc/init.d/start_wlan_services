@@ -1,0 +1,59 @@
+#!/bin/sh
+#
+# Copyright (c) 2014 Qualcomm Technologies, Inc.  All Rights Reserved.
+# Qualcomm Technologies Proprietary and Confidential.
+#
+# Starts the wlan_services daemon
+#
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+
+SSR_SUBSYS_PATH=/sys/bus/msm_subsys/devices
+SSR_SUBSYS=`ls -d $SSR_SUBSYS_PATH/subsys*`
+SSR_CLD_SUBSYS_NAME=AR6320
+SSR_RESTART_LEVEL=system
+
+do_config_ssr() {
+    if [ -s /etc/wlan_services.conf ];
+    then
+        SSR_RESTART_LEVEL=`cat /etc/wlan_services.conf`
+    fi
+
+    for dir in $SSR_SUBSYS
+    do
+        if [ `cat $dir/name` == "$SSR_CLD_SUBSYS_NAME" ];
+        then
+            echo Setting restart level: $SSR_RESTART_LEVEL
+            echo -n $SSR_RESTART_LEVEL > $dir/restart_level
+        fi
+    done
+}
+
+case "$1" in
+    start)
+        echo "Starting wlan_services... $@"
+        do_config_ssr
+        if [ -e /tmp/wlan_services.log ];
+        then
+            echo "Starting wlan_services..." >> /tmp/wlan_services.log
+            start-stop-daemon -S -a wlan_services -- -d -f /tmp/wlan_services.log
+        else
+            start-stop-daemon -S -a wlan_services
+        fi
+        echo "done"
+        ;;
+    stop)
+        echo -n "Stopping wlan_services: "
+        start-stop-daemon -K -n wlan_services
+        echo "done"
+        ;;
+    restart)
+        $0 stop
+        $0 start
+        ;;
+    *)
+        echo "Usage: wlan_services { start | stop | restart }" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

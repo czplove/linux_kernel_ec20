@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-be-by+latin: locale definition for be-by+latin
+SUMMARY_glibc-localedata-be-by+latin: locale definition for be-by+latin
+RDEPENDS_glibc-localedata-be-by+latin: glibc-localedata-be-by glibc-localedata-iso14651-t1 glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-be-by+latin: glibc-localedata-be-by+latin
+FILES_glibc-localedata-be-by+latin: /usr/share/i18n/locales/be_BY@latin
+FILES_INFO: {"/usr/share/i18n/locales/be_BY@latin": 5087}
+PKGSIZE_glibc-localedata-be-by+latin: 5087

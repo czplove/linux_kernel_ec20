@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-devel-selfstubber: perl module devel-selfstubber
+SUMMARY_perl-module-devel-selfstubber: perl module devel-selfstubber
+RDEPENDS_perl-module-devel-selfstubber: perl-module-selfloader perl-module-file-spec perl
+SECTION: devel
+PKG_perl-module-devel-selfstubber: perl-module-devel-selfstubber
+FILES_perl-module-devel-selfstubber: /usr/lib/perl/5.20.0/Devel/SelfStubber.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Devel/SelfStubber.pm": 4904}
+PKGSIZE_perl-module-devel-selfstubber: 4904

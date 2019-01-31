@@ -1,0 +1,20 @@
+PN: gdb
+PV: 7.8.1
+PR: r0
+PKGV: 7.8.1
+PKGR: r0
+LICENSE: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+DESCRIPTION: GNU debugger.
+SUMMARY: GNU debugger
+RDEPENDS_gdb: readline (>= 5.2) zlib (>= 1.2.8) ncurses-libtinfo (>= 5.9) glibc (>= 2.21) expat (>= 2.1.0)
+RRECOMMENDS_gdb:  glibc-thread-db 
+SECTION: devel
+PKG_gdb: gdb
+FILES_gdb: /usr/bin/* /usr/sbin/* /usr/lib/gdb/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/gdb /usr/lib/gdb/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_gdb: /usr/bin/gdb
+FILES_INFO: {"/usr/share/gdb/syscalls/arm-linux.xml": 17112, "/usr/share/gdb/syscalls/mips-o32-linux.xml": 14861, "/usr/share/gdb/syscalls/mips-n32-linux.xml": 13710, "/usr/share/gdb/syscalls/mips-n64-linux.xml": 13399, "/usr/share/gdb/syscalls/s390-linux.xml": 13846, "/usr/share/gdb/syscalls/ppc64-linux.xml": 12213, "/usr/share/gdb/system-gdbinit/elinos.py": 3080, "/usr/share/gdb/syscalls/sparc64-linux.xml": 13647, "/usr/bin/gcore": 2945, "/usr/share/gdb/syscalls/gdb-syscalls.dtd": 455, "/usr/share/gdb/syscalls/ppc-linux.xml": 12844, "/usr/share/gdb/system-gdbinit/wrs-linux.py": 1005, "/usr/share/gdb/syscalls/s390x-linux.xml": 12450, "/usr/share/gdb/syscalls/amd64-linux.xml": 13059, "/usr/bin/gdb": 3434764, "/usr/share/gdb/syscalls/sparc-linux.xml": 14396, "/usr/share/gdb/syscalls/i386-linux.xml": 14143}
+FILERPROVIDES_/usr/bin/gdb_gdb: elf(buildid) (= 987528a5b6936af3f55fda78172827bc7682b2c0)
+FILERDEPENDSFLIST_gdb: /usr/bin/gcore /usr/bin/gdb
+FILERDEPENDS_/usr/bin/gcore_gdb: /bin/sh
+FILERDEPENDS_/usr/bin/gdb_gdb: libc.so.6 libc.so.6(GLIBC_2.11) libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libc.so.6(GLIBC_2.9) libdl.so.2 libdl.so.2(GLIBC_2.4) libexpat.so.1 libm.so.6 libm.so.6(GLIBC_2.4) libreadline.so.5 libtinfo.so.5 libz.so.1 libz.so.1(ZLIB_1.2.0) rtld(GNU_HASH)
+PKGSIZE_gdb: 3607929

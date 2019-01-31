@@ -1,0 +1,18 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION: The GNU C Library is used as the system C library in most systems with the Linux kernel.
+SUMMARY: GLIBC (GNU C Library)
+RDEPENDS_libsegfault: glibc (>= 2.21)
+SECTION: libs
+PKG_libsegfault: libsegfault
+FILES_libsegfault: /lib/libSegFault*
+FILERPROVIDESFLIST_libsegfault: /lib/libSegFault.so
+FILES_INFO: {"/lib/libSegFault.so": 9656}
+FILERPROVIDES_/lib/libSegFault.so_libsegfault: libSegFault.so
+FILERDEPENDSFLIST_libsegfault: /lib/libSegFault.so
+FILERDEPENDS_/lib/libSegFault.so_libsegfault: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_PRIVATE)
+PKGSIZE_libsegfault: 9656

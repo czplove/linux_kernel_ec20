@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-dec-mcs: character map for dec-mcs encoding
+SUMMARY_glibc-charmap-dec-mcs: character map for dec-mcs encoding
+SECTION: base
+PKG_glibc-charmap-dec-mcs: glibc-charmap-dec-mcs
+FILES_glibc-charmap-dec-mcs: /usr/share/i18n/charmaps/DEC-MCS.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/DEC-MCS.gz": 2948}
+PKGSIZE_glibc-charmap-dec-mcs: 2948

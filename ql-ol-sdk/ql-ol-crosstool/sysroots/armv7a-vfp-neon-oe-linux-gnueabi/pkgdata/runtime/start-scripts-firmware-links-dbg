@@ -1,0 +1,14 @@
+PN: start-scripts-firmware-links
+PV: 1.0
+PR: r5
+PKGV: 1.0
+PKGR: r5
+LICENSE: BSD
+DESCRIPTION_start-scripts-firmware-links-dbg: Start up script for firmware links  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_start-scripts-firmware-links-dbg: start-scripts-firmware-links version 1.0-r5 - Debugging files
+SECTION_start-scripts-firmware-links-dbg: devel
+PKG_start-scripts-firmware-links-dbg: start-scripts-firmware-links-dbg
+ALLOW_EMPTY_start-scripts-firmware-links-dbg: 1
+FILES_start-scripts-firmware-links-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/start-scripts-firmware-links/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/start-scripts-firmware-links/.debug /usr/lib/matchbox-panel/.debug /usr/lib/start-scripts-firmware-links/start-scripts-firmware-links/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_start-scripts-firmware-links-dbg: 0

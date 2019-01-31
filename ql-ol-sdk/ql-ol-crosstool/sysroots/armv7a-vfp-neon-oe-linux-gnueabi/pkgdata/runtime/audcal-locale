@@ -1,0 +1,14 @@
+PN: audcal
+PV: git-invalidgit
+PR: r11
+PKGV: git-invalidgit
+PKGR: r11
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Audio Calibration Library
+SUMMARY: audcal version git-invalidgit-r11
+RPROVIDES_audcal-locale:  audcal-locale
+SECTION: base
+PKG_audcal-locale: libaudcal-locale
+FILES_audcal-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_audcal-locale: 0

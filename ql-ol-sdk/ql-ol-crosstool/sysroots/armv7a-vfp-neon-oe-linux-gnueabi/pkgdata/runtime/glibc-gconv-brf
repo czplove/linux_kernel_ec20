@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-brf: gconv module for character set brf
+SUMMARY_glibc-gconv-brf: gconv module for character set brf
+RDEPENDS_glibc-gconv-brf: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-brf: glibc-gconv-brf
+FILES_glibc-gconv-brf: /usr/lib/gconv/BRF.so
+FILES_INFO: {"/usr/lib/gconv/BRF.so": 9580}
+PKGSIZE_glibc-gconv-brf: 9580

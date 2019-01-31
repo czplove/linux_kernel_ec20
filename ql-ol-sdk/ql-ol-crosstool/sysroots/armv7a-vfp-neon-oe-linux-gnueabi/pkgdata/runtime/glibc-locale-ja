@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-ja: Locale data from glibc.  This package contains language translation files for the ja locale.
+SUMMARY_glibc-locale-ja: Locale data from glibc - ja translations
+RPROVIDES_glibc-locale-ja: glibc-locale ja-translation
+RRECOMMENDS_glibc-locale-ja: virtual-locale-ja
+SECTION: base
+PKG_glibc-locale-ja: glibc-locale-ja
+FILES_glibc-locale-ja: /usr/share/locale/ja
+FILES_INFO: {"/usr/share/locale/ja/LC_MESSAGES/libc.mo": 153848}
+PKGSIZE_glibc-locale-ja: 153848

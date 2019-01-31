@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-rw: Locale data from glibc.  This package contains language translation files for the rw locale.
+SUMMARY_glibc-locale-rw: Locale data from glibc - rw translations
+RPROVIDES_glibc-locale-rw: glibc-locale rw-translation
+RRECOMMENDS_glibc-locale-rw: virtual-locale-rw
+SECTION: base
+PKG_glibc-locale-rw: glibc-locale-rw
+FILES_glibc-locale-rw: /usr/share/locale/rw
+FILES_INFO: {"/usr/share/locale/rw/LC_MESSAGES/libc.mo": 1026}
+PKGSIZE_glibc-locale-rw: 1026

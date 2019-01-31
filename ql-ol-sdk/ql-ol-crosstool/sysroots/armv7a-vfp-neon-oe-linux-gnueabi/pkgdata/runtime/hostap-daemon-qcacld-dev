@@ -1,0 +1,16 @@
+PN: hostap-daemon-qcacld
+PV: git
+PR: r4.2
+PKGV: git
+PKGR: r4.2
+LICENSE: BSD
+DESCRIPTION_hostap-daemon-qcacld-dev: Hostap Daemon  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_hostap-daemon-qcacld-dev: hostap-daemon-qcacld version git-r4.2 - Development files
+RDEPENDS_hostap-daemon-qcacld-dev: hostap-daemon-qcacld (= git-r4.2)
+RRECOMMENDS_hostap-daemon-qcacld-dev: glibc-dev libnl-genl-dev openssl-dev libnl-dev libcrypto-dev
+SECTION_hostap-daemon-qcacld-dev: devel
+PKG_hostap-daemon-qcacld-dev: hostap-daemon-qcacld-dev
+ALLOW_EMPTY_hostap-daemon-qcacld-dev: 1
+FILES_hostap-daemon-qcacld-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/hostap-daemon-qcacld/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_hostap-daemon-qcacld-dev: 0

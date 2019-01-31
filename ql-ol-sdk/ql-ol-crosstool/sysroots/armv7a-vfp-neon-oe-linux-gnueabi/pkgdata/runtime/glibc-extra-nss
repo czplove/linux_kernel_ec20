@@ -1,0 +1,25 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-extra-nss: glibc: nis, nisplus and hesiod search services.
+SUMMARY_glibc-extra-nss: hesiod, NIS and NIS+ nss libraries
+RDEPENDS_glibc-extra-nss: glibc (>= 2.21)
+RPROVIDES_glibc-extra-nss: eglibc-extra-nss glibc-extra-nss
+SECTION: libs
+PKG_glibc-extra-nss: libc6-extra-nss
+FILES_glibc-extra-nss: /lib/libnss_*-*.so /lib/libnss_*.so.*
+FILERPROVIDESFLIST_glibc-extra-nss: /lib/libnss@underscore@db-2.21.so /lib/libnss@underscore@hesiod-2.21.so /lib/libnss@underscore@nis-2.21.so /lib/libnss@underscore@nisplus-2.21.so
+FILES_INFO: {"/lib/libnss_nisplus.so.2": 50788, "/lib/libnss_db.so.2": 5576, "/lib/libnss_nis.so.2": 38512, "/lib/libnss_hesiod.so.2": 17956}
+FILERPROVIDES_/lib/libnss@underscore@db-2.21.so_glibc-extra-nss: libnss_db.so.2 libnss_db.so.2(GLIBC_PRIVATE)
+FILERPROVIDES_/lib/libnss@underscore@hesiod-2.21.so_glibc-extra-nss: libnss_hesiod.so.2 libnss_hesiod.so.2(GLIBC_PRIVATE)
+FILERPROVIDES_/lib/libnss@underscore@nis-2.21.so_glibc-extra-nss: libnss_nis.so.2 libnss_nis.so.2(GLIBC_PRIVATE)
+FILERPROVIDES_/lib/libnss@underscore@nisplus-2.21.so_glibc-extra-nss: libnss_nisplus.so.2 libnss_nisplus.so.2(GLIBC_PRIVATE)
+FILERDEPENDSFLIST_glibc-extra-nss: /lib/libnss@underscore@db-2.21.so /lib/libnss@underscore@hesiod-2.21.so /lib/libnss@underscore@nis-2.21.so /lib/libnss@underscore@nisplus-2.21.so
+FILERDEPENDS_/lib/libnss@underscore@db-2.21.so_glibc-extra-nss: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_PRIVATE) libnss_files.so.2
+FILERDEPENDS_/lib/libnss@underscore@hesiod-2.21.so_glibc-extra-nss: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_PRIVATE) libnss_files.so.2 libresolv.so.2 libresolv.so.2(GLIBC_2.4) libresolv.so.2(GLIBC_2.9)
+FILERDEPENDS_/lib/libnss@underscore@nis-2.21.so_glibc-extra-nss: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_PRIVATE) libnsl.so.1 libnsl.so.1(GLIBC_2.4) libnsl.so.1(GLIBC_PRIVATE) libnss_files.so.2 libnss_files.so.2(GLIBC_PRIVATE)
+FILERDEPENDS_/lib/libnss@underscore@nisplus-2.21.so_glibc-extra-nss: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_PRIVATE) libnsl.so.1 libnsl.so.1(GLIBC_2.4) libnsl.so.1(GLIBC_PRIVATE)
+PKGSIZE_glibc-extra-nss: 112832

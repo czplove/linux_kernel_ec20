@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-io-uncompress-adapter-inflate: perl module io-uncompress-adapter-inflate
+SUMMARY_perl-module-io-uncompress-adapter-inflate: perl module io-uncompress-adapter-inflate
+RDEPENDS_perl-module-io-uncompress-adapter-inflate: perl-module-strict perl-module-io-compress-base-common perl-module-warnings perl perl-module-compress-raw-zlib
+SECTION: devel
+PKG_perl-module-io-uncompress-adapter-inflate: perl-module-io-uncompress-adapter-inflate
+FILES_perl-module-io-uncompress-adapter-inflate: /usr/lib/perl/5.20.0/IO/Uncompress/Adapter/Inflate.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/IO/Uncompress/Adapter/Inflate.pm": 3280}
+PKGSIZE_perl-module-io-uncompress-adapter-inflate: 3280

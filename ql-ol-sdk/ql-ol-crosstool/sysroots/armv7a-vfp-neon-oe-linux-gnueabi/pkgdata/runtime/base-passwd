@@ -1,0 +1,15 @@
+PN: base-passwd
+PV: 3.5.29
+PR: r1
+PKGV: 3.5.29
+PKGR: r1
+LICENSE: GPLv2+
+DESCRIPTION: The master copies of the user database files (/etc/passwd and /etc/group).  The update-passwd tool is also provided to keep the system databases synchronized with these master files.
+SUMMARY: Base system master password/group files
+SECTION: base
+PKG_base-passwd: base-passwd
+ALLOW_EMPTY_base-passwd: 1
+FILES_base-passwd: /usr/bin/* /usr/sbin/* /usr/lib/base-passwd/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/base-passwd /usr/lib/base-passwd/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_preinst_base-passwd: #!/bin/sh\nmkdir -p $D/etc\nif [ ! -e $D/etc/passwd ]; then\n\tcat << \'EOF\' > $D/etc/passwd\nroot:$1$EAIaRTnR$Tj08fKYyUKimBBPqug2w9.:0:0:root:/home/root:/bin/sh\ndaemon:*:1:1:daemon:/usr/sbin:/bin/sh\nbin:*:2:2:bin:/bin:/bin/sh\nsys:*:3:3:sys:/dev:/bin/sh\nsync:*:4:65534:sync:/bin:/bin/sync\ngames:*:5:60:games:/usr/games:/bin/sh\nman:*:6:12:man:/var/cache/man:/bin/sh\nlp:*:7:7:lp:/var/spool/lpd:/bin/sh\nmail:*:8:8:mail:/var/mail:/bin/sh\nnews:*:9:9:news:/var/spool/news:/bin/sh\nuucp:*:10:10:uucp:/var/spool/uucp:/bin/sh\nproxy:*:13:13:proxy:/bin:/bin/sh\nwww-data:*:33:33:www-data:/var/www:/bin/sh\nbackup:*:34:34:backup:/var/backups:/bin/sh\nlist:*:38:38:Mailing List Manager:/var/list:/bin/sh\nirc:*:39:39:ircd:/var/run/ircd:/bin/sh\ngnats:*:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh\ndiag:*:53:53:diag:/nonexistent:/bin/sh\nnobody:*:65534:65534:nobody:/nonexistent:/bin/sh\nEOF\nfi\nif [ ! -e $D/etc/group ]; then\n\tcat << \'EOF\' > $D/etc/group\nroot:*:0:\ndaemon:*:1:\nbin:*:2:\nsys:*:3:\nadm:*:4:\ntty:*:5:\ndisk:*:6:\nlp:*:7:\nmail:*:8:\nnews:*:9:\nuucp:*:10:\nman:*:12:\nproxy:*:13:\nkmem:*:15:\ninput:*:19:\ndialout:*:20:\nfax:*:21:\nvoice:*:22:\ncdrom:*:24:\nfloppy:*:25:\ntape:*:26:\nsudo:*:27:\naudio:*:29:\ndip:*:30:\nwww-data:*:33:\nbackup:*:34:\noperator:*:37:\nlist:*:38:\nirc:*:39:\nsrc:*:40:\ngnats:*:41:\nshadow:*:42:\nutmp:*:43:\nvideo:*:44:\nsasl:*:45:\nplugdev:*:46:\nstaff:*:50:\ngames:*:60:\nshutdown:*:70:\nusers:*:100:\nsdcard:*:1015:diag\ndiag:*:53:\nrebooters:*:1301:diag\nnogroup:*:65534:\nEOF\nfi\n
+FILES_INFO: {}
+PKGSIZE_base-passwd: 0

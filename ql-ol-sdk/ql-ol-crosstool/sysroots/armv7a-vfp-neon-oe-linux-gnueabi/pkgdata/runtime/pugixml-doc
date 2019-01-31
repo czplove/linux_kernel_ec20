@@ -1,0 +1,14 @@
+PN: pugixml
+PV: 1.4
+PR: r0
+PKGV: 1.4
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_pugixml-doc: XML Parser library .  This package contains documentation.
+SUMMARY_pugixml-doc: XML Parser library  - Documentation files
+RPROVIDES_pugixml-doc:  pugixml-doc
+SECTION_pugixml-doc: doc
+PKG_pugixml-doc: libpugixml-doc
+FILES_pugixml-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_pugixml-doc: 0

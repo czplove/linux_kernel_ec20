@@ -1,0 +1,14 @@
+PN: e2fsprogs
+PV: 1.42.9
+PR: r0
+PKGV: 1.42.9
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2 & BSD & MIT
+DESCRIPTION_e2fsprogs-staticdev: The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.  This package contains static libraries for software development.
+SUMMARY_e2fsprogs-staticdev: Ext2 Filesystem Utilities - Development files (Static Libraries)
+RDEPENDS_e2fsprogs-staticdev: e2fsprogs-dev (= 1.42.9-r0)
+SECTION_e2fsprogs-staticdev: devel
+PKG_e2fsprogs-staticdev: e2fsprogs-staticdev
+FILES_e2fsprogs-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/e2fsprogs/*.a
+FILES_INFO: {"/lib/libe2p.a": 47636, "/lib/libcom_err.a": 11996, "/lib/libquota.a": 36426, "/lib/libss.a": 32252, "/lib/libext2fs.a": 348364}
+PKGSIZE_e2fsprogs-staticdev: 476674

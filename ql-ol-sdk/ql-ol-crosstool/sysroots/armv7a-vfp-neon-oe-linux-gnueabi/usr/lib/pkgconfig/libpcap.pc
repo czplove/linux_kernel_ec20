@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libpcap
+Description: System-independent interface for user-level packet capture.
+Version: 1.6.2
+Libs: -L${libdir} -lpcap
+Cflags: -I${includedir}

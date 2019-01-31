@@ -1,0 +1,13 @@
+PN: run-postinsts
+PV: 1.0
+PR: r9
+PKGV: 1.0
+PKGR: r9
+LICENSE: MIT
+DESCRIPTION_run-postinsts-doc: Runs postinstall scripts on first boot of the target device.  This package contains documentation.
+SUMMARY_run-postinsts-doc: Runs postinstall scripts on first boot of the target device - Documentation files
+SECTION_run-postinsts-doc: doc
+PKG_run-postinsts-doc: run-postinsts-doc
+FILES_run-postinsts-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_run-postinsts-doc: 0

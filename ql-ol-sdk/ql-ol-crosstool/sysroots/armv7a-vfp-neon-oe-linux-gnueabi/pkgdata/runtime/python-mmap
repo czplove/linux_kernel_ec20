@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-mmap: Python memory-mapped file support
+RDEPENDS_python-mmap: python-core python-io glibc (>= 2.21) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-mmap: python-mmap
+FILES_python-mmap: /usr/lib/python2.7/lib-dynload/mmap.so 
+FILERPROVIDESFLIST_python-mmap: /usr/lib/python2.7/lib-dynload/mmap.so
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/mmap.so": 20128}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/mmap.so_python-mmap: elf(buildid) (= 262531c38f6630fb28e600054fa31125412c83e5) mmap.so
+FILERDEPENDSFLIST_python-mmap: /usr/lib/python2.7/lib-dynload/mmap.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/mmap.so_python-mmap: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-mmap: 20128

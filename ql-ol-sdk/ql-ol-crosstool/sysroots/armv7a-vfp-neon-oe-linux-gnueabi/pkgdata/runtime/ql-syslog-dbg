@@ -1,0 +1,15 @@
+PN: ql-syslog
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: CLOSED
+DESCRIPTION_ql-syslog-dbg: Quectel log system  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_ql-syslog-dbg: ql-syslog version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_ql-syslog-dbg: libgcc-dbg glibc-dbg
+SECTION_ql-syslog-dbg: devel
+PKG_ql-syslog-dbg: ql-syslog-dbg
+ALLOW_EMPTY_ql-syslog-dbg: 1
+FILES_ql-syslog-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/ql-syslog/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/ql-syslog/.debug /usr/lib/matchbox-panel/.debug /usr/lib/ql-syslog/ql-syslog/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qllog": 91751, "/usr/bin/.debug/qllog_write": 11904, "/usr/lib/.debug/libql_sys_log.so.1.0.0": 21433}
+PKGSIZE_ql-syslog-dbg: 125088

@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ur-in: locale definition for ur-in
+SUMMARY_glibc-localedata-ur-in: locale definition for ur-in
+RDEPENDS_glibc-localedata-ur-in: glibc-localedata-iso14651-t1 glibc-localedata-ar-in glibc-localedata-hi-in glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ur-in: glibc-localedata-ur-in
+FILES_glibc-localedata-ur-in: /usr/share/i18n/locales/ur_IN
+FILES_INFO: {"/usr/share/i18n/locales/ur_IN": 5452}
+PKGSIZE_glibc-localedata-ur-in: 5452

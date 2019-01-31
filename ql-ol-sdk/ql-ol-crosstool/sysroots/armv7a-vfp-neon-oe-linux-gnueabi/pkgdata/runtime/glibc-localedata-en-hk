@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-en-hk: locale definition for en-hk
+SUMMARY_glibc-localedata-en-hk: locale definition for en-hk
+RDEPENDS_glibc-localedata-en-hk: glibc-localedata-iso14651-t1 glibc-localedata-en-gb
+SECTION: base
+PKG_glibc-localedata-en-hk: glibc-localedata-en-hk
+FILES_glibc-localedata-en-hk: /usr/share/i18n/locales/en_HK
+FILES_INFO: {"/usr/share/i18n/locales/en_HK": 7044}
+PKGSIZE_glibc-localedata-en-hk: 7044

@@ -1,0 +1,29 @@
+EC20CE_FAG
+_____________________________
+
+FW_Version:     EC20CEFAGR06A01M4G_OCPU_INTB_BETA0326
+Build_Date:     2018-01-30
+Changelist_ID:  3798~5462
+
+Key Changes Points
+1. 海华BLE合入
+2. 海华CM256 wifi打开，手机成功连接TBOX的wifi热点，向/dev/smd8发送AT+QWSTAINFO?，4G模块从/dev/smd8正常返回手机的IP、MAC地址、主机名；
+3. 海华CM256 wifi打开慢(10s以上)
+4. 模块USB NMEA口和smd8抢占输出GPS数据，模块的USB NMEA口和USB AT口都能下发AT
+_____________________________
+
+FW_Version:     EC20CEFAGR06A02M4G_OCPU
+Build_Date:     2018-01-30
+Changelist_ID:  3421~3712
+
+Key Changes Points
+1)3631  Full FOTA 
+________________________________________
+
+FW_Version:     EC20CEFAGR06A01M4G_OCPU
+Build_Date:     2018-02-24
+Changelist_ID:  0~3041
+
+Key Changes Points
+1)Initial
+

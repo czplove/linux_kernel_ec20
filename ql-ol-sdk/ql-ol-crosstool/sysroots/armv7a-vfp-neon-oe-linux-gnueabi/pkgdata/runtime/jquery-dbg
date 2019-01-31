@@ -1,0 +1,14 @@
+PN: jquery
+PV: 1.9.1
+PR: r0
+PKGV: 1.9.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-dbg: JQUERY  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_jquery-dbg: jquery version 1.9.1-r0 - Debugging files
+SECTION_jquery-dbg: devel
+PKG_jquery-dbg: jquery-dbg
+ALLOW_EMPTY_jquery-dbg: 1
+FILES_jquery-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/jquery/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/jquery/.debug /usr/lib/matchbox-panel/.debug /usr/lib/jquery/jquery/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_jquery-dbg: 0

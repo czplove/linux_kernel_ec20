@@ -1,0 +1,58 @@
+"\
+db.primary.save(\{\
+\n  _id:	%|HDRID?{%{HDRID:json}}:{'',}|\
+\n  Name:	%{NAME:json}\
+\n  Arch:	%{ARCH:json}\
+\n  Version:	%{VERSION:json}\
+\n  Epoch:	%|EPOCH?{%{EPOCH}}:{0}|\
+,\n  Release:	%{RELEASE:json}\
+\n  Summary:	%{SUMMARY:json}\
+\n  Description:	%{DESCRIPTION:json}\
+\n  Packager:	%|PACKAGER?{%{PACKAGER:json}}:{'',}|\
+\n  Url:	%|URL?{%{URL:json}}:{'',}|\
+\n  Filetime:	'%{PACKAGETIME:date}'\
+,\n  Buildtime:	'%{BUILDTIME:date}'\
+,\n  Packagesize:	%{PACKAGESIZE}\
+,\n  Size:	%{SIZE}\
+,\n  Archivesize:	%{ARCHIVESIZE}\
+,\n  Location:	%{PACKAGEORIGIN:json}\
+\n  BaseURL:	%|PACKAGEBASEURL?{%{PACKAGEBASEURL:json}}:{'',}|\
+\n  License:	%|license?{%{LICENSE:json}}:{'',}|\
+\n  Vendor:	%|vendor?{%{VENDOR:json}}:{'',}|\
+\n  Group:	%|group?{%{GROUP:json}}:{'',}|\
+\n  Buildhost:	%|buildhost?{%{BUILDHOST:json}}:{'',}|\
+\n  Sourcerpm:	%|sourcerpm?{%{SOURCERPM:json}}:{'',}|\
+\n  Hdrstart:	%{HEADERSTARTOFF}\
+,\n  Hdrend:	%{HEADERENDOFF}\
+%|providename?{\
+,\n  Provides: \
+\[ [\
+\n    \[ %{providesqlentry} \],\
+] \]\
+}|\
+%|requirename?{\
+,\n  Requires: \
+\[ [\
+\n    \[ %{requiresqlentry} \],\
+] \]\
+}|\
+%|conflictname?{\
+,\n  Conflicts: \
+\[ [\
+\n    \[ %{conflictsqlentry} \],\
+] \]\
+}|\
+%|obsoletename?{\
+,\n  Obsoletes: \
+\[ [\
+\n    \[ %{obsoletesqlentry} \],\
+] \]\
+}|\
+%|filesxmlentry1?{\
+,\n  Files: \
+\[ [\
+\n    \[ %{filessqlentry1} \],\
+] \]\
+}|\
+,\n\});\
+\n"

@@ -1,0 +1,14 @@
+PN: libical
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: LGPLv2.1 | MPL-1
+DESCRIPTION_libical-staticdev: iCal and scheduling (RFC 2445, 2446, 2447) library.  This package contains static libraries for software development.
+SUMMARY_libical-staticdev: iCal and scheduling (RFC 2445, 2446, 2447) library - Development files (Static Libraries)
+RDEPENDS_libical-staticdev: libical-dev (= 1.0.0-r0)
+SECTION_libical-staticdev: devel
+PKG_libical-staticdev: libical-staticdev
+FILES_libical-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/libical/*.a
+FILES_INFO: {"/usr/lib/libicalss.a": 95008, "/usr/lib/libicalvcal.a": 68536, "/usr/lib/libical.a": 374280}
+PKGSIZE_libical-staticdev: 537824

@@ -1,0 +1,13 @@
+PN: garden-test-interfaces
+PV: git
+PR: r3
+PKGV: git
+PKGR: r3
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Garden Test Interfaces
+SUMMARY: garden-test-interfaces version git-r3
+SECTION: base
+PKG_garden-test-interfaces: garden-test-interfaces
+FILES_garden-test-interfaces: /usr/bin/* /usr/sbin/* /usr/lib/garden-test-interfaces/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/garden-test-interfaces /usr/lib/garden-test-interfaces/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_garden-test-interfaces: 0

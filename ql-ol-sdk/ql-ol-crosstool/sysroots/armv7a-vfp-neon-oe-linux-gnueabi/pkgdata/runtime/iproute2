@@ -1,0 +1,32 @@
+PN: iproute2
+PV: 3.16.0
+PR: r0
+PKGV: 3.16.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.
+SUMMARY: TCP / IP networking and traffic control utilities
+RDEPENDS_iproute2: iptables (>= 1.4.12.1) update-alternatives-opkg glibc (>= 2.21)
+SECTION: base
+PKG_iproute2: iproute2
+FILES_iproute2: /usr/bin/* /usr/sbin/* /usr/lib/iproute2/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/iproute2 /usr/lib/iproute2/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers /usr/lib/tc
+pkg_postinst_iproute2: #!/bin/sh\n\tupdate-alternatives --install /sbin/ip ip /sbin/ip.iproute2 100\n
+pkg_postrm_iproute2: #!/bin/sh\n\tupdate-alternatives --remove  ip /sbin/ip.iproute2\n
+FILERPROVIDESFLIST_iproute2: /usr/lib/tc/m@underscore@xt.so /sbin/ip.iproute2 /sbin/bridge /sbin/rtmon /sbin/tc
+FILES_INFO: {"/sbin/routel": 1262, "/sbin/rtmon": 26792, "/sbin/routef": 173, "/usr/lib/tc/m_xt.so": 8288, "/sbin/ip.iproute2": 284816, "/etc/iproute2/rt_dsfield": 442, "/etc/iproute2/rt_realms": 112, "/sbin/rtpr": 37, "/sbin/bridge": 43248, "/etc/iproute2/rt_protos": 317, "/sbin/tc": 248976, "/sbin/ifcfg": 3056, "/usr/lib/tc/m_ipt.so": 7, "/etc/iproute2/group": 31, "/etc/iproute2/rt_scopes": 92, "/etc/iproute2/ematch_map": 75, "/etc/iproute2/rt_tables": 87}
+FILERPROVIDES_/usr/lib/tc/m@underscore@xt.so_iproute2: elf(buildid) (= d1a0f8ce84a069f225dd5195fbe1bffce16019ee) m_xt.so
+FILERPROVIDES_/sbin/ip.iproute2_iproute2: elf(buildid) (= 84b27065fa463021f081ba5902601fdf0d8a4a5b) /sbin/ip
+FILERPROVIDES_/sbin/bridge_iproute2: elf(buildid) (= ea7a8cf4d68250e2c156eb833383fd9ea56975aa)
+FILERPROVIDES_/sbin/rtmon_iproute2: elf(buildid) (= 8badc6ab125883992fcd0fbb0e6f6bb05cd6a498)
+FILERPROVIDES_/sbin/tc_iproute2: elf(buildid) (= 76b2b87767506f9cb7f490b391d9008844655285)
+FILERDEPENDSFLIST_iproute2: /usr/lib/tc/m@underscore@xt.so /sbin/routel /sbin/rtmon /sbin/ip.iproute2 /sbin/routef /sbin/rtpr /sbin/bridge /sbin/ifcfg /sbin/tc
+FILERDEPENDS_/usr/lib/tc/m@underscore@xt.so_iproute2: libc.so.6 libc.so.6(GLIBC_2.4) libxtables.so.7 rtld(GNU_HASH)
+FILERDEPENDS_/sbin/routel_iproute2: /bin/sh
+FILERDEPENDS_/sbin/rtmon_iproute2: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/ip.iproute2_iproute2: libc.so.6 libc.so.6(GLIBC_2.14) libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/routef_iproute2: /bin/sh
+FILERDEPENDS_/sbin/rtpr_iproute2: /bin/bash
+FILERDEPENDS_/sbin/bridge_iproute2: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/sbin/ifcfg_iproute2: /bin/bash
+FILERDEPENDS_/sbin/tc_iproute2: libc.so.6 libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_iproute2: 617811

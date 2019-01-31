@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode: perl module encode
+SUMMARY_perl-module-encode: perl module encode
+RDEPENDS_perl-module-encode: perl-module-encode-encoding perl-module-carp perl-module-encode-configlocal-pm glibc (>= 2.21) perl-module-warnings perl-module-xsloader perl-module-strict perl-module-exporter perl-module-bytes perl-module-encode-alias perl-module-constant perl perl-module-encode-config
+SECTION: devel
+PKG_perl-module-encode: perl-module-encode
+FILES_perl-module-encode: /usr/lib/perl/5.20.0/auto/Encode/Encode.so /usr/lib/perl/5.20.0/Encode.pm
+FILERPROVIDESFLIST_perl-module-encode: /usr/lib/perl/5.20.0/auto/Encode/Encode.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Encode/Encode.so": 27240, "/usr/lib/perl/5.20.0/Encode.pm": 33216}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Encode/Encode.so_perl-module-encode: Encode.so elf(buildid) (= 72709f1514bf41a208438804deeeca141de67242)
+FILERDEPENDSFLIST_perl-module-encode: /usr/lib/perl/5.20.0/auto/Encode/Encode.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Encode/Encode.so_perl-module-encode: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-encode: 60456

@@ -1,0 +1,18 @@
+PN: ppp
+PV: 2.4.7
+PR: r0
+PKGV: 2.4.7
+PKGR: r0
+LICENSE: BSD & GPLv2+ & LGPLv2+ & PD
+DESCRIPTION: ppp (Paul\'s PPP Package) is an open source package which implements the Point-to-Point Protocol (PPP) on Linux and Solaris systems.
+SUMMARY_ppp-oa: Plugin for PPP for PPP-over-ATM support
+RDEPENDS_ppp-oa: glibc (>= 2.21)
+SECTION: console/network
+PKG_ppp-oa: ppp-oa
+FILES_ppp-oa: /usr/lib/pppd/2.4.7/pppoatm.so
+FILERPROVIDESFLIST_ppp-oa: /usr/lib/pppd/2.4.7/pppoatm.so
+FILES_INFO: {"/usr/lib/pppd/2.4.7/pppoatm.so": 14772}
+FILERPROVIDES_/usr/lib/pppd/2.4.7/pppoatm.so_ppp-oa: elf(buildid) (= 7dabd7dadd1c4882f902d443376f4b238467c639) pppoatm.so
+FILERDEPENDSFLIST_ppp-oa: /usr/lib/pppd/2.4.7/pppoatm.so
+FILERDEPENDS_/usr/lib/pppd/2.4.7/pppoatm.so_ppp-oa: libc.so.6 libc.so.6(GLIBC_2.4) libc.so.6(GLIBC_2.7) libresolv.so.2 libresolv.so.2(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_ppp-oa: 14772

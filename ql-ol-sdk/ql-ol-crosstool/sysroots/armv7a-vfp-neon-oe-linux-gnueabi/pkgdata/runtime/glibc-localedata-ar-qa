@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ar-qa: locale definition for ar-qa
+SUMMARY_glibc-localedata-ar-qa: locale definition for ar-qa
+RDEPENDS_glibc-localedata-ar-qa: glibc-localedata-ar-eg glibc-localedata-iso14651-t1
+SECTION: base
+PKG_glibc-localedata-ar-qa: glibc-localedata-ar-qa
+FILES_glibc-localedata-ar-qa: /usr/share/i18n/locales/ar_QA
+FILES_INFO: {"/usr/share/i18n/locales/ar_QA": 6166}
+PKGSIZE_glibc-localedata-ar-qa: 6166

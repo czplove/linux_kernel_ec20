@@ -1,0 +1,15 @@
+PN: time-genoff
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_time-genoff-staticdev: Time Genoff Library  This package contains static libraries for software development.
+SUMMARY_time-genoff-staticdev: time-genoff version git-invalidgit-r0 - Development files (Static Libraries)
+RDEPENDS_time-genoff-staticdev: time-genoff-dev (= git-invalidgit-r0)
+RPROVIDES_time-genoff-staticdev:  time-genoff-staticdev
+SECTION_time-genoff-staticdev: devel
+PKG_time-genoff-staticdev: libtime-genoff-staticdev
+FILES_time-genoff-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/time-genoff/*.a
+FILES_INFO: {}
+PKGSIZE_time-genoff-staticdev: 0

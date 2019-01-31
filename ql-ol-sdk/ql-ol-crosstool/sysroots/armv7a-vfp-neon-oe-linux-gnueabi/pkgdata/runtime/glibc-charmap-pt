@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-pt: character map for pt encoding
+SUMMARY_glibc-charmap-pt: character map for pt encoding
+SECTION: base
+PKG_glibc-charmap-pt: glibc-charmap-pt
+FILES_glibc-charmap-pt: /usr/share/i18n/charmaps/PT.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/PT.gz": 1547}
+PKGSIZE_glibc-charmap-pt: 1547

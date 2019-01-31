@@ -1,0 +1,15 @@
+PN: udev
+PV: 182
+PR: r21
+PKGV: 182
+PKGR: r21
+LICENSE: GPLv2.0+ & LGPLv2.1+
+DESCRIPTION_udev-dbg: udev is a daemon which dynamically creates and removes device nodes from /dev/, handles hotplug events and loads drivers at boot time.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_udev-dbg: /dev/ and hotplug management daemon - Debugging files
+RRECOMMENDS_udev-dbg: glibc-dbg libkmod-dbg libffi-dbg util-linux-libblkid-dbg glib-2.0-dbg libudev-dbg
+SECTION_udev-dbg: devel
+PKG_udev-dbg: udev-dbg
+ALLOW_EMPTY_udev-dbg: 1
+FILES_udev-dbg: /usr/bin/.debug /usr/sbin/.debug /lib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/udev/.debug /usr/lib/matchbox-panel/.debug /lib/udev/.debug /usr/src/debug /lib/.debug /lib/udev/.debug/ /lib/udev/.debug/* /lib/udev/.debug/*
+FILES_INFO: {"/lib/udev/.debug/keymap": 5802, "/lib/udev/.debug/scsi_id": 19155, "/lib/.debug/libudev.so.0.13.1": 24714, "/lib/udev/.debug/ata_id": 16555, "/lib/udev/.debug/cdrom_id": 20532, "/lib/udev/.debug/accelerometer": 20941, "/lib/udev/.debug/mtd_probe": 5024, "/lib/udev/.debug/v4l_id": 4883, "/lib/udev/.debug/collect": 16633, "/usr/bin/.debug/udevadm": 39544, "/lib/.debug/libgudev-1.0.so.0.1.1": 16070, "/lib/udev/.debug/udevd": 39224}
+PKGSIZE_udev-dbg: 229077

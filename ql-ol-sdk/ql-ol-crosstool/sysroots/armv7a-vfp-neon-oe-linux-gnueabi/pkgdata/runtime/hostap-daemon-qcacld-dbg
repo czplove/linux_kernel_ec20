@@ -1,0 +1,15 @@
+PN: hostap-daemon-qcacld
+PV: git
+PR: r4.2
+PKGV: git
+PKGR: r4.2
+LICENSE: BSD
+DESCRIPTION_hostap-daemon-qcacld-dbg: Hostap Daemon  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_hostap-daemon-qcacld-dbg: hostap-daemon-qcacld version git-r4.2 - Debugging files
+RRECOMMENDS_hostap-daemon-qcacld-dbg: libnl-dbg libnl-genl-dbg glibc-dbg libcrypto-dbg
+SECTION_hostap-daemon-qcacld-dbg: devel
+PKG_hostap-daemon-qcacld-dbg: hostap-daemon-qcacld-dbg
+ALLOW_EMPTY_hostap-daemon-qcacld-dbg: 1
+FILES_hostap-daemon-qcacld-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/hostap-daemon-qcacld/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/hostap-daemon-qcacld/.debug /usr/lib/matchbox-panel/.debug /usr/lib/hostap-daemon-qcacld/hostap-daemon-qcacld/.debug /usr/src/debug
+FILES_INFO: {"/usr/sbin/.debug/hostapd_cli": 12957, "/usr/sbin/.debug/hostapd": 79661}
+PKGSIZE_hostap-daemon-qcacld-dbg: 92618

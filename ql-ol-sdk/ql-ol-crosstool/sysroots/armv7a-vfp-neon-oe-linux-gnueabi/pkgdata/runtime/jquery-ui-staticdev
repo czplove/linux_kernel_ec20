@@ -1,0 +1,14 @@
+PN: jquery-ui
+PV: 1.10.1
+PR: r0
+PKGV: 1.10.1
+PKGR: r0
+LICENSE: MIT
+DESCRIPTION_jquery-ui-staticdev: JQUERY UI  This package contains static libraries for software development.
+SUMMARY_jquery-ui-staticdev: jquery-ui version 1.10.1-r0 - Development files (Static Libraries)
+RDEPENDS_jquery-ui-staticdev: jquery-ui-dev (= 1.10.1-r0)
+SECTION_jquery-ui-staticdev: devel
+PKG_jquery-ui-staticdev: jquery-ui-staticdev
+FILES_jquery-ui-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/jquery-ui/*.a
+FILES_INFO: {}
+PKGSIZE_jquery-ui-staticdev: 0

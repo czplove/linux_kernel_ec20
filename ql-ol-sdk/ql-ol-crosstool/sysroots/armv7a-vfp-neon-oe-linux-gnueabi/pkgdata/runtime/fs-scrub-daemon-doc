@@ -1,0 +1,13 @@
+PN: fs-scrub-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_fs-scrub-daemon-doc: Daemon to perform scrubbing  This package contains documentation.
+SUMMARY_fs-scrub-daemon-doc: fs-scrub-daemon version git-invalidgit-r1 - Documentation files
+SECTION_fs-scrub-daemon-doc: doc
+PKG_fs-scrub-daemon-doc: fs-scrub-daemon-doc
+FILES_fs-scrub-daemon-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_fs-scrub-daemon-doc: 0

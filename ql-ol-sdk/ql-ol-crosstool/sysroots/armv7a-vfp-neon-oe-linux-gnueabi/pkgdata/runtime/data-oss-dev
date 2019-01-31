@@ -1,0 +1,16 @@
+PN: data-oss
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: BSD
+DESCRIPTION_data-oss-dev: Data Services Open Source  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_data-oss-dev: data-oss version git-r4 - Development files
+RDEPENDS_data-oss-dev: data-oss (= git-r4)
+RRECOMMENDS_data-oss-dev: glib-2.0-dev glibc-dev
+SECTION_data-oss-dev: devel
+PKG_data-oss-dev: data-oss-dev
+ALLOW_EMPTY_data-oss-dev: 1
+FILES_data-oss-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/data-oss/*.la /lib/*.la
+FILES_INFO: {"/usr/lib/librmnetctl.la": 1027, "/usr/include/data-oss/librmnetctl.h": 20970, "/usr/lib/pkgconfig/data-oss.pc": 202, "/usr/lib/librmnetctl.so": 20}
+PKGSIZE_data-oss-dev: 22219

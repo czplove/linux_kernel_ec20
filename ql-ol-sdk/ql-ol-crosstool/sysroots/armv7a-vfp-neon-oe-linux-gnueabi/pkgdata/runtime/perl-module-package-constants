@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-package-constants: perl module package-constants
+SUMMARY_perl-module-package-constants: perl module package-constants
+RDEPENDS_perl-module-package-constants: perl-module-strict perl-module-vars perl-module-if perl
+SECTION: devel
+PKG_perl-module-package-constants: perl-module-package-constants
+FILES_perl-module-package-constants: /usr/lib/perl/5.20.0/Package/Constants.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Package/Constants.pm": 2332}
+PKGSIZE_perl-module-package-constants: 2332

@@ -1,0 +1,16 @@
+PN: fs-scrub-daemon
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_fs-scrub-daemon-dev: Daemon to perform scrubbing  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_fs-scrub-daemon-dev: fs-scrub-daemon version git-invalidgit-r1 - Development files
+RDEPENDS_fs-scrub-daemon-dev: fs-scrub-daemon (= git-invalidgit-r1)
+RRECOMMENDS_fs-scrub-daemon-dev: glib-2.0-dev qmi-framework-dev glibc-dev initscripts-dev
+SECTION_fs-scrub-daemon-dev: devel
+PKG_fs-scrub-daemon-dev: fs-scrub-daemon-dev
+ALLOW_EMPTY_fs-scrub-daemon-dev: 1
+FILES_fs-scrub-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/fs-scrub-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_fs-scrub-daemon-dev: 0

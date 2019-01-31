@@ -1,0 +1,13 @@
+PN: libnetfilter-conntrack
+PV: 0.9.1
+PR: r0
+PKGV: 0.9.1
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_libnetfilter-conntrack-doc: Userspace library providing a programming interface (API) to the in-kernel connection tracking state table  This package contains documentation.
+SUMMARY_libnetfilter-conntrack-doc: libnetfilter-conntrack version 0.9.1-r0 - Documentation files
+SECTION_libnetfilter-conntrack-doc: doc
+PKG_libnetfilter-conntrack-doc: libnetfilter-conntrack-doc
+FILES_libnetfilter-conntrack-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libnetfilter-conntrack-doc: 0

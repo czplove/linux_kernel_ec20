@@ -1,0 +1,14 @@
+PN: location-service
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_location-service-doc: GPS Location Service library  This package contains documentation.
+SUMMARY_location-service-doc: location-service version git-r1 - Documentation files
+RPROVIDES_location-service-doc:  location-service-doc
+SECTION_location-service-doc: doc
+PKG_location-service-doc: liblocationservice-doc
+FILES_location-service-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_location-service-doc: 0

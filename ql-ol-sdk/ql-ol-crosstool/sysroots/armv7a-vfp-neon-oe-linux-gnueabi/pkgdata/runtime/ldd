@@ -1,0 +1,15 @@
+PN: glibc
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_ldd: /usr/bin/ldd prints shared library dependencies for each program or shared library specified on the command line.
+SUMMARY_ldd: print shared library dependencies
+SECTION: libs
+PKG_ldd: ldd
+FILES_ldd: /usr/bin/ldd
+FILES_INFO: {"/usr/bin/ldd": 5659}
+FILERDEPENDSFLIST_ldd: /usr/bin/ldd
+FILERDEPENDS_/usr/bin/ldd_ldd: /bin/sh
+PKGSIZE_ldd: 5659

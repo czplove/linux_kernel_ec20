@@ -1,0 +1,15 @@
+PN: openssl
+PV: 1.0.1k
+PR: r0
+PKGV: 1.0.1k
+PKGR: r0
+LICENSE: openssl
+DESCRIPTION: Secure Socket Layer (SSL) binary and related cryptographic tools.
+SUMMARY: Secure Socket Layer
+SECTION: libs/network
+PKG_openssl-misc: openssl-misc
+FILES_openssl-misc: /usr/lib/ssl/misc /usr/bin/c_rehash
+FILES_INFO: {"/usr/lib/ssl/misc/CA.sh": 5175}
+FILERDEPENDSFLIST_openssl-misc: /usr/lib/ssl/misc/CA.sh
+FILERDEPENDS_/usr/lib/ssl/misc/CA.sh_openssl-misc: /bin/sh
+PKGSIZE_openssl-misc: 5175

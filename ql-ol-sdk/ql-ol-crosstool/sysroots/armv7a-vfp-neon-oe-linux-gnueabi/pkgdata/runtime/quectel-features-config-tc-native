@@ -1,0 +1,13 @@
+PN: quectel-features-config-tc-native
+PV: 1.0
+PR: r1
+PKGV: 1.0
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Quectel Features Config
+SUMMARY: quectel-features-config-tc-native version 1.0-r1
+SECTION: base
+PKG_quectel-features-config-tc-native: quectel-features-config-tc-native
+FILES_quectel-features-config-tc-native: /usr/bin/* /usr/sbin/* /usr/lib/quectel-features-config-tc/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/quectel-features-config-tc /usr/lib/quectel-features-config-tc/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-tc-native: 0

@@ -1,0 +1,24 @@
+PN: avahi
+PV: 0.6.31
+PR: r12.0
+PKGV: 0.6.31
+PKGR: r12.0
+LICENSE: GPLv2+ & LGPLv2.1+
+DESCRIPTION: Avahi is a fully LGPL framework for Multicast DNS Service Discovery. It allows programs to publish and discover services and hosts running on a local network with no specific configuration. This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local Addresses" (IETF RFC3927), a protocol for automatic IP address configuration from the link-local 169.254.0.0/16 range without the need for a central server.
+SUMMARY: Avahi IPv4LL network address configuration daemon
+RDEPENDS_avahi-dnsconfd: libavahi-common (>= 0.6.31) glibc (>= 2.21) libdaemon (>= 0.14)
+SECTION: network
+PKG_avahi-dnsconfd: avahi-dnsconfd
+FILES_avahi-dnsconfd: /usr/sbin/avahi-dnsconfd                         /etc/avahi/avahi-dnsconfd.action                         /etc/init.d/avahi-dnsconfd
+pkg_postinst_avahi-dnsconfd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT avahi-dnsconfd defaults 99 01\nfi\n
+pkg_postrm_avahi-dnsconfd: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT avahi-dnsconfd remove\nfi\n
+pkg_preinst_avahi-dnsconfd: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/avahi-dnsconfd" ]; then\n\t/etc/init.d/avahi-dnsconfd stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT avahi-dnsconfd remove\nfi\n
+pkg_prerm_avahi-dnsconfd: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/avahi-dnsconfd stop\nfi\n
+FILERPROVIDESFLIST_avahi-dnsconfd: /usr/sbin/avahi-dnsconfd
+FILES_INFO: {"/usr/sbin/avahi-dnsconfd": 13132, "/etc/init.d/avahi-dnsconfd": 4490, "/etc/avahi/avahi-dnsconfd.action": 2743}
+FILERPROVIDES_/usr/sbin/avahi-dnsconfd_avahi-dnsconfd: elf(buildid) (= 727d9c59a46aa80e52fb222cc4b4e8d971df11fe)
+FILERDEPENDSFLIST_avahi-dnsconfd: /etc/init.d/avahi-dnsconfd /usr/sbin/avahi-dnsconfd /etc/avahi/avahi-dnsconfd.action
+FILERDEPENDS_/etc/init.d/avahi-dnsconfd_avahi-dnsconfd: /bin/sh
+FILERDEPENDS_/usr/sbin/avahi-dnsconfd_avahi-dnsconfd: libavahi-common.so.3 libc.so.6 libc.so.6(GLIBC_2.4) libdaemon.so.0 libpthread.so.0 libpthread.so.0(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/etc/avahi/avahi-dnsconfd.action_avahi-dnsconfd: /bin/sh
+PKGSIZE_avahi-dnsconfd: 20365

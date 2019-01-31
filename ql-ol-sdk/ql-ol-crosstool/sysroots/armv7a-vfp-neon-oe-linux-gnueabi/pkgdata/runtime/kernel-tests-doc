@@ -1,0 +1,13 @@
+PN: kernel-tests
+PV: git-invalidgit
+PR: r18
+PKGV: git-invalidgit
+PKGR: r18
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_kernel-tests-doc: Qualcomm Technologies Proprietary kernel test  This package contains documentation.
+SUMMARY_kernel-tests-doc: kernel-tests version git-invalidgit-r18 - Documentation files
+SECTION_kernel-tests-doc: doc
+PKG_kernel-tests-doc: kernel-tests-doc
+FILES_kernel-tests-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_kernel-tests-doc: 0

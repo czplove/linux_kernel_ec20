@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-am-et: locale definition for am-et
+SUMMARY_glibc-localedata-am-et: locale definition for am-et
+RDEPENDS_glibc-localedata-am-et: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-ti-et glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-am-et: glibc-localedata-am-et
+FILES_glibc-localedata-am-et: /usr/share/i18n/locales/am_ET
+FILES_INFO: {"/usr/share/i18n/locales/am_ET": 45697}
+PKGSIZE_glibc-localedata-am-et: 45697

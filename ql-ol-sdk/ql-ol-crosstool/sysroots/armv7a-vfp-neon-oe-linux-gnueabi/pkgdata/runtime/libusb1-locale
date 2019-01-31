@@ -1,0 +1,14 @@
+PN: libusb1
+PV: 1.0.19
+PR: r0
+PKGV: 1.0.19
+PKGR: r0
+LICENSE: LGPLv2.1+
+DESCRIPTION: Userspace library to access USB (version 1.0).
+SUMMARY: Userspace library to access USB (version 1.0)
+RPROVIDES_libusb1-locale:  libusb1-locale
+SECTION: libs
+PKG_libusb1-locale: libusb-1.0-locale
+FILES_libusb1-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_libusb1-locale: 0

@@ -1,0 +1,19 @@
+"\
+Other:\
+\n  Id:      %|HDRID?{%{HDRID}}:{XXX}|\
+\n  Idtype:  sha\
+\n  Name:    %{NAME:yaml}\
+\n  Arch:    %{ARCH:yaml}\
+\n  Epoch:   %|EPOCH?{%{EPOCH}}:{0}|\
+\n  Version: %{VERSION:yaml}\
+\n  Release: %{RELEASE:yaml}\
+\n  Changelogs:\
+%|changelogname?{\
+[\
+\n   -\
+\n    Author: %{CHANGELOGNAME}\
+\n    Date:   %{CHANGELOGTIME:date}\
+\n%{CHANGELOGTEXT:yaml}\
+]\
+}|\
+\n"

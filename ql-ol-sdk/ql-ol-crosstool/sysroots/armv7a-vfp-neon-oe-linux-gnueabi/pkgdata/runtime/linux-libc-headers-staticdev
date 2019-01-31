@@ -1,0 +1,14 @@
+PN: linux-libc-headers
+PV: 3.19
+PR: r0
+PKGV: 3.19
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION_linux-libc-headers-staticdev: Sanitized set of kernel headers for the C library\'s use.  This package contains static libraries for software development.
+SUMMARY_linux-libc-headers-staticdev: Sanitized set of kernel headers for the C library\'s use - Development files (Static Libraries)
+RDEPENDS_linux-libc-headers-staticdev: linux-libc-headers-dev (= 3.19-r0)
+SECTION_linux-libc-headers-staticdev: devel
+PKG_linux-libc-headers-staticdev: linux-libc-headers-staticdev
+FILES_linux-libc-headers-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/linux-libc-headers/*.a
+FILES_INFO: {}
+PKGSIZE_linux-libc-headers-staticdev: 0

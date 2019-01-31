@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ber-dz: locale definition for ber-dz
+SUMMARY_glibc-localedata-ber-dz: locale definition for ber-dz
+RDEPENDS_glibc-localedata-ber-dz: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ber-dz: glibc-localedata-ber-dz
+FILES_glibc-localedata-ber-dz: /usr/share/i18n/locales/ber_DZ
+FILES_INFO: {"/usr/share/i18n/locales/ber_DZ": 7787}
+PKGSIZE_glibc-localedata-ber-dz: 7787

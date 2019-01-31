@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-dbm-filter: perl module dbm-filter
+SUMMARY_perl-module-dbm-filter: perl module dbm-filter
+RDEPENDS_perl-module-dbm-filter: perl-module-strict perl-module-warnings perl-module-carp perl
+SECTION: devel
+PKG_perl-module-dbm-filter: perl-module-dbm-filter
+FILES_perl-module-dbm-filter: /usr/lib/perl/5.20.0/DBM_Filter.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/DBM_Filter.pm": 14385}
+PKGSIZE_perl-module-dbm-filter: 14385

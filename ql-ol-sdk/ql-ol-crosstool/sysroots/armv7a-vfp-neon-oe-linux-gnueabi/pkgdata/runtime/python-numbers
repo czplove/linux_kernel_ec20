@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-numbers: Python number APIs
+RDEPENDS_python-numbers: python-core python-lang python-re
+SECTION: devel/python
+PKG_python-numbers: python-numbers
+FILES_python-numbers: /usr/lib/python2.7/decimal.* /usr/lib/python2.7/numbers.* 
+FILES_INFO: {"/usr/lib/python2.7/decimal.py": 221112, "/usr/lib/python2.7/numbers.pyc": 13888, "/usr/lib/python2.7/numbers.py": 10319, "/usr/lib/python2.7/decimal.pyc": 170858}
+PKGSIZE_python-numbers: 416177

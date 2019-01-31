@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-ibm864: gconv module for character set ibm864
+SUMMARY_glibc-gconv-ibm864: gconv module for character set ibm864
+RDEPENDS_glibc-gconv-ibm864: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-ibm864: glibc-gconv-ibm864
+FILES_glibc-gconv-ibm864: /usr/lib/gconv/IBM864.so
+FILES_INFO: {"/usr/lib/gconv/IBM864.so": 9584}
+PKGSIZE_glibc-gconv-ibm864: 9584

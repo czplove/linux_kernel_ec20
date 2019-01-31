@@ -1,0 +1,21 @@
+[13:27:25] - build.py: Platform is:linux2
+[13:27:25] - build.py: Python Version is:2.7.6 (default, Oct 26 2016, 20:30:19) 
+[GCC 4.8.4]
+[13:27:25] - build.py: Current directory is:/home/ramos/WorkSpace_Ramos/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/quectel-openlinux-extsdk/tools/partition_make/common/build
+[13:27:25] - build.py: Loading the Meta-Info file
+[13:27:25] - Filters specified for compilation:
+[13:27:25] - ['non_hlos', 'non-hlos', 'nonhlos', 'hlos']
+[13:27:25] - build.py: Writing FAT images
+[13:27:25] - update_common_info.py: Processing partition.xml
+[13:27:25] - build.py:  /home/ramos/WorkSpace_Ramos/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/quectel-openlinux-extsdk/tools/partition_make/common/build/rawprogram0.xml path does not exist. Could not create sparse images.
+[13:27:25] - build.py:  --------------------------------------------------
+[13:27:25] - build.py:   Calling nand_mbn_generator.py 
+[13:27:25] - build.py:  --------------------------------------------------
+
+[13:27:25] - Executing: python /home/ramos/WorkSpace_Ramos/MDM9x07/OpenLinux/MCU_R06_update01/apps_proc/quectel-openlinux-extsdk/tools/partition_make/common/nand_mbn_generator.py ./../config/partition_nand.xml partition.mbn
+
+Created 'partition.mbn'
+Created 'rawprogram_nand_p4K_b256K.xml'
+Created 'partition_complete_p4K_b256K.mbn'
+Created 'patch_p4K_b256K.xml'
+[13:27:25] - update_common_info.py:============ UPDATE COMMON INFO COMPLETE====================

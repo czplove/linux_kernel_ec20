@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-iso8859-13: gconv module for character set iso8859-13
+SUMMARY_glibc-gconv-iso8859-13: gconv module for character set iso8859-13
+RDEPENDS_glibc-gconv-iso8859-13: glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-iso8859-13: glibc-gconv-iso8859-13
+FILES_glibc-gconv-iso8859-13: /usr/lib/gconv/ISO8859-13.so
+FILES_INFO: {"/usr/lib/gconv/ISO8859-13.so": 9588}
+PKGSIZE_glibc-gconv-iso8859-13: 9588

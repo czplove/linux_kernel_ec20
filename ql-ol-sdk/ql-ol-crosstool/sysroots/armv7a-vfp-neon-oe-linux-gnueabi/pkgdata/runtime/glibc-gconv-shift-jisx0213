@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-gconv-shift-jisx0213: gconv module for character set shift-jisx0213
+SUMMARY_glibc-gconv-shift-jisx0213: gconv module for character set shift-jisx0213
+RDEPENDS_glibc-gconv-shift-jisx0213: glibc-gconv-libjisx0213 (>= 2.21) glibc (>= 2.21) glibc-gconv
+SECTION: base
+PKG_glibc-gconv-shift-jisx0213: glibc-gconv-shift-jisx0213
+FILES_glibc-gconv-shift-jisx0213: /usr/lib/gconv/SHIFT_JISX0213.so
+FILES_INFO: {"/usr/lib/gconv/SHIFT_JISX0213.so": 13708}
+PKGSIZE_glibc-gconv-shift-jisx0213: 13708

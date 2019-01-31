@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: ql-common-tools
+Description: Quectel Common API package
+Version: 1.0.0
+Libs: -L${libdir} -leloop -lql_log -lql_utils
+Cflags: -I${includedir}/ql-common-tools

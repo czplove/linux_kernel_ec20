@@ -1,0 +1,16 @@
+PN: audioalsa
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audioalsa-dbg: libaudioalsa Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_audioalsa-dbg: audioalsa version git-r4 - Debugging files
+RPROVIDES_audioalsa-dbg:  audioalsa-dbg
+RRECOMMENDS_audioalsa-dbg: glib-2.0-dbg glibc-dbg
+SECTION_audioalsa-dbg: devel
+PKG_audioalsa-dbg: libaudioalsa-dbg
+ALLOW_EMPTY_audioalsa-dbg: 1
+FILES_audioalsa-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/audioalsa/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/audioalsa/.debug /usr/lib/matchbox-panel/.debug /usr/lib/audioalsa/audioalsa/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libaudioalsa.so.1.0.0": 21479}
+PKGSIZE_audioalsa-dbg: 21479

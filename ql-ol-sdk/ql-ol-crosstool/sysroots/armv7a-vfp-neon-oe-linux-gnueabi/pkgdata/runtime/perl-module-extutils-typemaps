@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-extutils-typemaps: perl module extutils-typemaps
+SUMMARY_perl-module-extutils-typemaps: perl module extutils-typemaps
+RDEPENDS_perl-module-extutils-typemaps: perl-module-extutils-parsexs perl-module-extutils-typemaps-type perl-module-warnings perl perl-module-strict perl-module-extutils-parsexs-constants perl-module-extutils-typemaps-outputmap perl-module-extutils-typemaps-inputmap
+SECTION: devel
+PKG_perl-module-extutils-typemaps: perl-module-extutils-typemaps
+FILES_perl-module-extutils-typemaps: /usr/lib/perl/5.20.0/ExtUtils/Typemaps.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/ExtUtils/Typemaps.pm": 26829}
+PKGSIZE_perl-module-extutils-typemaps: 26829

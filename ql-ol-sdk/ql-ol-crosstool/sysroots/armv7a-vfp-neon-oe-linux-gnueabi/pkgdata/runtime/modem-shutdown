@@ -1,0 +1,20 @@
+PN: modem-shutdown
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION: Automatically shuts the modem down on halt and reboot
+SUMMARY: modem-shutdown version git-invalidgit-r2
+RRECOMMENDS_modem-shutdown:  update-rc.d
+SECTION: base
+PKG_modem-shutdown: modem-shutdown
+FILES_modem-shutdown: /usr/bin/* /usr/sbin/* /usr/lib/modem-shutdown/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/modem-shutdown /usr/lib/modem-shutdown/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_modem-shutdown: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-r $D"\n\telse\n\t\tOPT="-s"\n\tfi\n\tupdate-rc.d $OPT modem-shutdown stop 01 0 6 .\nfi\n
+pkg_postrm_modem-shutdown: #!/bin/sh\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT modem-shutdown remove\nfi\n
+pkg_preinst_modem-shutdown: #!/bin/sh\nif [ -z "$D" -a -f "/etc/init.d/modem-shutdown" ]; then\n\t/etc/init.d/modem-shutdown stop\nfi\nif type update-rc.d >/dev/null 2>/dev/null; then\n\tif [ -n "$D" ]; then\n\t\tOPT="-f -r $D"\n\telse\n\t\tOPT="-f"\n\tfi\n\tupdate-rc.d $OPT modem-shutdown remove\nfi\n
+pkg_prerm_modem-shutdown: #!/bin/sh\nif [ -z "$D" ]; then\n\t/etc/init.d/modem-shutdown stop\nfi\n
+FILES_INFO: {"/etc/init.d/modem-shutdown": 168, "/bin/modem-shutdown": 26}
+FILERDEPENDSFLIST_modem-shutdown: /etc/init.d/modem-shutdown
+FILERDEPENDS_/etc/init.d/modem-shutdown_modem-shutdown: /bin/sh
+PKGSIZE_modem-shutdown: 194

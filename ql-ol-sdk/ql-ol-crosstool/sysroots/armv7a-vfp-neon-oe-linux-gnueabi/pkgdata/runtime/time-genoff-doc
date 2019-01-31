@@ -1,0 +1,14 @@
+PN: time-genoff
+PV: git-invalidgit
+PR: r0
+PKGV: git-invalidgit
+PKGR: r0
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_time-genoff-doc: Time Genoff Library  This package contains documentation.
+SUMMARY_time-genoff-doc: time-genoff version git-invalidgit-r0 - Documentation files
+RPROVIDES_time-genoff-doc:  time-genoff-doc
+SECTION_time-genoff-doc: doc
+PKG_time-genoff-doc: libtime-genoff-doc
+FILES_time-genoff-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_time-genoff-doc: 0

@@ -1,0 +1,13 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-charmap-pt154: character map for pt154 encoding
+SUMMARY_glibc-charmap-pt154: character map for pt154 encoding
+SECTION: base
+PKG_glibc-charmap-pt154: glibc-charmap-pt154
+FILES_glibc-charmap-pt154: /usr/share/i18n/charmaps/PT154.gz
+FILES_INFO: {"/usr/share/i18n/charmaps/PT154.gz": 2833}
+PKGSIZE_glibc-charmap-pt154: 2833

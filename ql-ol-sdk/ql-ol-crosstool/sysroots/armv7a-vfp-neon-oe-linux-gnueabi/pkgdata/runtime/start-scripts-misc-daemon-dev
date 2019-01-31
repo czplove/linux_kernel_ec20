@@ -1,0 +1,16 @@
+PN: start-scripts-misc-daemon
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_start-scripts-misc-daemon-dev: Start up script for misc daemons  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_start-scripts-misc-daemon-dev: start-scripts-misc-daemon version git-invalidgit-r2 - Development files
+RDEPENDS_start-scripts-misc-daemon-dev: start-scripts-misc-daemon (= git-invalidgit-r2)
+RRECOMMENDS_start-scripts-misc-daemon-dev: initscripts-dev
+SECTION_start-scripts-misc-daemon-dev: devel
+PKG_start-scripts-misc-daemon-dev: start-scripts-misc-daemon-dev
+ALLOW_EMPTY_start-scripts-misc-daemon-dev: 1
+FILES_start-scripts-misc-daemon-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/start-scripts-misc-daemon/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_start-scripts-misc-daemon-dev: 0

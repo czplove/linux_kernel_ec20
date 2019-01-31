@@ -1,0 +1,13 @@
+PN: quectel-features-config
+PV: git
+PR: r1
+PKGV: git
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-features-config-doc: Quectel Features Config  This package contains documentation.
+SUMMARY_quectel-features-config-doc: quectel-features-config version git-r1 - Documentation files
+SECTION_quectel-features-config-doc: doc
+PKG_quectel-features-config-doc: quectel-features-config-doc
+FILES_quectel-features-config-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_quectel-features-config-doc: 0

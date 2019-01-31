@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-ro-ro: locale definition for ro-ro
+SUMMARY_glibc-localedata-ro-ro: locale definition for ro-ro
+RDEPENDS_glibc-localedata-ro-ro: glibc-localedata-iso14651-t1 glibc-localedata-translit-combining glibc-localedata-i18n
+SECTION: base
+PKG_glibc-localedata-ro-ro: glibc-localedata-ro-ro
+FILES_glibc-localedata-ro-ro: /usr/share/i18n/locales/ro_RO
+FILES_INFO: {"/usr/share/i18n/locales/ro_RO": 12353}
+PKGSIZE_glibc-localedata-ro-ro: 12353

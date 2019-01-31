@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-i18n-langinfo: perl module i18n-langinfo
+SUMMARY_perl-module-i18n-langinfo: perl module i18n-langinfo
+RDEPENDS_perl-module-i18n-langinfo: perl-module-carp glibc (>= 2.21) perl-module-warnings perl perl-module-exporter perl-module-strict perl-module-xsloader
+SECTION: devel
+PKG_perl-module-i18n-langinfo: perl-module-i18n-langinfo
+FILES_perl-module-i18n-langinfo: /usr/lib/perl/5.20.0/auto/I18N/Langinfo/Langinfo.so /usr/lib/perl/5.20.0/I18N/Langinfo.pm
+FILERPROVIDESFLIST_perl-module-i18n-langinfo: /usr/lib/perl/5.20.0/auto/I18N/Langinfo/Langinfo.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/I18N/Langinfo/Langinfo.so": 7604, "/usr/lib/perl/5.20.0/I18N/Langinfo.pm": 4045}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/I18N/Langinfo/Langinfo.so_perl-module-i18n-langinfo: Langinfo.so elf(buildid) (= 0a11494517a7c58f2c5d37c73fa1653f67b2ad62)
+FILERDEPENDSFLIST_perl-module-i18n-langinfo: /usr/lib/perl/5.20.0/auto/I18N/Langinfo/Langinfo.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/I18N/Langinfo/Langinfo.so_perl-module-i18n-langinfo: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-i18n-langinfo: 11649

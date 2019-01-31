@@ -1,0 +1,18 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-resource: Python resource control interface
+RDEPENDS_python-resource: python-core glibc (>= 2.21) libpython2 (>= 2.7.9)
+SECTION: devel/python
+PKG_python-resource: python-resource
+FILES_python-resource: /usr/lib/python2.7/lib-dynload/resource.so 
+FILERPROVIDESFLIST_python-resource: /usr/lib/python2.7/lib-dynload/resource.so
+FILES_INFO: {"/usr/lib/python2.7/lib-dynload/resource.so": 8720}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/resource.so_python-resource: elf(buildid) (= cace199ebf99a0eec22d6398c3507c3fb28fb80f) resource.so
+FILERDEPENDSFLIST_python-resource: /usr/lib/python2.7/lib-dynload/resource.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/resource.so_python-resource: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-resource: 8720

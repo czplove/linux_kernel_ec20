@@ -1,0 +1,14 @@
+PN: python
+PV: 2.7.9
+PR: r1
+PKGV: 2.7.9
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-sqlite3-tests: Python Sqlite3 database support tests
+RDEPENDS_python-sqlite3-tests: python-sqlite3 python-core
+SECTION: devel/python
+PKG_python-sqlite3-tests: python-sqlite3-tests
+FILES_python-sqlite3-tests: /usr/lib/python2.7/sqlite3/test 
+FILES_INFO: {"/usr/lib/python2.7/sqlite3/test/dbapi.pyc": 42050, "/usr/lib/python2.7/sqlite3/test/userfunctions.py": 15309, "/usr/lib/python2.7/sqlite3/test/userfunctions.pyc": 24486, "/usr/lib/python2.7/sqlite3/test/py25tests.py": 2736, "/usr/lib/python2.7/sqlite3/test/dbapi.py": 30350, "/usr/lib/python2.7/sqlite3/test/hooks.pyc": 8457, "/usr/lib/python2.7/sqlite3/test/regression.pyc": 14561, "/usr/lib/python2.7/sqlite3/test/hooks.py": 7213, "/usr/lib/python2.7/sqlite3/test/dump.py": 2926, "/usr/lib/python2.7/sqlite3/test/factory.py": 10330, "/usr/lib/python2.7/sqlite3/test/dump.pyc": 3536, "/usr/lib/python2.7/sqlite3/test/__init__.pyc": 130, "/usr/lib/python2.7/sqlite3/test/types.py": 15105, "/usr/lib/python2.7/sqlite3/test/transactions.pyc": 8081, "/usr/lib/python2.7/sqlite3/test/transactions.py": 7347, "/usr/lib/python2.7/sqlite3/test/py25tests.pyc": 2969, "/usr/lib/python2.7/sqlite3/test/regression.py": 12108, "/usr/lib/python2.7/sqlite3/test/types.pyc": 20278, "/usr/lib/python2.7/sqlite3/test/factory.pyc": 13853, "/usr/lib/python2.7/sqlite3/test/__init__.py": 0}
+PKGSIZE_python-sqlite3-tests: 241825

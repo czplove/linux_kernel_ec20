@@ -1,0 +1,14 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-filter-simple: perl module filter-simple
+SUMMARY_perl-module-filter-simple: perl module filter-simple
+RDEPENDS_perl-module-filter-simple: perl perl-module-carp perl-module-text-balanced perl-module-filter-util-call perl-module-vars
+SECTION: devel
+PKG_perl-module-filter-simple: perl-module-filter-simple
+FILES_perl-module-filter-simple: /usr/lib/perl/5.20.0/Filter/Simple.pm
+FILES_INFO: {"/usr/lib/perl/5.20.0/Filter/Simple.pm": 23830}
+PKGSIZE_perl-module-filter-simple: 23830

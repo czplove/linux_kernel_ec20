@@ -1,0 +1,15 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-locale-hr: Locale data from glibc.  This package contains language translation files for the hr locale.
+SUMMARY_glibc-locale-hr: Locale data from glibc - hr translations
+RPROVIDES_glibc-locale-hr: glibc-locale hr-translation
+RRECOMMENDS_glibc-locale-hr: virtual-locale-hr
+SECTION: base
+PKG_glibc-locale-hr: glibc-locale-hr
+FILES_glibc-locale-hr: /usr/share/locale/hr
+FILES_INFO: {"/usr/share/locale/hr/LC_MESSAGES/libc.mo": 141517}
+PKGSIZE_glibc-locale-hr: 141517

@@ -1,0 +1,20 @@
+PN: util-linux
+PV: 2.25.2
+PR: r1
+PKGV: 2.25.2
+PKGR: r1
+LICENSE: GPLv2only & LGPLv2.1only
+DESCRIPTION: Util-linux includes a suite of basic system administration utilities commonly found on most Linux systems.  Some of the more important utilities include disk partitioning, kernel message management, filesystem creation, and system login.
+SUMMARY: A suite of basic system administration utilities
+RDEPENDS_util-linux-reset: ncurses update-alternatives-opkg
+SECTION: base
+PKG_util-linux-reset: util-linux-reset
+FILES_util-linux-reset: /bin/reset
+pkg_postinst_util-linux-reset: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/reset reset /bin/reset 100\n
+pkg_postrm_util-linux-reset: #!/bin/sh\n\tupdate-alternatives --remove  reset /bin/reset\n
+FILERPROVIDESFLIST_util-linux-reset:  /bin/reset
+FILES_INFO: {"/bin/reset": 195}
+FILERPROVIDES_/bin/reset_util-linux-reset:  /usr/bin/reset
+FILERDEPENDSFLIST_util-linux-reset: /bin/reset
+FILERDEPENDS_/bin/reset_util-linux-reset: /bin/sh
+PKGSIZE_util-linux-reset: 195

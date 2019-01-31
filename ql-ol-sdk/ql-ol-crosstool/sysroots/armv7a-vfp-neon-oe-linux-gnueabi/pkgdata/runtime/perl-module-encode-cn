@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.20.0
+PR: r1
+PKGV: 5.20.0
+PKGR: r1
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-encode-cn: perl module encode-cn
+SUMMARY_perl-module-encode-cn: perl module encode-cn
+RDEPENDS_perl-module-encode-cn: perl-module-encode-cn-hz perl-module-encode glibc (>= 2.21) perl perl-module-warnings perl-module-strict perl-module-xsloader
+SECTION: devel
+PKG_perl-module-encode-cn: perl-module-encode-cn
+FILES_perl-module-encode-cn: /usr/lib/perl/5.20.0/auto/Encode/CN/CN.so /usr/lib/perl/5.20.0/Encode/CN.pm
+FILERPROVIDESFLIST_perl-module-encode-cn: /usr/lib/perl/5.20.0/auto/Encode/CN/CN.so
+FILES_INFO: {"/usr/lib/perl/5.20.0/auto/Encode/CN/CN.so": 991096, "/usr/lib/perl/5.20.0/Encode/CN.pm": 2042}
+FILERPROVIDES_/usr/lib/perl/5.20.0/auto/Encode/CN/CN.so_perl-module-encode-cn: CN.so elf(buildid) (= a4d39a01568bf9acd5491b4bf9955d102dcaa0c4)
+FILERDEPENDSFLIST_perl-module-encode-cn: /usr/lib/perl/5.20.0/auto/Encode/CN/CN.so
+FILERDEPENDS_/usr/lib/perl/5.20.0/auto/Encode/CN/CN.so_perl-module-encode-cn: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-encode-cn: 993138

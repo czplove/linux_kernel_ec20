@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: configdb
+Description: An XML parser utility library
+Version: 1.0.0
+Libs: -L${libdir} -lconfigdb
+Cflags: -I${includedir}/configdb

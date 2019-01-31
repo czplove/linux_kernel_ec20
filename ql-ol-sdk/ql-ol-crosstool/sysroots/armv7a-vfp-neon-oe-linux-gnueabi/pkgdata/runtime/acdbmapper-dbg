@@ -1,0 +1,16 @@
+PN: acdbmapper
+PV: git-invalidgit
+PR: r2
+PKGV: git-invalidgit
+PKGR: r2
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_acdbmapper-dbg: acdb mapper Library  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_acdbmapper-dbg: acdbmapper version git-invalidgit-r2 - Debugging files
+RPROVIDES_acdbmapper-dbg:  acdbmapper-dbg
+RRECOMMENDS_acdbmapper-dbg: glib-2.0-dbg glibc-dbg
+SECTION_acdbmapper-dbg: devel
+PKG_acdbmapper-dbg: libacdbmapper-dbg
+ALLOW_EMPTY_acdbmapper-dbg: 1
+FILES_acdbmapper-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/acdbmapper/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/acdbmapper/.debug /usr/lib/matchbox-panel/.debug /usr/lib/acdbmapper/acdbmapper/.debug /usr/src/debug
+FILES_INFO: {"/usr/lib/.debug/libacdbmapper.so.1.0.0": 6501}
+PKGSIZE_acdbmapper-dbg: 6501

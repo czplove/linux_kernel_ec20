@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: alsa_ftm
+Description: alsa_ftm executable
+Version: 1.0.0
+Libs: -L${libdir} -laudio_ftm
+Cflags: -I${includedir}/audio_ftm

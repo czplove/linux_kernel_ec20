@@ -1,0 +1,13 @@
+PN: ffmpeg
+PV: 2.3
+PR: r0
+PKGV: 2.3
+PKGR: r0
+LICENSE: LGPLv2.1
+DESCRIPTION: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video..
+SUMMARY: FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
+SECTION: base
+PKG_ffmpeg-locale: ffmpeg-locale
+FILES_ffmpeg-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_ffmpeg-locale: 0

@@ -1,0 +1,15 @@
+PN: audioalsa
+PV: git
+PR: r4
+PKGV: git
+PKGR: r4
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_audioalsa-staticdev: libaudioalsa Library  This package contains static libraries for software development.
+SUMMARY_audioalsa-staticdev: audioalsa version git-r4 - Development files (Static Libraries)
+RDEPENDS_audioalsa-staticdev: audioalsa-dev (= git-r4)
+RPROVIDES_audioalsa-staticdev:  audioalsa-staticdev
+SECTION_audioalsa-staticdev: devel
+PKG_audioalsa-staticdev: libaudioalsa-staticdev
+FILES_audioalsa-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/audioalsa/*.a
+FILES_INFO: {}
+PKGSIZE_audioalsa-staticdev: 0

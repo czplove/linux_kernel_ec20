@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-kl-gl: locale definition for kl-gl
+SUMMARY_glibc-localedata-kl-gl: locale definition for kl-gl
+RDEPENDS_glibc-localedata-kl-gl: glibc-localedata-da-dk
+SECTION: base
+PKG_glibc-localedata-kl-gl: glibc-localedata-kl-gl
+FILES_glibc-localedata-kl-gl: /usr/share/i18n/locales/kl_GL
+FILES_INFO: {"/usr/share/i18n/locales/kl_GL": 5286}
+PKGSIZE_glibc-localedata-kl-gl: 5286

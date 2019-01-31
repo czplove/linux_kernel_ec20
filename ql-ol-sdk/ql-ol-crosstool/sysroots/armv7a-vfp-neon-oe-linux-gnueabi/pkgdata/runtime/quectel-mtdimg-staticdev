@@ -1,0 +1,14 @@
+PN: quectel-mtdimg
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_quectel-mtdimg-staticdev: Quectel Function Daemon  This package contains static libraries for software development.
+SUMMARY_quectel-mtdimg-staticdev: quectel-mtdimg version git-invalidgit-r1 - Development files (Static Libraries)
+RDEPENDS_quectel-mtdimg-staticdev: quectel-mtdimg-dev (= git-invalidgit-r1)
+SECTION_quectel-mtdimg-staticdev: devel
+PKG_quectel-mtdimg-staticdev: quectel-mtdimg-staticdev
+FILES_quectel-mtdimg-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/quectel-mtdimg/*.a
+FILES_INFO: {}
+PKGSIZE_quectel-mtdimg-staticdev: 0

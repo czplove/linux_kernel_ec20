@@ -1,0 +1,15 @@
+PN: gettext
+PV: 0.19.4
+PR: r0
+PKGV: 0.19.4
+PKGR: r0
+LICENSE: GPLv3+ & LGPL-2.1+
+DESCRIPTION_gettext-locale-zh-cn: GNU gettext is a set of tools that provides a framework to help other programs produce multi-lingual messages. These tools include a set of conventions about how programs should be written to support message catalogs, a directory and file naming organization for the message catalogs themselves, a runtime library supporting the retrieval of translated messages, and a few stand-alone programs to massage in various ways the sets of translatable and already translated strings.  This package contains language translation files for the zh_CN locale.
+SUMMARY_gettext-locale-zh-cn: Utilities and libraries for producing multi-lingual messages - zh_CN translations
+RPROVIDES_gettext-locale-zh-cn: gettext-locale zh-cn-translation
+RRECOMMENDS_gettext-locale-zh-cn: virtual-locale-zh-cn
+SECTION: libs
+PKG_gettext-locale-zh-cn: gettext-locale-zh-cn
+FILES_gettext-locale-zh-cn: /usr/share/locale/zh_CN
+FILES_INFO: {"/usr/share/locale/zh_CN/LC_MESSAGES/gettext-runtime.mo": 7805, "/usr/share/locale/zh_CN/LC_MESSAGES/gettext-tools.mo": 95414}
+PKGSIZE_gettext-locale-zh-cn: 103219

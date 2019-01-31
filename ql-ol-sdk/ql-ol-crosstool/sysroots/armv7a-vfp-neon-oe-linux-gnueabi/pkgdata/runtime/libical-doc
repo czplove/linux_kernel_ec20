@@ -1,0 +1,13 @@
+PN: libical
+PV: 1.0.0
+PR: r0
+PKGV: 1.0.0
+PKGR: r0
+LICENSE: LGPLv2.1 | MPL-1
+DESCRIPTION_libical-doc: iCal and scheduling (RFC 2445, 2446, 2447) library.  This package contains documentation.
+SUMMARY_libical-doc: iCal and scheduling (RFC 2445, 2446, 2447) library - Documentation files
+SECTION_libical-doc: doc
+PKG_libical-doc: libical-doc
+FILES_libical-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_libical-doc: 0

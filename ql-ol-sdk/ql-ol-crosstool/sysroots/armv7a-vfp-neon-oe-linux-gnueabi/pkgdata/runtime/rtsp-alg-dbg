@@ -1,0 +1,14 @@
+PN: rtsp-alg
+PV: 3.7
+PR: r6-3.18.20
+PKGV: 3.7
+PKGR: r6-3.18.20
+LICENSE: GPLv2
+DESCRIPTION_rtsp-alg-dbg: RSTP ALG  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_rtsp-alg-dbg: rtsp-alg version 3.7-r6-3.18.20 - Debugging files
+SECTION_rtsp-alg-dbg: devel
+PKG_rtsp-alg-dbg: rtsp-alg-dbg
+ALLOW_EMPTY_rtsp-alg-dbg: 1
+FILES_rtsp-alg-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/rtsp-alg/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/rtsp-alg/.debug /usr/lib/matchbox-panel/.debug /usr/lib/rtsp-alg/rtsp-alg/.debug /usr/src/debug
+FILES_INFO: {}
+PKGSIZE_rtsp-alg-dbg: 0

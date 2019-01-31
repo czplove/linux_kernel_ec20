@@ -1,0 +1,14 @@
+PN: glibc-locale
+PV: 2.21
+PR: r0
+PKGV: 2.21
+PKGR: r0
+LICENSE: GPLv2 & LGPLv2.1
+DESCRIPTION_glibc-localedata-pa-in: locale definition for pa-in
+SUMMARY_glibc-localedata-pa-in: locale definition for pa-in
+RDEPENDS_glibc-localedata-pa-in: glibc-localedata-iso14651-t1 glibc-localedata-hi-in
+SECTION: base
+PKG_glibc-localedata-pa-in: glibc-localedata-pa-in
+FILES_glibc-localedata-pa-in: /usr/share/i18n/locales/pa_IN
+FILES_INFO: {"/usr/share/i18n/locales/pa_IN": 6561}
+PKGSIZE_glibc-localedata-pa-in: 6561

@@ -1,0 +1,16 @@
+PN: keymaps
+PV: 1.0
+PR: r31
+PKGV: 1.0
+PKGR: r31
+LICENSE: GPLv2
+DESCRIPTION_keymaps-dev: Keymaps and initscript to set the keymap on bootup.  This package contains symbolic links, header files, and related items necessary for software development.
+SUMMARY_keymaps-dev: Keyboard maps - Development files
+RDEPENDS_keymaps-dev: keymaps (= 1.0-r31)
+RRECOMMENDS_keymaps-dev: kbd-dev initscripts-dev
+SECTION_keymaps-dev: devel
+PKG_keymaps-dev: keymaps-dev
+ALLOW_EMPTY_keymaps-dev: 1
+FILES_keymaps-dev: /usr/include /lib/lib*.so /usr/lib/lib*.so /usr/lib/*.la /usr/lib/*.o /usr/lib/pkgconfig /usr/share/pkgconfig /usr/share/aclocal /lib/*.o /usr/lib/keymaps/*.la /lib/*.la
+FILES_INFO: {}
+PKGSIZE_keymaps-dev: 0

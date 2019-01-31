@@ -1,0 +1,15 @@
+PN: iproute2
+PV: 3.16.0
+PR: r0
+PKGV: 3.16.0
+PKGR: r0
+LICENSE: GPLv2+
+DESCRIPTION_iproute2-dbg: Iproute2 is a collection of utilities for controlling TCP / IP networking and traffic control in Linux.  Of the utilities ip and tc are the most important.  ip controls IPv4 and IPv6 configuration and tc stands for traffic control.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_iproute2-dbg: TCP / IP networking and traffic control utilities - Debugging files
+RRECOMMENDS_iproute2-dbg: iptables-dbg glibc-dbg
+SECTION_iproute2-dbg: devel
+PKG_iproute2-dbg: iproute2-dbg
+ALLOW_EMPTY_iproute2-dbg: 1
+FILES_iproute2-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/iproute2/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/iproute2/.debug /usr/lib/matchbox-panel/.debug /usr/lib/iproute2/iproute2/.debug /usr/src/debug /usr/lib/tc/.debug
+FILES_INFO: {"/usr/lib/tc/.debug/m_xt.so": 4915, "/sbin/.debug/ip.iproute2": 39382, "/sbin/.debug/tc": 46609, "/sbin/.debug/rtmon": 9895, "/sbin/.debug/bridge": 14424}
+PKGSIZE_iproute2-dbg: 115225

@@ -1,0 +1,16 @@
+PN: dbus-glib
+PV: 0.102
+PR: r0
+PKGV: 0.102
+PKGR: r0
+LICENSE: AFL-2 | GPLv2+
+DESCRIPTION_dbus-glib-dbg: GLib bindings for the D-Bus message bus that integrate the D-Bus library with the GLib thread abstraction and main loop.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_dbus-glib-dbg: High level language (GLib) binding for D-Bus - Debugging files
+RPROVIDES_dbus-glib-dbg:  dbus-glib-dbg
+RRECOMMENDS_dbus-glib-dbg: glibc-dbg zlib-dbg libffi-dbg dbus-lib-dbg glib-2.0-dbg expat-dbg
+SECTION_dbus-glib-dbg: devel
+PKG_dbus-glib-dbg: libdbus-glib-1-dbg
+ALLOW_EMPTY_dbus-glib-dbg: 1
+FILES_dbus-glib-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/dbus-glib/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/dbus-glib/.debug /usr/lib/matchbox-panel/.debug /usr/lib/dbus-glib/dbus-glib/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/dbus-binding-tool": 24269, "/usr/lib/.debug/libdbus-glib-1.so.2.2.2": 41253, "/usr/lib/dbus-glib/.debug/dbus-bash-completion-helper": 11788}
+PKGSIZE_dbus-glib-dbg: 77310

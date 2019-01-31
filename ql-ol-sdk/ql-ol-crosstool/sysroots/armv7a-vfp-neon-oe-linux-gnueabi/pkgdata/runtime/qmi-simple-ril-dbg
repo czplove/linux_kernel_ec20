@@ -1,0 +1,15 @@
+PN: qmi-simple-ril
+PV: git-invalidgit
+PR: r1
+PKGV: git-invalidgit
+PKGR: r1
+LICENSE: Qualcomm-Technologies-Inc.-Proprietary
+DESCRIPTION_qmi-simple-ril-dbg: QMI Test application  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_qmi-simple-ril-dbg: qmi-simple-ril version git-invalidgit-r1 - Debugging files
+RRECOMMENDS_qmi-simple-ril-dbg: glib-2.0-dbg qmi-framework-dbg glibc-dbg qmi-dbg
+SECTION_qmi-simple-ril-dbg: devel
+PKG_qmi-simple-ril-dbg: qmi-simple-ril-dbg
+ALLOW_EMPTY_qmi-simple-ril-dbg: 1
+FILES_qmi-simple-ril-dbg: /usr/bin/.debug /usr/sbin/.debug /usr/lib/qmi-simple-ril/.debug /usr/lib/.debug /bin/.debug /sbin/.debug /lib/.debug /usr/lib/qmi-simple-ril/.debug /usr/lib/matchbox-panel/.debug /usr/lib/qmi-simple-ril/qmi-simple-ril/.debug /usr/src/debug
+FILES_INFO: {"/usr/bin/.debug/qmi_simple_ril_test": 30434}
+PKGSIZE_qmi-simple-ril-dbg: 30434
